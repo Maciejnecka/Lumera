@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <defs>
+    <linearGradient id="room" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8f2e8"/>
+      <stop offset="1" stop-color="#dfe8e5"/>
+    </linearGradient>
+    <linearGradient id="clear" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#8fc9df"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="480" rx="38" fill="url(#room)"/>
+  <rect x="116" y="74" width="408" height="292" rx="30" fill="#223330"/>
+  <rect x="144" y="104" width="168" height="232" rx="20" fill="url(#clear)"/>
+  <rect x="328" y="104" width="168" height="232" rx="20" fill="#edf2ef"/>
+  <path d="M350 128h124M350 158h124M350 188h124M350 218h124M350 248h124M350 278h124" stroke="#d3ded9" stroke-width="8" stroke-linecap="round" opacity=".82"/>
+  <path d="M160 128 294 262M204 108 312 216" stroke="#ffffff" stroke-width="12" opacity=".32"/>
+  <circle cx="320" cy="394" r="24" fill="#2b6256"/>
+  <circle cx="320" cy="394" r="12" fill="#ffbd29"/>
+  <path d="M278 394h-66M428 394h-66" stroke="#2b6256" stroke-width="8" stroke-linecap="round" opacity=".5"/>
+</svg>

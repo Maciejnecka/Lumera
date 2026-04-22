@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7efe4"/>
+      <stop offset="1" stop-color="#d9e9ea"/>
+    </linearGradient>
+    <linearGradient id="mirror" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7fbff"/>
+      <stop offset=".44" stop-color="#9ec9d4"/>
+      <stop offset="1" stop-color="#28494d"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="480" rx="38" fill="url(#bg)"/>
+  <rect x="106" y="72" width="428" height="324" rx="30" fill="#20302e"/>
+  <rect x="132" y="100" width="376" height="268" rx="22" fill="url(#mirror)"/>
+  <path d="M132 310c62-52 118-68 166-48 38 16 74 14 111-6 36-20 70-24 99-12v124H132z" fill="#e9f2ee" opacity=".55"/>
+  <circle cx="220" cy="178" r="44" fill="#ffbd29" opacity=".88"/>
+  <path d="M154 122 344 312M238 106 498 366" stroke="#ffffff" stroke-width="16" opacity=".28"/>
+  <path d="M150 392c68-46 123-62 166-48 42 13 80 11 116-7 28-14 54-18 78-12" fill="none" stroke="#2b6256" stroke-width="10" stroke-linecap="round"/>
+  <path d="M270 228c20-18 44-18 70 0" fill="none" stroke="#1b2623" stroke-width="8" stroke-linecap="round" opacity=".55"/>
+</svg>

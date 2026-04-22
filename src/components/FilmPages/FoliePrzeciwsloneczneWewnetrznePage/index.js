@@ -1,0 +1,3 @@
+import FoliePrzeciwsloneczneWewnetrznePage from './FoliePrzeciwsloneczneWewnetrznePage';
+
+export default FoliePrzeciwsloneczneWewnetrznePage;

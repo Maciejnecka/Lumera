@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" role="img" aria-labelledby="title desc">
+  <title id="title">Demontaż folii okiennych</title>
+  <desc id="desc">Ilustracja szyby z delikatnie odklejaną folią okienną.</desc>
+  <defs>
+    <linearGradient id="glass" x1="120" x2="405" y1="70" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f7f1e5"/>
+      <stop offset="1" stop-color="#d9e4d4"/>
+    </linearGradient>
+    <linearGradient id="film" x1="274" x2="460" y1="132" y2="286" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff8dd" stop-opacity=".92"/>
+      <stop offset="1" stop-color="#d8e8d1" stop-opacity=".72"/>
+    </linearGradient>
+    <linearGradient id="blade" x1="365" x2="478" y1="246" y2="304" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#47614b"/>
+      <stop offset="1" stop-color="#203b34"/>
+    </linearGradient>
+  </defs>
+  <rect width="560" height="420" rx="36" fill="#f7f1e9"/>
+  <path d="M104 72h292c18 0 32 14 32 32v212c0 18-14 32-32 32H104c-18 0-32-14-32-32V104c0-18 14-32 32-32Z" fill="#fffaf2"/>
+  <path d="M116 96h260c14 0 24 10 24 24v172c0 14-10 24-24 24H116c-14 0-24-10-24-24V120c0-14 10-24 24-24Z" fill="url(#glass)" stroke="#47614b" stroke-width="8"/>
+  <path d="M246 100v212M96 206h300" fill="none" stroke="#47614b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M252 111c38 6 72 22 102 48 35 31 53 71 54 121-30-18-66-24-108-17-28 5-49 15-64 30 9-35 18-65 26-92 8-28 5-59-10-90Z" fill="url(#film)"/>
+  <path d="M252 111c38 6 72 22 102 48 35 31 53 71 54 121" fill="none" stroke="#fffdf1" stroke-width="5" stroke-linecap="round"/>
+  <path d="M278 282c32-18 70-24 115-18" fill="none" stroke="#d7b46a" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 12"/>
+  <path d="M360 286l94-36 26 22-88 54c-14 8-32 6-44-6l-11-11c-8-8-5-19 5-23l18-7Z" fill="url(#blade)"/>
+  <path d="M454 250l34-14 26 22-34 14Z" fill="#d7b46a"/>
+  <circle cx="132" cy="124" r="10" fill="#f4e49d"/>
+  <circle cx="156" cy="124" r="10" fill="#d7e9c1"/>
+</svg>

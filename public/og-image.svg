@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Lumera - folie okienne i montaż">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f7f1e9"/>
+      <stop offset="0.55" stop-color="#f5efe7"/>
+      <stop offset="1" stop-color="#e5d5b8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="985" cy="110" r="210" fill="#2b6256" opacity="0.12"/>
+  <circle cx="130" cy="550" r="260" fill="#ffbd29" opacity="0.14"/>
+  <g transform="translate(760 105) scale(4.8)">
+    <rect width="64" height="64" rx="16" fill="#1b2623"/>
+    <path d="M14 37c3.8-13.4 13-22 26.8-24.8" fill="none" stroke="#ffbd29" stroke-width="5" stroke-linecap="round"/>
+    <path d="M27 23 48 14v35l-21-4V23Z" fill="#f7fbff"/>
+    <path d="M31 26.5 44 21v24l-13-2.4V26.5Z" fill="#9fd9ee"/>
+    <path d="M31 42.6 44 28" fill="none" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round" opacity="0.85"/>
+    <path d="M27 23 48 14v35l-21-4V23Z" fill="none" stroke="#f5efe7" stroke-width="2.6" stroke-linejoin="round"/>
+    <path d="M15 48c8-7.4 15.7-10.5 26-7" fill="none" stroke="#ffbd29" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <text x="96" y="230" fill="#1b2623" font-family="Georgia, 'Times New Roman', serif" font-size="104" font-weight="700" letter-spacing="-4">Lumera</text>
+  <text x="100" y="302" fill="#2b6256" font-family="Georgia, 'Times New Roman', serif" font-size="34" letter-spacing="5">FOLIE OKIENNE I MONTAŻ</text>
+  <text x="100" y="405" fill="#5f6764" font-family="Georgia, 'Times New Roman', serif" font-size="38">Estetyczny montaż folii do domów, biur,</text>
+  <text x="100" y="456" fill="#5f6764" font-family="Georgia, 'Times New Roman', serif" font-size="38">lokali i nowoczesnych przeszkleń.</text>
+</svg>

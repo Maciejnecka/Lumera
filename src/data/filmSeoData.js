@@ -1,0 +1,682 @@
+export const filmSeoData = {
+  'external-solar': {
+    seoDescription:
+      'Zewnętrzne folie przeciwsłoneczne ograniczają nagrzewanie, odblaski i przegrzewanie dużych przeszkleń. Sprawdź zastosowanie, efekt i najczęstsze pytania.',
+    effectTitle: 'Efekt i właściwości folii przeciwsłonecznej zewnętrznej',
+    effectLead:
+      'To rozwiązanie wybierane wtedy, gdy słońce najmocniej wpływa na komfort wnętrza. Folia pracuje od strony zewnętrznej, dlatego szybciej przejmuje promieniowanie przed szybą i dobrze sprawdza się przy intensywnej ekspozycji.',
+    effectDetails: [
+      ['Efekt wizualny', 'lekko przyciemniający lub refleksyjny, zależnie od wybranego modelu'],
+      ['Redukcja ciepła', 'wysoka, szczególnie na przeszkleniach południowych i zachodnich'],
+      ['Światło dzienne', 'ograniczone w kontrolowany sposób, bez efektu ciężkich osłon'],
+      ['Prywatność', 'częściowa lub podwyższona, zależnie od stopnia odbicia folii'],
+    ],
+    bestFor: [
+      'duże okna i fasady wystawione na mocne słońce',
+      'biura, w których przeszkadza odblask na monitorach',
+      'lokale usługowe i witryny, gdzie ważny jest komfort klientów',
+    ],
+    beforeInstall: [
+      'dobór folii zależy od typu szyby, ekspozycji i oczekiwanego poziomu przyciemnienia',
+      'zewnętrzny montaż wymaga dobrych warunków pogodowych i właściwego dostępu do szyby',
+      'efekt wizualny warto dobrać tak, aby ograniczyć ciepło, ale nie przyciemnić wnętrza bardziej niż potrzeba',
+    ],
+    faq: [
+      {
+        question: 'Czy folia przeciwsłoneczna zewnętrzna lepiej chroni przed upałem niż wewnętrzna?',
+        answer:
+          'W wielu przypadkach tak, bo promieniowanie jest ograniczane zanim mocno nagrzeje szybę. Ostateczny dobór zależy jednak od rodzaju przeszklenia i dostępu do okna.',
+      },
+      {
+        question: 'Czy taka folia mocno przyciemnia pomieszczenie?',
+        answer:
+          'Nie musi. Dostępne są folie o różnym stopniu przepuszczania światła, dlatego można dobrać wariant bardziej neutralny albo mocniej przyciemniający.',
+      },
+      {
+        question: 'Czy folię zewnętrzną można zamontować na każdym oknie?',
+        answer:
+          'Nie zawsze. Przed montażem warto sprawdzić rodzaj szyby, stan powierzchni, dostęp od zewnątrz oraz warunki pracy folii.',
+      },
+    ],
+  },
+  mirror: {
+    seoDescription:
+      'Folie lustra weneckie poprawiają prywatność w dzień, ograniczają wgląd do wnętrza i nadają szybom elegancki refleksyjny efekt.',
+    effectTitle: 'Efekt lustra, prywatność i światło',
+    effectLead:
+      'Lustro weneckie działa najlepiej wtedy, gdy po jednej stronie szyby jest jaśniej niż po drugiej. W dzień pomaga ograniczyć widoczność wnętrza, zachowując możliwość patrzenia na zewnątrz.',
+    effectDetails: [
+      ['Efekt wizualny', 'lustrzany, refleksyjny, nowoczesny'],
+      ['Prywatność', 'wysoka w dzień przy odpowiedniej różnicy oświetlenia'],
+      ['Światło dzienne', 'częściowo ograniczone zależnie od odcienia folii'],
+      ['Wieczór', 'przy zapalonym świetle wewnątrz efekt prywatności może się odwrócić'],
+    ],
+    bestFor: [
+      'okna od ulicy, chodnika lub sąsiedniego budynku',
+      'biura i gabinety wymagające prywatności w dzień',
+      'witryny i lokale, gdzie liczy się mocny efekt wizualny',
+    ],
+    beforeInstall: [
+      'prywatność zależy od różnicy światła po obu stronach szyby',
+      'wieczorem przy oświetlonym wnętrzu mogą być potrzebne rolety lub zasłony',
+      'stopień odbicia i przyciemnienia warto dobrać do elewacji i stylu budynku',
+    ],
+    faq: [
+      {
+        question: 'Czy lustro weneckie działa także wieczorem?',
+        answer:
+          'Wieczorem efekt zależy od światła. Jeśli w środku jest jasno, a na zewnątrz ciemno, prywatność może być mniejsza niż w dzień.',
+      },
+      {
+        question: 'Czy przez folię lustrzaną widać na zewnątrz?',
+        answer:
+          'Tak, zwykle od środka nadal widać otoczenie, ale obraz może być delikatnie przyciemniony.',
+      },
+      {
+        question: 'Czy folia lustro weneckie ogranicza nagrzewanie?',
+        answer:
+          'Tak, wiele folii refleksyjnych jednocześnie ogranicza promieniowanie słoneczne, ciepło i odblaski.',
+      },
+    ],
+  },
+  'internal-solar': {
+    seoDescription:
+      'Wewnętrzne folie przeciwsłoneczne ograniczają odblaski i nadmiar światła bez montażu po zewnętrznej stronie szyby.',
+    effectTitle: 'Komfort światła od strony wnętrza',
+    effectLead:
+      'Folie wewnętrzne są dobrym wyborem, gdy zależy nam na prostszym dostępie montażowym i poprawie komfortu w pomieszczeniu bez prac po stronie elewacji.',
+    effectDetails: [
+      ['Efekt wizualny', 'neutralny, lekko przyciemniający lub refleksyjny'],
+      ['Odblaski', 'wyraźnie ograniczone przy pracy z ekranami'],
+      ['Montaż', 'od strony pomieszczenia'],
+      ['Komfort', 'mniej ostrego światła i łagodniejszy odbiór wnętrza'],
+    ],
+    bestFor: [
+      'mieszkania i biura, gdzie nie ma dostępu do szyby od zewnątrz',
+      'pokoje z monitorami, telewizorem lub stanowiskami pracy',
+      'wnętrza, w których przeszkadza ostre słońce, ale nie chcemy rolet',
+    ],
+    beforeInstall: [
+      'dobór folii wewnętrznej powinien uwzględniać typ pakietu szybowego',
+      'przy mocnym nasłonecznieniu czasem lepsza może być folia zewnętrzna',
+      'po montażu folia potrzebuje czasu na pełne doschnięcie',
+    ],
+    faq: [
+      {
+        question: 'Czy folia wewnętrzna chroni przed upałem?',
+        answer:
+          'Tak, ale poziom ochrony zależy od modelu folii i typu szyby. Przy bardzo mocnym słońcu warto porównać ją z wariantem zewnętrznym.',
+      },
+      {
+        question: 'Czy montaż od środka jest trwały?',
+        answer:
+          'Tak, pod warunkiem właściwego przygotowania szyby i dobrania folii do konkretnego przeszklenia.',
+      },
+      {
+        question: 'Czy folia przeciwsłoneczna wewnętrzna zmienia wygląd okna?',
+        answer:
+          'Może delikatnie przyciemnić lub zmienić odbicie szyby. Efekt zależy od wybranego wariantu.',
+      },
+    ],
+  },
+  lcd: {
+    seoDescription:
+      'Folie LCD, czyli inteligentne folie przełączalne, zmieniają szybę z przezroczystej na mleczną i zapewniają prywatność na żądanie.',
+    effectTitle: 'Prywatność sterowana napięciem',
+    effectLead:
+      'Folia LCD daje efekt, którego nie da się osiągnąć zwykłą folią matową: szyba może być transparentna, a po zmianie stanu staje się mleczna i ogranicza widoczność.',
+    effectDetails: [
+      ['Efekt wizualny', 'przezroczysty lub mleczny, zależnie od stanu zasilania'],
+      ['Prywatność', 'na żądanie, bez zasłon i rolet'],
+      ['Światło', 'zachowane jako jasne, rozproszone światło w trybie mlecznym'],
+      ['Instalacja', 'wymaga zasilania i zaplanowania prowadzenia przewodów'],
+    ],
+    bestFor: [
+      'sale konferencyjne i gabinety',
+      'przeszklenia w biurach premium',
+      'nowoczesne wnętrza, w których prywatność ma być sterowana',
+    ],
+    beforeInstall: [
+      'warto wcześniej zaplanować zasilanie i sterowanie',
+      'krawędzie oraz przewody powinny być estetycznie ukryte',
+      'folia LCD nie jest zwykłą folią dekoracyjną, dlatego wymaga dokładniejszego przygotowania',
+    ],
+    faq: [
+      {
+        question: 'Czy folia LCD jest przezroczysta bez prądu?',
+        answer:
+          'Najczęściej folia jest mleczna bez zasilania, a po podaniu napięcia staje się przezroczysta. Zawsze warto potwierdzić działanie konkretnego systemu.',
+      },
+      {
+        question: 'Czy inteligentna folia daje pełną prywatność?',
+        answer:
+          'W trybie mlecznym mocno ogranicza widoczność szczegółów, ale przepuszcza światło i może pokazywać cienie z bardzo bliskiej odległości.',
+      },
+      {
+        question: 'Czy folię LCD można zastosować jako ekran projekcyjny?',
+        answer:
+          'W wielu aranżacjach tryb mleczny może służyć jako powierzchnia do prezentacji, ale efekt zależy od projektora i warunków światła.',
+      },
+    ],
+  },
+  polycarbonate: {
+    seoDescription:
+      'Folie na poliwęglan i świetliki dachowe pomagają ograniczyć nagrzewanie oraz nadmiar światła na powierzchniach z tworzyw.',
+    effectTitle: 'Kontrola słońca na świetlikach i poliwęglanie',
+    effectLead:
+      'Poliwęglan pracuje inaczej niż szkło, dlatego wymaga ostrożnego doboru folii. Celem jest ograniczenie nagrzewania i ostrego światła bez ryzyka źle dobranej aplikacji.',
+    effectDetails: [
+      ['Podłoże', 'poliwęglan, świetliki dachowe i wybrane tworzywa'],
+      ['Efekt', 'mniej ostrego światła i niższy dyskomfort pod świetlikiem'],
+      ['Montaż', 'zależny od rodzaju tworzywa i dostępu do powierzchni'],
+      ['Dobór', 'wymaga sprawdzenia kompatybilności materiałowej'],
+    ],
+    bestFor: [
+      'świetliki dachowe w halach i obiektach usługowych',
+      'pomieszczenia przegrzewające się od góry',
+      'przeszklenia techniczne wykonane z tworzyw',
+    ],
+    beforeInstall: [
+      'nie każda folia przeznaczona do szkła nadaje się na poliwęglan',
+      'trzeba ocenić stan tworzywa, jego naprężenia i ekspozycję na słońce',
+      'przy starych świetlikach ważne jest sprawdzenie powierzchni przed montażem',
+    ],
+    faq: [
+      {
+        question: 'Czy zwykłą folię okienną można nakleić na poliwęglan?',
+        answer:
+          'Nie zawsze. Poliwęglan wymaga folii i kleju dopasowanego do tworzywa, dlatego przed montażem trzeba sprawdzić kompatybilność.',
+      },
+      {
+        question: 'Czy folia na świetlik ograniczy temperaturę w pomieszczeniu?',
+        answer:
+          'Może znacząco poprawić komfort pod świetlikiem, szczególnie tam, gdzie problemem jest ostre światło i promieniowanie od góry.',
+      },
+      {
+        question: 'Czy montaż na dachu wymaga dobrej pogody?',
+        answer:
+          'Tak, prace przy świetlikach i powierzchniach zewnętrznych wymagają odpowiednich warunków oraz bezpiecznego dostępu.',
+      },
+    ],
+  },
+  'anti-uv': {
+    seoDescription:
+      'Folie anty UV chronią wyposażenie, tkaniny i ekspozycje przed promieniowaniem UV, zachowując naturalne światło w pomieszczeniu.',
+    effectTitle: 'Ochrona przed UV bez ciężkiego przyciemnienia',
+    effectLead:
+      'Folia anty UV jest dla osób, które chcą chronić wnętrze przed płowieniem, ale nie chcą wyraźnie zmieniać wyglądu szyby ani rezygnować ze światła dziennego.',
+    effectDetails: [
+      ['Efekt wizualny', 'najczęściej transparentny lub bardzo subtelny'],
+      ['UV', 'wysoka redukcja promieniowania UV zależnie od modelu'],
+      ['Światło dzienne', 'w dużej mierze zachowane'],
+      ['Ochrona wnętrza', 'mniejsze ryzyko blaknięcia mebli, podłóg i ekspozycji'],
+    ],
+    bestFor: [
+      'salony z drewnianą podłogą i meblami przy oknach',
+      'sklepy, galerie i ekspozycje produktów',
+      'wnętrza, w których światło jest potrzebne, ale UV jest problemem',
+    ],
+    beforeInstall: [
+      'folia anty UV ogranicza ważny czynnik blaknięcia, ale nie eliminuje wszystkich przyczyn starzenia materiałów',
+      'jeśli problemem jest także upał, warto rozważyć folię przeciwsłoneczną',
+      'najlepszy efekt daje montaż na czystej, nieuszkodzonej szybie',
+    ],
+    faq: [
+      {
+        question: 'Czy folia anty UV przyciemnia okno?',
+        answer:
+          'Nie musi. Wiele folii anty UV jest bardzo transparentnych i ma minimalny wpływ na wygląd szyby.',
+      },
+      {
+        question: 'Czy folia ochroni meble przed blaknięciem?',
+        answer:
+          'Pomaga ograniczyć promieniowanie UV, które jest jedną z głównych przyczyn blaknięcia. Na kolor wpływa też światło widzialne i temperatura.',
+      },
+      {
+        question: 'Czy folię anty UV warto montować w sklepie?',
+        answer:
+          'Tak, szczególnie przy witrynach i ekspozycjach, gdzie produkty przez wiele godzin są wystawione na światło.',
+      },
+    ],
+  },
+  matte: {
+    seoDescription:
+      'Folie matowe zapewniają prywatność, mleczny lub satynowy efekt i zachowanie światła dziennego w biurach, łazienkach i lokalach.',
+    effectTitle: 'Mleczny lub satynowy efekt bez utraty światła',
+    effectLead:
+      'Folie matowe ograniczają widoczność, ale nadal przepuszczają światło. Dzięki temu są jednym z najpraktyczniejszych rozwiązań do prywatności w codziennych wnętrzach.',
+    effectDetails: [
+      ['Efekt wizualny', 'mleczny, satynowy, elegancki'],
+      ['Prywatność', 'wysoka, zwykle obustronna'],
+      ['Światło dzienne', 'zachowane i rozproszone'],
+      ['Personalizacja', 'możliwe pasy, wzory, logotypy lub częściowe oklejenie'],
+    ],
+    bestFor: [
+      'łazienki, gabinety i drzwi szklane',
+      'ścianki biurowe i sale spotkań',
+      'lokale usługowe, w których prywatność ma wyglądać estetycznie',
+    ],
+    beforeInstall: [
+      'można okleić całą szybę albo tylko wybraną część',
+      'efekt prywatności działa niezależnie od pory dnia lepiej niż lustro weneckie',
+      'przy foliach dekoracyjnych warto wcześniej zaplanować wysokość pasów i wzór',
+    ],
+    faq: [
+      {
+        question: 'Czy folia matowa przepuszcza światło?',
+        answer:
+          'Tak. Folia matowa rozprasza światło, dzięki czemu wnętrze nadal jest jasne, ale widoczność przez szybę jest ograniczona.',
+      },
+      {
+        question: 'Czy przez folię matową widać sylwetki?',
+        answer:
+          'Z bliska mogą być widoczne cienie lub kontury, ale szczegóły są mocno ograniczone.',
+      },
+      {
+        question: 'Czy folię matową można wyciąć w pasy lub logo?',
+        answer:
+          'Tak, folie matowe dobrze nadają się do pasów, oznaczeń, grafik i częściowego oklejania szyb.',
+      },
+    ],
+  },
+  frosted: {
+    seoDescription:
+      'Folie mrożone imitują szkło piaskowane lub mrożone, dają prywatność i dekoracyjny efekt na przeszkleniach.',
+    effectTitle: 'Dekoracyjny efekt mrożonego szkła',
+    effectLead:
+      'Folia mrożona jest bardziej dekoracyjna niż klasyczna matowa. Nadaje szybie strukturę, rozprasza światło i tworzy mocniejszy efekt aranżacyjny.',
+    effectDetails: [
+      ['Efekt wizualny', 'mrożone lub piaskowane szkło'],
+      ['Prywatność', 'wysoka przy zachowaniu światła'],
+      ['Światło', 'rozproszone i miękkie'],
+      ['Zastosowanie dekoracyjne', 'dobre pod grafiki, pasy i oznakowanie'],
+    ],
+    bestFor: [
+      'biura, sale spotkań i przeszklone drzwi',
+      'witryny, które mają łączyć prywatność z estetyką',
+      'wnętrza, w których folia ma być widocznym elementem projektu',
+    ],
+    beforeInstall: [
+      'efekt jest bardziej wyrazisty niż przy delikatnej folii satynowej',
+      'warto dobrać stopień krycia do funkcji pomieszczenia',
+      'folię można stosować jako pełne oklejenie albo dekoracyjny fragment',
+    ],
+    faq: [
+      {
+        question: 'Czym różni się folia mrożona od matowej?',
+        answer:
+          'Mrożona zwykle daje bardziej dekoracyjny, strukturalny efekt. Matowa jest spokojniejsza i bardziej neutralna.',
+      },
+      {
+        question: 'Czy folia mrożona zaciemnia pomieszczenie?',
+        answer:
+          'Nie mocno. Przepuszcza światło, ale je rozprasza i ogranicza widoczność przez szybę.',
+      },
+      {
+        question: 'Czy folia mrożona nadaje się do biura?',
+        answer:
+          'Tak, szczególnie na sale spotkań, drzwi szklane, boksy i przeszklenia wymagające prywatności.',
+      },
+    ],
+  },
+  haccp: {
+    seoDescription:
+      'Folie bezpieczne HACCP wzmacniają szyby i pomagają zatrzymać odłamki szkła w gastronomii, produkcji i obiektach usługowych.',
+    effectTitle: 'Bezpieczniejsze szkło w miejscach wymagających kontroli',
+    effectLead:
+      'W strefach HACCP liczy się ograniczenie ryzyka zanieczyszczenia odłamkami szkła. Folia bezpieczna pomaga utrzymać rozbite szkło w jednej płaszczyźnie.',
+    effectDetails: [
+      ['Efekt wizualny', 'najczęściej transparentny'],
+      ['Bezpieczeństwo', 'ograniczenie rozsypania szkła po uderzeniu'],
+      ['Standardy', 'wsparcie procedur HACCP i bezpieczeństwa obiektu'],
+      ['Montaż', 'zwykle od strony wewnętrznej'],
+    ],
+    bestFor: [
+      'gastronomia, kuchnie i zaplecza',
+      'zakłady produkcji spożywczej',
+      'pomieszczenia, gdzie szkło znajduje się blisko żywności lub pracy ludzi',
+    ],
+    beforeInstall: [
+      'warto ustalić, które przeszklenia podlegają wymaganiom bezpieczeństwa',
+      'folia nie zastępuje całej dokumentacji HACCP, ale może wspierać zabezpieczenie szyb',
+      'szyba powinna być czysta, stabilna i bez uszkodzeń wpływających na montaż',
+    ],
+    faq: [
+      {
+        question: 'Po co stosuje się folie HACCP?',
+        answer:
+          'Aby ograniczyć ryzyko rozsypania się odłamków szkła po pęknięciu lub uderzeniu, szczególnie w strefach produkcji i gastronomii.',
+      },
+      {
+        question: 'Czy folia HACCP jest widoczna na szybie?',
+        answer:
+          'Zwykle jest transparentna, więc nie zmienia znacząco wyglądu przeszklenia.',
+      },
+      {
+        question: 'Czy folia HACCP wzmacnia szybę?',
+        answer:
+          'Tak, dodaje warstwę wzmacniającą i pomaga utrzymać fragmenty szkła po uszkodzeniu.',
+      },
+    ],
+  },
+  'anti-burglary': {
+    seoDescription:
+      'Folie antywłamaniowe wzmacniają przeszklenia, utrudniają szybkie wybicie szyby i zwiększają bezpieczeństwo domu, biura lub lokalu.',
+    effectTitle: 'Dodatkowa bariera dla przeszkleń',
+    effectLead:
+      'Folia antywłamaniowa nie robi z okna sejfu, ale utrudnia szybkie sforsowanie szyby. Jej zadaniem jest opóźnienie działania i ograniczenie skutków rozbicia.',
+    effectDetails: [
+      ['Efekt wizualny', 'najczęściej transparentny'],
+      ['Bezpieczeństwo', 'utrudnienie wybicia i przejścia przez szybę'],
+      ['Odłamki szkła', 'lepsze utrzymanie fragmentów na folii'],
+      ['Zastosowanie', 'okna parterowe, witryny, drzwi szklane'],
+    ],
+    bestFor: [
+      'domy i mieszkania na parterze',
+      'lokale usługowe z witrynami',
+      'biura i obiekty z łatwym dostępem do przeszkleń',
+    ],
+    beforeInstall: [
+      'poziom ochrony zależy od grubości folii, typu szyby i sposobu montażu',
+      'w niektórych systemach ważne jest również zakotwienie folii przy ramie',
+      'folia antywłamaniowa jest elementem zabezpieczenia, nie jedyną ochroną obiektu',
+    ],
+    faq: [
+      {
+        question: 'Czy folia antywłamaniowa uniemożliwia włamanie?',
+        answer:
+          'Nie daje stuprocentowej gwarancji, ale może znacząco utrudnić i opóźnić sforsowanie szyby.',
+      },
+      {
+        question: 'Czy folia antywłamaniowa jest widoczna?',
+        answer:
+          'Najczęściej jest przezroczysta i ma niewielki wpływ na wygląd szyby.',
+      },
+      {
+        question: 'Gdzie warto montować folie antywłamaniowe?',
+        answer:
+          'Na przeszkleniach parterowych, witrynach, drzwiach szklanych i oknach łatwo dostępnych z zewnątrz.',
+      },
+    ],
+  },
+  protective: {
+    seoDescription:
+      'Folie ochronne zabezpieczają szyby i gładkie powierzchnie przed zarysowaniami, zabrudzeniami oraz uszkodzeniami w trakcie użytkowania.',
+    effectTitle: 'Ochrona powierzchni na co dzień lub na czas prac',
+    effectLead:
+      'Folie ochronne mają praktyczny charakter: zabezpieczają powierzchnię przed uszkodzeniami, zabrudzeniami albo intensywnym użytkowaniem.',
+    effectDetails: [
+      ['Efekt wizualny', 'neutralny lub lekko widoczny zależnie od folii'],
+      ['Ochrona', 'przed zarysowaniami, zabrudzeniem i drobnymi uszkodzeniami'],
+      ['Czas użycia', 'czasowy lub długoterminowy, zależnie od produktu'],
+      ['Podłoże', 'szyby i wybrane gładkie powierzchnie'],
+    ],
+    bestFor: [
+      'nowe przeszklenia w trakcie prac wykończeniowych',
+      'witryny i drzwi narażone na dotyk i zabrudzenia',
+      'powierzchnie, które mają dłużej zachować estetykę',
+    ],
+    beforeInstall: [
+      'trzeba ustalić, czy folia ma być czasowa, czy długoterminowa',
+      'podłoże powinno być czyste i stabilne',
+      'przy foliach czasowych ważny jest właściwy moment demontażu',
+    ],
+    faq: [
+      {
+        question: 'Czy folia ochronna jest rozwiązaniem na stałe?',
+        answer:
+          'Może być czasowa albo długoterminowa. Wszystko zależy od rodzaju folii i celu zabezpieczenia.',
+      },
+      {
+        question: 'Czy folia ochronna zabezpiecza przed rysami?',
+        answer:
+          'Pomaga ograniczyć drobne uszkodzenia i zabrudzenia, ale odporność zależy od konkretnego produktu.',
+      },
+      {
+        question: 'Czy można ją później usunąć?',
+        answer:
+          'Tak, ale sposób i łatwość demontażu zależą od typu folii, czasu użytkowania i warunków na powierzchni.',
+      },
+    ],
+  },
+  security: {
+    seoDescription:
+      'Folie zabezpieczające wzmacniają szyby, ograniczają rozprysk szkła i poprawiają bezpieczeństwo użytkowania przeszkleń.',
+    effectTitle: 'Stabilizacja szyby i ograniczenie skutków uszkodzeń',
+    effectLead:
+      'Folie zabezpieczające sprawdzają się tam, gdzie ważne jest zmniejszenie ryzyka związanego z pęknięciem lub rozbiciem szyby.',
+    effectDetails: [
+      ['Efekt wizualny', 'zwykle transparentny'],
+      ['Bezpieczeństwo', 'ograniczenie rozprysku szkła'],
+      ['Zastosowanie', 'budynki prywatne, komercyjne i usługowe'],
+      ['Dobór', 'według oczekiwanego poziomu ochrony'],
+    ],
+    bestFor: [
+      'drzwi szklane i witryny',
+      'przeszklenia w miejscach intensywnie użytkowanych',
+      'obiekty, w których ważna jest dodatkowa warstwa bezpieczeństwa',
+    ],
+    beforeInstall: [
+      'należy określić, czy priorytetem jest bezpieczeństwo użytkowe, ochrona mienia czy oba cele',
+      'grubość i typ folii powinny wynikać z ryzyka i rodzaju szyby',
+      'przy dużych przeszkleniach ważna jest dokładna ocena powierzchni',
+    ],
+    faq: [
+      {
+        question: 'Czy folia zabezpieczająca różni się od antywłamaniowej?',
+        answer:
+          'Może mieć podobną funkcję wzmacniania szkła, ale antywłamaniowa jest zwykle dobierana pod opóźnienie sforsowania szyby.',
+      },
+      {
+        question: 'Czy folia zabezpieczająca chroni przed skaleczeniem szkłem?',
+        answer:
+          'Pomaga ograniczyć rozsypanie odłamków, co może zmniejszyć ryzyko urazu po rozbiciu szyby.',
+      },
+      {
+        question: 'Czy taka folia zmienia wygląd okna?',
+        answer:
+          'Najczęściej nieznacznie, bo wiele folii zabezpieczających jest transparentnych.',
+      },
+    ],
+  },
+  'anti-eavesdropping': {
+    seoDescription:
+      'Folie anty-podsłuchowe i specjalistyczne folie prywatności wspierają ochronę poufnych rozmów oraz ograniczają obserwację wnętrza.',
+    effectTitle: 'Więcej poufności w przeszklonych pomieszczeniach',
+    effectLead:
+      'To kategoria dla miejsc, w których prywatność nie jest tylko kwestią komfortu, ale też bezpieczeństwa informacji i ograniczenia widoczności.',
+    effectDetails: [
+      ['Efekt', 'zależny od wybranego rozwiązania specjalistycznego'],
+      ['Prywatność', 'ograniczenie obserwacji i wsparcie poufności'],
+      ['Zastosowanie', 'gabinety, sale spotkań, strefy zarządcze'],
+      ['Dobór', 'indywidualny, po określeniu ryzyka i oczekiwań'],
+    ],
+    bestFor: [
+      'gabinety, w których prowadzi się poufne rozmowy',
+      'sale konferencyjne i zarządcze',
+      'biura z dokumentacją lub danymi widocznymi przez przeszklenia',
+    ],
+    beforeInstall: [
+      'najpierw trzeba określić, czy problemem jest widoczność, podsłuch, czy oba aspekty',
+      'często warto połączyć kilka rozwiązań: folię, organizację przestrzeni i zasłonięcie widoku',
+      'opis efektu powinien być ustalony przed doborem konkretnej folii',
+    ],
+    faq: [
+      {
+        question: 'Czy folia anty-podsłuchowa całkowicie blokuje podsłuch?',
+        answer:
+          'Nie należy traktować jej jako jedynego zabezpieczenia. Może wspierać prywatność, ale dobór zależy od konkretnego ryzyka.',
+      },
+      {
+        question: 'Czy taka folia ogranicza widoczność przez szybę?',
+        answer:
+          'Wiele rozwiązań specjalistycznych poprawia prywatność wizualną, ale efekt zależy od typu folii i oświetlenia.',
+      },
+      {
+        question: 'Gdzie najczęściej stosuje się folie anty-podsłuchowe?',
+        answer:
+          'W gabinetach, salach spotkań, biurach zarządu i miejscach, gdzie rozmowy lub dokumenty powinny pozostać poufne.',
+      },
+    ],
+  },
+  thermal: {
+    seoDescription:
+      'Folie termoizolacyjne Low-E pomagają ograniczać straty ciepła przez starsze szyby i zmniejszać odczucie zimnej szyby.',
+    effectTitle: 'Mniejsze straty ciepła przez istniejące szyby',
+    effectLead:
+      'Folie termoizolacyjne działają jak wtórna powłoka niskoemisyjna. Odbijają część promieniowania cieplnego z powrotem do wnętrza, dlatego ich sens ocenia się przede wszystkim pod kątem ograniczenia ucieczki ciepła, a nie ochrony przed słońcem.',
+    effectDetails: [
+      ['Typ działania', 'powłoka niskoemisyjna Low-E nakładana na istniejącą szybę'],
+      ['Energia', 'ograniczenie strat ciepła przez przeszklenie'],
+      ['Najlepszy efekt', 'pojedyncze szyby i starsze pakiety dwuszybowe bez Low-E'],
+      ['Ograniczenie', 'niewielki efekt przy nowych oknach trzyszybowych o niskim U'],
+    ],
+    bestFor: [
+      'pojedyncze szyby bez powłok niskoemisyjnych',
+      'starsze pakiety dwuszybowe bez nowoczesnych technologii izolacyjnych',
+      'pomieszczenia, w których przy oknie wyraźnie czuć chłód',
+    ],
+    beforeInstall: [
+      'najpierw warto ustalić wiek i typ szyby oraz czy pakiet ma już powłokę Low-E',
+      'folia nie zastępuje wymiany okien, tylko koryguje parametry istniejącej szyby',
+      'przy nowych oknach trzyszybowych korzyść może być mała lub praktycznie niezauważalna',
+    ],
+    faq: [
+      {
+        question: 'Czy folia termoizolacyjna zastąpi wymianę okien?',
+        answer:
+          'Nie. To rozwiązanie korygujące parametry istniejących szyb, szczególnie starszych, a nie zamiennik nowoczesnej stolarki.',
+      },
+      {
+        question: 'Czy folia termoizolacyjna jest folią przeciwsłoneczną?',
+        answer:
+          'Nie w tym znaczeniu. Jej podstawową funkcją jest ograniczanie strat ciepła przez szybę. Jeśli problemem jest letnie nagrzewanie od słońca, zwykle dobiera się folię przeciwsłoneczną.',
+      },
+      {
+        question: 'Czy taka folia jest widoczna?',
+        answer:
+          'Może być prawie neutralna albo lekko zmieniać wygląd szyby. Dobór zależy od oczekiwanego efektu.',
+      },
+    ],
+  },
+  projection: {
+    seoDescription:
+      'Folie projekcyjne zmieniają szybę w ekran do prezentacji, reklamy lub komunikatu wizualnego w witrynie i przestrzeni komercyjnej.',
+    effectTitle: 'Szyba jako powierzchnia projekcyjna',
+    effectLead:
+      'Folia projekcyjna pozwala wykorzystać przeszklenie jako nośnik obrazu. To rozwiązanie dla marek, które chcą przyciągnąć uwagę bez montowania klasycznego ekranu.',
+    effectDetails: [
+      ['Efekt', 'obraz widoczny na przeszklonej powierzchni'],
+      ['Zastosowanie', 'witryny, ekspozycje, stoiska, showroomy'],
+      ['Światło', 'efekt zależy od projektora i warunków otoczenia'],
+      ['Dobór', 'pod projekcję przednią lub tylną, zależnie od koncepcji'],
+    ],
+    bestFor: [
+      'witryny sklepowe i lokale usługowe',
+      'showroomy, stoiska i ekspozycje',
+      'przestrzenie, które mają łączyć szkło z komunikacją wizualną',
+    ],
+    beforeInstall: [
+      'trzeba znać typ projektora, kierunek projekcji i poziom światła w miejscu montażu',
+      'najlepiej zaplanować folię razem z układem ekspozycji',
+      'sama folia nie zastępuje dobrze dobranego źródła obrazu',
+    ],
+    faq: [
+      {
+        question: 'Czy każda szyba może być ekranem projekcyjnym?',
+        answer:
+          'Nie każda bez przygotowania. Folia projekcyjna tworzy powierzchnię, na której obraz może być czytelny.',
+      },
+      {
+        question: 'Czy folia projekcyjna działa w dzień?',
+        answer:
+          'Może działać, ale efekt zależy od jasności projektora i światła w otoczeniu. Im jaśniejsze warunki, tym ważniejszy dobór sprzętu.',
+      },
+      {
+        question: 'Czy folia projekcyjna zasłania widok?',
+        answer:
+          'Zwykle zmienia przezierność szyby, bo ma tworzyć powierzchnię dla obrazu. Stopień efektu zależy od modelu.',
+      },
+    ],
+  },
+  'anti-collision': {
+    seoDescription:
+      'Folie antykolizyjne pomagają ograniczyć zderzenia ptaków z szybami, zachowując estetykę elewacji, witryn i przeszkleń.',
+    effectTitle: 'Szkło czytelniejsze dla ptaków',
+    effectLead:
+      'Duże, czyste przeszklenia mogą być niewidoczne dla ptaków. Folie antykolizyjne wprowadzają oznaczenie lub wzór, który pomaga ograniczyć ryzyko zderzenia.',
+    effectDetails: [
+      ['Efekt', 'oznaczenie szyby widoczne dla ptaków'],
+      ['Estetyka', 'subtelna, dopasowana do architektury'],
+      ['Zastosowanie', 'fasady, witryny, balustrady i wiaty'],
+      ['Cel', 'zmniejszenie ryzyka kolizji z przeszkleniem'],
+    ],
+    bestFor: [
+      'duże przeszklenia przy zieleni',
+      'witryny, ogrody zimowe i przeszklone elewacje',
+      'obiekty, które chcą poprawić bezpieczeństwo ptaków',
+    ],
+    beforeInstall: [
+      'ważny jest dobór wzoru i rozmieszczenia oznaczeń',
+      'problem kolizji rośnie przy odbiciach nieba, drzew i otoczenia',
+      'folię warto planować szczególnie na dużych, jednolitych szybach',
+    ],
+    faq: [
+      {
+        question: 'Czy folia antykolizyjna jest bardzo widoczna?',
+        answer:
+          'Może być subtelna, ale musi być na tyle czytelna, aby spełniała swoją funkcję.',
+      },
+      {
+        question: 'Gdzie warto ją montować?',
+        answer:
+          'Na dużych przeszkleniach, witrynach, elewacjach i szybach, w których odbijają się drzewa lub niebo.',
+      },
+      {
+        question: 'Czy folia antykolizyjna pogarsza widok przez szybę?',
+        answer:
+          'Może być zauważalna, ale dobry dobór wzoru pozwala ograniczyć wpływ na estetykę i widoczność.',
+      },
+    ],
+  },
+  'film-removal': {
+    seoDescription:
+      'Demontaż folii okiennych obejmuje usunięcie starej folii, kleju i przygotowanie szyby pod nowy montaż lub czystą powierzchnię.',
+    effectTitle: 'Czysta szyba po starej folii',
+    effectLead:
+      'Demontaż wymaga cierpliwości i dobrania metody do wieku folii, rodzaju kleju oraz stanu szyby. Celem jest usunięcie folii bez niepotrzebnego ryzyka dla szkła i ram.',
+    effectDetails: [
+      ['Efekt końcowy', 'szyba oczyszczona z folii i resztek kleju'],
+      ['Zakres', 'demontaż, doczyszczenie i przygotowanie pod nową aplikację'],
+      ['Ryzyko', 'zależne od wieku folii, kleju i stanu przeszklenia'],
+      ['Możliwość połączenia', 'demontaż starej folii i montaż nowej'],
+    ],
+    bestFor: [
+      'folie odklejające się, spękane lub przebarwione',
+      'szyby po poprzednim najemcy lub starej aranżacji',
+      'przeszklenia przygotowywane pod nową folię',
+    ],
+    beforeInstall: [
+      'czas pracy zależy od rodzaju i wieku folii',
+      'stare kleje mogą wymagać dokładnego, etapowego doczyszczania',
+      'po demontażu można ocenić szybę pod ewentualny nowy montaż',
+    ],
+    faq: [
+      {
+        question: 'Czy starą folię można zerwać samodzielnie?',
+        answer:
+          'Można próbować, ale łatwo zostawić klej, porysować powierzchnię lub uszkodzić elementy przy szybie. Przy większych powierzchniach bezpieczniejszy jest profesjonalny demontaż.',
+      },
+      {
+        question: 'Czy po demontażu zostaje klej?',
+        answer:
+          'Często tak, szczególnie przy starszych foliach. Dlatego usługa obejmuje także doczyszczenie pozostałości.',
+      },
+      {
+        question: 'Czy po demontażu można od razu zamontować nową folię?',
+        answer:
+          'Zwykle tak, jeśli szyba jest w dobrym stanie i zostanie dokładnie oczyszczona oraz przygotowana.',
+      },
+    ],
+  },
+};
