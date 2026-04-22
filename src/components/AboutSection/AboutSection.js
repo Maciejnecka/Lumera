@@ -33,14 +33,15 @@ const AboutSection = () => {
       <AboutGrid>
         <StoryCard data-aos="fade-up">
           <span>O marce Lumera</span>
-          <h3>Nowa marka oparta na doświadczeniu w montażu folii okiennych.</h3>
+          <h3>Najpierw rozpoznajemy szybę, dopiero potem proponujemy folię.</h3>
           <p>
-            Lumera powstała z myślą o osobach, które chcą poprawić komfort
-            wnętrza bez kosztownej wymiany szyb i bez rezygnowania z estetyki.
-            Pomagamy dobrać folie do mieszkań, domów, biur i lokali usługowych,
-            w których ważne są mniejszy upał, większa prywatność i nowoczesny
-            wygląd przeszkleń. Zależy nam, żeby cały proces był prosty,
-            przejrzysty i wygodny od pierwszej rozmowy aż po gotowy montaż.
+            Dobre doradztwo zaczyna się od szczegółów: kierunku światła,
+            rodzaju pakietu szybowego, wymiarów, dostępu do okna i tego, co
+            faktycznie przeszkadza na co dzień. Dlatego prosimy o zdjęcia,
+            krótki opis sytuacji i orientacyjne wymiary, a potem zawężamy wybór
+            do rozwiązań, które mają sens techniczny i wizualny. Chodzi o to,
+            żeby nie kupować "jakiejkolwiek folii", tylko dobrać efekt do
+            konkretnej szyby, pomieszczenia i sposobu użytkowania.
           </p>
         </StoryCard>
 

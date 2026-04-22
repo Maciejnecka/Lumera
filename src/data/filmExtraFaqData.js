@@ -39,7 +39,7 @@ export const filmExtraFaqData = {
     {
       question: 'Czy folia LCD wymaga stałego podłączenia do prądu?',
       answer:
-        'Tak, do przełączania stanu folii potrzebne jest zasilanie. Przed montażem trzeba zaplanować przewody, sterowanie i miejsce podłączenia.',
+        'Tak, system potrzebuje zasilania do zmiany stanu folii. Już na etapie planowania trzeba przewidzieć, gdzie znajdzie się zasilacz i jak użytkownik będzie obsługiwał przełączanie.',
     },
     {
       question: 'Czy inteligentną folię LCD można zamontować na istniejącej szybie?',
@@ -51,7 +51,7 @@ export const filmExtraFaqData = {
     {
       question: 'Czy folia na poliwęglan nadaje się na stare świetliki?',
       answer:
-        'Czasem tak, ale najpierw trzeba ocenić stan poliwęglanu. Spękania, zabrudzenia, naprężenia i zużycie powierzchni mogą wpływać na możliwość montażu.',
+        'Czasem tak, ale stary świetlik trzeba obejrzeć ostrożnie. Problemem mogą być mikropęknięcia, zmatowienie, wcześniejsze naprawy albo naprężenia materiału.',
     },
     {
       question: 'Czy folia na świetliki dachowe ograniczy olśnienie w hali?',
@@ -123,7 +123,7 @@ export const filmExtraFaqData = {
     {
       question: 'Czy folia ochronna nadaje się na czas remontu?',
       answer:
-        'Tak, folie ochronne mogą zabezpieczać powierzchnie przed zabrudzeniami i drobnymi uszkodzeniami podczas prac. Ważne jest dobranie folii do czasu użytkowania i podłoża.',
+        'Tak, ale trzeba dobrać wariant do planowanego czasu prac. Folia tymczasowa powinna dać się usunąć w odpowiednim momencie bez kłopotliwych pozostałości.',
     },
     {
       question: 'Czy folia ochronna zostawia klej po usunięciu?',
@@ -159,7 +159,7 @@ export const filmExtraFaqData = {
     {
       question: 'Czy folia termoizolacyjna obniży rachunki za ogrzewanie?',
       answer:
-        'Może ograniczyć część strat ciepła przez szyby, ale realny efekt zależy od typu przeszklenia, powierzchni okien i stanu budynku. Największy sens ma przy starszych szybach bez powłok Low-E.',
+        'Może pomóc, ale nie warto obiecywać konkretnej kwoty bez audytu budynku. Na rachunki wpływają też ściany, dach, wentylacja, sposób ogrzewania i powierzchnia wszystkich przeszkleń.',
     },
     {
       question: 'Czy folia termoizolacyjna pomoże w mieszkaniu z dużymi oknami?',
@@ -200,7 +200,7 @@ export const filmExtraFaqData = {
     {
       question: 'Czy demontaż folii może uszkodzić szybę?',
       answer:
-        'Przy właściwej metodzie ryzyko jest ograniczone, ale stan szyby, rodzaj folii i wcześniejsze uszkodzenia mają znaczenie. Dlatego nie warto zrywać starej folii na siłę.',
+        'Największe ryzyko pojawia się przy starych, osłabionych szybach lub agresywnym skrobaniu. Dlatego przed pracą warto obejrzeć krawędzie, rysy i stan ram.',
     },
   ],
 };

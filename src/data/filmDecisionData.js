@@ -20,14 +20,14 @@ export const filmDecisionData = {
   },
   mirror: {
     decisionIntro:
-      'Lustro weneckie jest dobre wtedy, gdy szyba ma jednocześnie ograniczać słońce i widoczność wnętrza w ciągu dnia. To folia efektowna wizualnie, ale jej działanie zależy od różnicy światła po obu stronach szyby.',
+      'Przy lustrze weneckim trzeba zaakceptować refleksyjny charakter szyby. To wybór nie tylko techniczny, ale też wizualny - folia zmienia wygląd elewacji i odbiór lokalu.',
     chooseWhen: [
       'okna wychodzą na ulicę, chodnik albo sąsiedni budynek',
       'chcesz prywatności w dzień bez zasłaniania całego okna',
       'zależy Ci na mocniejszym, nowoczesnym wyglądzie przeszklenia',
     ],
     betterAlternative: [
-      'wieczorem przy zapalonym świetle wewnątrz prywatność może być mniejsza',
+      'jeśli prywatność jest potrzebna także po zmroku, zaplanuj dodatkową osłonę',
       'jeśli chcesz stałą prywatność przez całą dobę, sprawdź folie matowe lub mrożone',
       'jeśli nie chcesz refleksyjnego efektu, lepsza będzie folia przeciwsłoneczna neutralna',
     ],
@@ -58,11 +58,11 @@ export const filmDecisionData = {
   },
   lcd: {
     decisionIntro:
-      'Folia LCD jest dla przestrzeni, w których prywatność ma być sterowana. To rozwiązanie premium do biur, gabinetów i sal spotkań, gdzie szyba raz ma być transparentna, a raz mleczna.',
+      'Przy LCD decyzja zaczyna się od instalacji: gdzie będzie zasilanie, jak użytkownik będzie przełączał folię i czy krawędzie da się estetycznie wykończyć.',
     chooseWhen: [
-      'potrzebujesz prywatności na żądanie',
-      'projekt ma wyglądać nowocześnie i elegancko',
-      'można zaplanować zasilanie oraz estetyczne prowadzenie przewodów',
+      'instalacja elektryczna może być zaplanowana przed montażem',
+      'szyba jest częścią projektu wnętrza, a nie tylko przegrodą',
+      'ważny jest efekt technologiczny i czyste wykończenie detali',
     ],
     betterAlternative: [
       'jeśli nie chcesz instalacji elektrycznej, wybierz folię matową lub mrożoną',
@@ -70,18 +70,18 @@ export const filmDecisionData = {
       'jeśli liczy się głównie ochrona przed słońcem, lepsza będzie folia przeciwsłoneczna',
     ],
     maintenance: [
-      'folii LCD nie należy traktować jak zwykłej dekoracji bez elektroniki',
-      'czyszczenie powinno być delikatne, bez nadmiaru wody przy krawędziach',
-      'warto wcześniej ustalić sposób sterowania i dostęp do zasilania',
+      'nie zalewaj krawędzi i elementów instalacji podczas czyszczenia',
+      'używaj miękkich materiałów i łagodnych środków do czyszczenia tafli',
+      'sterowanie i przewody warto opisać użytkownikom po zakończeniu montażu',
     ],
   },
   polycarbonate: {
     decisionIntro:
-      'Folie na poliwęglan dobiera się ostrożniej niż folie na szkło, bo tworzywo pracuje inaczej pod wpływem temperatury. To rozwiązanie dla świetlików, dachów i przeszkleń technicznych.',
+      'Przy tworzywach najpierw trzeba wykluczyć problemy materiałowe. Spękania, naprężenia i zużyta powierzchnia mogą być ważniejsze dla decyzji niż sama potrzeba ograniczenia światła.',
     chooseWhen: [
-      'świetliki dachowe powodują przegrzewanie pomieszczenia',
-      'w hali lub lokalu przeszkadza ostre światło od góry',
-      'powierzchnia jest z poliwęglanu, a nie ze zwykłego szkła',
+      'da się potwierdzić typ i stan tworzywa',
+      'światło od góry utrudnia pracę lub ekspozycję produktów',
+      'dostęp do świetlika pozwala wykonać montaż bez ryzyka',
     ],
     betterAlternative: [
       'jeśli powierzchnia jest szklana, można dobrać klasyczną folię zewnętrzną',
@@ -115,11 +115,11 @@ export const filmDecisionData = {
   },
   matte: {
     decisionIntro:
-      'Folie matowe są wybierane wtedy, gdy najważniejsza jest prywatność i estetyczne rozproszenie światła. Dobrze pasują do łazienek, gabinetów, biur oraz szklanych ścianek.',
+      'Przy folii matowej decyzja dotyczy głównie zakresu oklejenia. Czasem wystarczy pas na wysokości wzroku, a czasem lepiej wygląda pełna tafla lub wzór dopasowany do wnętrza.',
     chooseWhen: [
       'chcesz ograniczyć widoczność bez zaciemniania wnętrza',
       'szyba ma wyglądać czysto, spokojnie i nowocześnie',
-      'potrzebujesz prywatności w biurze, łazience albo lokalu',
+      'chcesz zakryć konkretną strefę szyby, a nie całe okno',
     ],
     betterAlternative: [
       'jeśli chcesz mocniejszy efekt dekoracyjny, sprawdź folię mrożoną',
@@ -191,11 +191,11 @@ export const filmDecisionData = {
   },
   protective: {
     decisionIntro:
-      'Folie ochronne zabezpieczają powierzchnię szyby przed codziennym zużyciem, zarysowaniami i drobnymi uszkodzeniami. Sprawdzają się tam, gdzie szkło jest często dotykane albo narażone na intensywne użytkowanie.',
+      'W foliach ochronnych kluczowe jest ustalenie czasu użytkowania. Inaczej dobiera się zabezpieczenie na etap remontu, a inaczej warstwę, która ma zostać na powierzchni dłużej.',
     chooseWhen: [
-      'szyby znajdują się w miejscu o dużym ruchu',
-      'chcesz łatwiej utrzymać estetykę przeszklenia',
-      'potrzebujesz dodatkowej warstwy ochronnej bez mocnej zmiany wyglądu',
+      'przeszklenie będzie narażone podczas prac lub transportu',
+      'powierzchnia jest często dotykana przez klientów albo pracowników',
+      'ważne jest zabezpieczenie bez zmiany charakteru szkła',
     ],
     betterAlternative: [
       'jeśli chodzi o zabezpieczenie przed włamaniem, wybierz folię antywłamaniową',
@@ -248,11 +248,11 @@ export const filmDecisionData = {
   },
   thermal: {
     decisionIntro:
-      'Folie termoizolacyjne Low-E dobiera się wtedy, gdy problemem są straty ciepła przez szybę i odczucie chłodu przy oknie. To osobna kategoria względem folii przeciwsłonecznych, które służą głównie do redukcji energii słonecznej latem.',
+      'Przy foliach termoizolacyjnych najważniejsza jest kwalifikacja okna. Jeśli pakiet szybowy ma już dobre parametry, dodatkowa warstwa może dać niewielką różnicę.',
     chooseWhen: [
-      'masz pojedyncze szyby albo starsze pakiety dwuszybowe',
-      'przy oknie czuć chłód mimo ogrzewania pomieszczenia',
-      'chcesz ograniczyć straty ciepła bez wymiany całej stolarki',
+      'nie znasz parametrów szyb i chcesz je najpierw zweryfikować',
+      'miejsca przy oknach są trudne do użytkowania zimą',
+      'szukasz rozwiązania pośredniego przed kosztowną wymianą stolarki',
     ],
     betterAlternative: [
       'przy typowym problemie letniego upału wybierz folię przeciwsłoneczną, nie termoizolacyjną',
@@ -305,7 +305,7 @@ export const filmDecisionData = {
   },
   'film-removal': {
     decisionIntro:
-      'Demontaż folii okiennych jest potrzebny, gdy stara aplikacja pęka, odkleja się, żółknie albo nie pasuje już do nowej aranżacji. Dobrze wykonany demontaż przygotowuje szybę pod dalsze użytkowanie lub nową folię.',
+      'Przed demontażem warto ustalić, co ma stać się z szybą później. Inaczej pracuje się przy doczyszczeniu pod nową folię, a inaczej wtedy, gdy szkło ma po prostu zostać czyste.',
     chooseWhen: [
       'na starej folii są pęcherze, przebarwienia albo popękane krawędzie',
       'chcesz wymienić folię na nową bez uszkodzenia szyby',
@@ -317,9 +317,9 @@ export const filmDecisionData = {
       'przy planowanej nowej folii najlepiej od razu przygotować zdjęcia i wymiary',
     ],
     maintenance: [
-      'po demontażu szyba powinna zostać oczyszczona z kleju',
-      'nie warto zrywać starej folii na siłę bez przygotowania',
-      'przed nową aplikacją powierzchnia musi być dokładnie sprawdzona i odtłuszczona',
+      'po usunięciu folii trzeba sprawdzić, czy nie zostały resztki kleju',
+      'przy większych witrynach warto zaplanować czas na etapowe doczyszczanie',
+      'pod nową aplikację szyba musi być równa, czysta i odtłuszczona',
     ],
   },
 };

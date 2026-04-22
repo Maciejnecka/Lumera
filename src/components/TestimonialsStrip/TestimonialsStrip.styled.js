@@ -3,14 +3,14 @@ import { media } from '../Styled/mediaqueries';
 
 export const TestimonialsSection = styled.section`
   width: 100%;
-  max-width: var(--max-width);
-  margin: 3.6rem auto 0;
+  padding: 3.6rem 5vw 0;
   overflow: hidden;
 `;
 
 export const TestimonialsHeading = styled.div`
-  max-width: 76rem;
-  margin-bottom: 2.2rem;
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto 2.2rem;
   min-width: 0;
 
   span {
@@ -23,6 +23,7 @@ export const TestimonialsHeading = styled.div`
   }
 
   h2 {
+    max-width: 76rem;
     margin: 0;
     color: var(--font-title);
     font-size: clamp(2.7rem, 4vw, 4.2rem);
@@ -32,6 +33,9 @@ export const TestimonialsHeading = styled.div`
 `;
 
 export const TestimonialsGrid = styled.div`
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.6rem;

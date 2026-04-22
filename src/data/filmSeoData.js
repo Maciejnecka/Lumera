@@ -44,7 +44,7 @@ export const filmSeoData = {
       'Folie lustra weneckie poprawiają prywatność w dzień, ograniczają wgląd do wnętrza i nadają szybom elegancki refleksyjny efekt.',
     effectTitle: 'Efekt lustra, prywatność i światło',
     effectLead:
-      'Lustro weneckie działa najlepiej wtedy, gdy po jednej stronie szyby jest jaśniej niż po drugiej. W dzień pomaga ograniczyć widoczność wnętrza, zachowując możliwość patrzenia na zewnątrz.',
+      'To folia, której efekt zmienia się razem z oświetleniem. Dlatego dobór zaczynamy od pytania, kiedy prywatność jest naprawdę potrzebna: rano, w ciągu dnia, wieczorem czy przez cały czas.',
     effectDetails: [
       ['Efekt wizualny', 'lustrzany, refleksyjny, nowoczesny'],
       ['Prywatność', 'wysoka w dzień przy odpowiedniej różnicy oświetlenia'],
@@ -57,7 +57,7 @@ export const filmSeoData = {
       'witryny i lokale, gdzie liczy się mocny efekt wizualny',
     ],
     beforeInstall: [
-      'prywatność zależy od różnicy światła po obu stronach szyby',
+      'warto sprawdzić, jak pomieszczenie wygląda po zapaleniu światła',
       'wieczorem przy oświetlonym wnętrzu mogą być potrzebne rolety lub zasłony',
       'stopień odbicia i przyciemnienia warto dobrać do elewacji i stylu budynku',
     ],
@@ -124,17 +124,17 @@ export const filmSeoData = {
       'Folie LCD, czyli inteligentne folie przełączalne, zmieniają szybę z przezroczystej na mleczną i zapewniają prywatność na żądanie.',
     effectTitle: 'Prywatność sterowana napięciem',
     effectLead:
-      'Folia LCD daje efekt, którego nie da się osiągnąć zwykłą folią matową: szyba może być transparentna, a po zmianie stanu staje się mleczna i ogranicza widoczność.',
+      'W LCD sama tafla to tylko część rozwiązania. Równie ważne jest miejsce zasilania, sposób sterowania i to, czy przewody da się poprowadzić tak, aby nie psuły efektu gotowej realizacji.',
     effectDetails: [
       ['Efekt wizualny', 'przezroczysty lub mleczny, zależnie od stanu zasilania'],
-      ['Prywatność', 'na żądanie, bez zasłon i rolet'],
+      ['Sterowanie', 'przełącznik, pilot lub inny ustalony sposób obsługi'],
       ['Światło', 'zachowane jako jasne, rozproszone światło w trybie mlecznym'],
       ['Instalacja', 'wymaga zasilania i zaplanowania prowadzenia przewodów'],
     ],
     bestFor: [
-      'sale konferencyjne i gabinety',
-      'przeszklenia w biurach premium',
-      'nowoczesne wnętrza, w których prywatność ma być sterowana',
+      'szklane ściany, w których nie ma miejsca na klasyczne osłony',
+      'gabinet lub sala spotkań z zaplanowaną instalacją elektryczną',
+      'wnętrza premium, gdzie technologia ma być częścią projektu',
     ],
     beforeInstall: [
       'warto wcześniej zaplanować zasilanie i sterowanie',
@@ -164,12 +164,12 @@ export const filmSeoData = {
       'Folie na poliwęglan i świetliki dachowe pomagają ograniczyć nagrzewanie oraz nadmiar światła na powierzchniach z tworzyw.',
     effectTitle: 'Kontrola słońca na świetlikach i poliwęglanie',
     effectLead:
-      'Poliwęglan pracuje inaczej niż szkło, dlatego wymaga ostrożnego doboru folii. Celem jest ograniczenie nagrzewania i ostrego światła bez ryzyka źle dobranej aplikacji.',
+      'Świetliki często łączą kilka trudności naraz: dużą ekspozycję, wysoką temperaturę powierzchni i materiał wrażliwszy niż szkło. Dlatego ocena przed montażem jest tu ważniejsza niż sama nazwa folii.',
     effectDetails: [
-      ['Podłoże', 'poliwęglan, świetliki dachowe i wybrane tworzywa'],
+      ['Podłoże', 'najpierw identyfikacja materiału i jego stanu'],
       ['Efekt', 'mniej ostrego światła i niższy dyskomfort pod świetlikiem'],
       ['Montaż', 'zależny od rodzaju tworzywa i dostępu do powierzchni'],
-      ['Dobór', 'wymaga sprawdzenia kompatybilności materiałowej'],
+      ['Ryzyko', 'źle dobrany produkt może pracować inaczej niż na szkle'],
     ],
     bestFor: [
       'świetliki dachowe w halach i obiektach usługowych',
@@ -244,7 +244,7 @@ export const filmSeoData = {
       'Folie matowe zapewniają prywatność, mleczny lub satynowy efekt i zachowanie światła dziennego w biurach, łazienkach i lokalach.',
     effectTitle: 'Mleczny lub satynowy efekt bez utraty światła',
     effectLead:
-      'Folie matowe ograniczają widoczność, ale nadal przepuszczają światło. Dzięki temu są jednym z najpraktyczniejszych rozwiązań do prywatności w codziennych wnętrzach.',
+      'Największą zaletą folii matowej jest kontrola zakresu oklejenia. Można zasłonić tylko linię wzroku, zostawić górę szyby otwartą albo przygotować pasy dopasowane do aranżacji.',
     effectDetails: [
       ['Efekt wizualny', 'mleczny, satynowy, elegancki'],
       ['Prywatność', 'wysoka, zwykle obustronna'],
@@ -252,9 +252,9 @@ export const filmSeoData = {
       ['Personalizacja', 'możliwe pasy, wzory, logotypy lub częściowe oklejenie'],
     ],
     bestFor: [
-      'łazienki, gabinety i drzwi szklane',
-      'ścianki biurowe i sale spotkań',
-      'lokale usługowe, w których prywatność ma wyglądać estetycznie',
+      'dolne partie okien od strony chodnika',
+      'szklane drzwi, które mają być czytelnie oznaczone',
+      'wnętrza, gdzie osłona ma wyglądać lekko i architektonicznie',
     ],
     beforeInstall: [
       'można okleić całą szybę albo tylko wybraną część',
@@ -404,10 +404,10 @@ export const filmSeoData = {
       'Folie ochronne zabezpieczają szyby i gładkie powierzchnie przed zarysowaniami, zabrudzeniami oraz uszkodzeniami w trakcie użytkowania.',
     effectTitle: 'Ochrona powierzchni na co dzień lub na czas prac',
     effectLead:
-      'Folie ochronne mają praktyczny charakter: zabezpieczają powierzchnię przed uszkodzeniami, zabrudzeniami albo intensywnym użytkowaniem.',
+      'Najpierw ustalamy, czy folia ma chronić powierzchnię przez kilka tygodni prac, czy zostać na dłużej. Od tego zależy przyczepność, grubość i sposób późniejszego demontażu.',
     effectDetails: [
       ['Efekt wizualny', 'neutralny lub lekko widoczny zależnie od folii'],
-      ['Ochrona', 'przed zarysowaniami, zabrudzeniem i drobnymi uszkodzeniami'],
+      ['Ryzyko', 'dotyk, pył remontowy, transport lub codzienne zużycie'],
       ['Czas użycia', 'czasowy lub długoterminowy, zależnie od produktu'],
       ['Podłoże', 'szyby i wybrane gładkie powierzchnie'],
     ],
@@ -522,19 +522,19 @@ export const filmSeoData = {
   thermal: {
     seoDescription:
       'Folie termoizolacyjne Low-E pomagają ograniczać straty ciepła przez starsze szyby i zmniejszać odczucie zimnej szyby.',
-    effectTitle: 'Mniejsze straty ciepła przez istniejące szyby',
+    effectTitle: 'Jak działa powłoka niskoemisyjna na szybie?',
     effectLead:
-      'Folie termoizolacyjne działają jak wtórna powłoka niskoemisyjna. Odbijają część promieniowania cieplnego z powrotem do wnętrza, dlatego ich sens ocenia się przede wszystkim pod kątem ograniczenia ucieczki ciepła, a nie ochrony przed słońcem.',
+      'Warstwa Low-E ogranicza wypromieniowywanie ciepła przez szkło. W praktyce najpierw sprawdza się, czy dana szyba nie ma już fabrycznej powłoki o podobnym zadaniu, bo od tego zależy sens montażu.',
     effectDetails: [
-      ['Typ działania', 'powłoka niskoemisyjna Low-E nakładana na istniejącą szybę'],
-      ['Energia', 'ograniczenie strat ciepła przez przeszklenie'],
-      ['Najlepszy efekt', 'pojedyncze szyby i starsze pakiety dwuszybowe bez Low-E'],
-      ['Ograniczenie', 'niewielki efekt przy nowych oknach trzyszybowych o niskim U'],
+      ['Montaż', 'na istniejącą szybę, bez wymiany całego okna'],
+      ['Ocena', 'wiek pakietu, liczba szyb i obecne powłoki'],
+      ['Komfort', 'mniej nieprzyjemnej strefy chłodu przy przeszkleniu'],
+      ['Granica opłacalności', 'nowoczesne okna często mają już bardzo dobre parametry'],
     ],
     bestFor: [
-      'pojedyncze szyby bez powłok niskoemisyjnych',
-      'starsze pakiety dwuszybowe bez nowoczesnych technologii izolacyjnych',
-      'pomieszczenia, w których przy oknie wyraźnie czuć chłód',
+      'starsze mieszkania, gdzie okna nie będą od razu wymieniane',
+      'biurka, kanapy lub stoły ustawione blisko przeszklenia',
+      'lokale, w których komfort przy witrynie spada w chłodnych miesiącach',
     ],
     beforeInstall: [
       'najpierw warto ustalić wiek i typ szyby oraz czy pakiet ma już powłokę Low-E',
@@ -545,12 +545,12 @@ export const filmSeoData = {
       {
         question: 'Czy folia termoizolacyjna zastąpi wymianę okien?',
         answer:
-          'Nie. To rozwiązanie korygujące parametry istniejących szyb, szczególnie starszych, a nie zamiennik nowoczesnej stolarki.',
+          'Nie. Może być rozwiązaniem pośrednim, gdy wymiana stolarki nie jest planowana od razu, ale nie zmieni starego okna w nowoczesny pakiet trzyszybowy.',
       },
       {
         question: 'Czy folia termoizolacyjna jest folią przeciwsłoneczną?',
         answer:
-          'Nie w tym znaczeniu. Jej podstawową funkcją jest ograniczanie strat ciepła przez szybę. Jeśli problemem jest letnie nagrzewanie od słońca, zwykle dobiera się folię przeciwsłoneczną.',
+          'Nie. Jeśli problemem jest letni upał i odblaski, trzeba rozmawiać o foliach przeciwsłonecznych. Termoizolacyjna Low-E dotyczy głównie chłodu i bilansu cieplnego szyby.',
       },
       {
         question: 'Czy taka folia jest widoczna?',
@@ -644,11 +644,11 @@ export const filmSeoData = {
       'Demontaż folii okiennych obejmuje usunięcie starej folii, kleju i przygotowanie szyby pod nowy montaż lub czystą powierzchnię.',
     effectTitle: 'Czysta szyba po starej folii',
     effectLead:
-      'Demontaż wymaga cierpliwości i dobrania metody do wieku folii, rodzaju kleju oraz stanu szyby. Celem jest usunięcie folii bez niepotrzebnego ryzyka dla szkła i ram.',
+      'Przy demontażu liczy się nie tylko zerwanie warstwy z szyby, ale też usunięcie kleju i ocena, czy powierzchnia nadaje się pod kolejną aplikację. To szczególnie ważne przy witrynach i starszych foliach.',
     effectDetails: [
       ['Efekt końcowy', 'szyba oczyszczona z folii i resztek kleju'],
       ['Zakres', 'demontaż, doczyszczenie i przygotowanie pod nową aplikację'],
-      ['Ryzyko', 'zależne od wieku folii, kleju i stanu przeszklenia'],
+      ['Ocena', 'po zdjęciu folii widać realny stan szkła'],
       ['Możliwość połączenia', 'demontaż starej folii i montaż nowej'],
     ],
     bestFor: [

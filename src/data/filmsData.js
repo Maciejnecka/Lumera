@@ -52,9 +52,9 @@ const baseFilmsData = [
     path: '/folie-lustra-weneckie',
     name: 'Folie lustra weneckie',
     shortDescription:
-      'Folie zapewniające efekt lustra weneckiego i prywatność w ciągu dnia, przy jednoczesnym zachowaniu widoku na zewnątrz.',
+      'Refleksyjna folia dla okien od ulicy, chodnika lub sąsiedniego budynku.',
     lead:
-      'Folie lustra weneckiego wybierają najczęściej klienci, którym zależy na prywatności w ciągu dnia i mocniejszym efekcie wizualnym na szybie. Przy odpowiedniej różnicy oświetlenia pozwalają obserwować otoczenie od środka, ograniczając widoczność wnętrza z zewnątrz.',
+      'Folie lustra weneckiego zmieniają odbiór przeszklenia: szyba staje się bardziej refleksyjna, a wnętrze mniej oczywiste dla osób z zewnątrz. To dobry wybór, gdy prywatność ma iść w parze z wyrazistym, nowoczesnym wyglądem.',
     highlights: [
       'intensywny efekt lustra weneckiego przy właściwych warunkach światła',
       'ochrona prywatności i atrakcyjny wygląd szyby',
@@ -104,13 +104,13 @@ const baseFilmsData = [
     path: '/folie-lcd',
     name: 'Folie LCD – inteligentne folie',
     shortDescription:
-      'Nowoczesne rozwiązanie pozwalające zmieniać szybę z przezroczystej na mleczną po uruchomieniu zasilania.',
+      'Przełączalna folia do szklanych ścian, gdzie liczy się sterowanie widocznością.',
     lead:
-      'Inteligentne folie LCD to rozwiązanie dla przestrzeni, w których chcemy płynnie przechodzić między otwartością a prywatnością. Sprawdzają się w biurach, salach spotkań, gabinetach i nowoczesnych realizacjach premium.',
+      'Inteligentne folie LCD planuje się jak element instalacji, a nie zwykłą dekorację szyby. Poza efektem wizualnym trzeba uwzględnić zasilanie, sterowanie, krawędzie folii i sposób ukrycia przewodów.',
     highlights: [
-      'zmiana transparentności szyby po uruchomieniu systemu',
-      'efekt nowoczesnej, zaawansowanej technologii',
-      'bardzo dobre rozwiązanie do przestrzeni biurowych i premium',
+      'przełączanie widoczności bez rolet i zasłon',
+      'projekt wymaga wcześniejszego zaplanowania zasilania',
+      'efekt premium dla szklanych ścian i stref spotkań',
     ],
     parameters: [
       'Typ produktu: folia przełączalna',
@@ -130,13 +130,13 @@ const baseFilmsData = [
     path: '/folie-na-poliweglan',
     name: 'Folie na poliwęglan (świetliki dachowe)',
     shortDescription:
-      'Folie przeznaczone do powierzchni z poliwęglanu i świetlików dachowych, gdzie problemem jest intensywne nasłonecznienie.',
+      'Rozwiązania dla świetlików i tworzyw, które pracują inaczej niż klasyczna szyba.',
     lead:
-      'Folie na poliwęglan stosujemy tam, gdzie klasyczne przeszklenia zastępują świetliki dachowe lub inne elementy z tworzywa. Ich dobór wymaga szczególnej uwagi, dlatego zawsze warto dopasować je do konkretnego materiału i warunków pracy powierzchni.',
+      'Przy poliwęglanie najważniejsze jest nie tylko ograniczenie słońca, ale też zgodność folii z materiałem. Przed rekomendacją sprawdzamy typ tworzywa, stan powierzchni, naprężenia i warunki, w jakich pracuje świetlik.',
     highlights: [
-      'pomoc w ograniczeniu nagrzewania pod świetlikami',
-      'dobór do powierzchni z tworzyw sztucznych',
-      'lepsza kontrola światła w halach, obiektach i pomieszczeniach technicznych',
+      'ocena kompatybilności przed doborem folii',
+      'mniej ostrego światła wpadającego od góry',
+      'rozwiązanie dla hal, lokali i przeszkleń technicznych',
     ],
     parameters: [
       'Podłoże: poliwęglan i podobne tworzywa',
@@ -182,13 +182,13 @@ const baseFilmsData = [
     path: '/folie-matowe',
     name: 'Folie matowe',
     shortDescription:
-      'Subtelne rozwiązanie poprawiające prywatność bez rezygnacji z dopływu światła dziennego.',
+      'Satynowe wykończenie szyby do dyskretnego zasłonięcia widoku bez ciężkich osłon.',
     lead:
-      'Folie matowe są chętnie wybierane do biur, łazienek, gabinetów i nowoczesnych wnętrz, w których potrzebne jest delikatne odcięcie widoczności. Dają spokojny, estetyczny efekt i dobrze wpisują się w uporządkowane projekty wnętrz.',
+      'Folie matowe porządkują wygląd przeszklenia i rozpraszają obraz po drugiej stronie szyby. Można nimi okleić całą taflę, tylko dolny pas albo wybrany fragment, dlatego łatwo dopasować poziom zasłonięcia do wnętrza.',
     highlights: [
-      'większa prywatność bez mocnego zaciemniania wnętrza',
-      'czysty, elegancki wygląd szyby',
-      'dobre rozwiązanie do biur, łazienek i gabinetów',
+      'możliwość pełnego lub częściowego oklejenia szyby',
+      'czysty, spokojny wygląd bez montażu rolet',
+      'dobry wybór tam, gdzie prywatność ma być stała',
     ],
     parameters: [
       'Efekt: mleczny lub satynowy',
@@ -286,13 +286,13 @@ const baseFilmsData = [
     path: '/folie-ochronne',
     name: 'Folie ochronne',
     shortDescription:
-      'Rozwiązania zabezpieczające szkło lub powierzchnię na etapie użytkowania, transportu lub prac serwisowych.',
+      'Folie do zabezpieczenia gładkich powierzchni w czasie prac, użytkowania lub zmiany aranżacji.',
     lead:
-      'Folie ochronne pomagają zabezpieczyć szyby i wybrane powierzchnie przed uszkodzeniami, zabrudzeniami lub czasowym oddziaływaniem warunków zewnętrznych. To praktyczne rozwiązanie zarówno dla inwestycji, jak i obiektów użytkowanych na co dzień.',
+      'Folie ochronne dobiera się do konkretnej sytuacji: remontu, intensywnego dotyku, ryzyka zabrudzeń albo potrzeby czasowego zabezpieczenia szkła. Innego produktu wymaga witryna w trakcie prac, a innego powierzchnia używana codziennie.',
     highlights: [
-      'ochrona powierzchni przed zarysowaniami i zabrudzeniem',
-      'pomoc w zabezpieczeniu podczas użytkowania lub prac wykończeniowych',
-      'praktyczne rozwiązanie do szyb i innych gładkich podłoży',
+      'warianty czasowe lub długoterminowe',
+      'dobór pod szkło, witrynę albo inną gładką powierzchnię',
+      'mniej ryzyka przy pracach wykończeniowych i serwisowych',
     ],
     parameters: [
       'Typ: folia ochronna czasowa lub stała, zależnie od potrzeb',
@@ -364,24 +364,24 @@ const baseFilmsData = [
     path: '/folie-termoizolacyjne',
     name: 'Folie termoizolacyjne',
     shortDescription:
-      'Folie Low-E ograniczające straty ciepła przez istniejące szyby, szczególnie w starszych przeszkleniach.',
+      'Wtórna warstwa Low-E dla szyb, przy których zimą wyraźnie czuć chłód od przeszklenia.',
     lead:
-      'Folie termoizolacyjne to nie folie przeciwsłoneczne. Ich głównym zadaniem jest poprawa izolacyjności istniejących szyb przez warstwę niskoemisyjną Low-E, która pomaga ograniczać ucieczkę ciepła na zewnątrz.',
+      'Folie termoizolacyjne dobiera się przede wszystkim do starszych szyb i pakietów, które słabo trzymają ciepło. Nie są zamiennikiem folii przeciwsłonecznych - ich zadaniem jest poprawa komfortu przy oknie w chłodniejszych okresach.',
     highlights: [
-      'ograniczanie strat ciepła przez szybę',
-      'największy sens przy pojedynczych szybach i starszych pakietach',
-      'mniejszy efekt przy nowoczesnych oknach trzyszybowych',
+      'mniejsze odczucie zimnej szyby w pobliżu okna',
+      'rozwiązanie dla szyb bez nowoczesnych powłok izolacyjnych',
+      'dobór poprzedzony oceną typu pakietu szybowego',
     ],
     parameters: [
-      'Główna korzyść: ograniczenie strat ciepła',
-      'Zastosowanie: starsze szyby i pakiety bez Low-E',
-      'Dobór: zależny od konstrukcji pakietu szybowego',
-      'Efekt: mniejsze odczucie chłodu przy szybie',
+      'Typ: folia niskoemisyjna nakładana na istniejącą szybę',
+      'Najpierw sprawdzamy: wiek okna, liczbę szyb i obecność powłok',
+      'Nie rekomendujemy w ciemno: nowe pakiety mogą już mieć podobną funkcję',
+      'Cel: poprawa komfortu bez wymiany całej stolarki',
     ],
     usage: [
-      'starsze mieszkania i domy z pojedynczymi szybami',
-      'starsze pakiety dwuszybowe bez nowoczesnych powłok',
-      'pomieszczenia, w których przy oknie odczuwalna jest zimna szyba',
+      'mieszkania w starszej zabudowie',
+      'pomieszczenia z miejscem pracy lub siedzenia tuż przy oknie',
+      'lokale, w których wymiana szyb nie jest możliwa od razu',
     ],
     image: imageTermoizolacyjne,
   },
@@ -442,9 +442,9 @@ const baseFilmsData = [
     path: '/demontaz-folii-okiennych',
     name: 'Demontaż folii okiennych',
     shortDescription:
-      'Bezpieczne usuwanie starych, zużytych lub źle dobranych folii z szyb bez niepotrzebnego ryzyka dla powierzchni szkła.',
+      'Usuwanie starej aplikacji razem z klejem i przygotowanie szyby pod dalsze prace.',
     lead:
-      'Demontaż folii okiennych wykonujemy wtedy, gdy stara folia straciła estetykę, zaczęła się odklejać, pękać, matowieć albo klient chce przygotować szybę pod nowe rozwiązanie. Pracujemy ostrożnie, etapowo i z doborem odpowiednich metod, tak aby ograniczyć ryzyko uszkodzenia szyby, ram oraz otoczenia okna.',
+      'Demontaż folii okiennych wykonujemy wtedy, gdy aplikacja zestarzała się, zaczęła odchodzić od szyby albo przeszklenie ma zostać przygotowane pod nową folię. Zakres zależy od kleju, wieku folii i tego, czy po usunięciu planowany jest kolejny montaż.',
     highlights: [
       'usunięcie starej folii, kleju i zabrudzeń po aplikacji',
       'przygotowanie szyby pod nowy montaż lub pozostawienie czystej powierzchni',

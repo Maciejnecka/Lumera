@@ -18,9 +18,9 @@ export const filmStrengtheningData = {
   mirror: {
     seoContentBlocks: [
       {
-        title: 'Prywatność zależy od światła',
+        title: 'Sprawdź scenariusz wieczorny',
         text:
-          'Lustro weneckie najlepiej działa wtedy, gdy po zewnętrznej stronie jest jaśniej niż w pomieszczeniu. Dlatego przed wyborem warto ustalić, czy prywatność ma być potrzebna w dzień, wieczorem, czy przez cały czas.',
+          'Przed wyborem warto zrobić prosty test: zapalić światło w pomieszczeniu po zmroku i sprawdzić, z której strony szyba staje się bardziej czytelna. To pomaga zdecydować, czy wystarczy folia refleksyjna, czy potrzebna będzie dodatkowa osłona.',
       },
       {
         title: 'Kiedy rozważyć inną folię?',
@@ -34,9 +34,9 @@ export const filmStrengtheningData = {
   matte: {
     seoContentBlocks: [
       {
-        title: 'Prywatność bez ciężkiego zasłaniania',
+        title: 'Pełna tafla, pas czy wzór?',
         text:
-          'Folia matowa rozprasza widok przez szybę, ale nadal przepuszcza światło. Dobrze pasuje do łazienek, gabinetów, drzwi szklanych, ścianek biurowych i lokali, gdzie efekt ma być spokojny oraz estetyczny.',
+          'Przed wyceną warto ustalić, czy folia ma zasłonić całą szybę, tylko pas na wysokości wzroku, czy np. powtarzalny wzór. Ten wybór mocno wpływa na wygląd wnętrza i ilość światła przy krawędziach przeszklenia.',
       },
       {
         title: 'Matowa, mrożona czy LCD?',
@@ -66,20 +66,19 @@ export const filmStrengtheningData = {
   lcd: {
     seoContentBlocks: [
       {
-        title: 'Folia LCD jako osobna klasa rozwiązania',
+        title: 'Najpierw instalacja, potem efekt',
         text:
-          'Inteligentna folia LCD nie jest tylko alternatywą dla folii matowej. To rozwiązanie dla miejsc, w których przeszklenie ma zmieniać charakter: pozostawać otwarte wizualnie, a w razie potrzeby zapewniać szybką prywatność.',
+          'Przy LCD trzeba wcześniej ustalić, gdzie będzie zasilacz, jak poprowadzić przewody i czy krawędzie szyby pozwalają estetycznie ukryć połączenia. Dopiero potem ocenia się sam efekt przełączania.',
       },
       {
-        title: 'Najlepsze zastosowania niezależnie od słońca',
+        title: 'Gdzie LCD naprawdę robi różnicę?',
         text:
-          'LCD szczególnie dobrze pasuje do biur, gabinetów, sal konferencyjnych, hoteli, lokali premium i nowoczesnych domów. Tu najważniejsza jest kontrola prywatności, efekt wizualny i funkcja przestrzeni, a nie tylko ochrona przed słońcem.',
+          'Najwięcej sensu ma tam, gdzie jedna szklana ściana pełni dwie role: ma otwierać przestrzeń na co dzień, ale w wybranych momentach zamieniać ją w spokojną, prywatną strefę rozmowy lub prezentacji.',
       },
     ],
     problemLinks: ['/folia-na-okno-przed-sasiadami'],
     localLinks: ['/folie-lcd-krakow', '/folie-lcd-katowice'],
     featuredNote:
-      'To rozwiązanie warto traktować jako osobny, specjalistyczny kierunek: prywatność na żądanie dla szklanych ścian, gabinetów i sal spotkań.',
+      'Przy folii LCD kluczowe są detale montażowe: zasilanie, sterowanie, krawędzie i sposób ukrycia przewodów.',
   },
 };
-
