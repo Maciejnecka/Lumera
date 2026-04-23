@@ -3,7 +3,8 @@ import { filmsData } from '../data/filmsData';
 import { localServicePagesData } from '../data/localServicePagesData';
 import { problemPagesData } from '../data/problemPagesData';
 
-const siteUrl = 'https://lumera.pl';
+export const siteUrl = 'https://lumera.pl';
+
 const defaultTitle = 'Lumera | Montaż folii okiennych Kraków i okolice';
 const defaultDescription =
   'Lumera oferuje montaż folii okiennych do domów, mieszkań, biur i lokali w Krakowie i okolicach. Folie przeciwsłoneczne, matowe, ochronne, antywłamaniowe i inne rozwiązania.';
@@ -33,6 +34,20 @@ const staticPages = {
 const trimDescription = (text) => {
   if (!text) return defaultDescription;
   return text.length > 155 ? `${text.slice(0, 152).trim()}...` : text;
+};
+
+const toAbsoluteUrl = (path = '/') => {
+  if (!path) return siteUrl;
+  if (path.startsWith('http://') || path.startsWith('https://')) {
+    return path;
+  }
+
+  return `${siteUrl}${path.startsWith('/') ? path : `/${path}`}`;
+};
+
+const normalizeSchemaInput = (schema) => {
+  if (!schema) return [];
+  return Array.isArray(schema) ? schema.filter(Boolean) : [schema];
 };
 
 export const getSeoForPath = (path = '/') => {
@@ -83,7 +98,7 @@ export const organizationSchema = {
   '@id': `${siteUrl}/#localbusiness`,
   name: 'Lumera',
   url: siteUrl,
-  image: `${siteUrl}/og-image.svg`,
+  image: `${siteUrl}/og-image.png`,
   logo: `${siteUrl}/favicon.svg`,
   email: 'biuro@folielumera.pl',
   telephone: '+48605505714',
@@ -96,6 +111,7 @@ export const organizationSchema = {
     addressCountry: 'PL',
   },
   areaServed: [
+    { '@type': 'Country', name: 'Polska' },
     { '@type': 'City', name: 'Kraków' },
     { '@type': 'City', name: 'Katowice' },
     { '@type': 'Place', name: 'Rudawa' },
@@ -125,7 +141,11 @@ export const organizationSchema = {
         '@type': 'Service',
         name: film.name,
         url: `${siteUrl}${film.path}`,
-        areaServed: 'Kraków, Katowice i okolice',
+        areaServed: [
+          { '@type': 'City', name: 'Kraków' },
+          { '@type': 'City', name: 'Katowice' },
+          { '@type': 'Country', name: 'Polska' },
+        ],
       },
     })),
     ...localServicePagesData.map((page) => ({
@@ -152,8 +172,25 @@ export const websiteSchema = {
   },
 };
 
+export const buildBreadcrumbSchema = (items = []) => {
+  if (!items.length) return null;
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map((item, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: item.label,
+      item: toAbsoluteUrl(item.href || '/'),
+    })),
+  };
+};
+
 const PageSeo = ({ path = '/', extraSchema }) => {
   const seo = getSeoForPath(path);
+  const schemas = [organizationSchema, websiteSchema, ...normalizeSchemaInput(extraSchema)];
+  const openGraphType = seo.type === 'article' ? 'article' : 'website';
 
   return (
     <Head>
@@ -161,32 +198,27 @@ const PageSeo = ({ path = '/', extraSchema }) => {
       <meta name="description" content={seo.description} />
       <meta name="robots" content="index, follow" />
       <link rel="canonical" href={seo.url} />
-      <meta property="og:type" content="website" />
+      <meta property="og:type" content={openGraphType} />
       <meta property="og:locale" content="pl_PL" />
       <meta property="og:site_name" content="Lumera" />
       <meta property="og:title" content={seo.title} />
       <meta property="og:description" content={seo.description} />
       <meta property="og:url" content={seo.url} />
-      <meta property="og:image" content={`${siteUrl}/og-image.svg`} />
-      <meta property="og:image:alt" content="Logo Lumera oraz opis: folie okienne i montaż" />
+      <meta property="og:image" content={`${siteUrl}/og-image.png`} />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+      <meta property="og:image:alt" content="Lumera - folie okienne i montaż" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={seo.title} />
       <meta name="twitter:description" content={seo.description} />
-      <meta name="twitter:image" content={`${siteUrl}/og-image.svg`} />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
-      />
-      {extraSchema && (
+      <meta name="twitter:image" content={`${siteUrl}/og-image.png`} />
+      {schemas.map((schema, index) => (
         <script
+          key={`schema-${index}`}
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(extraSchema) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
-      )}
+      ))}
     </Head>
   );
 };

@@ -9,8 +9,8 @@ export const config = {
 };
 
 const CONTACT_TO_EMAIL = 'biuro@folielumera.pl';
-const MAX_FILE_SIZE = 5 * 1024 * 1024;
-const MAX_TOTAL_FILE_SIZE = 10 * 1024 * 1024;
+const MAX_FILE_SIZE = 3 * 1024 * 1024;
+const MAX_TOTAL_FILE_SIZE = 4 * 1024 * 1024;
 const RATE_LIMIT_WINDOW_MS = 12 * 60 * 60 * 1000;
 const RATE_LIMIT_MAX_REQUESTS = 5;
 const ALLOWED_FILE_TYPES = new Set([
@@ -73,6 +73,21 @@ const sanitizeText = (value = '') =>
     .replace(/on\w+=/gi, '')
     .trim();
 
+const isValidEmail = (value = '') => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(value).trim());
+
+const normalizePhone = (value = '') => String(value).replace(/[^\d+]/g, '');
+
+const isValidPhone = (value = '') => {
+  const normalized = normalizePhone(value);
+  const digitsOnly = normalized.replace(/\D/g, '');
+
+  if (normalized.startsWith('+')) {
+    return digitsOnly.length >= 9 && digitsOnly.length <= 15;
+  }
+
+  return digitsOnly.length >= 9 && digitsOnly.length <= 12;
+};
+
 const escapeHtml = (value = '') =>
   String(value)
     .replace(/&/g, '&amp;')
@@ -109,6 +124,7 @@ const parseRequest = (req) =>
 const validatePayload = (fields, files) => {
   const errors = [];
   const email = sanitizeText(getField(fields, 'email'));
+  const phone = sanitizeText(getField(fields, 'Telefon'));
   const startedAt = Number(getField(fields, '_started_at'));
 
   if (getField(fields, '_honey')) errors.push('Wysyłka została zablokowana.');
@@ -116,28 +132,31 @@ const validatePayload = (fields, files) => {
     errors.push('Spróbuj wysłać formularz ponownie za chwilę.');
   }
   if (!sanitizeText(getField(fields, 'Imie_i_nazwisko'))) errors.push('Podaj imię i nazwisko.');
-  if (!sanitizeText(getField(fields, 'Telefon'))) errors.push('Podaj numer telefonu.');
-  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+  if (!phone) {
+    errors.push('Podaj numer telefonu.');
+  } else if (!isValidPhone(phone)) {
+    errors.push('Podaj poprawny numer telefonu.');
+  }
+  if (!email || !isValidEmail(email)) {
     errors.push('Podaj poprawny adres e-mail.');
   }
   if (!sanitizeText(getField(fields, 'wybrana_kategoria'))) {
     errors.push('Wybierz kategorię zapytania.');
   }
   if (!sanitizeText(getField(fields, 'wiadomosc'))) errors.push('Napisz krótki opis zapytania.');
-  if (!sanitizeText(getField(fields, 'wymiary_łącznie'))) {
-    errors.push('Dodaj przynajmniej jeden wymiar okna.');
-  }
   if (files.length > 4) errors.push('Możesz dodać maksymalnie 4 pliki.');
 
   const totalFileSize = files.reduce((sum, file) => sum + Number(file.size || 0), 0);
   if (totalFileSize > MAX_TOTAL_FILE_SIZE) {
-    errors.push('Łączny rozmiar załączników może mieć maksymalnie 10 MB.');
+    errors.push('Łączny rozmiar załączników może mieć maksymalnie 4 MB.');
   }
 
   const invalidFile = files.some(
     (file) => !ALLOWED_FILE_TYPES.has(file.mimetype || '') || Number(file.size || 0) > MAX_FILE_SIZE
   );
-  if (invalidFile) errors.push('Załączniki mogą mieć format JPG, PNG, WEBP albo PDF.');
+  if (invalidFile) {
+    errors.push('Jeden z załączników jest zbyt duży albo ma nieobsługiwany format.');
+  }
 
   return errors;
 };

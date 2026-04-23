@@ -2,6 +2,7 @@ import React from 'react';
 import { useRouter } from 'next/router';
 import { localServicePagesData } from '../../data/localServicePagesData';
 import { problemPagesData } from '../../data/problemPagesData';
+import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
 import SmartFilmPreview from '../SmartFilmPreview';
 import {
   DetailPageWrap,
@@ -34,7 +35,7 @@ import {
 const getProblemPage = (path) => problemPagesData.find((page) => page.path === path);
 const getLocalServicePage = (path) => localServicePagesData.find((page) => page.path === path);
 
-const FilmDetailPage = ({ film }) => {
+const FilmDetailPage = ({ film, breadcrumbs }) => {
   const router = useRouter();
   const problemLinks = (film.problemLinks || []).map(getProblemPage).filter(Boolean);
   const localLinks = (film.localLinks || []).map(getLocalServicePage).filter(Boolean);
@@ -55,6 +56,7 @@ const FilmDetailPage = ({ film }) => {
         <DetailHero>
           <DetailHeroCopy data-aos="fade-up">
             <DetailHeroMeta>
+              <Breadcrumbs items={breadcrumbs} />
               <DetailBackLink href="/">← Wróć na stronę główną</DetailBackLink>
               <DetailHeroBadge>Folie okienne Lumera</DetailHeroBadge>
             </DetailHeroMeta>
@@ -180,21 +182,35 @@ const FilmDetailPage = ({ film }) => {
             </DetailSectionIntro>
 
             <DetailLinkGrid>
-              {problemLinks.map((item) => (
-                <DetailLinkCard key={item.path} href={item.path}>
+              {problemLinks.map((item, index) => (
+                <DetailLinkCard
+                  key={item.path}
+                  href={item.path}
+                  data-aos="fade-up"
+                  data-aos-delay={index * 50}
+                >
                   <span>Problem</span>
                   <strong>{item.title}</strong>
                   <p>{item.seoDescription}</p>
                 </DetailLinkCard>
               ))}
-              {localLinks.map((item) => (
-                <DetailLinkCard key={item.path} href={item.path}>
+              {localLinks.map((item, index) => (
+                <DetailLinkCard
+                  key={item.path}
+                  href={item.path}
+                  data-aos="fade-up"
+                  data-aos-delay={(problemLinks.length + index) * 50}
+                >
                   <span>Lokalnie</span>
                   <strong>{item.title}</strong>
                   <p>{item.seoDescription}</p>
                 </DetailLinkCard>
               ))}
-              <DetailLinkCard href="/#kontakt">
+              <DetailLinkCard
+                href="/#kontakt"
+                data-aos="fade-up"
+                data-aos-delay={(problemLinks.length + localLinks.length) * 50}
+              >
                 <span>Kontakt</span>
                 <strong>Dobierzemy folię do Twojego okna</strong>
                 <p>Wyślij zdjęcia, wymiary i krótki opis problemu przy szybie.</p>

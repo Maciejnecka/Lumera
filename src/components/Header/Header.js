@@ -44,7 +44,8 @@ const Header = () => {
           </HeroLead>
 
           <HeroLocation>
-            Montaż folii okiennych w Krakowie, Katowicach i okolicach.
+            Montaż folii okiennych w Krakowie, Katowicach i okolicach. Przy
+            większych realizacjach działamy na terenie całej Polski.
           </HeroLocation>
 
           <HeroPromise>

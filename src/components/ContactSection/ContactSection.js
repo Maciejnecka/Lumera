@@ -13,6 +13,10 @@ import {
   WindowList,
   WindowListItem,
   FileHint,
+  FileUsage,
+  FileUsageBar,
+  FileUsageFill,
+  FileUsageMeta,
   FileList,
   FileListItem,
   FormStatus,
@@ -26,8 +30,12 @@ const CONTACT_PHONE = '+48 605 505 714';
 const CONTACT_PHONE_HREF = 'tel:+48605505714';
 const CONTACT_EMAIL_COMPOSE_HREF = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(CONTACT_EMAIL)}`;
 const CONTACT_FORM_ENDPOINT = '/api/contact';
-const MAX_FILE_SIZE = 5 * 1024 * 1024;
-const MAX_TOTAL_FILE_SIZE = 10 * 1024 * 1024;
+const MAX_FILE_SIZE = 3 * 1024 * 1024;
+const MAX_TOTAL_FILE_SIZE = 4 * 1024 * 1024;
+const IMAGE_COMPRESSION_THRESHOLD = 900 * 1024;
+const IMAGE_MAX_DIMENSION = 2200;
+const IMAGE_COMPRESSION_QUALITY_STEPS = [0.82, 0.72, 0.62];
+const IMAGE_OUTPUT_TYPE = 'image/webp';
 const ALLOWED_FILE_TYPES = ['image/jpeg', 'image/png', 'image/webp', 'application/pdf'];
 
 const initialForm = {
@@ -46,6 +54,21 @@ const sanitizeText = (value = '') =>
     .replace(/on\w+=/gi, '')
     .trim();
 
+const isValidEmail = (value = '') => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value.trim());
+
+const normalizePhone = (value = '') => value.replace(/[^\d+]/g, '');
+
+const isValidPhone = (value = '') => {
+  const normalized = normalizePhone(value);
+  const digitsOnly = normalized.replace(/\D/g, '');
+
+  if (normalized.startsWith('+')) {
+    return digitsOnly.length >= 9 && digitsOnly.length <= 15;
+  }
+
+  return digitsOnly.length >= 9 && digitsOnly.length <= 12;
+};
+
 const formatFileSize = (size) => {
   if (size < 1024 * 1024) {
     return `${Math.ceil(size / 1024)} KB`;
@@ -59,6 +82,91 @@ const formatArea = (area) =>
     minimumFractionDigits: area % 1 === 0 ? 0 : 2,
     maximumFractionDigits: 2,
   }).format(area);
+
+const replaceFileExtension = (fileName, extension) => {
+  const normalizedName = fileName || 'zalacznik';
+  const lastDotIndex = normalizedName.lastIndexOf('.');
+
+  if (lastDotIndex === -1) {
+    return `${normalizedName}${extension}`;
+  }
+
+  return `${normalizedName.slice(0, lastDotIndex)}${extension}`;
+};
+
+const loadImageElement = (file) =>
+  new Promise((resolve, reject) => {
+    const imageUrl = URL.createObjectURL(file);
+    const image = new Image();
+
+    image.onload = () => {
+      URL.revokeObjectURL(imageUrl);
+      resolve(image);
+    };
+
+    image.onerror = () => {
+      URL.revokeObjectURL(imageUrl);
+      reject(new Error('Nie udalo sie odczytac obrazu.'));
+    };
+
+    image.src = imageUrl;
+  });
+
+const canvasToBlob = (canvas, type, quality) =>
+  new Promise((resolve) => {
+    canvas.toBlob((blob) => resolve(blob), type, quality);
+  });
+
+const compressImageFile = async (file) => {
+  if (!file.type.startsWith('image/')) {
+    return file;
+  }
+
+  const image = await loadImageElement(file);
+  const scale = Math.min(1, IMAGE_MAX_DIMENSION / Math.max(image.width, image.height));
+  const targetWidth = Math.max(1, Math.round(image.width * scale));
+  const targetHeight = Math.max(1, Math.round(image.height * scale));
+
+  if (file.size <= IMAGE_COMPRESSION_THRESHOLD && scale === 1) {
+    return file;
+  }
+
+  const canvas = document.createElement('canvas');
+  canvas.width = targetWidth;
+  canvas.height = targetHeight;
+
+  const context = canvas.getContext('2d');
+  if (!context) {
+    return file;
+  }
+
+  context.drawImage(image, 0, 0, targetWidth, targetHeight);
+
+  let bestCandidate = file;
+
+  for (const quality of IMAGE_COMPRESSION_QUALITY_STEPS) {
+    const blob = await canvasToBlob(canvas, IMAGE_OUTPUT_TYPE, quality);
+    if (!blob) continue;
+
+    const candidate = new File([blob], replaceFileExtension(file.name, '.webp'), {
+      type: IMAGE_OUTPUT_TYPE,
+      lastModified: file.lastModified,
+    });
+
+    if (candidate.size < bestCandidate.size) {
+      bestCandidate = candidate;
+    }
+
+    if (candidate.size <= MAX_FILE_SIZE) {
+      break;
+    }
+  }
+
+  return bestCandidate;
+};
+
+const getFileSignature = (file) =>
+  [file.name, file.size, file.lastModified, file.type].join('::');
 
 const getWindowArea = ({ width, height, quantity }) =>
   (Number(width) * Number(height) * Number(quantity)) / 10000;
@@ -93,6 +201,7 @@ const ContactSection = () => {
   });
   const [windows, setWindows] = useState([]);
   const [files, setFiles] = useState([]);
+  const [isPreparingFiles, setIsPreparingFiles] = useState(false);
   const [windowPendingRemoval, setWindowPendingRemoval] = useState(null);
   const [filePendingRemoval, setFilePendingRemoval] = useState(null);
   const [errors, setErrors] = useState({});
@@ -107,10 +216,20 @@ const ContactSection = () => {
   };
 
   const topicLabel = useMemo(() => {
+    if (form.topic === 'wybierz') {
+      return 'Nie określono';
+    }
+
     return filmsData.find((film) => film.id === form.topic)?.name || form.topic;
   }, [form.topic]);
 
   const windowsSummary = useMemo(() => getWindowSummary(windows), [windows]);
+  const totalFilesSize = useMemo(
+    () => files.reduce((sum, file) => sum + file.size, 0),
+    [files]
+  );
+  const remainingFilesSize = Math.max(0, MAX_TOTAL_FILE_SIZE - totalFilesSize);
+  const fileUsagePercent = Math.min(100, (totalFilesSize / MAX_TOTAL_FILE_SIZE) * 100);
 
   useEffect(() => {
     const storedTopic = sessionStorage.getItem('lumera-contact-topic');
@@ -177,7 +296,7 @@ const ContactSection = () => {
     }
 
     if (totalSize > MAX_TOTAL_FILE_SIZE) {
-      return 'Łączny rozmiar załączników może mieć maksymalnie 10 MB.';
+      return 'Łączny rozmiar załączników może mieć maksymalnie 4 MB.';
     }
 
     const invalidType = nextFiles.some((file) => !ALLOWED_FILE_TYPES.includes(file.type));
@@ -187,23 +306,53 @@ const ContactSection = () => {
 
     const oversizedFile = nextFiles.some((file) => file.size > MAX_FILE_SIZE);
     if (oversizedFile) {
-      return 'Pojedynczy plik może mieć maksymalnie 5 MB.';
+      return 'Jeden z plików jest nadal zbyt duży do wysyłki. Zmniejsz go albo wyślij mniej załączników.';
     }
 
     return undefined;
   };
 
-  const handleFiles = (event) => {
+  const handleFiles = async (event) => {
     const selectedFiles = Array.from(event.target.files || []);
-    const mergedFiles = [...files, ...selectedFiles];
-    const fileError = validateFiles(mergedFiles);
+    if (!selectedFiles.length) return;
 
-    if (!fileError) {
-      setFiles(mergedFiles);
-      syncFileInput(mergedFiles);
+    setIsPreparingFiles(true);
+
+    try {
+      const preparedFiles = await Promise.all(
+        selectedFiles.map((file) => compressImageFile(file))
+      );
+      const existingSignatures = new Set(files.map((file) => getFileSignature(file)));
+      const duplicateFile = preparedFiles.find((file) =>
+        existingSignatures.has(getFileSignature(file))
+      );
+
+      if (duplicateFile) {
+        setErrors((current) => ({
+          ...current,
+          files: `Plik "${duplicateFile.name}" został już dodany do formularza.`,
+        }));
+        return;
+      }
+
+      const mergedFiles = [...files, ...preparedFiles];
+      const fileError = validateFiles(mergedFiles);
+
+      if (!fileError) {
+        setFiles(mergedFiles);
+        syncFileInput(mergedFiles);
+      }
+
+      setErrors((current) => ({ ...current, files: fileError }));
+    } catch (error) {
+      setErrors((current) => ({
+        ...current,
+        files: 'Nie udało się przygotować zdjęć do wysyłki. Spróbuj ponownie.',
+      }));
+    } finally {
+      setIsPreparingFiles(false);
+      event.target.value = '';
     }
-
-    setErrors((current) => ({ ...current, files: fileError }));
   };
 
   const removeFile = (fileToRemove) => {
@@ -218,15 +367,17 @@ const ContactSection = () => {
     const nextErrors = {};
 
     if (!sanitizeText(form.name)) nextErrors.name = 'Podaj imię i nazwisko.';
-    if (!sanitizeText(form.phone)) nextErrors.phone = 'Podaj numer telefonu.';
+    if (!sanitizeText(form.phone)) {
+      nextErrors.phone = 'Podaj numer telefonu.';
+    } else if (!isValidPhone(form.phone)) {
+      nextErrors.phone = 'Podaj poprawny numer telefonu.';
+    }
     if (!sanitizeText(form.email)) {
       nextErrors.email = 'Podaj adres e-mail.';
-    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) {
+    } else if (!isValidEmail(form.email)) {
       nextErrors.email = 'Podaj poprawny adres e-mail.';
     }
-    if (form.topic === 'wybierz') nextErrors.topic = 'Wybierz, czego dotyczy zapytanie.';
     if (!sanitizeText(form.message)) nextErrors.message = 'Napisz krótki opis zapytania.';
-    if (!windows.length) nextErrors.windows = 'Dodaj przynajmniej jedno okno do listy.';
     if (form.website) nextErrors.form = 'Wysyłka została zablokowana.';
     if (Date.now() - mountedAt.current < 4000) {
       nextErrors.form = 'Spróbuj wysłać formularz ponownie za chwilę.';
@@ -336,8 +487,8 @@ const ContactSection = () => {
             się w Twojej przestrzeni.
           </p>
           <p>
-            Nie znasz dokładnych wymiarów? Wyślij zdjęcie okna i krótki opis,
-            a pomożemy ustalić, od czego najlepiej zacząć wycenę.
+            Nie znasz dokładnych wymiarów? To nie problem. Wyślij zdjęcie okna i
+            krótki opis, a pomożemy ustalić, od czego najlepiej zacząć wycenę.
           </p>
         </ContactIntro>
 
@@ -395,6 +546,8 @@ const ContactSection = () => {
               value={form.phone}
               onChange={(event) => updateField('phone', event.target.value)}
               placeholder="Np. 500 000 000"
+              inputMode="tel"
+              autoComplete="tel"
               aria-invalid={Boolean(errors.phone)}
             />
             {errors.phone && <FieldError>{errors.phone}</FieldError>}
@@ -408,20 +561,20 @@ const ContactSection = () => {
               value={form.email}
               onChange={(event) => updateField('email', event.target.value)}
               placeholder="Np. kontakt@twojafirma.pl"
+              autoComplete="email"
               aria-invalid={Boolean(errors.email)}
             />
             {errors.email && <FieldError>{errors.email}</FieldError>}
           </FieldGroup>
 
-          <FieldGroup $hasError={Boolean(errors.topic)}>
-            Czego dotyczy zapytanie
+          <FieldGroup>
+            Czego dotyczy zapytanie (opcjonalnie)
             <input type="hidden" name="wybrana_kategoria" value={topicLabel} />
             <select
               value={form.topic}
               onChange={(event) => updateField('topic', event.target.value)}
-              aria-invalid={Boolean(errors.topic)}
             >
-              <option value="wybierz" disabled>
+              <option value="wybierz">
                 Wybierz opcję
               </option>
               {filmsData.map((film) => (
@@ -431,11 +584,10 @@ const ContactSection = () => {
               ))}
               <option value="inna-usluga">Inna usługa</option>
             </select>
-            {errors.topic && <FieldError>{errors.topic}</FieldError>}
           </FieldGroup>
 
           <WindowsBuilder $hasError={Boolean(errors.windows)}>
-            <strong>Wymiary okien</strong>
+            <strong>Wymiary okien (opcjonalnie)</strong>
             <WindowInputs>
               <label>
                 Szerokość w cm
@@ -522,13 +674,34 @@ const ContactSection = () => {
               name="attachment"
               accept=".jpg,.jpeg,.png,.webp,.pdf"
               multiple
+              disabled={isPreparingFiles}
               onChange={handleFiles}
               aria-invalid={Boolean(errors.files)}
             />
             <FileHint>
-              Maksymalnie 4 pliki. Jeden plik do 5 MB, łącznie do 10 MB. Najlepiej JPG,
-              PNG, WEBP albo PDF.
+              Maksymalnie 4 pliki. Zdjęcia są automatycznie zmniejszane przed
+              wysyłką, żeby ograniczyć wagę bez dużej utraty jakości. Pliki PDF
+              nie podlegają kompresji. Najlepiej JPG, PNG, WEBP albo PDF.
             </FileHint>
+            <FileUsage
+              aria-label={`Wykorzystano ${formatFileSize(totalFilesSize)} z ${formatFileSize(
+                MAX_TOTAL_FILE_SIZE
+              )}`}
+            >
+              <FileUsageBar>
+                <FileUsageFill
+                  $usagePercent={fileUsagePercent}
+                  style={{ width: `${fileUsagePercent}%` }}
+                />
+              </FileUsageBar>
+              <FileUsageMeta>
+                <span>Wykorzystano {formatFileSize(totalFilesSize)} z {formatFileSize(MAX_TOTAL_FILE_SIZE)}</span>
+                <strong>Pozostało {formatFileSize(remainingFilesSize)}</strong>
+              </FileUsageMeta>
+            </FileUsage>
+            {isPreparingFiles && (
+              <FileHint>Przygotowujemy zdjęcia do wysyłki...</FileHint>
+            )}
             {files.length > 0 && (
               <FileList>
                 {files.map((file) => (

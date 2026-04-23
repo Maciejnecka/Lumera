@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
 import {
   PrivacyWrap,
   PrivacyHero,
@@ -19,7 +20,7 @@ const CONTACT_PHONE = '+48 605 505 714';
 const CONTACT_ADDRESS = 'Rudawa, ul. Łanowa 14, 32-064 Rudawa';
 const CONTACT_EMAIL_COMPOSE_HREF = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(CONTACT_EMAIL)}`;
 
-const PrivacyPolicyPage = () => {
+const PrivacyPolicyPage = ({ breadcrumbs }) => {
   const handleEmailClick = (event) => {
     event.preventDefault();
     window.open(CONTACT_EMAIL_COMPOSE_HREF, '_blank', 'noopener,noreferrer');
@@ -29,6 +30,7 @@ const PrivacyPolicyPage = () => {
     <main id="main-content">
       <PrivacyWrap>
         <PrivacyHero>
+          <Breadcrumbs items={breadcrumbs} />
           <PrivacyEyebrow>Informacje formalne</PrivacyEyebrow>
           <PrivacyTitle>Polityka prywatności</PrivacyTitle>
           <PrivacyLead>
@@ -173,16 +175,19 @@ const PrivacyPolicyPage = () => {
         <PrivacySection>
           <h2>9. Pliki cookies i pamięć lokalna przeglądarki</h2>
           <p>
-            Strona może korzystać z podstawowych mechanizmów technicznych przeglądarki,
-            takich jak pamięć sesji, aby poprawnie przenosić użytkownika między sekcjami
-            strony lub zapamiętać wybraną kategorię przy przejściu do formularza.
-            Obecnie nie zakładamy wykorzystywania cookies marketingowych ani profilowania
-            użytkowników.
+            Strona korzysta obecnie wyłącznie z technicznych mechanizmów niezbędnych
+            do działania, takich jak pamięć lokalna lub pamięć sesji przeglądarki.
+            Służą one między innymi do poprawnego przenoszenia użytkownika między
+            sekcjami strony, zapamiętania wybranej kategorii przy przejściu do
+            formularza oraz zapisania informacji o zamknięciu komunikatu technicznego.
           </p>
           <p>
-            Jeżeli w przyszłości zostaną dodane narzędzia analityczne, reklamowe, mapa,
-            czat, piksele social media lub inne podobne usługi, polityka prywatności i
-            komunikat cookies powinny zostać zaktualizowane przed ich uruchomieniem.
+            Obecnie strona nie używa cookies analitycznych, reklamowych ani
+            marketingowych i nie prowadzi profilowania użytkowników na potrzeby reklam.
+            Jeżeli w przyszłości zostaną dodane narzędzia analityczne, reklamowe,
+            mapa, czat, piksele social media lub inne podobne usługi, polityka
+            prywatności i komunikat cookies powinny zostać zaktualizowane przed
+            ich uruchomieniem.
           </p>
         </PrivacySection>
 

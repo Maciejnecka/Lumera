@@ -71,7 +71,10 @@ export const FooterBrandText = styled.div`
 
 export const FooterCols = styled.div`
   display: grid;
-  grid-template-columns: 1.25fr 0.85fr 1fr 1.05fr;
+  grid-template-columns: ${(props) =>
+    props.$hasSocial
+      ? '1.25fr 0.85fr 1fr 1.05fr'
+      : 'repeat(3, minmax(0, 1fr))'};
   align-items: start;
   gap: 2.4rem;
 
@@ -107,8 +110,6 @@ export const FooterCol = styled.div`
   }
 
   a {
-    width: fit-content;
-    justify-self: start;
     transition: color var(--transition-fast);
   }
 
@@ -130,7 +131,7 @@ export const ContactDetails = styled.ul`
     grid-template-columns: 2.7rem minmax(0, 1fr);
     align-items: center;
     gap: 0.75rem;
-    width: min(100%, 31rem);
+    width: 100%;
     padding: 0.82rem 0;
     border-bottom: 1px solid rgba(242, 231, 199, 0.1);
   }
@@ -234,7 +235,7 @@ export const SocialLinks = styled.div`
 
 export const BusinessHours = styled.div`
   display: grid;
-  width: min(100%, 22rem);
+  width: 100%;
   gap: 0.18rem;
 
   span {

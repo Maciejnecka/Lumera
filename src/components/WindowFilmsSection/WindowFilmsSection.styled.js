@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const WindowFilmsWrap = styled.section`
   position: relative;
-  padding: 7rem 5vw 4.5rem;
+  padding: 7rem 5vw 7rem;
   overflow: hidden;
 
   &::before {
@@ -82,15 +82,13 @@ export const ProblemCard = styled(Link)`
 export const SectionIntro = styled.div`
   position: relative;
   width: 100%;
-  max-width: 92rem;
+  max-width: var(--max-width);
   margin: 0 auto 2.4rem;
   min-width: 0;
-  text-align: center;
 
   span {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
     min-height: 3.8rem;
     padding: 0 1.35rem;
     margin-bottom: 1.4rem;
@@ -104,8 +102,8 @@ export const SectionIntro = styled.div`
   }
 
   h2 {
-    max-width: 88rem;
-    margin: 0 auto 1.7rem;
+    max-width: 76rem;
+    margin: 0 0 1.7rem;
     color: var(--font-title);
     font-size: clamp(3rem, 4vw, 4.8rem);
     line-height: 1.04;
@@ -114,7 +112,7 @@ export const SectionIntro = styled.div`
 
   p {
     max-width: 74rem;
-    margin: 0 auto;
+    margin: 0;
     color: var(--font-main);
     font-size: 1.75rem;
     line-height: 1.85;
@@ -124,35 +122,82 @@ export const SectionIntro = styled.div`
 export const SliderToolbar = styled.div`
   position: relative;
   width: 100%;
-  max-width: 92rem;
-  margin: 0 auto 2.6rem;
+  max-width: var(--max-width);
+  margin: 2rem auto 0;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 1.4rem;
   min-width: 0;
+`;
 
-  @media (max-width: 700px) {
-    flex-direction: column;
+export const SliderIntro = styled.div`
+  position: relative;
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto 1.8rem;
+  padding-top: 0.6rem;
+  display: grid;
+  gap: 0.9rem;
+  min-width: 0;
+
+  span {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    min-height: 3.4rem;
+    padding: 0 1.2rem;
+    border: 1px solid rgba(43, 98, 86, 0.14);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.62);
+    color: var(--accent-primary);
+    font-size: 1.15rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  p {
+    max-width: 76rem;
+    margin: 0;
+    color: var(--font-main);
+    font-size: 1.62rem;
+    line-height: 1.75;
   }
 `;
 
-export const SliderHint = styled.p`
-  margin: 0;
-  padding: 1rem 1.4rem;
-  border: 1px solid rgba(35, 48, 44, 0.1);
+export const SliderDots = styled.div`
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+`;
+
+export const SliderDot = styled.button`
+  width: ${(props) => (props.$isActive ? '2.8rem' : '0.95rem')};
+  height: 0.95rem;
+  border: 0;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.64);
-  color: var(--font-dark);
-  box-shadow: var(--shadow-sm);
-  font-size: 1.42rem;
-  line-height: 1.6;
-  text-align: center;
+  background: ${(props) =>
+    props.$isActive ? 'var(--accent-primary)' : 'rgba(43, 98, 86, 0.18)'};
+  box-shadow: ${(props) =>
+    props.$isActive ? '0 6px 14px rgba(43, 98, 86, 0.22)' : 'none'};
+  cursor: pointer;
+  transition:
+    width var(--transition),
+    background var(--transition),
+    transform var(--transition),
+    box-shadow var(--transition);
+
+  &:hover {
+    transform: translateY(-1px);
+  }
 `;
 
 export const SliderControls = styled.div`
   display: inline-flex;
-  gap: 0.8rem;
+  gap: 1rem;
   flex: 0 0 auto;
 `;
 
@@ -172,9 +217,10 @@ export const SliderButton = styled.button`
   line-height: 0;
   cursor: pointer;
   transition:
-    transform var(--transition-fast),
-    background var(--transition-fast),
-    box-shadow var(--transition-fast);
+    transform var(--transition),
+    opacity var(--transition),
+    background var(--transition),
+    box-shadow var(--transition);
 
   &::before {
     content: '';
@@ -183,6 +229,7 @@ export const SliderButton = styled.button`
     display: block;
     border-top: 2px solid currentColor;
     border-right: 2px solid currentColor;
+    transition: transform var(--transition);
   }
 
   &:first-child::before {
@@ -193,10 +240,16 @@ export const SliderButton = styled.button`
     transform: translateX(-0.15rem) rotate(45deg);
   }
 
-  &:hover {
-    transform: translateY(-2px);
+  &:hover:not(:disabled) {
+    transform: translateY(-2px) scale(1.02);
     background: #fffdf8;
     box-shadow: var(--shadow-md);
+  }
+
+  &:disabled {
+    opacity: 0.42;
+    cursor: default;
+    box-shadow: none;
   }
 `;
 
@@ -212,42 +265,31 @@ export const FilmsSlider = styled.div`
   overflow-x: auto;
   overflow-y: hidden;
   overscroll-behavior-inline: contain;
-  padding: 0.2rem 0 1.4rem;
-  scroll-snap-type: x proximity;
+  padding: 0.2rem 2.4rem 0.6rem 0;
   min-width: 0;
   cursor: grab;
-  scrollbar-color: rgba(43, 98, 86, 0.5) rgba(255, 255, 255, 0.58);
-  scrollbar-width: thin;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 
   &.is-dragging {
     cursor: grabbing;
-    scroll-snap-type: none;
+    scroll-behavior: auto;
     user-select: none;
   }
 
   &::-webkit-scrollbar {
-    height: 12px;
-  }
-
-  &::-webkit-scrollbar-track {
-    border-radius: 999px;
-    background: rgba(255, 255, 255, 0.58);
-  }
-
-  &::-webkit-scrollbar-thumb {
-    border-radius: 999px;
-    border: 3px solid rgba(255, 255, 255, 0.58);
-    background: rgba(43, 98, 86, 0.5);
+    display: none;
   }
 
   @media (max-width: 600px) {
-    grid-auto-columns: minmax(22rem, 86vw);
+    grid-auto-columns: minmax(22rem, 82vw);
+    padding-right: 5vw;
     cursor: auto;
   }
 `;
 
 export const FilmCard = styled.article`
-  scroll-snap-align: start;
   display: grid;
   grid-template-rows: auto auto 1fr auto;
   gap: 1.35rem;

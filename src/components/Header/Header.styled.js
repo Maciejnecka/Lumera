@@ -2,8 +2,25 @@ import styled from 'styled-components';
 import { media } from '../Styled/mediaqueries';
 
 export const HeroSection = styled.header`
-  padding: 13rem 5vw 4rem;
+  position: relative;
+  padding: 13rem 5vw 7.5rem;
   overflow: hidden;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: clamp(4rem, 7vw, 8rem);
+    background: linear-gradient(
+      180deg,
+      rgba(247, 241, 233, 0) 0%,
+      rgba(247, 241, 233, 0.88) 72%,
+      rgba(247, 241, 233, 1) 100%
+    );
+    pointer-events: none;
+  }
 `;
 
 export const HeroContent = styled.div`

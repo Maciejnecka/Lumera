@@ -58,6 +58,10 @@ const GlobalStyles = createGlobalStyle`
     overflow-x: hidden;
   }
 
+  main > * {
+    min-width: 0;
+  }
+
   * {
     box-sizing: border-box;
   }

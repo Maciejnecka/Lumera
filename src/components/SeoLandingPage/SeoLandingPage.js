@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { filmsData } from '../../data/filmsData';
 import { problemPagesData } from '../../data/problemPagesData';
 import { localServicePagesData } from '../../data/localServicePagesData';
+import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
 import {
   SeoWrap,
   SeoHero,
@@ -23,7 +24,7 @@ const getFilm = (path) => filmsData.find((film) => film.path === path);
 const getProblem = (path) => problemPagesData.find((page) => page.path === path);
 const getLocalService = (path) => localServicePagesData.find((page) => page.path === path);
 
-const SeoLandingPage = ({ page, type }) => {
+const SeoLandingPage = ({ page, type, breadcrumbs }) => {
   const isProblemPage = type === 'problem';
   const recommendedFilms = (page.recommendedFilms || [page.filmPath])
     .map(getFilm)
@@ -40,6 +41,7 @@ const SeoLandingPage = ({ page, type }) => {
     <main id="main-content">
       <SeoWrap>
         <SeoHero className={page.featured ? 'is-featured' : undefined}>
+          <Breadcrumbs items={breadcrumbs} />
           <SeoEyebrow>{page.eyebrow}</SeoEyebrow>
           <SeoTitle>{page.title}</SeoTitle>
           <SeoLead>{page.lead}</SeoLead>
@@ -163,4 +165,3 @@ const SeoLandingPage = ({ page, type }) => {
 };
 
 export default SeoLandingPage;
-

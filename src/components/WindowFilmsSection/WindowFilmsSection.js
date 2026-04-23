@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { filmsData } from '../../data/filmsData';
 import SmartFilmPreview from '../SmartFilmPreview';
@@ -7,8 +7,10 @@ import {
   SectionIntro,
   ProblemGrid,
   ProblemCard,
+  SliderIntro,
   SliderToolbar,
-  SliderHint,
+  SliderDots,
+  SliderDot,
   SliderControls,
   SliderButton,
   FilmsSlider,
@@ -40,6 +42,32 @@ const problemCards = [
   },
 ];
 
+const getSliderState = (slider) => {
+  if (!slider) {
+    return {
+      activeIndex: 0,
+      pageCount: 1,
+      canScrollPrev: false,
+      canScrollNext: false,
+    };
+  }
+
+  const maxScroll = Math.max(0, slider.scrollWidth - slider.clientWidth);
+  const pageCount = Math.max(1, Math.ceil(slider.scrollWidth / slider.clientWidth));
+  const progress = maxScroll > 0 ? slider.scrollLeft / maxScroll : 0;
+  const activeIndex = Math.min(
+    pageCount - 1,
+    Math.max(0, Math.round(progress * (pageCount - 1)))
+  );
+
+  return {
+    activeIndex,
+    pageCount,
+    canScrollPrev: slider.scrollLeft > 8,
+    canScrollNext: slider.scrollLeft < maxScroll - 8,
+  };
+};
+
 const WindowFilmsSection = () => {
   const sliderRef = useRef(null);
   const dragState = useRef({
@@ -49,13 +77,54 @@ const WindowFilmsSection = () => {
     scrollLeft: 0,
   });
   const [isDragging, setIsDragging] = useState(false);
+  const [sliderUi, setSliderUi] = useState({
+    activeIndex: 0,
+    pageCount: 1,
+    canScrollPrev: false,
+    canScrollNext: true,
+  });
+
+  useEffect(() => {
+    const slider = sliderRef.current;
+    if (!slider) return undefined;
+
+    const syncSliderUi = () => {
+      setSliderUi(getSliderState(slider));
+    };
+
+    syncSliderUi();
+    slider.addEventListener('scroll', syncSliderUi, { passive: true });
+    window.addEventListener('resize', syncSliderUi);
+
+    return () => {
+      slider.removeEventListener('scroll', syncSliderUi);
+      window.removeEventListener('resize', syncSliderUi);
+    };
+  }, []);
 
   const scrollSlider = (direction) => {
     const slider = sliderRef.current;
     if (!slider) return;
 
+    const card = slider.firstElementChild;
+    const step = card ? card.getBoundingClientRect().width + 28 : Math.min(440, slider.clientWidth * 0.9);
+
     slider.scrollBy({
-      left: direction * Math.min(440, slider.clientWidth * 0.8),
+      left: direction * step,
+      behavior: 'smooth',
+    });
+  };
+
+  const scrollToDot = (index) => {
+    const slider = sliderRef.current;
+    if (!slider) return;
+
+    const maxScroll = Math.max(0, slider.scrollWidth - slider.clientWidth);
+    const targetLeft =
+      sliderUi.pageCount <= 1 ? 0 : (maxScroll * index) / (sliderUi.pageCount - 1);
+
+    slider.scrollTo({
+      left: targetLeft,
       behavior: 'smooth',
     });
   };
@@ -128,27 +197,15 @@ const WindowFilmsSection = () => {
         ))}
       </ProblemGrid>
 
-      <SliderToolbar data-aos="fade-up">
-        <SliderHint>
-          Przesuń karty, użyj strzałek albo wybierz kategorię i zobacz pełny opis.
-        </SliderHint>
-        <SliderControls aria-label="Sterowanie sliderem folii">
-          <SliderButton
-            type="button"
-            onClick={() => scrollSlider(-1)}
-            aria-label="Poprzednie folie"
-          >
-            ←
-          </SliderButton>
-          <SliderButton
-            type="button"
-            onClick={() => scrollSlider(1)}
-            aria-label="Następne folie"
-          >
-            →
-          </SliderButton>
-        </SliderControls>
-      </SliderToolbar>
+      <SliderIntro data-aos="fade-up">
+        <span>Rodzaje folii</span>
+        <p>
+          Poniżej możesz spokojnie przejrzeć konkretne typy folii i zobaczyć,
+          czym się różnią. To już nie są problemy do rozwiązania, tylko
+          przegląd dostępnych kierunków, które potem dobieramy do szyby i
+          sytuacji.
+        </p>
+      </SliderIntro>
 
       <FilmsSlider
         ref={sliderRef}
@@ -172,6 +229,40 @@ const WindowFilmsSection = () => {
           </FilmCard>
         ))}
       </FilmsSlider>
+
+      <SliderToolbar data-aos="fade-up">
+        <SliderDots aria-label="Pozycja slidera folii">
+          {Array.from({ length: sliderUi.pageCount }).map((_, index) => (
+            <SliderDot
+              key={index}
+              type="button"
+              $isActive={index === sliderUi.activeIndex}
+              aria-label={`Przejdź do widoku ${index + 1}`}
+              aria-pressed={index === sliderUi.activeIndex}
+              onClick={() => scrollToDot(index)}
+            />
+          ))}
+        </SliderDots>
+
+        <SliderControls aria-label="Sterowanie sliderem folii">
+          <SliderButton
+            type="button"
+            onClick={() => scrollSlider(-1)}
+            aria-label="Poprzednie folie"
+            disabled={!sliderUi.canScrollPrev}
+          >
+            ←
+          </SliderButton>
+          <SliderButton
+            type="button"
+            onClick={() => scrollSlider(1)}
+            aria-label="Następne folie"
+            disabled={!sliderUi.canScrollNext}
+          >
+            →
+          </SliderButton>
+        </SliderControls>
+      </SliderToolbar>
     </WindowFilmsWrap>
   );
 };

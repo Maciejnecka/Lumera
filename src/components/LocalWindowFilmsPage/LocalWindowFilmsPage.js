@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { filmsData } from '../../data/filmsData';
 import { localServicePagesData } from '../../data/localServicePagesData';
 import { problemPagesData } from '../../data/problemPagesData';
+import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
 import {
   LocalWrap,
   LocalHero,
@@ -61,7 +62,7 @@ const localPages = {
   },
 };
 
-const LocalWindowFilmsPage = ({ city = 'krakow' }) => {
+const LocalWindowFilmsPage = ({ city = 'krakow', breadcrumbs }) => {
   const page = localPages[city] || localPages.krakow;
   const cityName = city === 'katowice' ? 'Katowice' : 'Kraków';
   const servicePages = localServicePagesData.filter((item) => item.city === cityName);
@@ -78,6 +79,7 @@ const LocalWindowFilmsPage = ({ city = 'krakow' }) => {
     <main id="main-content">
       <LocalWrap>
         <LocalHero>
+          <Breadcrumbs items={breadcrumbs} />
           <LocalEyebrow>{page.eyebrow}</LocalEyebrow>
           <LocalTitle>{page.title}</LocalTitle>
           <LocalLead>{page.lead}</LocalLead>
@@ -180,6 +182,8 @@ const LocalWindowFilmsPage = ({ city = 'krakow' }) => {
   );
 };
 
-export const LocalWindowFilmsKatowicePage = () => <LocalWindowFilmsPage city="katowice" />;
+export const LocalWindowFilmsKatowicePage = (props) => (
+  <LocalWindowFilmsPage city="katowice" {...props} />
+);
 
 export default LocalWindowFilmsPage;

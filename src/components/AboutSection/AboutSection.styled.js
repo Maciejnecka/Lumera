@@ -2,14 +2,47 @@ import styled from 'styled-components';
 import { media } from '../Styled/mediaqueries';
 
 export const AboutSectionWrap = styled.section`
-  padding: 6rem 5vw 0;
+  position: relative;
+  padding: 7.2rem 5vw 7rem;
   overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(circle at 12% 18%, rgba(214, 177, 104, 0.16), transparent 28%),
+      radial-gradient(circle at 86% 12%, rgba(43, 98, 86, 0.1), transparent 24%);
+    pointer-events: none;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: clamp(4rem, 7vw, 8rem);
+    background: linear-gradient(
+      180deg,
+      rgba(248, 244, 236, 0) 0%,
+      rgba(248, 244, 236, 0.86) 72%,
+      rgba(248, 244, 236, 1) 100%
+    );
+    pointer-events: none;
+  }
 `;
 
 export const SectionIntro = styled.div`
+  position: relative;
   width: 100%;
-  max-width: var(--max-width);
-  margin: 0 auto 2.6rem;
+  padding: 3.2rem;
+  border: 1px solid rgba(35, 48, 44, 0.08);
+  border-radius: 3.2rem;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.78), rgba(248, 244, 236, 0.9)),
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.45), transparent 42%);
+  box-shadow: var(--shadow-md);
   min-width: 0;
 
   span {
@@ -22,7 +55,7 @@ export const SectionIntro = styled.div`
   }
 
   h2 {
-    max-width: 90rem;
+    max-width: 72rem;
     margin: 0 0 1.6rem;
     color: var(--font-title);
     font-size: clamp(3rem, 4vw, 4.8rem);
@@ -37,20 +70,40 @@ export const SectionIntro = styled.div`
     font-size: 1.75rem;
     line-height: 1.85;
   }
+
+  ${media.sm`
+    padding: 2.4rem;
+    border-radius: 2.4rem;
+  `}
 `;
 
 export const AboutGrid = styled.div`
+  position: relative;
   width: 100%;
   max-width: var(--max-width);
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
-  gap: 1.8rem;
+  grid-template-columns: minmax(0, 1.45fr) minmax(28rem, 0.78fr);
+  gap: 2rem;
+  align-items: stretch;
   min-width: 0;
 
   ${media.lg`
     grid-template-columns: 1fr;
   `}
+`;
+
+export const IntroNote = styled.p`
+  max-width: 56rem;
+  margin: 2.2rem 0 0;
+  padding: 1.5rem 1.8rem;
+  border: 1px solid rgba(43, 98, 86, 0.12);
+  border-radius: 2rem;
+  background: rgba(250, 247, 241, 0.88);
+  color: var(--font-dark);
+  font-size: 1.55rem;
+  line-height: 1.75;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55);
 `;
 
 const cardStyles = `
@@ -84,14 +137,17 @@ const cardStyles = `
   }
 `;
 
-export const StoryCard = styled.article`
-  ${cardStyles}
-  min-width: 0;
-`;
-
 export const ValuesCard = styled.article`
   ${cardStyles}
   min-width: 0;
+  height: 100%;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.88), rgba(248, 244, 236, 0.96));
+  box-shadow: var(--shadow-md);
+
+  ${media.lg`
+    height: auto;
+  `}
 
   ul {
     display: grid;

@@ -2,8 +2,25 @@ import styled from 'styled-components';
 import { media } from '../Styled/mediaqueries';
 
 export const ContactWrap = styled.section`
-  padding: 6rem 5vw 0;
+  position: relative;
+  padding: 6rem 5vw 6rem;
   overflow: hidden;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: clamp(3rem, 6vw, 6rem);
+    background: linear-gradient(
+      180deg,
+      rgba(247, 241, 233, 0) 0%,
+      rgba(247, 241, 233, 0.82) 72%,
+      rgba(247, 241, 233, 1) 100%
+    );
+    pointer-events: none;
+  }
 `;
 
 export const ContactCard = styled.div`
@@ -302,6 +319,53 @@ export const FileHint = styled.span`
   color: var(--font-muted);
   font-size: 1.25rem;
   line-height: 1.5;
+`;
+
+export const FileUsage = styled.div`
+  display: grid;
+  gap: 0.8rem;
+  margin-top: 0.2rem;
+`;
+
+export const FileUsageBar = styled.div`
+  width: 100%;
+  height: 0.9rem;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(43, 98, 86, 0.12);
+`;
+
+export const FileUsageFill = styled.div`
+  height: 100%;
+  border-radius: 999px;
+  background: ${(props) =>
+    props.$usagePercent >= 85
+      ? 'linear-gradient(90deg, #c88f4a, #d8b55a)'
+      : 'linear-gradient(90deg, #2b6256, #4f8b7e)'};
+  transition:
+    width var(--transition),
+    background var(--transition);
+`;
+
+export const FileUsageMeta = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  color: var(--font-muted);
+  font-size: 1.22rem;
+  line-height: 1.5;
+
+  strong {
+    color: var(--accent-primary);
+    font-size: 1.22rem;
+    font-weight: 700;
+  }
+
+  ${media.sm`
+    align-items: flex-start;
+    flex-direction: column;
+  `}
 `;
 
 export const FileList = styled.ul`
