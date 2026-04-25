@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { filmsData } from '../../data/filmsData';
 import { localServicePagesData } from '../../data/localServicePagesData';
 import { problemPagesData } from '../../data/problemPagesData';
+import lcdInstallationImage from '../../img/generated/montaz-folii-lcd.webp';
 import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
 import {
   LocalWrap,
@@ -11,6 +12,8 @@ import {
   LocalTitle,
   LocalLead,
   LocalActions,
+  LocalHeroSplit,
+  LocalHeroVisual,
   LocalGrid,
   LocalCard,
   LocalSection,
@@ -18,6 +21,35 @@ import {
   LocalServiceGrid,
   LocalServiceLink,
 } from './LocalWindowFilmsPage.styled';
+
+const lcdInstallationImageSrc = lcdInstallationImage.src || lcdInstallationImage;
+
+const lcdInstallationPage = {
+  eyebrow: 'Montaż folii LCD',
+  title: 'Montaż folii LCD i inteligentnych folii PDLC',
+  lead:
+    'Folia LCD zmienia szklaną powierzchnię z transparentnej w mleczną po przełączeniu zasilania. To rozwiązanie dla miejsc, gdzie prywatność ma być dostępna na żądanie: sal konferencyjnych, gabinetów, hoteli, showroomów i nowoczesnych przeszkleń wewnętrznych.',
+  useCases: [
+    'sale konferencyjne, meeting roomy i szklane boksy w biurach',
+    'gabinety lekarskie, kosmetologiczne, zarządcze i konsultacyjne',
+    'hotele, apartamenty, łazienki premium oraz strefy spa',
+    'showroomy, ekspozycje i witryny z nowoczesnym efektem technologii',
+    'szklane ściany, które czasem mają być otwarte wizualnie, a czasem prywatne',
+  ],
+  planning: [
+    'dokładne wymiary każdej tafli szkła od uszczelki do uszczelki i liczba szyb',
+    'zdjęcia całego przeszklenia oraz zbliżenia krawędzi',
+    'miejsce, w którym może znaleźć się zasilacz i punkt sterowania',
+    'informacja, czy folia ma działać z przełącznika, pilota lub automatyki',
+    'opis oczekiwanego efektu: prywatność, prezentacja, projekcja albo efekt premium',
+  ],
+  benefits: [
+    'prywatność bez stałego zasłaniania szkła',
+    'mleczny tryb z jasnym, rozproszonym światłem',
+    'nowoczesny wygląd bez rolet, kaset i prowadnic',
+    'możliwość wykorzystania trybu mlecznego jako powierzchni prezentacyjnej',
+  ],
+};
 
 const localPages = {
   krakow: {
@@ -38,7 +70,7 @@ const localPages = {
       'dla klientów, którzy chcą usunąć starą folię i przygotować szybę pod nową aplikację',
     ],
     process:
-      'Najlepiej przesłać szerokość, wysokość i liczbę szyb, krótki opis problemu oraz zdjęcia okien. Dzięki temu możemy szybciej określić, jaki rodzaj folii ma sens i czy przed wyceną potrzebne będą dodatkowe informacje.',
+      'Najlepiej przesłać szerokość i wysokość mierzone od uszczelki do uszczelki, liczbę szyb, krótki opis problemu oraz zdjęcia okien. Dzięki temu możemy szybciej określić, jaki rodzaj folii ma sens i czy przed wyceną potrzebne będą dodatkowe informacje.',
   },
   katowice: {
     eyebrow: 'Katowice i aglomeracja śląska',
@@ -58,7 +90,7 @@ const localPages = {
       'dla klientów planujących demontaż starej folii i montaż nowego rozwiązania',
     ],
     process:
-      'Przy zapytaniach z Katowic szczególnie pomaga komplet informacji na starcie: wymiary, liczba szyb, zdjęcia, piętro, dostęp do okien i oczekiwany efekt. Na tej podstawie łatwiej ocenić, czy potrzebny będzie pomiar, jaki typ folii dobrać i jak zaplanować realizację.',
+      'Przy zapytaniach z Katowic szczególnie pomaga komplet informacji na starcie: wymiary od uszczelki do uszczelki, liczba szyb, zdjęcia, piętro, dostęp do okien i oczekiwany efekt. Na tej podstawie łatwiej ocenić, czy potrzebny będzie pomiar, jaki typ folii dobrać i jak zaplanować realizację.',
   },
 };
 
@@ -103,7 +135,7 @@ const LocalWindowFilmsPage = ({ city = 'krakow', breadcrumbs }) => {
           <LocalCard>
             <span>Kontakt</span>
             <strong>+48 605 505 714</strong>
-            <p>Najwygodniej przesłać wymiary okien i zdjęcia przez formularz kontaktowy.</p>
+            <p>Najwygodniej przesłać wymiary okien od uszczelki do uszczelki i zdjęcia przez formularz kontaktowy.</p>
           </LocalCard>
         </LocalGrid>
 
@@ -184,6 +216,112 @@ const LocalWindowFilmsPage = ({ city = 'krakow', breadcrumbs }) => {
 
 export const LocalWindowFilmsKatowicePage = (props) => (
   <LocalWindowFilmsPage city="katowice" {...props} />
+);
+
+export const LcdInstallationPage = ({ breadcrumbs }) => (
+  <main id="main-content">
+    <LocalWrap>
+      <LocalHeroSplit>
+        <LocalHero>
+          <Breadcrumbs items={breadcrumbs} />
+          <LocalEyebrow>{lcdInstallationPage.eyebrow}</LocalEyebrow>
+          <LocalTitle>{lcdInstallationPage.title}</LocalTitle>
+          <LocalLead>{lcdInstallationPage.lead}</LocalLead>
+          <LocalActions>
+            <Link href="/#kontakt">Zapytaj o montaż LCD</Link>
+            <Link href="/folie-lcd">Zobacz opis folii LCD</Link>
+          </LocalActions>
+        </LocalHero>
+
+        <LocalHeroVisual>
+          <img
+            src={lcdInstallationImageSrc}
+            alt="Wizualizacja folii LCD na szklanej ścianie w trybie transparentnym i mlecznym"
+            loading="eager"
+            decoding="async"
+          />
+          <figcaption>
+            Folia LCD pozwala przełączać szybę między efektem transparentnym i mlecznym,
+            dlatego dobrze sprawdza się w przeszklonych salach spotkań oraz gabinetach.
+          </figcaption>
+        </LocalHeroVisual>
+      </LocalHeroSplit>
+
+      <LocalGrid>
+        <LocalCard>
+          <span>Technologia</span>
+          <strong>PDLC / smart film</strong>
+          <p>Bez zasilania folia najczęściej jest mleczna, a po podaniu napięcia staje się transparentna.</p>
+        </LocalCard>
+        <LocalCard>
+          <span>Najważniejsze</span>
+          <strong>Zasilanie i krawędzie</strong>
+          <p>Najlepszy efekt daje wcześniejsze zaplanowanie przewodów, zasilacza i sposobu sterowania.</p>
+        </LocalCard>
+        <LocalCard>
+          <span>Kontakt</span>
+          <strong>+48 605 505 714</strong>
+          <p>Do wstępnej wyceny najlepiej wysłać zdjęcia, wymiary od uszczelki do uszczelki i miejsce montażu.</p>
+        </LocalCard>
+      </LocalGrid>
+
+      <LocalSection>
+        <h2>Folia LCD to nie zwykła folia dekoracyjna</h2>
+        <p>
+          W środku folii znajdują się ciekłe kryształy rozproszone w warstwie polimerowej.
+          Gdy nie są uporządkowane, rozpraszają światło i szyba wygląda mlecznie. Po
+          podaniu napięcia kryształy ustawiają się w jednym kierunku, dzięki czemu szkło
+          robi się przejrzyste. Dlatego przy montażu liczy się nie tylko czysta szyba,
+          ale też instalacja elektryczna, estetyka krawędzi i wygodne sterowanie.
+        </p>
+      </LocalSection>
+
+      <LocalSection>
+        <h2>Gdzie montaż folii LCD ma najwięcej sensu?</h2>
+        <LocalList>
+          {lcdInstallationPage.useCases.map((item) => (
+            <li key={item}>{item}</li>
+          ))}
+        </LocalList>
+      </LocalSection>
+
+      <LocalSection>
+        <h2>Co przygotować do wyceny?</h2>
+        <p>
+          Przy folii LCD najważniejsze jest sprawdzenie, czy da się sensownie doprowadzić
+          zasilanie i ukryć elementy instalacji. Im lepsze informacje na starcie, tym
+          łatwiej ocenić realny zakres prac.
+        </p>
+        <LocalList>
+          {lcdInstallationPage.planning.map((item) => (
+            <li key={item}>{item}</li>
+          ))}
+        </LocalList>
+      </LocalSection>
+
+      <LocalSection>
+        <h2>Najważniejsze korzyści</h2>
+        <LocalList>
+          {lcdInstallationPage.benefits.map((item) => (
+            <li key={item}>{item}</li>
+          ))}
+        </LocalList>
+      </LocalSection>
+
+      <LocalSection>
+        <h2>Jak przejść do montażu?</h2>
+        <p>
+          Wyślij zdjęcia przeszklenia, wymiary tafli od uszczelki do uszczelki, miejsce
+          montażu i informację, gdzie można doprowadzić zasilanie. Na tej podstawie można
+          wstępnie ocenić, czy lepszy będzie montaż folii LCD na istniejącej szybie, czy
+          zaplanowanie rozwiązania razem z nową zabudową szklaną.
+        </p>
+        <LocalActions className="local-actions--bottom">
+          <Link href="/#kontakt">Przejdź do formularza</Link>
+        </LocalActions>
+      </LocalSection>
+    </LocalWrap>
+  </main>
 );
 
 export default LocalWindowFilmsPage;

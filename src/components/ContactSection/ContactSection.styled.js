@@ -3,6 +3,7 @@ import { media } from '../Styled/mediaqueries';
 
 export const ContactWrap = styled.section`
   position: relative;
+  isolation: isolate;
   padding: 6rem 5vw 6rem;
   overflow: hidden;
 
@@ -12,14 +13,21 @@ export const ContactWrap = styled.section`
     left: 0;
     right: 0;
     bottom: 0;
-    height: clamp(3rem, 6vw, 6rem);
+    height: clamp(5rem, 9vw, 10rem);
     background: linear-gradient(
       180deg,
       rgba(247, 241, 233, 0) 0%,
-      rgba(247, 241, 233, 0.82) 72%,
+      rgba(247, 241, 233, 0.54) 58%,
+      rgba(247, 241, 233, 0.84) 86%,
       rgba(247, 241, 233, 1) 100%
     );
     pointer-events: none;
+    z-index: 0;
+  }
+
+  > * {
+    position: relative;
+    z-index: 1;
   }
 `;
 

@@ -186,6 +186,7 @@ const Footer = () => {
             <Link href="/montaz-folii-okiennych-katowice">
               Montaż folii okiennych Katowice
             </Link>
+            <Link href="/montaz-folii-lcd">Montaż folii LCD</Link>
             <Link href="/polityka-prywatnosci">Polityka prywatności</Link>
           </FooterCol>
 

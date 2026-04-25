@@ -15,6 +15,7 @@ import imageTermoizolacyjne from '../img/films/folie-termoizolacyjne.svg';
 import imageProjekcyjne from '../img/films/folie-projekcyjne.svg';
 import imageAntykolizyjne from '../img/films/folie-antykolizyjne.svg';
 import imageDemontaz from '../img/films/demontaz-folii-okiennych.svg';
+import imageArchitecturalWraps from '../img/films/okleiny-laminaty-architektoniczne.svg';
 import { filmSeoData } from './filmSeoData';
 import { filmDecisionData } from './filmDecisionData';
 import { filmExtraFaqData } from './filmExtraFaqData';
@@ -104,26 +105,31 @@ const baseFilmsData = [
     path: '/folie-lcd',
     name: 'Folie LCD – inteligentne folie',
     shortDescription:
-      'Przełączalna folia do szklanych ścian, gdzie liczy się sterowanie widocznością.',
+      'Inteligentna folia PDLC/LCD, która zmienia szkło z przezroczystego w mleczne po przełączeniu zasilania.',
     lead:
-      'Inteligentne folie LCD planuje się jak element instalacji, a nie zwykłą dekorację szyby. Poza efektem wizualnym trzeba uwzględnić zasilanie, sterowanie, krawędzie folii i sposób ukrycia przewodów.',
+      'Folie LCD, nazywane też foliami PDLC lub smart film, pozwalają sterować prywatnością na szklanej powierzchni bez rolet, żaluzji i stałego matowienia szyby. W trybie transparentnym szkło pozostaje przejrzyste, a po wyłączeniu zasilania przyjmuje mleczny, rozpraszający obraz wygląd. To rozwiązanie premium do biur, gabinetów, sal konferencyjnych, hoteli, showroomów i nowoczesnych wnętrz, ale wymaga dokładniejszego przygotowania niż klasyczna folia dekoracyjna: trzeba zaplanować zasilanie, sterowanie, krawędzie oraz sposób ukrycia przewodów.',
     highlights: [
-      'przełączanie widoczności bez rolet i zasłon',
-      'projekt wymaga wcześniejszego zaplanowania zasilania',
-      'efekt premium dla szklanych ścian i stref spotkań',
+      'prywatność na żądanie: szkło transparentne albo mleczne po przełączeniu',
+      'nowoczesny efekt bez ciężkich osłon, kaset i prowadnic przy przeszkleniu',
+      'możliwość sterowania przełącznikiem, pilotem lub systemem automatyki po ustaleniu instalacji',
+      'tryb mleczny może działać jako powierzchnia do prezentacji lub projekcji w wybranych aranżacjach',
     ],
     parameters: [
-      'Typ produktu: folia przełączalna',
-      'Zasilanie: wymagane do działania efektu transparentności',
-      'Efekt: szyba przezroczysta lub mleczna',
-      'Zastosowanie: sale konferencyjne, gabinety, strefy prywatne',
+      'Technologia: folia przełączalna PDLC/LCD z ciekłymi kryształami w warstwie polimerowej',
+      'Domyślny efekt: najczęściej mleczny bez zasilania i transparentny po podaniu napięcia',
+      'Zasilanie: wymagany zasilacz oraz zaplanowane prowadzenie przewodów',
+      'Sterowanie: przełącznik, pilot, przycisk ścienny lub integracja z automatyką po uzgodnieniu projektu',
+      'Montaż: na istniejącej szybie lub jako element nowej zabudowy szklanej, zależnie od rozwiązania',
     ],
     usage: [
-      'biura premium i sale spotkań',
-      'gabinetowe przeszklenia wymagające prywatności na żądanie',
-      'projekty wnętrz nowoczesnych i technologicznych',
+      'sale konferencyjne, meeting roomy i szklane boksy w biurach',
+      'gabinety lekarskie, kosmetologiczne, zarządcze i konsultacyjne',
+      'hotele, apartamenty, łazienki premium i strefy spa',
+      'showroomy, witryny i przestrzenie, gdzie szkło ma mieć efekt technologiczny',
+      'przeszklenia, które czasem mają być otwarte wizualnie, a czasem prywatne',
     ],
     image: imageLCD,
+    featuredPath: '/montaz-folii-lcd',
   },
   {
     id: 'polycarbonate',
@@ -436,6 +442,37 @@ const baseFilmsData = [
       'obiekty, które chcą ograniczyć wpływ na środowisko',
     ],
     image: imageAntykolizyjne,
+  },
+  {
+    id: 'architectural-wraps',
+    path: '/okleiny-i-laminaty-architektoniczne',
+    name: 'Okleiny i laminaty architektoniczne',
+    serviceBadge: 'Okleiny i laminaty Lumera',
+    shortDescription:
+      'Metamorfoza ram okiennych, drzwi, futryn, mebli i gładkich powierzchni bez wymiany elementów.',
+    lead:
+      'Okleiny i laminaty architektoniczne to osobna gałąź oferty Lumera: nie są folią okienną na szybę, tylko materiałem do odnawiania i zmiany wyglądu istniejących powierzchni. Stosuje się je na ramy okienne, drzwi, futryny, fronty meblowe, zabudowy, lady, panele i inne gładkie elementy, gdy chcesz uzyskać efekt drewna, kamienia, betonu, metalu albo jednolitego koloru bez demontażu i kosztownej wymiany. To dobre rozwiązanie do mieszkań, lokali usługowych, biur, hoteli i obiektów, w których liczy się szybka, czysta zmiana wizualna przy zachowaniu istniejącej konstrukcji.',
+    highlights: [
+      'zmiana wyglądu powierzchni bez wymiany ram, drzwi, futryn lub mebli',
+      'szeroki wybór wykończeń: drewno, kamień, beton, metal, mat, połysk i kolory jednolite',
+      'czystsza i szybsza alternatywa dla remontu, malowania lub wymiany zabudowy',
+      'możliwość odnowienia elementów, które technicznie są sprawne, ale wizualnie nie pasują do wnętrza',
+    ],
+    parameters: [
+      'To nie jest folia na szybę: montaż dotyczy ram, drzwi, futryn, mebli i wybranych powierzchni gładkich',
+      'Podłoże: stabilne, czyste, odtłuszczone, bez łuszczącej się farby i głębokich uszkodzeń',
+      'Efekt: dekoracyjny laminat lub okleina o wybranym wykończeniu',
+      'Zakres: pojedyncze elementy, komplet drzwi, ramy okienne, zabudowy meblowe, recepcje, lady i fronty',
+      'Wycena: potrzebne zdjęcia powierzchni, wymiary, liczba elementów, miejsce montażu i oczekiwany kierunek wykończenia',
+    ],
+    usage: [
+      'ramy okienne i parapety wewnętrzne, które mają zmienić kolor lub lepiej pasować do wnętrza',
+      'drzwi, futryny i ościeżnice po zmianie aranżacji mieszkania, biura lub lokalu',
+      'fronty meblowe, szafy, zabudowy, lady recepcyjne i elementy wyposażenia',
+      'lokale usługowe, gabinety, biura i hotele wymagające szybkiego odświeżenia bez długiego remontu',
+      'powierzchnie, które są technicznie dobre, ale wizualnie zużyte, niemodne albo niespójne z projektem',
+    ],
+    image: imageArchitecturalWraps,
   },
   {
     id: 'film-removal',

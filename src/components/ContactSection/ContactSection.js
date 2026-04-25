@@ -37,11 +37,13 @@ const IMAGE_MAX_DIMENSION = 2200;
 const IMAGE_COMPRESSION_QUALITY_STEPS = [0.82, 0.72, 0.62];
 const IMAGE_OUTPUT_TYPE = 'image/webp';
 const ALLOWED_FILE_TYPES = ['image/jpeg', 'image/png', 'image/webp', 'application/pdf'];
+const WINDOW_MEASUREMENT_HINT = 'Wymiary podaj od uszczelki do uszczelki.';
 
 const initialForm = {
   name: '',
   phone: '',
   email: '',
+  installationLocation: '',
   topic: 'wybierz',
   message: '',
   website: '',
@@ -377,6 +379,9 @@ const ContactSection = () => {
     } else if (!isValidEmail(form.email)) {
       nextErrors.email = 'Podaj poprawny adres e-mail.';
     }
+    if (!sanitizeText(form.installationLocation)) {
+      nextErrors.installationLocation = 'Podaj miejsce montażu.';
+    }
     if (!sanitizeText(form.message)) nextErrors.message = 'Napisz krótki opis zapytania.';
     if (form.website) nextErrors.form = 'Wysyłka została zablokowana.';
     if (Date.now() - mountedAt.current < 4000) {
@@ -393,11 +398,13 @@ const ContactSection = () => {
   const appendMailFields = (payload) => {
     payload.append('Temat_zapytania', sanitizeText(topicLabel));
     payload.append('wymiary_łącznie', windowsSummary.rows);
+    payload.append('sposob_pomiaru_wymiarow', WINDOW_MEASUREMENT_HINT);
     payload.append('powierzchnia_łącznie', windowsSummary.totalAreaLabel);
     payload.append('sztuk_łącznie', windowsSummary.totalQuantityLabel);
     payload.append('Imie_i_nazwisko', sanitizeText(form.name));
     payload.append('Telefon', sanitizeText(form.phone));
     payload.append('email', sanitizeText(form.email));
+    payload.append('miejsce_montazu', sanitizeText(form.installationLocation));
     payload.append('wybrana_kategoria', sanitizeText(topicLabel));
     payload.append('wiadomosc', sanitizeText(form.message));
   };
@@ -488,7 +495,8 @@ const ContactSection = () => {
           </p>
           <p>
             Nie znasz dokładnych wymiarów? To nie problem. Wyślij zdjęcie okna i
-            krótki opis, a pomożemy ustalić, od czego najlepiej zacząć wycenę.
+            krótki opis, a pomożemy ustalić, od czego najlepiej zacząć wycenę. Jeśli
+            podajesz wymiary, mierz szybę od uszczelki do uszczelki.
           </p>
         </ContactIntro>
 
@@ -514,6 +522,7 @@ const ContactSection = () => {
           </HiddenField>
           <input type="hidden" name="Temat_zapytania" value={topicLabel} />
           <input type="hidden" name="wymiary_łącznie" value={windowsSummary.rows} />
+          <input type="hidden" name="sposob_pomiaru_wymiarow" value={WINDOW_MEASUREMENT_HINT} />
           <input
             type="hidden"
             name="powierzchnia_łącznie"
@@ -586,8 +595,26 @@ const ContactSection = () => {
             </select>
           </FieldGroup>
 
+          <FieldGroup className="contact-form__message" $hasError={Boolean(errors.installationLocation)}>
+            Miejsce montażu
+            <input
+              type="text"
+              name="miejsce_montazu"
+              value={form.installationLocation}
+              onChange={(event) => updateField('installationLocation', event.target.value)}
+              placeholder="Np. Kraków, biuro przy ul. Długiej albo mieszkanie na parterze"
+              autoComplete="street-address"
+              required
+              aria-invalid={Boolean(errors.installationLocation)}
+            />
+            {errors.installationLocation && (
+              <FieldError>{errors.installationLocation}</FieldError>
+            )}
+          </FieldGroup>
+
           <WindowsBuilder $hasError={Boolean(errors.windows)}>
             <strong>Wymiary okien (opcjonalnie)</strong>
+            <FileHint>{WINDOW_MEASUREMENT_HINT}</FileHint>
             <WindowInputs>
               <label>
                 Szerokość w cm

@@ -3,6 +3,7 @@ import { media } from '../Styled/mediaqueries';
 
 export const HeroSection = styled.header`
   position: relative;
+  isolation: isolate;
   padding: 13rem 5vw 7.5rem;
   overflow: hidden;
 
@@ -12,14 +13,22 @@ export const HeroSection = styled.header`
     left: 0;
     right: 0;
     bottom: 0;
-    height: clamp(4rem, 7vw, 8rem);
+    height: clamp(10rem, 16vw, 18rem);
     background: linear-gradient(
       180deg,
       rgba(247, 241, 233, 0) 0%,
-      rgba(247, 241, 233, 0.88) 72%,
-      rgba(247, 241, 233, 1) 100%
+      rgba(247, 241, 233, 0.46) 42%,
+      rgba(247, 241, 233, 0.78) 68%,
+      rgba(247, 241, 233, 0.32) 88%,
+      rgba(247, 241, 233, 0) 100%
     );
     pointer-events: none;
+    z-index: 0;
+  }
+
+  > * {
+    position: relative;
+    z-index: 1;
   }
 `;
 
@@ -72,6 +81,7 @@ export const HeroLead = styled.p`
 
 export const HeroLocation = styled.p`
   width: fit-content;
+  max-width: 100%;
   margin: 1.8rem 0 0;
   padding: 1rem 1.35rem;
   border: 1px solid rgba(43, 98, 86, 0.16);
@@ -81,6 +91,19 @@ export const HeroLocation = styled.p`
   font-size: 1.48rem;
   font-weight: 700;
   line-height: 1.45;
+  overflow-wrap: anywhere;
+
+  ${media.md`
+    width: 100%;
+    border-radius: 2.4rem;
+  `}
+
+  ${media.sm`
+    padding: 1.15rem 1.35rem;
+    border-radius: 2rem;
+    font-size: 1.38rem;
+    line-height: 1.55;
+  `}
 `;
 
 export const HeroPromise = styled.div`

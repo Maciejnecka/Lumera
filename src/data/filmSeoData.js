@@ -121,25 +121,27 @@ export const filmSeoData = {
   },
   lcd: {
     seoDescription:
-      'Folie LCD, czyli inteligentne folie przełączalne, zmieniają szybę z przezroczystej na mleczną i zapewniają prywatność na żądanie.',
-    effectTitle: 'Prywatność sterowana napięciem',
+      'Folie LCD i folie PDLC zmieniają szkło z transparentnego w mleczne, zapewniają prywatność na żądanie i nowoczesny efekt w biurach, gabinetach oraz hotelach.',
+    effectTitle: 'Jak działa inteligentna folia LCD / PDLC?',
     effectLead:
-      'W LCD sama tafla to tylko część rozwiązania. Równie ważne jest miejsce zasilania, sposób sterowania i to, czy przewody da się poprowadzić tak, aby nie psuły efektu gotowej realizacji.',
+      'Warstwa PDLC zawiera mikroskopijne krople ciekłych kryształów rozproszone w polimerze. Bez zasilania kryształy są ustawione chaotycznie, więc rozpraszają światło i folia wygląda mlecznie. Po podaniu napięcia kryształy porządkują się, dzięki czemu szyba staje się transparentna. W praktyce sama folia to tylko część rozwiązania: równie ważne jest miejsce zasilania, sterowanie, krawędzie i estetyczne poprowadzenie przewodów.',
     effectDetails: [
-      ['Efekt wizualny', 'przezroczysty lub mleczny, zależnie od stanu zasilania'],
-      ['Sterowanie', 'przełącznik, pilot lub inny ustalony sposób obsługi'],
-      ['Światło', 'zachowane jako jasne, rozproszone światło w trybie mlecznym'],
-      ['Instalacja', 'wymaga zasilania i zaplanowania prowadzenia przewodów'],
+      ['Efekt wizualny', 'transparentny po zasileniu lub mleczny w trybie prywatności'],
+      ['Prywatność', 'mocne rozproszenie obrazu przy zachowaniu jasnego światła'],
+      ['Sterowanie', 'przełącznik, pilot, przycisk ścienny albo automatyka po uzgodnieniu'],
+      ['Projekt', 'wymaga zasilacza, przewodów i wykończenia krawędzi'],
     ],
     bestFor: [
-      'szklane ściany, w których nie ma miejsca na klasyczne osłony',
-      'gabinet lub sala spotkań z zaplanowaną instalacją elektryczną',
-      'wnętrza premium, gdzie technologia ma być częścią projektu',
+      'szklane ściany, sale spotkań i gabinety, gdzie prywatność jest potrzebna tylko czasami',
+      'nowe aranżacje biurowe, w których instalację elektryczną można zaplanować przed montażem',
+      'hotele, apartamenty i wnętrza premium, gdzie technologia ma być elementem projektu',
+      'showroomy i przestrzenie ekspozycyjne, w których szyba może też pełnić funkcję prezentacyjną',
     ],
     beforeInstall: [
-      'warto wcześniej zaplanować zasilanie i sterowanie',
-      'krawędzie oraz przewody powinny być estetycznie ukryte',
-      'folia LCD nie jest zwykłą folią dekoracyjną, dlatego wymaga dokładniejszego przygotowania',
+      'trzeba określić, gdzie będzie zasilacz, przewody i punkt sterowania',
+      'warto sprawdzić, czy krawędzie da się ukryć w profilu, ramie lub zabudowie',
+      'należy podać dokładne wymiary szyb od uszczelki do uszczelki, liczbę tafli i zdjęcia miejsca montażu',
+      'folia LCD nie jest zwykłą folią dekoracyjną, dlatego wymaga dokładniejszego przygotowania i koordynacji',
     ],
     faq: [
       {
@@ -156,6 +158,11 @@ export const filmSeoData = {
         question: 'Czy folię LCD można zastosować jako ekran projekcyjny?',
         answer:
           'W wielu aranżacjach tryb mleczny może służyć jako powierzchnia do prezentacji, ale efekt zależy od projektora i warunków światła.',
+      },
+      {
+        question: 'Czy folia LCD nadaje się do starej szyby?',
+        answer:
+          'Czasem tak, jeśli szkło jest stabilne, czyste i ma odpowiednie warunki do estetycznego wyprowadzenia zasilania. Przed decyzją potrzebne są zdjęcia, wymiary i informacja o dostępie do krawędzi.',
       },
     ],
   },
@@ -636,6 +643,53 @@ export const filmSeoData = {
         question: 'Czy folia antykolizyjna pogarsza widok przez szybę?',
         answer:
           'Może być zauważalna, ale dobry dobór wzoru pozwala ograniczyć wpływ na estetykę i widoczność.',
+      },
+    ],
+  },
+  'architectural-wraps': {
+    seoDescription:
+      'Okleiny i laminaty architektoniczne do ram okiennych, drzwi, futryn, mebli, lad i gładkich powierzchni. Renowacja wyglądu bez wymiany elementów.',
+    effectTitle: 'Nowy wygląd powierzchni bez wymiany sprawnych elementów',
+    effectLead:
+      'Okleina architektoniczna działa inaczej niż folia okienna. Nie zmienia parametrów szyby, tylko pozwala odnowić lub przebudować wizualnie istniejący element: ramę okienną, drzwi, futrynę, front meblowy, ladę, panel lub zabudowę. Najważniejsze jest przygotowanie podłoża, dobór wykończenia i staranne wyprowadzenie krawędzi, bo to one decydują, czy efekt będzie wyglądał jak część wnętrza, a nie jak doraźna naklejka.',
+    effectDetails: [
+      ['Typ powierzchni', 'ramy, drzwi, futryny, fronty, meble, lady, panele i wybrane gładkie elementy'],
+      ['Efekt wizualny', 'drewno, kamień, beton, metal, mat, połysk lub kolor jednolity'],
+      ['Charakter usługi', 'renowacja i zmiana wyglądu powierzchni, nie folia na szybę'],
+      ['Przygotowanie', 'czyszczenie, odtłuszczenie, ocena krawędzi, narożników i stanu podłoża'],
+    ],
+    bestFor: [
+      'wnętrza, w których elementy są sprawne, ale kolor lub struktura nie pasuje do nowej aranżacji',
+      'lokale, biura i gabinety, gdzie szybka metamorfoza jest lepsza niż wymiana drzwi, lad lub mebli',
+      'ramy okienne, futryny i drzwi wymagające spójnego wykończenia z resztą projektu',
+      'powierzchnie narażone na codzienne użytkowanie, które potrzebują estetycznego i praktycznego odświeżenia',
+    ],
+    beforeInstall: [
+      'trzeba sprawdzić, czy podłoże jest stabilne, suche, czyste i bez łuszczących się warstw',
+      'głębokie ubytki, spuchnięte płyty, odpadający lakier lub nierówności mogą wymagać naprawy przed oklejeniem',
+      'warto wcześniej wybrać kierunek stylistyczny: drewno, kamień, metal, beton, kolor lub neutralny mat',
+      'do wyceny potrzebne są zdjęcia całości i detali, wymiary elementów oraz miejsce montażu',
+    ],
+    faq: [
+      {
+        question: 'Czy okleiny i laminaty architektoniczne są folią okienną?',
+        answer:
+          'Nie. To rozwiązanie do powierzchni takich jak ramy, drzwi, futryny, fronty meblowe, lady i zabudowy. Folie okienne montuje się na szkło, a okleiny architektoniczne służą do zmiany wyglądu innych elementów.',
+      },
+      {
+        question: 'Czy można okleić ramy okienne bez wymiany okien?',
+        answer:
+          'W wielu przypadkach tak, jeśli rama jest stabilna, czysta i nie ma uszkodzeń, które uniemożliwiają estetyczne wykończenie krawędzi. Przed decyzją potrzebne są zdjęcia ramy, narożników i miejsca montażu.',
+      },
+      {
+        question: 'Czy okleiną można odnowić drzwi lub futryny?',
+        answer:
+          'Tak, to jedno z typowych zastosowań. Okleina pozwala zmienić kolor lub strukturę drzwi i ościeżnic bez wymiany kompletu, pod warunkiem że powierzchnia nadaje się do przygotowania i aplikacji.',
+      },
+      {
+        question: 'Czy taka powierzchnia jest odporna na codzienne użytkowanie?',
+        answer:
+          'Dobrze dobrany laminat jest przeznaczony do codziennego użytkowania, ale trwałość zależy od rodzaju podłoża, jakości przygotowania, intensywności eksploatacji i późniejszej pielęgnacji.',
       },
     ],
   },

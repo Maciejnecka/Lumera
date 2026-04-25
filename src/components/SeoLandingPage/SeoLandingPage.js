@@ -65,6 +65,7 @@ const SeoLandingPage = ({ page, type, breadcrumbs }) => {
             <strong>{mainFilm?.name || 'Folie okienne Lumera'}</strong>
             <p>
               Każde zapytanie warto uzupełnić o zdjęcia, wymiary i krótki opis sytuacji.
+              Wymiary szyby najlepiej podawać od uszczelki do uszczelki.
               To przyspiesza wstępny dobór.
             </p>
           </SeoCard>
@@ -151,9 +152,10 @@ const SeoLandingPage = ({ page, type, breadcrumbs }) => {
         <SeoSection>
           <h2>Jak przejść od pomysłu do wyceny?</h2>
           <p>
-            Najprościej wysłać zdjęcie okna, orientacyjne wymiary, liczbę szyb i krótko
-            opisać, co przeszkadza: ciepło, brak prywatności, odblaski, ryzyko uszkodzenia
-            szyby albo potrzeba estetycznego wykończenia.
+            Najprościej wysłać zdjęcie okna, orientacyjne wymiary od uszczelki do
+            uszczelki, liczbę szyb i krótko opisać, co przeszkadza: ciepło, brak
+            prywatności, odblaski, ryzyko uszkodzenia szyby albo potrzeba estetycznego
+            wykończenia.
           </p>
           <SeoActions className="seo-actions--bottom">
             <Link href="/#kontakt">Przejdź do formularza</Link>

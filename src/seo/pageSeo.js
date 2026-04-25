@@ -24,6 +24,11 @@ const staticPages = {
     description:
       'Montaż folii okiennych w Katowicach i okolicach. Dobór folii przeciwsłonecznych, matowych, ochronnych, antywłamaniowych i specjalistycznych.',
   },
+  '/montaz-folii-lcd': {
+    title: 'Montaż folii LCD i folii PDLC | Lumera',
+    description:
+      'Montaż folii LCD i inteligentnych folii PDLC do szklanych ścian, sal konferencyjnych, gabinetów, hoteli i przestrzeni premium.',
+  },
   '/polityka-prywatnosci': {
     title: 'Polityka prywatności | Lumera',
     description:

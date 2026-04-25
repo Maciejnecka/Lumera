@@ -46,6 +46,16 @@ export const filmExtraFaqData = {
       answer:
         'W wielu przypadkach tak, ale szyba musi być odpowiednio przygotowana, a projekt powinien uwzględniać zasilanie, krawędzie folii i estetyczne ukrycie instalacji.',
     },
+    {
+      question: 'Czy folia LCD zastępuje rolety w sali konferencyjnej?',
+      answer:
+        'Może zastąpić je w zakresie prywatności wizualnej, ale nie jest tym samym co roleta zaciemniająca. W trybie mlecznym przepuszcza jasne, rozproszone światło, więc dobrze działa jako elegancka osłona prywatności, a nie jako pełne zaciemnienie.',
+    },
+    {
+      question: 'Jakie informacje są potrzebne do wyceny folii LCD?',
+      answer:
+        'Najbardziej pomagają dokładne wymiary tafli mierzone od uszczelki do uszczelki, liczba szyb, zdjęcia całego przeszklenia, zdjęcia krawędzi, informacja o miejscu zasilania oraz opis oczekiwanego sposobu sterowania.',
+    },
   ],
   polycarbonate: [
     {
@@ -189,6 +199,23 @@ export const filmExtraFaqData = {
       question: 'Czy zwykłe naklejki wystarczą zamiast folii antykolizyjnej?',
       answer:
         'Pojedyncze naklejki często są zbyt rzadkie lub źle rozmieszczone. Skuteczniejsze jest zaplanowane oznaczenie szyby odpowiednim wzorem i odstępami.',
+    },
+  ],
+  'architectural-wraps': [
+    {
+      question: 'Jakie zdjęcia są potrzebne do wyceny oklein i laminatów?',
+      answer:
+        'Najlepiej wysłać zdjęcie całego elementu, zbliżenia narożników i krawędzi, informację o wymiarach, liczbie elementów oraz miejscu montażu. Przy drzwiach i meblach pomagają także zdjęcia uchwytów, zawiasów i miejsc intensywnie używanych.',
+    },
+    {
+      question: 'Czy okleiną można zmienić kolor mebli w lokalu usługowym?',
+      answer:
+        'Tak, jeśli fronty, lady lub zabudowy mają stabilną i odpowiednio gładką powierzchnię. To dobre rozwiązanie przy odświeżeniu recepcji, gabinetu, biura lub lokalu bez długiego remontu.',
+    },
+    {
+      question: 'Czy okleiny sprawdzą się w wilgotnych miejscach?',
+      answer:
+        'Wybrane laminaty mogą być stosowane w miejscach narażonych na wilgoć, ale każdorazowo trzeba sprawdzić powierzchnię, krawędzie, sposób użytkowania i ryzyko stałego zalewania wodą.',
     },
   ],
   'film-removal': [

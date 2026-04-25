@@ -58,21 +58,24 @@ export const filmDecisionData = {
   },
   lcd: {
     decisionIntro:
-      'Przy LCD decyzja zaczyna się od instalacji: gdzie będzie zasilanie, jak użytkownik będzie przełączał folię i czy krawędzie da się estetycznie wykończyć.',
+      'Przy folii LCD decyzja zaczyna się od instalacji, nie od samej tafli: gdzie będzie zasilanie, jak użytkownik będzie przełączał folię, czy przewody da się schować i jak zostaną wykończone krawędzie. To rozwiązanie daje mocny efekt premium, ale najlepsze rezultaty osiąga wtedy, gdy jest zaplanowane razem ze szklaną zabudową albo remontem wnętrza.',
     chooseWhen: [
       'instalacja elektryczna może być zaplanowana przed montażem',
       'szyba jest częścią projektu wnętrza, a nie tylko przegrodą',
       'ważny jest efekt technologiczny i czyste wykończenie detali',
+      'prywatność ma być dostępna na żądanie, bez stałego zasłaniania przeszklenia',
     ],
     betterAlternative: [
       'jeśli nie chcesz instalacji elektrycznej, wybierz folię matową lub mrożoną',
       'jeśli prywatność ma być stała, folia dekoracyjna będzie prostsza',
       'jeśli liczy się głównie ochrona przed słońcem, lepsza będzie folia przeciwsłoneczna',
+      'jeśli krawędzie szkła są całkowicie niedostępne, najpierw trzeba sprawdzić realną możliwość podłączenia',
     ],
     maintenance: [
       'nie zalewaj krawędzi i elementów instalacji podczas czyszczenia',
       'używaj miękkich materiałów i łagodnych środków do czyszczenia tafli',
       'sterowanie i przewody warto opisać użytkownikom po zakończeniu montażu',
+      'przy większych realizacjach warto zaplanować dostęp serwisowy do zasilacza i sterowania',
     ],
   },
   polycarbonate: {
@@ -301,6 +304,27 @@ export const filmDecisionData = {
       'oznaczenia powinny pozostać czyste i dobrze widoczne',
       'nie szoruj wzoru ostrymi narzędziami',
       'przy dużych elewacjach warto okresowo sprawdzać stan aplikacji',
+    ],
+  },
+  'architectural-wraps': {
+    decisionIntro:
+      'Okleiny i laminaty architektoniczne warto rozważyć wtedy, gdy element jest technicznie sprawny, ale wizualnie odstaje od wnętrza. Zamiast wymieniać drzwi, futryny, ramy okienne albo meble, można zmienić ich kolor, strukturę i odbiór przez starannie dobrane wykończenie.',
+    chooseWhen: [
+      'chcesz odświeżyć wygląd bez kucia, demontażu i wymiany sprawnych elementów',
+      'ramy, drzwi, futryny lub meble nie pasują do nowej aranżacji',
+      'potrzebujesz spójnego efektu w lokalu, biurze, gabinecie, recepcji lub mieszkaniu',
+      'zależy Ci na szybkim, czystym montażu i szerokim wyborze wykończeń',
+    ],
+    betterAlternative: [
+      'jeśli podłoże jest spuchnięte, ruchome albo mocno zniszczone, najpierw potrzebna może być naprawa lub wymiana elementu',
+      'jeśli chcesz poprawić komfort przy szybie, wybierz klasyczną folię okienną, nie okleinę architektoniczną',
+      'jeśli powierzchnia jest mocno strukturalna, porowata lub łuszcząca się, trzeba najpierw ocenić realną przyczepność i przygotowanie',
+    ],
+    maintenance: [
+      'czyść powierzchnię miękką ściereczką i łagodnymi środkami',
+      'unikaj ostrych narzędzi, agresywnych rozpuszczalników i punktowego podważania krawędzi',
+      'w miejscach intensywnie używanych warto zwracać uwagę na narożniki, uchwyty i krawędzie',
+      'po montażu warto omówić, które środki czyszczenia będą najlepsze dla wybranego wykończenia',
     ],
   },
   'film-removal': {

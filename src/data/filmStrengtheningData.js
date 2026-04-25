@@ -9,7 +9,7 @@ export const filmStrengtheningData = {
       {
         title: 'Jakie informacje pomagają w doborze?',
         text:
-          'Przy pierwszym kontakcie warto podać ekspozycję okien, orientacyjne wymiary, liczbę szyb, piętro, dostęp do przeszklenia i to, czy ważniejsza jest redukcja ciepła, odblasków czy zachowanie jasności.',
+          'Przy pierwszym kontakcie warto podać ekspozycję okien, orientacyjne wymiary od uszczelki do uszczelki, liczbę szyb, piętro, dostęp do przeszklenia i to, czy ważniejsza jest redukcja ciepła, odblasków czy zachowanie jasności.',
       },
     ],
     problemLinks: ['/jak-ograniczyc-nagrzewanie-mieszkania', '/folia-na-okna-od-poludnia'],
@@ -29,7 +29,7 @@ export const filmStrengtheningData = {
       },
     ],
     problemLinks: ['/folia-na-okno-przed-sasiadami', '/folia-na-okna-od-poludnia'],
-    localLinks: ['/folie-lustra-weneckie-krakow'],
+    localLinks: ['/folie-lustra-weneckie-krakow', '/folie-lustra-weneckie-katowice'],
   },
   matte: {
     seoContentBlocks: [
@@ -45,7 +45,7 @@ export const filmStrengtheningData = {
       },
     ],
     problemLinks: ['/folia-na-okno-przed-sasiadami', '/folia-na-szybe-do-lazienki'],
-    localLinks: ['/folie-matowe-krakow'],
+    localLinks: ['/folie-matowe-krakow', '/folie-matowe-katowice'],
   },
   'anti-burglary': {
     seoContentBlocks: [
@@ -61,7 +61,7 @@ export const filmStrengtheningData = {
       },
     ],
     problemLinks: ['/folia-na-witryne-sklepowa'],
-    localLinks: ['/folie-antywlamaniowe-krakow'],
+    localLinks: ['/folie-antywlamaniowe-krakow', '/folie-antywlamaniowe-katowice'],
   },
   lcd: {
     seoContentBlocks: [
@@ -80,5 +80,30 @@ export const filmStrengtheningData = {
     localLinks: ['/folie-lcd-krakow', '/folie-lcd-katowice'],
     featuredNote:
       'Przy folii LCD kluczowe są detale montażowe: zasilanie, sterowanie, krawędzie i sposób ukrycia przewodów.',
+  },
+  'architectural-wraps': {
+    seoContentBlocks: [
+      {
+        title: 'Najpierw powierzchnia, potem wykończenie',
+        text:
+          'Przy okleinach i laminatach architektonicznych kluczowy jest stan podłoża: czy jest stabilne, gładkie, czyste i czy krawędzie da się estetycznie wykończyć. Dopiero potem dobiera się strukturę, kolor i kierunek wizualny.',
+      },
+      {
+        title: 'Kiedy to jest lepsze niż wymiana?',
+        text:
+          'Gdy rama, drzwi, futryna albo mebel są technicznie sprawne, ale wizualnie nie pasują do wnętrza. Okleina pozwala skrócić czas prac i uniknąć cięższego remontu, jeśli powierzchnia nadaje się do aplikacji.',
+      },
+    ],
+    problemLinks: [],
+    localLinks: [
+      '/okleiny-i-laminaty-krakow',
+      '/okleiny-i-laminaty-katowice',
+      '/oklejanie-ram-okiennych-krakow',
+      '/oklejanie-ram-okiennych-katowice',
+      '/oklejanie-drzwi-i-mebli-krakow',
+      '/oklejanie-drzwi-i-mebli-katowice',
+    ],
+    featuredNote:
+      'To osobna usługa obok folii na szyby: dotyczy ram, drzwi, futryn, mebli, lad i innych stabilnych powierzchni.',
   },
 };

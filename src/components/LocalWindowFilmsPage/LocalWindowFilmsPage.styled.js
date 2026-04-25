@@ -11,6 +11,7 @@ export const LocalWrap = styled.div`
 
 export const LocalHero = styled.section`
   position: relative;
+  isolation: isolate;
   padding: clamp(3rem, 6vw, 5.8rem);
   overflow: hidden;
   border: 1px solid var(--border-light);
@@ -30,6 +31,12 @@ export const LocalHero = styled.section`
     border: 1px solid rgba(43, 98, 86, 0.14);
     border-radius: 999px;
     pointer-events: none;
+    z-index: 0;
+  }
+
+  > * {
+    position: relative;
+    z-index: 1;
   }
 `;
 
@@ -115,6 +122,59 @@ export const LocalGrid = styled.div`
 
   ${media.lg`
     grid-template-columns: 1fr;
+  `}
+`;
+
+export const LocalHeroSplit = styled.section`
+  display: grid;
+  gap: 1.6rem;
+`;
+
+export const LocalHeroVisual = styled.figure`
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--border-light);
+  border-radius: 3.2rem;
+  background: rgba(248, 244, 236, 0.92);
+  box-shadow: var(--shadow-md);
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  figcaption {
+    position: absolute;
+    left: 1.6rem;
+    right: 1.6rem;
+    bottom: 1.6rem;
+    padding: 1.2rem 1.4rem;
+    border: 1px solid rgba(255, 255, 255, 0.58);
+    border-radius: 1.8rem;
+    background: rgba(24, 51, 41, 0.78);
+    color: #fffdf8;
+    font-size: 1.35rem;
+    line-height: 1.55;
+    backdrop-filter: blur(10px);
+  }
+
+  ${media.sm`
+    border-radius: 2.4rem;
+
+    img {
+      height: 28rem;
+      min-height: 28rem;
+      object-fit: cover;
+    }
+
+    figcaption {
+      position: static;
+      margin: 1rem;
+      border-color: rgba(24, 51, 41, 0.14);
+      background: rgba(24, 51, 41, 0.92);
+    }
   `}
 `;
 

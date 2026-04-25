@@ -1,5 +1,6 @@
 import FilmDetailPage from '../src/components/FilmDetailPage';
 import LocalWindowFilmsPage, {
+  LcdInstallationPage,
   LocalWindowFilmsKatowicePage,
 } from '../src/components/LocalWindowFilmsPage/LocalWindowFilmsPage';
 import PrivacyPolicyPage from '../src/components/PrivacyPolicyPage';
@@ -27,6 +28,14 @@ const localPages = {
     breadcrumbs: [
       { label: 'Strona główna', href: '/' },
       { label: 'Montaż folii okiennych w Katowicach', href: '/montaz-folii-okiennych-katowice' },
+    ],
+  },
+  'montaz-folii-lcd': {
+    path: '/montaz-folii-lcd',
+    component: LcdInstallationPage,
+    breadcrumbs: [
+      { label: 'Strona główna', href: '/' },
+      { label: 'Montaż folii LCD', href: '/montaz-folii-lcd' },
     ],
   },
   'polityka-prywatnosci': {
@@ -57,7 +66,7 @@ const buildFaqSchema = (entity) =>
 
 const buildFilmBreadcrumbs = (film) => [
   { label: 'Strona główna', href: '/' },
-  { label: film.name, href: film.path },
+  { label: 'Folie', href: '/#folie-okienne' },
 ];
 
 const buildProblemBreadcrumbs = (page) => [

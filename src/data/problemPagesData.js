@@ -63,7 +63,14 @@ export const problemPagesData = [
       },
     ],
     recommendedFilms: ['/folie-matowe', '/folie-mrozone', '/folie-lustra-weneckie', '/folie-lcd'],
-    localLinks: ['/folie-matowe-krakow', '/folie-lustra-weneckie-krakow', '/folie-lcd-krakow'],
+    localLinks: [
+      '/folie-matowe-krakow',
+      '/folie-matowe-katowice',
+      '/folie-lustra-weneckie-krakow',
+      '/folie-lustra-weneckie-katowice',
+      '/folie-lcd-krakow',
+      '/folie-lcd-katowice',
+    ],
     faq: [
       {
         question: 'Czy lustro weneckie działa wieczorem?',
@@ -96,11 +103,11 @@ export const problemPagesData = [
       {
         heading: 'Co przesłać do wyceny?',
         text:
-          'Najlepiej podać wymiary szyby, liczbę elementów, zdjęcie okna oraz informację, czy folia ma zakrywać całą powierzchnię, czy tylko wybrany pas.',
+          'Najlepiej podać wymiary szyby od uszczelki do uszczelki, liczbę elementów, zdjęcie okna oraz informację, czy folia ma zakrywać całą powierzchnię, czy tylko wybrany pas.',
       },
     ],
     recommendedFilms: ['/folie-matowe', '/folie-mrozone'],
-    localLinks: ['/folie-matowe-krakow'],
+    localLinks: ['/folie-matowe-krakow', '/folie-matowe-katowice'],
     faq: [
       {
         question: 'Czy folia do łazienki zaciemni pomieszczenie?',
@@ -128,7 +135,7 @@ export const problemPagesData = [
       {
         heading: 'Dobór zależy od funkcji szyby',
         text:
-          'Inna folia sprawdzi się na witrynie nasłonecznionej, inna na szybie przy wejściu, a inna przy dekoracji lub oznakowaniu. Przy większych przeszkleniach warto od razu przesłać zdjęcia frontu i orientacyjne wymiary.',
+          'Inna folia sprawdzi się na witrynie nasłonecznionej, inna na szybie przy wejściu, a inna przy dekoracji lub oznakowaniu. Przy większych przeszkleniach warto od razu przesłać zdjęcia frontu i orientacyjne wymiary od uszczelki do uszczelki.',
       },
     ],
     recommendedFilms: [
@@ -138,7 +145,12 @@ export const problemPagesData = [
       '/folie-mrozone',
       '/folie-ochronne',
     ],
-    localLinks: ['/folie-przeciwsloneczne-krakow', '/folie-antywlamaniowe-krakow'],
+    localLinks: [
+      '/folie-przeciwsloneczne-krakow',
+      '/folie-przeciwsloneczne-katowice',
+      '/folie-antywlamaniowe-krakow',
+      '/folie-antywlamaniowe-katowice',
+    ],
     faq: [
       {
         question: 'Czy jedna folia może łączyć ochronę i efekt wizualny?',

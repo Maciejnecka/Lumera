@@ -57,8 +57,13 @@ const FilmDetailPage = ({ film, breadcrumbs }) => {
           <DetailHeroCopy data-aos="fade-up">
             <DetailHeroMeta>
               <Breadcrumbs items={breadcrumbs} />
-              <DetailBackLink href="/">← Wróć na stronę główną</DetailBackLink>
-              <DetailHeroBadge>Folie okienne Lumera</DetailHeroBadge>
+              <DetailBackLink href="/">
+                <span aria-hidden="true" className="detail-back-link__arrow">
+                  &lt;
+                </span>
+                <span>Wróć na stronę główną</span>
+              </DetailBackLink>
+              <DetailHeroBadge>{film.serviceBadge || 'Folie okienne Lumera'}</DetailHeroBadge>
             </DetailHeroMeta>
             <DetailHeroTitle>{film.name}</DetailHeroTitle>
             <DetailHeroLead>{film.lead}</DetailHeroLead>
@@ -68,7 +73,7 @@ const FilmDetailPage = ({ film, breadcrumbs }) => {
                 Zapytaj o montaż
               </button>
               <button type="button" onClick={() => goToHomeSection('folie-okienne')}>
-                Zobacz pozostałe folie
+                Zobacz pozostałe rozwiązania
               </button>
             </DetailHeroActions>
           </DetailHeroCopy>
@@ -213,7 +218,7 @@ const FilmDetailPage = ({ film, breadcrumbs }) => {
               >
                 <span>Kontakt</span>
                 <strong>Dobierzemy folię do Twojego okna</strong>
-                <p>Wyślij zdjęcia, wymiary i krótki opis problemu przy szybie.</p>
+                <p>Wyślij zdjęcia, wymiary od uszczelki do uszczelki i krótki opis problemu przy szybie.</p>
               </DetailLinkCard>
             </DetailLinkGrid>
           </DetailSection>

@@ -27,16 +27,31 @@ export const DetailHeroCopy = styled.div`
 `;
 
 export const DetailHeroMeta = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: start;
+  justify-content: start;
   gap: 1rem;
   margin-bottom: 2.1rem;
+
+  nav {
+    grid-column: 1 / -1;
+    margin-bottom: 0;
+    min-width: 0;
+  }
+
+  ${media.sm`
+    grid-template-columns: 1fr;
+    align-items: start;
+  `}
 `;
 
 export const DetailBackLink = styled(Link)`
   display: inline-flex;
   align-items: center;
+  justify-content: center;
+  justify-self: start;
+  gap: 0.65rem;
   min-height: 4rem;
   padding: 0 1.3rem;
   border: 1px solid rgba(43, 98, 86, 0.16);
@@ -50,13 +65,29 @@ export const DetailBackLink = styled(Link)`
     transform var(--transition-fast),
     background var(--transition-fast);
 
+  .detail-back-link__arrow {
+    width: 1.45rem;
+    height: 1.45rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 1.45rem;
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+
   &:hover {
     transform: translateY(-1px);
     background: rgba(255, 255, 255, 0.84);
   }
+
+  ${media.sm`
+    justify-self: start;
+  `}
 `;
 
 export const DetailHeroBadge = styled.span`
+  width: fit-content;
   display: inline-flex;
   align-items: center;
   min-height: 4rem;

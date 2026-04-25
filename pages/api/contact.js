@@ -140,6 +140,9 @@ const validatePayload = (fields, files) => {
   if (!email || !isValidEmail(email)) {
     errors.push('Podaj poprawny adres e-mail.');
   }
+  if (!sanitizeText(getField(fields, 'miejsce_montazu'))) {
+    errors.push('Podaj miejsce montażu.');
+  }
   if (!sanitizeText(getField(fields, 'wybrana_kategoria'))) {
     errors.push('Wybierz kategorię zapytania.');
   }
@@ -164,11 +167,13 @@ const validatePayload = (fields, files) => {
 const buildRows = (fields, files) => [
   ['Temat_zapytania', getField(fields, 'Temat_zapytania')],
   ['wymiary_łącznie', getField(fields, 'wymiary_łącznie')],
+  ['sposob_pomiaru_wymiarow', getField(fields, 'sposob_pomiaru_wymiarow')],
   ['powierzchnia_łącznie', getField(fields, 'powierzchnia_łącznie')],
   ['sztuk_łącznie', getField(fields, 'sztuk_łącznie')],
   ['Imie_i_nazwisko', getField(fields, 'Imie_i_nazwisko')],
   ['Telefon', getField(fields, 'Telefon')],
   ['email', getField(fields, 'email')],
+  ['miejsce_montazu', getField(fields, 'miejsce_montazu')],
   ['wybrana_kategoria', getField(fields, 'wybrana_kategoria')],
   ['wiadomosc', getField(fields, 'wiadomosc')],
   ['attachment', files.length ? files.map((file) => file.originalFilename).join(', ') : 'brak'],

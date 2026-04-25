@@ -3,6 +3,7 @@ import { media } from '../Styled/mediaqueries';
 
 export const TestimonialsSection = styled.section`
   position: relative;
+  isolation: isolate;
   width: 100%;
   padding: 3.6rem 5vw 6.2rem;
   overflow: hidden;
@@ -13,14 +14,21 @@ export const TestimonialsSection = styled.section`
     left: 0;
     right: 0;
     bottom: 0;
-    height: clamp(4rem, 7vw, 8rem);
+    height: clamp(6rem, 10vw, 11rem);
     background: linear-gradient(
       180deg,
       rgba(247, 241, 233, 0) 0%,
-      rgba(247, 241, 233, 0.88) 72%,
+      rgba(247, 241, 233, 0.58) 58%,
+      rgba(247, 241, 233, 0.88) 86%,
       rgba(247, 241, 233, 1) 100%
     );
     pointer-events: none;
+    z-index: 0;
+  }
+
+  > * {
+    position: relative;
+    z-index: 1;
   }
 `;
 

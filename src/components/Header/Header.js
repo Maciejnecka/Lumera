@@ -53,6 +53,7 @@ const Header = () => {
             <strong>Nie musisz wiedzieć, jakiej folii potrzebujesz.</strong>
             <p>
               Wyślij zdjęcie okna, orientacyjne wymiary i krótki opis problemu.
+              Wymiary najlepiej podać od uszczelki do uszczelki.
               Podpowiemy, które rozwiązanie ma sens przed umawianiem montażu.
             </p>
             <HeroPromiseLink href="#kontakt">Wyślij zdjęcia do oceny</HeroPromiseLink>
