@@ -3,8 +3,6 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { throttle } from 'lodash';
 import StyledNavbar from './Navigation.styled';
-import HamburgerIcon from '../../icons/Hamburger.svg';
-import CloseIcon from '../../icons/Close.svg';
 import LogoIcon from '../../icons/logo/LumeraLogo.svg';
 import { filmsData } from '../../data/filmsData';
 
@@ -132,11 +130,9 @@ const Navigation = () => {
           aria-expanded={isNavOpen}
           onClick={() => setIsNavOpen((value) => !value)}
         >
-          {isNavOpen ? (
-            <img src={CloseIcon} alt="" className="navbar__toggle-icon" aria-hidden="true" />
-          ) : (
-            <img src={HamburgerIcon} alt="" className="navbar__toggle-icon" aria-hidden="true" />
-          )}
+          <span className="navbar__toggle-line" aria-hidden="true" />
+          <span className="navbar__toggle-line" aria-hidden="true" />
+          <span className="navbar__toggle-line" aria-hidden="true" />
         </button>
 
         <div className="navbar__links">

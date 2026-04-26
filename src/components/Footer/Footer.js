@@ -180,6 +180,7 @@ const Footer = () => {
 
           <FooterCol>
             <h3>Informacje</h3>
+            <Link href="/folie-okienne-lokalnie">Folie okienne lokalnie</Link>
             <Link href="/montaz-folii-okiennych-krakow">
               Montaż folii okiennych Kraków
             </Link>

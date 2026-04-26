@@ -336,6 +336,89 @@ export const FeaturedFilmVisual = styled.div`
   }
 `;
 
+export const LocalMountPanel = styled.article`
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto 2.8rem;
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(28rem, 1.1fr);
+  gap: 1.8rem;
+  align-items: center;
+  padding: clamp(2rem, 3vw, 2.8rem);
+  border: 1px solid rgba(43, 98, 86, 0.12);
+  border-radius: 2.4rem;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.78), rgba(248, 244, 236, 0.9)),
+    radial-gradient(circle at 8% 18%, rgba(214, 177, 104, 0.14), transparent 32%);
+  box-shadow: var(--shadow-sm);
+
+  span {
+    display: inline-block;
+    margin-bottom: 0.8rem;
+    color: var(--accent-primary);
+    font-size: 1.15rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    margin: 0 0 0.8rem;
+    color: var(--font-title);
+    font-size: clamp(2.4rem, 3vw, 3.3rem);
+    line-height: 1.12;
+    letter-spacing: -0.03em;
+  }
+
+  p {
+    max-width: 58rem;
+    margin: 0;
+    color: var(--font-main);
+    font-size: 1.5rem;
+    line-height: 1.7;
+  }
+
+  @media (max-width: 820px) {
+    grid-template-columns: 1fr;
+  }
+`;
+
+export const LocalMountLinks = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: flex-end;
+
+  a {
+    min-height: 3.9rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1.2rem;
+    border: 1px solid rgba(43, 98, 86, 0.12);
+    border-radius: 999px;
+    background: rgba(43, 98, 86, 0.08);
+    color: var(--accent-primary);
+    font-size: 1.34rem;
+    font-weight: 800;
+    transition:
+      transform var(--transition-fast),
+      background var(--transition-fast),
+      color var(--transition-fast);
+  }
+
+  a.is-main,
+  a:hover {
+    transform: translateY(-1px);
+    background: var(--accent-primary);
+    color: #fffdf8;
+  }
+
+  @media (max-width: 820px) {
+    justify-content: flex-start;
+  }
+`;
+
 export const SliderToolbar = styled.div`
   position: relative;
   width: 100%;

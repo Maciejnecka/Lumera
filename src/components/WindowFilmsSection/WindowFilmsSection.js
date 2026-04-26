@@ -12,6 +12,8 @@ import {
   FeaturedFilm,
   FeaturedFilmCopy,
   FeaturedFilmVisual,
+  LocalMountPanel,
+  LocalMountLinks,
   ProblemGrid,
   ProblemCard,
   SliderIntro,
@@ -50,6 +52,29 @@ const problemCards = [
     image: problemSecurityImage,
     alt: 'Nowoczesne szklane drzwi z folią zabezpieczającą wzmacniającą szybę',
     cta: 'Sprawdź zabezpieczenia',
+  },
+];
+
+const localMountLinks = [
+  {
+    href: '/montaz-folii-okiennych-krakow',
+    label: 'Folie okienne Kraków',
+  },
+  {
+    href: '/montaz-folii-okiennych-katowice',
+    label: 'Folie okienne Katowice',
+  },
+  {
+    href: '/folie-przeciwsloneczne-krakow',
+    label: 'Folie przeciwsłoneczne Kraków',
+  },
+  {
+    href: '/folie-lcd-krakow',
+    label: 'Folie LCD Kraków',
+  },
+  {
+    href: '/okleiny-i-laminaty-krakow',
+    label: 'Okleiny i laminaty Kraków',
   },
 ];
 
@@ -299,6 +324,27 @@ const WindowFilmsSection = () => {
           </FeaturedFilmVisual>
         </FeaturedFilm>
       )}
+
+      <LocalMountPanel data-aos="fade-up">
+        <div>
+          <span>Montaż lokalnie</span>
+          <h3>Najczęściej wybierane lokalne podstrony</h3>
+          <p>
+            Jeżeli szukasz montażu w konkretnym mieście, zacznij od jednej z tych
+            stron albo przejdź do pełnego przeglądu usług lokalnych.
+          </p>
+        </div>
+        <LocalMountLinks>
+          {localMountLinks.map((item) => (
+            <Link key={item.href} href={item.href}>
+              {item.label}
+            </Link>
+          ))}
+          <Link className="is-main" href="/folie-okienne-lokalnie">
+            Wszystkie usługi lokalne
+          </Link>
+        </LocalMountLinks>
+      </LocalMountPanel>
 
       <SliderIntro data-aos="fade-up">
         <span>Rodzaje folii</span>

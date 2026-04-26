@@ -9,6 +9,8 @@
     "open": "next dev -p 3000",
     "url": "node -e \"console.log('Podglad strony dziala pod adresem: http://localhost:3000')\"",
     "build": "next build",
+    "sitemap": "node scripts/generate-sitemap.cjs",
+    "postbuild": "node scripts/generate-sitemap.cjs",
     "start": "next start",
     "lint": "next lint"
   },

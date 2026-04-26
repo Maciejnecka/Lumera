@@ -185,6 +185,7 @@ export const ValuesCard = styled.article`
   `}
 
   ul {
+    counter-reset: work-value;
     display: grid;
     gap: 1rem;
     margin: 0;
@@ -193,9 +194,10 @@ export const ValuesCard = styled.article`
   }
 
   li {
+    counter-increment: work-value;
     position: relative;
-    padding: 1.2rem 1.4rem;
-    padding-left: 4rem;
+    padding: 1.35rem 1.4rem;
+    padding-left: 6rem;
     border-radius: 1.6rem;
     background:
       linear-gradient(180deg, rgba(255, 255, 255, 0.52), rgba(248, 244, 236, 0.92));
@@ -203,16 +205,59 @@ export const ValuesCard = styled.article`
   }
 
   li::before {
+    content: counter(work-value, decimal-leading-zero);
+    position: absolute;
+    left: 1.25rem;
+    top: 1.35rem;
+    width: 3.45rem;
+    height: 4.55rem;
+    display: grid;
+    place-items: end center;
+    padding-bottom: 0.55rem;
+    border: 1px solid rgba(43, 98, 86, 0.18);
+    border-radius: 0.85rem;
+    background:
+      linear-gradient(135deg, rgba(255, 255, 255, 0.92) 0 42%, rgba(43, 98, 86, 0.1) 42% 44%, transparent 44%),
+      linear-gradient(180deg, rgba(244, 249, 247, 0.94), rgba(232, 242, 237, 0.68));
+    box-shadow:
+      0 0.6rem 1.6rem rgba(23, 45, 39, 0.08),
+      inset 0 1px 0 rgba(255, 255, 255, 0.88);
+    color: var(--accent-primary);
+    font-size: 0.9rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    line-height: 1;
+  }
+
+  li::after {
     content: '';
     position: absolute;
-    left: 1.35rem;
-    top: 1.55rem;
-    width: 1.2rem;
-    height: 1.2rem;
-    border: 0.28rem solid rgba(43, 98, 86, 0.18);
-    border-top-color: var(--accent-primary);
-    border-radius: 999px;
+    left: 1.82rem;
+    top: 2.05rem;
+    width: 2.3rem;
+    height: 1px;
+    background: rgba(43, 98, 86, 0.24);
+    box-shadow: 0 0.72rem 0 rgba(43, 98, 86, 0.16);
   }
+
+  ${media.sm`
+    li {
+      padding-left: 5.5rem;
+    }
+
+    li::before {
+      left: 1.15rem;
+      top: 1.35rem;
+      width: 3.15rem;
+      height: 4.15rem;
+    }
+
+    li::after {
+      left: 1.66rem;
+      top: 1.98rem;
+      width: 2.1rem;
+    }
+  `}
 `;
 
 export const PlacesPanel = styled.div`

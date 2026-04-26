@@ -26,6 +26,7 @@ const getLocalService = (path) => localServicePagesData.find((page) => page.path
 
 const SeoLandingPage = ({ page, type, breadcrumbs }) => {
   const isProblemPage = type === 'problem';
+  const isSurfaceService = Boolean(page.surfaceService);
   const recommendedFilms = (page.recommendedFilms || [page.filmPath])
     .map(getFilm)
     .filter(Boolean);
@@ -53,26 +54,43 @@ const SeoLandingPage = ({ page, type, breadcrumbs }) => {
 
         <SeoGrid>
           <SeoCard>
-            <span>Najpierw problem</span>
+            <span>{isSurfaceService ? 'Najpierw powierzchnia' : 'Najpierw problem'}</span>
             <strong>{isProblemPage ? 'Dobieramy folię do objawu' : page.serviceName}</strong>
-            <p>
-              Punktem wyjścia są warunki przy szybie: słońce, prywatność, bezpieczeństwo,
-              typ przeszklenia i oczekiwany efekt po montażu.
-            </p>
+            {isSurfaceService ? (
+              <p>
+                Punktem wyjścia jest stan podłoża: krawędzie, narożniki, stabilność,
+                sposób użytkowania i oczekiwane wykończenie.
+              </p>
+            ) : (
+              <p>
+                Punktem wyjścia są warunki przy szybie: słońce, prywatność, bezpieczeństwo,
+                typ przeszklenia i oczekiwany efekt po montażu.
+              </p>
+            )}
           </SeoCard>
           <SeoCard>
             <span>Potem rozwiązanie</span>
             <strong>{mainFilm?.name || 'Folie okienne Lumera'}</strong>
-            <p>
-              Każde zapytanie warto uzupełnić o zdjęcia, wymiary i krótki opis sytuacji.
-              Wymiary szyby najlepiej podawać od uszczelki do uszczelki.
-              To przyspiesza wstępny dobór.
-            </p>
+            {isSurfaceService ? (
+              <p>
+                Każde zapytanie warto uzupełnić o zdjęcia całości i detali, wymiary,
+                liczbę elementów oraz informację o wybranym kierunku wykończenia.
+              </p>
+            ) : (
+              <p>
+                Każde zapytanie warto uzupełnić o zdjęcia, wymiary i krótki opis sytuacji.
+                Wymiary szyby najlepiej podawać od uszczelki do uszczelki.
+                To przyspiesza wstępny dobór.
+              </p>
+            )}
           </SeoCard>
           <SeoCard>
             <span>Na końcu kontakt</span>
             <strong>+48 605 505 714</strong>
-            <p>Możesz też wysłać formularz z załącznikami i opisem problemu przy oknie.</p>
+            <p>
+              Możesz też wysłać formularz z załącznikami i opisem
+              {isSurfaceService ? ' planowanej metamorfozy.' : ' problemu przy oknie.'}
+            </p>
           </SeoCard>
         </SeoGrid>
 
@@ -96,15 +114,22 @@ const SeoLandingPage = ({ page, type, breadcrumbs }) => {
 
         {recommendedFilms.length > 0 && (
           <SeoSection>
-            <h2>{isProblemPage ? 'Polecane rodzaje folii' : 'Główna kategoria folii'}</h2>
+            <h2>
+              {isProblemPage
+                ? 'Polecane rodzaje folii'
+                : isSurfaceService
+                  ? 'Główna kategoria usługi'
+                  : 'Główna kategoria folii'}
+            </h2>
             <p>
-              Poniższe kategorie prowadzą od problemu do konkretnego typu folii. Dzięki temu
-              łatwiej porównać efekt, zastosowanie i ograniczenia danego rozwiązania.
+              {isSurfaceService
+                ? 'Poniższa kategoria porządkuje usługi związane z okleinami, laminatami i zmianą wyglądu powierzchni bez wymiany elementów.'
+                : 'Poniższe kategorie prowadzą od problemu do konkretnego typu folii. Dzięki temu łatwiej porównać efekt, zastosowanie i ograniczenia danego rozwiązania.'}
             </p>
             <SeoLinkGrid>
               {recommendedFilms.map((film) => (
                 <SeoLinkCard key={film.path} href={film.path}>
-                  <span>Folia</span>
+                  <span>{film.id === 'architectural-wraps' ? 'Okleiny' : 'Folia'}</span>
                   <strong>{film.name}</strong>
                   <p>{film.shortDescription}</p>
                 </SeoLinkCard>
@@ -115,7 +140,13 @@ const SeoLandingPage = ({ page, type, breadcrumbs }) => {
 
         {(localLinks.length > 0 || relatedProblems.length > 0) && (
           <SeoSection>
-            <h2>Powiązane ścieżki</h2>
+            <h2>
+              {localLinks.length > 0 && relatedProblems.length > 0
+                ? 'Powiązane usługi i tematy'
+                : localLinks.length > 0
+                  ? 'Powiązane usługi'
+                  : 'Powiązane tematy'}
+            </h2>
             <SeoLinkGrid>
               {localLinks.map((item) => (
                 <SeoLinkCard key={item.path} href={item.path}>
@@ -151,12 +182,21 @@ const SeoLandingPage = ({ page, type, breadcrumbs }) => {
 
         <SeoSection>
           <h2>Jak przejść od pomysłu do wyceny?</h2>
-          <p>
-            Najprościej wysłać zdjęcie okna, orientacyjne wymiary od uszczelki do
-            uszczelki, liczbę szyb i krótko opisać, co przeszkadza: ciepło, brak
-            prywatności, odblaski, ryzyko uszkodzenia szyby albo potrzeba estetycznego
-            wykończenia.
-          </p>
+          {isSurfaceService ? (
+            <p>
+              Najprościej wysłać zdjęcia całej powierzchni, zbliżenia krawędzi,
+              narożników i miejsc intensywnie używanych, orientacyjne wymiary,
+              liczbę elementów oraz informację, czy chodzi o ramy, drzwi, futryny,
+              meble, ladę czy inną zabudowę.
+            </p>
+          ) : (
+            <p>
+              Najprościej wysłać zdjęcie okna, orientacyjne wymiary od uszczelki do
+              uszczelki, liczbę szyb i krótko opisać, co przeszkadza: ciepło, brak
+              prywatności, odblaski, ryzyko uszkodzenia szyby albo potrzeba estetycznego
+              wykończenia.
+            </p>
+          )}
           <SeoActions className="seo-actions--bottom">
             <Link href="/#kontakt">Przejdź do formularza</Link>
           </SeoActions>

@@ -22,6 +22,12 @@ export const localServicePagesData = [
       '/folia-na-okna-od-poludnia',
       '/folia-na-witryne-sklepowa',
     ],
+    localLinks: [
+      '/folie-przeciwsloneczne-katowice',
+      '/folie-lustra-weneckie-krakow',
+      '/folie-antywlamaniowe-krakow',
+      '/folie-matowe-krakow',
+    ],
   },
   {
     slug: 'folie-przeciwsloneczne-katowice',
@@ -45,6 +51,12 @@ export const localServicePagesData = [
       '/jak-ograniczyc-nagrzewanie-mieszkania',
       '/folia-na-okna-od-poludnia',
       '/folia-na-swietliki-dachowe',
+    ],
+    localLinks: [
+      '/folie-przeciwsloneczne-krakow',
+      '/folie-lustra-weneckie-katowice',
+      '/folie-antywlamaniowe-katowice',
+      '/folie-matowe-katowice',
     ],
   },
   {

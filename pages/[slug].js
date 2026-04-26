@@ -5,6 +5,7 @@ import LocalWindowFilmsPage, {
 } from '../src/components/LocalWindowFilmsPage/LocalWindowFilmsPage';
 import PrivacyPolicyPage from '../src/components/PrivacyPolicyPage';
 import SeoLandingPage from '../src/components/SeoLandingPage';
+import LocalServicesHubPage from '../src/components/LocalServicesHubPage';
 import { filmsData, getFilmByPath } from '../src/data/filmsData';
 import {
   getLocalServicePageByPath,
@@ -36,6 +37,14 @@ const localPages = {
     breadcrumbs: [
       { label: 'Strona główna', href: '/' },
       { label: 'Montaż folii LCD', href: '/montaz-folii-lcd' },
+    ],
+  },
+  'folie-okienne-lokalnie': {
+    path: '/folie-okienne-lokalnie',
+    component: LocalServicesHubPage,
+    breadcrumbs: [
+      { label: 'Strona główna', href: '/' },
+      { label: 'Folie okienne lokalnie', href: '/folie-okienne-lokalnie' },
     ],
   },
   'polityka-prywatnosci': {

@@ -29,6 +29,11 @@ const staticPages = {
     description:
       'Montaż folii LCD i inteligentnych folii PDLC do szklanych ścian, sal konferencyjnych, gabinetów, hoteli i przestrzeni premium.',
   },
+  '/folie-okienne-lokalnie': {
+    title: 'Folie okienne lokalnie | Kraków, Katowice i okolice | Lumera',
+    description:
+      'Lokalne podstrony Lumera: montaż folii okiennych, folii LCD, folii przeciwsłonecznych, antywłamaniowych oraz oklein w Krakowie, Katowicach i okolicach.',
+  },
   '/polityka-prywatnosci': {
     title: 'Polityka prywatności | Lumera',
     description:

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://lumera.pl/</loc>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
@@ -16,24 +16,39 @@
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>https://lumera.pl/montaz-folii-lcd</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://lumera.pl/folie-okienne-lokalnie</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://lumera.pl/polityka-prywatnosci</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://lumera.pl/folie-przeciwsloneczne-zewnetrzne</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://lumera.pl/folie-lustra-weneckie</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://lumera.pl/folie-przeciwsloneczne-wewnetrzne</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://lumera.pl/folie-lcd</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://lumera.pl/folie-na-poliweglan</loc>
@@ -68,72 +83,77 @@
   <url>
     <loc>https://lumera.pl/folie-ochronne</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://lumera.pl/folie-zabezpieczajace</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://lumera.pl/folie-anty-podsluchowe</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://lumera.pl/folie-termoizolacyjne</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://lumera.pl/folie-projekcyjne</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://lumera.pl/folie-antykolizyjne</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://lumera.pl/okleiny-i-laminaty-architektoniczne</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.78</priority>
   </url>
   <url>
     <loc>https://lumera.pl/demontaz-folii-okiennych</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://lumera.pl/jak-ograniczyc-nagrzewanie-mieszkania</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.76</priority>
   </url>
   <url>
     <loc>https://lumera.pl/folia-na-okno-przed-sasiadami</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.76</priority>
   </url>
   <url>
     <loc>https://lumera.pl/folia-na-szybe-do-lazienki</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.72</priority>
+    <priority>0.76</priority>
   </url>
   <url>
     <loc>https://lumera.pl/folia-na-witryne-sklepowa</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.76</priority>
   </url>
   <url>
     <loc>https://lumera.pl/folia-na-okna-od-poludnia</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.76</priority>
   </url>
   <url>
     <loc>https://lumera.pl/folia-na-swietliki-dachowe</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.72</priority>
+    <priority>0.76</priority>
   </url>
   <url>
     <loc>https://lumera.pl/folie-przeciwsloneczne-krakow</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.82</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lumera.pl/folie-przeciwsloneczne-katowice</loc>
@@ -146,7 +166,17 @@
     <priority>0.74</priority>
   </url>
   <url>
+    <loc>https://lumera.pl/folie-antywlamaniowe-katowice</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
     <loc>https://lumera.pl/folie-matowe-krakow</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://lumera.pl/folie-matowe-katowice</loc>
     <changefreq>monthly</changefreq>
     <priority>0.74</priority>
   </url>
@@ -156,9 +186,14 @@
     <priority>0.74</priority>
   </url>
   <url>
+    <loc>https://lumera.pl/folie-lustra-weneckie-katowice</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
     <loc>https://lumera.pl/folie-lcd-krakow</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.82</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lumera.pl/folie-lcd-katowice</loc>
@@ -166,8 +201,33 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lumera.pl/polityka-prywatnosci</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <loc>https://lumera.pl/okleiny-i-laminaty-krakow</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://lumera.pl/okleiny-i-laminaty-katowice</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://lumera.pl/oklejanie-ram-okiennych-krakow</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://lumera.pl/oklejanie-ram-okiennych-katowice</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://lumera.pl/oklejanie-drzwi-i-mebli-krakow</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://lumera.pl/oklejanie-drzwi-i-mebli-katowice</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.74</priority>
   </url>
 </urlset>
