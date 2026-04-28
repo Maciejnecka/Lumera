@@ -9,6 +9,7 @@ const staticPages = [
   { path: '/montaz-folii-okiennych-krakow', priority: '0.9' },
   { path: '/montaz-folii-okiennych-katowice', priority: '0.85' },
   { path: '/montaz-folii-lcd', priority: '0.82' },
+  { path: '/cennik', priority: '0.84' },
   { path: '/folie-okienne-lokalnie', priority: '0.82' },
   { path: '/polityka-prywatnosci', priority: '0.3', changefreq: 'yearly' },
 ];

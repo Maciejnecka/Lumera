@@ -1,53 +1,109 @@
 import React from 'react';
 import {
   TestimonialsSection,
-  TestimonialsGrid,
+  TestimonialsShell,
   TestimonialsHeading,
+  TestimonialsSummary,
+  TestimonialsGrid,
   ReviewCard,
+  ReviewCardTop,
+  ReviewAuthor,
+  ReviewAvatar,
+  ReviewMeta,
+  ReviewMenu,
+  ReviewStars,
+  ReviewBody,
+  ReviewFooter,
 } from './TestimonialsStrip.styled';
+
+const GOOGLE_REVIEWS_URL = 'https://share.google/ehvyHeeHWsm3vl9B6';
 
 const reviews = [
   {
-    title: 'Google • 5,0',
+    id: 'rafal-nowak',
+    name: 'Rafal Nowak',
+    initials: 'R',
+    badge: 'Lokalny przewodnik · 11 opinii · 16 zdjec',
     text:
-      'Bardzo dobry kontakt i sprawny montaż. W mieszkaniu od razu zrobiło się przyjemniej, szczególnie po południu.',
-    author: 'Klient z Krakowa',
+      'Zamawialismy folie bezpieczna na szyby do sklepu i jestesmy bardzo zadowoleni. Zalezalo nam na dodatkowym zabezpieczeniu witryny, ale bez zmiany wygladu lokalu. Wszystko zostalo sprawnie ustalone, montaz przebiegl czysto i bez problemow. Polecam',
+    avatarTone: 'orange',
   },
   {
-    title: 'Google • 5,0',
+    id: 'jakub-zajac',
+    name: 'Jakub Zajac',
+    initials: 'J',
+    badge: '11 opinii · 1 zdjecie',
     text:
-      'Zależało nam na prywatności i estetyce. Efekt końcowy wyszedł dokładnie taki, jakiego oczekiwaliśmy.',
-    author: 'Klientka z Wieliczki',
+      'Bardzo profesjonalny i sprawny montaz. Cena bardzo konkurencyjna i adekwatna do jakosci wykonania! Pozdrawiam serdecznie!',
+    avatarTone: 'pink',
   },
   {
-    title: 'Google • 5,0',
+    id: 'mateusz-rudzki',
+    name: 'Mateusz Rudzki',
+    initials: 'M',
+    badge: '1 opinia',
     text:
-      'Bez zbędnego komplikowania. Doradztwo było konkretne, a sama realizacja przebiegła bardzo sprawnie i czysto.',
-    author: 'Właściciel biura',
+      'Bardzo polecam firme Lumera. Zalezalo nam na ograniczeniu nagrzewania mieszkania i dobraniu folii, ktora nie zepsuje wygladu okien. Wszystko zostalo jasno wyjasnione, montaz przebiegl sprawnie i czysto, a efekt czuc praktycznie od razu.',
+    avatarTone: 'violet',
   },
 ];
+
+const starIcons = Array.from({ length: 5 }, (_, index) => (
+  <svg key={index} viewBox="0 0 24 24" aria-hidden="true">
+    <path d="m12 2.4 2.87 5.82 6.43.94-4.65 4.53 1.1 6.41L12 17.08 6.25 20.1l1.1-6.41L2.7 9.16l6.43-.94L12 2.4Z" />
+  </svg>
+));
 
 const TestimonialsStrip = () => {
   return (
     <TestimonialsSection id="opinie">
-      <TestimonialsHeading data-aos="fade-up">
-        <span>Opinie</span>
-        <h2>Klienci najczęściej doceniają spokojne doradztwo, czysty montaż i widoczny efekt po oklejeniu szyb.</h2>
-      </TestimonialsHeading>
+      <TestimonialsShell data-aos="fade-up">
+        <TestimonialsHeading>
+          <span>Opinie</span>
+          <h2>
+            Klienci najczesciej doceniaja spokojne doradztwo, czysty montaz i
+            widoczny efekt po oklejeniu szyb.
+          </h2>
+          <TestimonialsSummary>
+            <strong>Google • 5,0</strong>
+            <a href={GOOGLE_REVIEWS_URL} target="_blank" rel="noreferrer">
+              Zobacz wszystkie opinie w Google
+            </a>
+          </TestimonialsSummary>
+        </TestimonialsHeading>
 
-      <TestimonialsGrid>
-        {reviews.map((review, index) => (
-          <ReviewCard
-            key={`${review.title}-${index}`}
-            data-aos="fade-up"
-            data-aos-delay={index * 70}
-          >
-            <span>{review.title}</span>
-            <p>{review.text}</p>
-            <strong>{review.author}</strong>
-          </ReviewCard>
-        ))}
-      </TestimonialsGrid>
+        <TestimonialsGrid>
+          {reviews.map((review) => (
+            <ReviewCard key={review.id}>
+              <ReviewCardTop>
+                <ReviewAuthor>
+                  <ReviewAvatar $tone={review.avatarTone}>{review.initials}</ReviewAvatar>
+                  <ReviewMeta>
+                    <strong>{review.name}</strong>
+                    <span>{review.badge}</span>
+                  </ReviewMeta>
+                </ReviewAuthor>
+
+                <ReviewMenu aria-hidden="true">
+                  <span />
+                  <span />
+                  <span />
+                </ReviewMenu>
+              </ReviewCardTop>
+
+              <ReviewStars>
+                <div>{starIcons}</div>
+              </ReviewStars>
+
+              <ReviewBody>{review.text}</ReviewBody>
+
+              <ReviewFooter>
+                <small>Google</small>
+              </ReviewFooter>
+            </ReviewCard>
+          ))}
+        </TestimonialsGrid>
+      </TestimonialsShell>
     </TestimonialsSection>
   );
 };

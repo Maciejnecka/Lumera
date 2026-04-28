@@ -12,6 +12,10 @@ import {
   DetailHeroBadge,
   DetailHeroTitle,
   DetailHeroLead,
+  DetailHeroPricing,
+  DetailHeroPricingGrid,
+  DetailHeroPricingCard,
+  DetailHeroPricingNote,
   DetailHeroActions,
   DetailHeroVisual,
   DetailHeroCard,
@@ -63,10 +67,30 @@ const FilmDetailPage = ({ film, breadcrumbs }) => {
                 </span>
                 <span>Wróć na stronę główną</span>
               </DetailBackLink>
-              <DetailHeroBadge>{film.serviceBadge || 'Folie okienne Lumera'}</DetailHeroBadge>
+            <DetailHeroBadge>{film.serviceBadge || 'Folie okienne Lumera'}</DetailHeroBadge>
             </DetailHeroMeta>
             <DetailHeroTitle>{film.name}</DetailHeroTitle>
             <DetailHeroLead>{film.lead}</DetailHeroLead>
+
+            {film.priceGuide && (
+              <DetailHeroPricing>
+                <DetailHeroPricingGrid>
+                  <DetailHeroPricingCard>
+                    <span>Orientacyjna cena brutto</span>
+                    <strong>{film.priceGuide.serviceRange}</strong>
+                  </DetailHeroPricingCard>
+                  <DetailHeroPricingCard>
+                    <span>Typowa gwarancja</span>
+                    <strong>{film.priceGuide.warranty}</strong>
+                  </DetailHeroPricingCard>
+                </DetailHeroPricingGrid>
+                <DetailHeroPricingNote>
+                  Podane wartości mają charakter orientacyjny. Finalna wycena i warunki
+                  gwarancji zależą od rodzaju szyby, warunków montażu, wymiarów i
+                  zakresu prac.
+                </DetailHeroPricingNote>
+              </DetailHeroPricing>
+            )}
 
             <DetailHeroActions>
               <button type="button" onClick={() => goToHomeSection('kontakt', film.id)}>

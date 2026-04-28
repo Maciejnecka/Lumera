@@ -21,7 +21,10 @@ const SmartFilmPreview = ({ src, alt, variant = 'card', loading = 'lazy' }) => {
 
       <SmartPreviewControl
         type="button"
-        onClick={() => setIsPowered((value) => !value)}
+        onClick={(event) => {
+          event.stopPropagation();
+          setIsPowered((value) => !value);
+        }}
         aria-pressed={isPowered}
         aria-label={`${label}. Kliknij, aby przełączyć efekt folii LCD.`}
       >

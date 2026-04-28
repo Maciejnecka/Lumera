@@ -20,6 +20,7 @@ import { filmSeoData } from './filmSeoData';
 import { filmDecisionData } from './filmDecisionData';
 import { filmExtraFaqData } from './filmExtraFaqData';
 import { filmStrengtheningData } from './filmStrengtheningData';
+import { pricingByFilmId } from './pricingPageData';
 
 const baseFilmsData = [
   {
@@ -508,6 +509,7 @@ export const filmsData = baseFilmsData.map((film) => {
 
   return {
     ...film,
+    priceGuide: pricingByFilmId[film.id] || null,
     ...seoData,
     ...filmDecisionData[film.id],
     ...filmStrengtheningData[film.id],

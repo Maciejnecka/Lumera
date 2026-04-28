@@ -116,6 +116,58 @@ export const DetailHeroLead = styled.p`
   line-height: 1.8;
 `;
 
+export const DetailHeroPricing = styled.div`
+  display: grid;
+  gap: 1.2rem;
+  margin-top: 2.4rem;
+  padding: 1.8rem;
+  border: 1px solid rgba(43, 98, 86, 0.14);
+  border-radius: 2.2rem;
+  background:
+    radial-gradient(circle at top right, rgba(215, 180, 106, 0.16), transparent 34%),
+    rgba(255, 250, 243, 0.92);
+  box-shadow: var(--shadow-sm);
+`;
+
+export const DetailHeroPricingGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+
+  ${media.sm`
+    grid-template-columns: 1fr;
+  `}
+`;
+
+export const DetailHeroPricingCard = styled.article`
+  padding: 1.4rem 1.5rem;
+  border-radius: 1.8rem;
+  background: rgba(255, 255, 255, 0.78);
+
+  span {
+    display: block;
+    margin-bottom: 0.6rem;
+    color: var(--accent-primary);
+    font-size: 1.08rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  strong {
+    display: block;
+    color: var(--font-title);
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+`;
+
+export const DetailHeroPricingNote = styled.p`
+  margin: 0;
+  color: var(--font-main);
+  font-size: 1.45rem;
+  line-height: 1.7;
+`;
+
 export const DetailHeroActions = styled.div`
   display: flex;
   flex-wrap: wrap;

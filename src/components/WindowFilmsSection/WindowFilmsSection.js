@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import { filmsData } from '../../data/filmsData';
 import lcdInstallationImage from '../../img/generated/montaz-folii-lcd.webp';
 import problemSecurityImage from '../../img/generated/problem-bezpieczniejsze-szyby.webp';
@@ -90,13 +91,10 @@ const getSliderState = (slider) => {
     };
   }
 
+  const snapPoints = getSliderSnapPoints(slider);
+  const pageCount = Math.max(1, snapPoints.length);
+  const activeIndex = getClosestSnapIndex(snapPoints, slider.scrollLeft);
   const maxScroll = Math.max(0, slider.scrollWidth - slider.clientWidth);
-  const pageCount = Math.max(1, Math.ceil(slider.scrollWidth / slider.clientWidth));
-  const progress = maxScroll > 0 ? slider.scrollLeft / maxScroll : 0;
-  const activeIndex = Math.min(
-    pageCount - 1,
-    Math.max(0, Math.round(progress * (pageCount - 1)))
-  );
 
   return {
     activeIndex,
@@ -117,10 +115,19 @@ const getSliderSnapPoints = (slider) => {
   if (!slider) return [];
 
   const maxScroll = Math.max(0, slider.scrollWidth - slider.clientWidth);
-
-  return Array.from(slider.children).map((card) =>
+  const rawPoints = Array.from(slider.children).map((card) =>
     Math.min(maxScroll, getCardLeft(slider, card))
   );
+
+  return rawPoints.reduce((points, point) => {
+    const lastPoint = points[points.length - 1];
+
+    if (typeof lastPoint !== 'number' || Math.abs(lastPoint - point) > 4) {
+      points.push(point);
+    }
+
+    return points;
+  }, []);
 };
 
 const getClosestSnapPoint = (snapPoints, targetLeft) => {
@@ -144,6 +151,7 @@ const getClosestSnapIndex = (snapPoints, targetLeft) => {
 };
 
 const WindowFilmsSection = () => {
+  const router = useRouter();
   const lcdFilm = filmsData.find((film) => film.id === 'lcd');
   const displayFilms = lcdFilm
     ? [lcdFilm, ...filmsData.filter((film) => film.id !== 'lcd')]
@@ -214,13 +222,11 @@ const WindowFilmsSection = () => {
     const slider = sliderRef.current;
     if (!slider) return;
 
-    const maxScroll = Math.max(0, slider.scrollWidth - slider.clientWidth);
-    const targetLeft =
-      sliderUi.pageCount <= 1 ? 0 : (maxScroll * index) / (sliderUi.pageCount - 1);
     const snapPoints = getSliderSnapPoints(slider);
+    if (!snapPoints.length) return;
 
     slider.scrollTo({
-      left: getClosestSnapPoint(snapPoints, targetLeft),
+      left: snapPoints[index] || 0,
       behavior: 'smooth',
     });
   };
@@ -230,6 +236,8 @@ const WindowFilmsSection = () => {
 
     const slider = sliderRef.current;
     if (!slider) return;
+
+    event.preventDefault();
 
     dragState.current = {
       isDragging: true,
@@ -247,6 +255,8 @@ const WindowFilmsSection = () => {
     if (!slider || !state.isDragging) return;
 
     const distance = event.clientX - state.startX;
+    event.preventDefault();
+
     if (Math.abs(distance) > 6) {
       state.hasMoved = true;
     }
@@ -256,12 +266,28 @@ const WindowFilmsSection = () => {
 
   const stopDragging = (event) => {
     const slider = sliderRef.current;
-    if (slider?.hasPointerCapture?.(event.pointerId)) {
+    if (!slider || !dragState.current.isDragging) return;
+
+    if (event?.pointerId !== undefined && slider.hasPointerCapture?.(event.pointerId)) {
       slider.releasePointerCapture(event.pointerId);
     }
 
+    const hasMoved = dragState.current.hasMoved;
+
     dragState.current.isDragging = false;
     setIsDragging(false);
+
+    if (hasMoved) {
+      const snapPoints = getSliderSnapPoints(slider);
+      const targetLeft = getClosestSnapPoint(snapPoints, slider.scrollLeft);
+
+      window.requestAnimationFrame(() => {
+        slider.scrollTo({
+          left: targetLeft,
+          behavior: 'smooth',
+        });
+      });
+    }
   };
 
   const handleClickCapture = (event) => {
@@ -270,6 +296,18 @@ const WindowFilmsSection = () => {
     event.preventDefault();
     event.stopPropagation();
     dragState.current.hasMoved = false;
+  };
+
+  const handleCardNavigate = (path) => {
+    if (dragState.current.hasMoved) return;
+    router.push(path);
+  };
+
+  const handleCardKeyDown = (event, path) => {
+    if (event.key !== 'Enter' && event.key !== ' ') return;
+
+    event.preventDefault();
+    handleCardNavigate(path);
   };
 
   return (
@@ -363,18 +401,36 @@ const WindowFilmsSection = () => {
         onPointerMove={handlePointerMove}
         onPointerUp={stopDragging}
         onPointerCancel={stopDragging}
+        onPointerLeave={stopDragging}
         onClickCapture={handleClickCapture}
       >
         {displayFilms.map((film, index) => (
-          <FilmCard key={film.path} data-aos="fade-up" data-aos-delay={index * 40}>
-            {film.id === 'lcd' ? (
-              <SmartFilmPreview src={film.image} alt={film.name} />
-            ) : (
-              <FilmImage src={film.image} alt={film.name} loading="lazy" decoding="async" />
-            )}
-            <FilmMeta>{film.name}</FilmMeta>
-            <h3>{film.shortDescription}</h3>
-            <Link href={film.path}>Zobacz pełny opis</Link>
+          <FilmCard
+            key={film.path}
+            data-aos="fade-up"
+            data-aos-delay={index * 40}
+            role="link"
+            tabIndex={0}
+            aria-label={`Zobacz pełny opis: ${film.name}`}
+            onClick={() => handleCardNavigate(film.path)}
+            onKeyDown={(event) => handleCardKeyDown(event, film.path)}
+          >
+            <div className="film-card__inner">
+              {film.id === 'lcd' ? (
+                <SmartFilmPreview src={film.image} alt={film.name} />
+              ) : (
+                <FilmImage
+                  src={film.image}
+                  alt={film.name}
+                  loading="lazy"
+                  decoding="async"
+                  draggable="false"
+                />
+              )}
+              <FilmMeta>{film.name}</FilmMeta>
+              <h3>{film.shortDescription}</h3>
+              <span className="film-card__cta">Zobacz pełny opis</span>
+            </div>
           </FilmCard>
         ))}
       </FilmsSlider>

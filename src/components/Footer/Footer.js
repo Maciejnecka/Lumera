@@ -21,6 +21,7 @@ const CONTACT_EMAIL = 'biuro@folielumera.pl';
 const CONTACT_EMAIL_HREF = `mailto:${CONTACT_EMAIL}`;
 const COMPANY_ADDRESS = 'Rudawa, ul. Łanowa 14, 32-064 Rudawa';
 const CONTACT_EMAIL_COMPOSE_HREF = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(CONTACT_EMAIL)}`;
+const GOOGLE_REVIEW_HREF = 'https://share.google/ehvyHeeHWsm3vl9B6';
 
 const contactItems = [
   {
@@ -67,7 +68,7 @@ const businessHours = [
 const socialLinks = [
   {
     label: 'Facebook',
-    href: '#',
+    href: 'https://www.facebook.com/profile.php?id=61563720254898',
     icon: (
       <svg viewBox="0 0 24 24" aria-hidden="true">
         <path d="M13.3 21v-7.8h2.6l.4-3h-3V8.3c0-.9.3-1.5 1.6-1.5H16V4.1c-.2 0-.9-.1-1.8-.1-1.8 0-3.1 1.1-3.1 3.3v1.9H8.6v3h2.5V21h2.2Z" />
@@ -76,7 +77,7 @@ const socialLinks = [
   },
   {
     label: 'Instagram',
-    href: '#',
+    href: 'https://www.instagram.com/folie.lumera/',
     icon: (
       <svg viewBox="0 0 24 24" aria-hidden="true">
         <path d="M7.2 3h9.6A4.2 4.2 0 0 1 21 7.2v9.6a4.2 4.2 0 0 1-4.2 4.2H7.2A4.2 4.2 0 0 1 3 16.8V7.2A4.2 4.2 0 0 1 7.2 3Zm0 1.8A2.4 2.4 0 0 0 4.8 7.2v9.6a2.4 2.4 0 0 0 2.4 2.4h9.6a2.4 2.4 0 0 0 2.4-2.4V7.2a2.4 2.4 0 0 0-2.4-2.4H7.2Zm9.9 1.3a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 1.8A3.2 3.2 0 1 0 12 15.2 3.2 3.2 0 0 0 12 8.8Z" />
@@ -85,10 +86,22 @@ const socialLinks = [
   },
   {
     label: 'TikTok',
-    href: '#',
+    href: 'https://www.tiktok.com/@folie.lumera',
     icon: (
       <svg viewBox="0 0 24 24" aria-hidden="true">
         <path d="M14.8 3c.3 1.8 1.4 3.3 3.2 4.1.8.4 1.6.6 2.5.6v2.7a8.8 8.8 0 0 1-3-.5v5.5a5.5 5.5 0 1 1-5.5-5.5c.3 0 .6 0 .9.1v2.8a2.8 2.8 0 1 0 1.8 2.6V3h.1Z" />
+      </svg>
+    ),
+  },
+  {
+    label: 'Oceń nas w Google',
+    href: GOOGLE_REVIEW_HREF,
+    icon: (
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M21.8 12.2c0-.7-.1-1.4-.2-2H12v3.7h5.5a4.7 4.7 0 0 1-2 3.1v2.6h3.3c1.9-1.7 3-4.2 3-7.4Z" />
+        <path d="M12 22c2.7 0 5-.9 6.8-2.5l-3.3-2.6c-.9.6-2.1 1-3.5 1-2.7 0-4.9-1.8-5.7-4.2H2.9v2.7A10 10 0 0 0 12 22Z" />
+        <path d="M6.3 13.7a6 6 0 0 1 0-3.4V7.6H2.9a10 10 0 0 0 0 8.8l3.4-2.7Z" />
+        <path d="M12 6.1c1.5 0 2.8.5 3.8 1.5l2.9-2.9A10 10 0 0 0 2.9 7.6l3.4 2.7c.8-2.4 3-4.2 5.7-4.2Z" />
       </svg>
     ),
   },
@@ -104,12 +117,6 @@ const Footer = () => {
 
     event.preventDefault();
     window.open(CONTACT_EMAIL_COMPOSE_HREF, '_blank', 'noopener,noreferrer');
-  };
-
-  const handleSocialClick = (href) => (event) => {
-    if (href !== '#') return;
-
-    event.preventDefault();
   };
 
   return (
@@ -169,7 +176,8 @@ const Footer = () => {
                   key={link.label}
                   href={link.href}
                   aria-label={link.label}
-                  onClick={handleSocialClick(link.href)}
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   {link.icon}
                   <span>{link.label}</span>

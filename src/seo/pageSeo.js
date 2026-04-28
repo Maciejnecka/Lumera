@@ -29,6 +29,11 @@ const staticPages = {
     description:
       'Montaż folii LCD i inteligentnych folii PDLC do szklanych ścian, sal konferencyjnych, gabinetów, hoteli i przestrzeni premium.',
   },
+  '/cennik': {
+    title: 'Cennik folii okiennych i montażu | Lumera',
+    description:
+      'Orientacyjny cennik folii okiennych Lumera: zakresy cen, gwarancje i najważniejsze informacje przed kontaktem i wyceną.',
+  },
   '/folie-okienne-lokalnie': {
     title: 'Folie okienne lokalnie | Kraków, Katowice i okolice | Lumera',
     description:

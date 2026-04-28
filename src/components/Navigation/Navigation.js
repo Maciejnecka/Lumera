@@ -7,6 +7,7 @@ import LogoIcon from '../../icons/logo/LumeraLogo.svg';
 import { filmsData } from '../../data/filmsData';
 
 const navLinks = [
+  { label: 'Cennik', href: '/cennik' },
   { label: 'O nas', id: 'o-nas' },
   { label: 'Realizacje', id: 'realizacje' },
   { label: 'Kontakt', id: 'kontakt' },
@@ -155,14 +156,24 @@ const Navigation = () => {
           </div>
 
           {navLinks.map((link) => (
-            <button
-              type="button"
-              key={link.id}
-              className="navbar__text-link"
-              onClick={() => goToHomeSection(link.id)}
-            >
-              {link.label}
-            </button>
+            link.href ? (
+              <Link
+                key={link.href}
+                className="navbar__text-link"
+                href={link.href}
+              >
+                {link.label}
+              </Link>
+            ) : (
+              <button
+                type="button"
+                key={link.id}
+                className="navbar__text-link"
+                onClick={() => goToHomeSection(link.id)}
+              >
+                {link.label}
+              </button>
+            )
           ))}
 
           <button

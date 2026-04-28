@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const WindowFilmsWrap = styled.section`
   position: relative;
   isolation: isolate;
-  padding: 7rem 5vw 7rem;
+  padding: 7rem 5vw 8.75rem;
   overflow: hidden;
   background: linear-gradient(
     180deg,
@@ -52,13 +52,14 @@ export const WindowFilmsWrap = styled.section`
     left: 0;
     right: 0;
     bottom: 0;
-    height: clamp(9rem, 14vw, 16rem);
+    height: clamp(13rem, 18vw, 22rem);
     background: linear-gradient(
       180deg,
       rgba(247, 241, 233, 0) 0%,
-      rgba(247, 241, 233, 0.42) 46%,
-      rgba(247, 241, 233, 0.68) 72%,
-      rgba(247, 241, 233, 0.22) 92%,
+      rgba(247, 241, 233, 0.14) 28%,
+      rgba(247, 241, 233, 0.32) 52%,
+      rgba(247, 241, 233, 0.44) 70%,
+      rgba(247, 241, 233, 0.2) 88%,
       rgba(247, 241, 233, 0) 100%
     );
     pointer-events: none;
@@ -593,27 +594,40 @@ export const FilmsSlider = styled.div`
 `;
 
 export const FilmCard = styled.article`
-  display: grid;
-  grid-template-rows: auto auto 1fr auto;
-  gap: 1.35rem;
   scroll-snap-align: start;
   scroll-snap-stop: normal;
   min-width: 0;
   min-height: 100%;
-  padding: 1.8rem;
   border: 1px solid var(--border-light);
   border-radius: 2.8rem;
   background: rgba(255, 255, 255, 0.84);
   box-shadow: var(--shadow-sm);
+  overflow: hidden;
   transition:
     transform var(--transition-fast),
     box-shadow var(--transition-fast),
     border-color var(--transition-fast);
 
+  .film-card__inner {
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    gap: 1.35rem;
+    min-height: 100%;
+    padding: 1.8rem;
+  }
+
   &:hover {
     transform: translateY(-4px);
     border-color: rgba(43, 98, 86, 0.2);
     box-shadow: var(--shadow-md);
+  }
+
+  &:focus-visible {
+    outline: none;
+    border-color: rgba(43, 98, 86, 0.34);
+    box-shadow:
+      0 0 0 3px rgba(43, 98, 86, 0.16),
+      var(--shadow-md);
   }
 
   h3 {
@@ -624,7 +638,7 @@ export const FilmCard = styled.article`
     font-weight: 500;
   }
 
-  a {
+  .film-card__cta {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -642,7 +656,7 @@ export const FilmCard = styled.article`
       color var(--transition-fast);
   }
 
-  a:hover {
+  &:hover .film-card__cta {
     transform: translateY(-1px);
     background: var(--accent-primary);
     color: #fffdf8;
@@ -656,6 +670,8 @@ export const FilmImage = styled.img`
   border-radius: 2rem;
   background: rgba(249, 246, 240, 0.95);
   object-fit: cover;
+  user-select: none;
+  -webkit-user-drag: none;
 `;
 
 export const FilmMeta = styled.span`

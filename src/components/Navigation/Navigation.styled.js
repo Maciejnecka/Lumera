@@ -78,14 +78,41 @@ const StyledNavbar = styled.nav`
   .navbar__text-link {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 0.6rem;
-    padding: 0;
+    min-height: 4rem;
+    padding: 0.6rem 0;
     border: 0;
+    border-radius: 999px;
     background: transparent;
     color: var(--font-dark);
+    line-height: 1;
+    text-decoration: none;
     font-size: 1.5rem;
     font-weight: 600;
     cursor: pointer;
+    transition:
+      color var(--transition-fast),
+      background var(--transition-fast),
+      transform var(--transition-fast),
+      box-shadow var(--transition-fast);
+  }
+
+  .navbar__dropdown-toggle:hover,
+  .navbar__dropdown-toggle:focus-visible,
+  .navbar__text-link:hover,
+  .navbar__text-link:focus-visible {
+    color: var(--accent-primary);
+    transform: translateY(-1px);
+  }
+
+  .navbar__dropdown-toggle:focus-visible,
+  .navbar__text-link:focus-visible,
+  .navbar__cta:focus-visible,
+  .navbar__toggle:focus-visible,
+  .navbar__dropdown a:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(43, 98, 86, 0.16);
   }
 
   .navbar__arrow {
@@ -298,8 +325,15 @@ const StyledNavbar = styled.nav`
       width: 100%;
       min-height: 4.6rem;
       justify-content: space-between;
-      padding: 0 0.2rem;
+      padding: 0 1rem;
       text-align: left;
+    }
+
+    .navbar__text-link {
+      width: 100%;
+      justify-content: flex-start;
+      min-height: 4.6rem;
+      padding: 0 1rem;
     }
 
     .navbar__arrow {
