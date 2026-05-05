@@ -1,17 +1,27 @@
 {
-  "name": "Lumera - folie okienne i montaż",
+  "name": "Lumera - folie okienne",
   "short_name": "Lumera",
-  "description": "Montaż folii okiennych do domów, mieszkań, biur i lokali.",
+  "description": "Folie okienne do domów, mieszkań, biur i lokali.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#f5efe7",
   "theme_color": "#2b6256",
   "icons": [
     {
+      "src": "/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
       "src": "/favicon.svg",
       "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "type": "image/svg+xml"
     }
   ]
 }

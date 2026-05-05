@@ -17,7 +17,10 @@ import {
 
 const CONTACT_EMAIL = 'biuro@folielumera.pl';
 const CONTACT_PHONE = '+48 605 505 714';
-const CONTACT_ADDRESS = 'Rudawa, ul. Łanowa 14, 32-064 Rudawa';
+const COMPANY_NAME = 'Lumera Maciej Nęcka';
+const COMPANY_NIP = '5130311528';
+const COMPANY_REGON = '544660235';
+const CONTACT_ADDRESS = 'ul. Łanowa 14, 32-064 Rudawa';
 const CONTACT_EMAIL_COMPOSE_HREF = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(CONTACT_EMAIL)}`;
 
 const PrivacyPolicyPage = ({ breadcrumbs }) => {
@@ -48,8 +51,12 @@ const PrivacyPolicyPage = ({ breadcrumbs }) => {
         <PrivacyGrid>
           <PrivacyCard>
             <span>Administrator danych</span>
-            <strong>Lumera</strong>
-            <p>{CONTACT_ADDRESS}</p>
+            <strong>{COMPANY_NAME}</strong>
+            <p>
+              NIP: {COMPANY_NIP}<br />
+              REGON: {COMPANY_REGON}<br />
+              {CONTACT_ADDRESS}
+            </p>
           </PrivacyCard>
           <PrivacyCard>
             <span>Kontakt w sprawie danych</span>
@@ -62,7 +69,7 @@ const PrivacyPolicyPage = ({ breadcrumbs }) => {
           </PrivacyCard>
           <PrivacyCard>
             <span>Zakres strony</span>
-            <strong>Folie okienne i montaż</strong>
+            <strong>Folie okienne</strong>
             <p>Obsługa zapytań, kontaktu oraz materiałów przesłanych przez klienta.</p>
           </PrivacyCard>
         </PrivacyGrid>
@@ -71,7 +78,8 @@ const PrivacyPolicyPage = ({ breadcrumbs }) => {
           <h2>1. Kto jest administratorem danych?</h2>
           <p>
             Administratorem danych osobowych przekazywanych za pośrednictwem strony
-            jest Lumera, z siedzibą: {CONTACT_ADDRESS}. W sprawach związanych z
+            jest {COMPANY_NAME}, NIP: {COMPANY_NIP}, REGON: {COMPANY_REGON}, z adresem:
+            {` ${CONTACT_ADDRESS}`}. W sprawach związanych z
             prywatnością możesz skontaktować się mailowo pod adresem{' '}
             <a href={`mailto:${CONTACT_EMAIL}`} onClick={handleEmailClick}>
               {CONTACT_EMAIL}

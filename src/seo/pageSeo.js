@@ -3,7 +3,7 @@ import { filmsData } from '../data/filmsData';
 import { localServicePagesData } from '../data/localServicePagesData';
 import { problemPagesData } from '../data/problemPagesData';
 
-export const siteUrl = 'https://lumera.pl';
+export const siteUrl = 'https://folielumera.pl';
 
 const defaultTitle = 'Lumera | Montaż folii okiennych Kraków i okolice';
 const defaultDescription =
@@ -114,7 +114,7 @@ export const organizationSchema = {
   name: 'Lumera',
   url: siteUrl,
   image: `${siteUrl}/og-image.png`,
-  logo: `${siteUrl}/favicon.svg`,
+  logo: `${siteUrl}/favicon-512x512.png`,
   email: 'biuro@folielumera.pl',
   telephone: '+48605505714',
   priceRange: '$$',
@@ -222,7 +222,7 @@ const PageSeo = ({ path = '/', extraSchema }) => {
       <meta property="og:image" content={`${siteUrl}/og-image.png`} />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
-      <meta property="og:image:alt" content="Lumera - folie okienne i montaż" />
+      <meta property="og:image:alt" content="Lumera - folie okienne" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={seo.title} />
       <meta name="twitter:description" content={seo.description} />

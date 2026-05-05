@@ -120,7 +120,7 @@ const Navigation = () => {
           <img src={LogoIcon} alt="Lumera" className="navbar__logo" />
           <span className="navbar__brand-copy">
             <strong>Lumera</strong>
-            <small>Folie okienne i montaż</small>
+            <small>Folie okienne</small>
           </span>
         </Link>
 

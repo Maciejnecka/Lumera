@@ -19,7 +19,10 @@ const CONTACT_PHONE = '+48 605 505 714';
 const CONTACT_PHONE_HREF = 'tel:+48605505714';
 const CONTACT_EMAIL = 'biuro@folielumera.pl';
 const CONTACT_EMAIL_HREF = `mailto:${CONTACT_EMAIL}`;
-const COMPANY_ADDRESS = 'Rudawa, ul. Łanowa 14, 32-064 Rudawa';
+const COMPANY_NAME = 'Lumera Maciej Nęcka';
+const COMPANY_NIP = '5130311528';
+const COMPANY_REGON = '544660235';
+const COMPANY_ADDRESS = 'ul. Łanowa 14, 32-064 Rudawa';
 const CONTACT_EMAIL_COMPOSE_HREF = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(CONTACT_EMAIL)}`;
 const GOOGLE_REVIEW_HREF = 'https://share.google/ehvyHeeHWsm3vl9B6';
 
@@ -125,7 +128,7 @@ const Footer = () => {
         <FooterBrand>
           <FooterLogo src={LogoIcon} alt="Lumera" />
           <FooterBrandText>
-            <strong>Folie okienne i montaż</strong>
+            <strong>Folie okienne</strong>
             <p>
               Montaż folii okiennych dla mieszkań, domów, biur i lokali
               usługowych. Prosta komunikacja, estetyczny efekt i rozwiązania
@@ -215,6 +218,7 @@ const Footer = () => {
 
       <FooterBottom>
         <span>© 2026 Lumera</span>
+        <span>{COMPANY_NAME} | NIP: {COMPANY_NIP} | REGON: {COMPANY_REGON}</span>
       </FooterBottom>
     </FooterWrap>
   );

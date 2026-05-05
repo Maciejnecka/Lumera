@@ -75,7 +75,7 @@ const buildFaqSchema = (entity) =>
 
 const buildFilmBreadcrumbs = (film) => [
   { label: 'Strona główna', href: '/' },
-  { label: 'Folie', href: '/#folie-okienne' },
+  { label: film.name, href: film.path },
 ];
 
 const buildProblemBreadcrumbs = (page) => [

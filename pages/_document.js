@@ -35,7 +35,9 @@ export default class MyDocument extends Document {
           <meta name="application-name" content="Lumera" />
           <meta name="apple-mobile-web-app-title" content="Lumera" />
           <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-          <link rel="apple-touch-icon" href="/favicon.svg" />
+          <link rel="icon" href="/favicon-48x48.png" type="image/png" sizes="48x48" />
+          <link rel="icon" href="/favicon-192x192.png" type="image/png" sizes="192x192" />
+          <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
           <link rel="manifest" href="/site.webmanifest" />
         </Head>
         <body>
