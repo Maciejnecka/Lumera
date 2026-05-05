@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const rootDir = path.resolve(__dirname, '..');
-const siteUrl = 'https://lumera.pl';
+const siteUrl = 'https://folielumera.pl';
 
 const staticPages = [
   { path: '/', priority: '1.0' },

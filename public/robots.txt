@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lumera.pl/sitemap.xml
+Sitemap: https://folielumera.pl/sitemap.xml
