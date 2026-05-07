@@ -17,6 +17,40 @@ export const localServicePagesData = [
       'biura z monitorami blisko okien i problemem odblasków',
       'witryny oraz lokale usługowe z mocnym nasłonecznieniem',
     ],
+    sections: [
+      {
+        heading: 'Montaż folii przeciwsłonecznych w Krakowie',
+        text:
+          'W Krakowie najczęściej dobieramy folie przeciwsłoneczne do mieszkań z ekspozycją południową i zachodnią, lokali z dużymi witrynami, biur oraz przeszkleń, przy których latem szybko robi się zbyt ciepło. Przed montażem sprawdzamy typ szyby, stronę świata, intensywność słońca i to, czy ważniejsza jest redukcja nagrzewania, odblasków czy zachowanie jasnego wnętrza.',
+      },
+      {
+        heading: 'Folia przeciwsłoneczna na okna, witryny i biura',
+        text:
+          'Inny wariant folii sprawdzi się na oknach mieszkania, inny na witrynie sklepowej, a jeszcze inny przy dużym przeszkleniu biurowym. Przy nowych pakietach szybowych często bezpieczniejszym kierunkiem są folie zewnętrzne, natomiast przy wybranych przeszkleniach można rozważyć montaż od środka. Dobór zależy od konstrukcji szyby i oczekiwanego efektu.',
+      },
+      {
+        heading: 'Kraków i okolice: wycena po zdjęciach i wymiarach',
+        text:
+          'Do wstępnej wyceny najlepiej wysłać zdjęcia całych okien lub witryn, orientacyjne wymiary szyb od uszczelki do uszczelki, liczbę przeszkleń oraz krótki opis problemu. To pozwala szybciej ocenić, czy potrzebna będzie folia zewnętrzna, wewnętrzna, mocniej refleksyjna, jaśniejsza czy bardziej neutralna wizualnie.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Ile kosztują folie przeciwsłoneczne w Krakowie?',
+        answer:
+          'Cena zależy od rodzaju folii, powierzchni szyb, wysokości montażu, dostępu do okien i liczby przeszkleń. Do orientacyjnej wyceny wystarczą zdjęcia, wymiary szyb i informacja, gdzie znajduje się montaż.',
+      },
+      {
+        question: 'Czy folia przeciwsłoneczna mocno przyciemnia mieszkanie?',
+        answer:
+          'Nie zawsze. Można dobrać folie mocniej refleksyjne i skuteczne przy dużym słońcu albo spokojniejsze wizualnie warianty, które ograniczają nagrzewanie i odblaski bez bardzo ciemnego efektu.',
+      },
+      {
+        question: 'Czy folię przeciwsłoneczną montuje się od zewnątrz czy od środka?',
+        answer:
+          'To zależy od szyby i celu montażu. Przy wielu nowoczesnych pakietach szybowych lepszym kierunkiem są folie zewnętrzne, bo skuteczniej zatrzymują energię słoneczną przed szybą i zmniejszają ryzyko naprężeń.',
+      },
+    ],
     relatedProblems: [
       '/jak-ograniczyc-nagrzewanie-mieszkania',
       '/folia-na-okna-od-poludnia',

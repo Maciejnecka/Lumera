@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { filmsData } from '../data/filmsData';
 
-const siteUrl = 'https://lumera.pl';
+const siteUrl = 'https://folielumera.pl';
 const defaultTitle = 'Lumera | Montaż folii okiennych Kraków i okolice';
 const defaultDescription =
   'Lumera oferuje montaż folii okiennych do domów, mieszkań, biur i lokali w Krakowie i okolicach. Folie przeciwsłoneczne, matowe, ochronne, antywłamaniowe i inne rozwiązania.';

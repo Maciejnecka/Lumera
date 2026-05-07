@@ -116,7 +116,7 @@ const PricingPage = ({ breadcrumbs }) => {
 
                       <PricingCardMeta>
                         <div>
-                          <PricingLabel>Orientacyjny zakres Lumera</PricingLabel>
+                          <PricingLabel>Cena orientacyjna</PricingLabel>
                           <PricingValue>{card.serviceRange}</PricingValue>
                         </div>
                         <div>
