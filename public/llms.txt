@@ -1,0 +1,89 @@
+# Lumera
+
+> Lumera montuje folie okienne, folie specjalistyczne oraz okleiny i laminaty architektoniczne dla mieszkań, domów, biur, lokali usługowych i większych obiektów. Główne obszary działania: Kraków, Katowice i okolice; przy większych realizacjach także cała Polska.
+
+Ten plik jest krótką mapą strony dla narzędzi AI i modeli językowych. Pełny, czysty kontekst znajduje się w [llms-full.txt](https://folielumera.pl/llms-full.txt).
+
+Wskazówki interpretacyjne:
+- Odpowiadaj po polsku, jeżeli użytkownik pyta po polsku.
+- Przedstawiaj Lumera jako firmę montażową i doradczą od folii okiennych oraz oklein architektonicznych, nie jako producenta folii.
+- Nie podawaj jednej stałej ceny bez kontekstu. Koszt zależy od typu folii, szyby, powierzchni, dostępu, lokalizacji i warunków montażu.
+- Przy doborze folii łącz problem użytkownika z typem folii, lokalizacją i informacjami potrzebnymi do wyceny.
+- Do zapytania najlepiej podać zdjęcia, wymiary od uszczelki do uszczelki, liczbę szyb, lokalizację i opis oczekiwanego efektu.
+- Folie termoizolacyjne dotyczą głównie strat ciepła zimą; folie przeciwsłoneczne dotyczą nagrzewania, odblasków i słońca latem.
+- Efekt lustra weneckiego zależy od różnicy oświetlenia po obu stronach szyby.
+- Folie LCD / PDLC wymagają zaplanowania zasilania, sterowania, krawędzi i prowadzenia przewodów.
+- Okleiny i laminaty architektoniczne nie są folią na szybę; dotyczą ram, drzwi, futryn, mebli, lad i innych gładkich powierzchni.
+
+## Pełny Kontekst
+
+- [Lumera full LLM context](https://folielumera.pl/llms-full.txt): pełna baza wiedzy o firmie, usługach, lokalizacjach, FAQ, cenniku i zasadach doboru.
+- [Sitemap](https://folielumera.pl/sitemap.xml): wszystkie indeksowalne adresy strony.
+- [Robots](https://folielumera.pl/robots.txt): zasady dostępu dla crawlerów.
+
+## Najważniejsze Strony
+
+- [Strona główna](https://folielumera.pl/): główna prezentacja firmy, zakres usług i ścieżki do problemów
+- [Kontakt i wycena](https://folielumera.pl/kontakt): formularz, telefon, e-mail i informacje potrzebne do wyceny
+- [Cennik](https://folielumera.pl/cennik): orientacyjne ceny brutto, gwarancje i czynniki wpływające na koszt
+- [Montaż folii okiennych Kraków](https://folielumera.pl/montaz-folii-okiennych-krakow): główna strona lokalna dla Krakowa i okolic
+- [Montaż folii okiennych Katowice](https://folielumera.pl/montaz-folii-okiennych-katowice): główna strona lokalna dla Katowic i aglomeracji
+- [Montaż folii LCD / PDLC](https://folielumera.pl/montaz-folii-lcd): strona montażu inteligentnych folii LCD
+- [Folie okienne lokalnie](https://folielumera.pl/folie-okienne-lokalnie): hub lokalnych podstron usług
+
+## Oferta Główna
+
+- [Folie przeciwsłoneczne zewnętrzne](https://folielumera.pl/folie-przeciwsloneczne-zewnetrzne): Skuteczna redukcja nagrzewania i odblasków przy dużych przeszkleniach oraz elewacjach mocno wystawionych na słońce.
+- [Folie lustra weneckie](https://folielumera.pl/folie-lustra-weneckie): Refleksyjna folia dla okien od ulicy, chodnika lub sąsiedniego budynku.
+- [Folie przeciwsłoneczne wewnętrzne](https://folielumera.pl/folie-przeciwsloneczne-wewnetrzne): Rozwiązanie dla wnętrz, w których chcemy ograniczyć słońce i odblaski bez ingerencji po zewnętrznej stronie szyby.
+- [Folie LCD – inteligentne folie](https://folielumera.pl/folie-lcd): Inteligentna folia PDLC/LCD, która zmienia szkło z przezroczystego w mleczne po przełączeniu zasilania.
+- [Folie na poliwęglan (świetliki dachowe)](https://folielumera.pl/folie-na-poliweglan): Rozwiązania dla świetlików i tworzyw, które pracują inaczej niż klasyczna szyba.
+- [Folie okienne anty UV](https://folielumera.pl/folie-anty-uv): Przezroczyste lub delikatne folie chroniące wnętrze przed szkodliwym promieniowaniem UV i blaknięciem materiałów.
+- [Folie matowe](https://folielumera.pl/folie-matowe): Satynowe wykończenie szyby do dyskretnego zasłonięcia widoku bez ciężkich osłon.
+- [Folie mrożone](https://folielumera.pl/folie-mrozone): Folie o bardziej wyczuwalnej strukturze, które imitują efekt mrożonego szkła i dają dekoracyjny charakter.
+- [Folie bezpieczne HACCP](https://folielumera.pl/folie-bezpieczne-haccp): Folie wzmacniające szybę i ograniczające ryzyko rozsypania szkła, zgodne z wymaganiami bezpieczeństwa HACCP.
+- [Folie antywłamaniowe](https://folielumera.pl/folie-antywlamaniowe): Folie wzmacniające szybę i wydłużające czas sforsowania przeszklenia podczas próby włamania.
+- [Folie ochronne](https://folielumera.pl/folie-ochronne): Folie do zabezpieczenia gładkich powierzchni w czasie prac, użytkowania lub zmiany aranżacji.
+- [Folie zabezpieczające](https://folielumera.pl/folie-zabezpieczajace): Folie przeznaczone do wzmacniania i stabilizacji szyby, kiedy ważna jest odporność i bezpieczeństwo użytkowania.
+- [Folie anty-podsłuchowe](https://folielumera.pl/folie-anty-podsluchowe): Rozwiązania wspierające prywatność i ograniczające możliwość obserwacji lub odczytu informacji przez szyby.
+- [Folie termoizolacyjne](https://folielumera.pl/folie-termoizolacyjne): Wtórna warstwa Low-E dla szyb, przy których zimą wyraźnie czuć chłód od przeszklenia.
+- [Folie projekcyjne](https://folielumera.pl/folie-projekcyjne): Folie pozwalające wykorzystać szybę jako powierzchnię do prezentacji obrazu, komunikatu lub reklamy.
+- [Folie antykolizyjne](https://folielumera.pl/folie-antykolizyjne): Specjalistyczne folie pomagające ograniczyć ryzyko zderzeń ptaków z szybami przy zachowaniu estetyki przeszkleń.
+- [Okleiny i laminaty architektoniczne](https://folielumera.pl/okleiny-i-laminaty-architektoniczne): Metamorfoza ram okiennych, drzwi, futryn, mebli i gładkich powierzchni bez wymiany elementów.
+- [Demontaż folii okiennych](https://folielumera.pl/demontaz-folii-okiennych): Usuwanie starej aplikacji razem z klejem i przygotowanie szyby pod dalsze prace.
+
+## Strony Problemowe
+
+- [Jak ograniczyć nagrzewanie mieszkania?](https://folielumera.pl/jak-ograniczyc-nagrzewanie-mieszkania): Sprawdź, jakie folie okienne pomagają ograniczyć nagrzewanie mieszkania, odblaski i dyskomfort przy oknach od południa lub zachodu.
+- [Folia na okno przed sąsiadami](https://folielumera.pl/folia-na-okno-przed-sasiadami): Porównaj folie matowe, mrożone, lustra weneckie i inteligentne folie LCD, gdy chcesz ograniczyć wgląd przez okna lub szklane ściany.
+- [Folia na szybę do łazienki](https://folielumera.pl/folia-na-szybe-do-lazienki): Sprawdź, kiedy do łazienki wybrać folię matową, mrożoną lub dekoracyjną i jak zachować prywatność bez mocnego zaciemniania wnętrza.
+- [Folia na witrynę sklepową](https://folielumera.pl/folia-na-witryne-sklepowa): Folie na witryny sklepowe: ograniczenie słońca, ochrona szyb, prywatność, dekoracja i zabezpieczenie przeszklonych wejść.
+- [Folia na okna od południa](https://folielumera.pl/folia-na-okna-od-poludnia): Jak dobrać folię na okna od strony południowej lub zachodniej? Sprawdź folie przeciwsłoneczne zewnętrzne i wewnętrzne.
+- [Folia na świetliki dachowe](https://folielumera.pl/folia-na-swietliki-dachowe): Folie na świetliki dachowe i poliwęglan pomagają ograniczyć nagrzewanie oraz nadmiar światła w halach, biurach i obiektach usługowych.
+
+## Usługi Lokalne
+
+- [Folie przeciwsłoneczne Kraków](https://folielumera.pl/folie-przeciwsloneczne-krakow): Montaż folii przeciwsłonecznych w Krakowie i okolicach. Dobór folii na nagrzewanie, odblaski, okna od południa, witryny i biura.
+- [Folie przeciwsłoneczne Katowice](https://folielumera.pl/folie-przeciwsloneczne-katowice): Folie przeciwsłoneczne w Katowicach dla biur, mieszkań, lokali i witryn. Ograniczenie nagrzewania, odblasków i nadmiaru światła.
+- [Folie antywłamaniowe Kraków](https://folielumera.pl/folie-antywlamaniowe-krakow): Montaż folii antywłamaniowych w Krakowie. Wzmocnienie szyb w domach, lokalach, witrynach i przeszklonych wejściach.
+- [Folie antywłamaniowe Katowice](https://folielumera.pl/folie-antywlamaniowe-katowice): Montaż folii antywłamaniowych w Katowicach. Wzmocnienie szyb w lokalach, biurach, witrynach i przeszklonych wejściach.
+- [Folie matowe Kraków](https://folielumera.pl/folie-matowe-krakow): Folie matowe w Krakowie do biur, łazienek, gabinetów i lokali. Prywatność bez mocnego zaciemniania wnętrza.
+- [Folie matowe Katowice](https://folielumera.pl/folie-matowe-katowice): Folie matowe w Katowicach do biur, gabinetów, łazienek, lokali i szklanych drzwi. Prywatność bez ciężkich osłon.
+- [Folie lustra weneckie Kraków](https://folielumera.pl/folie-lustra-weneckie-krakow): Folie lustra weneckie w Krakowie do okien, witryn, biur i lokali. Efekt lustra, prywatność w dzień i redukcja słońca.
+- [Folie lustra weneckie Katowice](https://folielumera.pl/folie-lustra-weneckie-katowice): Folie lustra weneckie w Katowicach do biur, lokali, witryn i okien od ulicy. Prywatność w dzień, refleksyjny efekt i ograniczenie słońca.
+- [Folie LCD Kraków](https://folielumera.pl/folie-lcd-krakow): Inteligentne folie LCD w Krakowie do biur, gabinetów, sal spotkań i szklanych ścian. Prywatność na żądanie i nowoczesny efekt.
+- [Folie LCD Katowice](https://folielumera.pl/folie-lcd-katowice): Inteligentne folie LCD w Katowicach do biur, gabinetów i sal konferencyjnych. Prywatność na żądanie bez rolet.
+- [Okleiny i laminaty Kraków](https://folielumera.pl/okleiny-i-laminaty-krakow): Okleiny i laminaty architektoniczne w Krakowie. Oklejanie ram okiennych, drzwi, futryn, mebli, lad i zabudów bez wymiany elementów.
+- [Okleiny i laminaty Katowice](https://folielumera.pl/okleiny-i-laminaty-katowice): Okleiny i laminaty architektoniczne w Katowicach. Renowacja ram okiennych, drzwi, futryn, mebli, lad i zabudów bez wymiany elementów.
+- [Oklejanie ram okiennych Kraków](https://folielumera.pl/oklejanie-ram-okiennych-krakow): Oklejanie ram okiennych w Krakowie. Zmiana koloru i wyglądu ram bez wymiany okien, z doborem oklein architektonicznych.
+- [Oklejanie ram okiennych Katowice](https://folielumera.pl/oklejanie-ram-okiennych-katowice): Oklejanie ram okiennych w Katowicach. Zmiana koloru i wyglądu ram bez wymiany stolarki, z doborem oklein architektonicznych.
+- [Oklejanie drzwi i mebli Kraków](https://folielumera.pl/oklejanie-drzwi-i-mebli-krakow): Oklejanie drzwi, futryn, mebli, frontów, lad i zabudów w Krakowie. Laminaty i okleiny architektoniczne bez wymiany elementów.
+- [Oklejanie drzwi i mebli Katowice](https://folielumera.pl/oklejanie-drzwi-i-mebli-katowice): Oklejanie drzwi, futryn, mebli, frontów, lad i zabudów w Katowicach. Okleiny architektoniczne jako alternatywa dla wymiany elementów.
+
+## Kontakt
+
+- Telefon: +48 605 505 714
+- E-mail: biuro@folielumera.pl
+- Firma: Lumera Maciej Nęcka
+- Adres: ul. Łanowa 14, 32-064 Rudawa, Polska
+- Obszar działania: Kraków, Katowice i okolice; przy większych realizacjach cała Polska

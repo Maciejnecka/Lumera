@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+﻿import React, { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { throttle } from 'lodash';
@@ -10,7 +10,7 @@ const navLinks = [
   { label: 'Cennik', href: '/cennik' },
   { label: 'O nas', id: 'o-nas' },
   { label: 'Realizacje', id: 'realizacje' },
-  { label: 'Kontakt', id: 'kontakt' },
+  { label: 'Kontakt', href: '/kontakt' },
 ];
 
 const Navigation = () => {
@@ -127,7 +127,7 @@ const Navigation = () => {
         <button
           type="button"
           className="navbar__toggle"
-          aria-label={isNavOpen ? 'Zamknij menu' : 'Otwórz menu'}
+          aria-label={isNavOpen ? 'Zamknij menu' : 'OtwĂłrz menu'}
           aria-expanded={isNavOpen}
           onClick={() => setIsNavOpen((value) => !value)}
         >
@@ -176,13 +176,17 @@ const Navigation = () => {
             )
           ))}
 
-          <button
-            type="button"
+          <a
             className="navbar__cta"
-            onClick={() => goToHomeSection('kontakt')}
+            href="tel:+48605505714"
+            aria-label="ZadzwoĹ„ do Lumera pod numer +48 605 505 714"
           >
-            Bezpłatna wycena
-          </button>
+            <span className="navbar__cta-icon" aria-hidden="true" />
+            <span className="navbar__cta-copy">
+              <strong>Zadzwoń</strong>
+              <small>+48 605 505 714</small>
+            </span>
+          </a>
         </div>
       </div>
     </StyledNavbar>

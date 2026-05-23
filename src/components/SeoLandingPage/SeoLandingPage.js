@@ -47,7 +47,7 @@ const SeoLandingPage = ({ page, type, breadcrumbs }) => {
           <SeoTitle>{page.title}</SeoTitle>
           <SeoLead>{page.lead}</SeoLead>
           <SeoActions>
-            <Link href="/#kontakt">Zapytaj o dobór folii</Link>
+            <Link href="/kontakt">Zapytaj o dobór folii</Link>
             {mainFilm && <Link href={mainFilm.path}>Zobacz: {mainFilm.name}</Link>}
           </SeoActions>
         </SeoHero>
@@ -198,7 +198,7 @@ const SeoLandingPage = ({ page, type, breadcrumbs }) => {
             </p>
           )}
           <SeoActions className="seo-actions--bottom">
-            <Link href="/#kontakt">Przejdź do formularza</Link>
+            <Link href="/kontakt">Przejdź do formularza</Link>
           </SeoActions>
         </SeoSection>
       </SeoWrap>

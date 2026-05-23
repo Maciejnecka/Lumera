@@ -45,7 +45,7 @@ const getCardData = (item) => {
   return {
     ...item,
     title: film?.name || item.title,
-    path: film?.path || item.path || '/#kontakt',
+    path: film?.path || item.path || '/kontakt',
     image: film?.image || null,
     shortDescription: film?.shortDescription || item.shortDescription || '',
   };
@@ -66,7 +66,7 @@ const PricingPage = ({ breadcrumbs }) => {
           </PricingLead>
 
           <PricingActions>
-            <Link href="/#kontakt">Poproś o realną wycenę</Link>
+            <Link href="/kontakt">Poproś o realną wycenę</Link>
             <a href="#zakresy-cen">Przejdź do zakresów cen</a>
           </PricingActions>
 
@@ -191,7 +191,7 @@ const PricingPage = ({ breadcrumbs }) => {
             </p>
           </div>
 
-          <Link href="/#kontakt">Poproś o bezpłatną wycenę</Link>
+          <Link href="/kontakt">Poproś o bezpłatną wycenę</Link>
         </PricingFinalCta>
       </PricingWrap>
     </main>

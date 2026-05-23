@@ -44,7 +44,7 @@ const PrivacyPolicyPage = ({ breadcrumbs }) => {
           </PrivacyLead>
           <PrivacyActions>
             <Link href="/">Wróć na stronę główną</Link>
-            <Link href="/#kontakt">Napisz do nas</Link>
+            <Link href="/kontakt">Napisz do nas</Link>
           </PrivacyActions>
         </PrivacyHero>
 

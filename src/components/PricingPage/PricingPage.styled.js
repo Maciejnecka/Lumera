@@ -245,6 +245,9 @@ export const PricingCardMeta = styled.div`
   `}
 
   > div {
+    display: grid;
+    align-content: start;
+    gap: 0.7rem;
     padding: 1.2rem 1.2rem 1.15rem;
     border-radius: 1.6rem;
     background: rgba(247, 241, 233, 0.7);
@@ -253,7 +256,6 @@ export const PricingCardMeta = styled.div`
 
 export const PricingLabel = styled.span`
   display: block;
-  margin-bottom: 0.6rem;
   color: var(--font-muted);
   font-size: 1.05rem;
   letter-spacing: 0.08em;
@@ -268,14 +270,19 @@ export const PricingValue = styled.strong`
 `;
 
 export const PricingPill = styled.span`
-  display: inline-block;
-  min-height: 3.2rem;
-  padding: 0.55rem 0.9rem;
+  width: fit-content;
+  max-width: 100%;
+  min-height: 3.4rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 1rem;
   border-radius: 999px;
   color: var(--font-dark);
   font-size: 1.32rem;
   font-weight: 600;
-  line-height: 1.5;
+  line-height: 1.28;
+  text-align: center;
   white-space: normal;
   background: rgba(255, 255, 255, 0.82);
 `;

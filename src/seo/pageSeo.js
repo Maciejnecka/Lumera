@@ -34,6 +34,11 @@ const staticPages = {
     description:
       'Orientacyjny cennik folii okiennych Lumera: zakresy cen, gwarancje i najważniejsze informacje przed kontaktem i wyceną.',
   },
+  '/kontakt': {
+    title: 'Kontakt i wycena folii okiennych | Lumera',
+    description:
+      'Skontaktuj się z Lumera i poproś o wycenę montażu folii okiennych. Wyślij zdjęcia, wymiary szyb, lokalizację i opis oczekiwanego efektu.',
+  },
   '/folie-okienne-lokalnie': {
     title: 'Folie okienne lokalnie | Kraków, Katowice i okolice | Lumera',
     description:

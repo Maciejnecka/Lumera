@@ -10,7 +10,8 @@
     "url": "node -e \"console.log('Podglad strony dziala pod adresem: http://localhost:3000')\"",
     "build": "next build",
     "sitemap": "node scripts/generate-sitemap.cjs",
-    "postbuild": "node scripts/generate-sitemap.cjs",
+    "llms": "node scripts/generate-llms.cjs",
+    "postbuild": "node scripts/generate-sitemap.cjs && node scripts/generate-llms.cjs",
     "start": "next start",
     "lint": "next lint"
   },

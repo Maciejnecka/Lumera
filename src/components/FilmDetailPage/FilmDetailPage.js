@@ -45,12 +45,16 @@ const FilmDetailPage = ({ film, breadcrumbs }) => {
   const localLinks = (film.localLinks || []).map(getLocalServicePage).filter(Boolean);
 
   const goToHomeSection = (sectionId, contactTopic) => {
-    sessionStorage.setItem('lumera-scroll-target', sectionId);
-
     if (contactTopic) {
       sessionStorage.setItem('lumera-contact-topic', contactTopic);
     }
 
+    if (sectionId === 'kontakt') {
+      router.push('/kontakt');
+      return;
+    }
+
+    sessionStorage.setItem('lumera-scroll-target', sectionId);
     router.push('/');
   };
 
@@ -236,7 +240,7 @@ const FilmDetailPage = ({ film, breadcrumbs }) => {
                 </DetailLinkCard>
               ))}
               <DetailLinkCard
-                href="/#kontakt"
+                href="/kontakt"
                 data-aos="fade-up"
                 data-aos-delay={(problemLinks.length + localLinks.length) * 50}
               >

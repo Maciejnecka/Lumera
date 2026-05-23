@@ -93,22 +93,19 @@ const getSliderState = (slider) => {
 
   const snapPoints = getSliderSnapPoints(slider);
   const pageCount = Math.max(1, snapPoints.length);
-  const activeIndex = getClosestSnapIndex(snapPoints, slider.scrollLeft);
+  const activeIndex = getClosestSnapIndex(snapPoints, Math.round(slider.scrollLeft));
   const maxScroll = Math.max(0, slider.scrollWidth - slider.clientWidth);
 
   return {
     activeIndex,
     pageCount,
-    canScrollPrev: slider.scrollLeft > 8,
-    canScrollNext: slider.scrollLeft < maxScroll - 8,
+    canScrollPrev: slider.scrollLeft > 2,
+    canScrollNext: slider.scrollLeft < maxScroll - 2,
   };
 };
 
 const getCardLeft = (slider, card) => {
-  const sliderRect = slider.getBoundingClientRect();
-  const cardRect = card.getBoundingClientRect();
-
-  return Math.max(0, cardRect.left - sliderRect.left + slider.scrollLeft);
+  return Math.max(0, Math.round(card.offsetLeft - slider.offsetLeft));
 };
 
 const getSliderSnapPoints = (slider) => {

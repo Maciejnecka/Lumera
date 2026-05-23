@@ -4,7 +4,8 @@ import { media } from '../Styled/mediaqueries';
 export const ContactWrap = styled.section`
   position: relative;
   isolation: isolate;
-  padding: 6rem 5vw 6rem;
+  padding: 13rem 5vw 6rem;
+  scroll-margin-top: 12rem;
   overflow: hidden;
 
   &::after {
@@ -76,7 +77,7 @@ export const ContactIntro = styled.div`
     text-transform: uppercase;
   }
 
-  h2 {
+  h1 {
     margin: 0 0 1.6rem;
     color: var(--font-title);
     font-size: clamp(2.8rem, 4vw, 4.3rem);

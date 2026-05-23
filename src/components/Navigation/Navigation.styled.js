@@ -203,14 +203,80 @@ const StyledNavbar = styled.nav`
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-height: 4.6rem;
-    padding: 0 1.8rem;
-    border: 0;
+    gap: 1rem;
+    min-height: 5.4rem;
+    padding: 0.7rem 1.6rem 0.7rem 1.2rem;
+    border: 1px solid rgba(43, 98, 86, 0.2);
     border-radius: 999px;
     color: #fffdf8;
-    background: linear-gradient(135deg, var(--accent-primary), #3f7a6e);
-    box-shadow: var(--shadow-md);
+    background:
+      radial-gradient(circle at 24% 18%, rgba(255, 255, 255, 0.22), transparent 34%),
+      linear-gradient(135deg, #2b6256 0%, #235047 55%, #173a34 100%);
+    box-shadow:
+      0 18px 38px rgba(25, 59, 52, 0.24),
+      0 0 0 4px rgba(43, 98, 86, 0.08);
     cursor: pointer;
+    text-decoration: none;
+    transition:
+      transform var(--transition-fast),
+      box-shadow var(--transition-fast),
+      background var(--transition-fast);
+  }
+
+  .navbar__cta:hover,
+  .navbar__cta:focus-visible {
+    transform: translateY(-2px);
+    box-shadow:
+      0 22px 44px rgba(25, 59, 52, 0.3),
+      0 0 0 4px rgba(43, 98, 86, 0.13);
+  }
+
+  .navbar__cta-icon {
+    position: relative;
+    width: 3.2rem;
+    height: 3.2rem;
+    flex: 0 0 auto;
+    border-radius: 999px;
+    background: rgba(255, 253, 248, 0.95);
+  }
+
+  .navbar__cta-icon::before {
+    content: '☎';
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--accent-primary);
+    font-size: 1.85rem;
+    font-weight: 800;
+    line-height: 1;
+  }
+
+  .navbar__cta-copy {
+    display: grid;
+    gap: 0.08rem;
+    line-height: 1.05;
+    text-align: left;
+  }
+
+  .navbar__cta-copy strong,
+  .navbar__cta-copy small {
+    display: block;
+    color: inherit;
+  }
+
+  .navbar__cta-copy strong {
+    font-size: 1.45rem;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+  }
+
+  .navbar__cta-copy small {
+    font-size: 1.18rem;
+    font-weight: 700;
+    opacity: 0.9;
+    white-space: nowrap;
   }
 
   .navbar__toggle {
@@ -373,6 +439,8 @@ const StyledNavbar = styled.nav`
     .navbar__cta {
       width: 100%;
       margin-top: 0.4rem;
+      min-height: 5.6rem;
+      justify-content: center;
     }
   }
 

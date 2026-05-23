@@ -56,7 +56,7 @@ const Header = () => {
               Wymiary najlepiej podać od uszczelki do uszczelki.
               Podpowiemy, które rozwiązanie ma sens przed umawianiem montażu.
             </p>
-            <HeroPromiseLink href="#kontakt">Wyślij zdjęcia do oceny</HeroPromiseLink>
+            <HeroPromiseLink href="/kontakt">Wyślij zdjęcia do oceny</HeroPromiseLink>
           </HeroPromise>
 
           <HeroHighlights>
@@ -66,7 +66,7 @@ const Header = () => {
           </HeroHighlights>
 
           <HeroActions>
-            <PrimaryButton href="#kontakt">Poproś o wycenę</PrimaryButton>
+            <PrimaryButton href="/kontakt">Poproś o wycenę</PrimaryButton>
             <SecondaryButton href="#folie-okienne">
               Zobacz rodzaje folii
             </SecondaryButton>

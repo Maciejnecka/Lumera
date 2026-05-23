@@ -23,6 +23,11 @@ const staticPages = [
   },
   { path: '/cennik', priority: '0.84', sourceFile: 'src/data/pricingPageData.js' },
   {
+    path: '/kontakt',
+    priority: '0.88',
+    sourceFile: 'pages/kontakt.js',
+  },
+  {
     path: '/folie-okienne-lokalnie',
     priority: '0.82',
     sourceFile: 'src/components/LocalServicesHubPage/LocalServicesHubPage.js',

@@ -470,13 +470,28 @@ export const SliderIntro = styled.div`
 export const SliderDots = styled.div`
   display: inline-flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 0.8rem;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  max-width: 100%;
+  padding: 0.2rem 0.6rem 0.6rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  @media (min-width: 640px) {
+    justify-content: center;
+  }
 `;
 
 export const SliderDot = styled.button`
-  width: ${(props) => (props.$isActive ? '2.8rem' : '0.95rem')};
+  flex: 0 0 0.95rem;
+  width: 0.95rem;
   height: 0.95rem;
   border: 0;
   border-radius: 999px;
@@ -485,14 +500,32 @@ export const SliderDot = styled.button`
   box-shadow: ${(props) =>
     props.$isActive ? '0 6px 14px rgba(43, 98, 86, 0.22)' : 'none'};
   cursor: pointer;
+  transform: ${(props) => (props.$isActive ? 'scaleX(1.75)' : 'scaleX(1)')};
   transition:
-    width var(--transition),
     background var(--transition),
     transform var(--transition),
     box-shadow var(--transition);
 
   &:hover {
-    transform: translateY(-1px);
+    transform: translateY(-1px)
+      ${(props) => (props.$isActive ? 'scaleX(1.75)' : 'scaleX(1)')};
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid rgba(43, 98, 86, 0.36);
+    outline-offset: 0.35rem;
+  }
+
+  @media (max-width: 600px) {
+    transform: none;
+
+    &:hover {
+      transform: none;
+    }
   }
 `;
 
@@ -587,9 +620,11 @@ export const FilmsSlider = styled.div`
   }
 
   @media (max-width: 600px) {
-    grid-auto-columns: minmax(22rem, 82vw);
-    padding-right: 5vw;
+    display: flex;
+    gap: 1.2rem;
+    padding-right: 0;
     cursor: auto;
+    scroll-snap-type: x mandatory;
   }
 `;
 
@@ -628,6 +663,12 @@ export const FilmCard = styled.article`
     box-shadow:
       0 0 0 3px rgba(43, 98, 86, 0.16),
       var(--shadow-md);
+  }
+
+  @media (max-width: 600px) {
+    flex: 0 0 100%;
+    max-width: 100%;
+    scroll-snap-stop: always;
   }
 
   h3 {

@@ -23,14 +23,14 @@ export const pricingGroups = [
     items: [
       {
         filmId: 'external-solar',
-        serviceRange: '230-295 zl/m2',
+        serviceRange: '180-295 zl/m2',
         warranty: '3-7 lat',
         note: 'Dla mocno nasłonecznionych szyb, witryn i dużych przeszkleń.',
       },
       {
         filmId: 'internal-solar',
         serviceRange: '120-440 zl/m2',
-        warranty: '10-15 lat',
+        warranty: '5-15 lat',
         note: 'Zakres zależy od stopnia selektywności i poziomu przyciemnienia.',
       },
       {
@@ -47,14 +47,14 @@ export const pricingGroups = [
       },
       {
         filmId: 'matte',
-        serviceRange: '110-160 zl/m2',
-        warranty: '10-15 lat',
+        serviceRange: '110-175 zl/m2',
+        warranty: '7-15 lat',
         note: 'Spokojny, satynowy efekt i prywatność bez mocnego zaciemnienia.',
       },
       {
         filmId: 'frosted',
-        serviceRange: '95-160 zl/m2',
-        warranty: '10-15 lat',
+        serviceRange: '95-175 zl/m2',
+        warranty: '7-15 lat',
         note: 'Dekoracyjny efekt mrożonego szkła; cena rośnie przy wycinaniu wzorów.',
       },
       {
@@ -99,7 +99,7 @@ export const pricingGroups = [
       {
         filmId: 'protective',
         serviceRange: '110-220 zl/m2',
-        warranty: 'od czasowej do ok. 10 lat',
+        warranty: '5-10 lat',
         note: 'Stosowane zarówno jako ochrona tymczasowa, jak i bardziej trwała.',
       },
       {
@@ -116,7 +116,7 @@ export const pricingGroups = [
       },
       {
         filmId: 'lcd',
-        serviceRange: '1700-3400 zl/m2',
+        serviceRange: '1450-2900 zl/m2',
         warranty: '2-5 lat systemowo',
         note: 'Zakres zwykle nie obejmuje wszystkich transformatorów, sterowania i prac elektrycznych w nietypowych realizacjach.',
       },
@@ -137,13 +137,13 @@ export const pricingGroups = [
     items: [
       {
         filmId: 'architectural-wraps',
-        serviceRange: 'najczęściej od ok. 220 zl/m2 lub za element',
-        warranty: '3-7 lat',
+        serviceRange: 'najczęściej ok. 300 zl/m2 lub za element',
+        warranty: '2-7 lat',
         note: 'Dla ram, drzwi, futryn, mebli i lad finalny koszt mocno zależy od krawędzi i stanu powierzchni.',
       },
       {
         filmId: 'film-removal',
-        serviceRange: 'najczęściej od ok. 60 do 180 zl/m2',
+        serviceRange: 'najczęściej od ok. 50 do 170 zl/m2',
         warranty: 'nie dotyczy',
         note: 'Demontaż wyceniamy po typie folii, wieku aplikacji, kleju i tym, czy szyba ma być przygotowana pod nowy montaż.',
       },

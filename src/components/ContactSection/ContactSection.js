@@ -484,10 +484,10 @@ const ContactSection = () => {
       <ContactCard>
         <ContactIntro data-aos="fade-up">
           <span>Kontakt</span>
-          <h2>
+          <h1>
             Jeśli chcesz sprawdzić, jaka folia będzie najlepsza do Twoich okien,
             zostaw wiadomość.
-          </h2>
+          </h1>
           <p>
             Wystarczy kilka podstawowych informacji, żebyśmy mogli wrócić z
             odpowiedzią i wstępnie ocenić, jakie rozwiązanie najlepiej sprawdzi

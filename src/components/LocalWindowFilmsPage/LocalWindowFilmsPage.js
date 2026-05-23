@@ -116,7 +116,7 @@ const LocalWindowFilmsPage = ({ city = 'krakow', breadcrumbs }) => {
           <LocalTitle>{page.title}</LocalTitle>
           <LocalLead>{page.lead}</LocalLead>
           <LocalActions>
-            <Link href="/#kontakt">Zapytaj o wycenę</Link>
+            <Link href="/kontakt">Zapytaj o wycenę</Link>
             <Link href="/#folie-okienne">Zobacz rodzaje folii</Link>
           </LocalActions>
         </LocalHero>
@@ -206,7 +206,7 @@ const LocalWindowFilmsPage = ({ city = 'krakow', breadcrumbs }) => {
           <h2>Jak wygląda pierwszy kontakt?</h2>
           <p>{page.process}</p>
           <LocalActions className="local-actions--bottom">
-            <Link href="/#kontakt">Przejdź do formularza</Link>
+            <Link href="/kontakt">Przejdź do formularza</Link>
           </LocalActions>
         </LocalSection>
       </LocalWrap>
@@ -228,7 +228,7 @@ export const LcdInstallationPage = ({ breadcrumbs }) => (
           <LocalTitle>{lcdInstallationPage.title}</LocalTitle>
           <LocalLead>{lcdInstallationPage.lead}</LocalLead>
           <LocalActions>
-            <Link href="/#kontakt">Zapytaj o montaż LCD</Link>
+            <Link href="/kontakt">Zapytaj o montaż LCD</Link>
             <Link href="/folie-lcd">Zobacz opis folii LCD</Link>
           </LocalActions>
         </LocalHero>
@@ -317,7 +317,7 @@ export const LcdInstallationPage = ({ breadcrumbs }) => (
           zaplanowanie rozwiązania razem z nową zabudową szklaną.
         </p>
         <LocalActions className="local-actions--bottom">
-          <Link href="/#kontakt">Przejdź do formularza</Link>
+          <Link href="/kontakt">Przejdź do formularza</Link>
         </LocalActions>
       </LocalSection>
     </LocalWrap>
