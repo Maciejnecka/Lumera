@@ -56,6 +56,10 @@ export const serviceHubPagesData = [
     relatedProblems: [
       '/jak-ograniczyc-nagrzewanie-mieszkania',
       '/folia-na-okna-od-poludnia',
+      '/folia-na-okna-od-zachodu',
+      '/folia-przeciwsloneczna-zewnetrzna-czy-wewnetrzna',
+      '/czy-folia-na-okna-przyciemnia-mieszkanie',
+      '/czy-folia-przeciwsloneczna-dziala-zima',
       '/folia-na-witryne-sklepowa',
       '/folia-na-swietliki-dachowe',
     ],

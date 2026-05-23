@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import {
   contactFaq,
+  contactMap,
   contactPreparationItems,
   contactServiceArea,
 } from '../../data/contactPageData';
@@ -32,6 +33,8 @@ import {
   ContactGuideGrid,
   ContactGuideCard,
   ContactAreaPanel,
+  ContactMapPanel,
+  ContactMapFrame,
   ContactFaq,
   ContactFaqItem,
 } from './ContactSection.styled';
@@ -816,8 +819,12 @@ const ContactSection = () => {
               </a>
             </li>
             <li>
+              <strong>Adres firmy</strong>
+              <span>ul. Łanowa 14, 32-064 Rudawa</span>
+            </li>
+            <li>
               <strong>Obszar działania</strong>
-              <span>Kraków i okolice</span>
+              <span>Kraków, Rudawa, Zabierzów, Katowice i okolice</span>
             </li>
             <li className="contact-hours">
               <strong>Godziny kontaktu</strong>
@@ -886,6 +893,28 @@ const ContactSection = () => {
             ))}
           </ul>
         </ContactAreaPanel>
+
+        <ContactMapPanel>
+          <div>
+            <span>Mapa i adres</span>
+            <h3>{contactMap.title}</h3>
+            <strong>{contactMap.address}</strong>
+            <p>{contactMap.text}</p>
+            <a href={contactMap.mapUrl} target="_blank" rel="noreferrer">
+              Otwórz w Google Maps
+            </a>
+          </div>
+          <ContactMapFrame>
+            <iframe
+              title="Mapa Google - Lumera, ul. Łanowa 14, Rudawa"
+              src={contactMap.embedUrl}
+              loading="lazy"
+              allowFullScreen
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+            <span>Google Maps</span>
+          </ContactMapFrame>
+        </ContactMapPanel>
 
         <ContactFaq>
           <span>Najczęstsze pytania</span>

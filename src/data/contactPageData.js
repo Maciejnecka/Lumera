@@ -22,10 +22,28 @@ export const contactPreparationItems = [
 ];
 
 export const contactServiceArea = {
-  title: 'Gdzie realizujemy montaże',
+  title: 'Montaż folii okiennych w Krakowie, Katowicach i okolicach',
   text:
-    'Najczęściej pracujemy w Krakowie, Katowicach i okolicach. Przy większych realizacjach możemy zaplanować montaż także w innych częściach Polski.',
-  highlights: ['Kraków i okolice', 'Katowice i aglomeracja', 'większe realizacje w Polsce'],
+    'Najczęściej dojeżdżamy do Krakowa, Rudawy, Zabierzowa, Balic, Modlniczki, Krzeszowic, Wieliczki, Skawiny i pobliskich miejscowości. W Krakowie obsługujemy między innymi Bronowice, Krowodrzę, Prądnik, Dębniki i Ruczaj. Przy większych przeszkleniach planujemy także montaże w Katowicach, aglomeracji śląskiej i innych częściach Polski.',
+  highlights: [
+    'Kraków i dzielnice',
+    'Rudawa i Zabierzów',
+    'Balice i Modlniczka',
+    'Wieliczka i Skawina',
+    'Katowice i aglomeracja',
+    'większe realizacje w Polsce',
+  ],
+};
+
+export const contactMap = {
+  title: 'Siedziba Lumera',
+  address: 'ul. Łanowa 14, 32-064 Rudawa',
+  text:
+    'Adres firmy traktujemy jako punkt lokalny dla zapytań z Rudawy, Zabierzowa i Krakowa. Montaż folii okiennych realizujemy po wcześniejszym ustaleniu zakresu, miejsca i dostępu do szyb.',
+  embedUrl:
+    'https://www.google.com/maps?q=ul.%20%C5%81anowa%2014%2C%2032-064%20Rudawa%2C%20Polska&output=embed',
+  mapUrl:
+    'https://www.google.com/maps/search/?api=1&query=ul.%20%C5%81anowa%2014%2C%2032-064%20Rudawa%2C%20Polska',
 };
 
 export const contactFaq = [
@@ -47,6 +65,6 @@ export const contactFaq = [
   {
     question: 'Na jakim obszarze działa Lumera?',
     answer:
-      'Podstawowy obszar działania to Kraków, Katowice i okolice. Przy większych realizacjach Lumera może zaplanować montaż także w innych częściach Polski.',
+      'Podstawowy obszar działania to Kraków, Rudawa, Zabierzów, Balice, Modlniczka, Krzeszowice, Wieliczka, Skawina, Katowice i okolice. Przy większych realizacjach Lumera może zaplanować montaż także w innych częściach Polski.',
   },
 ];

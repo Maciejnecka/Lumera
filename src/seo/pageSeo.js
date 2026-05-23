@@ -18,7 +18,7 @@ const staticPages = {
   '/montaz-folii-okiennych-krakow': {
     title: 'Montaż folii okiennych Kraków i okolice | Lumera',
     description:
-      'Montaż folii okiennych w Krakowie i okolicach. Folie przeciwsłoneczne, matowe, ochronne, antywłamaniowe, specjalistyczne oraz demontaż folii.',
+      'Montaż folii okiennych w Krakowie, Rudawie, Zabierzowie i okolicach. Folie przeciwsłoneczne, matowe, LCD, ochronne i antywłamaniowe.',
   },
   '/montaz-folii-okiennych-katowice': {
     title: 'Montaż folii okiennych Katowice i okolice | Lumera',
@@ -38,7 +38,7 @@ const staticPages = {
   '/kontakt': {
     title: 'Kontakt i wycena folii okiennych | Lumera',
     description:
-      'Skontaktuj się z Lumera i poproś o wycenę montażu folii okiennych. Wyślij zdjęcia, wymiary szyb, lokalizację i opis oczekiwanego efektu.',
+      'Kontakt Lumera: wycena montażu folii okiennych w Krakowie, Rudawie, Zabierzowie, Katowicach i okolicach. Wyślij zdjęcia, wymiary szyb i lokalizację.',
   },
   '/folie-okienne-lokalnie': {
     title: 'Folie okienne lokalnie | Kraków, Katowice i okolice | Lumera',
@@ -81,7 +81,7 @@ export const getSeoForPath = (path = '/') => {
 
   if (film) {
     return {
-      title: `${film.name} Kraków i Katowice | Lumera`,
+      title: film.seoTitle || `${film.name} Kraków i Katowice | Lumera`,
       description: trimDescription(film.seoDescription || film.lead),
       url: `${siteUrl}${film.path}`,
       type: 'service',
@@ -148,6 +148,10 @@ export const organizationSchema = {
     { '@type': 'Place', name: 'Rudawa' },
     { '@type': 'Place', name: 'Zabierzów' },
     { '@type': 'Place', name: 'Krzeszowice' },
+    { '@type': 'Place', name: 'Balice' },
+    { '@type': 'Place', name: 'Modlniczka' },
+    { '@type': 'Place', name: 'Wieliczka' },
+    { '@type': 'Place', name: 'Skawina' },
     { '@type': 'AdministrativeArea', name: 'Małopolskie' },
     { '@type': 'AdministrativeArea', name: 'Śląskie' },
   ],

@@ -54,6 +54,10 @@ export const localServicePagesData = [
     relatedProblems: [
       '/jak-ograniczyc-nagrzewanie-mieszkania',
       '/folia-na-okna-od-poludnia',
+      '/folia-na-okna-od-zachodu',
+      '/folia-przeciwsloneczna-zewnetrzna-czy-wewnetrzna',
+      '/czy-folia-na-okna-przyciemnia-mieszkanie',
+      '/czy-folia-przeciwsloneczna-dziala-zima',
       '/folia-na-witryne-sklepowa',
     ],
     localLinks: [
@@ -84,6 +88,9 @@ export const localServicePagesData = [
     relatedProblems: [
       '/jak-ograniczyc-nagrzewanie-mieszkania',
       '/folia-na-okna-od-poludnia',
+      '/folia-na-okna-od-zachodu',
+      '/folia-przeciwsloneczna-zewnetrzna-czy-wewnetrzna',
+      '/czy-folia-na-okna-przyciemnia-mieszkanie',
       '/folia-na-swietliki-dachowe',
     ],
     localLinks: [
@@ -111,7 +118,7 @@ export const localServicePagesData = [
       'lokale parterowe oraz biura z dostępem od ulicy',
       'domy i mieszkania wymagające dodatkowego zabezpieczenia szyb',
     ],
-    relatedProblems: ['/folia-na-witryne-sklepowa'],
+    relatedProblems: ['/folia-na-witryne-sklepowa', '/folia-antywlamaniowa-na-witryne-sklepowa'],
     localLinks: ['/folie-antywlamaniowe-katowice', '/folie-przeciwsloneczne-krakow'],
   },
   {
@@ -139,7 +146,7 @@ export const localServicePagesData = [
           'Najczęściej wtedy, gdy przeszklenie jest duże, łatwo dostępne albo znajduje się w miejscu, gdzie szybkie wybicie szyby byłoby realnym problemem. Folia nie zastępuje całego systemu zabezpieczeń, ale może wydłużyć czas sforsowania szyby i ograniczyć rozsypanie szkła.',
       },
     ],
-    relatedProblems: ['/folia-na-witryne-sklepowa'],
+    relatedProblems: ['/folia-na-witryne-sklepowa', '/folia-antywlamaniowa-na-witryne-sklepowa'],
     localLinks: ['/folie-antywlamaniowe-krakow', '/folie-przeciwsloneczne-katowice'],
   },
   {
@@ -160,7 +167,11 @@ export const localServicePagesData = [
       'drzwi szklane oraz ścianki w biurach',
       'lokale usługowe, w których liczy się estetyczne odcięcie widoku',
     ],
-    relatedProblems: ['/folia-na-okno-przed-sasiadami', '/folia-na-szybe-do-lazienki'],
+    relatedProblems: [
+      '/folia-na-okno-przed-sasiadami',
+      '/folia-na-szybe-do-lazienki',
+      '/folia-matowa-czy-mrozona',
+    ],
     localLinks: ['/folie-matowe-katowice', '/folie-lustra-weneckie-krakow', '/folie-lcd-krakow'],
   },
   {
@@ -188,7 +199,11 @@ export const localServicePagesData = [
           'Folia matowa rozprasza obraz za szybą, ale nadal przepuszcza światło. Można okleić całą taflę, dolny pas, fragment na wysokości wzroku albo przygotować prosty układ pasów dopasowany do wnętrza.',
       },
     ],
-    relatedProblems: ['/folia-na-okno-przed-sasiadami', '/folia-na-szybe-do-lazienki'],
+    relatedProblems: [
+      '/folia-na-okno-przed-sasiadami',
+      '/folia-na-szybe-do-lazienki',
+      '/folia-matowa-czy-mrozona',
+    ],
     localLinks: ['/folie-matowe-krakow', '/folie-lustra-weneckie-katowice', '/folie-lcd-katowice'],
   },
   {

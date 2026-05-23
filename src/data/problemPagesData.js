@@ -227,6 +227,263 @@ export const problemPagesData = [
       },
     ],
   },
+  {
+    slug: 'folia-na-okna-od-zachodu',
+    path: '/folia-na-okna-od-zachodu',
+    title: 'Folia na okna od zachodu',
+    eyebrow: 'Problem: popołudniowe słońce',
+    seoTitle: 'Folia na okna od zachodu | Ograniczenie nagrzewania i odblasków',
+    seoDescription:
+      'Jak dobrać folię na okna od zachodu? Sprawdź, kiedy wybrać folię przeciwsłoneczną zewnętrzną, wewnętrzną lub lustro weneckie.',
+    lead:
+      'Okna od zachodu często nagrzewają mieszkanie lub biuro po południu, kiedy wnętrze jest już rozgrzane po całym dniu. Folia nie zastępuje klimatyzacji, ale może ograniczyć energię słoneczną, odblaski i dyskomfort przy pracy lub odpoczynku.',
+    sections: [
+      {
+        heading: 'Dlaczego zachodnie okna są trudne?',
+        text:
+          'Słońce wpada nisko i długo, więc potrafi mocno świecić w oczy, odbijać się od ekranów i dogrzewać pomieszczenie wtedy, gdy temperatura na zewnątrz jest najwyższa. Dlatego przy doborze liczy się ekspozycja, typ szyby, piętro, wielkość przeszklenia i to, czy ważniejsza jest temperatura, światło czy prywatność.',
+      },
+      {
+        heading: 'Jaki typ folii rozważyć?',
+        text:
+          'Przy silnym nagrzewaniu zwykle zaczynamy od folii przeciwsłonecznej zewnętrznej. Jeżeli montaż od zewnątrz jest utrudniony, można sprawdzić wariant wewnętrzny dobrany do konkretnej szyby. Przy oknach od ulicy lub sąsiedniego budynku czasem sens ma także lustro weneckie, ale jego prywatność zależy od światła.',
+      },
+    ],
+    recommendedFilms: [
+      '/folie-przeciwsloneczne-zewnetrzne',
+      '/folie-przeciwsloneczne-wewnetrzne',
+      '/folie-lustra-weneckie',
+    ],
+    localLinks: ['/folie-przeciwsloneczne-krakow', '/folie-przeciwsloneczne-katowice'],
+    faq: [
+      {
+        question: 'Czy na okna od zachodu lepsza jest folia zewnętrzna?',
+        answer:
+          'Często tak, szczególnie gdy problemem jest realne nagrzewanie. Ostateczny wybór zależy od typu szyby, dostępu od zewnątrz i oczekiwanego efektu.',
+      },
+      {
+        question: 'Czy folia na zachodnie okna mocno przyciemni pokój?',
+        answer:
+          'Nie musi. Można dobrać wariant o mocniejszym lub spokojniejszym efekcie wizualnym. Wycena powinna uwzględniać to, czy chcesz przede wszystkim ograniczyć ciepło, odblaski czy widoczność.',
+      },
+    ],
+  },
+  {
+    slug: 'folia-przeciwsloneczna-zewnetrzna-czy-wewnetrzna',
+    path: '/folia-przeciwsloneczna-zewnetrzna-czy-wewnetrzna',
+    title: 'Folia przeciwsłoneczna zewnętrzna czy wewnętrzna?',
+    eyebrow: 'Problem: wybór wariantu',
+    seoTitle: 'Folia przeciwsłoneczna zewnętrzna czy wewnętrzna? | Porównanie',
+    seoDescription:
+      'Porównanie folii przeciwsłonecznych zewnętrznych i wewnętrznych. Sprawdź, co wpływa na dobór folii do szyby, mieszkania, biura lub witryny.',
+    lead:
+      'Najczęstsze pytanie przy foliach przeciwsłonecznych brzmi: montować od zewnątrz czy od środka? Nie ma jednej odpowiedzi dla każdej szyby. Dobór zależy od typu przeszklenia, ekspozycji, dostępu, ryzyka naprężeń i oczekiwanego efektu wizualnego.',
+    sections: [
+      {
+        heading: 'Kiedy zaczynamy od folii zewnętrznej?',
+        text:
+          'Folia zewnętrzna ma sens wtedy, gdy priorytetem jest ograniczenie nagrzewania, bo działa zanim energia słoneczna mocno przejdzie przez szybę. To częsty wybór przy dużych przeszkleniach, oknach od południa i zachodu, witrynach oraz biurach z mocnym słońcem.',
+      },
+      {
+        heading: 'Kiedy rozważyć folię wewnętrzną?',
+        text:
+          'Folia wewnętrzna może być dobrym kierunkiem, gdy nie ma dostępu do zewnętrznej strony szyby, prace na elewacji są utrudnione albo najważniejsze jest ograniczenie światła i odblasków od strony pomieszczenia. Przy pakietach szybowych trzeba ją dobrać ostrożnie.',
+      },
+      {
+        heading: 'Co przesłać do oceny?',
+        text:
+          'Najlepiej wysłać zdjęcia całego okna, zbliżenia krawędzi, informację o stronie świata, piętrze, dostępie od zewnątrz, wymiarach szyb i tym, czy najważniejsza jest temperatura, światło, odblaski czy wygląd szyby.',
+      },
+    ],
+    recommendedFilms: [
+      '/folie-przeciwsloneczne-zewnetrzne',
+      '/folie-przeciwsloneczne-wewnetrzne',
+    ],
+    localLinks: ['/folie-przeciwsloneczne-krakow', '/folie-przeciwsloneczne-katowice'],
+    faq: [
+      {
+        question: 'Czy folia zewnętrzna zawsze jest skuteczniejsza?',
+        answer:
+          'Przy nagrzewaniu bardzo często jest pierwszym kierunkiem do sprawdzenia, ale nie każda sytuacja pozwala na montaż zewnętrzny. Dostęp, typ szyby i warunki montażu mają duże znaczenie.',
+      },
+      {
+        question: 'Czy folia wewnętrzna może uszkodzić szybę?',
+        answer:
+          'Źle dobrana folia może zwiększyć ryzyko naprężeń termicznych w wybranych pakietach szybowych. Dlatego wariant wewnętrzny warto dobrać po sprawdzeniu typu szyby i ekspozycji.',
+      },
+    ],
+  },
+  {
+    slug: 'czy-folia-na-okna-przyciemnia-mieszkanie',
+    path: '/czy-folia-na-okna-przyciemnia-mieszkanie',
+    title: 'Czy folia na okna przyciemnia mieszkanie?',
+    eyebrow: 'Problem: światło dzienne',
+    seoTitle: 'Czy folia na okna przyciemnia mieszkanie? | Jasność i komfort',
+    seoDescription:
+      'Czy folia przeciwsłoneczna musi mocno przyciemniać wnętrze? Zobacz, od czego zależy efekt folii okiennej i jak dobrać poziom światła.',
+    lead:
+      'Folia okienna może przyciemnić szybę, ale nie musi oznaczać ciemnego mieszkania. Efekt zależy od typu folii, przepuszczalności światła, stopnia odbicia, ekspozycji okien i tego, czy priorytetem jest redukcja ciepła, prywatność czy zachowanie jasnego wnętrza.',
+    sections: [
+      {
+        heading: 'Przyciemnienie to tylko jeden z parametrów',
+        text:
+          'Dwie folie mogą wyglądać podobnie, a inaczej ograniczać ciepło, odblaski i światło. Dlatego nie warto wybierać wyłącznie po kolorze. Przy doborze sprawdza się, czy folia ma działać na upał, komfort pracy przy ekranie, prywatność czy ochronę ekspozycji przed UV.',
+      },
+      {
+        heading: 'Jak zachować jasne wnętrze?',
+        text:
+          'Jeśli mieszkanie ma pozostać możliwie jasne, warto szukać spokojniejszych wizualnie wariantów i unikać zbyt ciemnej folii tam, gdzie nie jest potrzebna. Przy dużym słońcu kompromis polega na dobraniu folii, która realnie poprawia komfort, ale nie zabiera więcej światła niż trzeba.',
+      },
+    ],
+    recommendedFilms: [
+      '/folie-przeciwsloneczne-zewnetrzne',
+      '/folie-przeciwsloneczne-wewnetrzne',
+      '/folie-anty-uv',
+    ],
+    localLinks: ['/folie-przeciwsloneczne-krakow', '/folie-przeciwsloneczne-katowice'],
+    faq: [
+      {
+        question: 'Czy da się dobrać folię przeciwsłoneczną bez ciemnego efektu?',
+        answer:
+          'W wielu przypadkach tak. Trzeba jednak pogodzić oczekiwania: im większa redukcja ciepła i światła, tym bardziej zauważalny może być efekt na szybie.',
+      },
+      {
+        question: 'Czy folia anty UV przyciemnia mieszkanie?',
+        answer:
+          'Folie anty UV mogą być bardzo subtelne i często mają mniejszy wpływ na wygląd szyby niż typowe folie przeciwsłoneczne. Są jednak przede wszystkim od ochrony przed UV, nie od upału.',
+      },
+    ],
+  },
+  {
+    slug: 'folia-matowa-czy-mrozona',
+    path: '/folia-matowa-czy-mrozona',
+    title: 'Folia matowa czy mrożona?',
+    eyebrow: 'Problem: prywatność i dekoracja',
+    seoTitle: 'Folia matowa czy mrożona? | Różnice, efekt i zastosowanie',
+    seoDescription:
+      'Porównaj folie matowe i mrożone na szyby. Sprawdź, która lepiej pasuje do łazienki, biura, gabinetu, drzwi szklanych lub witryny.',
+    lead:
+      'Folie matowe i mrożone są często wybierane do podobnych miejsc, ale dają inny charakter wizualny. Obie ograniczają widoczność przez szybę i zostawiają światło dzienne, jednak matowa jest zwykle spokojniejsza, a mrożona bardziej dekoracyjna.',
+    sections: [
+      {
+        heading: 'Kiedy wybrać folię matową?',
+        text:
+          'Folia matowa pasuje tam, gdzie efekt ma być dyskretny, neutralny i architektoniczny. Sprawdza się w łazienkach, gabinetach, biurach, na drzwiach szklanych i tam, gdzie ważna jest stała prywatność bez ciężkich osłon.',
+      },
+      {
+        heading: 'Kiedy lepsza będzie folia mrożona?',
+        text:
+          'Folia mrożona ma wyraźniejszy, bardziej dekoracyjny odbiór i może lepiej pasować do przestrzeni komercyjnych, witryn, oznakowania, pasów i grafik. Daje efekt zbliżony do szkła piaskowanego lub mrożonego.',
+      },
+      {
+        heading: 'Pełna szyba, pas czy wzór?',
+        text:
+          'Przy wycenie warto od razu określić, czy folia ma zakrywać całą taflę, dolny pas, linię wzroku czy wzór. To wpływa na ilość materiału, czas pracy i końcowy wygląd przeszklenia.',
+      },
+    ],
+    recommendedFilms: ['/folie-matowe', '/folie-mrozone'],
+    localLinks: ['/folie-matowe-krakow', '/folie-matowe-katowice'],
+    faq: [
+      {
+        question: 'Czy folia matowa i mrożona dają prywatność wieczorem?',
+        answer:
+          'Tak, działają stabilniej niż lustro weneckie, bo nie opierają prywatności na różnicy oświetlenia. Z bardzo bliska mogą być widoczne cienie lub kontury.',
+      },
+      {
+        question: 'Czy folia mrożona przepuszcza światło?',
+        answer:
+          'Tak, przepuszcza i rozprasza światło, ale ogranicza widoczność przez szybę. Stopień efektu zależy od wybranego wariantu i powierzchni oklejenia.',
+      },
+    ],
+  },
+  {
+    slug: 'czy-folia-przeciwsloneczna-dziala-zima',
+    path: '/czy-folia-przeciwsloneczna-dziala-zima',
+    title: 'Czy folia przeciwsłoneczna działa zimą?',
+    eyebrow: 'Problem: sezon i komfort',
+    seoTitle: 'Czy folia przeciwsłoneczna działa zimą? | Lumera',
+    seoDescription:
+      'Czy folia przeciwsłoneczna ma sens poza latem? Sprawdź różnicę między folią przeciwsłoneczną, anty UV i termoizolacyjną Low-E.',
+    lead:
+      'Folia przeciwsłoneczna jest dobierana głównie pod słońce, nagrzewanie i odblaski. Zimą może nadal wpływać na światło i UV, ale nie należy mylić jej z folią termoizolacyjną Low-E, której zadaniem jest ograniczanie strat ciepła przez szybę.',
+    sections: [
+      {
+        heading: 'Co folia przeciwsłoneczna robi zimą?',
+        text:
+          'Nadal pozostaje na szybie i może ograniczać ostre światło, odbicia oraz część promieniowania. Jeżeli zimą zależy Ci na maksymalnym zysku słonecznym przez okno, dobór folii trzeba przemyśleć pod całoroczny bilans komfortu.',
+      },
+      {
+        heading: 'Kiedy mówić o folii termoizolacyjnej?',
+        text:
+          'Jeżeli problemem jest zimna szyba, chłód przy oknie albo straty ciepła w starszym pakiecie, właściwym tematem są folie termoizolacyjne Low-E. To inny typ rozwiązania niż folia przeciwsłoneczna montowana pod letnie przegrzewanie.',
+      },
+    ],
+    recommendedFilms: [
+      '/folie-przeciwsloneczne-zewnetrzne',
+      '/folie-przeciwsloneczne-wewnetrzne',
+      '/folie-termoizolacyjne',
+      '/folie-anty-uv',
+    ],
+    localLinks: ['/folie-przeciwsloneczne-krakow', '/folie-przeciwsloneczne-katowice'],
+    faq: [
+      {
+        question: 'Czy folia przeciwsłoneczna ogrzewa mieszkanie zimą?',
+        answer:
+          'Nie. Jej główne zadanie to kontrola słońca, ciepła i odblasków. Przy problemie strat ciepła trzeba rozważyć osobno folię termoizolacyjną Low-E.',
+      },
+      {
+        question: 'Czy przez folię przeciwsłoneczną zimą będzie ciemniej?',
+        answer:
+          'Może być trochę mniej światła, zależnie od wariantu folii. Dlatego przed montażem warto ustalić, czy priorytetem jest letni komfort, jasność zimą czy kompromis między nimi.',
+      },
+    ],
+  },
+  {
+    slug: 'folia-antywlamaniowa-na-witryne-sklepowa',
+    path: '/folia-antywlamaniowa-na-witryne-sklepowa',
+    title: 'Folia antywłamaniowa na witrynę sklepową',
+    eyebrow: 'Problem: bezpieczeństwo lokalu',
+    seoTitle: 'Folia antywłamaniowa na witrynę sklepową | Zabezpieczenie szyb',
+    seoDescription:
+      'Co daje folia antywłamaniowa na witrynie sklepowej? Sprawdź, kiedy wzmacnia szybę, ogranicza rozprysk i utrudnia sforsowanie przeszklenia.',
+    lead:
+      'Witryna sklepu jest widoczna, łatwo dostępna i często ma dużą powierzchnię szkła. Folia antywłamaniowa nie zastępuje alarmu, zamków ani innych zabezpieczeń, ale może utrudnić szybkie wybicie szyby i ograniczyć rozprysk odłamków po uderzeniu.',
+    sections: [
+      {
+        heading: 'Co realnie daje folia na witrynie?',
+        text:
+          'Dobrze dobrana folia wzmacnia taflę i pomaga utrzymać fragmenty szkła na warstwie kleju. W praktyce może wydłużyć czas sforsowania przeszklenia i zmniejszyć chaos po rozbiciu szyby, co ma znaczenie w lokalach usługowych i sklepach przy ulicy.',
+      },
+      {
+        heading: 'Od czego zależy poziom zabezpieczenia?',
+        text:
+          'Znaczenie ma grubość i typ folii, rodzaj szkła, wielkość tafli, sposób montażu, krawędzie oraz to, czy system wymaga dodatkowego zakotwienia przy ramie. Dlatego przy witrynach warto wysłać zdjęcia całego frontu, drzwi, narożników i wymiarów szyb.',
+      },
+      {
+        heading: 'Czy można połączyć bezpieczeństwo z innym efektem?',
+        text:
+          'Czasem tak, ale trzeba ustalić priorytet: bezpieczeństwo, słońce, prywatność, dekoracja lub ochrona ekspozycji. Przy witrynie sklepowej jedna folia nie zawsze rozwiąże wszystkie potrzeby równie dobrze.',
+      },
+    ],
+    recommendedFilms: ['/folie-antywlamaniowe', '/folie-zabezpieczajace', '/folie-ochronne'],
+    localLinks: [
+      '/folie-antywlamaniowe-krakow',
+      '/folie-antywlamaniowe-katowice',
+      '/folie-przeciwsloneczne-krakow',
+    ],
+    faq: [
+      {
+        question: 'Czy folia antywłamaniowa zatrzyma włamanie?',
+        answer:
+          'Nie daje pełnej gwarancji zatrzymania włamania. Jej zadaniem jest utrudnienie i opóźnienie sforsowania szyby oraz ograniczenie skutków rozbicia.',
+      },
+      {
+        question: 'Czy folia antywłamaniowa na witrynie jest widoczna?',
+        answer:
+          'Najczęściej jest transparentna i ma niewielki wpływ na wygląd witryny. Efekt zależy od produktu, szyby i sposobu montażu.',
+      },
+    ],
+  },
 ];
 
 export const getProblemPageByPath = (path) =>

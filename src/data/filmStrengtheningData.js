@@ -12,7 +12,35 @@ export const filmStrengtheningData = {
           'Przy pierwszym kontakcie warto podać ekspozycję okien, orientacyjne wymiary od uszczelki do uszczelki, liczbę szyb, piętro, dostęp do przeszklenia i to, czy ważniejsza jest redukcja ciepła, odblasków czy zachowanie jasności.',
       },
     ],
-    problemLinks: ['/jak-ograniczyc-nagrzewanie-mieszkania', '/folia-na-okna-od-poludnia'],
+    problemLinks: [
+      '/jak-ograniczyc-nagrzewanie-mieszkania',
+      '/folia-na-okna-od-poludnia',
+      '/folia-na-okna-od-zachodu',
+      '/folia-przeciwsloneczna-zewnetrzna-czy-wewnetrzna',
+      '/czy-folia-na-okna-przyciemnia-mieszkanie',
+      '/czy-folia-przeciwsloneczna-dziala-zima',
+    ],
+    localLinks: ['/folie-przeciwsloneczne-krakow', '/folie-przeciwsloneczne-katowice'],
+  },
+  'internal-solar': {
+    seoContentBlocks: [
+      {
+        title: 'Kiedy folia od środka ma sens?',
+        text:
+          'Folia przeciwsłoneczna wewnętrzna może być dobrym wyborem, gdy montaż zewnętrzny jest utrudniony albo najważniejsze jest ograniczenie odblasków i nadmiaru światła po stronie pomieszczenia. Dobór zawsze trzeba oprzeć na typie szyby i ekspozycji.',
+      },
+      {
+        title: 'Co sprawdzić przed doborem?',
+        text:
+          'Przy wariancie wewnętrznym szczególnie ważny jest pakiet szybowy, ilość słońca, oczekiwany poziom przyciemnienia i to, czy problemem jest głównie światło, ciepło czy komfort przy ekranach.',
+      },
+    ],
+    problemLinks: [
+      '/folia-przeciwsloneczna-zewnetrzna-czy-wewnetrzna',
+      '/czy-folia-na-okna-przyciemnia-mieszkanie',
+      '/folia-na-okna-od-zachodu',
+      '/czy-folia-przeciwsloneczna-dziala-zima',
+    ],
     localLinks: ['/folie-przeciwsloneczne-krakow', '/folie-przeciwsloneczne-katowice'],
   },
   mirror: {
@@ -44,7 +72,31 @@ export const filmStrengtheningData = {
           'Matowa jest najbardziej neutralna, mrożona daje wyraźniejszy efekt dekoracyjny, a LCD sprawdza się tam, gdzie szyba ma raz być transparentna, a raz mleczna.',
       },
     ],
-    problemLinks: ['/folia-na-okno-przed-sasiadami', '/folia-na-szybe-do-lazienki'],
+    problemLinks: [
+      '/folia-na-okno-przed-sasiadami',
+      '/folia-na-szybe-do-lazienki',
+      '/folia-matowa-czy-mrozona',
+    ],
+    localLinks: ['/folie-matowe-krakow', '/folie-matowe-katowice'],
+  },
+  frosted: {
+    seoContentBlocks: [
+      {
+        title: 'Dekoracyjny efekt zamiast neutralnej matowej szyby',
+        text:
+          'Folia mrożona ma bardziej wyczuwalny, dekoracyjny charakter niż klasyczna folia matowa. Sprawdza się tam, gdzie przeszklenie ma nie tylko ograniczać widoczność, ale też świadomie budować wygląd wnętrza.',
+      },
+      {
+        title: 'Wzór, pasy i oznakowanie',
+        text:
+          'Przy foliach mrożonych warto wcześniej zaplanować, czy oklejana będzie cała tafla, pas na wysokości wzroku, logo albo powtarzalny wzór. To wpływa na efekt, ilość światła i koszt realizacji.',
+      },
+    ],
+    problemLinks: [
+      '/folia-matowa-czy-mrozona',
+      '/folia-na-okno-przed-sasiadami',
+      '/folia-na-szybe-do-lazienki',
+    ],
     localLinks: ['/folie-matowe-krakow', '/folie-matowe-katowice'],
   },
   'anti-burglary': {
@@ -60,7 +112,7 @@ export const filmStrengtheningData = {
           'Przed montażem warto określić, czy głównym celem jest opóźnienie włamania, zabezpieczenie witryny, czy ograniczenie rozprysku szkła. Od tego zależy typ folii i sposób przygotowania realizacji.',
       },
     ],
-    problemLinks: ['/folia-na-witryne-sklepowa'],
+    problemLinks: ['/folia-na-witryne-sklepowa', '/folia-antywlamaniowa-na-witryne-sklepowa'],
     localLinks: ['/folie-antywlamaniowe-krakow', '/folie-antywlamaniowe-katowice'],
   },
   lcd: {

@@ -63,10 +63,10 @@ export const localWindowFilmsPagesData = {
     eyebrow: 'Kraków i okolice',
     title: 'Montaż folii okiennych w Krakowie',
     lead:
-      'Lumera pomaga dobrać i zamontować folie okienne do mieszkań, domów, biur oraz lokali usługowych w Krakowie i okolicach. Pracujemy z foliami przeciwsłonecznymi, matowymi, ochronnymi, bezpiecznymi, specjalistycznymi oraz z demontażem starszych aplikacji.',
+      'Lumera pomaga dobrać i zamontować folie okienne do mieszkań, domów, biur oraz lokali usługowych w Krakowie, Rudawie, Zabierzowie i okolicach. Pracujemy z foliami przeciwsłonecznymi, matowymi, ochronnymi, bezpiecznymi, specjalistycznymi oraz z demontażem starszych aplikacji.',
     areaTitle: 'Kraków i okolice',
     areaText:
-      'Realizujemy zapytania między innymi w Krakowie, Rudawie, Zabierzowie, Krzeszowicach i pobliskich miejscowościach.',
+      'Realizujemy zapytania między innymi w Krakowie, Rudawie, Zabierzowie, Balicach, Modlniczce, Krzeszowicach, Wieliczce, Skawinie i pobliskich miejscowościach.',
     intro:
       'W Krakowie często pracujemy z mieszkaniami od strony mocnego słońca, lokalami usługowymi z witrynami, gabinetami oraz biurami, gdzie liczy się komfort pracy, prywatność i estetyczny wygląd przeszkleń.',
     sections: [
@@ -79,6 +79,11 @@ export const localWindowFilmsPagesData = {
         heading: 'Najczęstsze zapytania z Krakowa i okolic',
         text:
           'Najwięcej zapytań dotyczy mieszkań od południa i zachodu, witryn usługowych, gabinetów, biur oraz większych przeszkleń, przy których liczy się komfort bez ciężkich zasłon i rolet. Przy takich realizacjach ważne są ekspozycja, typ szyby, piętro, dostęp z zewnątrz i oczekiwany efekt po montażu.',
+      },
+      {
+        heading: 'Dzielnice Krakowa i pobliskie miejscowości',
+        text:
+          'Najczęściej pojawiają się zapytania z Bronowic, Krowodrzy, Prądnika, Dębnik, Ruczaju, Zabierzowa, Rudawy, Balic, Modlniczki, Wieliczki i Skawiny. Tę listę traktujemy jako naturalny obszar dojazdu, a nie ograniczenie: przy większych przeszkleniach zakres ustalamy indywidualnie.',
       },
       {
         heading: 'Jak przygotować szybką wycenę w Krakowie?',
@@ -99,7 +104,12 @@ export const localWindowFilmsPagesData = {
       {
         question: 'Czy Lumera montuje folie okienne w całym Krakowie?',
         answer:
-          'Tak, Lumera przyjmuje zapytania z Krakowa i okolic. Przy większych przeszkleniach lub kilku szybach warto od razu przesłać zdjęcia, wymiary i lokalizację, żeby szybciej ocenić zakres oraz dojazd.',
+          'Tak, Lumera przyjmuje zapytania z całego Krakowa oraz okolic, między innymi z Rudawy, Zabierzowa, Balic, Modlniczki, Krzeszowic, Wieliczki i Skawiny. Przy większych przeszkleniach lub kilku szybach warto od razu przesłać zdjęcia, wymiary i lokalizację, żeby szybciej ocenić zakres oraz dojazd.',
+      },
+      {
+        question: 'Czy obsługujecie Bronowice, Krowodrzę, Prądnik, Dębniki i Ruczaj?',
+        answer:
+          'Tak. To typowe lokalizacje dla zapytań o folie okienne w Krakowie. W formularzu najlepiej podać dzielnicę, ulicę lub punkt orientacyjny, piętro, dostęp do szyb oraz oczekiwany efekt.',
       },
       {
         question: 'Jakie folie okienne najczęściej wybiera się w Krakowie?',
@@ -149,6 +159,9 @@ const LocalWindowFilmsPage = ({ city = 'krakow', breadcrumbs }) => {
       '/jak-ograniczyc-nagrzewanie-mieszkania',
       '/folia-na-okno-przed-sasiadami',
       '/folia-na-okna-od-poludnia',
+      '/folia-na-okna-od-zachodu',
+      '/folia-przeciwsloneczna-zewnetrzna-czy-wewnetrzna',
+      '/czy-folia-na-okna-przyciemnia-mieszkanie',
       '/folia-na-witryne-sklepowa',
     ].includes(item.path)
   );

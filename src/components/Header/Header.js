@@ -29,7 +29,7 @@ const Header = () => {
     <HeroSection id="start">
       <HeroContent>
         <HeroCopy data-aos="fade-up">
-          <HeroBadge>Lumera • nowa marka od doświadczonych montażystów</HeroBadge>
+          <HeroBadge>Lumera | praktyka przy foliach od 2018 roku</HeroBadge>
 
           <HeroTitle>
             Folie okienne, które poprawiają komfort domu, biura i lokalu bez

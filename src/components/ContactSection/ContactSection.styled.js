@@ -163,9 +163,9 @@ export const ContactGuideCard = styled.article`
 
 export const ContactAreaPanel = styled.div`
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr);
   gap: 1.8rem;
-  align-items: center;
+  align-items: start;
   padding: 2rem 0;
   border-top: 1px solid rgba(35, 48, 44, 0.1);
   border-bottom: 1px solid rgba(35, 48, 44, 0.1);
@@ -189,7 +189,7 @@ export const ContactAreaPanel = styled.div`
   ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: flex-start;
     gap: 0.8rem;
     margin: 0;
     padding: 0;
@@ -220,37 +220,140 @@ export const ContactAreaPanel = styled.div`
   }
 
   ${media.md`
-    grid-template-columns: 1fr;
-
-    ul {
-      justify-content: flex-start;
-    }
+    gap: 1.4rem;
   `}
 `;
 
-export const ContactFaq = styled.div`
+export const ContactMapPanel = styled.div`
   display: grid;
-  grid-template-columns: minmax(24rem, 0.78fr) minmax(0, 1fr);
-  gap: 1.2rem 1.6rem;
-  align-items: start;
+  grid-template-columns: minmax(0, 0.86fr) minmax(28rem, 1.14fr);
+  gap: 1.6rem;
+  align-items: stretch;
+  padding: 1.6rem;
+  border: 1px solid rgba(35, 48, 44, 0.1);
+  border-radius: 2rem;
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: var(--shadow-sm);
 
-  > span,
-  > h2 {
-    grid-column: 1;
+  > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 0;
+    padding: 1.2rem;
+  }
+
+  h3 {
+    margin: 0 0 0.7rem;
+    color: var(--font-title);
+    font-size: clamp(2.2rem, 3vw, 3rem);
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+  }
+
+  strong {
+    color: var(--font-title);
+    font-size: 1.55rem;
+    line-height: 1.45;
+  }
+
+  p {
+    margin: 1rem 0 1.4rem;
+    color: var(--font-main);
+    font-size: 1.48rem;
+    line-height: 1.7;
+  }
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    min-height: 4.2rem;
+    padding: 0 1.5rem;
+    border-radius: 999px;
+    background: rgba(43, 98, 86, 0.1);
+    color: var(--accent-primary);
+    font-size: 1.35rem;
+    font-weight: 800;
+    transition:
+      transform var(--transition-fast),
+      background var(--transition-fast),
+      color var(--transition-fast);
+  }
+
+  a:hover,
+  a:focus-visible {
+    transform: translateY(-1px);
+    background: var(--accent-primary);
+    color: #fffdf8;
+    outline: none;
   }
 
   ${media.md`
     grid-template-columns: 1fr;
 
-    > span,
-    > h2 {
-      grid-column: auto;
+    > div {
+      padding: 0.4rem;
     }
   `}
 `;
 
+export const ContactMapFrame = styled.div`
+  position: relative;
+  min-width: 0;
+  min-height: 28rem;
+  overflow: hidden;
+  border-radius: 1.6rem;
+  background:
+    linear-gradient(135deg, rgba(43, 98, 86, 0.1), rgba(214, 177, 104, 0.12)),
+    rgba(249, 246, 240, 0.94);
+  box-shadow: inset 0 0 0 1px rgba(35, 48, 44, 0.08);
+
+  iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 28rem;
+    display: block;
+    border: 0;
+  }
+
+  span {
+    position: absolute;
+    left: 1.2rem;
+    bottom: 1.2rem;
+    display: inline-flex;
+    align-items: center;
+    min-height: 3.2rem;
+    padding: 0 1rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.9);
+    color: var(--accent-primary);
+    font-size: 1.12rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    box-shadow: 0 10px 22px rgba(40, 48, 45, 0.08);
+    pointer-events: none;
+  }
+`;
+
+export const ContactFaq = styled.div`
+  display: grid;
+  gap: 1.1rem;
+  align-items: start;
+
+  > span {
+    margin-bottom: 0;
+  }
+
+  > h2 {
+    max-width: 72rem;
+    margin-bottom: 0.5rem;
+  }
+`;
+
 export const ContactFaqItem = styled.article`
-  grid-column: 2;
   position: relative;
   min-width: 0;
   padding: 1.5rem 1.6rem 1.5rem 4.2rem;
@@ -297,8 +400,12 @@ export const ContactFaqItem = styled.article`
     line-height: 1.68;
   }
 
-  ${media.md`
-    grid-column: auto;
+  ${media.sm`
+    padding: 1.45rem 1.35rem 1.45rem 3.9rem;
+
+    &::before {
+      left: 1.45rem;
+    }
   `}
 `;
 

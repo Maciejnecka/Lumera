@@ -1,5 +1,6 @@
 export const filmSeoData = {
   'external-solar': {
+    seoTitle: 'Folie przeciwsłoneczne zewnętrzne Kraków | Montaż Lumera',
     seoDescription:
       'Zewnętrzne folie przeciwsłoneczne ograniczają nagrzewanie, odblaski i przegrzewanie dużych przeszkleń. Sprawdź zastosowanie, efekt i najczęstsze pytania.',
     effectTitle: 'Efekt i właściwości folii przeciwsłonecznej zewnętrznej',
@@ -40,6 +41,7 @@ export const filmSeoData = {
     ],
   },
   mirror: {
+    seoTitle: 'Folie lustra weneckie Kraków | Prywatność i redukcja słońca',
     seoDescription:
       'Folie lustra weneckie poprawiają prywatność w dzień, ograniczają wgląd do wnętrza i nadają szybom elegancki refleksyjny efekt.',
     effectTitle: 'Efekt lustra, prywatność i światło',
@@ -80,6 +82,7 @@ export const filmSeoData = {
     ],
   },
   'internal-solar': {
+    seoTitle: 'Folie przeciwsłoneczne wewnętrzne Kraków | Montaż Lumera',
     seoDescription:
       'Wewnętrzne folie przeciwsłoneczne ograniczają odblaski i nadmiar światła bez montażu po zewnętrznej stronie szyby.',
     effectTitle: 'Komfort światła od strony wnętrza',
@@ -120,6 +123,7 @@ export const filmSeoData = {
     ],
   },
   lcd: {
+    seoTitle: 'Folie LCD i PDLC Kraków | Inteligentna folia na szybę',
     seoDescription:
       'Folie LCD i folie PDLC zmieniają szkło z transparentnego w mleczne, zapewniają prywatność na żądanie i nowoczesny efekt w biurach, gabinetach oraz hotelach.',
     effectTitle: 'Jak działa inteligentna folia LCD / PDLC?',
@@ -247,6 +251,7 @@ export const filmSeoData = {
     ],
   },
   matte: {
+    seoTitle: 'Folie matowe Kraków | Prywatność na szybach Lumera',
     seoDescription:
       'Folie matowe zapewniają prywatność, mleczny lub satynowy efekt i zachowanie światła dziennego w biurach, łazienkach i lokalach.',
     effectTitle: 'Mleczny lub satynowy efekt bez utraty światła',
@@ -287,6 +292,7 @@ export const filmSeoData = {
     ],
   },
   frosted: {
+    seoTitle: 'Folie mrożone na szyby | Dekoracja i prywatność Lumera',
     seoDescription:
       'Folie mrożone imitują szkło piaskowane lub mrożone, dają prywatność i dekoracyjny efekt na przeszkleniach.',
     effectTitle: 'Dekoracyjny efekt mrożonego szkła',
@@ -367,6 +373,7 @@ export const filmSeoData = {
     ],
   },
   'anti-burglary': {
+    seoTitle: 'Folie antywłamaniowe Kraków | Zabezpieczenie szyb Lumera',
     seoDescription:
       'Folie antywłamaniowe wzmacniają przeszklenia, utrudniają szybkie wybicie szyby i zwiększają bezpieczeństwo domu, biura lub lokalu.',
     effectTitle: 'Dodatkowa bariera dla przeszkleń',
