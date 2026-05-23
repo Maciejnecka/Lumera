@@ -301,7 +301,7 @@ export const FeaturedFilmCopy = styled.div`
       background var(--transition-fast);
   }
 
-  a:last-child {
+  a:not(:first-child) {
     border: 1px solid rgba(43, 98, 86, 0.18);
     background: rgba(43, 98, 86, 0.08);
     color: var(--accent-primary);

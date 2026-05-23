@@ -246,9 +246,37 @@ export const SeoFaq = styled.div`
   gap: 1rem;
 
   article {
-    padding: 1.6rem;
+    position: relative;
+    min-width: 0;
+    padding: 1.6rem 1.6rem 1.6rem 4.2rem;
+    border: 1px solid rgba(35, 48, 44, 0.1);
     border-radius: 1.8rem;
-    background: rgba(248, 244, 236, 0.9);
+    background: rgba(255, 255, 255, 0.86);
+    box-shadow: 0 10px 24px rgba(40, 48, 45, 0.04);
+    transition:
+      transform var(--transition-fast),
+      border-color var(--transition-fast),
+      background var(--transition-fast),
+      box-shadow var(--transition-fast);
+  }
+
+  article::before {
+    content: '';
+    position: absolute;
+    top: 1.75rem;
+    left: 1.6rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    background: var(--accent-primary);
+    box-shadow: 0 0 0 0.55rem rgba(43, 98, 86, 0.1);
+  }
+
+  article:hover {
+    transform: translateY(-2px);
+    border-color: rgba(43, 98, 86, 0.2);
+    background: rgba(255, 255, 255, 0.94);
+    box-shadow: var(--shadow-sm);
   }
 
   h3 {
@@ -261,4 +289,3 @@ export const SeoFaq = styled.div`
     margin: 0;
   }
 `;
-

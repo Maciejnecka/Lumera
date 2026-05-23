@@ -15,6 +15,7 @@ Nie edytuj ręcznie `public/sitemap.xml`, `public/llms.txt` ani `public/llms-ful
 - `src/data/filmStrengtheningData.js` - bloki SEO, linki problemowe i lokalne dla usług.
 - `src/data/problemPagesData.js` - strony problemowe.
 - `src/data/localServicePagesData.js` - lokalne landing pages.
+- `src/data/serviceHubPagesData.js` - huby usługowe, np. ogólne strony wyboru kategorii folii.
 - `src/data/pricingPageData.js` - cennik, gwarancje i czynniki wyceny.
 - `pages/[slug].js` - dynamiczne routowanie usług, problemów i stron lokalnych.
 - `src/seo/pageSeo.js` - meta title, description, canonical i globalne schema.
@@ -581,9 +582,10 @@ Pracujesz w projekcie Lumera. Najpierw przeczytaj `docs/seo-llm-maintenance-play
 - `src/data/filmStrengtheningData.js`
 - `src/data/problemPagesData.js`
 - `src/data/localServicePagesData.js`
+- `src/data/serviceHubPagesData.js`
 - `src/data/pricingPageData.js`
 
-Ustal, czy zmiana dotyczy: nowej usługi, strony problemowej, lokalnej strony, strony statycznej, realizacji/case study, cennika, schema, robots, sitemap albo LLM. Nie edytuj ręcznie `public/sitemap.xml`, `public/llms.txt` ani `public/llms-full.txt`, jeśli można je wygenerować.
+Ustal, czy zmiana dotyczy: nowej usługi, hubu usługowego, strony problemowej, lokalnej strony, strony statycznej, realizacji/case study, cennika, schema, robots, sitemap albo LLM. Nie edytuj ręcznie `public/sitemap.xml`, `public/llms.txt` ani `public/llms-full.txt`, jeśli można je wygenerować.
 
 Po zmianie zawsze sprawdź:
 
@@ -610,6 +612,7 @@ Na końcu podaj krótkie podsumowanie: zmienione pliki, nowe URL-e, co zostało 
 | Zmiana | Gdzie dodać treść | Routing | SEO | Sitemap | LLM |
 | --- | --- | --- | --- | --- | --- |
 | Nowa usługa | `filmsData`, `filmSeoData`, `filmDecisionData`, opcjonalnie `filmExtraFaqData`, `filmStrengtheningData`, `pricingPageData` | automatycznie przez `pages/[slug].js` | automatycznie przez `pageSeo.js`, chyba że potrzebny custom title | automatycznie | automatycznie |
+| Nowy hub usługowy | `serviceHubPagesData` | ręcznie rozszerzyć `pages/[slug].js` | ręcznie rozszerzyć `pageSeo.js` + schema `Service` i `FAQPage` | dodać data source w generatorze | dodać sekcję w generatorze |
 | Nowy problem | `problemPagesData` | automatycznie | automatycznie + FAQ schema | automatycznie | automatycznie |
 | Nowa lokalna usługa | `localServicePagesData` | automatycznie | automatycznie | automatycznie | automatycznie |
 | Nowa strona statyczna | `pages/...` lub `pages/[slug].js` | ręcznie | ręcznie w `pageSeo.js` | ręcznie w `generate-sitemap.cjs` | ręcznie w `generate-llms.cjs` |

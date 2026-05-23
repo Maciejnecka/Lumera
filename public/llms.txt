@@ -30,6 +30,21 @@ Wskazówki interpretacyjne:
 - [Montaż folii okiennych Katowice](https://folielumera.pl/montaz-folii-okiennych-katowice): główna strona lokalna dla Katowic i aglomeracji
 - [Montaż folii LCD / PDLC](https://folielumera.pl/montaz-folii-lcd): strona montażu inteligentnych folii LCD
 - [Folie okienne lokalnie](https://folielumera.pl/folie-okienne-lokalnie): hub lokalnych podstron usług
+- [Folie przeciwsłoneczne](https://folielumera.pl/folie-przeciwsloneczne): hub doboru folii przeciwsłonecznych zewnętrznych, wewnętrznych i lokalnych usług
+
+## Najważniejsze Frazy I Strony Docelowe
+
+- `folie przeciwsłoneczne`: [Folie przeciwsłoneczne](https://folielumera.pl/folie-przeciwsloneczne) - ogólna intencja o redukcji nagrzewania i słońca; hub porównuje wariant zewnętrzny, wewnętrzny, problemy i lokalne strony usług
+- `folie przeciwsłoneczne Kraków`: [Folie przeciwsłoneczne Kraków](https://folielumera.pl/folie-przeciwsloneczne-krakow) - lokalna strona dla montażu folii przeciwsłonecznych w Krakowie i okolicach
+- `folie okienne`: [Strona główna Lumera](https://folielumera.pl/) - szeroka intencja o rodzajach folii okiennych, problemach i ścieżkach do usług
+- `folie okienne Kraków`: [Montaż folii okiennych Kraków](https://folielumera.pl/montaz-folii-okiennych-krakow) - główna lokalna strona dla folii okiennych w Krakowie i okolicach
+- `folie LCD`: [Folie LCD - inteligentne folie](https://folielumera.pl/folie-lcd) - główna strona technologii LCD / PDLC, prywatności na żądanie i przygotowania montażu
+- `folie LCD Kraków`: [Folie LCD Kraków](https://folielumera.pl/folie-lcd-krakow) - lokalna strona dla inteligentnych folii LCD w Krakowie
+- `folie LCD Katowice`: [Folie LCD Katowice](https://folielumera.pl/folie-lcd-katowice) - lokalna strona dla inteligentnych folii LCD w Katowicach
+
+## Huby Usług
+
+- [Folie przeciwsłoneczne](https://folielumera.pl/folie-przeciwsloneczne): Folie przeciwsłoneczne na okna do mieszkań, domów, biur i witryn. Porównaj folie zewnętrzne, wewnętrzne oraz lokalny montaż w Krakowie i Katowicach.
 
 ## Oferta Główna
 
@@ -71,8 +86,8 @@ Wskazówki interpretacyjne:
 - [Folie matowe Katowice](https://folielumera.pl/folie-matowe-katowice): Folie matowe w Katowicach do biur, gabinetów, łazienek, lokali i szklanych drzwi. Prywatność bez ciężkich osłon.
 - [Folie lustra weneckie Kraków](https://folielumera.pl/folie-lustra-weneckie-krakow): Folie lustra weneckie w Krakowie do okien, witryn, biur i lokali. Efekt lustra, prywatność w dzień i redukcja słońca.
 - [Folie lustra weneckie Katowice](https://folielumera.pl/folie-lustra-weneckie-katowice): Folie lustra weneckie w Katowicach do biur, lokali, witryn i okien od ulicy. Prywatność w dzień, refleksyjny efekt i ograniczenie słońca.
-- [Folie LCD Kraków](https://folielumera.pl/folie-lcd-krakow): Inteligentne folie LCD w Krakowie do biur, gabinetów, sal spotkań i szklanych ścian. Prywatność na żądanie i nowoczesny efekt.
-- [Folie LCD Katowice](https://folielumera.pl/folie-lcd-katowice): Inteligentne folie LCD w Katowicach do biur, gabinetów i sal konferencyjnych. Prywatność na żądanie bez rolet.
+- [Folie LCD Kraków](https://folielumera.pl/folie-lcd-krakow): Montaż folii LCD i PDLC w Krakowie do biur, gabinetów, sal spotkań i szklanych ścian. Prywatność na żądanie, sterowanie i wycena.
+- [Folie LCD Katowice](https://folielumera.pl/folie-lcd-katowice): Montaż folii LCD i PDLC w Katowicach do biur, gabinetów i sal konferencyjnych. Prywatność na żądanie bez rolet.
 - [Okleiny i laminaty Kraków](https://folielumera.pl/okleiny-i-laminaty-krakow): Okleiny i laminaty architektoniczne w Krakowie. Oklejanie ram okiennych, drzwi, futryn, mebli, lad i zabudów bez wymiany elementów.
 - [Okleiny i laminaty Katowice](https://folielumera.pl/okleiny-i-laminaty-katowice): Okleiny i laminaty architektoniczne w Katowicach. Renowacja ram okiennych, drzwi, futryn, mebli, lad i zabudów bez wymiany elementów.
 - [Oklejanie ram okiennych Kraków](https://folielumera.pl/oklejanie-ram-okiennych-krakow): Oklejanie ram okiennych w Krakowie. Zmiana koloru i wyglądu ram bez wymiany okien, z doborem oklein architektonicznych.

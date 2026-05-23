@@ -241,6 +241,7 @@ const FilmDetailPage = ({ film, breadcrumbs }) => {
               ))}
               <DetailLinkCard
                 href="/kontakt"
+                onClick={() => sessionStorage.setItem('lumera-contact-topic', film.id)}
                 data-aos="fade-up"
                 data-aos-delay={(problemLinks.length + localLinks.length) * 50}
               >

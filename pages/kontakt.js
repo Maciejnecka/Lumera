@@ -1,4 +1,5 @@
 import ContactSection from '../src/components/ContactSection';
+import { contactFaq } from '../src/data/contactPageData';
 import PageSeo, { buildBreadcrumbSchema } from '../src/seo/pageSeo';
 
 const breadcrumbs = [
@@ -18,12 +19,25 @@ const contactPageSchema = {
   },
 };
 
+const contactFaqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: contactFaq.map((item) => ({
+    '@type': 'Question',
+    name: item.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: item.answer,
+    },
+  })),
+};
+
 const ContactPage = () => {
   return (
     <>
       <PageSeo
         path="/kontakt"
-        extraSchema={[buildBreadcrumbSchema(breadcrumbs), contactPageSchema]}
+        extraSchema={[buildBreadcrumbSchema(breadcrumbs), contactPageSchema, contactFaqSchema]}
       />
       <main id="main-content">
         <ContactSection />

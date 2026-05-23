@@ -55,6 +55,10 @@ const dataSources = [
     priority: (pagePath) =>
       pagePath.includes('lcd') || pagePath.includes('przeciwsloneczne') ? '0.8' : '0.74',
   },
+  {
+    file: 'src/data/serviceHubPagesData.js',
+    priority: '0.82',
+  },
 ];
 
 const escapeXml = (value) =>

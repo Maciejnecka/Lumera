@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { filmsData } from '../data/filmsData';
 import { localServicePagesData } from '../data/localServicePagesData';
 import { problemPagesData } from '../data/problemPagesData';
+import { serviceHubPagesData } from '../data/serviceHubPagesData';
 
 export const siteUrl = 'https://folielumera.pl';
 
@@ -75,6 +76,7 @@ export const getSeoForPath = (path = '/') => {
   const film = filmsData.find((item) => item.path === normalizedPath);
   const problemPage = problemPagesData.find((item) => item.path === normalizedPath);
   const localServicePage = localServicePagesData.find((item) => item.path === normalizedPath);
+  const serviceHubPage = serviceHubPagesData.find((item) => item.path === normalizedPath);
   const staticPage = staticPages[normalizedPath];
 
   if (film) {
@@ -100,6 +102,15 @@ export const getSeoForPath = (path = '/') => {
       title: localServicePage.seoTitle,
       description: trimDescription(localServicePage.seoDescription),
       url: `${siteUrl}${localServicePage.path}`,
+      type: 'service',
+    };
+  }
+
+  if (serviceHubPage) {
+    return {
+      title: serviceHubPage.seoTitle,
+      description: trimDescription(serviceHubPage.seoDescription),
+      url: `${siteUrl}${serviceHubPage.path}`,
       type: 'service',
     };
   }
@@ -175,6 +186,19 @@ export const organizationSchema = {
         name: page.title,
         url: `${siteUrl}${page.path}`,
         areaServed: page.city,
+      },
+    })),
+    ...serviceHubPagesData.map((page) => ({
+      '@type': 'Offer',
+      itemOffered: {
+        '@type': 'Service',
+        name: page.title,
+        url: `${siteUrl}${page.path}`,
+        areaServed: [
+          { '@type': 'City', name: 'Kraków' },
+          { '@type': 'City', name: 'Katowice' },
+          { '@type': 'Country', name: 'Polska' },
+        ],
       },
     })),
   ],

@@ -250,7 +250,7 @@ export const localServicePagesData = [
     eyebrow: 'Prywatność na przełącznik',
     seoTitle: 'Folie LCD Kraków | Inteligentna folia na szybę Lumera',
     seoDescription:
-      'Inteligentne folie LCD w Krakowie do biur, gabinetów, sal spotkań i szklanych ścian. Prywatność na żądanie i nowoczesny efekt.',
+      'Montaż folii LCD i PDLC w Krakowie do biur, gabinetów, sal spotkań i szklanych ścian. Prywatność na żądanie, sterowanie i wycena.',
     lead:
       'Folie LCD w Krakowie to specjalistyczne rozwiązanie do przestrzeni, w których szyba ma być raz przezroczysta, a raz mleczna. Szczególnie dobrze pasują do sal spotkań, gabinetów, nowoczesnych biur, hoteli i wnętrz premium.',
     useCases: [
@@ -258,8 +258,42 @@ export const localServicePagesData = [
       'biura, w których prywatność potrzebna jest tylko czasami',
       'nowoczesne wnętrza, gdzie liczy się efekt technologiczny i czysty wygląd',
     ],
+    sections: [
+      {
+        heading: 'Montaż folii LCD w Krakowie',
+        text:
+          'Folie LCD w Krakowie dobieramy najczęściej do szklanych ścian w biurach, sal spotkań, gabinetów, hoteli, apartamentów i wnętrz premium. Przy takim rozwiązaniu ważny jest nie tylko efekt przełączania szyby z przezroczystej na mleczną, ale też sposób wykończenia krawędzi, dostęp do zasilania i codzienny scenariusz używania przestrzeni.',
+      },
+      {
+        heading: 'Zasilanie, sterowanie i prowadzenie przewodów',
+        text:
+          'Przed wyceną trzeba ustalić, gdzie może znaleźć się zasilacz, czy sterowanie ma działać z przełącznika, pilota lub automatyki oraz czy przewody da się ukryć w profilu, ramie albo zabudowie. To właśnie te detale decydują, czy montaż folii LCD będzie wyglądał czysto i czy rozwiązanie będzie wygodne w codziennym użytkowaniu.',
+      },
+      {
+        heading: 'Cena folii LCD w Krakowie i informacje do wyceny',
+        text:
+          'Wstępna wycena folii LCD wymaga dokładnych wymiarów każdej tafli od uszczelki do uszczelki, liczby szyb, zdjęć całego przeszklenia, zbliżeń krawędzi oraz informacji o miejscu montażu. Przy foliach LCD koszt zależy nie tylko od powierzchni, ale też od osprzętu, sterowania, przygotowania szkła i sposobu ukrycia połączeń.',
+      },
+    ],
     relatedProblems: ['/folia-na-okno-przed-sasiadami'],
     localLinks: ['/folie-lcd-katowice', '/folie-matowe-krakow', '/folie-lustra-weneckie-krakow'],
+    faq: [
+      {
+        question: 'Czy folię LCD w Krakowie można zamontować na istniejącej szklanej ścianie?',
+        answer:
+          'Często tak, jeśli szkło jest stabilne, czyste i pozwala estetycznie wyprowadzić zasilanie. Przed decyzją potrzebne są zdjęcia całego przeszklenia, krawędzi i miejsca, w którym można ukryć przewody.',
+      },
+      {
+        question: 'Co trzeba przygotować do wyceny folii LCD?',
+        answer:
+          'Najlepiej wysłać dokładne wymiary szyb od uszczelki do uszczelki, liczbę tafli, zdjęcia krawędzi, informację o lokalizacji w Krakowie lub okolicy oraz opis, czy sterowanie ma działać z przełącznika, pilota czy automatyki.',
+      },
+      {
+        question: 'Czy folia LCD sprawdzi się w sali konferencyjnej lub gabinecie?',
+        answer:
+          'Tak, to jedno z najczęstszych zastosowań. Folia LCD pozwala zostawić szkło transparentne na co dzień i przełączyć je w tryb mleczny, gdy potrzebna jest prywatność podczas spotkania lub konsultacji.',
+      },
+    ],
     featured: true,
   },
   {
@@ -272,7 +306,7 @@ export const localServicePagesData = [
     eyebrow: 'Biura, gabinety i sale spotkań',
     seoTitle: 'Folie LCD Katowice | Inteligentna folia na szybę Lumera',
     seoDescription:
-      'Inteligentne folie LCD w Katowicach do biur, gabinetów i sal konferencyjnych. Prywatność na żądanie bez rolet.',
+      'Montaż folii LCD i PDLC w Katowicach do biur, gabinetów i sal konferencyjnych. Prywatność na żądanie bez rolet.',
     lead:
       'Folie LCD w Katowicach warto rozważyć przy większych przeszkleniach biurowych, gabinetach i salach spotkań. To rozwiązanie poza sezonem słonecznym, gdy najważniejsza jest kontrola prywatności i nowoczesny charakter przestrzeni.',
     useCases: [
@@ -280,8 +314,42 @@ export const localServicePagesData = [
       'gabinety, w których raz potrzebna jest otwartość, a raz prywatność',
       'lokale i wnętrza premium z nowoczesnym efektem szyby',
     ],
+    sections: [
+      {
+        heading: 'Montaż folii LCD w Katowicach i na Śląsku',
+        text:
+          'Folie LCD w Katowicach sprawdzają się szczególnie w biurach, gabinetach, salach konferencyjnych, showroomach i lokalach premium z przeszklonymi ścianami. To rozwiązanie dla miejsc, w których prywatność ma być dostępna wtedy, gdy jest potrzebna, ale bez montażu rolet, zasłon lub stałej folii matowej.',
+      },
+      {
+        heading: 'Projekt przed montażem: szkło, krawędzie i zasilanie',
+        text:
+          'Przy inteligentnej folii LCD trzeba wcześniej sprawdzić typ szyby, stan powierzchni, dostęp do krawędzi, możliwość ukrycia przewodów oraz miejsce dla zasilacza. W Katowicach i okolicach warto od razu przesłać zdjęcia całej szklanej ściany lub gabinetu, żeby ocenić, czy potrzebny będzie dodatkowy pomiar.',
+      },
+      {
+        heading: 'Cena folii LCD w Katowicach i przygotowanie wyceny',
+        text:
+          'Największy sens folia LCD ma tam, gdzie jedna szyba pełni dwie funkcje: ma otwierać przestrzeń wizualnie, a po przełączeniu tworzyć prywatną strefę rozmowy. Cena zależy nie tylko od metrażu, ale też od osprzętu, sposobu sterowania, częstotliwości używania trybu prywatności, przygotowania szkła i estetyki wykończenia.',
+      },
+    ],
     relatedProblems: ['/folia-na-okno-przed-sasiadami'],
     localLinks: ['/folie-lcd-krakow', '/folie-matowe-katowice', '/folie-lustra-weneckie-katowice'],
+    faq: [
+      {
+        question: 'Czy Lumera montuje folie LCD w Katowicach?',
+        answer:
+          'Tak, przyjmujemy zapytania o folie LCD w Katowicach i okolicach, szczególnie przy biurach, gabinetach, salach spotkań i większych przeszkleniach, gdzie można dobrze zaplanować zasilanie oraz wykończenie krawędzi.',
+      },
+      {
+        question: 'Czy folia LCD zastępuje rolety w sali konferencyjnej?',
+        answer:
+          'Może zastąpić rolety wtedy, gdy celem jest prywatność na żądanie i nowoczesny efekt szkła. Nie jest jednak klasyczną osłoną przeciwsłoneczną, dlatego przy problemie nagrzewania trzeba rozważyć osobne folie przeciwsłoneczne.',
+      },
+      {
+        question: 'Od czego zależy cena folii LCD w Katowicach?',
+        answer:
+          'Od wymiarów tafli, liczby szyb, osprzętu, sterowania, przygotowania szkła, sposobu ukrycia przewodów i warunków montażu. Do wstępnej wyceny najlepiej wysłać zdjęcia, wymiary i opis oczekiwanego efektu.',
+      },
+    ],
     featured: true,
   },
   {

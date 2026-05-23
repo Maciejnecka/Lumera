@@ -192,12 +192,18 @@ const Footer = () => {
           <FooterCol>
             <h3>Informacje</h3>
             <Link href="/folie-okienne-lokalnie">Folie okienne lokalnie</Link>
+            <Link href="/folie-przeciwsloneczne">Folie przeciwsłoneczne</Link>
             <Link href="/montaz-folii-okiennych-krakow">
               Montaż folii okiennych Kraków
             </Link>
             <Link href="/montaz-folii-okiennych-katowice">
               Montaż folii okiennych Katowice
             </Link>
+            <Link href="/folie-przeciwsloneczne-krakow">
+              Folie przeciwsłoneczne Kraków
+            </Link>
+            <Link href="/folie-lcd-krakow">Folie LCD Kraków</Link>
+            <Link href="/folie-lcd-katowice">Folie LCD Katowice</Link>
             <Link href="/montaz-folii-lcd">Montaż folii LCD</Link>
             <Link href="/polityka-prywatnosci">Polityka prywatności</Link>
           </FooterCol>

@@ -18,11 +18,18 @@ import {
   LocalCard,
   LocalSection,
   LocalList,
+  LocalFaq,
   LocalServiceGrid,
   LocalServiceLink,
 } from './LocalWindowFilmsPage.styled';
 
 const lcdInstallationImageSrc = lcdInstallationImage.src || lcdInstallationImage;
+
+const storeContactTopic = (topic) => {
+  if (!topic || typeof window === 'undefined') return;
+
+  sessionStorage.setItem('lumera-contact-topic', topic);
+};
 
 const lcdInstallationPage = {
   eyebrow: 'Montaż folii LCD',
@@ -51,7 +58,7 @@ const lcdInstallationPage = {
   ],
 };
 
-const localPages = {
+export const localWindowFilmsPagesData = {
   krakow: {
     eyebrow: 'Kraków i okolice',
     title: 'Montaż folii okiennych w Krakowie',
@@ -62,6 +69,23 @@ const localPages = {
       'Realizujemy zapytania między innymi w Krakowie, Rudawie, Zabierzowie, Krzeszowicach i pobliskich miejscowościach.',
     intro:
       'W Krakowie często pracujemy z mieszkaniami od strony mocnego słońca, lokalami usługowymi z witrynami, gabinetami oraz biurami, gdzie liczy się komfort pracy, prywatność i estetyczny wygląd przeszkleń.',
+    sections: [
+      {
+        heading: 'Folie okienne Kraków: od problemu do typu folii',
+        text:
+          'Na lokalnej stronie nie chodzi tylko o sam montaż. Najpierw trzeba nazwać problem: nagrzewanie, odblaski, brak prywatności, bezpieczeństwo szyby, dekoracja albo potrzeba demontażu starej folii. Dopiero potem dobiera się kierunek: folię przeciwsłoneczną, matową, mrożoną, lustro weneckie, folię LCD, zabezpieczającą albo specjalistyczną.',
+      },
+      {
+        heading: 'Najczęstsze zapytania z Krakowa i okolic',
+        text:
+          'Najwięcej zapytań dotyczy mieszkań od południa i zachodu, witryn usługowych, gabinetów, biur oraz większych przeszkleń, przy których liczy się komfort bez ciężkich zasłon i rolet. Przy takich realizacjach ważne są ekspozycja, typ szyby, piętro, dostęp z zewnątrz i oczekiwany efekt po montażu.',
+      },
+      {
+        heading: 'Jak przygotować szybką wycenę w Krakowie?',
+        text:
+          'Najlepiej wysłać zdjęcia całych okien lub witryn, zbliżenia krawędzi, wymiary szyb od uszczelki do uszczelki, liczbę przeszkleń, lokalizację oraz krótki opis celu. Taki zestaw informacji pozwala szybciej ocenić, czy wystarczy wstępna wycena zdalna, czy potrzebny będzie dodatkowy pomiar.',
+      },
+    ],
     audience: [
       'dla mieszkań i domów, w których przeszkadza nagrzewanie albo brak prywatności',
       'dla biur, gabinetów i sal spotkań z dużymi przeszkleniami',
@@ -71,6 +95,28 @@ const localPages = {
     ],
     process:
       'Najlepiej przesłać szerokość i wysokość mierzone od uszczelki do uszczelki, liczbę szyb, krótki opis problemu oraz zdjęcia okien. Dzięki temu możemy szybciej określić, jaki rodzaj folii ma sens i czy przed wyceną potrzebne będą dodatkowe informacje.',
+    faq: [
+      {
+        question: 'Czy Lumera montuje folie okienne w całym Krakowie?',
+        answer:
+          'Tak, Lumera przyjmuje zapytania z Krakowa i okolic. Przy większych przeszkleniach lub kilku szybach warto od razu przesłać zdjęcia, wymiary i lokalizację, żeby szybciej ocenić zakres oraz dojazd.',
+      },
+      {
+        question: 'Jakie folie okienne najczęściej wybiera się w Krakowie?',
+        answer:
+          'Najczęściej pojawiają się folie przeciwsłoneczne na nagrzewanie, folie matowe i mrożone na prywatność, folie ochronne lub antywłamaniowe do witryn oraz folie LCD do szklanych ścian i gabinetów.',
+      },
+      {
+        question: 'Czy do wyceny wystarczy zdjęcie i wymiary?',
+        answer:
+          'Do wstępnej wyceny zwykle tak. Najlepiej podać szerokość i wysokość szyb od uszczelki do uszczelki, liczbę szyb, zdjęcia całych okien, piętro, dostęp oraz krótki opis problemu.',
+      },
+      {
+        question: 'Czy warto od razu wskazać typ folii?',
+        answer:
+          'Jeśli wiesz, że interesuje Cię folia przeciwsłoneczna, matowa, LCD, ochronna albo demontaż starej folii, warto to wpisać w formularzu. Jeśli nie masz pewności, wystarczy opisać problem, a dobór można zrobić po zdjęciach i wymiarach.',
+      },
+    ],
   },
   katowice: {
     eyebrow: 'Katowice i aglomeracja śląska',
@@ -95,7 +141,7 @@ const localPages = {
 };
 
 const LocalWindowFilmsPage = ({ city = 'krakow', breadcrumbs }) => {
-  const page = localPages[city] || localPages.krakow;
+  const page = localWindowFilmsPagesData[city] || localWindowFilmsPagesData.krakow;
   const cityName = city === 'katowice' ? 'Katowice' : 'Kraków';
   const servicePages = localServicePagesData.filter((item) => item.city === cityName);
   const problemLinks = problemPagesData.filter((item) =>
@@ -143,6 +189,13 @@ const LocalWindowFilmsPage = ({ city = 'krakow', breadcrumbs }) => {
           <h2>Folie okienne dopasowane do miejsca i oczekiwanego efektu</h2>
           <p>{page.intro}</p>
         </LocalSection>
+
+        {page.sections?.map((section) => (
+          <LocalSection key={section.heading}>
+            <h2>{section.heading}</h2>
+            <p>{section.text}</p>
+          </LocalSection>
+        ))}
 
         <LocalSection>
           <h2>Jakie folie okienne montujemy?</h2>
@@ -202,6 +255,20 @@ const LocalWindowFilmsPage = ({ city = 'krakow', breadcrumbs }) => {
           </LocalList>
         </LocalSection>
 
+        {page.faq?.length > 0 && (
+          <LocalSection>
+            <h2>Najczęstsze pytania</h2>
+            <LocalFaq>
+              {page.faq.map((item) => (
+                <article key={item.question}>
+                  <h3>{item.question}</h3>
+                  <p>{item.answer}</p>
+                </article>
+              ))}
+            </LocalFaq>
+          </LocalSection>
+        )}
+
         <LocalSection>
           <h2>Jak wygląda pierwszy kontakt?</h2>
           <p>{page.process}</p>
@@ -228,7 +295,9 @@ export const LcdInstallationPage = ({ breadcrumbs }) => (
           <LocalTitle>{lcdInstallationPage.title}</LocalTitle>
           <LocalLead>{lcdInstallationPage.lead}</LocalLead>
           <LocalActions>
-            <Link href="/kontakt">Zapytaj o montaż LCD</Link>
+            <Link href="/kontakt" onClick={() => storeContactTopic('lcd')}>
+              Zapytaj o montaż LCD
+            </Link>
             <Link href="/folie-lcd">Zobacz opis folii LCD</Link>
           </LocalActions>
         </LocalHero>
@@ -317,7 +386,9 @@ export const LcdInstallationPage = ({ breadcrumbs }) => (
           zaplanowanie rozwiązania razem z nową zabudową szklaną.
         </p>
         <LocalActions className="local-actions--bottom">
-          <Link href="/kontakt">Przejdź do formularza</Link>
+          <Link href="/kontakt" onClick={() => storeContactTopic('lcd')}>
+            Przejdź do formularza
+          </Link>
         </LocalActions>
       </LocalSection>
     </LocalWrap>

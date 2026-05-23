@@ -460,11 +460,37 @@ export const DetailFaq = styled.div`
 `;
 
 export const DetailFaqItem = styled.article`
-  padding: 2.2rem 2.4rem;
+  position: relative;
+  min-width: 0;
+  padding: 2.2rem 2.4rem 2.2rem 5.4rem;
   border: 1px solid var(--border-light);
   border-radius: 2rem;
   background: rgba(255, 255, 255, 0.78);
   box-shadow: var(--shadow-sm);
+  transition:
+    transform var(--transition-fast),
+    border-color var(--transition-fast),
+    background var(--transition-fast),
+    box-shadow var(--transition-fast);
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 2.55rem;
+    left: 2.3rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    background: var(--accent-primary);
+    box-shadow: 0 0 0 0.55rem rgba(43, 98, 86, 0.1);
+  }
+
+  &:hover {
+    transform: translateY(-2px);
+    border-color: rgba(43, 98, 86, 0.2);
+    background: rgba(255, 255, 255, 0.94);
+    box-shadow: var(--shadow-md);
+  }
 
   h3 {
     margin: 0 0 0.9rem;
@@ -479,4 +505,13 @@ export const DetailFaqItem = styled.article`
     font-size: 1.58rem;
     line-height: 1.75;
   }
+
+  ${media.sm`
+    padding: 1.8rem 1.8rem 1.8rem 4.8rem;
+
+    &::before {
+      top: 2.15rem;
+      left: 1.8rem;
+    }
+  `}
 `;

@@ -1,4 +1,9 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
+import {
+  contactFaq,
+  contactPreparationItems,
+  contactServiceArea,
+} from '../../data/contactPageData';
 import { filmsData } from '../../data/filmsData';
 import {
   ContactWrap,
@@ -23,6 +28,12 @@ import {
   ContactPrivacyNote,
   ContactAside,
   ContactList,
+  ContactGuide,
+  ContactGuideGrid,
+  ContactGuideCard,
+  ContactAreaPanel,
+  ContactFaq,
+  ContactFaqItem,
 } from './ContactSection.styled';
 
 const CONTACT_EMAIL = 'biuro@folielumera.pl';
@@ -48,6 +59,17 @@ const initialForm = {
   message: '',
   website: '',
 };
+
+const priorityTopicOptions = [
+  {
+    id: 'solar-films',
+    name: 'Folie przeciwsłoneczne',
+  },
+];
+
+const contactTopicOptions = [...priorityTopicOptions, ...filmsData];
+const isKnownContactTopic = (topic) =>
+  contactTopicOptions.some((option) => option.id === topic);
 
 const sanitizeText = (value = '') =>
   value
@@ -222,7 +244,7 @@ const ContactSection = () => {
       return 'Nie określono';
     }
 
-    return filmsData.find((film) => film.id === form.topic)?.name || form.topic;
+    return contactTopicOptions.find((option) => option.id === form.topic)?.name || form.topic;
   }, [form.topic]);
 
   const windowsSummary = useMemo(() => getWindowSummary(windows), [windows]);
@@ -235,7 +257,7 @@ const ContactSection = () => {
 
   useEffect(() => {
     const storedTopic = sessionStorage.getItem('lumera-contact-topic');
-    if (storedTopic) {
+    if (storedTopic && isKnownContactTopic(storedTopic)) {
       setForm((current) => ({ ...current, topic: storedTopic }));
     }
 
@@ -586,6 +608,11 @@ const ContactSection = () => {
               <option value="wybierz">
                 Wybierz opcję
               </option>
+              {priorityTopicOptions.map((option) => (
+                <option key={option.id} value={option.id}>
+                  {option.name}
+                </option>
+              ))}
               {filmsData.map((film) => (
                 <option key={film.id} value={film.id}>
                   {film.name}
@@ -826,6 +853,51 @@ const ContactSection = () => {
           </ContactList>
         </ContactAside>
       </ContactCard>
+
+      <ContactGuide data-aos="fade-up">
+        <div>
+          <span>Do wyceny</span>
+          <h2>Co warto wysłać, żebyśmy mogli szybciej dobrać folię?</h2>
+          <p>
+            Im więcej kontekstu dostaniemy na początku, tym łatwiej odsiać nietrafione
+            rozwiązania i wrócić z konkretną odpowiedzią. Nie musisz mieć wszystkiego
+            idealnie przygotowanego - wystarczy punkt startowy.
+          </p>
+        </div>
+
+        <ContactGuideGrid>
+          {contactPreparationItems.map((item) => (
+            <ContactGuideCard key={item.title}>
+              <strong>{item.title}</strong>
+              <p>{item.text}</p>
+            </ContactGuideCard>
+          ))}
+        </ContactGuideGrid>
+
+        <ContactAreaPanel>
+          <div>
+            <span>Obszar działania</span>
+            <h3>{contactServiceArea.title}</h3>
+            <p>{contactServiceArea.text}</p>
+          </div>
+          <ul>
+            {contactServiceArea.highlights.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+        </ContactAreaPanel>
+
+        <ContactFaq>
+          <span>Najczęstsze pytania</span>
+          <h2>Krótko przed wysłaniem zapytania</h2>
+          {contactFaq.map((item) => (
+            <ContactFaqItem key={item.question}>
+              <h3>{item.question}</h3>
+              <p>{item.answer}</p>
+            </ContactFaqItem>
+          ))}
+        </ContactFaq>
+      </ContactGuide>
     </ContactWrap>
   );
 };

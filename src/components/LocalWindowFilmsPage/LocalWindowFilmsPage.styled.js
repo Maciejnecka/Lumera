@@ -263,6 +263,56 @@ export const LocalList = styled.ul`
   }
 `;
 
+export const LocalFaq = styled.div`
+  display: grid;
+  gap: 1rem;
+
+  article {
+    position: relative;
+    min-width: 0;
+    padding: 1.6rem 1.6rem 1.6rem 4.2rem;
+    border: 1px solid rgba(35, 48, 44, 0.1);
+    border-radius: 1.8rem;
+    background: rgba(255, 255, 255, 0.86);
+    box-shadow: 0 10px 24px rgba(40, 48, 45, 0.04);
+    transition:
+      transform var(--transition-fast),
+      border-color var(--transition-fast),
+      background var(--transition-fast),
+      box-shadow var(--transition-fast);
+  }
+
+  article::before {
+    content: '';
+    position: absolute;
+    top: 1.75rem;
+    left: 1.6rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    background: var(--accent-primary);
+    box-shadow: 0 0 0 0.55rem rgba(43, 98, 86, 0.1);
+  }
+
+  article:hover {
+    transform: translateY(-2px);
+    border-color: rgba(43, 98, 86, 0.2);
+    background: rgba(255, 255, 255, 0.94);
+    box-shadow: var(--shadow-sm);
+  }
+
+  h3 {
+    margin: 0 0 0.8rem;
+    color: var(--font-title);
+    font-size: 1.8rem;
+    line-height: 1.35;
+  }
+
+  p {
+    margin: 0;
+  }
+`;
+
 export const LocalServiceGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

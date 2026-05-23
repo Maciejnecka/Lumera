@@ -58,6 +58,10 @@ const problemCards = [
 
 const localMountLinks = [
   {
+    href: '/folie-przeciwsloneczne',
+    label: 'Folie przeciwsłoneczne',
+  },
+  {
     href: '/montaz-folii-okiennych-krakow',
     label: 'Folie okienne Kraków',
   },
@@ -70,8 +74,16 @@ const localMountLinks = [
     label: 'Folie przeciwsłoneczne Kraków',
   },
   {
+    href: '/folie-przeciwsloneczne-katowice',
+    label: 'Folie przeciwsłoneczne Katowice',
+  },
+  {
     href: '/folie-lcd-krakow',
     label: 'Folie LCD Kraków',
+  },
+  {
+    href: '/folie-lcd-katowice',
+    label: 'Folie LCD Katowice',
   },
   {
     href: '/okleiny-i-laminaty-krakow',
@@ -347,6 +359,8 @@ const WindowFilmsSection = () => {
             <div>
               <Link href="/montaz-folii-lcd">Montaż folii LCD</Link>
               <Link href={lcdFilm.path}>Opis technologii</Link>
+              <Link href="/folie-lcd-krakow">Folie LCD Kraków</Link>
+              <Link href="/folie-lcd-katowice">Folie LCD Katowice</Link>
             </div>
           </FeaturedFilmCopy>
           <FeaturedFilmVisual>

@@ -24,6 +24,17 @@ const getFilm = (path) => filmsData.find((film) => film.path === path);
 const getProblem = (path) => problemPagesData.find((page) => page.path === path);
 const getLocalService = (path) => localServicePagesData.find((page) => page.path === path);
 
+const filmPathContactTopics = {
+  '/folie-przeciwsloneczne-zewnetrzne': 'solar-films',
+  '/folie-przeciwsloneczne-wewnetrzne': 'solar-films',
+};
+
+const storeContactTopic = (topic) => {
+  if (!topic || typeof window === 'undefined') return;
+
+  sessionStorage.setItem('lumera-contact-topic', topic);
+};
+
 const SeoLandingPage = ({ page, type, breadcrumbs }) => {
   const isProblemPage = type === 'problem';
   const isSurfaceService = Boolean(page.surfaceService);
@@ -37,6 +48,10 @@ const SeoLandingPage = ({ page, type, breadcrumbs }) => {
     .map((path) => getProblem(path))
     .filter(Boolean);
   const mainFilm = page.filmPath ? getFilm(page.filmPath) : recommendedFilms[0];
+  const mainFilmContactTopic = filmPathContactTopics[mainFilm?.path] || mainFilm?.id;
+  const contactTopic =
+    page.contactTopic || filmPathContactTopics[page.filmPath] || mainFilmContactTopic;
+  const handleContactClick = () => storeContactTopic(contactTopic);
 
   return (
     <main id="main-content">
@@ -47,7 +62,9 @@ const SeoLandingPage = ({ page, type, breadcrumbs }) => {
           <SeoTitle>{page.title}</SeoTitle>
           <SeoLead>{page.lead}</SeoLead>
           <SeoActions>
-            <Link href="/kontakt">Zapytaj o dobór folii</Link>
+            <Link href="/kontakt" onClick={handleContactClick}>
+              Zapytaj o dobór folii
+            </Link>
             {mainFilm && <Link href={mainFilm.path}>Zobacz: {mainFilm.name}</Link>}
           </SeoActions>
         </SeoHero>
@@ -198,7 +215,9 @@ const SeoLandingPage = ({ page, type, breadcrumbs }) => {
             </p>
           )}
           <SeoActions className="seo-actions--bottom">
-            <Link href="/kontakt">Przejdź do formularza</Link>
+            <Link href="/kontakt" onClick={handleContactClick}>
+              Przejdź do formularza
+            </Link>
           </SeoActions>
         </SeoSection>
       </SeoWrap>
