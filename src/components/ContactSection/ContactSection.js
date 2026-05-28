@@ -63,6 +63,15 @@ const initialForm = {
   website: '',
 };
 
+const initialWindowDraft = {
+  width: '',
+  height: '',
+  quantity: '1',
+};
+
+const WINDOW_DRAFT_ERROR =
+  'Uzupełnij szerokość, wysokość i ilość okien przed dodaniem pozycji albo wyczyść pola wymiarów.';
+
 const priorityTopicOptions = [
   {
     id: 'solar-films',
@@ -214,6 +223,39 @@ const getWindowSummary = (windows) => {
   };
 };
 
+const getWindowDraftPayload = (draft, index = 0) => {
+  const widthValue = String(draft.width || '').trim();
+  const heightValue = String(draft.height || '').trim();
+  const quantityValue = String(draft.quantity || '').trim();
+  const hasDraft = Boolean(
+    widthValue || heightValue || (quantityValue && quantityValue !== initialWindowDraft.quantity)
+  );
+  const width = Number(widthValue);
+  const height = Number(heightValue);
+  const quantity = Number(quantityValue);
+  const isValid =
+    Number.isFinite(width) &&
+    Number.isFinite(height) &&
+    Number.isFinite(quantity) &&
+    width > 0 &&
+    height > 0 &&
+    Number.isInteger(quantity) &&
+    quantity >= 1;
+
+  return {
+    hasDraft,
+    isValid,
+    item: isValid
+      ? {
+          id: `${Date.now()}-${index}`,
+          width,
+          height,
+          quantity,
+        }
+      : null,
+  };
+};
+
 const ContactSection = () => {
   const mountedAt = useRef(Date.now());
   const fileInputRef = useRef(null);
@@ -221,11 +263,7 @@ const ContactSection = () => {
     ...initialForm,
     topic: 'wybierz',
   }));
-  const [windowDraft, setWindowDraft] = useState({
-    width: '',
-    height: '',
-    quantity: '1',
-  });
+  const [windowDraft, setWindowDraft] = useState(initialWindowDraft);
   const [windows, setWindows] = useState([]);
   const [files, setFiles] = useState([]);
   const [isPreparingFiles, setIsPreparingFiles] = useState(false);
@@ -286,28 +324,25 @@ const ContactSection = () => {
   };
 
   const addWindow = () => {
-    const width = Number(windowDraft.width);
-    const height = Number(windowDraft.height);
-    const quantity = Number(windowDraft.quantity);
+    const draftPayload = getWindowDraftPayload(windowDraft, windows.length);
 
-    if (!width || !height || !quantity || width <= 0 || height <= 0 || quantity < 1) {
+    if (!draftPayload.isValid) {
       setErrors((current) => ({
         ...current,
-        windows: 'Uzupełnij szerokość, wysokość i ilość okien przed dodaniem pozycji.',
+        windows: WINDOW_DRAFT_ERROR,
       }));
-      return;
+      return false;
     }
 
     setWindows((current) => [
       ...current,
       {
+        ...draftPayload.item,
         id: `${Date.now()}-${current.length}`,
-        width,
-        height,
-        quantity,
       },
     ]);
-    setWindowDraft({ width: '', height: '', quantity: '1' });
+    setWindowDraft(initialWindowDraft);
+    return true;
   };
 
   const removeWindow = (id) => {
@@ -420,12 +455,14 @@ const ContactSection = () => {
     return Object.keys(nextErrors).length === 0;
   };
 
-  const appendMailFields = (payload) => {
+  const appendMailFields = (payload, windowsForSubmission = windows) => {
+    const summary = getWindowSummary(windowsForSubmission);
+
     payload.append('Temat_zapytania', sanitizeText(topicLabel));
-    payload.append('wymiary_łącznie', windowsSummary.rows);
+    payload.append('wymiary_łącznie', summary.rows);
     payload.append('sposob_pomiaru_wymiarow', WINDOW_MEASUREMENT_HINT);
-    payload.append('powierzchnia_łącznie', windowsSummary.totalAreaLabel);
-    payload.append('sztuk_łącznie', windowsSummary.totalQuantityLabel);
+    payload.append('powierzchnia_łącznie', summary.totalAreaLabel);
+    payload.append('sztuk_łącznie', summary.totalQuantityLabel);
     payload.append('Imie_i_nazwisko', sanitizeText(form.name));
     payload.append('Telefon', sanitizeText(form.phone));
     payload.append('email', sanitizeText(form.email));
@@ -434,13 +471,13 @@ const ContactSection = () => {
     payload.append('wiadomosc', sanitizeText(form.message));
   };
 
-  const buildFormData = () => {
+  const buildFormData = (windowsForSubmission = windows) => {
     const payload = new FormData();
     payload.append('_subject', `folielumera.pl - nowe zapytanie: ${sanitizeText(topicLabel)}`);
     payload.append('_replyto', sanitizeText(form.email));
     payload.append('_honey', sanitizeText(form.website));
     payload.append('_started_at', String(mountedAt.current));
-    appendMailFields(payload);
+    appendMailFields(payload, windowsForSubmission);
     files.forEach((file) => payload.append('attachment', file));
     return payload;
   };
@@ -448,6 +485,7 @@ const ContactSection = () => {
   const resetContactForm = () => {
     setForm(initialForm);
     setWindows([]);
+    setWindowDraft(initialWindowDraft);
     setFiles([]);
     setWindowPendingRemoval(null);
     setFilePendingRemoval(null);
@@ -460,6 +498,27 @@ const ContactSection = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     setStatus(null);
+
+    const draftPayload = getWindowDraftPayload(windowDraft, windows.length);
+    let submissionWindows = windows;
+
+    if (draftPayload.hasDraft) {
+      if (!draftPayload.isValid) {
+        setErrors((current) => ({
+          ...current,
+          windows: WINDOW_DRAFT_ERROR,
+        }));
+        setStatus({
+          type: 'error',
+          message: 'Uzupełnij podświetlone pola przed wysłaniem formularza.',
+        });
+        return;
+      }
+
+      submissionWindows = [...windows, draftPayload.item];
+      setWindows(submissionWindows);
+      setWindowDraft(initialWindowDraft);
+    }
 
     if (!validateForm()) {
       setStatus({
@@ -479,7 +538,7 @@ const ContactSection = () => {
 
       const response = await fetch(contactEndpoint, {
         method: 'POST',
-        body: buildFormData(),
+        body: buildFormData(submissionWindows),
         headers: {
           Accept: 'application/json',
         },
@@ -654,6 +713,7 @@ const ContactSection = () => {
                   value={windowDraft.width}
                   onChange={(event) => updateWindowDraft('width', event.target.value)}
                   placeholder="Np. 120"
+                  aria-invalid={Boolean(errors.windows)}
                 />
               </label>
               <label>
@@ -664,6 +724,7 @@ const ContactSection = () => {
                   value={windowDraft.height}
                   onChange={(event) => updateWindowDraft('height', event.target.value)}
                   placeholder="Np. 150"
+                  aria-invalid={Boolean(errors.windows)}
                 />
               </label>
               <label>
@@ -674,6 +735,7 @@ const ContactSection = () => {
                   value={windowDraft.quantity}
                   onChange={(event) => updateWindowDraft('quantity', event.target.value)}
                   placeholder="Np. 2"
+                  aria-invalid={Boolean(errors.windows)}
                 />
               </label>
               <button type="button" onClick={addWindow}>

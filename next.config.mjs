@@ -55,6 +55,11 @@ const nextConfig = {
         destination: '/folie-anty-podsluchowe',
         permanent: true,
       },
+      {
+        source: '/realizacje/wymiana-folii-lustra-weneckiego-dentysta-krakow',
+        destination: '/realizacje/wymiana-folii-przeciwslonecznej-dentysta-krakow',
+        permanent: true,
+      },
     ];
   },
 };

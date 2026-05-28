@@ -490,8 +490,8 @@ export const SliderDots = styled.div`
 `;
 
 export const SliderDot = styled.button`
-  flex: 0 0 0.95rem;
-  width: 0.95rem;
+  flex: 0 0 auto;
+  width: ${(props) => (props.$isActive ? '2.05rem' : '0.95rem')};
   height: 0.95rem;
   border: 0;
   border-radius: 999px;
@@ -500,15 +500,14 @@ export const SliderDot = styled.button`
   box-shadow: ${(props) =>
     props.$isActive ? '0 6px 14px rgba(43, 98, 86, 0.22)' : 'none'};
   cursor: pointer;
-  transform: ${(props) => (props.$isActive ? 'scaleX(1.75)' : 'scaleX(1)')};
   transition:
     background var(--transition),
+    width var(--transition),
     transform var(--transition),
     box-shadow var(--transition);
 
   &:hover {
-    transform: translateY(-1px)
-      ${(props) => (props.$isActive ? 'scaleX(1.75)' : 'scaleX(1)')};
+    transform: translateY(-1px);
   }
 
   &:focus {
@@ -521,7 +520,7 @@ export const SliderDot = styled.button`
   }
 
   @media (max-width: 600px) {
-    transform: none;
+    width: ${(props) => (props.$isActive ? '1.55rem' : '0.85rem')};
 
     &:hover {
       transform: none;

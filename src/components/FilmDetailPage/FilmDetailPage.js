@@ -2,7 +2,9 @@ import React from 'react';
 import { useRouter } from 'next/router';
 import { localServicePagesData } from '../../data/localServicePagesData';
 import { problemPagesData } from '../../data/problemPagesData';
+import { getProjectsByFilmPath } from '../../data/projectPagesData';
 import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
+import RelatedProjectsSection from '../RelatedProjectsSection';
 import SmartFilmPreview from '../SmartFilmPreview';
 import {
   DetailPageWrap,
@@ -43,6 +45,7 @@ const FilmDetailPage = ({ film, breadcrumbs }) => {
   const router = useRouter();
   const problemLinks = (film.problemLinks || []).map(getProblemPage).filter(Boolean);
   const localLinks = (film.localLinks || []).map(getLocalServicePage).filter(Boolean);
+  const relatedProjects = getProjectsByFilmPath(film.path).slice(0, 3);
 
   const goToHomeSection = (sectionId, contactTopic) => {
     if (contactTopic) {
@@ -126,6 +129,12 @@ const FilmDetailPage = ({ film, breadcrumbs }) => {
             </DetailHeroCard>
           </DetailHeroVisual>
         </DetailHero>
+
+        <RelatedProjectsSection
+          projects={relatedProjects}
+          title="Zobacz realizacje z tym typem folii"
+          lead="Konkretne montaże pokazują, jak ta folia wygląda na realnych szybach: zakres prac, efekt po aplikacji i sytuacje podobne do tych, które najczęściej trafiają do wyceny."
+        />
 
         <DetailSection>
           <DetailSectionIntro data-aos="fade-up">

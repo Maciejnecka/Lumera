@@ -73,7 +73,7 @@ export const FooterCols = styled.div`
   display: grid;
   grid-template-columns: ${(props) =>
     props.$hasSocial
-      ? '1.25fr 0.85fr 1fr 1.05fr'
+      ? '1.2fr 0.72fr minmax(27rem, 1.46fr) 1fr'
       : 'repeat(3, minmax(0, 1fr))'};
   align-items: start;
   gap: 2.4rem;
@@ -116,6 +116,39 @@ export const FooterCol = styled.div`
   a:hover,
   a:focus-visible {
     color: #f2e7c7;
+  }
+`;
+
+export const FooterLinkGroups = styled.div`
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.2rem 1.6rem;
+
+  ${media.sm`
+    grid-template-columns: 1fr;
+  `}
+`;
+
+export const FooterLinkGroup = styled.div`
+  display: grid;
+  align-content: start;
+  gap: 0.45rem;
+  min-width: 0;
+
+  h4 {
+    margin: 0 0 0.25rem;
+    color: rgba(242, 231, 199, 0.92);
+    font-size: 1.1rem;
+    letter-spacing: 0.1em;
+    line-height: 1.3;
+    text-transform: uppercase;
+  }
+
+  a {
+    width: fit-content;
+    color: rgba(244, 240, 232, 0.76);
+    font-size: 1.35rem;
+    line-height: 1.48;
   }
 `;
 

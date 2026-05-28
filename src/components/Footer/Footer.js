@@ -13,6 +13,8 @@ import {
   SocialLinks,
   BusinessHours,
   FooterBottom,
+  FooterLinkGroup,
+  FooterLinkGroups,
 } from './Footer.styled';
 
 const CONTACT_PHONE = '+48 605 505 714';
@@ -110,6 +112,37 @@ const socialLinks = [
   },
 ];
 
+const footerLinkGroups = [
+  {
+    title: 'Główne',
+    links: [
+      { href: '/realizacje', label: 'Realizacje' },
+      { href: '/cennik', label: 'Cennik' },
+      { href: '/folie-okienne-lokalnie', label: 'Folie okienne lokalnie' },
+      { href: '/polityka-prywatnosci', label: 'Polityka prywatności' },
+    ],
+  },
+  {
+    title: 'Usługi',
+    links: [
+      { href: '/folie-przeciwsloneczne', label: 'Folie przeciwsłoneczne' },
+      { href: '/montaz-folii-lcd', label: 'Montaż folii LCD' },
+      { href: '/folie-lustra-weneckie', label: 'Folie lustra weneckie' },
+      { href: '/demontaz-folii-okiennych', label: 'Demontaż folii' },
+    ],
+  },
+  {
+    title: 'Lokalnie',
+    links: [
+      { href: '/montaz-folii-okiennych-krakow', label: 'Folie okienne Kraków' },
+      { href: '/montaz-folii-okiennych-katowice', label: 'Folie okienne Katowice' },
+      { href: '/folie-przeciwsloneczne-krakow', label: 'Folie przeciwsłoneczne Kraków' },
+      { href: '/folie-lcd-krakow', label: 'Folie LCD Kraków' },
+      { href: '/folie-lcd-katowice', label: 'Folie LCD Katowice' },
+    ],
+  },
+];
+
 const Footer = () => {
   const handleContactClick = (href) => (event) => {
     if (!href) return;
@@ -191,21 +224,18 @@ const Footer = () => {
 
           <FooterCol>
             <h3>Informacje</h3>
-            <Link href="/folie-okienne-lokalnie">Folie okienne lokalnie</Link>
-            <Link href="/folie-przeciwsloneczne">Folie przeciwsłoneczne</Link>
-            <Link href="/montaz-folii-okiennych-krakow">
-              Montaż folii okiennych Kraków
-            </Link>
-            <Link href="/montaz-folii-okiennych-katowice">
-              Montaż folii okiennych Katowice
-            </Link>
-            <Link href="/folie-przeciwsloneczne-krakow">
-              Folie przeciwsłoneczne Kraków
-            </Link>
-            <Link href="/folie-lcd-krakow">Folie LCD Kraków</Link>
-            <Link href="/folie-lcd-katowice">Folie LCD Katowice</Link>
-            <Link href="/montaz-folii-lcd">Montaż folii LCD</Link>
-            <Link href="/polityka-prywatnosci">Polityka prywatności</Link>
+            <FooterLinkGroups>
+              {footerLinkGroups.map((group) => (
+                <FooterLinkGroup key={group.title}>
+                  <h4>{group.title}</h4>
+                  {group.links.map((link) => (
+                    <Link key={link.href} href={link.href}>
+                      {link.label}
+                    </Link>
+                  ))}
+                </FooterLinkGroup>
+              ))}
+            </FooterLinkGroups>
           </FooterCol>
 
           <FooterCol>

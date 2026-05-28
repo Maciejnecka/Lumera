@@ -9,7 +9,7 @@ import { filmsData } from '../../data/filmsData';
 const navLinks = [
   { label: 'Cennik', href: '/cennik' },
   { label: 'O nas', id: 'o-nas' },
-  { label: 'Realizacje', id: 'realizacje' },
+  { label: 'Realizacje', href: '/realizacje' },
   { label: 'Kontakt', href: '/kontakt' },
 ];
 

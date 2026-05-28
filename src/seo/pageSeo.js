@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { filmsData } from '../data/filmsData';
 import { localServicePagesData } from '../data/localServicePagesData';
 import { problemPagesData } from '../data/problemPagesData';
+import { projectPagesData } from '../data/projectPagesData';
 import { serviceHubPagesData } from '../data/serviceHubPagesData';
 
 export const siteUrl = 'https://folielumera.pl';
@@ -40,6 +41,11 @@ const staticPages = {
     description:
       'Kontakt Lumera: wycena montażu folii okiennych w Krakowie, Rudawie, Zabierzowie, Katowicach i okolicach. Wyślij zdjęcia, wymiary szyb i lokalizację.',
   },
+  '/realizacje': {
+    title: 'Realizacje z montaży folii okiennych | Lumera',
+    description:
+      'Realizacje Lumera: montaż folii okiennych, demontaż starych folii, efekt przed i po oraz konkretne montaże z Krakowa, Katowic i okolic.',
+  },
   '/folie-okienne-lokalnie': {
     title: 'Folie okienne lokalnie | Kraków, Katowice i okolice | Lumera',
     description:
@@ -77,6 +83,7 @@ export const getSeoForPath = (path = '/') => {
   const problemPage = problemPagesData.find((item) => item.path === normalizedPath);
   const localServicePage = localServicePagesData.find((item) => item.path === normalizedPath);
   const serviceHubPage = serviceHubPagesData.find((item) => item.path === normalizedPath);
+  const projectPage = projectPagesData.find((item) => item.path === normalizedPath);
   const staticPage = staticPages[normalizedPath];
 
   if (film) {
@@ -112,6 +119,19 @@ export const getSeoForPath = (path = '/') => {
       description: trimDescription(serviceHubPage.seoDescription),
       url: `${siteUrl}${serviceHubPage.path}`,
       type: 'service',
+    };
+  }
+
+  if (projectPage) {
+    return {
+      title: projectPage.seoTitle,
+      description: trimDescription(projectPage.seoDescription),
+      url: `${siteUrl}${projectPage.path}`,
+      type: 'article',
+      image: `${siteUrl}${projectPage.coverImage}`,
+      imageWidth: projectPage.coverWidth,
+      imageHeight: projectPage.coverHeight,
+      imageAlt: projectPage.images?.[0]?.alt || projectPage.title,
     };
   }
 
@@ -239,6 +259,10 @@ const PageSeo = ({ path = '/', extraSchema }) => {
   const seo = getSeoForPath(path);
   const schemas = [organizationSchema, websiteSchema, ...normalizeSchemaInput(extraSchema)];
   const openGraphType = seo.type === 'article' ? 'article' : 'website';
+  const image = seo.image || `${siteUrl}/og-image.png`;
+  const imageWidth = seo.imageWidth || 1200;
+  const imageHeight = seo.imageHeight || 630;
+  const imageAlt = seo.imageAlt || 'Lumera - folie okienne';
 
   return (
     <Head>
@@ -252,14 +276,14 @@ const PageSeo = ({ path = '/', extraSchema }) => {
       <meta property="og:title" content={seo.title} />
       <meta property="og:description" content={seo.description} />
       <meta property="og:url" content={seo.url} />
-      <meta property="og:image" content={`${siteUrl}/og-image.png`} />
-      <meta property="og:image:width" content="1200" />
-      <meta property="og:image:height" content="630" />
-      <meta property="og:image:alt" content="Lumera - folie okienne" />
+      <meta property="og:image" content={image} />
+      <meta property="og:image:width" content={String(imageWidth)} />
+      <meta property="og:image:height" content={String(imageHeight)} />
+      <meta property="og:image:alt" content={imageAlt} />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={seo.title} />
       <meta name="twitter:description" content={seo.description} />
-      <meta name="twitter:image" content={`${siteUrl}/og-image.png`} />
+      <meta name="twitter:image" content={image} />
       {schemas.map((schema, index) => (
         <script
           key={`schema-${index}`}

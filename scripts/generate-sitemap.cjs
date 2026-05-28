@@ -28,6 +28,11 @@ const staticPages = [
     sourceFile: 'pages/kontakt.js',
   },
   {
+    path: '/realizacje',
+    priority: '0.8',
+    sourceFile: 'pages/realizacje.js',
+  },
+  {
     path: '/folie-okienne-lokalnie',
     priority: '0.82',
     sourceFile: 'src/components/LocalServicesHubPage/LocalServicesHubPage.js',
@@ -58,6 +63,10 @@ const dataSources = [
   {
     file: 'src/data/serviceHubPagesData.js',
     priority: '0.82',
+  },
+  {
+    file: 'src/data/projectPagesData.js',
+    priority: '0.74',
   },
 ];
 

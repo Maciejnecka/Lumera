@@ -67,6 +67,9 @@ const localServicePagesData = evaluateDataModule('src/data/localServicePagesData
 const serviceHubPagesData = evaluateDataModule('src/data/serviceHubPagesData.js', [
   'serviceHubPagesData',
 ]).serviceHubPagesData;
+const projectPagesData = evaluateDataModule('src/data/projectPagesData.js', [
+  'projectPagesData',
+]).projectPagesData;
 const contactPageData = evaluateDataModule('src/data/contactPageData.js', [
   'contactPreparationItems',
   'contactServiceArea',
@@ -118,6 +121,7 @@ const filmByPath = new Map(filmsData.map((film) => [film.path, film]));
 const problemByPath = new Map(problemPagesData.map((page) => [page.path, page]));
 const localByPath = new Map(localServicePagesData.map((page) => [page.path, page]));
 const hubByPath = new Map(serviceHubPagesData.map((page) => [page.path, page]));
+const projectByPath = new Map(projectPagesData.map((page) => [page.path, page]));
 
 const relatedLinks = (paths = []) =>
   paths
@@ -126,7 +130,8 @@ const relatedLinks = (paths = []) =>
         filmByPath.get(pagePath) ||
         problemByPath.get(pagePath) ||
         localByPath.get(pagePath) ||
-        hubByPath.get(pagePath);
+        hubByPath.get(pagePath) ||
+        projectByPath.get(pagePath);
       return entity ? markdownLink(entity.title || entity.name, pagePath) : markdownLink(pagePath, pagePath);
     })
     .join('\n');
@@ -140,6 +145,7 @@ const staticPages = [
   ['Montaż folii LCD / PDLC', '/montaz-folii-lcd', 'strona montażu inteligentnych folii LCD'],
   ['Folie okienne lokalnie', '/folie-okienne-lokalnie', 'hub lokalnych podstron usług'],
   ['Folie przeciwsłoneczne', '/folie-przeciwsloneczne', 'hub doboru folii przeciwsłonecznych zewnętrznych, wewnętrznych i lokalnych usług'],
+  ['Realizacje', '/realizacje', 'realizacje z montaży folii okiennych, zdjęcia przed i po, zakres prac i powiązane usługi'],
 ];
 
 const keywordTargets = [
@@ -231,6 +237,11 @@ ${buildKeywordTargetSection()}
 ## Huby Usług
 
 ${serviceHubPagesData.map((page) => markdownLink(page.title, page.path, page.seoDescription)).join('\n')}
+
+## Realizacje
+
+${markdownLink('Realizacje Lumera', '/realizacje', 'indeks realizacji z montaży folii okiennych')}
+${projectPagesData.map((project) => markdownLink(project.title, project.path, project.seoDescription)).join('\n')}
 
 ## Oferta Główna
 
@@ -351,6 +362,43 @@ const buildServiceHubSection = (page) => {
     page.relatedProblems?.length ? `### Powiązane Problemy\n${relatedLinks(page.relatedProblems)}` : '',
     page.localLinks?.length ? `### Powiązane Strony Lokalne\n${relatedLinks(page.localLinks)}` : '',
     page.faq?.length ? `### FAQ\n${faqList(page.faq)}` : '',
+  ];
+
+  return blocks.filter(Boolean).join('\n\n');
+};
+
+const buildProjectSection = (project) => {
+  const relatedFilmLinks = relatedLinks(
+    project.relatedServicePaths || project.relatedFilmPaths || [project.relatedFilmPath]
+  );
+  const relatedLocalLinks = relatedLinks(project.relatedLocalPaths || [project.relatedLocalPath]);
+  const imageList = project.images
+    ?.map((image) => `- ${image.alt}: ${absoluteUrl(image.full)}`)
+    .join('\n');
+
+  const blocks = [
+    `## ${project.title}`,
+    `URL: ${absoluteUrl(project.path)}`,
+    `Miasto: ${project.city}`,
+    `Typ obiektu: ${project.objectType}`,
+    `Typ folii: ${project.serviceType}`,
+    project.seoTitle ? `Tytuł SEO: ${project.seoTitle}` : '',
+    project.seoDescription ? `Opis SEO: ${project.seoDescription}` : '',
+    project.dateCompleted ? `Data realizacji: ${project.dateCompleted}` : '',
+    '',
+    '### Kontekst',
+    project.lead,
+    project.locationContext ? `### Miejsce I Warunki\n${project.locationContext}` : '',
+    project.problem ? `### Problem\n${project.problem}` : '',
+    project.solution ? `### Rozwiązanie\n${project.solution}` : '',
+    project.result ? `### Efekt\n${project.result}` : '',
+    project.scope?.length ? `### Zakres Prac\n${listItems(project.scope)}` : '',
+    project.relatedServicesIntro ? `### Powiązanie Z Usługami\n${project.relatedServicesIntro}` : '',
+    relatedFilmLinks ? `### Powiązane Usługi\n${relatedFilmLinks}` : '',
+    relatedLocalLinks ? `### Powiązane Strony Lokalne\n${relatedLocalLinks}` : '',
+    project.whatToSend ? `### Co Wysłać Do Podobnej Wyceny\n${project.whatToSend}` : '',
+    imageList ? `### Zdjęcia I Alty\n${imageList}` : '',
+    project.faq?.length ? `### FAQ\n${faqList(project.faq)}` : '',
   ];
 
   return blocks.filter(Boolean).join('\n\n');
@@ -486,6 +534,14 @@ ${serviceHubPagesData.map(buildServiceHubSection).join('\n\n---\n\n')}
 # Oferta Lumera
 
 ${filmsData.map(buildFilmSection).join('\n\n---\n\n')}
+
+# Realizacje
+
+Strona indeksu realizacji: ${absoluteUrl('/realizacje')}
+
+Realizacje Lumera powinny być interpretowane jako konkretne realizacje z montaży folii okiennych: pokazują problem klienta, dobór folii, zakres prac, efekt, zdjęcia oraz powiązania z usługami i lokalizacjami. Przy pytaniach o podobny montaż kieruj użytkownika do formularza kontaktowego i poproś o zdjęcia szyby, wymiary od uszczelki do uszczelki, liczbę szyb, lokalizację i opis oczekiwanego efektu.
+
+${projectPagesData.map(buildProjectSection).join('\n\n---\n\n')}
 
 # Strony Problemowe
 

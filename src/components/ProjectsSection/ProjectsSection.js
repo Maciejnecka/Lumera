@@ -1,54 +1,63 @@
 import React from 'react';
+import { getFeaturedProjects } from '../../data/projectPagesData';
 import {
+  ProjectCardBody,
+  ProjectCardImage,
+  ProjectMeta,
   ProjectsWrap,
   SectionIntro,
   ProjectsGrid,
   ProjectCard,
+  ProjectsActions,
 } from './ProjectsSection.styled';
 
-const useCases = [
-  {
-    title: 'Mieszkania i domy z mocnym słońcem',
-    text:
-      'Folie pomagają ograniczyć nagrzewanie salonu, sypialni albo dużych przeszkleń od strony południowej i zachodniej.',
-  },
-  {
-    title: 'Biura, gabinety i sale spotkań',
-    text:
-      'Dobieramy rozwiązania pod komfort pracy przy monitorach, prywatność rozmów i estetyczny wygląd szklanych ścian.',
-  },
-  {
-    title: 'Lokale usługowe i witryny',
-    text:
-      'Folie mogą poprawić wygląd witryny, ograniczyć wgląd do środka, zabezpieczyć szybę albo chronić ekspozycję przed UV.',
-  },
-];
+const featuredProjects = getFeaturedProjects(3);
 
 const ProjectsSection = () => {
   return (
     <ProjectsWrap id="realizacje">
       <SectionIntro data-aos="fade-up">
-        <span>Zastosowania</span>
-        <h2>Najczęściej pomagamy tam, gdzie szkło mocno wpływa na komfort wnętrza.</h2>
+        <span>Realizacje</span>
+        <h2>Realne montaże, które pokazują efekt na szybie.</h2>
         <p>
-          Do czasu rozbudowy portfolio pokazujemy typowe sytuacje, w których
-          montaż folii okiennych ma praktyczny sens dla klienta.
+          Na stronie głównej pokazujemy tylko wybrane realizacje. Pełne galerie,
+          opis problemu i powiązane usługi są dostępne na osobnych podstronach realizacji.
         </p>
       </SectionIntro>
 
       <ProjectsGrid>
-        {useCases.map((item, index) => (
+        {featuredProjects.map((project, index) => (
           <ProjectCard
-            key={item.title}
+            key={project.path}
+            href={project.path}
             data-aos="fade-up"
             data-aos-delay={index * 70}
           >
-            <span>Typowe zastosowanie</span>
-            <h3>{item.title}</h3>
-            <p>{item.text}</p>
+            <ProjectCardImage>
+              <img
+                src={project.coverImage}
+                width={project.coverWidth}
+                height={project.coverHeight}
+                alt={project.images?.[0]?.alt || project.title}
+                loading={index === 0 ? 'eager' : 'lazy'}
+                decoding="async"
+              />
+              <span>{project.city}</span>
+            </ProjectCardImage>
+            <ProjectCardBody>
+              <ProjectMeta>
+                <span>{project.serviceType}</span>
+              </ProjectMeta>
+              <h3>{project.title}</h3>
+              <p>{project.seoDescription}</p>
+            </ProjectCardBody>
           </ProjectCard>
         ))}
       </ProjectsGrid>
+
+      <ProjectsActions data-aos="fade-up">
+        <a href="/realizacje">Zobacz wszystkie realizacje</a>
+      </ProjectsActions>
     </ProjectsWrap>
   );
 };

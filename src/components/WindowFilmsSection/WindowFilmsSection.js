@@ -117,7 +117,10 @@ const getSliderState = (slider) => {
 };
 
 const getCardLeft = (slider, card) => {
-  return Math.max(0, Math.round(card.offsetLeft - slider.offsetLeft));
+  const firstCard = slider.firstElementChild;
+  const baseOffset = firstCard ? firstCard.offsetLeft : 0;
+
+  return Math.max(0, Math.round(card.offsetLeft - baseOffset));
 };
 
 const getSliderSnapPoints = (slider) => {
@@ -157,6 +160,25 @@ const getClosestSnapIndex = (snapPoints, targetLeft) => {
         : closestIndex,
     0
   );
+};
+
+const getNextSnapIndex = (snapPoints, currentLeft, direction) => {
+  if (!snapPoints.length) return 0;
+
+  const tolerance = 8;
+
+  if (direction > 0) {
+    const nextIndex = snapPoints.findIndex((point) => point > currentLeft + tolerance);
+    return nextIndex === -1 ? snapPoints.length - 1 : nextIndex;
+  }
+
+  for (let index = snapPoints.length - 1; index >= 0; index -= 1) {
+    if (snapPoints[index] < currentLeft - tolerance) {
+      return index;
+    }
+  }
+
+  return 0;
 };
 
 const WindowFilmsSection = () => {
@@ -215,11 +237,7 @@ const WindowFilmsSection = () => {
     const snapPoints = getSliderSnapPoints(slider);
     if (!snapPoints.length) return;
 
-    const currentIndex = getClosestSnapIndex(snapPoints, slider.scrollLeft);
-    const targetIndex = Math.min(
-      snapPoints.length - 1,
-      Math.max(0, currentIndex + direction)
-    );
+    const targetIndex = getNextSnapIndex(snapPoints, slider.scrollLeft, direction);
 
     slider.scrollTo({
       left: snapPoints[targetIndex],
@@ -234,8 +252,10 @@ const WindowFilmsSection = () => {
     const snapPoints = getSliderSnapPoints(slider);
     if (!snapPoints.length) return;
 
+    const targetIndex = Math.min(snapPoints.length - 1, Math.max(0, index));
+
     slider.scrollTo({
-      left: snapPoints[index] || 0,
+      left: snapPoints[targetIndex],
       behavior: 'smooth',
     });
   };

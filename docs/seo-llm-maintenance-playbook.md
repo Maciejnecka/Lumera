@@ -281,13 +281,38 @@ Najczęściej:
 
 8. Uruchom build i sprawdź adres w przeglądarce.
 
-## Dodanie Realizacji / Case Study
+## Dodanie Realizacji Z Montaży Folii Okiennych
 
-To jeszcze nie jest pełny moduł w projekcie, więc trzeba pilnować większej liczby miejsc. Docelowo najlepiej dodać osobne źródło danych, np.:
+Moduł realizacji jest już wdrożony. Przy dodawaniu kolejnej realizacji nie buduj nowego routingu, nowego slidera ani osobnej logiki SEO. Trzymaj się obecnego schematu.
 
-```txt
-src/data/projectPagesData.js
-```
+Źródło prawdy dla realizacji:
+
+- `src/data/projectPagesData.js`
+
+Routing:
+
+- indeks realizacji: `pages/realizacje.js` -> `/realizacje`,
+- pojedyncza realizacja: `pages/realizacje/[slug].js` -> `/realizacje/nazwa-realizacji`,
+- nie dodawaj ścieżek `/realizacje/...` do `pages/[slug].js`, bo ten plik obsługuje jednosegmentowe URL-e usług, problemów i lokalizacji.
+
+Komponenty:
+
+- `src/components/ProjectsIndexPage` - indeks `/realizacje`,
+- `src/components/ProjectDetailPage` - pojedyncza realizacja,
+- `src/components/ProjectGallery` - galeria realizacji i lightbox,
+- `src/components/RelatedProjectsSection` - powiązane realizacje na usługach/lokalnych stronach,
+- `src/components/ProjectsSection` - wybrane realizacje na stronie głównej.
+
+Aktualny standard wizualny:
+
+- karty realizacji na stronie głównej, `/realizacje` i w powiązanych realizacjach mają wspólny hover: wytłumienie zdjęcia i kapsułę `Zobacz realizację`,
+- nie dopisuj osobnych efektów hover w danych realizacji,
+- nie dodawaj filtra `Obiekt` na indeksie realizacji; `objectType` zostaje w danych i może być widoczny na podstronie szczegółowej, ale nie jest kategorią filtrowania,
+- filtr lokalizacji na `/realizacje` działa po `region`, czyli największym okolicznym mieście obsługowym, np. `Kraków` dla Krakowa i okolic albo `Katowice` dla Katowic, Gliwic i okolic; `city` zostaje dokładną miejscowością realizacji widoczną na karcie i w treści,
+- na podstronach kategorii folii sekcja `Realizacje z tym typem folii` ma być wysoko: zaraz pod hero/wyceną i przed sekcją `Najważniejsze korzyści`, żeby użytkownik od razu widział realne przykłady montażu,
+- galeria w podstronie realizacji jest wycentrowana, nagłówki sekcji pozostają wyrównane do lewej,
+- główna galeria ma stały, mniejszy viewport i nie powinna dominować nad treścią,
+- lightbox ma stałą ramę; zdjęcia mają używać `object-fit: contain`, żeby różne proporcje nie rozciągały obrazu i nie zmieniały rozmiaru podglądu.
 
 Pojedyncza realizacja powinna mieć:
 
@@ -296,19 +321,100 @@ Pojedyncza realizacja powinna mieć:
 - `title`
 - `seoTitle`
 - `seoDescription`
+- `eyebrow`
+- `lead`
+- `storyTitle`
+- `coverCaption`
 - `city`
+- `region`
+- `objectType`
 - `serviceType`
+- `serviceFilters`
 - `relatedFilmPath`
+- `relatedFilmPaths`
+- `relatedServicePaths`
+- `relatedLocalPath`
+- `relatedLocalPaths`
+- `contactTopic`
+- `featured`
+- `coverImage`
+- `coverWidth`
+- `coverHeight`
+- `datePublished`
+- `dateModified`
+- `dateCompleted`
+- `locationContext`
 - `problem`
 - `solution`
 - `result`
 - `scope`
-- `locationContext`
+- `tags`
+- `relatedServicesIntro`
+- `quote`
+- `whatToSend`
 - `images`
-- `alt`
-- `datePublished` albo `dateCompleted`
-- opcjonalnie `faq`
-- opcjonalnie `relatedServices`
+- `faq`
+
+Minimalny model danych:
+
+```js
+{
+  slug: 'wymiana-folii-przeciwslonecznej-dentysta-krakow',
+  path: '/realizacje/wymiana-folii-przeciwslonecznej-dentysta-krakow',
+  title: 'Wymiana starej folii przeciwsłonecznej w gabinecie dentystycznym w Krakowie',
+  seoTitle: 'Wymiana folii przeciwsłonecznej Kraków | Demontaż folii',
+  seoDescription: 'Demontaż starej folii okiennej i montaż nowej folii przeciwsłonecznej w Krakowie. Zobacz efekt przed i po oraz zakres realizacji Lumera.',
+  eyebrow: 'Realizacja: folia przeciwsłoneczna',
+  lead: 'Krótki opis problemu, usługi, miejsca i efektu z naturalnymi frazami SEO.',
+  storyTitle: 'Nagłówek sekcji przebiegu dopasowany do realizacji.',
+  coverCaption: 'Krótki podpis pod zdjęciem hero.',
+  city: 'Kraków',
+  region: 'Kraków',
+  objectType: 'gabinet dentystyczny',
+  serviceType: 'Folie przeciwsłoneczne',
+  serviceFilters: ['Folie przeciwsłoneczne'],
+  relatedFilmPath: '/folie-przeciwsloneczne-zewnetrzne',
+  relatedFilmPaths: ['/folie-przeciwsloneczne-zewnetrzne'],
+  relatedServicePaths: ['/folie-przeciwsloneczne', '/folie-przeciwsloneczne-zewnetrzne'],
+  relatedLocalPath: '/folie-przeciwsloneczne-krakow',
+  relatedLocalPaths: ['/folie-przeciwsloneczne-krakow'],
+  contactTopic: 'solar-films',
+  featured: true,
+  coverImage: '/img/realizacje/slug-realizacji/cover.webp',
+  coverWidth: 900,
+  coverHeight: 675,
+  datePublished: '2026-05-25',
+  dateModified: '2026-05-26',
+  dateCompleted: '2026-05',
+  locationContext: 'Miejsce, warunki i powód doboru folii.',
+  problem: 'Co było nie tak przed montażem.',
+  solution: 'Jak dobrano folię i jak przebiegł montaż.',
+  result: 'Jaki efekt klient dostał po montażu.',
+  scope: ['pomiar', 'demontaż starej folii', 'montaż nowej folii'],
+  tags: ['folia przeciwsłoneczna Kraków', 'demontaż folii okiennej'],
+  relatedServicesIntro: 'Jak ta realizacja łączy powiązane usługi.',
+  quote: 'Krótka ekspercka obserwacja z realizacji.',
+  whatToSend: 'Co klient powinien wysłać do podobnej wyceny.',
+  images: [
+    {
+      thumb: '/img/realizacje/slug-realizacji/01-thumb.webp',
+      full: '/img/realizacje/slug-realizacji/01.webp',
+      width: 1600,
+      height: 1067,
+      thumbWidth: 600,
+      thumbHeight: 400,
+      alt: 'Konkretny opis zdjęcia: typ folii, efekt, lokalizacja',
+      caption: 'Krótki podpis widoczny w galerii.'
+    }
+  ],
+  faq: [
+    {
+      question: 'Pytanie klienta związane z podobną realizacją?',
+      answer: 'Krótka, konkretna odpowiedź zgodna z widoczną treścią.'
+    }
+  ]
+}
+```
 
 Minimalny model treści realizacji:
 
@@ -316,68 +422,104 @@ Minimalny model treści realizacji:
 Problem klienta -> dobór rozwiązania -> zakres montażu -> efekt -> czego potrzebujemy do podobnej wyceny.
 ```
 
-Po dodaniu modułu realizacji trzeba zaktualizować:
+## Jak Pisać Realizację
 
-1. `pages/[slug].js`
+Treść ma być konkretna i technicznie uczciwa. Nie pisz ogólnego tekstu reklamowego. Realizacja powinna opowiadać:
 
-- import `projectPagesData`,
-- funkcja wyszukiwania po `path`,
-- render komponentu realizacji,
-- wpis w `getStaticPaths`,
-- breadcrumbs,
-- schema.
+- jaki był problem klienta,
+- gdzie był montaż,
+- jaką folię/usługę dobrano,
+- czy był demontaż starej folii albo inne ograniczenie techniczne,
+- jaki był zakres prac,
+- jaki efekt widać po montażu,
+- co klient powinien wysłać do podobnej wyceny.
 
-2. `src/seo/pageSeo.js`
+SEO realizacji:
 
-- import `projectPagesData`,
-- rozpoznanie realizacji w `getSeoForPath`,
-- `type: 'article'` albo dedykowane typy dla Open Graph,
-- opcjonalnie schema `Article`, `ImageObject`, `Service`.
+- `title` ma być naturalnym H1 dla użytkownika,
+- `seoTitle` ma zawierać główną frazę, lokalizację i intencję, np. `Wymiana folii przeciwsłonecznej Kraków | Demontaż folii`,
+- `seoDescription` ma mówić konkretnie: usługa + lokalizacja + efekt + marka,
+- `lead`, `problem`, `solution` i `result` powinny naturalnie zawierać frazy, ale bez upychania słów,
+- `tags` dodawaj pod LLM i schema `keywords`, np. `folia przeciwsłoneczna Kraków`, `demontaż folii okiennej`, `wymiana folii na szybie`,
+- `faq` musi być widoczne na stronie, jeśli trafia do schema `FAQPage`.
 
-3. `scripts/generate-sitemap.cjs`
+Linkowanie:
 
-- dodać `src/data/projectPagesData.js` do `dataSources`,
-- ustalić priority, np. `0.70-0.78`,
-- rozważyć `changefreq: 'yearly'` lub `monthly`, zależnie od aktualizacji.
+- `relatedFilmPath` ustaw na najważniejszą usługę,
+- `relatedFilmPaths` dodaj, gdy realizacja dotyczy kilku typów folii,
+- `relatedServicePaths` dodaj, gdy chcesz linkować do hubów usługowych,
+- `relatedLocalPath` i `relatedLocalPaths` dodaj, gdy lokalizacja ma znaczenie SEO,
+- `city` opisuje dokładną miejscowość realizacji, a `region` służy do filtrowania i powiązań lokalnych po większym obszarze, np. Zelków -> Kraków, Gliwice -> Katowice,
+- `serviceType` opisuje zakres widoczny na karcie, a `serviceFilters` steruje filtrem po typach folii; jeśli realizacja łączy kilka folii, np. przeciwsłoneczne i mrożone, nie twórz osobnej kategorii filtra, tylko dodaj kilka wartości w `serviceFilters`,
+- `contactTopic` ustaw tak, żeby kliknięcie `Zapytaj o podobny montaż` wybierało właściwy temat formularza.
 
-4. `scripts/generate-llms.cjs`
+Zdjęcia:
 
-- import/evaluate nowego data source,
-- mapa `projectByPath`,
-- sekcja `# Realizacje`,
-- linki do powiązanych usług/problemów.
+- zdjęcia trzymaj w `public/img/realizacje/{slug}/`,
+- `cover.webp` używaj jako lekki obraz na kartach i hero,
+- miniatury oznaczaj jako `thumb.webp`,
+- pełne zdjęcia oznaczaj jako osobne pliki, np. `01.webp`,
+- miniatury zwykle ok. 400-600 px szerokości,
+- pełne zdjęcia zwykle max 1400-1800 px szerokości,
+- każde zdjęcie musi mieć `width`, `height`, `thumbWidth`, `thumbHeight`,
+- każdy `alt` ma opisywać typ folii, efekt i lokalizację, jeśli ma to sens,
+- zdjęcia przed/po opisuj jasno w `alt` i `caption`,
+- na indeksie i stronie głównej nie ładuj pełnych galerii wszystkich realizacji; karta ma używać `coverImage`.
 
-5. Widoczne linkowanie
+Wydajność i UI:
 
-- dodać listę realizacji na `/realizacje`,
-- dodać powiązane realizacje na stronach usług,
-- dodać wybrane realizacje na stronie głównej lub w `ProjectsSection`,
-- dodać linki z lokalnych landing pages, jeśli realizacja jest lokalnie istotna.
+- nie zmieniaj stylu galerii per realizacja,
+- `ProjectGallery` ma stały rozmiar podglądu i lightbox, żeby różne proporcje zdjęć nie powodowały skoków,
+- karty realizacji mają wspólny hover `Zobacz realizację`,
+- jeżeli realizacji będzie dużo, indeks `/realizacje` ma pokazywać karty z filtrami po typie folii i obszarze (`region`) oraz przyciskiem/paginacją `Pokaż więcej`,
+- nie dodawaj filtra po `objectType` na indeksie.
 
-6. Zdjęcia
+Schema:
 
-- obrazy powinny pokazywać realny efekt, nie tylko atmosferę,
-- każdy obraz powinien mieć opisowy `alt`,
-- pliki powinny być zoptymalizowane,
-- jeśli jest przed/po, jasno opisać który obraz jest który.
+- `pages/realizacje/[slug].js` generuje `Article`,
+- `Article` powinien mieć `headline`, `description`, `image`, `datePublished`, `dateModified`, `articleSection`, `keywords`, `spatialCoverage`, `author`, `publisher`, `mainEntityOfPage` i `about`,
+- jeśli realizacja ma FAQ, generowany jest `FAQPage`,
+- schema musi odpowiadać treści widocznej na stronie.
 
-7. LLM i SEO
+Sitemap i LLM:
 
-Realizacja musi odpowiadać na pytania:
+- nie edytuj ręcznie `public/sitemap.xml`,
+- nie edytuj ręcznie `public/llms.txt`,
+- nie edytuj ręcznie `public/llms-full.txt`,
+- `scripts/generate-sitemap.cjs` bierze realizacje z `src/data/projectPagesData.js`,
+- `scripts/generate-llms.cjs` dodaje realizacje do sekcji `# Realizacje`,
+- po zmianie sprawdź, czy nowy slug jest w sitemap i czy pełny opis jest w `llms-full.txt`.
 
-- jaki był problem,
-- jaka folia/usługa została użyta,
-- gdzie była realizacja,
-- jaki był efekt,
-- co klient powinien wysłać, jeśli chce podobną wycenę.
-
-8. Po zmianie:
+Po dodaniu lub zmianie realizacji uruchom:
 
 ```powershell
 npm.cmd run llms
 node scripts\generate-sitemap.cjs
 npm.cmd run build
 ```
+
+Sprawdź:
+
+```powershell
+Select-String -Path public\sitemap.xml -Pattern "slug-realizacji"
+Select-String -Path public\llms.txt,public\llms-full.txt -Pattern "ważna fraza realizacji"
+```
+
+Sprawdź w przeglądarce:
+
+- `/realizacje`,
+- `/realizacje/slug-realizacji`,
+- stronę powiązanej usługi,
+- lokalną stronę powiązaną, jeśli istnieje,
+- kliknięcie `Zapytaj o podobny montaż`,
+- hover `Zobacz realizację`,
+- galerię i lightbox na desktopie oraz mobile.
+
+Po deployu zgłoś w Google Search Console:
+
+- `https://folielumera.pl/realizacje`,
+- `https://folielumera.pl/realizacje/slug-realizacji`,
+- najważniejsze powiązane strony usług/lokalizacji, jeśli dostały nowe linkowanie do realizacji.
 
 ## Checklist SEO Dla Każdej Nowej Strony
 
@@ -585,7 +727,7 @@ Pracujesz w projekcie Lumera. Najpierw przeczytaj `docs/seo-llm-maintenance-play
 - `src/data/serviceHubPagesData.js`
 - `src/data/pricingPageData.js`
 
-Ustal, czy zmiana dotyczy: nowej usługi, hubu usługowego, strony problemowej, lokalnej strony, strony statycznej, realizacji/case study, cennika, schema, robots, sitemap albo LLM. Nie edytuj ręcznie `public/sitemap.xml`, `public/llms.txt` ani `public/llms-full.txt`, jeśli można je wygenerować.
+Ustal, czy zmiana dotyczy: nowej usługi, hubu usługowego, strony problemowej, lokalnej strony, strony statycznej, realizacji z montaży folii okiennych, cennika, schema, robots, sitemap albo LLM. Nie edytuj ręcznie `public/sitemap.xml`, `public/llms.txt` ani `public/llms-full.txt`, jeśli można je wygenerować.
 
 Po zmianie zawsze sprawdź:
 
@@ -616,7 +758,7 @@ Na końcu podaj krótkie podsumowanie: zmienione pliki, nowe URL-e, co zostało 
 | Nowy problem | `problemPagesData` | automatycznie | automatycznie + FAQ schema | automatycznie | automatycznie |
 | Nowa lokalna usługa | `localServicePagesData` | automatycznie | automatycznie | automatycznie | automatycznie |
 | Nowa strona statyczna | `pages/...` lub `pages/[slug].js` | ręcznie | ręcznie w `pageSeo.js` | ręcznie w `generate-sitemap.cjs` | ręcznie w `generate-llms.cjs` |
-| Realizacja / case study | najlepiej nowy `projectPagesData.js` | ręcznie rozszerzyć `pages/[slug].js` | ręcznie rozszerzyć `pageSeo.js` | ręcznie rozszerzyć generator | ręcznie rozszerzyć generator |
+| Realizacja z montażu folii okiennej | najlepiej nowy `projectPagesData.js` | ręcznie rozszerzyć `pages/[slug].js` | ręcznie rozszerzyć `pageSeo.js` | ręcznie rozszerzyć generator | ręcznie rozszerzyć generator |
 | Zmiana ceny | `pricingPageData.js` | bez zmian | bez zmian lub opis cennika | bez zmian | automatycznie po `npm.cmd run llms` |
 | Zmiana dostępu botów | `public/robots.txt` | bez zmian | techniczne | bez zmian | pośrednio |
 

@@ -3,7 +3,13 @@ import Link from 'next/link';
 import { filmsData } from '../../data/filmsData';
 import { problemPagesData } from '../../data/problemPagesData';
 import { localServicePagesData } from '../../data/localServicePagesData';
+import {
+  getProjectRegion,
+  getProjectsByFilmPath,
+  getProjectsByLocalPath,
+} from '../../data/projectPagesData';
 import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
+import RelatedProjectsSection from '../RelatedProjectsSection';
 import {
   SeoWrap,
   SeoHero,
@@ -35,8 +41,19 @@ const storeContactTopic = (topic) => {
   sessionStorage.setItem('lumera-contact-topic', topic);
 };
 
+const uniqueProjects = (projects = []) => {
+  const seen = new Set();
+
+  return projects.filter((project) => {
+    if (seen.has(project.path)) return false;
+    seen.add(project.path);
+    return true;
+  });
+};
+
 const SeoLandingPage = ({ page, type, breadcrumbs }) => {
   const isProblemPage = type === 'problem';
+  const isLocalServicePage = type === 'local-service';
   const isSurfaceService = Boolean(page.surfaceService);
   const recommendedFilms = (page.recommendedFilms || [page.filmPath])
     .map(getFilm)
@@ -52,6 +69,18 @@ const SeoLandingPage = ({ page, type, breadcrumbs }) => {
   const contactTopic =
     page.contactTopic || filmPathContactTopics[page.filmPath] || mainFilmContactTopic;
   const handleContactClick = () => storeContactTopic(contactTopic);
+  const relatedProjects = uniqueProjects(
+    isLocalServicePage
+      ? [
+          ...getProjectsByLocalPath(page.path),
+          ...getProjectsByFilmPath(page.filmPath).filter(
+            (project) => project.city === page.city || getProjectRegion(project) === page.city
+          ),
+        ]
+      : (page.recommendedFilms || [page.filmPath])
+          .filter(Boolean)
+          .flatMap((filmPath) => getProjectsByFilmPath(filmPath))
+  ).slice(0, 3);
 
   return (
     <main id="main-content">
@@ -154,6 +183,16 @@ const SeoLandingPage = ({ page, type, breadcrumbs }) => {
             </SeoLinkGrid>
           </SeoSection>
         )}
+
+        <RelatedProjectsSection
+          projects={relatedProjects}
+          title={
+            isLocalServicePage
+              ? `Realizacje powiązane z lokalizacją ${page.city}`
+              : 'Realizacje powiązane z tą kategorią'
+          }
+          lead="Przykłady montaży pomagają zobaczyć, jak opis usługi przekłada się na realną szybę, detale i efekt po aplikacji."
+        />
 
         {(localLinks.length > 0 || relatedProblems.length > 0) && (
           <SeoSection>

@@ -37,6 +37,12 @@
     <priority>0.88</priority>
   </url>
   <url>
+    <loc>https://folielumera.pl/realizacje</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://folielumera.pl/folie-okienne-lokalnie</loc>
     <lastmod>2026-04-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -329,5 +335,35 @@
     <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://folielumera.pl/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://folielumera.pl/realizacje/folie-przeciwsloneczne-dom-prywatny-zelkow</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://folielumera.pl/realizacje/lustro-weneckie-kawiarnia-krakow</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://folielumera.pl/realizacje/folia-mrozona-lokal-katowice</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://folielumera.pl/realizacje/wymiana-folii-przeciwslonecznej-dentysta-krakow</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.74</priority>
   </url>
 </urlset>
