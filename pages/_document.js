@@ -34,17 +34,6 @@ export default class MyDocument extends Document {
           <meta name="theme-color" content="#2b6256" />
           <meta name="application-name" content="Lumera" />
           <meta name="apple-mobile-web-app-title" content="Lumera" />
-          <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18125280330" />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'AW-18125280330');
-              `,
-            }}
-          />
           <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
           <link rel="icon" href="/favicon-48x48.png" type="image/png" sizes="48x48" />
           <link rel="icon" href="/favicon-192x192.png" type="image/png" sizes="192x192" />

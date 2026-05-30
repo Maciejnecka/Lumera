@@ -22,11 +22,19 @@ const COMPANY_NIP = '5130311528';
 const COMPANY_REGON = '544660235';
 const CONTACT_ADDRESS = 'ul. Łanowa 14, 32-064 Rudawa';
 const CONTACT_EMAIL_COMPOSE_HREF = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(CONTACT_EMAIL)}`;
+const COOKIE_CONSENT_KEY = 'lumera-cookie-consent';
 
 const PrivacyPolicyPage = ({ breadcrumbs }) => {
   const handleEmailClick = (event) => {
     event.preventDefault();
     window.open(CONTACT_EMAIL_COMPOSE_HREF, '_blank', 'noopener,noreferrer');
+  };
+
+  const handleConsentReset = () => {
+    if (typeof window === 'undefined') return;
+
+    window.localStorage.removeItem(COOKIE_CONSENT_KEY);
+    window.location.reload();
   };
 
   return (
@@ -157,6 +165,11 @@ const PrivacyPolicyPage = ({ breadcrumbs }) => {
             Dane nie są sprzedawane innym podmiotom i nie są wykorzystywane do
             automatycznego podejmowania decyzji wobec użytkownika.
           </p>
+          <p>
+            Jeżeli wyrazisz zgodę na pliki reklamowe, strona może uruchomić tag
+            Google Ads, który pomaga mierzyć skuteczność reklam i konwersje. Bez tej
+            zgody tag Google Ads nie jest ładowany przez stronę.
+          </p>
         </PrivacySection>
 
         <PrivacySection>
@@ -190,13 +203,15 @@ const PrivacyPolicyPage = ({ breadcrumbs }) => {
             formularza oraz zapisania informacji o zamknięciu komunikatu technicznego.
           </p>
           <p>
-            Obecnie strona nie używa cookies analitycznych, reklamowych ani
-            marketingowych i nie prowadzi profilowania użytkowników na potrzeby reklam.
-            Jeżeli w przyszłości zostaną dodane narzędzia analityczne, reklamowe,
-            mapa, czat, piksele social media lub inne podobne usługi, polityka
-            prywatności i komunikat cookies powinny zostać zaktualizowane przed
-            ich uruchomieniem.
+            Strona może korzystać z tagu Google Ads wyłącznie po wyrażeniu zgody
+            w banerze prywatności. Zgoda obejmuje przechowywanie i odczyt informacji
+            reklamowych potrzebnych do pomiaru skuteczności kampanii oraz konwersji.
+            Jeżeli wybierzesz tylko ustawienia niezbędne, tag Google Ads nie zostanie
+            uruchomiony.
           </p>
+          <button type="button" onClick={handleConsentReset}>
+            Zmień zgodę cookies
+          </button>
         </PrivacySection>
 
         <PrivacySection>
@@ -217,7 +232,7 @@ const PrivacyPolicyPage = ({ breadcrumbs }) => {
             stronie.
           </p>
           <PrivacyNotice>
-            Ostatnia aktualizacja: 21 kwietnia 2026 r. Dokument jest praktycznym wzorem
+            Ostatnia aktualizacja: 30 maja 2026 r. Dokument jest praktycznym wzorem
             dla obecnej wersji strony i warto go zweryfikować przed publikacją po
             uzupełnieniu pełnych danych działalności.
           </PrivacyNotice>

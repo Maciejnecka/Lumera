@@ -1,6 +1,6 @@
 # Lumera - Pełny Kontekst Dla LLM
 
-Wersja wygenerowana: 2026-05-28
+Wersja wygenerowana: 2026-05-30
 Strona: https://folielumera.pl
 Język główny: pl-PL
 

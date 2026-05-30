@@ -35,4 +35,4 @@ User-agent: CCBot
 Allow: /
 
 Sitemap: https://folielumera.pl/sitemap.xml
-Llms: https://folielumera.pl/llms.txt
+# LLM index: https://folielumera.pl/llms.txt

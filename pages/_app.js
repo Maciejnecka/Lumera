@@ -8,6 +8,7 @@ import ScrollToTopButton from '../src/components/ScrollToTopButton';
 import ScrollManager from '../src/components/ScrollManager';
 import AosInitializer from '../src/components/AosInitializer';
 import Footer from '../src/components/Footer';
+import CookieNotice from '../src/components/CookieNotice';
 
 const App = ({ Component, pageProps }) => {
   return (
@@ -19,6 +20,7 @@ const App = ({ Component, pageProps }) => {
       <Navigation />
       <ScrollToTopButton />
       <Component {...pageProps} />
+      <CookieNotice />
       <Footer />
     </ThemeProvider>
   );

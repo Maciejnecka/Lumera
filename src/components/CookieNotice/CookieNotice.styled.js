@@ -12,7 +12,7 @@ export const CookieNoticeWrap = styled.div`
 
 export const CookieNoticeInner = styled.div`
   display: grid;
-  gap: 1.2rem;
+  gap: 1rem;
   padding: 1.6rem 1.8rem;
   border: 1px solid rgba(35, 48, 44, 0.1);
   border-radius: 2rem;
@@ -24,6 +24,13 @@ export const CookieNoticeInner = styled.div`
     padding: 1.5rem;
     border-radius: 1.6rem;
   `}
+`;
+
+export const CookieNoticeTitle = styled.strong`
+  margin: 0;
+  color: var(--font-title);
+  font-size: 1.72rem;
+  line-height: 1.25;
 `;
 
 export const CookieNoticeText = styled.p`
@@ -64,6 +71,21 @@ export const CookieNoticeActions = styled.div`
     background: linear-gradient(135deg, var(--accent-primary), #3f7a6e);
     color: #fffdf8;
     cursor: pointer;
+  }
+
+  button.secondary {
+    border: 1px solid rgba(35, 48, 44, 0.12);
+    background: rgba(255, 255, 255, 0.72);
+    color: var(--font-dark);
+  }
+
+  a:hover,
+  button.secondary:hover {
+    background: #fffdf8;
+  }
+
+  button:not(.secondary):hover {
+    background: linear-gradient(135deg, #1f554a, var(--accent-primary));
   }
 
   ${media.sm`

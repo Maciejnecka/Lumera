@@ -174,6 +174,31 @@ export const PrivacySection = styled.section`
     color: var(--accent-primary);
     font-weight: 700;
   }
+
+  button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 4.4rem;
+    margin-top: 1.4rem;
+    padding: 0 1.6rem;
+    border: 1px solid rgba(35, 48, 44, 0.12);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.72);
+    color: var(--font-dark);
+    font-family: inherit;
+    font-size: 1.42rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition:
+      transform var(--transition-fast),
+      background var(--transition-fast);
+  }
+
+  button:hover {
+    transform: translateY(-1px);
+    background: #fffdf8;
+  }
 `;
 
 export const PrivacyList = styled.ul`

@@ -21,7 +21,7 @@ Nie edytuj ręcznie `public/sitemap.xml`, `public/llms.txt` ani `public/llms-ful
 - `src/seo/pageSeo.js` - meta title, description, canonical i globalne schema.
 - `scripts/generate-sitemap.cjs` - generator sitemap.
 - `scripts/generate-llms.cjs` - generator `llms.txt` i `llms-full.txt`.
-- `public/robots.txt` - sygnały dla crawlerów i linki do sitemap/llms.
+- `public/robots.txt` - sygnały dla crawlerów i link do sitemap. Link do `llms.txt` może być tylko komentarzem, bo `Llms:` nie jest poprawną dyrektywą robots.txt.
 
 ## Dlaczego Tak
 
@@ -582,7 +582,7 @@ Sprawdź:
 ```powershell
 Select-String -Path public\sitemap.xml -Pattern "nowy-slug"
 Select-String -Path public\llms-full.txt -Pattern "ważna fraza"
-Select-String -Path public\robots.txt -Pattern "Llms|Sitemap|OAI-SearchBot|GPTBot"
+Select-String -Path public\robots.txt -Pattern "LLM index|Sitemap|OAI-SearchBot|GPTBot"
 ```
 
 Jeśli działa lokalny serwer:
@@ -665,7 +665,7 @@ Obecna logika:
 - pozwalamy botom AI search i assistant retrieval,
 - pozwalamy botom treningowym,
 - wskazujemy sitemapę,
-- wskazujemy `llms.txt`.
+- zostawiamy `llms.txt` jako komentarz informacyjny, nie jako dyrektywę `Llms:`.
 
 Jeżeli Lumera zdecyduje, że nie chce trenowania modeli na treści strony, zmień tylko boty treningowe, np. `GPTBot`, `ClaudeBot`, `Google-Extended`, `CCBot`. Nie blokuj przy okazji botów search/retrieval typu `OAI-SearchBot`, `Claude-SearchBot`, `ChatGPT-User`, jeśli celem jest widoczność w odpowiedziach AI.
 
@@ -738,7 +738,7 @@ Po zmianie zawsze sprawdź:
 5. Czy strona ma linki wewnętrzne do usług, problemów, lokalizacji i kontaktu.
 6. Czy sitemap zawiera nowy URL.
 7. Czy `llms-full.txt` zawiera nową treść.
-8. Czy `robots.txt` nadal wskazuje sitemapę i `llms.txt`.
+8. Czy `robots.txt` nadal wskazuje sitemapę i nie zawiera niepoprawnej dyrektywy `Llms:`.
 
 Na Windows używaj:
 

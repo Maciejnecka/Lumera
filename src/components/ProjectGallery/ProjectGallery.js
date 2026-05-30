@@ -7,6 +7,7 @@ import {
   GalleryThumbs,
   GalleryViewport,
   GalleryWrap,
+  GalleryZoomTarget,
   Lightbox,
   LightboxClose,
   LightboxInner,
@@ -69,14 +70,22 @@ const ProjectGallery = ({ images = [] }) => {
     <GalleryWrap>
       <GalleryMain>
         <GalleryViewport>
-          <img
-            src={activeImage.full}
-            width={activeImage.width}
-            height={activeImage.height}
-            alt={activeImage.alt}
-            loading="lazy"
-            decoding="async"
-          />
+          <GalleryZoomTarget
+            type="button"
+            onMouseDown={handleControlMouseDown}
+            onClick={() => setLightboxOpen(true)}
+            aria-label="Otwórz podgląd zdjęcia realizacji"
+          >
+            <img
+              src={activeImage.full}
+              width={activeImage.width}
+              height={activeImage.height}
+              alt={activeImage.alt}
+              loading="lazy"
+              decoding="async"
+            />
+            <span aria-hidden="true" />
+          </GalleryZoomTarget>
 
           {activeImage.caption && <GalleryCaption>{activeImage.caption}</GalleryCaption>}
 
@@ -103,15 +112,6 @@ const ProjectGallery = ({ images = [] }) => {
             </>
           )}
 
-          <button
-            type="button"
-            className="gallery-zoom"
-            onMouseDown={handleControlMouseDown}
-            onClick={() => setLightboxOpen(true)}
-            aria-label="Powiększ zdjęcie realizacji"
-          >
-            Powiększ
-          </button>
         </GalleryViewport>
       </GalleryMain>
 
@@ -142,7 +142,7 @@ const ProjectGallery = ({ images = [] }) => {
       )}
 
       {lightboxOpen && (
-        <Lightbox role="dialog" aria-modal="true" aria-label="Powiększone zdjęcie realizacji">
+        <Lightbox role="dialog" aria-modal="true" aria-label="Podgląd zdjęcia realizacji">
           <LightboxClose type="button" onClick={() => setLightboxOpen(false)} aria-label="Zamknij">
             &times;
           </LightboxClose>
