@@ -1,6 +1,6 @@
 # Lumera - Pełny Kontekst Dla LLM
 
-Wersja wygenerowana: 2026-05-30
+Wersja wygenerowana: 2026-06-01
 Strona: https://folielumera.pl
 Język główny: pl-PL
 
@@ -2143,6 +2143,79 @@ Największe ryzyko pojawia się przy starych, osłabionych szybach lub agresywny
 Strona indeksu realizacji: https://folielumera.pl/realizacje
 
 Realizacje Lumera powinny być interpretowane jako konkretne realizacje z montaży folii okiennych: pokazują problem klienta, dobór folii, zakres prac, efekt, zdjęcia oraz powiązania z usługami i lokalizacjami. Przy pytaniach o podobny montaż kieruj użytkownika do formularza kontaktowego i poproś o zdjęcia szyby, wymiary od uszczelki do uszczelki, liczbę szyb, lokalizację i opis oczekiwanego efektu.
+
+## Montaż folii przeciwsłonecznej na świetlikach dachowych w Modlnicy
+
+URL: https://folielumera.pl/realizacje/montaz-folii-na-swietliki-dachowe-modlnica
+
+Miasto: Modlnica
+
+Typ obiektu: obiekt komercyjny
+
+Typ folii: Świetliki dachowe
+
+Tytuł SEO: Folia na świetliki dachowe Modlnica | Montaż Lumera
+
+Opis SEO: Montaż folii przeciwsłonecznej na świetlikach dachowych w Modlnicy. Mniej ostrego światła od góry, ograniczenie nagrzewania i efekt przed/po.
+
+Data realizacji: 2026-06
+
+### Kontekst
+
+W obiekcie w Modlnicy problemem było mocne światło wpadające przez świetliki dachowe i związane z tym nagrzewanie przestrzeni pod dachem. Zastosowaliśmy folię przeciwsłoneczną dobraną do świetlików, tak aby ograniczyć ostre światło od góry i poprawić komfort bez przebudowy konstrukcji dachu. Tę realizację pokazujemy jako osobną kategorię świetlików dachowych, bo taki montaż wymaga innego podejścia niż klasyczne okna pionowe.
+
+### Miejsce I Warunki
+Realizacja została wykonana w Modlnicy, w okolicach Krakowa, na zewnętrznych świetlikach dachowych. Przy takim zakresie ważne są trzy rzeczy: dostęp do dachu, stan i materiał świetlików oraz dobór folii, która ograniczy słońce bez przypadkowego obciążania lub uszkadzania powierzchni pracującej inaczej niż klasyczna szyba.
+
+### Problem
+Świetliki dawały dużo światła dziennego, ale w słoneczne dni wpuszczały też ostre promieniowanie od góry. To powodowało większe nagrzewanie strefy pod dachem i dyskomfort w miejscach, w których światło padało bezpośrednio przez przeszklenia dachowe. Klient potrzebował rozwiązania, które ograniczy nadmiar słońca, ale nie wymaga wymiany świetlików ani ingerencji w konstrukcję dachu.
+
+### Rozwiązanie
+Dobór folii potraktowaliśmy jako montaż na świetlikach dachowych, a nie standardową aplikację na oknach pionowych. Przed pracą liczyła się ocena dostępu, przygotowanie powierzchni i dopasowanie folii przeciwsłonecznej do kształtu oraz warunków pracy świetlików. Folia została zamontowana na zewnętrznych przeszkleniach dachowych, z kontrolą krawędzi i zachowaniem równego efektu na kolejnych segmentach.
+
+### Efekt
+Po montażu świetliki nadal doświetlają wnętrze, ale światło wpadające od góry jest spokojniejsze i mniej męczące. Z zewnątrz widać uporządkowany, równy efekt na powierzchni świetlików, a porównanie przed i po dobrze pokazuje, że realizacja nie zmienia charakteru dachu, tylko pomaga opanować nadmiar słońca tam, gdzie zwykłe osłony okienne nie mają zastosowania.
+
+### Zakres Prac
+- ocena świetlików dachowych i dostępu do dachu
+- sprawdzenie warunków montażu na zewnętrznych przeszkleniach dachowych
+- dobór folii przeciwsłonecznej do świetlików dachowych
+- przygotowanie powierzchni przed aplikacją
+- montaż folii na kilku ciągach świetlików
+- kontrola krawędzi i powtarzalności efektu na segmentach
+- sprawdzenie efektu wizualnego po montażu
+
+### Powiązanie Z Usługami
+Ta realizacja jest najbliżej usługi folii na poliwęglan i świetliki dachowe. Chodziło o ograniczenie mocnego światła od góry oraz nagrzewania w miejscu, gdzie klasyczne folie okienne i typowe osłony wewnętrzne nie rozwiązują problemu w tak bezpośredni sposób.
+
+### Powiązane Usługi
+- [Folie na poliwęglan (świetliki dachowe)](https://folielumera.pl/folie-na-poliweglan)
+
+### Powiązane Strony Lokalne
+- [Folie przeciwsłoneczne Kraków](https://folielumera.pl/folie-przeciwsloneczne-krakow)
+
+### Co Wysłać Do Podobnej Wyceny
+Do podobnej wyceny najlepiej wysłać zdjęcia świetlików z zewnątrz i od środka, orientacyjne wymiary lub liczbę segmentów, informację o materiale świetlika, wysokości i dostępie do dachu oraz krótki opis problemu: nagrzewanie, ostre światło, olśnienie albo potrzeba ograniczenia UV.
+
+### Zdjęcia I Alty
+- Porównanie świetlików dachowych w Modlnicy przed i po montażu folii przeciwsłonecznej: https://folielumera.pl/img/realizacje/montaz-folii-na-swietliki-dachowe-modlnica/01-przed-po-folia-na-swietliki-dachowe-modlnica.webp
+- Świetliki dachowe w Modlnicy po montażu folii ograniczającej ostre światło od góry: https://folielumera.pl/img/realizacje/montaz-folii-na-swietliki-dachowe-modlnica/02-swietliki-dachowe-po-montazu-modlnica.webp
+- Zbliżenie na folię przeciwsłoneczną zamontowaną na świetliku dachowym w Modlnicy: https://folielumera.pl/img/realizacje/montaz-folii-na-swietliki-dachowe-modlnica/03-folia-przeciwsloneczna-na-swietliku-modlnica.webp
+
+### FAQ
+#### Czy folia na świetliki dachowe to to samo co folia na zwykłe okna?
+Nie. Przy świetlikach trzeba osobno sprawdzić materiał, stan powierzchni, naprężenia, dostęp do dachu i warunki pracy przeszklenia. Dopiero po takiej ocenie można dobrać odpowiedni typ folii.
+
+#### Czy folia na świetliki dachowe ogranicza nagrzewanie?
+Może wyraźnie poprawić komfort pod świetlikami, bo ogranicza część energii słonecznej wpadającej od góry. Efekt zależy od rodzaju świetlika, ekspozycji, powierzchni i dobranego wariantu folii.
+
+#### Czy każdy świetlik dachowy można okleić folią?
+Nie zawsze. Stare, spękane, mocno zmatowione albo naprężone świetliki trzeba ocenić ostrożnie. W niektórych przypadkach montaż może wymagać innego rozwiązania albo rezygnacji z aplikacji.
+
+#### Co wysłać do wyceny folii na świetliki dachowe?
+Najlepiej przesłać zdjęcia świetlików z dachu i od środka, liczbę lub wymiary segmentów, informację o materiale, wysokości, dostępie do dachu oraz opis problemu: ciepło, olśnienie, UV albo zbyt ostre światło.
+
+---
 
 ## Folie przeciwsłoneczne i mrożone dla Polting Foam w Gliwicach
 

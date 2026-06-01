@@ -1,5 +1,132 @@
 export const projectPagesData = [
   {
+    slug: 'montaz-folii-na-swietliki-dachowe-modlnica',
+    path: '/realizacje/montaz-folii-na-swietliki-dachowe-modlnica',
+    title: 'Montaż folii przeciwsłonecznej na świetlikach dachowych w Modlnicy',
+    seoTitle: 'Folia na świetliki dachowe Modlnica | Montaż Lumera',
+    seoDescription:
+      'Montaż folii przeciwsłonecznej na świetlikach dachowych w Modlnicy. Mniej ostrego światła od góry, ograniczenie nagrzewania i efekt przed/po.',
+    eyebrow: 'Realizacja: świetliki dachowe',
+    lead:
+      'W obiekcie w Modlnicy problemem było mocne światło wpadające przez świetliki dachowe i związane z tym nagrzewanie przestrzeni pod dachem. Zastosowaliśmy folię przeciwsłoneczną dobraną do świetlików, tak aby ograniczyć ostre światło od góry i poprawić komfort bez przebudowy konstrukcji dachu. Tę realizację pokazujemy jako osobną kategorię świetlików dachowych, bo taki montaż wymaga innego podejścia niż klasyczne okna pionowe.',
+    storyTitle: 'Mniej ostrego światła z dachu, bez ingerencji w konstrukcję świetlików.',
+    coverCaption: 'Przed i po montażu folii na świetlikach dachowych w Modlnicy',
+    city: 'Modlnica',
+    region: 'Kraków',
+    objectType: 'obiekt komercyjny',
+    serviceType: 'Świetliki dachowe',
+    serviceFilters: ['Świetliki dachowe'],
+    relatedFilmPath: '/folie-na-poliweglan',
+    relatedFilmPaths: ['/folie-na-poliweglan'],
+    relatedServicePaths: ['/folie-na-poliweglan'],
+    relatedLocalPath: '/folie-przeciwsloneczne-krakow',
+    relatedLocalPaths: ['/folie-przeciwsloneczne-krakow'],
+    contactTopic: 'polycarbonate',
+    featured: true,
+    coverImage:
+      '/img/realizacje/montaz-folii-na-swietliki-dachowe-modlnica/cover.webp',
+    coverWidth: 1600,
+    coverHeight: 900,
+    datePublished: '2026-06-01',
+    dateModified: '2026-06-01',
+    dateCompleted: '2026-06',
+    locationContext:
+      'Realizacja została wykonana w Modlnicy, w okolicach Krakowa, na zewnętrznych świetlikach dachowych. Przy takim zakresie ważne są trzy rzeczy: dostęp do dachu, stan i materiał świetlików oraz dobór folii, która ograniczy słońce bez przypadkowego obciążania lub uszkadzania powierzchni pracującej inaczej niż klasyczna szyba.',
+    problem:
+      'Świetliki dawały dużo światła dziennego, ale w słoneczne dni wpuszczały też ostre promieniowanie od góry. To powodowało większe nagrzewanie strefy pod dachem i dyskomfort w miejscach, w których światło padało bezpośrednio przez przeszklenia dachowe. Klient potrzebował rozwiązania, które ograniczy nadmiar słońca, ale nie wymaga wymiany świetlików ani ingerencji w konstrukcję dachu.',
+    solution:
+      'Dobór folii potraktowaliśmy jako montaż na świetlikach dachowych, a nie standardową aplikację na oknach pionowych. Przed pracą liczyła się ocena dostępu, przygotowanie powierzchni i dopasowanie folii przeciwsłonecznej do kształtu oraz warunków pracy świetlików. Folia została zamontowana na zewnętrznych przeszkleniach dachowych, z kontrolą krawędzi i zachowaniem równego efektu na kolejnych segmentach.',
+    result:
+      'Po montażu świetliki nadal doświetlają wnętrze, ale światło wpadające od góry jest spokojniejsze i mniej męczące. Z zewnątrz widać uporządkowany, równy efekt na powierzchni świetlików, a porównanie przed i po dobrze pokazuje, że realizacja nie zmienia charakteru dachu, tylko pomaga opanować nadmiar słońca tam, gdzie zwykłe osłony okienne nie mają zastosowania.',
+    scope: [
+      'ocena świetlików dachowych i dostępu do dachu',
+      'sprawdzenie warunków montażu na zewnętrznych przeszkleniach dachowych',
+      'dobór folii przeciwsłonecznej do świetlików dachowych',
+      'przygotowanie powierzchni przed aplikacją',
+      'montaż folii na kilku ciągach świetlików',
+      'kontrola krawędzi i powtarzalności efektu na segmentach',
+      'sprawdzenie efektu wizualnego po montażu',
+    ],
+    tags: [
+      'folia na świetliki dachowe',
+      'świetliki dachowe Modlnica',
+      'folia przeciwsłoneczna na świetliki',
+      'folie na poliwęglan',
+      'montaż folii na dachu',
+      'Modlnica',
+      'Kraków i okolice',
+    ],
+    relatedServicesIntro:
+      'Ta realizacja jest najbliżej usługi folii na poliwęglan i świetliki dachowe. Chodziło o ograniczenie mocnego światła od góry oraz nagrzewania w miejscu, gdzie klasyczne folie okienne i typowe osłony wewnętrzne nie rozwiązują problemu w tak bezpośredni sposób.',
+    quote:
+      'Przy świetlikach dachowych nie zaczynamy od pytania, która folia będzie najciemniejsza. Najpierw trzeba sprawdzić materiał, stan powierzchni, dostęp i to, jak świetlik pracuje na dachu. Dopiero wtedy dobór folii ma sens techniczny.',
+    whatToSend:
+      'Do podobnej wyceny najlepiej wysłać zdjęcia świetlików z zewnątrz i od środka, orientacyjne wymiary lub liczbę segmentów, informację o materiale świetlika, wysokości i dostępie do dachu oraz krótki opis problemu: nagrzewanie, ostre światło, olśnienie albo potrzeba ograniczenia UV.',
+    images: [
+      {
+        thumb:
+          '/img/realizacje/montaz-folii-na-swietliki-dachowe-modlnica/01-przed-po-folia-na-swietliki-dachowe-modlnica-thumb.webp',
+        full:
+          '/img/realizacje/montaz-folii-na-swietliki-dachowe-modlnica/01-przed-po-folia-na-swietliki-dachowe-modlnica.webp',
+        width: 1600,
+        height: 533,
+        thumbWidth: 600,
+        thumbHeight: 200,
+        alt:
+          'Porównanie świetlików dachowych w Modlnicy przed i po montażu folii przeciwsłonecznej',
+        caption: 'Przed i po montażu folii przeciwsłonecznej na świetlikach dachowych.',
+      },
+      {
+        thumb:
+          '/img/realizacje/montaz-folii-na-swietliki-dachowe-modlnica/02-swietliki-dachowe-po-montazu-modlnica-thumb.webp',
+        full:
+          '/img/realizacje/montaz-folii-na-swietliki-dachowe-modlnica/02-swietliki-dachowe-po-montazu-modlnica.webp',
+        width: 1600,
+        height: 1202,
+        thumbWidth: 600,
+        thumbHeight: 451,
+        alt:
+          'Świetliki dachowe w Modlnicy po montażu folii ograniczającej ostre światło od góry',
+        caption: 'Widok świetlików dachowych po montażu folii.',
+      },
+      {
+        thumb:
+          '/img/realizacje/montaz-folii-na-swietliki-dachowe-modlnica/03-folia-przeciwsloneczna-na-swietliku-modlnica-thumb.webp',
+        full:
+          '/img/realizacje/montaz-folii-na-swietliki-dachowe-modlnica/03-folia-przeciwsloneczna-na-swietliku-modlnica.webp',
+        width: 1600,
+        height: 1202,
+        thumbWidth: 600,
+        thumbHeight: 451,
+        alt:
+          'Zbliżenie na folię przeciwsłoneczną zamontowaną na świetliku dachowym w Modlnicy',
+        caption: 'Zbliżenie na segment świetlika po aplikacji folii.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Czy folia na świetliki dachowe to to samo co folia na zwykłe okna?',
+        answer:
+          'Nie. Przy świetlikach trzeba osobno sprawdzić materiał, stan powierzchni, naprężenia, dostęp do dachu i warunki pracy przeszklenia. Dopiero po takiej ocenie można dobrać odpowiedni typ folii.',
+      },
+      {
+        question: 'Czy folia na świetliki dachowe ogranicza nagrzewanie?',
+        answer:
+          'Może wyraźnie poprawić komfort pod świetlikami, bo ogranicza część energii słonecznej wpadającej od góry. Efekt zależy od rodzaju świetlika, ekspozycji, powierzchni i dobranego wariantu folii.',
+      },
+      {
+        question: 'Czy każdy świetlik dachowy można okleić folią?',
+        answer:
+          'Nie zawsze. Stare, spękane, mocno zmatowione albo naprężone świetliki trzeba ocenić ostrożnie. W niektórych przypadkach montaż może wymagać innego rozwiązania albo rezygnacji z aplikacji.',
+      },
+      {
+        question: 'Co wysłać do wyceny folii na świetliki dachowe?',
+        answer:
+          'Najlepiej przesłać zdjęcia świetlików z dachu i od środka, liczbę lub wymiary segmentów, informację o materiale, wysokości, dostępie do dachu oraz opis problemu: ciepło, olśnienie, UV albo zbyt ostre światło.',
+      },
+    ],
+  },
+  {
     slug: 'folie-przeciwsloneczne-mrozone-polting-foam-gliwice',
     path: '/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice',
     title: 'Folie przeciwsłoneczne i mrożone dla Polting Foam w Gliwicach',
