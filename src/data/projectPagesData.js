@@ -1,5 +1,132 @@
 export const projectPagesData = [
   {
+    slug: 'oklejanie-drzwi-laminatem-architektonicznym-krakow',
+    path: '/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow',
+    title: 'Oklejanie drzwi laminatem architektonicznym w Krakowie',
+    seoTitle: 'Oklejanie drzwi laminatem Kraków | Realizacja Lumera',
+    seoDescription:
+      'Oklejanie drzwi wejściowych laminatem architektonicznym w Krakowie. Zmiana białych drzwi na spójne wykończenie drewnopodobne bez wymiany skrzydła.',
+    eyebrow: 'Realizacja: laminaty architektoniczne',
+    lead:
+      'W tej realizacji w Krakowie drzwi wejściowe odstawały wizualnie od drewnianej zabudowy przedpokoju. Zamiast wymieniać sprawne skrzydło, zastosowaliśmy laminat architektoniczny dobrany tak, żeby drzwi lepiej połączyły się z otaczającymi panelami, podłogą i ciepłym charakterem wnętrza. To przykład oklejania drzwi, gdzie najważniejszy był nie tylko kolor, ale też spokojne dopasowanie struktury i estetyczne wykończenie krawędzi.',
+    storyTitle: 'Białe drzwi zamienione w spójny element drewnianej zabudowy.',
+    coverCaption: 'Przed i po oklejeniu drzwi laminatem architektonicznym',
+    city: 'Kraków',
+    region: 'Kraków',
+    objectType: 'wnętrze mieszkalne',
+    serviceType: 'Laminaty architektoniczne',
+    serviceFilters: ['Laminaty architektoniczne'],
+    relatedFilmPath: '/okleiny-i-laminaty-architektoniczne',
+    relatedFilmPaths: ['/okleiny-i-laminaty-architektoniczne'],
+    relatedServicePaths: ['/okleiny-i-laminaty-architektoniczne'],
+    relatedLocalPath: '/oklejanie-drzwi-i-mebli-krakow',
+    relatedLocalPaths: ['/oklejanie-drzwi-i-mebli-krakow', '/okleiny-i-laminaty-krakow'],
+    contactTopic: 'architectural-wraps',
+    featured: true,
+    coverImage:
+      '/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/cover.webp',
+    coverWidth: 1200,
+    coverHeight: 900,
+    datePublished: '2026-06-02',
+    dateModified: '2026-06-02',
+    dateCompleted: '2026-06',
+    locationContext:
+      'Realizacja została wykonana w Krakowie, we wnętrzu z drewnianą zabudową wokół drzwi wejściowych. Drzwi były technicznie sprawne, ale ich biała powierzchnia mocno odcinała się od okładziny ściennej, podłogi i pozostałych elementów. W takim przypadku laminat architektoniczny pozwala zmienić odbiór drzwi bez wymiany skrzydła i bez większego remontu.',
+    problem:
+      'Białe drzwi wejściowe były najbardziej kontrastowym elementem przedpokoju. Przy otaczającej zabudowie drewnianej wyglądały jak osobny, przypadkowy akcent, a nie część projektu. Klient potrzebował rozwiązania, które uporządkuje wygląd wejścia i dopasuje drzwi do reszty wnętrza, ale bez demontażu sprawnego skrzydła.',
+    solution:
+      'Dobór padł na laminat architektoniczny o drewnopodobnym wykończeniu. Przed aplikacją ważne było sprawdzenie powierzchni, oczyszczenie drzwi, zaplanowanie kierunku wzoru i dopracowanie miejsc przy klamce, wizjerze, zamku, zawiasach oraz krawędziach. Laminat został dopasowany tak, żeby skrzydło drzwiowe nie udawało osobnego elementu, tylko spokojnie weszło w rytm istniejącej zabudowy.',
+    result:
+      'Po oklejeniu drzwi zyskały ciepły, drewniany charakter i przestały odcinać się od przedpokoju. Wnętrze wygląda bardziej spójnie, a wejście jest wizualnie uporządkowane bez wymiany drzwi. Efekt przed i po dobrze pokazuje, jak duży wpływ na odbiór całej strefy wejściowej może mieć sama zmiana wykończenia skrzydła.',
+    scope: [
+      'ocena stanu drzwi i możliwości oklejenia skrzydła',
+      'dobór laminatu architektonicznego do drewnianej zabudowy',
+      'przygotowanie i oczyszczenie powierzchni drzwi',
+      'zaplanowanie kierunku wzoru drewnopodobnego',
+      'oklejenie skrzydła drzwiowego laminatem architektonicznym',
+      'dopasowanie wykończenia przy klamce, zamku, wizjerze i krawędziach',
+      'kontrola spójności efektu z zabudową przedpokoju',
+    ],
+    tags: [
+      'oklejanie drzwi Kraków',
+      'laminaty architektoniczne Kraków',
+      'okleiny architektoniczne Kraków',
+      'oklejanie drzwi laminatem',
+      'renowacja drzwi bez wymiany',
+      'okleiny drewnopodobne',
+      'Kraków',
+    ],
+    relatedServicesIntro:
+      'Ta realizacja jest powiązana z okleinami i laminatami architektonicznymi, szczególnie z oklejaniem drzwi i mebli w Krakowie. Nie jest to folia okienna na szybę, tylko dekoracyjne wykończenie istniejącej powierzchni: drzwi, futryn, frontów, zabudów i innych gładkich elementów.',
+    quote:
+      'Przy oklejaniu drzwi największą różnicę robią detale: krawędzie, osprzęt, kierunek wzoru i to, czy nowe wykończenie pasuje do otoczenia. Dobrze dobrany laminat nie krzyczy, tylko sprawia, że element zaczyna wyglądać jak część projektu.',
+    whatToSend:
+      'Do podobnej wyceny najlepiej wysłać zdjęcie całych drzwi, zdjęcia krawędzi, zawiasów, klamki, zamka i miejsc uszkodzonych, wymiary skrzydła, informację czy oklejamy jedną czy dwie strony oraz oczekiwany kierunek wykończenia: drewno, kamień, beton, metal, mat, połysk albo jednolity kolor.',
+    images: [
+      {
+        thumb:
+          '/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/01-przed-po-oklejanie-drzwi-laminatem-krakow-thumb.webp',
+        full:
+          '/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/01-przed-po-oklejanie-drzwi-laminatem-krakow.webp',
+        width: 1448,
+        height: 1086,
+        thumbWidth: 600,
+        thumbHeight: 450,
+        alt:
+          'Porównanie drzwi wejściowych w Krakowie przed i po oklejeniu laminatem architektonicznym',
+        caption: 'Porównanie przed i po oklejeniu drzwi laminatem architektonicznym.',
+      },
+      {
+        thumb:
+          '/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/02-drzwi-przed-oklejeniem-laminatem-krakow-thumb.webp',
+        full:
+          '/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/02-drzwi-przed-oklejeniem-laminatem-krakow.webp',
+        width: 1200,
+        height: 1600,
+        thumbWidth: 520,
+        thumbHeight: 693,
+        alt:
+          'Białe drzwi wejściowe w Krakowie przed oklejeniem laminatem architektonicznym',
+        caption: 'Drzwi przed oklejeniem - jasna powierzchnia odcinała się od zabudowy.',
+      },
+      {
+        thumb:
+          '/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/03-drzwi-po-oklejeniu-laminatem-krakow-thumb.webp',
+        full:
+          '/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/03-drzwi-po-oklejeniu-laminatem-krakow.webp',
+        width: 1200,
+        height: 1600,
+        thumbWidth: 520,
+        thumbHeight: 693,
+        alt:
+          'Drzwi wejściowe w Krakowie po oklejeniu drewnopodobnym laminatem architektonicznym',
+        caption: 'Drzwi po oklejeniu - cieplejszy, spójny efekt z drewnianą zabudową.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Czy laminatem architektonicznym można okleić drzwi wejściowe?',
+        answer:
+          'Tak, jeśli powierzchnia jest stabilna, gładka i nadaje się do przygotowania pod aplikację. Przed wyceną warto pokazać też krawędzie, osprzęt, zawiasy i miejsca najbardziej narażone na dotyk.',
+      },
+      {
+        question: 'Czy oklejanie drzwi wymaga wymiany skrzydła?',
+        answer:
+          'Nie. Jeśli drzwi są technicznie sprawne, laminat architektoniczny może zmienić ich wygląd bez wymiany całego skrzydła i bez ciężkiego remontu.',
+      },
+      {
+        question: 'Czy można dobrać okleinę pod istniejącą zabudowę drewnianą?',
+        answer:
+          'Tak, ale trzeba dobrać nie tylko kolor, lecz także strukturę, kierunek wzoru i poziom połysku. Dzięki temu drzwi lepiej łączą się z podłogą, zabudową, futrynami lub meblami.',
+      },
+      {
+        question: 'Co wysłać do wyceny oklejania drzwi w Krakowie?',
+        answer:
+          'Najlepiej przesłać zdjęcie całych drzwi, detale krawędzi, klamki, zamka, zawiasów, wymiary skrzydła oraz informację, czy oklejana ma być jedna czy obie strony drzwi.',
+      },
+    ],
+  },
+  {
     slug: 'montaz-folii-na-swietliki-dachowe-modlnica',
     path: '/realizacje/montaz-folii-na-swietliki-dachowe-modlnica',
     title: 'Montaż folii przeciwsłonecznej na świetlikach dachowych w Modlnicy',
