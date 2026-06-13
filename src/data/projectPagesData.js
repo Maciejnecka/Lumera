@@ -1,5 +1,144 @@
 export const projectPagesData = [
   {
+    slug: 'folia-na-swietliki-dachowe-chomranowice',
+    path: '/realizacje/folia-na-swietliki-dachowe-chomranowice',
+    title: 'Montaż folii na świetliki dachowe w Chomranowicach',
+    seoTitle: 'Folia na świetliki dachowe Chomranowice | Realizacja Lumera',
+    seoDescription:
+      'Montaż folii na świetliki dachowe w Chomranowicach. Realizacja Lumera dla obiektu w regionie Krakowa: efekt przed i po, zakres prac oraz zdjęcia z dachu.',
+    eyebrow: 'Realizacja: świetliki dachowe',
+    lead:
+      'W Chomranowicach wykonaliśmy montaż folii na świetliku dachowym. To realizacja z kategorii świetlików dachowych, gdzie ważne było dobranie rozwiązania do powierzchni pracującej inaczej niż klasyczna szyba pionowa oraz wykonanie równej aplikacji na kolejnych segmentach przeszklenia dachowego.',
+    storyTitle: 'Świetlik dachowy po montażu folii, z wyraźnym efektem przed i po.',
+    coverCaption: 'Przed i po montażu folii na świetliku dachowym w Chomranowicach',
+    city: 'Chomranowice',
+    region: 'Kraków',
+    objectType: 'obiekt ze świetlikiem dachowym',
+    serviceType: 'Świetliki dachowe',
+    serviceFilters: ['Świetliki dachowe'],
+    relatedFilmPath: '/folie-na-poliweglan',
+    relatedFilmPaths: ['/folie-na-poliweglan'],
+    relatedServicePaths: ['/folie-na-poliweglan'],
+    relatedLocalPath: '/folie-przeciwsloneczne-krakow',
+    relatedLocalPaths: ['/folie-przeciwsloneczne-krakow'],
+    contactTopic: 'polycarbonate',
+    featured: true,
+    coverImage: '/img/realizacje/folia-na-swietliki-dachowe-chomranowice/cover.webp',
+    coverWidth: 1200,
+    coverHeight: 900,
+    datePublished: '2026-06-13',
+    dateModified: '2026-06-13',
+    dateCompleted: '2026-06',
+    locationContext:
+      'Realizacja została wykonana w Chomranowicach, na dachu obiektu z długim świetlikiem. Przy takim montażu liczą się nie tylko wymiary, ale też dostęp do dachu, stan powierzchni, podział świetlika na segmenty i sposób prowadzenia folii po powierzchni, która jest bardziej wymagająca niż zwykłe okno pionowe.',
+    problem:
+      'Świetlik dachowy mocno doświetlał przestrzeń od góry, ale jednocześnie wymagał uporządkowania pod kątem pracy ze słońcem i komfortu pod dachem. Klient potrzebował rozwiązania dopasowanego do przeszklenia dachowego i warunków pracy świetlika.',
+    solution:
+      'Prace zaczęliśmy od oceny dostępu do dachu i przygotowania powierzchni świetlika. Następnie folia została dopasowana do podziału przeszklenia i zamontowana na kolejnych segmentach tak, żeby całość wyglądała równo oraz spójnie po zakończeniu montażu.',
+    result:
+      'Po montażu świetlik zyskał bardziej refleksyjny, uporządkowany wygląd, a zdjęcia przed i po dobrze pokazują różnicę na powierzchni dachu. Realizacja pozostawia funkcję doświetlenia, ale pomaga lepiej kontrolować zachowanie świetlika przy mocnym słońcu i poprawia wizualny odbiór całego przeszklenia dachowego.',
+    scope: [
+      'ocena świetlika dachowego i dostępu do dachu',
+      'sprawdzenie podziału świetlika na segmenty',
+      'dobór folii do przeszklenia dachowego',
+      'przygotowanie powierzchni przed aplikacją',
+      'montaż folii na świetliku dachowym',
+      'kontrola krawędzi i powtarzalności efektu na kolejnych segmentach',
+      'sprawdzenie efektu wizualnego po montażu',
+    ],
+    tags: [
+      'folia na świetliki dachowe',
+      'świetliki dachowe Chomranowice',
+      'montaż folii na świetliku',
+      'folie na poliwęglan',
+      'folia na dach',
+      'Chomranowice',
+      'Kraków i okolice',
+    ],
+    relatedServicesIntro:
+      'Ta realizacja jest powiązana z usługą folii na poliwęglan i świetliki dachowe. Przy takim zakresie najważniejsze jest dopasowanie rozwiązania do materiału, kształtu świetlika, dostępu do dachu i warunków pracy przeszklenia.',
+    quote:
+      'Świetlik dachowy trzeba traktować inaczej niż zwykłe okno. Najpierw sprawdzamy dostęp, materiał, podział na segmenty i stan powierzchni, a dopiero potem dobieramy folię oraz sposób aplikacji.',
+    whatToSend:
+      'Do podobnej wyceny najlepiej wysłać zdjęcia świetlika z zewnątrz i od środka, orientacyjne wymiary lub liczbę segmentów, informację o materiale, wysokości, dostępie do dachu oraz krótki opis problemu: mocne słońce, nagrzewanie, ostre światło albo potrzeba ograniczenia UV.',
+    images: [
+      {
+        thumb:
+          '/img/realizacje/folia-na-swietliki-dachowe-chomranowice/01-przed-po-folia-na-swietliki-dachowe-chomranowice-thumb.webp',
+        full:
+          '/img/realizacje/folia-na-swietliki-dachowe-chomranowice/01-przed-po-folia-na-swietliki-dachowe-chomranowice.webp',
+        width: 1448,
+        height: 1086,
+        thumbWidth: 600,
+        thumbHeight: 450,
+        alt:
+          'Porównanie świetlika dachowego w Chomranowicach przed i po montażu folii',
+        caption: 'Porównanie przed i po montażu folii na świetliku dachowym.',
+      },
+      {
+        thumb:
+          '/img/realizacje/folia-na-swietliki-dachowe-chomranowice/02-swietlik-dachowy-przed-montazem-folii-chomranowice-thumb.webp',
+        full:
+          '/img/realizacje/folia-na-swietliki-dachowe-chomranowice/02-swietlik-dachowy-przed-montazem-folii-chomranowice.webp',
+        width: 1600,
+        height: 1200,
+        thumbWidth: 600,
+        thumbHeight: 450,
+        alt:
+          'Świetlik dachowy w Chomranowicach przed montażem folii',
+        caption: 'Świetlik dachowy przed montażem folii.',
+      },
+      {
+        thumb:
+          '/img/realizacje/folia-na-swietliki-dachowe-chomranowice/03-swietlik-dachowy-po-montazu-folii-chomranowice-thumb.webp',
+        full:
+          '/img/realizacje/folia-na-swietliki-dachowe-chomranowice/03-swietlik-dachowy-po-montazu-folii-chomranowice.webp',
+        width: 1600,
+        height: 1200,
+        thumbWidth: 600,
+        thumbHeight: 450,
+        alt:
+          'Świetlik dachowy w Chomranowicach po montażu folii',
+        caption: 'Świetlik dachowy po montażu folii.',
+      },
+      {
+        thumb:
+          '/img/realizacje/folia-na-swietliki-dachowe-chomranowice/04-swietlik-dachowy-po-montazu-z-dachu-chomranowice-thumb.webp',
+        full:
+          '/img/realizacje/folia-na-swietliki-dachowe-chomranowice/04-swietlik-dachowy-po-montazu-z-dachu-chomranowice.webp',
+        width: 1447,
+        height: 1087,
+        thumbWidth: 600,
+        thumbHeight: 451,
+        alt:
+          'Widok świetlika dachowego w Chomranowicach po montażu folii z poziomu dachu',
+        caption: 'Widok świetlika po montażu folii z poziomu dachu.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Czy folię można zamontować na świetliku dachowym?',
+        answer:
+          'Tak, ale taki montaż wymaga wcześniejszej oceny materiału, stanu powierzchni, podziału na segmenty i dostępu do dachu. Nie każdy świetlik nadaje się do aplikacji bez sprawdzenia technicznego.',
+      },
+      {
+        question: 'Czy folia na świetlik dachowy ogranicza mocne słońce?',
+        answer:
+          'Dobrze dobrana folia może pomóc ograniczyć ostre światło i część energii słonecznej wpadającej przez świetlik. Efekt zależy od materiału świetlika, ekspozycji, powierzchni i dobranego wariantu folii.',
+      },
+      {
+        question: 'Czy montaż folii na świetliku wymaga przebudowy dachu?',
+        answer:
+          'Nie w typowym zakresie. Aplikacja folii odbywa się na istniejącym świetliku, ale konieczny jest bezpieczny dostęp do dachu i ocena powierzchni przed pracą.',
+      },
+      {
+        question: 'Co wysłać do wyceny folii na świetlik dachowy?',
+        answer:
+          'Najlepiej przesłać zdjęcia świetlika z zewnątrz i od środka, wymiary lub liczbę segmentów, informację o materiale, wysokości, dostępie do dachu oraz opis problemu: nagrzewanie, UV, ostre światło albo odblaski.',
+      },
+    ],
+  },
+  {
     slug: 'oklejanie-drzwi-laminatem-architektonicznym-krakow',
     path: '/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow',
     title: 'Oklejanie drzwi laminatem architektonicznym w Krakowie',
