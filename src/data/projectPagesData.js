@@ -1,17 +1,17 @@
 export const projectPagesData = [
   {
-    slug: 'folia-na-swietliki-dachowe-chomranowice',
-    path: '/realizacje/folia-na-swietliki-dachowe-chomranowice',
-    title: 'Montaż folii na świetliki dachowe w Chomranowicach',
-    seoTitle: 'Folia na świetliki dachowe Chomranowice | Realizacja Lumera',
+    slug: 'folia-na-swietliki-dachowe-chomranice',
+    path: '/realizacje/folia-na-swietliki-dachowe-chomranice',
+    title: 'Montaż folii na świetliki dachowe w Chomranicach',
+    seoTitle: 'Folia na świetliki dachowe Chomranice | Realizacja Lumera',
     seoDescription:
-      'Montaż folii na świetliki dachowe w Chomranowicach. Realizacja Lumera dla obiektu w regionie Krakowa: efekt przed i po, zakres prac oraz zdjęcia z dachu.',
+      'Montaż folii na świetliki dachowe w Chomranicach. Realizacja Lumera dla obiektu w regionie Krakowa: efekt przed i po, zakres prac oraz zdjęcia z dachu.',
     eyebrow: 'Realizacja: świetliki dachowe',
     lead:
-      'W Chomranowicach wykonaliśmy montaż folii na świetliku dachowym. To realizacja z kategorii świetlików dachowych, gdzie ważne było dobranie rozwiązania do powierzchni pracującej inaczej niż klasyczna szyba pionowa oraz wykonanie równej aplikacji na kolejnych segmentach przeszklenia dachowego.',
+      'W Chomranicach wykonaliśmy montaż folii na świetliku dachowym. To realizacja z kategorii świetlików dachowych, gdzie ważne było dobranie rozwiązania do powierzchni pracującej inaczej niż klasyczna szyba pionowa oraz wykonanie równej aplikacji na kolejnych segmentach przeszklenia dachowego.',
     storyTitle: 'Świetlik dachowy po montażu folii, z wyraźnym efektem przed i po.',
-    coverCaption: 'Przed i po montażu folii na świetliku dachowym w Chomranowicach',
-    city: 'Chomranowice',
+    coverCaption: 'Przed i po montażu folii na świetliku dachowym w Chomranicach',
+    city: 'Chomranice',
     region: 'Kraków',
     objectType: 'obiekt ze świetlikiem dachowym',
     serviceType: 'Świetliki dachowe',
@@ -23,14 +23,14 @@ export const projectPagesData = [
     relatedLocalPaths: ['/folie-przeciwsloneczne-krakow'],
     contactTopic: 'polycarbonate',
     featured: true,
-    coverImage: '/img/realizacje/folia-na-swietliki-dachowe-chomranowice/cover.webp',
+    coverImage: '/img/realizacje/folia-na-swietliki-dachowe-chomranice/cover.webp',
     coverWidth: 1200,
     coverHeight: 900,
     datePublished: '2026-06-13',
     dateModified: '2026-06-13',
     dateCompleted: '2026-06',
     locationContext:
-      'Realizacja została wykonana w Chomranowicach, na dachu obiektu z długim świetlikiem. Przy takim montażu liczą się nie tylko wymiary, ale też dostęp do dachu, stan powierzchni, podział świetlika na segmenty i sposób prowadzenia folii po powierzchni, która jest bardziej wymagająca niż zwykłe okno pionowe.',
+      'Realizacja została wykonana w Chomranicach, na dachu obiektu z długim świetlikiem. Przy takim montażu liczą się nie tylko wymiary, ale też dostęp do dachu, stan powierzchni, podział świetlika na segmenty i sposób prowadzenia folii po powierzchni, która jest bardziej wymagająca niż zwykłe okno pionowe.',
     problem:
       'Świetlik dachowy mocno doświetlał przestrzeń od góry, ale jednocześnie wymagał uporządkowania pod kątem pracy ze słońcem i komfortu pod dachem. Klient potrzebował rozwiązania dopasowanego do przeszklenia dachowego i warunków pracy świetlika.',
     solution:
@@ -48,11 +48,11 @@ export const projectPagesData = [
     ],
     tags: [
       'folia na świetliki dachowe',
-      'świetliki dachowe Chomranowice',
+      'świetliki dachowe Chomranice',
       'montaż folii na świetliku',
       'folie na poliwęglan',
       'folia na dach',
-      'Chomranowice',
+      'Chomranice',
       'Kraków i okolice',
     ],
     relatedServicesIntro:
@@ -64,54 +64,54 @@ export const projectPagesData = [
     images: [
       {
         thumb:
-          '/img/realizacje/folia-na-swietliki-dachowe-chomranowice/01-przed-po-folia-na-swietliki-dachowe-chomranowice-thumb.webp',
+          '/img/realizacje/folia-na-swietliki-dachowe-chomranice/01-przed-po-folia-na-swietliki-dachowe-chomranice-thumb.webp',
         full:
-          '/img/realizacje/folia-na-swietliki-dachowe-chomranowice/01-przed-po-folia-na-swietliki-dachowe-chomranowice.webp',
+          '/img/realizacje/folia-na-swietliki-dachowe-chomranice/01-przed-po-folia-na-swietliki-dachowe-chomranice.webp',
         width: 1448,
         height: 1086,
         thumbWidth: 600,
         thumbHeight: 450,
         alt:
-          'Porównanie świetlika dachowego w Chomranowicach przed i po montażu folii',
+          'Porównanie świetlika dachowego w Chomranicach przed i po montażu folii',
         caption: 'Porównanie przed i po montażu folii na świetliku dachowym.',
       },
       {
         thumb:
-          '/img/realizacje/folia-na-swietliki-dachowe-chomranowice/02-swietlik-dachowy-przed-montazem-folii-chomranowice-thumb.webp',
+          '/img/realizacje/folia-na-swietliki-dachowe-chomranice/02-swietlik-dachowy-przed-montazem-folii-chomranice-thumb.webp',
         full:
-          '/img/realizacje/folia-na-swietliki-dachowe-chomranowice/02-swietlik-dachowy-przed-montazem-folii-chomranowice.webp',
+          '/img/realizacje/folia-na-swietliki-dachowe-chomranice/02-swietlik-dachowy-przed-montazem-folii-chomranice.webp',
         width: 1600,
         height: 1200,
         thumbWidth: 600,
         thumbHeight: 450,
         alt:
-          'Świetlik dachowy w Chomranowicach przed montażem folii',
+          'Świetlik dachowy w Chomranicach przed montażem folii',
         caption: 'Świetlik dachowy przed montażem folii.',
       },
       {
         thumb:
-          '/img/realizacje/folia-na-swietliki-dachowe-chomranowice/03-swietlik-dachowy-po-montazu-folii-chomranowice-thumb.webp',
+          '/img/realizacje/folia-na-swietliki-dachowe-chomranice/03-swietlik-dachowy-po-montazu-folii-chomranice-thumb.webp',
         full:
-          '/img/realizacje/folia-na-swietliki-dachowe-chomranowice/03-swietlik-dachowy-po-montazu-folii-chomranowice.webp',
+          '/img/realizacje/folia-na-swietliki-dachowe-chomranice/03-swietlik-dachowy-po-montazu-folii-chomranice.webp',
         width: 1600,
         height: 1200,
         thumbWidth: 600,
         thumbHeight: 450,
         alt:
-          'Świetlik dachowy w Chomranowicach po montażu folii',
+          'Świetlik dachowy w Chomranicach po montażu folii',
         caption: 'Świetlik dachowy po montażu folii.',
       },
       {
         thumb:
-          '/img/realizacje/folia-na-swietliki-dachowe-chomranowice/04-swietlik-dachowy-po-montazu-z-dachu-chomranowice-thumb.webp',
+          '/img/realizacje/folia-na-swietliki-dachowe-chomranice/04-swietlik-dachowy-po-montazu-z-dachu-chomranice-thumb.webp',
         full:
-          '/img/realizacje/folia-na-swietliki-dachowe-chomranowice/04-swietlik-dachowy-po-montazu-z-dachu-chomranowice.webp',
+          '/img/realizacje/folia-na-swietliki-dachowe-chomranice/04-swietlik-dachowy-po-montazu-z-dachu-chomranice.webp',
         width: 1447,
         height: 1087,
         thumbWidth: 600,
         thumbHeight: 451,
         alt:
-          'Widok świetlika dachowego w Chomranowicach po montażu folii z poziomu dachu',
+          'Widok świetlika dachowego w Chomranicach po montażu folii z poziomu dachu',
         caption: 'Widok świetlika po montażu folii z poziomu dachu.',
       },
     ],
