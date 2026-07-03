@@ -23,7 +23,7 @@ export const pricingGroups = [
     items: [
       {
         filmId: 'external-solar',
-        serviceRange: '180-295 zl/m2',
+        serviceRange: '190-375 zl/m2',
         warranty: '3-7 lat',
         note: 'Dla mocno nasłonecznionych szyb, witryn i dużych przeszkleń.',
       },
@@ -35,7 +35,7 @@ export const pricingGroups = [
       },
       {
         filmId: 'mirror',
-        serviceRange: '125-210 zl/m2',
+        serviceRange: '180-300 zl/m2',
         warranty: '5-10 lat',
         note: 'Najczęściej montaż od wewnątrz; wersje zewnętrzne liczymy osobno.',
       },
@@ -137,7 +137,7 @@ export const pricingGroups = [
     items: [
       {
         filmId: 'architectural-wraps',
-        serviceRange: 'najczęściej ok. 300 zl/m2 lub za element',
+        serviceRange: '450 zł / m2',
         warranty: '2-7 lat',
         note: 'Dla ram, drzwi, futryn, mebli i lad finalny koszt mocno zależy od krawędzi i stanu powierzchni.',
       },

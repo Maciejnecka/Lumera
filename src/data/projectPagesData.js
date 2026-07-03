@@ -1,5 +1,145 @@
 export const projectPagesData = [
   {
+    slug: 'montaz-folii-przeciwslonecznej-gieraltowice',
+    path: '/realizacje/montaz-folii-przeciwslonecznej-gieraltowice',
+    title: 'Montaż folii przeciwsłonecznej w domu w Gierałtowicach',
+    seoTitle: 'Folia przeciwsłoneczna Gierałtowice | Montaż Lumera',
+    seoDescription:
+      'Montaż folii przeciwsłonecznej w Gierałtowicach na wysokich przeszkleniach domu. Mniej nagrzewania, mniej odblasków i efekt przed/po Lumera.',
+    eyebrow: 'Realizacja: folia przeciwsłoneczna',
+    lead:
+      'W Gierałtowicach wykonaliśmy montaż folii przeciwsłonecznej na wysokich przeszkleniach domu jednorodzinnego. Najważniejsze było ograniczenie mocnego słońca i odblasków przy dużych szybach pod dachem, bez zabierania światła dziennego i bez zmiany charakteru elewacji.',
+    storyTitle: 'Wysokie przeszklenia pod dachem zyskały spokojniejszy, bardziej refleksyjny efekt.',
+    coverCaption: 'Przed i po montażu folii przeciwsłonecznej w Gierałtowicach',
+    city: 'Gierałtowice',
+    region: 'Katowice',
+    objectType: 'dom jednorodzinny',
+    serviceType: 'Folie przeciwsłoneczne',
+    serviceFilters: ['Folie przeciwsłoneczne'],
+    relatedFilmPath: '/folie-przeciwsloneczne-zewnetrzne',
+    relatedFilmPaths: ['/folie-przeciwsloneczne-zewnetrzne'],
+    relatedServicePaths: ['/folie-przeciwsloneczne', '/folie-przeciwsloneczne-zewnetrzne'],
+    relatedLocalPath: '/folie-przeciwsloneczne-katowice',
+    relatedLocalPaths: ['/folie-przeciwsloneczne-katowice'],
+    contactTopic: 'solar-films',
+    featured: true,
+    coverImage:
+      '/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/cover.webp',
+    coverWidth: 1200,
+    coverHeight: 800,
+    datePublished: '2026-07-03',
+    dateModified: '2026-07-03',
+    dateCompleted: '2026-07',
+    locationContext:
+      'Realizacja została wykonana w Gierałtowicach, w domu jednorodzinnym z wysokimi przeszkleniami w szczycie budynku. Przy takim montażu ważny jest nie tylko dobór folii przeciwsłonecznej, ale też bezpieczny dostęp do górnych szyb, praca z rusztowania, dokładne oczyszczenie powierzchni i równe wyprowadzenie krawędzi na kilku sąsiadujących formatkach.',
+    problem:
+      'Duże przeszklenia wpuszczały do wnętrza dużo światła, ale przy mocnym słońcu zwiększały nagrzewanie pomieszczeń i powodowały odblaski. Klient potrzebował rozwiązania, które poprawi komfort przy oknach, a jednocześnie nie zasłoni przeszkleń tak ciężko jak rolety lub stałe osłony.',
+    solution:
+      'Dobór poszedł w kierunku folii przeciwsłonecznej montowanej na wysokich szybach od strony zewnętrznej. Prace wymagały przygotowania dostępu, oczyszczenia szyb, dopasowania formatek do nieregularnego układu okien pod skosem dachu oraz kontroli krawędzi po aplikacji. Dzięki temu folia tworzy równy, spójny efekt na całym pasie przeszkleń.',
+    result:
+      'Po montażu okna są bardziej refleksyjne i spokojniejsze wizualnie, a porównanie przed i po pokazuje wyraźną zmianę odbioru górnych przeszkleń. Folia pomaga ograniczyć nadmiar słońca, odblaski i nagrzewanie, pozostawiając nowoczesny wygląd domu oraz dostęp do światła dziennego.',
+    scope: [
+      'ocena ekspozycji i wysokości przeszkleń',
+      'dobór folii przeciwsłonecznej do dużych okien w domu',
+      'przygotowanie dostępu do górnych szyb',
+      'dokładne oczyszczenie przeszkleń przed aplikacją',
+      'docinanie formatek pod okna w szczycie budynku',
+      'montaż folii przeciwsłonecznej na wysokich przeszkleniach',
+      'kontrola krawędzi i spójności efektu na całej elewacji',
+    ],
+    tags: [
+      'folia przeciwsłoneczna Gierałtowice',
+      'folie przeciwsłoneczne Katowice',
+      'montaż folii przeciwsłonecznej',
+      'folia na duże przeszklenia',
+      'folia na okna od południa',
+      'dom jednorodzinny Gierałtowice',
+      'Katowice i okolice',
+    ],
+    relatedServicesIntro:
+      'Ta realizacja jest powiązana z foliami przeciwsłonecznymi zewnętrznymi oraz lokalną usługą montażu folii przeciwsłonecznych w Katowicach i okolicach. Przy wysokich przeszkleniach najważniejsze są: dobór wariantu do szyby, dostęp z zewnątrz, estetyczne dopasowanie do elewacji i realny efekt przy mocnym słońcu.',
+    quote:
+      'Przy wysokich przeszkleniach pod dachem sam produkt to tylko część decyzji. Równie ważne są dostęp, formatki, krawędzie i to, czy efekt po montażu będzie spójny na całym pasie okien.',
+    whatToSend:
+      'Do podobnej wyceny najlepiej wysłać zdjęcia całej elewacji i zbliżenia szyb, wymiary od uszczelki do uszczelki, liczbę formatek, lokalizację, informację o ekspozycji na słońce oraz krótki opis dostępu: czy jest miejsce na rusztowanie, drabinę albo podnośnik.',
+    images: [
+      {
+        thumb:
+          '/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/01-przed-po-folia-przeciwsloneczna-gieraltowice-thumb.webp',
+        full:
+          '/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/01-przed-po-folia-przeciwsloneczna-gieraltowice.webp',
+        width: 1536,
+        height: 1024,
+        thumbWidth: 600,
+        thumbHeight: 400,
+        alt:
+          'Porównanie domu w Gierałtowicach przed i po montażu folii przeciwsłonecznej na wysokich przeszkleniach',
+        caption: 'Porównanie przed i po montażu folii przeciwsłonecznej.',
+      },
+      {
+        thumb:
+          '/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/02-dom-przed-montazem-folii-przeciwslonecznej-gieraltowice-thumb.webp',
+        full:
+          '/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/02-dom-przed-montazem-folii-przeciwslonecznej-gieraltowice.webp',
+        width: 1086,
+        height: 1448,
+        thumbWidth: 540,
+        thumbHeight: 720,
+        alt:
+          'Wysokie przeszklenia domu w Gierałtowicach przed montażem folii przeciwsłonecznej',
+        caption: 'Przeszklenia przed montażem folii przeciwsłonecznej.',
+      },
+      {
+        thumb:
+          '/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/04-dom-po-montazu-folii-przeciwslonecznej-gieraltowice-thumb.webp',
+        full:
+          '/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/04-dom-po-montazu-folii-przeciwslonecznej-gieraltowice.webp',
+        width: 1200,
+        height: 1600,
+        thumbWidth: 540,
+        thumbHeight: 720,
+        alt:
+          'Dom w Gierałtowicach po montażu folii przeciwsłonecznej na wysokich oknach',
+        caption: 'Efekt po montażu folii przeciwsłonecznej na górnych przeszkleniach.',
+      },
+      {
+        thumb:
+          '/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/03-montaz-folii-przeciwslonecznej-z-rusztowania-gieraltowice-thumb.webp',
+        full:
+          '/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/03-montaz-folii-przeciwslonecznej-z-rusztowania-gieraltowice.webp',
+        width: 1086,
+        height: 1448,
+        thumbWidth: 540,
+        thumbHeight: 720,
+        alt:
+          'Montaż folii przeciwsłonecznej z rusztowania na oknach domu w Gierałtowicach',
+        caption: 'Etap montażu folii przy wysokich oknach domu.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Czy folia przeciwsłoneczna sprawdzi się na dużych oknach w domu?',
+        answer:
+          'Tak, jeżeli zostanie dobrana do rodzaju szyby, ekspozycji i oczekiwanego efektu. Przy dużych przeszkleniach folia może pomóc ograniczyć nagrzewanie, odblaski i nadmiar światła bez montowania ciężkich osłon.',
+      },
+      {
+        question: 'Czy przy wysokich przeszkleniach potrzebne jest rusztowanie?',
+        answer:
+          'Często tak. Sposób dostępu zależy od wysokości, terenu przy budynku i układu okien. Przed wyceną warto wysłać zdjęcie całej elewacji, żeby ocenić, czy wystarczy drabina, czy potrzebne będzie rusztowanie albo inny dostęp.',
+      },
+      {
+        question: 'Czy folia przeciwsłoneczna zmienia wygląd elewacji?',
+        answer:
+          'Może zmienić odbiór szyb, zwykle w stronę bardziej refleksyjnego i uporządkowanego efektu. Właśnie dlatego przed montażem dobiera się wariant folii do stolarki, elewacji i tego, jak mocny efekt wizualny jest akceptowalny.',
+      },
+      {
+        question: 'Co wysłać do wyceny folii przeciwsłonecznej?',
+        answer:
+          'Najlepiej przesłać zdjęcia okien z zewnątrz i od środka, wymiary szyb od uszczelki do uszczelki, liczbę formatek, informację o ekspozycji na słońce, lokalizację oraz opis dostępu do przeszkleń.',
+      },
+    ],
+  },
+  {
     slug: 'folia-na-swietliki-dachowe-chomranice',
     path: '/realizacje/folia-na-swietliki-dachowe-chomranice',
     title: 'Montaż folii na świetliki dachowe w Chomranicach',

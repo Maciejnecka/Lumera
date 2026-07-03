@@ -1,6 +1,6 @@
 # Lumera - Pełny Kontekst Dla LLM
 
-Wersja wygenerowana: 2026-06-13
+Wersja wygenerowana: 2026-07-03
 Strona: https://folielumera.pl
 Język główny: pl-PL
 
@@ -145,7 +145,7 @@ Najczęściej wybierane rozwiązania do mieszkań, domów, biur i lokali. Podane
 
 #### Folie przeciwsłoneczne zewnętrzne
 - URL: https://folielumera.pl/folie-przeciwsloneczne-zewnetrzne
-- Orientacyjna cena brutto: 180-295 zl/m2
+- Orientacyjna cena brutto: 190-375 zl/m2
 - Typowa gwarancja: 3-7 lat
 - Notatka: Dla mocno nasłonecznionych szyb, witryn i dużych przeszkleń.
 
@@ -157,7 +157,7 @@ Najczęściej wybierane rozwiązania do mieszkań, domów, biur i lokali. Podane
 
 #### Folie lustra weneckie
 - URL: https://folielumera.pl/folie-lustra-weneckie
-- Orientacyjna cena brutto: 125-210 zl/m2
+- Orientacyjna cena brutto: 180-300 zl/m2
 - Typowa gwarancja: 5-10 lat
 - Notatka: Najczęściej montaż od wewnątrz; wersje zewnętrzne liczymy osobno.
 
@@ -247,7 +247,7 @@ W tych pracach cena w największym stopniu zależy od stanu podłoża, detali, n
 
 #### Okleiny i laminaty architektoniczne
 - URL: https://folielumera.pl/okleiny-i-laminaty-architektoniczne
-- Orientacyjna cena brutto: najczęściej ok. 300 zl/m2 lub za element
+- Orientacyjna cena brutto: 450 zł / m2
 - Typowa gwarancja: 2-7 lat
 - Notatka: Dla ram, drzwi, futryn, mebli i lad finalny koszt mocno zależy od krawędzi i stanu powierzchni.
 
@@ -348,7 +348,7 @@ Skuteczna redukcja nagrzewania i odblasków przy dużych przeszkleniach oraz ele
 Folie przeciwsłoneczne zewnętrzne stosujemy tam, gdzie priorytetem jest możliwie wysoka redukcja ciepła i lepsza kontrola światła. To rozwiązanie szczególnie dobrze sprawdza się przy dużych przeszkleniach, witrynach oraz nowoczesnych elewacjach.
 
 ### Cena I Gwarancja
-- Orientacyjna cena brutto: 180-295 zl/m2
+- Orientacyjna cena brutto: 190-375 zl/m2
 - Typowa gwarancja: 3-7 lat
 - Uwaga: finalna wycena zależy od rodzaju szyby, warunków montażu, wymiarów, dostępu i zakresu prac.
 
@@ -458,7 +458,7 @@ Refleksyjna folia dla okien od ulicy, chodnika lub sąsiedniego budynku.
 Folie lustra weneckiego zmieniają odbiór przeszklenia: szyba staje się bardziej refleksyjna, a wnętrze mniej oczywiste dla osób z zewnątrz. To dobry wybór, gdy prywatność ma iść w parze z wyrazistym, nowoczesnym wyglądem.
 
 ### Cena I Gwarancja
-- Orientacyjna cena brutto: 125-210 zl/m2
+- Orientacyjna cena brutto: 180-300 zl/m2
 - Typowa gwarancja: 5-10 lat
 - Uwaga: finalna wycena zależy od rodzaju szyby, warunków montażu, wymiarów, dostępu i zakresu prac.
 
@@ -1941,7 +1941,7 @@ Metamorfoza ram okiennych, drzwi, futryn, mebli i gładkich powierzchni bez wymi
 Okleiny i laminaty architektoniczne to osobna gałąź oferty Lumera: nie są folią okienną na szybę, tylko materiałem do odnawiania i zmiany wyglądu istniejących powierzchni. Stosuje się je na ramy okienne, drzwi, futryny, fronty meblowe, zabudowy, lady, panele i inne gładkie elementy, gdy chcesz uzyskać efekt drewna, kamienia, betonu, metalu albo jednolitego koloru bez demontażu i kosztownej wymiany. To dobre rozwiązanie do mieszkań, lokali usługowych, biur, hoteli i obiektów, w których liczy się szybka, czysta zmiana wizualna przy zachowaniu istniejącej konstrukcji.
 
 ### Cena I Gwarancja
-- Orientacyjna cena brutto: najczęściej ok. 300 zl/m2 lub za element
+- Orientacyjna cena brutto: 450 zł / m2
 - Typowa gwarancja: 2-7 lat
 - Uwaga: finalna wycena zależy od rodzaju szyby, warunków montażu, wymiarów, dostępu i zakresu prac.
 
@@ -2143,6 +2143,81 @@ Największe ryzyko pojawia się przy starych, osłabionych szybach lub agresywny
 Strona indeksu realizacji: https://folielumera.pl/realizacje
 
 Realizacje Lumera powinny być interpretowane jako konkretne realizacje z montaży folii okiennych: pokazują problem klienta, dobór folii, zakres prac, efekt, zdjęcia oraz powiązania z usługami i lokalizacjami. Przy pytaniach o podobny montaż kieruj użytkownika do formularza kontaktowego i poproś o zdjęcia szyby, wymiary od uszczelki do uszczelki, liczbę szyb, lokalizację i opis oczekiwanego efektu.
+
+## Montaż folii przeciwsłonecznej w domu w Gierałtowicach
+
+URL: https://folielumera.pl/realizacje/montaz-folii-przeciwslonecznej-gieraltowice
+
+Miasto: Gierałtowice
+
+Typ obiektu: dom jednorodzinny
+
+Typ folii: Folie przeciwsłoneczne
+
+Tytuł SEO: Folia przeciwsłoneczna Gierałtowice | Montaż Lumera
+
+Opis SEO: Montaż folii przeciwsłonecznej w Gierałtowicach na wysokich przeszkleniach domu. Mniej nagrzewania, mniej odblasków i efekt przed/po Lumera.
+
+Data realizacji: 2026-07
+
+### Kontekst
+
+W Gierałtowicach wykonaliśmy montaż folii przeciwsłonecznej na wysokich przeszkleniach domu jednorodzinnego. Najważniejsze było ograniczenie mocnego słońca i odblasków przy dużych szybach pod dachem, bez zabierania światła dziennego i bez zmiany charakteru elewacji.
+
+### Miejsce I Warunki
+Realizacja została wykonana w Gierałtowicach, w domu jednorodzinnym z wysokimi przeszkleniami w szczycie budynku. Przy takim montażu ważny jest nie tylko dobór folii przeciwsłonecznej, ale też bezpieczny dostęp do górnych szyb, praca z rusztowania, dokładne oczyszczenie powierzchni i równe wyprowadzenie krawędzi na kilku sąsiadujących formatkach.
+
+### Problem
+Duże przeszklenia wpuszczały do wnętrza dużo światła, ale przy mocnym słońcu zwiększały nagrzewanie pomieszczeń i powodowały odblaski. Klient potrzebował rozwiązania, które poprawi komfort przy oknach, a jednocześnie nie zasłoni przeszkleń tak ciężko jak rolety lub stałe osłony.
+
+### Rozwiązanie
+Dobór poszedł w kierunku folii przeciwsłonecznej montowanej na wysokich szybach od strony zewnętrznej. Prace wymagały przygotowania dostępu, oczyszczenia szyb, dopasowania formatek do nieregularnego układu okien pod skosem dachu oraz kontroli krawędzi po aplikacji. Dzięki temu folia tworzy równy, spójny efekt na całym pasie przeszkleń.
+
+### Efekt
+Po montażu okna są bardziej refleksyjne i spokojniejsze wizualnie, a porównanie przed i po pokazuje wyraźną zmianę odbioru górnych przeszkleń. Folia pomaga ograniczyć nadmiar słońca, odblaski i nagrzewanie, pozostawiając nowoczesny wygląd domu oraz dostęp do światła dziennego.
+
+### Zakres Prac
+- ocena ekspozycji i wysokości przeszkleń
+- dobór folii przeciwsłonecznej do dużych okien w domu
+- przygotowanie dostępu do górnych szyb
+- dokładne oczyszczenie przeszkleń przed aplikacją
+- docinanie formatek pod okna w szczycie budynku
+- montaż folii przeciwsłonecznej na wysokich przeszkleniach
+- kontrola krawędzi i spójności efektu na całej elewacji
+
+### Powiązanie Z Usługami
+Ta realizacja jest powiązana z foliami przeciwsłonecznymi zewnętrznymi oraz lokalną usługą montażu folii przeciwsłonecznych w Katowicach i okolicach. Przy wysokich przeszkleniach najważniejsze są: dobór wariantu do szyby, dostęp z zewnątrz, estetyczne dopasowanie do elewacji i realny efekt przy mocnym słońcu.
+
+### Powiązane Usługi
+- [Folie przeciwsłoneczne](https://folielumera.pl/folie-przeciwsloneczne)
+- [Folie przeciwsłoneczne zewnętrzne](https://folielumera.pl/folie-przeciwsloneczne-zewnetrzne)
+
+### Powiązane Strony Lokalne
+- [Folie przeciwsłoneczne Katowice](https://folielumera.pl/folie-przeciwsloneczne-katowice)
+
+### Co Wysłać Do Podobnej Wyceny
+Do podobnej wyceny najlepiej wysłać zdjęcia całej elewacji i zbliżenia szyb, wymiary od uszczelki do uszczelki, liczbę formatek, lokalizację, informację o ekspozycji na słońce oraz krótki opis dostępu: czy jest miejsce na rusztowanie, drabinę albo podnośnik.
+
+### Zdjęcia I Alty
+- Porównanie domu w Gierałtowicach przed i po montażu folii przeciwsłonecznej na wysokich przeszkleniach: https://folielumera.pl/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/01-przed-po-folia-przeciwsloneczna-gieraltowice.webp
+- Wysokie przeszklenia domu w Gierałtowicach przed montażem folii przeciwsłonecznej: https://folielumera.pl/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/02-dom-przed-montazem-folii-przeciwslonecznej-gieraltowice.webp
+- Dom w Gierałtowicach po montażu folii przeciwsłonecznej na wysokich oknach: https://folielumera.pl/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/04-dom-po-montazu-folii-przeciwslonecznej-gieraltowice.webp
+- Montaż folii przeciwsłonecznej z rusztowania na oknach domu w Gierałtowicach: https://folielumera.pl/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/03-montaz-folii-przeciwslonecznej-z-rusztowania-gieraltowice.webp
+
+### FAQ
+#### Czy folia przeciwsłoneczna sprawdzi się na dużych oknach w domu?
+Tak, jeżeli zostanie dobrana do rodzaju szyby, ekspozycji i oczekiwanego efektu. Przy dużych przeszkleniach folia może pomóc ograniczyć nagrzewanie, odblaski i nadmiar światła bez montowania ciężkich osłon.
+
+#### Czy przy wysokich przeszkleniach potrzebne jest rusztowanie?
+Często tak. Sposób dostępu zależy od wysokości, terenu przy budynku i układu okien. Przed wyceną warto wysłać zdjęcie całej elewacji, żeby ocenić, czy wystarczy drabina, czy potrzebne będzie rusztowanie albo inny dostęp.
+
+#### Czy folia przeciwsłoneczna zmienia wygląd elewacji?
+Może zmienić odbiór szyb, zwykle w stronę bardziej refleksyjnego i uporządkowanego efektu. Właśnie dlatego przed montażem dobiera się wariant folii do stolarki, elewacji i tego, jak mocny efekt wizualny jest akceptowalny.
+
+#### Co wysłać do wyceny folii przeciwsłonecznej?
+Najlepiej przesłać zdjęcia okien z zewnątrz i od środka, wymiary szyb od uszczelki do uszczelki, liczbę formatek, informację o ekspozycji na słońce, lokalizację oraz opis dostępu do przeszkleń.
+
+---
 
 ## Montaż folii na świetliki dachowe w Chomranicach
 

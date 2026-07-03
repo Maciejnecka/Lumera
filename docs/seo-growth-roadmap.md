@@ -22,3 +22,7 @@ gabinetów i szklanych ścian. Docelowo warto rozwinąć osobny mini-ekosystem:
 główna strona LCD, lokalne strony LCD dla Krakowa i Katowic oraz poradniki
 porównawcze typu LCD vs folia matowa, LCD vs rolety, LCD vs szkło mleczne.
 
+## Realizacje wspierające SEO lokalne
+
+- 2026-07-03: dodana realizacja `/realizacje/montaz-folii-przeciwslonecznej-gieraltowice` jako przykład montażu folii przeciwsłonecznej w regionie Katowice i okolice. Powiązania SEO: `/folie-przeciwsloneczne`, `/folie-przeciwsloneczne-zewnetrzne`, `/folie-przeciwsloneczne-katowice` oraz indeks `/realizacje`.
+
