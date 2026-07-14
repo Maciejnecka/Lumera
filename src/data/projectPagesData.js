@@ -1,5 +1,147 @@
 export const projectPagesData = [
   {
+    slug: 'folie-przeciwsloneczne-szpital-murcki-katowice',
+    path: '/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice',
+    title: 'Folie przeciwsłoneczne dla Szpitala Murcki w Katowicach',
+    seoTitle: 'Folie przeciwsłoneczne Szpital Murcki Katowice | Lumera',
+    seoDescription:
+      'Montaż folii przeciwsłonecznych w Szpitalu Murcki w Katowicach. Realizacja na większym obiekcie: przeszklenia elewacji, klatka schodowa, praca z rusztowania i efekt ograniczenia słońca.',
+    eyebrow: 'Realizacja: folie przeciwsłoneczne Katowice',
+    lead:
+      'W Szpitalu Murcki w Katowicach wykonaliśmy montaż folii przeciwsłonecznych na przeszkleniach budynku. Zakres obejmował większy obiekt, pracę przy elewacji oraz wysokie przeszklenia, gdzie ważne było ograniczenie mocnego słońca i poprawa komfortu wewnątrz bez ciężkiego zasłaniania okien. To przykład realizacji dla obiektu publicznego, w której liczy się nie tylko sama folia, ale też organizacja dostępu, powtarzalny efekt na wielu szybach i estetyka całej fasady.',
+    storyTitle: 'Folie przeciwsłoneczne na większym obiekcie medycznym w Katowicach.',
+    coverCaption: 'Elewacja Szpitala Murcki podczas montażu folii przeciwsłonecznych',
+    city: 'Katowice',
+    region: 'Katowice',
+    objectType: 'obiekt medyczny',
+    serviceType: 'Folie przeciwsłoneczne',
+    serviceFilters: ['Folie przeciwsłoneczne'],
+    relatedFilmPath: '/folie-przeciwsloneczne-zewnetrzne',
+    relatedFilmPaths: ['/folie-przeciwsloneczne-zewnetrzne'],
+    relatedServicePaths: ['/folie-przeciwsloneczne', '/folie-przeciwsloneczne-zewnetrzne'],
+    relatedLocalPath: '/folie-przeciwsloneczne-katowice',
+    relatedLocalPaths: ['/folie-przeciwsloneczne-katowice', '/montaz-folii-okiennych-katowice'],
+    contactTopic: 'solar-films',
+    featured: true,
+    coverImage:
+      '/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/cover.webp',
+    coverWidth: 1200,
+    coverHeight: 800,
+    datePublished: '2026-07-14',
+    dateModified: '2026-07-14',
+    dateCompleted: '2026-07',
+    locationContext:
+      'Realizacja została wykonana w Katowicach, na terenie Szpitala Murcki. Prace dotyczyły przeszkleń w większym budynku, w tym wysokiej części elewacji i przeszklonej klatki wejściowej. Przy takim zakresie trzeba zaplanować dostęp do szyb, kolejność prac, bezpieczeństwo przy rusztowaniu oraz powtarzalny efekt wizualny na wielu formatach szkła.',
+    problem:
+      'Duże przeszklenia w budynku wpuszczały dużo światła dziennego, ale przy mocnym słońcu mogły powodować nagrzewanie, odblaski i dyskomfort w pomieszczeniach. W obiekcie medycznym ważne jest, żeby poprawić warunki użytkowania bez agresywnego zaciemniania wnętrz i bez zasłaniania okien rozwiązaniami, które utrudniałyby codzienne korzystanie z przestrzeni.',
+    solution:
+      'Dobór poszedł w kierunku folii przeciwsłonecznych montowanych na przeszkleniach elewacyjnych. Prace wymagały dokładnego przygotowania szyb, zaplanowania dostępu z rusztowania oraz dopasowania formatek do podziału stolarki. Przy wysokich przeszkleniach i większej liczbie szyb najważniejsza była powtarzalność aplikacji: równe krawędzie, czyste szkło, uporządkowany wygląd z zewnątrz i efekt, który nie zaburza charakteru budynku.',
+    result:
+      'Po montażu przeszklenia zyskały bardziej spokojny, refleksyjny wygląd, a folie pomagają ograniczyć część promieniowania słonecznego wpadającego do budynku. Realizacja poprawia komfort w strefach z dużymi szybami, jednocześnie zachowując dostęp do światła dziennego i spójny wygląd elewacji. To dobry przykład zastosowania folii przeciwsłonecznych w Katowicach na większym obiekcie, gdzie liczy się skala, estetyka i organizacja prac.',
+    scope: [
+      'ocena przeszkleń i ekspozycji na słońce',
+      'dobór folii przeciwsłonecznej do większego obiektu',
+      'zaplanowanie dostępu do wysokich szyb i pracy z rusztowania',
+      'przygotowanie powierzchni szyb przed aplikacją',
+      'docinanie formatek do podziału stolarki',
+      'montaż folii przeciwsłonecznych na przeszkleniach elewacyjnych',
+      'kontrola krawędzi, powtarzalności i efektu wizualnego na fasadzie',
+    ],
+    tags: [
+      'folie przeciwsłoneczne Katowice',
+      'folia przeciwsłoneczna Katowice',
+      'montaż folii przeciwsłonecznych Katowice',
+      'folie okienne Katowice',
+      'Szpital Murcki Katowice',
+      'folia na duże przeszklenia',
+      'folie przeciwsłoneczne na elewację',
+      'montaż folii z rusztowania',
+      'Katowice i okolice',
+    ],
+    relatedServicesIntro:
+      'Ta realizacja jest powiązana z foliami przeciwsłonecznymi zewnętrznymi, hubem folii przeciwsłonecznych oraz lokalną usługą montażu folii przeciwsłonecznych w Katowicach. Dla większych obiektów szczególnie ważne są: dobór folii do rodzaju szyby, bezpieczeństwo pracy przy wysokości, powtarzalność efektu i możliwość wykonania zakresu etapami.',
+    quote:
+      'Przy większych obiektach folia przeciwsłoneczna musi działać technicznie, ale też wyglądać równo na całej elewacji. Jedna szyba może wyglądać dobrze przypadkiem; przy wielu formatach liczy się powtarzalność, krawędzie i organizacja montażu.',
+    whatToSend:
+      'Do podobnej wyceny najlepiej wysłać zdjęcia całej elewacji i zbliżenia szyb, liczbę przeszkleń, wymiary od uszczelki do uszczelki, lokalizację, informację o ekspozycji na słońce oraz opis dostępu: rusztowanie, balkon, podnośnik, drabina albo prace prowadzone równolegle z inną ekipą.',
+    images: [
+      {
+        thumb:
+          '/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/01-elewacja-szpital-murcki-folie-przeciwsloneczne-katowice-thumb.webp',
+        full:
+          '/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/01-elewacja-szpital-murcki-folie-przeciwsloneczne-katowice.webp',
+        width: 1600,
+        height: 1200,
+        thumbWidth: 600,
+        thumbHeight: 450,
+        alt:
+          'Elewacja Szpitala Murcki w Katowicach podczas montażu folii przeciwsłonecznych na oknach',
+        caption: 'Widok elewacji i rusztowania podczas montażu folii przeciwsłonecznych.',
+      },
+      {
+        thumb:
+          '/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/02-przeszklenie-klatki-schodowej-folia-przeciwsloneczna-szpital-murcki-thumb.webp',
+        full:
+          '/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/02-przeszklenie-klatki-schodowej-folia-przeciwsloneczna-szpital-murcki.webp',
+        width: 1086,
+        height: 1448,
+        thumbWidth: 600,
+        thumbHeight: 800,
+        alt:
+          'Przeszklona klatka wejściowa Szpitala Murcki w Katowicach z folią przeciwsłoneczną',
+        caption: 'Wysokie przeszklenie budynku po montażu folii przeciwsłonecznej.',
+      },
+      {
+        thumb:
+          '/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/03-wejscie-szpital-murcki-podczas-przygotowania-montazu-thumb.webp',
+        full:
+          '/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/03-wejscie-szpital-murcki-podczas-przygotowania-montazu.webp',
+        width: 1600,
+        height: 1200,
+        thumbWidth: 600,
+        thumbHeight: 450,
+        alt:
+          'Przeszklenia wejściowe Szpitala Murcki w Katowicach przygotowane do montażu folii przeciwsłonecznej',
+        caption: 'Przeszklenia wejściowe i etap przygotowania do prac przy szybach.',
+      },
+      {
+        thumb:
+          '/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/04-rusztowanie-elewacja-szpital-murcki-montaz-folii-thumb.webp',
+        full:
+          '/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/04-rusztowanie-elewacja-szpital-murcki-montaz-folii.webp',
+        width: 1600,
+        height: 1202,
+        thumbWidth: 600,
+        thumbHeight: 451,
+        alt:
+          'Montaż folii przeciwsłonecznych z rusztowania na elewacji Szpitala Murcki w Katowicach',
+        caption: 'Zakres prac na elewacji wymagał zaplanowania dostępu i kolejności montażu.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Czy folie przeciwsłoneczne sprawdzają się na większych obiektach w Katowicach?',
+        answer:
+          'Tak, ale przy większych budynkach trzeba uwzględnić liczbę szyb, rodzaj szkła, dostęp do elewacji, ekspozycję na słońce i powtarzalność efektu. Taki montaż planuje się inaczej niż pojedyncze okno w mieszkaniu.',
+      },
+      {
+        question: 'Czy folia przeciwsłoneczna może ograniczyć nagrzewanie pomieszczeń?',
+        answer:
+          'Dobrze dobrana folia przeciwsłoneczna może ograniczyć część energii słonecznej wpadającej przez szybę, co pomaga zmniejszyć nagrzewanie i odblaski. Dokładny efekt zależy od rodzaju szyby, ekspozycji i wybranego wariantu folii.',
+      },
+      {
+        question: 'Czy przy montażu folii na elewacji potrzebne jest rusztowanie?',
+        answer:
+          'To zależy od wysokości i dostępu do szyb. Przy wysokich przeszkleniach, większych elewacjach albo równoległych pracach budowlanych często najlepszym rozwiązaniem jest rusztowanie, balkon techniczny lub podnośnik.',
+      },
+      {
+        question: 'Co wysłać do wyceny folii przeciwsłonecznych dla obiektu?',
+        answer:
+          'Najlepiej przesłać zdjęcia elewacji, zdjęcia szyb z bliska, wymiary, liczbę przeszkleń, lokalizację, informację o dostępie oraz opis problemu: nagrzewanie, odblaski, mocne słońce albo potrzeba poprawy komfortu w konkretnych pomieszczeniach.',
+      },
+    ],
+  },
+  {
     slug: 'montaz-folii-przeciwslonecznej-gieraltowice',
     path: '/realizacje/montaz-folii-przeciwslonecznej-gieraltowice',
     title: 'Montaż folii przeciwsłonecznej w domu w Gierałtowicach',
