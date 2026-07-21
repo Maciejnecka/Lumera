@@ -142,6 +142,207 @@ export const projectPagesData = [
     ],
   },
   {
+    slug: 'folie-mrozone-przedszkole-swietochlowice',
+    path: '/realizacje/folie-mrozone-przedszkole-swietochlowice',
+    title: 'Folie mrożone na oknach Przedszkola Miejskiego nr 7 w Świętochłowicach',
+    seoTitle: 'Folie mrożone Świętochłowice | Przedszkole nr 7',
+    seoDescription:
+      'Montaż folii mrożonych na oknach Przedszkola Miejskiego nr 7 w Świętochłowicach. Prywatność, światło dzienne i efekt przed i po.',
+    eyebrow: 'Realizacja: folie mrożone Świętochłowice',
+    lead:
+      'W Przedszkolu Miejskim nr 7 w Świętochłowicach zamontowaliśmy folie mrożone na dolnych częściach dużych okien. Oklejenie ogranicza bezpośredni wgląd z zewnątrz do sal przedszkolnych, a jednocześnie pozostawia górne partie szyb przezroczyste i zachowuje dopływ światła dziennego. To realizacja pokazująca praktyczne zastosowanie folii mrożonych w placówce oświatowej.',
+    storyTitle: 'Prywatność w salach przedszkolnych bez zasłaniania całych okien.',
+    coverCaption: 'Folie mrożone na oknach Przedszkola Miejskiego nr 7 w Świętochłowicach',
+    city: 'Świętochłowice',
+    region: 'Katowice',
+    objectType: 'przedszkole miejskie',
+    serviceType: 'Folie mrożone i matowe',
+    serviceFilters: ['Folie mrożone', 'Folie matowe'],
+    relatedFilmPath: '/folie-mrozone',
+    relatedFilmPaths: ['/folie-mrozone', '/folie-matowe'],
+    relatedServicePaths: ['/folie-mrozone', '/folie-matowe'],
+    relatedLocalPath: '/folie-matowe-katowice',
+    relatedLocalPaths: ['/folie-matowe-katowice', '/montaz-folii-okiennych-katowice'],
+    contactTopic: 'frosted',
+    featured: false,
+    coverImage:
+      '/img/realizacje/folie-mrozone-przedszkole-swietochlowice/cover.webp',
+    coverWidth: 1200,
+    coverHeight: 800,
+    datePublished: '2026-07-21',
+    dateModified: '2026-07-21',
+    dateCompleted: '2026-07',
+    locationContext:
+      'Realizacja została wykonana w Przedszkolu Miejskim nr 7 w Świętochłowicach, w nowoczesnym budynku z dużymi przeszkleniami prowadzącymi z sal bezpośrednio na zewnętrzne place. Powtarzalny układ wysokich okien wymagał równego wyznaczenia linii folii na wielu taflach. Okleiliśmy dolne partie szyb, aby zapewnić prywatność na najbardziej potrzebnej wysokości, pozostawiając górę przeszkleń przezroczystą.',
+    problem:
+      'Duże okna dobrze doświetlały sale, ale dawały również bezpośredni wgląd z zewnątrz do wnętrz. Pełne zasłonięcie szyb ograniczyłoby widok na teren przedszkola i zabrało część naturalnego światła. Potrzebne było rozwiązanie, które zasłoni dolną, użytkową część przeszkleń, a jednocześnie zachowa lekkość całej elewacji i jasność pomieszczeń.',
+    solution:
+      'Zastosowaliśmy folie mrożone o mlecznym efekcie, powiązane również z kategorią folii matowych. Materiał został zamontowany w równym pasie na dolnych częściach przeszkleń. Każdą szybę dokładnie przygotowaliśmy, a formatki dopasowaliśmy do podziałów stolarki tak, aby górna krawędź folii tworzyła spójną linię w kolejnych salach. Częściowe oklejenie daje prywatność tam, gdzie jest potrzebna, bez zasłaniania całej tafli.',
+    result:
+      'Po montażu dolne partie przeszkleń rozpraszają obraz i ograniczają widoczność do sal, natomiast przezroczysta góra nadal otwiera widok na zieleń i place przedszkolne. Pomieszczenia zachowały naturalne światło, a powtarzalny mleczny pas uporządkował wygląd okien od wewnątrz i od strony elewacji. Porównanie przed i po pokazuje wyraźną zmianę bez ciężkich rolet, zasłon ani wymiany szyb.',
+    scope: [
+      'ocena dużych przeszkleń w salach przedszkolnych',
+      'dobór folii mrożonej do stałej prywatności i zachowania światła dziennego',
+      'wyznaczenie jednakowej wysokości oklejenia na wielu szybach',
+      'dokładne przygotowanie i oczyszczenie powierzchni szkła',
+      'docinanie formatek do poszczególnych szyb',
+      'montaż folii mrożonej na dolnych częściach przeszkleń',
+      'kontrola linii, krawędzi i spójności efektu w kolejnych salach',
+      'sprawdzenie wyglądu okien od wewnątrz i od strony elewacji',
+    ],
+    tags: [
+      'folie mrożone Świętochłowice',
+      'folia mrożona Świętochłowice',
+      'folia mrożona na okna przedszkola',
+      'folie mrożone na szyby',
+      'folie matowe Świętochłowice',
+      'folie okienne do przedszkola',
+      'folia na okna do prywatności',
+      'montaż folii okiennych Świętochłowice',
+      'Przedszkole Miejskie nr 7 w Świętochłowicach',
+      'Katowice i okolice',
+    ],
+    relatedServicesIntro:
+      'Ta realizacja jest powiązana przede wszystkim z foliami mrożonymi do stałej prywatności, a dodatkowo z kategorią folii matowych. Oba rozwiązania rozpraszają obraz za szybą i przepuszczają światło, a zakres oklejenia można dopasować do funkcji pomieszczenia: od pasa na wysokości wzroku po pełną taflę. Dla placówek oświatowych i innych obiektów publicznych ważne są także równa linia aplikacji, powtarzalność na wielu przeszkleniach oraz estetyczny wygląd z obu stron szyby.',
+    quote:
+      'Przy dużej liczbie podobnych okien o jakości realizacji decyduje nie tylko dobór folii, lecz także powtarzalność. Jedna wysokość pasa, równe krawędzie i spójny efekt sprawiają, że prywatność staje się naturalną częścią architektury budynku.',
+    whatToSend:
+      'Do podobnej wyceny najlepiej wysłać zdjęcia całych okien, liczbę szyb, wymiary od uszczelki do uszczelki, planowaną wysokość pasa folii, lokalizację oraz informację, czy oklejenie ma objąć dolną część, całą taflę czy wybrany wzór. Przy większych obiektach warto też wskazać liczbę pomieszczeń i dostęp do przeszkleń.',
+    images: [
+      {
+        thumb:
+          '/img/realizacje/folie-mrozone-przedszkole-swietochlowice/01-folie-mrozone-okna-przedszkole-swietochlowice-thumb.webp',
+        full:
+          '/img/realizacje/folie-mrozone-przedszkole-swietochlowice/01-folie-mrozone-okna-przedszkole-swietochlowice.webp',
+        width: 1600,
+        height: 1202,
+        thumbWidth: 600,
+        thumbHeight: 451,
+        alt:
+          'Folie mrożone na dolnych częściach okien Przedszkola Miejskiego nr 7 w Świętochłowicach',
+        caption: 'Równy pas folii mrożonej na oknach jednej z sal przedszkolnych.',
+      },
+      {
+        thumb:
+          '/img/realizacje/folie-mrozone-przedszkole-swietochlowice/02-przed-po-folie-mrozone-przedszkole-swietochlowice-thumb.webp',
+        full:
+          '/img/realizacje/folie-mrozone-przedszkole-swietochlowice/02-przed-po-folie-mrozone-przedszkole-swietochlowice.webp',
+        width: 1600,
+        height: 632,
+        thumbWidth: 600,
+        thumbHeight: 237,
+        alt:
+          'Porównanie okien sali przed i po montażu folii mrożonej w przedszkolu w Świętochłowicach',
+        caption: 'Przed i po: dolne części szyb zyskały mleczne wykończenie i większą prywatność.',
+      },
+      {
+        thumb:
+          '/img/realizacje/folie-mrozone-przedszkole-swietochlowice/03-folia-mrozona-przeszklenia-sala-przedszkolna-swietochlowice-thumb.webp',
+        full:
+          '/img/realizacje/folie-mrozone-przedszkole-swietochlowice/03-folia-mrozona-przeszklenia-sala-przedszkolna-swietochlowice.webp',
+        width: 1600,
+        height: 1202,
+        thumbWidth: 600,
+        thumbHeight: 451,
+        alt:
+          'Folia mrożona na dużych przeszkleniach sali przedszkolnej w Świętochłowicach',
+        caption: 'Częściowe oklejenie ogranicza wgląd, pozostawiając przezroczystą górę szyb.',
+      },
+      {
+        thumb:
+          '/img/realizacje/folie-mrozone-przedszkole-swietochlowice/04-folia-mrozona-przeszklenia-przedszkole-swietochlowice-thumb.webp',
+        full:
+          '/img/realizacje/folie-mrozone-przedszkole-swietochlowice/04-folia-mrozona-przeszklenia-przedszkole-swietochlowice.webp',
+        width: 1600,
+        height: 1200,
+        thumbWidth: 600,
+        thumbHeight: 450,
+        alt:
+          'Folia mrożona na dużych przeszkleniach sali Przedszkola Miejskiego nr 7 w Świętochłowicach',
+        caption: 'Spójna wysokość mrożonego pasa na sąsiednich oknach.',
+      },
+      {
+        thumb:
+          '/img/realizacje/folie-mrozone-przedszkole-swietochlowice/05-czesciowe-oklejenie-okien-folia-mrozona-przedszkole-thumb.webp',
+        full:
+          '/img/realizacje/folie-mrozone-przedszkole-swietochlowice/05-czesciowe-oklejenie-okien-folia-mrozona-przedszkole.webp',
+        width: 1600,
+        height: 1200,
+        thumbWidth: 600,
+        thumbHeight: 450,
+        alt:
+          'Częściowe oklejenie okien folią mrożoną w przedszkolu w Świętochłowicach',
+        caption: 'Dolne partie szyb zapewniają prywatność bez zasłaniania widoku powyżej pasa folii.',
+      },
+      {
+        thumb:
+          '/img/realizacje/folie-mrozone-przedszkole-swietochlowice/06-folia-mrozona-okna-od-zewnatrz-przedszkole-swietochlowice-thumb.webp',
+        full:
+          '/img/realizacje/folie-mrozone-przedszkole-swietochlowice/06-folia-mrozona-okna-od-zewnatrz-przedszkole-swietochlowice.webp',
+        width: 1600,
+        height: 1200,
+        thumbWidth: 600,
+        thumbHeight: 450,
+        alt:
+          'Okna przedszkola w Świętochłowicach z folią mrożoną widziane od zewnątrz',
+        caption: 'Mleczny pas folii oglądany od strony zewnętrznego placu.',
+      },
+      {
+        thumb:
+          '/img/realizacje/folie-mrozone-przedszkole-swietochlowice/07-budynek-przedszkola-miejskiego-nr-7-swietochlowice-thumb.webp',
+        full:
+          '/img/realizacje/folie-mrozone-przedszkole-swietochlowice/07-budynek-przedszkola-miejskiego-nr-7-swietochlowice.webp',
+        width: 1600,
+        height: 1202,
+        thumbWidth: 600,
+        thumbHeight: 451,
+        alt:
+          'Budynek Przedszkola Miejskiego nr 7 w Świętochłowicach po montażu folii mrożonych',
+        caption: 'Widok nowoczesnego budynku przedszkola i powtarzalnego układu przeszkleń.',
+      },
+      {
+        thumb:
+          '/img/realizacje/folie-mrozone-przedszkole-swietochlowice/08-okna-przedszkola-z-folia-mrozona-swietochlowice-thumb.webp',
+        full:
+          '/img/realizacje/folie-mrozone-przedszkole-swietochlowice/08-okna-przedszkola-z-folia-mrozona-swietochlowice.webp',
+        width: 1600,
+        height: 1200,
+        thumbWidth: 600,
+        thumbHeight: 450,
+        alt:
+          'Elewacja przedszkola w Świętochłowicach z oknami oklejonymi folią mrożoną',
+        caption: 'Folie mrożone tworzą spójny pas na przeszkleniach kolejnych sal.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Czy folia mrożona nadaje się na okna w przedszkolu?',
+        answer:
+          'Tak. Folia mrożona może ograniczyć wgląd do sal, zachowując rozproszone światło dzienne. Zakres oklejenia dobiera się do układu okien i potrzeb placówki: może to być dolna część szyby, pas na wybranej wysokości albo cała tafla.',
+      },
+      {
+        question: 'Czy folia mrożona przepuszcza światło dzienne?',
+        answer:
+          'Tak. Folia mrożona rozprasza obraz za szybą, ale nie działa jak pełna, nieprzezroczysta osłona. Pomieszczenie pozostaje jasne, a przy częściowym oklejeniu dodatkowo zachowuje się przezroczysty widok przez górną część okna.',
+      },
+      {
+        question: 'Czy trzeba oklejać całe okna w placówce oświatowej?',
+        answer:
+          'Nie. W Przedszkolu Miejskim nr 7 zastosowaliśmy równy pas na dolnych częściach przeszkleń. Takie rozwiązanie zapewnia prywatność na potrzebnej wysokości, a jednocześnie nie zamyka widoku i nie zasłania całej szyby.',
+      },
+      {
+        question: 'Czym różnią się folie matowe od folii mrożonych?',
+        answer:
+          'Obie kategorie służą do stałego ograniczenia widoczności przez szybę i przepuszczają światło. Folie matowe zwykle dają spokojny, satynowy lub mleczny efekt, a folie mrożone są bardziej dekoracyjne i mocniej nawiązują do szkła piaskowanego albo mrożonego.',
+      },
+      {
+        question: 'Co wysłać do wyceny folii mrożonych w Świętochłowicach i okolicach?',
+        answer:
+          'Najlepiej przesłać zdjęcia całych przeszkleń, liczbę i wymiary szyb, planowaną wysokość oklejenia, lokalizację oraz informację o dostępie. Przy większym obiekcie warto podzielić zakres na pomieszczenia i wskazać, gdzie potrzebna jest częściowa, a gdzie pełna prywatność.',
+      },
+    ],
+  },
+  {
     slug: 'montaz-folii-przeciwslonecznej-gieraltowice',
     path: '/realizacje/montaz-folii-przeciwslonecznej-gieraltowice',
     title: 'Montaż folii przeciwsłonecznej w domu w Gierałtowicach',

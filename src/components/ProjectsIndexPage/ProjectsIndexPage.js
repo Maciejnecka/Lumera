@@ -1,5 +1,6 @@
 import React, { useMemo, useState } from 'react';
 import {
+  getFeaturedProjects,
   getProjectRegion,
   getProjectServiceFilters,
   projectPagesData,
@@ -63,7 +64,7 @@ const ProjectsIndexPage = ({ breadcrumbs }) => {
   const [serviceFilter, setServiceFilter] = useState(ALL_FILTER);
   const [regionFilter, setRegionFilter] = useState(ALL_FILTER);
   const [visibleCount, setVisibleCount] = useState(INITIAL_VISIBLE_PROJECTS);
-  const heroProject = projectPagesData[0];
+  const heroProject = getFeaturedProjects(1)[0];
 
   const serviceTypes = useMemo(() => uniqueServiceFilters(projectPagesData), []);
   const regions = useMemo(() => uniqueRegions(projectPagesData), []);
@@ -108,7 +109,7 @@ const ProjectsIndexPage = ({ breadcrumbs }) => {
             decoding="async"
           />
           <div>
-            <span>Ostatnia realizacja</span>
+            <span>Wyróżniona realizacja</span>
             <strong>{heroProject.title}</strong>
             <p>{heroProject.seoDescription}</p>
           </div>
