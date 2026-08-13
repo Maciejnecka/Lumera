@@ -1,5 +1,201 @@
 export const projectPagesData = [
   {
+    slug: 'folia-lcd-szklana-sciana-apartament-nowy-sacz',
+    path: '/realizacje/folia-lcd-szklana-sciana-apartament-nowy-sacz',
+    title: 'Inteligentna folia LCD na szklanej ścianie w apartamencie w Nowym Sączu',
+    seoTitle: 'Folia LCD Nowy Sącz – szklana ściana w apartamencie | Lumera',
+    seoDescription:
+      'Montaż inteligentnej folii LCD/PDLC na szklanej ścianie w apartamencie w Nowym Sączu. Prywatność na żądanie, efekt transparentny i mleczny.',
+    eyebrow: 'Realizacja: folie LCD Nowy Sącz i okolice',
+    lead:
+      'W apartamencie w Nowym Sączu zamontowaliśmy inteligentną folię LCD na dużej, dwuskrzydłowej szklanej ścianie oddzielającej strefy wnętrza. Folia przełączalna PDLC pozwala w jednej chwili zmienić przezroczyste przeszklenie w mleczną powierzchnię ograniczającą wgląd. Domownicy zachowali nowoczesny charakter szkła i dostęp do światła, a jednocześnie zyskali prywatność na żądanie bez rolet, zasłon ani stałego matowienia szyby.',
+    storyTitle: 'Prywatność na przełącznik bez rezygnacji z otwartej, szklanej ściany.',
+    coverCaption: 'Folia LCD w trybie mlecznym na szklanej ścianie w apartamencie w Nowym Sączu',
+    city: 'Nowy Sącz',
+    region: 'Nowy Sącz',
+    objectType: 'apartament prywatny',
+    serviceType: 'Folie LCD / PDLC',
+    serviceFilters: ['Folie LCD'],
+    relatedFilmPath: '/folie-lcd',
+    relatedFilmPaths: ['/folie-lcd'],
+    relatedServicePaths: ['/folie-lcd'],
+    contactTopic: 'lcd',
+    featured: true,
+    coverImage:
+      '/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/cover.webp',
+    coverWidth: 1200,
+    coverHeight: 800,
+    datePublished: '2026-08-13',
+    dateModified: '2026-08-13',
+    dateCompleted: '2026-08',
+    locationContext:
+      'Realizacja została wykonana w nowoczesnym apartamencie w Nowym Sączu. Duża szklana ściana w czarnej ramie miała pozostać lekka wizualnie i przezroczysta podczas codziennego użytkowania, ale w wybranych momentach zapewniać prywatność pomiędzy pomieszczeniami. Przy takim montażu inteligentnej folii na szybę liczą się dokładne pomiary obu tafli, perfekcyjne przygotowanie szkła, równe prowadzenie krawędzi oraz wcześniejsze zaplanowanie zasilania, sterowania i ukrycia przewodów.',
+    problem:
+      'Stała folia matowa odebrałaby przeszkleniu jego najważniejszą zaletę: możliwość optycznego połączenia pomieszczeń. Z kolei pozostawienie szyby całkowicie transparentnej nie dawało prywatności wtedy, gdy była potrzebna. Rolety lub zasłony przy dużej szklanej ścianie zajmowałyby miejsce, wymagały dodatkowych prowadnic i nie pasowały do minimalistycznej zabudowy. Potrzebne było rozwiązanie, które połączy szkło transparentne i mleczne w jednej powierzchni.',
+    solution:
+      'Zastosowaliśmy samoprzylepną folię przełączalną PDLC, nazywaną również folią LCD, smart filmem lub inteligentną folią na szybę. Materiał został dopasowany do dwóch dużych tafli szklanej ściany. Przed aplikacją szkło dokładnie oczyściliśmy, a podczas montażu kontrolowaliśmy linię łączenia, krawędzie i powierzchnię folii. Układ został przygotowany tak, aby po podaniu zasilania folia przechodziła w tryb transparentny, a po jego wyłączeniu uzyskiwała równy, mleczny efekt zapewniający prywatność na żądanie.',
+    result:
+      'Po montażu jedno przeszklenie pełni dwie funkcje. W trybie transparentnym szklana ściana otwiera widok i zachowuje przestronność apartamentu. Po przełączeniu folia LCD staje się mleczna, rozprasza obraz i ogranicza bezpośredni wgląd do drugiej strefy wnętrza. Zdjęcia oraz animacja pokazują realną zmianę pomiędzy trybem przezroczystym a prywatnym. To przykład zastosowania folii LCD w domu lub mieszkaniu, nie tylko w biurze, gabinecie czy sali konferencyjnej.',
+    scope: [
+      'ocena istniejącej szklanej ściany i możliwości montażu folii LCD',
+      'dokładny pomiar dwóch dużych tafli od krawędzi do krawędzi',
+      'dobór inteligentnej folii PDLC do prywatności na żądanie',
+      'zaplanowanie zasilania, sterowania i prowadzenia przewodów',
+      'dokładne oczyszczenie i przygotowanie powierzchni szkła',
+      'docinanie folii przełączalnej do wymiarów przeszkleń',
+      'montaż folii LCD na szklanej ścianie w apartamencie',
+      'kontrola krawędzi, powierzchni i linii pomiędzy taflami',
+      'sprawdzenie trybu transparentnego oraz mlecznego',
+      'test działania systemu i efektu prywatności po przełączeniu',
+    ],
+    tags: [
+      'folie LCD Nowy Sącz',
+      'folia LCD Nowy Sącz',
+      'folie PDLC Nowy Sącz',
+      'folia PDLC Nowy Sącz',
+      'montaż folii LCD Nowy Sącz',
+      'inteligentna folia na szybę Nowy Sącz',
+      'smart film Nowy Sącz',
+      'folia przełączalna Nowy Sącz',
+      'folia elektryczna na szybę',
+      'folia ciekłokrystaliczna',
+      'prywatność na żądanie',
+      'szkło mleczne na przełącznik',
+      'inteligentne szkło Nowy Sącz',
+      'folia LCD do domu',
+      'folia LCD do mieszkania',
+      'folia na szklaną ścianę',
+      'szklana ściana w apartamencie',
+      'Nowy Sącz i okolice',
+    ],
+    relatedServicesIntro:
+      'Realizacja jest bezpośrednio powiązana z usługą montażu folii LCD i PDLC w Nowym Sączu i okolicach. Inteligentna folia przełączalna sprawdza się na szklanych ścianach w apartamentach, domach, gabinetach, biurach, salach konferencyjnych, hotelach i wnętrzach premium. W odróżnieniu od zwykłej folii matowej pozwala sterować prywatnością, ale wymaga dobrego projektu zasilania, sterowania, krawędzi i prowadzenia przewodów.',
+    quote:
+      'Największą zaletą folii LCD jest swoboda wyboru. Ta sama szklana ściana może otwierać wnętrze i wpuszczać światło, a chwilę później tworzyć prywatną, mleczną przegrodę — bez ciężkich osłon i bez stałej zmiany charakteru szkła.',
+    whatToSend:
+      'Do wyceny podobnego montażu folii LCD w Nowym Sączu lub okolicy najlepiej wysłać zdjęcie całej szklanej ściany, osobne zdjęcia każdej tafli i krawędzi, dokładne wymiary od uszczelki do uszczelki, liczbę szyb, lokalizację oraz informację o dostępie do prądu. Warto też opisać oczekiwany sposób sterowania: przełącznik ścienny, pilot albo integracja z automatyką.',
+    images: [
+      {
+        thumb:
+          '/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/01-folia-lcd-tryb-mleczny-prywatnosc-nowy-sacz-thumb.webp',
+        full:
+          '/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/01-folia-lcd-tryb-mleczny-prywatnosc-nowy-sacz.webp',
+        width: 1200,
+        height: 1600,
+        thumbWidth: 450,
+        thumbHeight: 600,
+        alt:
+          'Folia LCD w trybie mlecznym na szklanej ścianie w apartamencie w Nowym Sączu',
+        caption:
+          'Tryb prywatny: inteligentna folia LCD zmienia przeszklenie w równą, mleczną powierzchnię.',
+      },
+      {
+        thumb:
+          '/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/02-montaz-inteligentnej-folii-lcd-na-szybie-thumb.webp',
+        full:
+          '/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/02-montaz-inteligentnej-folii-lcd-na-szybie.webp',
+        width: 1200,
+        height: 1600,
+        thumbWidth: 450,
+        thumbHeight: 600,
+        alt:
+          'Montaż inteligentnej folii LCD PDLC na dużej szklanej ścianie w Nowym Sączu',
+        caption:
+          'Etap montażu folii przełączalnej na dwóch taflach szklanej ściany.',
+      },
+      {
+        thumb:
+          '/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/03-folia-lcd-tryb-transparentny-nowy-sacz-thumb.webp',
+        full:
+          '/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/03-folia-lcd-tryb-transparentny-nowy-sacz.webp',
+        width: 1200,
+        height: 1600,
+        thumbWidth: 450,
+        thumbHeight: 600,
+        alt:
+          'Folia LCD w trybie transparentnym na szklanej ścianie w apartamencie w Nowym Sączu',
+        caption:
+          'Tryb transparentny: szklana ściana ponownie otwiera widok na drugą część apartamentu.',
+      },
+      {
+        thumb:
+          '/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/04-folia-lcd-zmiana-prywatnosci-animacja-thumb.webp',
+        full:
+          '/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/04-folia-lcd-zmiana-prywatnosci-animacja.webp',
+        width: 360,
+        height: 639,
+        thumbWidth: 270,
+        thumbHeight: 479,
+        alt:
+          'Animacja działania folii LCD pokazująca zmianę szyby z transparentnej na mleczną',
+        caption:
+          'Animacja: przełączenie inteligentnej folii LCD pomiędzy transparentnością a prywatnością.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Jak działa inteligentna folia LCD lub PDLC na szybie?',
+        answer:
+          'Folia PDLC zawiera ciekłe kryształy zamknięte w warstwie polimerowej. Po podaniu odpowiedniego napięcia kryształy porządkują się, a szyba staje się bardziej transparentna. Po wyłączeniu zasilania światło jest rozpraszane i folia przyjmuje mleczny wygląd, który ogranicza bezpośredni wgląd.',
+      },
+      {
+        question: 'Czy folia LCD jest mleczna po wyłączeniu prądu?',
+        answer:
+          'Tak, w zastosowanym systemie brak zasilania oznacza tryb mleczny, a podanie napięcia uruchamia tryb transparentny. Dzięki temu po zaniku prądu przeszklenie pozostaje w ustawieniu zapewniającym większą prywatność.',
+      },
+      {
+        question: 'Czy folia LCD zapewnia pełną prywatność?',
+        answer:
+          'Tryb mleczny skutecznie rozprasza obraz i ogranicza rozpoznawanie szczegółów za szybą. Widoczność cieni lub sylwetek może jednak zależeć od odległości osoby od szkła i różnicy oświetlenia po obu stronach, dlatego efekt zawsze warto ocenić dla konkretnego wnętrza.',
+      },
+      {
+        question: 'Czy folię LCD można zamontować na istniejącej szklanej ścianie?',
+        answer:
+          'W wielu przypadkach tak. Szkło musi być stabilne, gładkie i w dobrym stanie, a konstrukcja powinna umożliwiać estetyczne wyprowadzenie przewodów oraz zabezpieczenie krawędzi. Przed wyceną potrzebne są zdjęcia całego przeszklenia, profili i miejsc przyłączenia zasilania.',
+      },
+      {
+        question: 'Czy folia LCD nadaje się do domu lub apartamentu?',
+        answer:
+          'Tak. Poza biurami, salami konferencyjnymi i gabinetami folie LCD stosuje się także w domach, mieszkaniach i apartamentach: na szklanych ścianach, drzwiach, przeszkleniach przy sypialni, łazience lub domowym gabinecie. Ta realizacja z Nowego Sącza pokazuje właśnie zastosowanie mieszkalne.',
+      },
+      {
+        question: 'Jak można sterować folią LCD?',
+        answer:
+          'Sposób sterowania dobiera się na etapie projektu. Zależnie od osprzętu folię można obsługiwać przełącznikiem ściennym, pilotem, przyciskiem lub zintegrować z systemem automatyki. Trzeba wcześniej zaplanować zasilacz, przewody i miejsce wykonania połączeń.',
+      },
+      {
+        question: 'Czy inteligentna folia LCD zużywa dużo prądu?',
+        answer:
+          'Pobór energii zależy od powierzchni folii i parametrów konkretnego systemu. Zasilanie jest potrzebne w trybie transparentnym, dlatego rzeczywiste zużycie zależy również od tego, jak długo przeszklenie ma pozostawać przezroczyste. Dokładne dane potwierdza się przy doborze materiału i zasilacza.',
+      },
+      {
+        question: 'Czy folia PDLC może służyć jako ekran projekcyjny?',
+        answer:
+          'Mleczna powierzchnia może być wykorzystywana do projekcji w wybranych aranżacjach, szczególnie w biurach, showroomach i salach spotkań. Jakość obrazu zależy jednak od projektora, światła w pomieszczeniu, kierunku projekcji i parametrów zastosowanej folii.',
+      },
+      {
+        question: 'Czy folia LCD chroni przed słońcem i nagrzewaniem?',
+        answer:
+          'Podstawową funkcją folii LCD jest sterowanie prywatnością, a nie redukcja energii słonecznej. Jeśli problemem jest przegrzewanie pomieszczenia lub silne odblaski, trzeba osobno ocenić szybę i możliwość zastosowania odpowiedniej folii przeciwsłonecznej.',
+      },
+      {
+        question: 'Od czego zależy cena montażu folii LCD w Nowym Sączu?',
+        answer:
+          'Na cenę wpływają wymiary i liczba tafli, powierzchnia folii PDLC, liczba połączeń, rodzaj sterowania, zasilacz, przygotowanie szkła, sposób wykończenia krawędzi i możliwość ukrycia przewodów. Do wstępnej wyceny warto wysłać zdjęcia, dokładne wymiary szyb oraz lokalizację w Nowym Sączu lub okolicy.',
+      },
+      {
+        question: 'Jak czyścić szybę po montażu folii LCD?',
+        answer:
+          'Powierzchnię należy czyścić miękką ściereczką i łagodnym środkiem, bez materiałów ściernych, ostrych narzędzi oraz nadmiernego zalewania krawędzi. Dokładne zalecenia przekazujemy po montażu, ponieważ krawędzie i połączenia elektryczne wymagają ostrożnej pielęgnacji.',
+      },
+      {
+        question: 'Co wysłać do wyceny inteligentnej folii na szybę?',
+        answer:
+          'Potrzebne są zdjęcia całego przeszklenia i jego krawędzi, dokładna szerokość i wysokość każdej tafli od uszczelki do uszczelki, liczba szyb, lokalizacja, informacja o dostępie do prądu oraz oczekiwany sposób sterowania. Przy nietypowej zabudowie może być konieczny pomiar na miejscu.',
+      },
+    ],
+  },
+  {
     slug: 'folie-przeciwsloneczne-szpital-murcki-katowice',
     path: '/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice',
     title: 'Folie przeciwsłoneczne dla Szpitala Murcki w Katowicach',
