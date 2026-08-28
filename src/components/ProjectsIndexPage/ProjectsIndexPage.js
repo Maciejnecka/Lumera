@@ -24,18 +24,28 @@ import {
 
 const INITIAL_VISIBLE_PROJECTS = 9;
 const ALL_FILTER = 'all';
+const REGION_ORDER = ['Katowice', 'Kraków', 'Polska'];
 
 const uniqueRegions = (items) =>
-  [...new Set(items.map(getProjectRegion).filter(Boolean))].sort((a, b) =>
-    a.localeCompare(b, 'pl')
-  );
+  [...new Set(items.map(getProjectRegion).filter(Boolean))].sort((a, b) => {
+    const aIndex = REGION_ORDER.indexOf(a);
+    const bIndex = REGION_ORDER.indexOf(b);
+
+    if (aIndex !== -1 || bIndex !== -1) {
+      return (aIndex === -1 ? REGION_ORDER.length : aIndex) -
+        (bIndex === -1 ? REGION_ORDER.length : bIndex);
+    }
+
+    return a.localeCompare(b, 'pl');
+  });
 
 const uniqueServiceFilters = (items) =>
   [...new Set(items.flatMap(getProjectServiceFilters).filter(Boolean))].sort((a, b) =>
     a.localeCompare(b, 'pl')
   );
 
-const formatRegionLabel = (region) => `${region} i okolice`;
+const formatRegionLabel = (region) =>
+  region === 'Polska' ? 'Pozostałe' : `${region} i okolice`;
 
 const ProjectCardItem = ({ project, eager = false }) => (
   <ProjectCard href={project.path}>

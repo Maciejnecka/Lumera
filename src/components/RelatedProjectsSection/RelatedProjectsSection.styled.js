@@ -134,15 +134,12 @@ export const RelatedProjectImage = styled.div`
     height: 100%;
     display: block;
     object-fit: cover;
-    transition:
-      filter var(--transition-fast),
-      transform var(--transition-fast);
+    transition: filter var(--transition-fast);
   }
 
   ${RelatedProjectCard}:hover & img,
   ${RelatedProjectCard}:focus-visible & img {
     filter: saturate(0.82) brightness(0.76);
-    transform: scale(1.025);
   }
 `;
 

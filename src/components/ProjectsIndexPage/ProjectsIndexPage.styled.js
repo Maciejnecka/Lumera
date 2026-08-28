@@ -117,9 +117,7 @@ export const ProjectsHeroPanel = styled(Link)`
     height: clamp(14rem, 17vw, 22rem);
     display: block;
     object-fit: cover;
-    transition:
-      filter var(--transition-fast),
-      transform var(--transition-fast);
+    transition: filter var(--transition-fast);
   }
 
   > div {
@@ -169,7 +167,6 @@ export const ProjectsHeroPanel = styled(Link)`
   &:hover > img,
   &:focus-visible > img {
     filter: saturate(0.82) brightness(0.76);
-    transform: scale(1.025);
   }
 `;
 
@@ -225,21 +222,18 @@ export const FilterGroup = styled.div`
 
 export const ProjectsGrid = styled.div`
   width: 100%;
-  max-width: calc(90rem + 2.5rem);
+  max-width: 120rem;
   margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.25rem;
 
-  > * {
-    flex: 0 1 30rem;
+  @media (max-width: 1100px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   ${media.sm`
-    > * {
-      flex-basis: 100%;
-    }
+    grid-template-columns: 1fr;
   `}
 `;
 
@@ -329,9 +323,7 @@ export const ProjectCardImage = styled.div`
     height: 100%;
     display: block;
     object-fit: cover;
-    transition:
-      filter var(--transition-fast),
-      transform var(--transition-fast);
+    transition: filter var(--transition-fast);
   }
 
   span {
@@ -352,7 +344,6 @@ export const ProjectCardImage = styled.div`
   ${ProjectCard}:hover & img,
   ${ProjectCard}:focus-visible & img {
     filter: saturate(0.82) brightness(0.76);
-    transform: scale(1.025);
   }
 `;
 

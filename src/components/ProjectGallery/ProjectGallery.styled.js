@@ -229,7 +229,7 @@ export const GalleryThumbs = styled.div`
 
 export const GalleryThumb = styled.button`
   position: relative;
-  flex: 0 0 10.4rem;
+  flex: 0 0 14rem;
   min-width: 0;
   overflow: hidden;
   aspect-ratio: 4 / 3;
@@ -281,7 +281,7 @@ export const GalleryThumb = styled.button`
   }
 
   ${media.sm`
-    flex-basis: 8.8rem;
+    flex-basis: 10.4rem;
     border-radius: 1.3rem;
   `}
 `;

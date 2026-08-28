@@ -1,5 +1,184 @@
 export const projectPagesData = [
   {
+    slug: 'folia-przeciwsloneczna-podnosnik-grudziadz',
+    path: '/realizacje/folia-przeciwsloneczna-podnosnik-grudziadz',
+    title: 'Montaż folii przeciwsłonecznej z podnośnika w Grudziądzu',
+    seoTitle: 'Folie przeciwsłoneczne Grudziądz – montaż | Lumera',
+    seoDescription:
+      'Montaż folii przeciwsłonecznej na przeszkleniach budynku w Grudziądzu. Praca z podnośnika, zabezpieczenie strefy i efekt na szklanej elewacji.',
+    eyebrow: 'Realizacja: folia przeciwsłoneczna Grudziądz',
+    lead:
+      'W Grudziądzu wykonaliśmy montaż folii przeciwsłonecznej na rozległych przeszkleniach wielokondygnacyjnego budynku. Ze względu na wysokość okien i dostęp od strony dziedzińca prace prowadziliśmy z podnośnika koszowego. Realizacja wymagała dokładnego zaplanowania kolejności montażu, zabezpieczenia strefy roboczej i utrzymania równego efektu na całej elewacji.',
+    storyTitle: 'Folia przeciwsłoneczna na wysokich przeszkleniach – bezpieczny montaż z podnośnika.',
+    coverCaption:
+      'Elewacja budynku w Grudziądzu po montażu folii przeciwsłonecznej z wykorzystaniem podnośnika',
+    city: 'Grudziądz',
+    region: 'Polska',
+    objectType: 'budynek wielokondygnacyjny',
+    serviceType: 'Folie przeciwsłoneczne',
+    serviceFilters: ['Folie przeciwsłoneczne'],
+    relatedFilmPath: '/folie-przeciwsloneczne-zewnetrzne',
+    relatedFilmPaths: ['/folie-przeciwsloneczne-zewnetrzne'],
+    relatedServicePaths: [
+      '/folie-przeciwsloneczne-zewnetrzne',
+      '/folie-przeciwsloneczne',
+    ],
+    contactTopic: 'solar-films',
+    featured: true,
+    coverImage:
+      '/img/realizacje/folia-przeciwsloneczna-podnosnik-grudziadz/cover-hq-v2.webp',
+    coverWidth: 1600,
+    coverHeight: 1200,
+    datePublished: '2026-08-28',
+    dateModified: '2026-08-28',
+    dateCompleted: '2026-08',
+    locationContext:
+      'Realizację przeprowadziliśmy na wysokiej elewacji budynku w Grudziądzu. Część szyb znajdowała się poza bezpiecznym zasięgiem pracy z poziomu gruntu, dlatego niezbędny był podnośnik koszowy oraz wydzielona strefa robocza. Przy takim montażu liczy się nie tylko dobór folii do rodzaju przeszklenia i ekspozycji słonecznej, ale również zasięg maszyny, stabilne ustawienie kosza, warunki pogodowe i kolejność aplikacji na poszczególnych kondygnacjach.',
+    problem:
+      'Duża powierzchnia przeszkleń była wystawiona na intensywne promieniowanie słoneczne. W pomieszczeniach mogło to zwiększać odczuwalne nagrzewanie i powodować uciążliwe odblaski, a tradycyjne osłony wewnętrzne nie zatrzymywały energii słonecznej przed szybą. Dodatkowym wyzwaniem była wysokość okien oraz ograniczony dostęp do zewnętrznej strony fasady.',
+    solution:
+      'Po ocenie przeszkleń zastosowaliśmy zewnętrzną folię przeciwsłoneczną, która ogranicza ilość energii słonecznej przenikającej przez szyby i pomaga poprawić komfort wewnątrz budynku. Montaż wykonaliśmy z podnośnika koszowego. Każdą szybę dokładnie przygotowaliśmy, a formatki folii dopasowaliśmy tak, aby uzyskać spójny wygląd całej elewacji i starannie wykończone krawędzie.',
+    result:
+      'Po montażu przeszklenia zyskały jednolity, lekko refleksyjny wygląd widoczny na całej fasadzie. Folia pomaga ograniczyć nagrzewanie oraz odblaski bez zasłaniania okien ciężkimi osłonami. Zdjęcia pokazują gotową elewację i organizację prac z podnośnika, która umożliwiła bezpieczny dostęp do szyb na wyższych kondygnacjach.',
+    scope: [
+      'ocena rodzaju przeszkleń i ekspozycji słonecznej budynku',
+      'dobór zewnętrznej folii przeciwsłonecznej do elewacji',
+      'pomiary szyb i przygotowanie formatek folii',
+      'zaplanowanie kolejności prac na poszczególnych kondygnacjach',
+      'organizacja podnośnika koszowego i zabezpieczenie strefy montażu',
+      'dokładne mycie oraz przygotowanie powierzchni szkła',
+      'montaż folii przeciwsłonecznej z podnośnika',
+      'kontrola ułożenia folii i estetyki krawędzi',
+      'sprawdzenie spójności efektu na całej elewacji',
+      'uporządkowanie miejsca pracy po zakończeniu montażu',
+    ],
+    tags: [
+      'folie przeciwsłoneczne Grudziądz',
+      'folia przeciwsłoneczna Grudziądz',
+      'montaż folii okiennych Grudziądz',
+      'montaż folii przeciwsłonecznej Grudziądz',
+      'zewnętrzna folia przeciwsłoneczna Grudziądz',
+      'folie na okna Grudziądz',
+      'folia na szyby Grudziądz',
+      'folie okienne Grudziądz',
+      'montaż folii z podnośnika',
+      'praca z podnośnika koszowego',
+      'folia przeciwsłoneczna na elewację',
+      'folia na wysokie okna',
+      'folie przeciwsłoneczne do biura',
+      'ograniczenie nagrzewania pomieszczeń',
+      'redukcja odblasków na szybach',
+      'folie przeciwsłoneczne kujawsko-pomorskie',
+      'montaż folii okiennych w Polsce',
+    ],
+    relatedServicesIntro:
+      'Ta realizacja łączy dobór zewnętrznej folii przeciwsłonecznej z organizacją montażu na wysokości. Przy większych fasadach w Grudziądzu i innych miastach analizujemy rodzaj szkła, nasłonecznienie, oczekiwany efekt wizualny oraz możliwość ustawienia podnośnika. Dopiero po takiej ocenie można dobrać bezpieczne rozwiązanie i realnie zaplanować zakres prac.',
+    quote:
+      'Przy wysokich przeszkleniach skuteczność folii jest tylko częścią zadania. Równie ważne są bezpieczny dostęp, dobra organizacja pracy z podnośnika i równy efekt na całej elewacji.',
+    whatToSend:
+      'Do wyceny podobnego montażu w Grudziądzu lub innym mieście wyślij zdjęcia całej elewacji, zbliżenia szyb i ram, przybliżone wymiary, liczbę okien, piętro, lokalizację oraz zdjęcia miejsca, w którym może stanąć podnośnik. Napisz też, czy problemem jest przede wszystkim nagrzewanie, odblaski, mocne słońce czy potrzeba większej prywatności w dzień.',
+    images: [
+      {
+        thumb:
+          '/img/realizacje/folia-przeciwsloneczna-podnosnik-grudziadz/01-folia-przeciwsloneczna-elewacja-grudziadz-thumb-hq.webp',
+        full:
+          '/img/realizacje/folia-przeciwsloneczna-podnosnik-grudziadz/01-folia-przeciwsloneczna-elewacja-grudziadz-hq.webp',
+        width: 2400,
+        height: 1803,
+        thumbWidth: 800,
+        thumbHeight: 600,
+        alt:
+          'Elewacja budynku po montażu folii przeciwsłonecznej z podnośnika w Grudziądzu',
+        caption:
+          'Gotowa elewacja po montażu folii przeciwsłonecznej na wysokich przeszkleniach w Grudziądzu.',
+      },
+      {
+        thumb:
+          '/img/realizacje/folia-przeciwsloneczna-podnosnik-grudziadz/02-podnosnik-montaz-folii-grudziadz-thumb-hq.webp',
+        full:
+          '/img/realizacje/folia-przeciwsloneczna-podnosnik-grudziadz/02-podnosnik-montaz-folii-grudziadz-hq.webp',
+        width: 1448,
+        height: 1086,
+        thumbWidth: 800,
+        thumbHeight: 600,
+        alt:
+          'Podnośnik koszowy przed elewacją podczas montażu folii przeciwsłonecznej w Grudziądzu',
+        caption:
+          'Podnośnik koszowy umożliwił dostęp do szyb na wyższych kondygnacjach budynku.',
+      },
+      {
+        thumb:
+          '/img/realizacje/folia-przeciwsloneczna-podnosnik-grudziadz/03-okna-po-montazu-folii-grudziadz-thumb-hq.webp',
+        full:
+          '/img/realizacje/folia-przeciwsloneczna-podnosnik-grudziadz/03-okna-po-montazu-folii-grudziadz-hq.webp',
+        width: 2400,
+        height: 1800,
+        thumbWidth: 800,
+        thumbHeight: 600,
+        alt:
+          'Okna budynku w Grudziądzu po aplikacji zewnętrznej folii przeciwsłonecznej',
+        caption:
+          'Spójny efekt folii przeciwsłonecznej na kolejnych rzędach okien elewacji.',
+      },
+      {
+        thumb:
+          '/img/realizacje/folia-przeciwsloneczna-podnosnik-grudziadz/04-praca-z-podnosnika-grudziadz-thumb-hq.webp',
+        full:
+          '/img/realizacje/folia-przeciwsloneczna-podnosnik-grudziadz/04-praca-z-podnosnika-grudziadz-hq.webp',
+        width: 1448,
+        height: 1086,
+        thumbWidth: 800,
+        thumbHeight: 600,
+        alt:
+          'Praca z podnośnika przy montażu folii przeciwsłonecznej na elewacji w Grudziądzu',
+        caption:
+          'Widok strefy roboczej i podnośnika użytego podczas realizacji w Grudziądzu.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Czy montujecie folie przeciwsłoneczne w Grudziądzu?',
+        answer:
+          'Tak, większe realizacje wykonujemy również poza głównymi obszarami Krakowa i Katowic. Zakres, termin i sposób dojazdu ustalamy indywidualnie na podstawie zdjęć, wymiarów, liczby szyb oraz warunków dostępu do budynku.',
+      },
+      {
+        question: 'Kiedy montaż folii okiennej wymaga podnośnika?',
+        answer:
+          'Podnośnik jest potrzebny, gdy do zewnętrznej strony szyb nie ma bezpiecznego dostępu z poziomu gruntu, balkonu lub stałego podestu. Przed wyceną sprawdzamy wysokość pracy, zasięg maszyny, nośność i ukształtowanie podłoża oraz miejsce na wydzielenie strefy roboczej.',
+      },
+      {
+        question: 'Dlaczego folię przeciwsłoneczną montuje się po zewnętrznej stronie szyby?',
+        answer:
+          'W wielu pakietach szybowych zewnętrzna folia pozwala odbić część energii słonecznej zanim przeniknie ona do wnętrza. Stronę montażu i konkretny wariant folii zawsze dobiera się jednak do budowy szkła, ekspozycji oraz wymagań obiektu.',
+      },
+      {
+        question: 'Czy folia przeciwsłoneczna ogranicza nagrzewanie pomieszczeń?',
+        answer:
+          'Dobrze dobrana folia przeciwsłoneczna może wyraźnie ograniczyć ilość energii słonecznej przechodzącej przez szybę i poprawić komfort w pomieszczeniach. Rzeczywisty efekt zależy od rodzaju szkła, kierunku świata, powierzchni okien oraz parametrów wybranej folii.',
+      },
+      {
+        question: 'Czy folia zmienia wygląd elewacji budynku?',
+        answer:
+          'Tak, stopień zmiany zależy od koloru, przyciemnienia i refleksyjności materiału. Przy większych fasadach oceniamy nie tylko parametry przeciwsłoneczne, ale też oczekiwany wygląd całego budynku i spójność efektu na sąsiadujących szybach.',
+      },
+      {
+        question: 'Czy folia przeciwsłoneczna daje prywatność w dzień?',
+        answer:
+          'Warianty refleksyjne mogą ograniczać wgląd do wnętrza w dzień, gdy na zewnątrz jest jaśniej niż w środku. Nie jest to efekt całodobowy: wieczorem, przy zapalonym świetle wewnątrz, widoczność z zewnątrz może wzrosnąć.',
+      },
+      {
+        question: 'Czy montaż z podnośnika można wykonać przy działającym obiekcie?',
+        answer:
+          'Często jest to możliwe, ale wymaga uzgodnienia strefy pracy, dojazdu maszyny i kolejności oklejania szyb. Plan dostosowujemy do ruchu przy budynku, warunków pogodowych oraz zasad bezpieczeństwa obowiązujących na terenie obiektu.',
+      },
+      {
+        question: 'Co przesłać do wyceny folii przeciwsłonecznej na wysokich oknach?',
+        answer:
+          'Najbardziej pomagają zdjęcia całej elewacji i każdej grupy okien, wymiary szyb od uszczelki do uszczelki, liczba tafli, wysokość kondygnacji, lokalizacja oraz zdjęcia dojazdu i miejsca ustawienia podnośnika. Warto też opisać nasłonecznienie i oczekiwany efekt.',
+      },
+    ],
+  },
+  {
     slug: 'folia-lcd-szklana-sciana-apartament-nowy-sacz',
     path: '/realizacje/folia-lcd-szklana-sciana-apartament-nowy-sacz',
     title: 'Inteligentna folia LCD na szklanej ścianie w apartamencie w Nowym Sączu',
@@ -12,7 +191,7 @@ export const projectPagesData = [
     storyTitle: 'Prywatność na przełącznik bez rezygnacji z otwartej, szklanej ściany.',
     coverCaption: 'Folia LCD w trybie mlecznym na szklanej ścianie w apartamencie w Nowym Sączu',
     city: 'Nowy Sącz',
-    region: 'Nowy Sącz',
+    region: 'Polska',
     objectType: 'apartament prywatny',
     serviceType: 'Folie LCD / PDLC',
     serviceFilters: ['Folie LCD'],
@@ -22,9 +201,9 @@ export const projectPagesData = [
     contactTopic: 'lcd',
     featured: true,
     coverImage:
-      '/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/cover.webp',
-    coverWidth: 1200,
-    coverHeight: 800,
+      '/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/cover-hq-v2.webp',
+    coverWidth: 1600,
+    coverHeight: 1067,
     datePublished: '2026-08-13',
     dateModified: '2026-08-13',
     dateCompleted: '2026-08',
@@ -220,9 +399,9 @@ export const projectPagesData = [
     contactTopic: 'solar-films',
     featured: true,
     coverImage:
-      '/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/cover.webp',
-    coverWidth: 1200,
-    coverHeight: 800,
+      '/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/cover-hq-v2.webp',
+    coverWidth: 1600,
+    coverHeight: 1067,
     datePublished: '2026-07-14',
     dateModified: '2026-07-14',
     dateCompleted: '2026-07',
@@ -362,9 +541,9 @@ export const projectPagesData = [
     contactTopic: 'frosted',
     featured: false,
     coverImage:
-      '/img/realizacje/folie-mrozone-przedszkole-swietochlowice/cover.webp',
-    coverWidth: 1200,
-    coverHeight: 800,
+      '/img/realizacje/folie-mrozone-przedszkole-swietochlowice/cover-hq-v2.webp',
+    coverWidth: 1600,
+    coverHeight: 1067,
     datePublished: '2026-07-21',
     dateModified: '2026-07-21',
     dateCompleted: '2026-07',
@@ -563,9 +742,9 @@ export const projectPagesData = [
     contactTopic: 'solar-films',
     featured: true,
     coverImage:
-      '/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/cover.webp',
-    coverWidth: 1200,
-    coverHeight: 800,
+      '/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/cover-hq-v2.webp',
+    coverWidth: 1600,
+    coverHeight: 1067,
     datePublished: '2026-07-03',
     dateModified: '2026-07-03',
     dateCompleted: '2026-07',
@@ -702,9 +881,9 @@ export const projectPagesData = [
     relatedLocalPaths: ['/folie-przeciwsloneczne-krakow'],
     contactTopic: 'polycarbonate',
     featured: true,
-    coverImage: '/img/realizacje/folia-na-swietliki-dachowe-chomranice/cover.webp',
-    coverWidth: 1200,
-    coverHeight: 900,
+    coverImage: '/img/realizacje/folia-na-swietliki-dachowe-chomranice/cover-hq-v2.webp',
+    coverWidth: 1600,
+    coverHeight: 1200,
     datePublished: '2026-06-13',
     dateModified: '2026-06-13',
     dateCompleted: '2026-06',
@@ -842,9 +1021,9 @@ export const projectPagesData = [
     contactTopic: 'architectural-wraps',
     featured: true,
     coverImage:
-      '/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/cover.webp',
-    coverWidth: 1200,
-    coverHeight: 900,
+      '/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/cover-hq-v2.webp',
+    coverWidth: 1600,
+    coverHeight: 1200,
     datePublished: '2026-06-02',
     dateModified: '2026-06-02',
     dateCompleted: '2026-06',
@@ -969,7 +1148,7 @@ export const projectPagesData = [
     contactTopic: 'polycarbonate',
     featured: true,
     coverImage:
-      '/img/realizacje/montaz-folii-na-swietliki-dachowe-modlnica/cover.webp',
+      '/img/realizacje/montaz-folii-na-swietliki-dachowe-modlnica/cover-hq-v2.webp',
     coverWidth: 1600,
     coverHeight: 900,
     datePublished: '2026-06-01',
@@ -1107,9 +1286,9 @@ export const projectPagesData = [
     contactTopic: 'solar-films',
     featured: true,
     coverImage:
-      '/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/cover.webp',
-    coverWidth: 900,
-    coverHeight: 675,
+      '/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/cover-hq-v2.webp',
+    coverWidth: 1600,
+    coverHeight: 1200,
     datePublished: '2026-05-28',
     dateModified: '2026-05-28',
     dateCompleted: '2026-05',
@@ -1362,9 +1541,9 @@ export const projectPagesData = [
     contactTopic: 'solar-films',
     featured: true,
     coverImage:
-      '/img/realizacje/folie-przeciwsloneczne-dom-prywatny-zelkow/cover.webp',
-    coverWidth: 900,
-    coverHeight: 675,
+      '/img/realizacje/folie-przeciwsloneczne-dom-prywatny-zelkow/cover-hq-v2.webp',
+    coverWidth: 1600,
+    coverHeight: 1200,
     datePublished: '2026-05-28',
     dateModified: '2026-05-28',
     dateCompleted: '2026-05',
@@ -1504,9 +1683,9 @@ export const projectPagesData = [
     relatedLocalPaths: ['/folie-lustra-weneckie-krakow', '/folie-przeciwsloneczne-krakow'],
     contactTopic: 'mirror',
     featured: true,
-    coverImage: '/img/realizacje/lustro-weneckie-kawiarnia-krakow/cover.webp',
-    coverWidth: 900,
-    coverHeight: 675,
+    coverImage: '/img/realizacje/lustro-weneckie-kawiarnia-krakow/cover-hq-v2.webp',
+    coverWidth: 1600,
+    coverHeight: 1200,
     datePublished: '2026-05-26',
     dateModified: '2026-05-28',
     dateCompleted: '2026-05',
@@ -1628,9 +1807,9 @@ export const projectPagesData = [
     relatedLocalPaths: ['/folie-matowe-katowice'],
     contactTopic: 'frosted',
     featured: true,
-    coverImage: '/img/realizacje/folia-mrozona-lokal-katowice/cover.webp',
-    coverWidth: 900,
-    coverHeight: 1200,
+    coverImage: '/img/realizacje/folia-mrozona-lokal-katowice/cover-hq-v2.webp',
+    coverWidth: 1200,
+    coverHeight: 1600,
     datePublished: '2026-05-26',
     dateModified: '2026-05-26',
     dateCompleted: '2026-05',
@@ -1748,9 +1927,9 @@ export const projectPagesData = [
     contactTopic: 'solar-films',
     featured: true,
     coverImage:
-      '/img/realizacje/wymiana-folii-przeciwslonecznej-dentysta-krakow/cover.webp',
-    coverWidth: 900,
-    coverHeight: 675,
+      '/img/realizacje/wymiana-folii-przeciwslonecznej-dentysta-krakow/cover-hq-v2.webp',
+    coverWidth: 1600,
+    coverHeight: 1200,
     datePublished: '2026-05-25',
     dateModified: '2026-05-28',
     dateCompleted: '2026-05',

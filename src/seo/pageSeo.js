@@ -44,7 +44,7 @@ const staticPages = {
   '/realizacje': {
     title: 'Realizacje z montaży folii okiennych | Lumera',
     description:
-      'Realizacje Lumera: montaż folii okiennych, demontaż starych folii, efekt przed i po oraz konkretne montaże z Krakowa, Katowic i okolic.',
+      'Realizacje Lumera: folie okienne i montaż z Krakowa, Katowic oraz całej Polski. Zobacz efekty, zakres prac i galerie wykonanych realizacji.',
   },
   '/folie-okienne-lokalnie': {
     title: 'Folie okienne lokalnie | Kraków, Katowice i okolice | Lumera',

@@ -128,7 +128,7 @@ const ProjectGallery = ({ images = [] }) => {
               aria-label={`Pokaż zdjęcie ${index + 1}`}
             >
               <img
-                src={image.thumb}
+                src={`${image.thumb}?v=2`}
                 width={image.thumbWidth}
                 height={image.thumbHeight}
                 alt={image.alt}
