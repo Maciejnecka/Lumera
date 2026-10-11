@@ -134,28 +134,50 @@ export const filmStrengtheningData = {
       'Przy folii LCD kluczowe są detale montażowe: zasilanie, sterowanie, krawędzie i sposób ukrycia przewodów.',
   },
   'architectural-wraps': {
-    seoContentBlocks: [
-      {
-        title: 'Najpierw powierzchnia, potem wykończenie',
-        text:
-          'Przy okleinach i laminatach architektonicznych kluczowy jest stan podłoża: czy jest stabilne, gładkie, czyste i czy krawędzie da się estetycznie wykończyć. Dopiero potem dobiera się strukturę, kolor i kierunek wizualny.',
-      },
-      {
-        title: 'Kiedy to jest lepsze niż wymiana?',
-        text:
-          'Gdy rama, drzwi, futryna albo mebel są technicznie sprawne, ale wizualnie nie pasują do wnętrza. Okleina pozwala skrócić czas prac i uniknąć cięższego remontu, jeśli powierzchnia nadaje się do aplikacji.',
-      },
-    ],
-    problemLinks: [],
-    localLinks: [
-      '/okleiny-i-laminaty-krakow',
-      '/okleiny-i-laminaty-katowice',
-      '/oklejanie-ram-okiennych-krakow',
-      '/oklejanie-ram-okiennych-katowice',
-      '/oklejanie-drzwi-i-mebli-krakow',
-      '/oklejanie-drzwi-i-mebli-katowice',
-    ],
-    featuredNote:
-      'To osobna usługa obok folii na szyby: dotyczy ram, drzwi, futryn, mebli, lad i innych stabilnych powierzchni.',
-  },
-};
+  "seoContentBlocks": [
+    {
+      "title": "Oklejanie drzwi i ościeżnic",
+      "text": "Laminat architektoniczny pozwala zmienić kolor sprawnego skrzydła drzwiowego i dopasować je do przedpokoju, podłogi lub zabudowy. Możliwy jest efekt drewna, stonowany mat albo jednolity kolor. Przy wycenie sprawdzamy obie strony drzwi, krawędzie, wizjer, zamki i zawiasy. Ościeżnica wymaga osobnej oceny, aby cały zestaw miał spójne wykończenie."
+    },
+    {
+      "title": "Oklejanie mebli i frontów kuchennych",
+      "text": "Odnowienie frontów szafek, szaf i zabudów może zmienić charakter całego wnętrza przy zachowaniu korpusów i układu mebli. Liczą się stan płyty, przyczepność istniejącej powłoki, promień narożników oraz frezowania. Zniszczone lub spuchnięte elementy wymagają oceny przed wyborem okleiny. Przy większej zabudowie planujemy kierunek wzoru i rozmieszczenie łączeń."
+    },
+    {
+      "title": "Renowacja stołów, lad i recepcji",
+      "text": "Zmiana dekoru stołu, lady lub recepcji pomaga dopasować wyposażenie do nowej aranżacji. Powierzchnie poziome są jednak inaczej użytkowane niż drzwi: mogą mieć kontakt z gorącymi przedmiotami, wodą i ostrymi narzędziami. Dlatego dobór materiału zależy od rzeczywistego sposobu korzystania z elementu. W galerii zobaczysz także przykład zmiany ciemnego blatu na jasne wykończenie drewnopodobne."
+    },
+    {
+      "title": "Ramy okienne, futryny i panele",
+      "text": "Oklejanie ram i futryn pozwala uporządkować kolorystykę wnętrza bez wymiany całej stolarki. Ocenę zaczynamy od rodzaju powierzchni, narożników, uszczelek i dostępu do detali. W przypadku paneli lub zabudów ważna jest stabilność podłoża i możliwość estetycznego wykończenia krawędzi. Zakres ustalamy na podstawie zdjęć oraz pomiarów."
+    },
+    {
+      "title": "Drewno, kamień, beton, metal czy jednolity kolor?",
+      "text": "Dekor wybieramy w odniesieniu do otoczenia. Wzór drewnopodobny może ocieplić wejście i połączyć je z meblami, a neutralna biel lub szarość uspokoić aranżację. Wykończenia kamienne, betonowe i metaliczne dają inne możliwości dla lad oraz paneli. Dostępność, strukturę i przydatność konkretnego wzoru potwierdzamy przy doborze materiału."
+    },
+    {
+      "title": "Przygotowanie powierzchni i montaż laminatu",
+      "text": "Najpierw sprawdzamy, czy powierzchnia jest stabilna i nadaje się do renowacji. Następnie ustalamy naprawy, czyszczenie i odtłuszczenie oraz ewentualne przygotowanie podłoża zgodnie z wymaganiami materiału. Plan aplikacji uwzględnia kierunek wzoru, łączenia, narożniki i osprzęt. Na końcu kontrolujemy wykończenie krawędzi i przekazujemy zasady pielęgnacji."
+    },
+    {
+      "title": "Wnętrza mieszkalne, biura, hotele i lokale usługowe",
+      "text": "Okleiny architektoniczne pozwalają odnawiać wyposażenie mieszkań oraz przestrzeni komercyjnych. W biurze lub lokalu szczególnie ważne są dostęp do miejsca pracy, zakres wyłączenia elementów z użytkowania i odporność dobrana do eksploatacji. Przy większych pracach warto omówić kolejność etapów, tak aby renowacja mogła wpisać się w funkcjonowanie obiektu."
+    },
+    {
+      "title": "Wycena oklejania: co przygotować?",
+      "text": "Wyślij zdjęcia całych elementów i zbliżenia uszkodzeń, narożników oraz osprzętu. Podaj wysokość i szerokość, liczbę frontów lub drzwi, strony przeznaczone do oklejenia, miejscowość i oczekiwany dekor. Napisz, czy chodzi o wnętrze czy powierzchnię zewnętrzną. Te informacje pozwalają określić zakres przygotowania i przygotować wycenę odpowiadającą Twojej realizacji."
+    }
+  ],
+  "problemLinks": [],
+  "localLinks": [
+    "/okleiny-i-laminaty-krakow",
+    "/okleiny-i-laminaty-katowice",
+    "/oklejanie-ram-okiennych-krakow",
+    "/oklejanie-ram-okiennych-katowice",
+    "/oklejanie-drzwi-i-mebli-krakow",
+    "/oklejanie-drzwi-i-mebli-katowice"
+  ],
+  "featuredNote": "To osobna usługa obok folii na szyby: dotyczy ram, drzwi, futryn, mebli, lad i innych stabilnych powierzchni.",
+  "contentTitle": "Oklejanie drzwi, mebli i zabudów – od pomysłu do montażu"
+},
+  };

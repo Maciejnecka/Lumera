@@ -46,6 +46,7 @@ const FilmDetailPage = ({ film, breadcrumbs }) => {
   const problemLinks = (film.problemLinks || []).map(getProblemPage).filter(Boolean);
   const localLinks = (film.localLinks || []).map(getLocalServicePage).filter(Boolean);
   const relatedProjects = getProjectsByFilmPath(film.path).slice(0, 3);
+  const isArchitectural = film.id === 'architectural-wraps';
 
   const goToHomeSection = (sectionId, contactTopic) => {
     if (contactTopic) {
@@ -92,9 +93,9 @@ const FilmDetailPage = ({ film, breadcrumbs }) => {
                   </DetailHeroPricingCard>
                 </DetailHeroPricingGrid>
                 <DetailHeroPricingNote>
-                  Podane wartości mają charakter orientacyjny. Finalna wycena i warunki
-                  gwarancji zależą od rodzaju szyby, warunków montażu, wymiarów i
-                  zakresu prac.
+                  {isArchitectural
+                    ? 'Podane wartości mają charakter orientacyjny. Finalna wycena i warunki gwarancji zależą od wybranego materiału, stanu podłoża, detali, wymiarów i zakresu prac.'
+                    : 'Podane wartości mają charakter orientacyjny. Finalna wycena i warunki gwarancji zależą od rodzaju szyby, warunków montażu, wymiarów i zakresu prac.'}
                 </DetailHeroPricingNote>
               </DetailHeroPricing>
             )}
@@ -132,8 +133,8 @@ const FilmDetailPage = ({ film, breadcrumbs }) => {
 
         <RelatedProjectsSection
           projects={relatedProjects}
-          title="Zobacz realizacje z tym typem folii"
-          lead="Konkretne montaże pokazują, jak ta folia wygląda na realnych szybach: zakres prac, efekt po aplikacji i sytuacje podobne do tych, które najczęściej trafiają do wyceny."
+          title={isArchitectural ? 'Metamorfozy z laminatami architektonicznymi – przed i po' : 'Zobacz realizacje z tym typem folii'}
+          lead={isArchitectural ? 'Zobacz zbiór realizacji: drzwi wejściowe, fronty szafek i stół. Porównaj wykończenia oraz efekty renowacji i wybierz kierunek dla swojej powierzchni.' : 'Konkretne montaże pokazują, jak ta folia wygląda na realnych szybach: zakres prac, efekt po aplikacji i sytuacje podobne do tych, które najczęściej trafiają do wyceny.'}
         />
 
         <DetailSection>
@@ -201,7 +202,7 @@ const FilmDetailPage = ({ film, breadcrumbs }) => {
           <DetailSection>
             <DetailSectionIntro data-aos="fade-up">
               <span>Dobór w praktyce</span>
-              <h2>Jak podejść do tej folii przed wyceną?</h2>
+              <h2>{film.contentTitle || 'Jak podejść do tej folii przed wyceną?'}</h2>
               {film.featuredNote && <DetailFeaturedNote>{film.featuredNote}</DetailFeaturedNote>}
             </DetailSectionIntro>
 
@@ -255,8 +256,8 @@ const FilmDetailPage = ({ film, breadcrumbs }) => {
                 data-aos-delay={(problemLinks.length + localLinks.length) * 50}
               >
                 <span>Kontakt</span>
-                <strong>Dobierzemy folię do Twojego okna</strong>
-                <p>Wyślij zdjęcia, wymiary od uszczelki do uszczelki i krótki opis problemu przy szybie.</p>
+                <strong>{isArchitectural ? 'Dobierzemy okleinę do Twoich drzwi lub mebli' : 'Dobierzemy folię do Twojego okna'}</strong>
+                <p>{isArchitectural ? 'Wyślij zdjęcia powierzchni i detali, wymiary, liczbę elementów oraz oczekiwane wykończenie.' : 'Wyślij zdjęcia, wymiary od uszczelki do uszczelki i krótki opis problemu przy szybie.'}</p>
               </DetailLinkCard>
             </DetailLinkGrid>
           </DetailSection>

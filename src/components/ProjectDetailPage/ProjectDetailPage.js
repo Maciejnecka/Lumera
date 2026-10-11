@@ -68,15 +68,15 @@ const ProjectDetailPage = ({ project, breadcrumbs }) => {
 
           <ProjectMetaGrid>
             <ProjectMetaCard>
-              <span>Miasto</span>
-              <strong>{project.city}</strong>
+              <span>{project.isCollection ? 'Galeria' : 'Miasto'}</span>
+              <strong>{project.isCollection ? 'Zbiór metamorfoz' : project.city}</strong>
             </ProjectMetaCard>
             <ProjectMetaCard>
               <span>Obiekt</span>
               <strong>{project.objectType}</strong>
             </ProjectMetaCard>
             <ProjectMetaCard>
-              <span>Typ folii</span>
+              <span>{project.isCollection ? 'Wykończenie' : 'Typ folii'}</span>
               <strong>{project.serviceType}</strong>
             </ProjectMetaCard>
           </ProjectMetaGrid>
@@ -108,7 +108,7 @@ const ProjectDetailPage = ({ project, breadcrumbs }) => {
 
       <ProjectSection>
         <ProjectSectionIntro data-aos="fade-up">
-          <span>Przebieg realizacji</span>
+          <span>{project.isCollection ? 'Renowacja w praktyce' : 'Przebieg realizacji'}</span>
           <h2>{storyTitle}</h2>
         </ProjectSectionIntro>
         <ProjectStoryGrid>
@@ -130,7 +130,7 @@ const ProjectDetailPage = ({ project, breadcrumbs }) => {
       <ProjectSection>
         <ProjectSectionIntro data-aos="fade-up">
           <span>Zakres prac</span>
-          <h2>Co było ważne przy tym montażu?</h2>
+          <h2>{project.isCollection ? 'Co uwzględniamy przy oklejaniu drzwi i mebli?' : 'Co było ważne przy tym montażu?'}</h2>
           <p>{project.locationContext}</p>
         </ProjectSectionIntro>
         <ProjectList data-aos="fade-up">
@@ -146,12 +146,28 @@ const ProjectDetailPage = ({ project, breadcrumbs }) => {
           <h2>Galeria realizacji</h2>
         </ProjectSectionIntro>
         <ProjectGallery images={project.images} />
+        {project.isCollection && (
+          <ProjectStoryGrid>
+            <ProjectStoryCard>
+              <h3>Drzwi: biel, drewno i szarość</h3>
+              <p>Dotychczasowa realizacja w Krakowie pokazuje dopasowanie białych drzwi do drewnianej zabudowy. Kolejne porównania przedstawiają również odwrotną zmianę – z dekoru drewna na biel – oraz szare wykończenie w ciemnym przedpokoju. W przykładzie drzwi z przeszkleniem szczególnie istotne jest przygotowanie zniszczonej powierzchni i zachowanie detali skrzydła.</p>
+            </ProjectStoryCard>
+            <ProjectStoryCard>
+              <h3>Fronty szafek z zachowaniem frezów</h3>
+              <p>Porównanie frontów pokazuje zmianę starszego wykończenia na dekor drewnopodobny bez zmiany ich kształtu. Przy takich elementach analizujemy profil frezowania, narożniki i przyczepność starej powłoki. To inny zakres pracy niż aplikacja na całkowicie płaskim froncie.</p>
+            </ProjectStoryCard>
+            <ProjectStoryCard>
+              <h3>Stół z jaśniejszym blatem</h3>
+              <p>W salonie ciemny blat zastąpiono wizualnie jasnym dekorem drewna, zachowując podstawę stołu. Taka zmiana może lepiej połączyć mebel z pozostałym wyposażeniem. Przy planowaniu oklejania stołu dobieramy materiał do powierzchni poziomej i omawiamy zasady użytkowania, w tym ochronę przed temperaturą oraz ostrymi przedmiotami.</p>
+            </ProjectStoryCard>
+          </ProjectStoryGrid>
+        )}
       </ProjectSection>
 
       <ProjectSection>
         <ProjectSectionIntro data-aos="fade-up">
           <span>Powiązane usługi</span>
-          <h2>Ten montaż łączy kilka tematów.</h2>
+          <h2>{project.isCollection ? 'Zaplanuj własną metamorfozę z laminatem architektonicznym' : 'Ten montaż łączy kilka tematów.'}</h2>
           <p>{project.relatedServicesIntro}</p>
         </ProjectSectionIntro>
         <ProjectLinkGrid>
@@ -202,7 +218,7 @@ const ProjectDetailPage = ({ project, breadcrumbs }) => {
         <ProjectSection>
           <ProjectSectionIntro data-aos="fade-up">
             <span>FAQ</span>
-            <h2>Najczęstsze pytania przy podobnej realizacji</h2>
+            <h2>{project.isCollection ? 'Pytania o metamorfozy drzwi i mebli' : 'Najczęstsze pytania przy podobnej realizacji'}</h2>
           </ProjectSectionIntro>
           <ProjectFaq data-aos="fade-up">
             {project.faq.map((item) => (

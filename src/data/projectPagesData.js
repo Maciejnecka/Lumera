@@ -997,132 +997,211 @@ export const projectPagesData = [
     ],
   },
   {
-    slug: 'oklejanie-drzwi-laminatem-architektonicznym-krakow',
-    path: '/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow',
-    title: 'Oklejanie drzwi laminatem architektonicznym w Krakowie',
-    seoTitle: 'Oklejanie drzwi laminatem Kraków | Realizacja Lumera',
-    seoDescription:
-      'Oklejanie drzwi wejściowych laminatem architektonicznym w Krakowie. Zmiana białych drzwi na spójne wykończenie drewnopodobne bez wymiany skrzydła.',
-    eyebrow: 'Realizacja: laminaty architektoniczne',
-    lead:
-      'W tej realizacji w Krakowie drzwi wejściowe odstawały wizualnie od drewnianej zabudowy przedpokoju. Zamiast wymieniać sprawne skrzydło, zastosowaliśmy laminat architektoniczny dobrany tak, żeby drzwi lepiej połączyły się z otaczającymi panelami, podłogą i ciepłym charakterem wnętrza. To przykład oklejania drzwi, gdzie najważniejszy był nie tylko kolor, ale też spokojne dopasowanie struktury i estetyczne wykończenie krawędzi.',
-    storyTitle: 'Białe drzwi zamienione w spójny element drewnianej zabudowy.',
-    coverCaption: 'Przed i po oklejeniu drzwi laminatem architektonicznym',
-    city: 'Kraków',
-    region: 'Kraków',
-    objectType: 'wnętrze mieszkalne',
-    serviceType: 'Laminaty architektoniczne',
-    serviceFilters: ['Laminaty architektoniczne'],
-    relatedFilmPath: '/okleiny-i-laminaty-architektoniczne',
-    relatedFilmPaths: ['/okleiny-i-laminaty-architektoniczne'],
-    relatedServicePaths: ['/okleiny-i-laminaty-architektoniczne'],
-    relatedLocalPath: '/oklejanie-drzwi-i-mebli-krakow',
-    relatedLocalPaths: ['/oklejanie-drzwi-i-mebli-krakow', '/okleiny-i-laminaty-krakow'],
-    contactTopic: 'architectural-wraps',
-    featured: true,
-    coverImage:
-      '/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/cover-hq-v2.webp',
-    coverWidth: 1600,
-    coverHeight: 1200,
-    datePublished: '2026-06-02',
-    dateModified: '2026-06-02',
-    dateCompleted: '2026-06',
-    locationContext:
-      'Realizacja została wykonana w Krakowie, we wnętrzu z drewnianą zabudową wokół drzwi wejściowych. Drzwi były technicznie sprawne, ale ich biała powierzchnia mocno odcinała się od okładziny ściennej, podłogi i pozostałych elementów. W takim przypadku laminat architektoniczny pozwala zmienić odbiór drzwi bez wymiany skrzydła i bez większego remontu.',
-    problem:
-      'Białe drzwi wejściowe były najbardziej kontrastowym elementem przedpokoju. Przy otaczającej zabudowie drewnianej wyglądały jak osobny, przypadkowy akcent, a nie część projektu. Klient potrzebował rozwiązania, które uporządkuje wygląd wejścia i dopasuje drzwi do reszty wnętrza, ale bez demontażu sprawnego skrzydła.',
-    solution:
-      'Dobór padł na laminat architektoniczny o drewnopodobnym wykończeniu. Przed aplikacją ważne było sprawdzenie powierzchni, oczyszczenie drzwi, zaplanowanie kierunku wzoru i dopracowanie miejsc przy klamce, wizjerze, zamku, zawiasach oraz krawędziach. Laminat został dopasowany tak, żeby skrzydło drzwiowe nie udawało osobnego elementu, tylko spokojnie weszło w rytm istniejącej zabudowy.',
-    result:
-      'Po oklejeniu drzwi zyskały ciepły, drewniany charakter i przestały odcinać się od przedpokoju. Wnętrze wygląda bardziej spójnie, a wejście jest wizualnie uporządkowane bez wymiany drzwi. Efekt przed i po dobrze pokazuje, jak duży wpływ na odbiór całej strefy wejściowej może mieć sama zmiana wykończenia skrzydła.',
-    scope: [
-      'ocena stanu drzwi i możliwości oklejenia skrzydła',
-      'dobór laminatu architektonicznego do drewnianej zabudowy',
-      'przygotowanie i oczyszczenie powierzchni drzwi',
-      'zaplanowanie kierunku wzoru drewnopodobnego',
-      'oklejenie skrzydła drzwiowego laminatem architektonicznym',
-      'dopasowanie wykończenia przy klamce, zamku, wizjerze i krawędziach',
-      'kontrola spójności efektu z zabudową przedpokoju',
-    ],
-    tags: [
-      'oklejanie drzwi Kraków',
-      'laminaty architektoniczne Kraków',
-      'okleiny architektoniczne Kraków',
-      'oklejanie drzwi laminatem',
-      'renowacja drzwi bez wymiany',
-      'okleiny drewnopodobne',
-      'Kraków',
-    ],
-    relatedServicesIntro:
-      'Ta realizacja jest powiązana z okleinami i laminatami architektonicznymi, szczególnie z oklejaniem drzwi i mebli w Krakowie. Nie jest to folia okienna na szybę, tylko dekoracyjne wykończenie istniejącej powierzchni: drzwi, futryn, frontów, zabudów i innych gładkich elementów.',
-    quote:
-      'Przy oklejaniu drzwi największą różnicę robią detale: krawędzie, osprzęt, kierunek wzoru i to, czy nowe wykończenie pasuje do otoczenia. Dobrze dobrany laminat nie krzyczy, tylko sprawia, że element zaczyna wyglądać jak część projektu.',
-    whatToSend:
-      'Do podobnej wyceny najlepiej wysłać zdjęcie całych drzwi, zdjęcia krawędzi, zawiasów, klamki, zamka i miejsc uszkodzonych, wymiary skrzydła, informację czy oklejamy jedną czy dwie strony oraz oczekiwany kierunek wykończenia: drewno, kamień, beton, metal, mat, połysk albo jednolity kolor.',
-    images: [
-      {
-        thumb:
-          '/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/01-przed-po-oklejanie-drzwi-laminatem-krakow-thumb.webp',
-        full:
-          '/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/01-przed-po-oklejanie-drzwi-laminatem-krakow.webp',
-        width: 1448,
-        height: 1086,
-        thumbWidth: 600,
-        thumbHeight: 450,
-        alt:
-          'Porównanie drzwi wejściowych w Krakowie przed i po oklejeniu laminatem architektonicznym',
-        caption: 'Porównanie przed i po oklejeniu drzwi laminatem architektonicznym.',
-      },
-      {
-        thumb:
-          '/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/02-drzwi-przed-oklejeniem-laminatem-krakow-thumb.webp',
-        full:
-          '/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/02-drzwi-przed-oklejeniem-laminatem-krakow.webp',
-        width: 1200,
-        height: 1600,
-        thumbWidth: 520,
-        thumbHeight: 693,
-        alt:
-          'Białe drzwi wejściowe w Krakowie przed oklejeniem laminatem architektonicznym',
-        caption: 'Drzwi przed oklejeniem - jasna powierzchnia odcinała się od zabudowy.',
-      },
-      {
-        thumb:
-          '/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/03-drzwi-po-oklejeniu-laminatem-krakow-thumb.webp',
-        full:
-          '/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/03-drzwi-po-oklejeniu-laminatem-krakow.webp',
-        width: 1200,
-        height: 1600,
-        thumbWidth: 520,
-        thumbHeight: 693,
-        alt:
-          'Drzwi wejściowe w Krakowie po oklejeniu drewnopodobnym laminatem architektonicznym',
-        caption: 'Drzwi po oklejeniu - cieplejszy, spójny efekt z drewnianą zabudową.',
-      },
-    ],
-    faq: [
-      {
-        question: 'Czy laminatem architektonicznym można okleić drzwi wejściowe?',
-        answer:
-          'Tak, jeśli powierzchnia jest stabilna, gładka i nadaje się do przygotowania pod aplikację. Przed wyceną warto pokazać też krawędzie, osprzęt, zawiasy i miejsca najbardziej narażone na dotyk.',
-      },
-      {
-        question: 'Czy oklejanie drzwi wymaga wymiany skrzydła?',
-        answer:
-          'Nie. Jeśli drzwi są technicznie sprawne, laminat architektoniczny może zmienić ich wygląd bez wymiany całego skrzydła i bez ciężkiego remontu.',
-      },
-      {
-        question: 'Czy można dobrać okleinę pod istniejącą zabudowę drewnianą?',
-        answer:
-          'Tak, ale trzeba dobrać nie tylko kolor, lecz także strukturę, kierunek wzoru i poziom połysku. Dzięki temu drzwi lepiej łączą się z podłogą, zabudową, futrynami lub meblami.',
-      },
-      {
-        question: 'Co wysłać do wyceny oklejania drzwi w Krakowie?',
-        answer:
-          'Najlepiej przesłać zdjęcie całych drzwi, detale krawędzi, klamki, zamka, zawiasów, wymiary skrzydła oraz informację, czy oklejana ma być jedna czy obie strony drzwi.',
-      },
-    ],
-  },
+  "slug": "oklejanie-drzwi-laminatem-architektonicznym-krakow",
+  "path": "/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow",
+  "title": "Laminaty architektoniczne – metamorfozy drzwi i mebli",
+  "seoTitle": "Laminaty architektoniczne – realizacje przed i po | Lumera",
+  "seoDescription": "Galeria metamorfoz z okleinami i laminatami architektonicznymi: drzwi wejściowe, fronty szafek i stół. Zobacz efekty przed i po oraz zakres renowacji.",
+  "eyebrow": "Zbiór realizacji: okleiny i laminaty architektoniczne",
+  "lead": "Zebraliśmy tutaj różne metamorfozy powierzchni z wykorzystaniem oklein i laminatów architektonicznych. Obok dotychczasowej realizacji drzwi w Krakowie zobaczysz zmiany wykończenia kolejnych drzwi wejściowych, frezowanych frontów szafek oraz stołu. Porównania przed i po pokazują, jak biel, szarość lub dekor drewna wpływają na odbiór elementu i całego wnętrza. Wspólnym punktem jest odnowienie wyglądu istniejącej powierzchni przy zachowaniu sprawnej konstrukcji.",
+  "storyTitle": "Różne powierzchnie, jeden cel: odnowić wygląd bez wymiany sprawnych elementów",
+  "coverCaption": "Przed i po oklejeniu drzwi laminatem architektonicznym",
+  "city": "Kraków",
+  "region": "Kraków",
+  "objectType": "drzwi, fronty szafek i stół",
+  "serviceType": "Laminaty architektoniczne",
+  "serviceFilters": [
+    "Laminaty architektoniczne"
+  ],
+  "relatedFilmPath": "/okleiny-i-laminaty-architektoniczne",
+  "relatedFilmPaths": [
+    "/okleiny-i-laminaty-architektoniczne"
+  ],
+  "relatedServicePaths": [
+    "/okleiny-i-laminaty-architektoniczne"
+  ],
+  "relatedLocalPath": "/oklejanie-drzwi-i-mebli-krakow",
+  "relatedLocalPaths": [
+    "/oklejanie-drzwi-i-mebli-krakow",
+    "/oklejanie-drzwi-i-mebli-katowice",
+    "/okleiny-i-laminaty-krakow",
+    "/okleiny-i-laminaty-katowice"
+  ],
+  "contactTopic": "architectural-wraps",
+  "featured": true,
+  "coverImage": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/cover-hq-v2.webp",
+  "coverWidth": 1600,
+  "coverHeight": 1200,
+  "datePublished": "2026-06-02",
+  "dateModified": "2026-10-11",
+  "dateCompleted": "2026-06",
+  "locationContext": "Galeria obejmuje kilka przykładów renowacji, a nie jeden zakres montażu. Dotychczasowy przykład dotyczy drzwi we wnętrzu mieszkalnym w Krakowie. Kolejne porównania przedstawiają różne powierzchnie i wykończenia; zakres przygotowania, dobór materiału i sposób aplikacji zależą od konkretnego elementu. Nie wszystkie zmiany widoczne w otoczeniu drzwi są częścią usługi oklejania.",
+  "problem": "Drzwi i meble mogą nadal działać prawidłowo, mimo że ich wykończenie jest zużyte albo nie pasuje do nowej aranżacji. W galerii widać zarówno zmianę białych drzwi na dekor drewna, jak i przejście z drewna na biel lub szarość. Inne przykłady dotyczą uszkodzonej powierzchni skrzydła, starszych frontów szafek oraz ciemnego blatu stołu. Każda taka powierzchnia wymaga odrębnej oceny.",
+  "solution": "Punktem wyjścia jest ocena podłoża i możliwości przygotowania go do aplikacji. Dobór okleiny uwzględnia oczekiwany kolor, strukturę, kierunek wzoru i sposób użytkowania. Przy drzwiach istotne są wizjer, zamki, klamki i krawędzie; przy frontach – frezy oraz narożniki; przy stole – obciążenia powierzchni poziomej. Materiał oraz zakres prac dobieramy do elementu, a nie wyłącznie do zdjęcia dekoru.",
+  "result": "Porównania pokazują różne kierunki metamorfozy: jasne drzwi, ciepły dekor drewna, neutralną szarość oraz odświeżone meble. Dotychczasowa realizacja drzwi w Krakowie pozostaje w galerii wraz ze zdjęciami przed i po. Dodatkowe przykłady pomagają wybrać styl i zobaczyć, jakie detale należy uwzględnić przy planowaniu własnej renowacji.",
+  "scope": [
+    "ocena stanu drzwi, frontów, blatów i innych powierzchni",
+    "ustalenie zakresu napraw i przygotowania podłoża",
+    "dobór materiału do użytkowania wewnątrz lub na zewnątrz",
+    "wybór dekoru, struktury i kierunku wzoru",
+    "zaplanowanie łączeń, narożników i wykończenia krawędzi",
+    "ustalenie demontażu osprzętu i dostępu do powierzchni",
+    "aplikacja okleiny na przygotowanym podłożu",
+    "kontrola detali i omówienie zasad pielęgnacji"
+  ],
+  "tags": [
+    "laminaty architektoniczne realizacje",
+    "okleiny architektoniczne przed i po",
+    "oklejanie drzwi",
+    "renowacja frontów meblowych",
+    "oklejanie stołu",
+    "renowacja drzwi Kraków"
+  ],
+  "relatedServicesIntro": "Zdjęcia uzupełniają ofertę oklein i laminatów architektonicznych. Jeśli planujesz renowację drzwi, frontów, ram lub zabudowy, przejdź do opisu usługi i porównaj zastosowania, wymagania podłoża oraz zasady wyceny. Na stronach lokalnych znajdziesz informacje o montażu w Krakowie i Katowicach.",
+  "quote": "Najlepszy efekt zaczyna się od oceny powierzchni. Kolor i struktura budują wygląd, a przygotowanie podłoża oraz wykończenie krawędzi decydują o jakości aplikacji.",
+  "whatToSend": "Wyślij zdjęcia całych drzwi lub mebli, zbliżenia uszkodzeń, krawędzi, frezów i osprzętu. Podaj wymiary, liczbę elementów, miejscowość, strony do oklejenia i oczekiwany dekor. Przy blacie opisz sposób użytkowania, a przy drzwiach wskaż, czy chodzi o stronę wewnętrzną czy zewnętrzną.",
+  "images": [
+    {
+      "thumb": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/01-przed-po-oklejanie-drzwi-laminatem-krakow-thumb.webp",
+      "full": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/01-przed-po-oklejanie-drzwi-laminatem-krakow.webp",
+      "width": 1448,
+      "height": 1086,
+      "thumbWidth": 600,
+      "thumbHeight": 450,
+      "alt": "Porównanie drzwi wejściowych w Krakowie przed i po oklejeniu laminatem architektonicznym",
+      "caption": "Porównanie przed i po oklejeniu drzwi laminatem architektonicznym."
+    },
+    {
+      "thumb": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/02-drzwi-przed-oklejeniem-laminatem-krakow-thumb.webp",
+      "full": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/02-drzwi-przed-oklejeniem-laminatem-krakow.webp",
+      "width": 1200,
+      "height": 1600,
+      "thumbWidth": 520,
+      "thumbHeight": 693,
+      "alt": "Białe drzwi wejściowe w Krakowie przed oklejeniem laminatem architektonicznym",
+      "caption": "Drzwi przed oklejeniem - jasna powierzchnia odcinała się od zabudowy."
+    },
+    {
+      "thumb": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/03-drzwi-po-oklejeniu-laminatem-krakow-thumb.webp",
+      "full": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/03-drzwi-po-oklejeniu-laminatem-krakow.webp",
+      "width": 1200,
+      "height": 1600,
+      "thumbWidth": 520,
+      "thumbHeight": 693,
+      "alt": "Drzwi wejściowe w Krakowie po oklejeniu drewnopodobnym laminatem architektonicznym",
+      "caption": "Drzwi po oklejeniu - cieplejszy, spójny efekt z drewnianą zabudową."
+    },
+    {
+      "full": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/04-drzwi-drewnopodobne-na-biale.webp",
+      "thumb": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/04-drzwi-drewnopodobne-na-biale-thumb.webp",
+      "width": 1448,
+      "height": 1086,
+      "thumbWidth": 600,
+      "thumbHeight": 450,
+      "alt": "Drzwi z wykończeniem drewnopodobnym przed i po zmianie na biel",
+      "caption": "Przed i po: zmiana wykończenia drzwi z drewna na biel."
+    },
+    {
+      "full": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/05-odnowienie-strefy-wejscia.webp",
+      "thumb": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/05-odnowienie-strefy-wejscia-thumb.webp",
+      "width": 1448,
+      "height": 1086,
+      "thumbWidth": 600,
+      "thumbHeight": 450,
+      "alt": "Strefa wejścia przed i po odnowieniu drzwi i otoczenia",
+      "caption": "Przed i po: odnowiona strefa wejścia z jasnymi drzwiami."
+    },
+    {
+      "full": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/06-biale-drzwi-dekor-drewna.webp",
+      "thumb": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/06-biale-drzwi-dekor-drewna-thumb.webp",
+      "width": 1448,
+      "height": 1086,
+      "thumbWidth": 600,
+      "thumbHeight": 450,
+      "alt": "Białe drzwi wejściowe przed i po zmianie na dekor drewnopodobny",
+      "caption": "Przed i po: białe drzwi w wykończeniu drewnopodobnym."
+    },
+    {
+      "full": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/07-drzwi-szary-laminat.webp",
+      "thumb": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/07-drzwi-szary-laminat-thumb.webp",
+      "width": 1448,
+      "height": 1086,
+      "thumbWidth": 600,
+      "thumbHeight": 450,
+      "alt": "Drzwi z dekorem drewna przed i po zmianie na szare wykończenie",
+      "caption": "Przed i po: zmiana dekoru drzwi na szarość."
+    },
+    {
+      "full": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/08-renowacja-drzwi-wejsciowych.webp",
+      "thumb": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/08-renowacja-drzwi-wejsciowych-thumb.webp",
+      "width": 1378,
+      "height": 1142,
+      "thumbWidth": 600,
+      "thumbHeight": 497,
+      "alt": "Uszkodzona powierzchnia drzwi wejściowych i efekt renowacji w dekorze drewna",
+      "caption": "Przed i po: renowacja drzwi wejściowych z przeszkleniem."
+    },
+    {
+      "full": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/09-fronty-szafek-okleina-drewnopodobna.webp",
+      "thumb": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/09-fronty-szafek-okleina-drewnopodobna-thumb.webp",
+      "width": 1448,
+      "height": 1086,
+      "thumbWidth": 600,
+      "thumbHeight": 450,
+      "alt": "Frezowane fronty szafek przed i po zmianie na okleinę drewnopodobną",
+      "caption": "Przed i po: frezowane fronty w dekorze drewna."
+    },
+    {
+      "full": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/10-renowacja-stolu-jasne-drewno.webp",
+      "thumb": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/10-renowacja-stolu-jasne-drewno-thumb.webp",
+      "width": 1448,
+      "height": 1086,
+      "thumbWidth": 600,
+      "thumbHeight": 450,
+      "alt": "Stół w salonie przed i po zmianie ciemnego blatu na jasny dekor drewna",
+      "caption": "Przed i po: stół z jasnym wykończeniem drewnopodobnym."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Czy galeria przedstawia jedną realizację?",
+      "answer": "Nie. To zbiór metamorfoz drzwi, frontów szafek i stołu. Zachowaliśmy dotychczasowe zdjęcia drzwi z Krakowa oraz dodaliśmy kolejne porównania przed i po. Każdy element może wymagać innego materiału i zakresu przygotowania."
+    },
+    {
+      "question": "Czy można uzyskać podobny efekt na moich drzwiach lub meblach?",
+      "answer": "Podobny kierunek stylistyczny jest punktem wyjścia do rozmowy. Możliwość aplikacji i dobór konkretnego dekoru potwierdzamy po ocenie powierzchni, uszkodzeń, detali i warunków użytkowania."
+    },
+    {
+      "question": "Ile kosztuje oklejanie drzwi, mebli lub frontów laminatem?",
+      "answer": "Cena zależy od powierzchni, wybranego dekoru, stanu podłoża, liczby krawędzi i detali oraz zakresu przygotowania. Dwa elementy o podobnych wymiarach mogą wymagać różnego nakładu pracy. Do indywidualnej wyceny prześlij zdjęcia, wymiary, liczbę elementów i lokalizację."
+    },
+    {
+      "question": "Czy można okleić fronty kuchenne z frezami?",
+      "answer": "Możliwość oklejenia zależy od głębokości i kształtu frezów oraz właściwości konkretnego materiału. Sprawdzamy również stan starej powłoki i krawędzi. Nie każdy laminat nadaje się do wszystkich przetłoczeń; zdjęcia zbliżeń pomagają ocenić rozwiązanie przed montażem."
+    },
+    {
+      "question": "Czy laminat architektoniczny nadaje się na stół lub blat?",
+      "answer": "Możemy ocenić możliwość zmiany wykończenia stołu lub blatu, uwzględniając intensywność użytkowania, krawędzie, kontakt z wodą i temperaturą. Materiał dobieramy do zastosowania. Gorące naczynia wymagają podkładek, a krojenie bezpośrednio na dekoracyjnej powierzchni może ją uszkodzić."
+    },
+    {
+      "question": "Czy można okleić zewnętrzną stronę drzwi wejściowych?",
+      "answer": "Takie zastosowanie wymaga materiału przeznaczonego do warunków zewnętrznych i oceny ekspozycji na słońce, wodę oraz zmiany temperatury. Okleina do wnętrz nie jest automatycznie odpowiednia na zewnątrz. Podczas wyceny podaj, która strona drzwi ma być odnawiana i czy wejście jest osłonięte."
+    },
+    {
+      "question": "Czy okleina zakryje uszkodzenia i odchodzącą farbę?",
+      "answer": "Okleina nie naprawia podłoża. Łuszczące się warstwy trzeba usunąć, a ubytki i nierówności przygotować przed aplikacją. Spuchnięta płyta, wilgoć lub niestabilne elementy mogą wykluczyć oklejanie. Ocenę zaczynamy od stanu powierzchni, nie od wyboru koloru."
+    },
+    {
+      "question": "Jak dobrać kolor i strukturę okleiny do wnętrza?",
+      "answer": "Porównaj dekor z podłogą, ścianami, zabudową i oświetleniem. Przy wzorach drewnopodobnych znaczenie mają usłojenie, kierunek wzoru i poziom połysku. Zdjęcie katalogowe pomaga wybrać kierunek, ale końcowy dobór warto oprzeć na próbce oglądanej w miejscu montażu."
+    },
+    {
+      "question": "Jak czyścić powierzchnię po oklejeniu?",
+      "answer": "Stosuj zalecenia dla wybranego materiału. Zwykle sprawdza się miękka ściereczka i łagodny środek czyszczący. Unikaj szorowania, ostrych narzędzi i agresywnych rozpuszczalników; szczególną uwagę zwracaj na krawędzie i miejsca narażone na zaleganie wody."
+    }
+  ],
+  "isCollection": true
+},
   {
     slug: 'montaz-folii-na-swietliki-dachowe-modlnica',
     path: '/realizacje/montaz-folii-na-swietliki-dachowe-modlnica',

@@ -1,5 +1,4 @@
 import styled, { css } from 'styled-components';
-import { media } from '../Styled/mediaqueries';
 
 export const TestimonialsSection = styled.section`
   width: 100%;
@@ -84,12 +83,41 @@ export const TestimonialsSummary = styled.div`
 
 export const TestimonialsGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% - 3.2rem) / 3);
   gap: 1.6rem;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  padding: 0.3rem 0 1rem;
+  &::-webkit-scrollbar { display: none; }
+  &:focus-visible { outline: 2px solid #8ab4f8; outline-offset: 4px; border-radius: 1rem; }
 
-  ${media.lg`
-    grid-template-columns: 1fr;
-  `}
+  @media (max-width: 1000px) { grid-auto-columns: calc((100% - 1.6rem) / 2); }
+  @media (max-width: 600px) { grid-auto-columns: 100%; }
+`;
+
+export const ReviewsControls = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1.6rem;
+  margin-top: 1.6rem;
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 1.4rem;
+  font-variant-numeric: tabular-nums;
+  > div { display: flex; gap: 0.8rem; }
+  button {
+    width: 4.4rem; height: 4.4rem; border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.16);
+    background: rgba(255,255,255,0.06); color: #f1f3f4;
+    font: inherit; font-size: 2rem; cursor: pointer;
+    transition: background var(--transition-fast);
+  }
+  button:hover:not(:disabled) { background: rgba(138,180,248,0.18); }
+  button:focus-visible { outline: 2px solid #8ab4f8; outline-offset: 3px; }
+  button:disabled { opacity: 0.3; cursor: default; }
 `;
 
 export const ReviewCard = styled.article`
@@ -98,6 +126,7 @@ export const ReviewCard = styled.article`
   gap: 1.5rem;
   min-width: 0;
   min-height: 100%;
+  scroll-snap-align: start;
   padding: 1.8rem 1.8rem 1.7rem;
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 2.2rem;
@@ -217,6 +246,7 @@ export const ReviewStars = styled.div`
 
 export const ReviewBody = styled.p`
   margin: 0;
+  white-space: pre-line;
   color: rgba(255, 255, 255, 0.88);
   font-size: 1.63rem;
   line-height: 1.75;
@@ -228,6 +258,19 @@ export const ReviewFooter = styled.div`
   justify-content: flex-end;
   margin-top: auto;
   padding-top: 0.1rem;
+  gap: 1rem;
+
+  a {
+    margin-right: auto;
+    color: #8ab4f8;
+    font-size: 1.35rem;
+    line-height: 1.5;
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+  }
+
+  a:hover { color: #a8c7fa; }
+  a:focus-visible { outline: 2px solid #8ab4f8; outline-offset: 4px; border-radius: 0.3rem; }
 
   small {
     color: rgba(255, 255, 255, 0.42);

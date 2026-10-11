@@ -259,6 +259,8 @@ const getWindowDraftPayload = (draft, index = 0) => {
 const ContactSection = () => {
   const mountedAt = useRef(Date.now());
   const fileInputRef = useRef(null);
+  const submissionInFlight = useRef(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [form, setForm] = useState(() => ({
     ...initialForm,
     topic: 'wybierz',
@@ -497,6 +499,8 @@ const ContactSection = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+    // Ref blocks repeat events immediately, before React updates the button.
+    if (submissionInFlight.current || isPreparingFiles) return;
     setStatus(null);
 
     const draftPayload = getWindowDraftPayload(windowDraft, windows.length);
@@ -527,6 +531,9 @@ const ContactSection = () => {
       });
       return;
     }
+
+    submissionInFlight.current = true;
+    setIsSubmitting(true);
 
     try {
       setStatus({
@@ -560,6 +567,9 @@ const ContactSection = () => {
         message:
           'Nie udało się wysłać formularza. Spróbuj ponownie albo skontaktuj się mailowo.',
       });
+    } finally {
+      submissionInFlight.current = false;
+      setIsSubmitting(false);
     }
   };
 
@@ -590,6 +600,7 @@ const ContactSection = () => {
           data-aos="fade-up"
           data-aos-delay="70"
           onSubmit={handleSubmit}
+          aria-busy={isSubmitting}
           noValidate
           encType="multipart/form-data"
         >
@@ -854,7 +865,11 @@ const ContactSection = () => {
             {errors.files && <FieldError>{errors.files}</FieldError>}
           </FieldGroup>
 
-          {status && <FormStatus $type={status.type}>{status.message}</FormStatus>}
+          {status && (
+            <FormStatus $type={status.type} role="status" aria-live="polite">
+              {status.message}
+            </FormStatus>
+          )}
           {errors.form && <FormStatus $type="error">{errors.form}</FormStatus>}
 
           <ContactPrivacyNote>
@@ -862,7 +877,9 @@ const ContactSection = () => {
             znajdziesz w <a href="/polityka-prywatnosci">polityce prywatności</a>.
           </ContactPrivacyNote>
 
-          <button type="submit">Wyślij zapytanie</button>
+          <button type="submit" disabled={isSubmitting || isPreparingFiles}>
+            {isSubmitting ? 'Wysyłanie…' : 'Wyślij zapytanie'}
+          </button>
         </ContactForm>
 
         <ContactAside data-aos="fade-up" data-aos-delay="120">

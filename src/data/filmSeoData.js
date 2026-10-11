@@ -654,52 +654,107 @@ export const filmSeoData = {
     ],
   },
   'architectural-wraps': {
-    seoDescription:
-      'Okleiny i laminaty architektoniczne do ram okiennych, drzwi, futryn, mebli, lad i gładkich powierzchni. Renowacja wyglądu bez wymiany elementów.',
-    effectTitle: 'Nowy wygląd powierzchni bez wymiany sprawnych elementów',
-    effectLead:
-      'Okleina architektoniczna działa inaczej niż folia okienna. Nie zmienia parametrów szyby, tylko pozwala odnowić lub przebudować wizualnie istniejący element: ramę okienną, drzwi, futrynę, front meblowy, ladę, panel lub zabudowę. Najważniejsze jest przygotowanie podłoża, dobór wykończenia i staranne wyprowadzenie krawędzi, bo to one decydują, czy efekt będzie wyglądał jak część wnętrza, a nie jak doraźna naklejka.',
-    effectDetails: [
-      ['Typ powierzchni', 'ramy, drzwi, futryny, fronty, meble, lady, panele i wybrane gładkie elementy'],
-      ['Efekt wizualny', 'drewno, kamień, beton, metal, mat, połysk lub kolor jednolity'],
-      ['Charakter usługi', 'renowacja i zmiana wyglądu powierzchni, nie folia na szybę'],
-      ['Przygotowanie', 'czyszczenie, odtłuszczenie, ocena krawędzi, narożników i stanu podłoża'],
+  "seoDescription": "Okleiny i laminaty architektoniczne: oklejanie drzwi, frontów, mebli i ram. Zobacz metamorfozy przed i po, dobór wykończeń i montaż Lumera.",
+  "effectTitle": "Nowy wygląd powierzchni bez wymiany sprawnych elementów",
+  "effectLead": "Okleina architektoniczna działa inaczej niż folia okienna. Nie zmienia parametrów szyby, tylko pozwala odnowić lub przebudować wizualnie istniejący element: ramę okienną, drzwi, futrynę, front meblowy, ladę, panel lub zabudowę. Najważniejsze jest przygotowanie podłoża, dobór wykończenia i staranne wyprowadzenie krawędzi, bo to one decydują, czy efekt będzie wyglądał jak część wnętrza, a nie jak doraźna naklejka.",
+  "effectDetails": [
+    [
+      "Typ powierzchni",
+      "ramy, drzwi, futryny, fronty, meble, lady, panele i wybrane gładkie elementy"
     ],
-    bestFor: [
-      'wnętrza, w których elementy są sprawne, ale kolor lub struktura nie pasuje do nowej aranżacji',
-      'lokale, biura i gabinety, gdzie szybka metamorfoza jest lepsza niż wymiana drzwi, lad lub mebli',
-      'ramy okienne, futryny i drzwi wymagające spójnego wykończenia z resztą projektu',
-      'powierzchnie narażone na codzienne użytkowanie, które potrzebują estetycznego i praktycznego odświeżenia',
+    [
+      "Efekt wizualny",
+      "drewno, kamień, beton, metal, mat, połysk lub kolor jednolity"
     ],
-    beforeInstall: [
-      'trzeba sprawdzić, czy podłoże jest stabilne, suche, czyste i bez łuszczących się warstw',
-      'głębokie ubytki, spuchnięte płyty, odpadający lakier lub nierówności mogą wymagać naprawy przed oklejeniem',
-      'warto wcześniej wybrać kierunek stylistyczny: drewno, kamień, metal, beton, kolor lub neutralny mat',
-      'do wyceny potrzebne są zdjęcia całości i detali, wymiary elementów oraz miejsce montażu',
+    [
+      "Charakter usługi",
+      "renowacja i zmiana wyglądu powierzchni, nie folia na szybę"
     ],
-    faq: [
-      {
-        question: 'Czy okleiny i laminaty architektoniczne są folią okienną?',
-        answer:
-          'Nie. To rozwiązanie do powierzchni takich jak ramy, drzwi, futryny, fronty meblowe, lady i zabudowy. Folie okienne montuje się na szkło, a okleiny architektoniczne służą do zmiany wyglądu innych elementów.',
-      },
-      {
-        question: 'Czy można okleić ramy okienne bez wymiany okien?',
-        answer:
-          'W wielu przypadkach tak, jeśli rama jest stabilna, czysta i nie ma uszkodzeń, które uniemożliwiają estetyczne wykończenie krawędzi. Przed decyzją potrzebne są zdjęcia ramy, narożników i miejsca montażu.',
-      },
-      {
-        question: 'Czy okleiną można odnowić drzwi lub futryny?',
-        answer:
-          'Tak, to jedno z typowych zastosowań. Okleina pozwala zmienić kolor lub strukturę drzwi i ościeżnic bez wymiany kompletu, pod warunkiem że powierzchnia nadaje się do przygotowania i aplikacji.',
-      },
-      {
-        question: 'Czy taka powierzchnia jest odporna na codzienne użytkowanie?',
-        answer:
-          'Dobrze dobrany laminat jest przeznaczony do codziennego użytkowania, ale trwałość zależy od rodzaju podłoża, jakości przygotowania, intensywności eksploatacji i późniejszej pielęgnacji.',
-      },
-    ],
-  },
+    [
+      "Przygotowanie",
+      "czyszczenie, odtłuszczenie, ocena krawędzi, narożników i stanu podłoża"
+    ]
+  ],
+  "bestFor": [
+    "wnętrza, w których elementy są sprawne, ale kolor lub struktura nie pasuje do nowej aranżacji",
+    "lokale, biura i gabinety, gdzie szybka metamorfoza jest lepsza niż wymiana drzwi, lad lub mebli",
+    "ramy okienne, futryny i drzwi wymagające spójnego wykończenia z resztą projektu",
+    "powierzchnie narażone na codzienne użytkowanie, które potrzebują estetycznego i praktycznego odświeżenia"
+  ],
+  "beforeInstall": [
+    "trzeba sprawdzić, czy podłoże jest stabilne, suche, czyste i bez łuszczących się warstw",
+    "głębokie ubytki, spuchnięte płyty, odpadający lakier lub nierówności mogą wymagać naprawy przed oklejeniem",
+    "warto wcześniej wybrać kierunek stylistyczny: drewno, kamień, metal, beton, kolor lub neutralny mat",
+    "do wyceny potrzebne są zdjęcia całości i detali, wymiary elementów oraz miejsce montażu"
+  ],
+  "faq": [
+    {
+      "question": "Czy okleiny i laminaty architektoniczne są folią okienną?",
+      "answer": "Nie. To rozwiązanie do powierzchni takich jak ramy, drzwi, futryny, fronty meblowe, lady i zabudowy. Folie okienne montuje się na szkło, a okleiny architektoniczne służą do zmiany wyglądu innych elementów."
+    },
+    {
+      "question": "Czy można okleić ramy okienne bez wymiany okien?",
+      "answer": "W wielu przypadkach tak, jeśli rama jest stabilna, czysta i nie ma uszkodzeń, które uniemożliwiają estetyczne wykończenie krawędzi. Przed decyzją potrzebne są zdjęcia ramy, narożników i miejsca montażu."
+    },
+    {
+      "question": "Czy okleiną można odnowić drzwi lub futryny?",
+      "answer": "Tak, to jedno z typowych zastosowań. Okleina pozwala zmienić kolor lub strukturę drzwi i ościeżnic bez wymiany kompletu, pod warunkiem że powierzchnia nadaje się do przygotowania i aplikacji."
+    },
+    {
+      "question": "Czy taka powierzchnia jest odporna na codzienne użytkowanie?",
+      "answer": "Dobrze dobrany laminat jest przeznaczony do codziennego użytkowania, ale trwałość zależy od rodzaju podłoża, jakości przygotowania, intensywności eksploatacji i późniejszej pielęgnacji."
+    },
+    {
+      "question": "Ile kosztuje oklejanie drzwi, mebli lub frontów laminatem?",
+      "answer": "Cena zależy od powierzchni, wybranego dekoru, stanu podłoża, liczby krawędzi i detali oraz zakresu przygotowania. Dwa elementy o podobnych wymiarach mogą wymagać różnego nakładu pracy. Do indywidualnej wyceny prześlij zdjęcia, wymiary, liczbę elementów i lokalizację."
+    },
+    {
+      "question": "Czy można okleić fronty kuchenne z frezami?",
+      "answer": "Możliwość oklejenia zależy od głębokości i kształtu frezów oraz właściwości konkretnego materiału. Sprawdzamy również stan starej powłoki i krawędzi. Nie każdy laminat nadaje się do wszystkich przetłoczeń; zdjęcia zbliżeń pomagają ocenić rozwiązanie przed montażem."
+    },
+    {
+      "question": "Czy laminat architektoniczny nadaje się na stół lub blat?",
+      "answer": "Możemy ocenić możliwość zmiany wykończenia stołu lub blatu, uwzględniając intensywność użytkowania, krawędzie, kontakt z wodą i temperaturą. Materiał dobieramy do zastosowania. Gorące naczynia wymagają podkładek, a krojenie bezpośrednio na dekoracyjnej powierzchni może ją uszkodzić."
+    },
+    {
+      "question": "Czy można okleić zewnętrzną stronę drzwi wejściowych?",
+      "answer": "Takie zastosowanie wymaga materiału przeznaczonego do warunków zewnętrznych i oceny ekspozycji na słońce, wodę oraz zmiany temperatury. Okleina do wnętrz nie jest automatycznie odpowiednia na zewnątrz. Podczas wyceny podaj, która strona drzwi ma być odnawiana i czy wejście jest osłonięte."
+    },
+    {
+      "question": "Czy okleina zakryje uszkodzenia i odchodzącą farbę?",
+      "answer": "Okleina nie naprawia podłoża. Łuszczące się warstwy trzeba usunąć, a ubytki i nierówności przygotować przed aplikacją. Spuchnięta płyta, wilgoć lub niestabilne elementy mogą wykluczyć oklejanie. Ocenę zaczynamy od stanu powierzchni, nie od wyboru koloru."
+    },
+    {
+      "question": "Jak długo trwa oklejanie drzwi i mebli?",
+      "answer": "Termin i czas prac ustalamy po ocenie zakresu. Liczą się liczba elementów, potrzebne naprawy, czas schnięcia przygotowanego podłoża, demontaż osprzętu i dostęp do miejsca montażu. Przy większych zabudowach możemy omówić etapowanie prac."
+    },
+    {
+      "question": "Czy trzeba demontować drzwi, uchwyty i zawiasy?",
+      "answer": "Zakres demontażu zależy od dostępu do krawędzi i sposobu wykończenia. Część prac można wykonać na miejscu, ale zdjęcie uchwytów lub innego osprzętu bywa potrzebne do estetycznej aplikacji. Ustalamy to przed rozpoczęciem montażu."
+    },
+    {
+      "question": "Jak dobrać kolor i strukturę okleiny do wnętrza?",
+      "answer": "Porównaj dekor z podłogą, ścianami, zabudową i oświetleniem. Przy wzorach drewnopodobnych znaczenie mają usłojenie, kierunek wzoru i poziom połysku. Zdjęcie katalogowe pomaga wybrać kierunek, ale końcowy dobór warto oprzeć na próbce oglądanej w miejscu montażu."
+    },
+    {
+      "question": "Jak czyścić powierzchnię po oklejeniu?",
+      "answer": "Stosuj zalecenia dla wybranego materiału. Zwykle sprawdza się miękka ściereczka i łagodny środek czyszczący. Unikaj szorowania, ostrych narzędzi i agresywnych rozpuszczalników; szczególną uwagę zwracaj na krawędzie i miejsca narażone na zaleganie wody."
+    },
+    {
+      "question": "Czym okleina architektoniczna różni się od laminatu HPL?",
+      "answer": "W tej ofercie mówimy o dekoracyjnych materiałach do oklejania istniejących powierzchni. Laminat HPL to inny rodzaj wykończenia, zwykle stosowany jako sztywna warstwa na odpowiednim podłożu. Dlatego przy zapytaniu warto podać, czy chodzi o odnowienie elementu okleiną, czy o wykonanie nowej płyty lub zabudowy."
+    },
+    {
+      "question": "Czy oklejanie jest zawsze tańsze od wymiany?",
+      "answer": "Nie zawsze. Porównujemy stan elementu, koszt przygotowania, wybrany materiał i nakład pracy z wymianą. Renowacja ma sens przede wszystkim wtedy, gdy konstrukcja jest sprawna, a zmiany wymaga jej wygląd. Przy poważnych uszkodzeniach lepszym rozwiązaniem może być naprawa lub wymiana."
+    },
+    {
+      "question": "Gdzie można zamówić montaż oklein i laminatów Lumera?",
+      "answer": "Ofertę lokalną opisujemy dla Krakowa i Katowic oraz okolic. W zapytaniu podaj miejscowość i zakres prac, abyśmy mogli potwierdzić możliwość dojazdu, termin i koszt montażu."
+    }
+  ],
+  "seoTitle": "Okleiny i laminaty architektoniczne – drzwi i meble | Lumera"
+},
   'film-removal': {
     seoDescription:
       'Demontaż folii okiennych obejmuje usunięcie starej folii, kleju i przygotowanie szyby pod nowy montaż lub czystą powierzchnię.',

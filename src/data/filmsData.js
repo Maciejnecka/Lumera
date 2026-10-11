@@ -452,7 +452,7 @@ const baseFilmsData = [
     shortDescription:
       'Metamorfoza ram okiennych, drzwi, futryn, mebli i gładkich powierzchni bez wymiany elementów.',
     lead:
-      'Okleiny i laminaty architektoniczne to osobna gałąź oferty Lumera: nie są folią okienną na szybę, tylko materiałem do odnawiania i zmiany wyglądu istniejących powierzchni. Stosuje się je na ramy okienne, drzwi, futryny, fronty meblowe, zabudowy, lady, panele i inne gładkie elementy, gdy chcesz uzyskać efekt drewna, kamienia, betonu, metalu albo jednolitego koloru bez demontażu i kosztownej wymiany. To dobre rozwiązanie do mieszkań, lokali usługowych, biur, hoteli i obiektów, w których liczy się szybka, czysta zmiana wizualna przy zachowaniu istniejącej konstrukcji.',
+      'Okleiny i laminaty architektoniczne pozwalają odnowić drzwi, fronty meblowe, ramy okienne, futryny, stoły i zabudowy przy zachowaniu sprawnej konstrukcji. W Lumera dobieramy dekor do wnętrza i sposób montażu do powierzchni: od ciepłego drewna, przez kamień i beton, po metal lub jednolity mat. To możliwość zmiany wyglądu mieszkania, biura, recepcji czy lokalu bez wymiany całego wyposażenia. Sprawdzamy podłoże, planujemy przygotowanie i wykończenie detali, a zakres oraz koszt ustalamy na podstawie zdjęć, wymiarów i warunków użytkowania. Zobacz realizacje przed i po oraz sprawdź, jak zaplanować własną metamorfozę.',
     highlights: [
       'zmiana wyglądu powierzchni bez wymiany ram, drzwi, futryn lub mebli',
       'szeroki wybór wykończeń: drewno, kamień, beton, metal, mat, połysk i kolory jednolite',

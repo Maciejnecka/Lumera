@@ -261,6 +261,7 @@ const WindowFilmsSection = () => {
   };
 
   const handlePointerDown = (event) => {
+    dragState.current.hasMoved = false;
     if (event.pointerType === 'touch' || event.target.closest('a, button')) return;
 
     const slider = sliderRef.current;
@@ -274,7 +275,6 @@ const WindowFilmsSection = () => {
       startX: event.clientX,
       scrollLeft: slider.scrollLeft,
     };
-    slider.setPointerCapture(event.pointerId);
     setIsDragging(true);
   };
 
@@ -288,6 +288,10 @@ const WindowFilmsSection = () => {
 
     if (Math.abs(distance) > 6) {
       state.hasMoved = true;
+      // Capture only a real drag; capturing pointerdown redirects ordinary clicks.
+      if (!slider.hasPointerCapture(event.pointerId)) {
+        slider.setPointerCapture(event.pointerId);
+      }
     }
 
     slider.scrollLeft = state.scrollLeft - distance;
@@ -333,6 +337,7 @@ const WindowFilmsSection = () => {
   };
 
   const handleCardKeyDown = (event, path) => {
+    if (event.target !== event.currentTarget) return;
     if (event.key !== 'Enter' && event.key !== ' ') return;
 
     event.preventDefault();
@@ -460,7 +465,13 @@ const WindowFilmsSection = () => {
               )}
               <FilmMeta>{film.name}</FilmMeta>
               <h3>{film.shortDescription}</h3>
-              <span className="film-card__cta">Zobacz pełny opis</span>
+              <Link
+                className="film-card__cta"
+                href={film.path}
+                onClick={(event) => event.stopPropagation()}
+              >
+                Zobacz pełny opis
+              </Link>
             </div>
           </FilmCard>
         ))}

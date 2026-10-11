@@ -41,7 +41,7 @@ const RelatedProjectsSection = ({
               />
             </RelatedProjectImage>
             <RelatedProjectBody>
-              <span>{project.city} / {project.serviceType}</span>
+              <span>{project.isCollection ? 'Zbiór realizacji' : project.city} / {project.serviceType}</span>
               <strong>{project.title}</strong>
               <p>{project.seoDescription}</p>
             </RelatedProjectBody>

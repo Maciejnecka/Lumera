@@ -17,7 +17,7 @@ const buildProjectSchema = (project) => ({
   '@id': `${siteUrl}${project.path}#article`,
   headline: project.title,
   description: project.seoDescription,
-  articleSection: 'Realizacje folii okiennych',
+  articleSection: project.isCollection ? 'Realizacje laminatów architektonicznych' : 'Realizacje folii okiennych',
   keywords: project.tags?.join(', '),
   image: project.images.map((image) => `${siteUrl}${image.full}`),
   datePublished: project.datePublished,
@@ -30,7 +30,7 @@ const buildProjectSchema = (project) => ({
     '@id': `${siteUrl}/#localbusiness`,
   },
   mainEntityOfPage: `${siteUrl}${project.path}`,
-  spatialCoverage: {
+  spatialCoverage: project.isCollection ? undefined : {
     '@type': 'Place',
     name: project.city,
   },
@@ -40,10 +40,10 @@ const buildProjectSchema = (project) => ({
       name: project.serviceType,
       url: `${siteUrl}${project.relatedFilmPath}`,
     },
-    {
+    ...(!project.isCollection ? [{
       '@type': 'Place',
       name: project.city,
-    },
+    }] : []),
   ],
 });
 

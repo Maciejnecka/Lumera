@@ -543,8 +543,13 @@ export const ContactForm = styled.form`
       background var(--transition-fast);
   }
 
-  > button[type='submit']:hover,
-  > button[type='submit']:focus-visible {
+  > button[type='submit']:disabled {
+    cursor: wait;
+    opacity: 0.7;
+  }
+
+  > button[type='submit']:not(:disabled):hover,
+  > button[type='submit']:not(:disabled):focus-visible {
     transform: translateY(-2px);
     background: linear-gradient(135deg, #24584d, #3f7a6e);
     box-shadow: var(--shadow-lg);
