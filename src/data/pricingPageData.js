@@ -47,13 +47,13 @@ export const pricingGroups = [
       },
       {
         filmId: 'matte',
-        serviceRange: '110-175 zl/m2',
+        serviceRange: '135-215 zl/m2',
         warranty: '7-15 lat',
         note: 'Spokojny, satynowy efekt i prywatność bez mocnego zaciemnienia.',
       },
       {
         filmId: 'frosted',
-        serviceRange: '95-175 zl/m2',
+        serviceRange: '135-225 zl/m2',
         warranty: '7-15 lat',
         note: 'Dekoracyjny efekt mrożonego szkła; cena rośnie przy wycinaniu wzorów.',
       },
@@ -143,7 +143,7 @@ export const pricingGroups = [
       },
       {
         filmId: 'film-removal',
-        serviceRange: 'najczęściej od ok. 50 do 170 zl/m2',
+        serviceRange: 'od ok. 30 do 100 zl/m2',
         warranty: 'nie dotyczy',
         note: 'Demontaż wyceniamy po typie folii, wieku aplikacji, kleju i tym, czy szyba ma być przygotowana pod nowy montaż.',
       },

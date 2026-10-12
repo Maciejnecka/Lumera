@@ -9,12 +9,12 @@ const staticPages = [
   {
     path: '/montaz-folii-okiennych-krakow',
     priority: '0.9',
-    sourceFile: 'src/components/HomePage/HomePage.js',
+    sourceFile: 'src/data/localWindowFilmsPagesData.js',
   },
   {
     path: '/montaz-folii-okiennych-katowice',
     priority: '0.85',
-    sourceFile: 'src/components/HomePage/HomePage.js',
+    sourceFile: 'src/data/localWindowFilmsPagesData.js',
   },
   {
     path: '/montaz-folii-lcd',
@@ -89,9 +89,9 @@ const getLastModified = (file) => {
 const extractPaths = (file) => {
   const fullPath = path.join(rootDir, file);
   const source = fs.readFileSync(fullPath, 'utf8');
-  const matches = [...source.matchAll(/path:\s*'([^']+)'/g)];
+  const matches = [...source.matchAll(/['"]?path['"]?\s*:\s*(['"])([^'"]+)\1/g)];
 
-  return matches.map((match) => match[1]);
+  return matches.map((match) => match[2]);
 };
 
 const addPage = (pages, page) => {

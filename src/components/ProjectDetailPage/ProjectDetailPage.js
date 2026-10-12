@@ -1,6 +1,6 @@
 import React from 'react';
 import { filmsData } from '../../data/filmsData';
-import { localServicePagesData } from '../../data/localServicePagesData';
+import { getLocalPageLink } from '../../data/localPageLinksData';
 import { getProjectsByFilmPath } from '../../data/projectPagesData';
 import { serviceHubPagesData } from '../../data/serviceHubPagesData';
 import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
@@ -30,7 +30,6 @@ import {
 
 const getFilm = (path) => filmsData.find((film) => film.path === path);
 const getServiceHub = (path) => serviceHubPagesData.find((page) => page.path === path);
-const getLocalService = (path) => localServicePagesData.find((page) => page.path === path);
 const getServiceEntity = (path) => getFilm(path) || getServiceHub(path);
 
 const storeContactTopic = (topic) => {
@@ -49,7 +48,7 @@ const ProjectDetailPage = ({ project, breadcrumbs }) => {
     .map(getServiceEntity)
     .filter(Boolean);
   const relatedLocalPages = (project.relatedLocalPaths || [project.relatedLocalPath])
-    .map(getLocalService)
+    .map(getLocalPageLink)
     .filter(Boolean);
   const relatedProjects = getProjectsByFilmPath(project.relatedFilmPath)
     .filter((item) => item.path !== project.path)

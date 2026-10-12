@@ -1,8 +1,11 @@
+import { localWindowFilmsPagesData } from '../../data/localWindowFilmsPagesData';
 import React from 'react';
 import Link from 'next/link';
 import { filmsData } from '../../data/filmsData';
 import { localServicePagesData } from '../../data/localServicePagesData';
 import { problemPagesData } from '../../data/problemPagesData';
+import { getProjectPageByPath } from '../../data/projectPagesData';
+import RelatedProjectsSection from '../RelatedProjectsSection';
 import lcdInstallationImage from '../../img/generated/montaz-folii-lcd.webp';
 import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
 import {
@@ -58,102 +61,13 @@ const lcdInstallationPage = {
   ],
 };
 
-export const localWindowFilmsPagesData = {
-  krakow: {
-    eyebrow: 'Kraków i okolice',
-    title: 'Montaż folii okiennych w Krakowie',
-    lead:
-      'Lumera pomaga dobrać i zamontować folie okienne do mieszkań, domów, biur oraz lokali usługowych w Krakowie, Rudawie, Zabierzowie i okolicach. Pracujemy z foliami przeciwsłonecznymi, matowymi, ochronnymi, bezpiecznymi, specjalistycznymi oraz z demontażem starszych aplikacji.',
-    areaTitle: 'Kraków i okolice',
-    areaText:
-      'Realizujemy zapytania między innymi w Krakowie, Rudawie, Zabierzowie, Balicach, Modlniczce, Krzeszowicach, Wieliczce, Skawinie i pobliskich miejscowościach.',
-    intro:
-      'W Krakowie często pracujemy z mieszkaniami od strony mocnego słońca, lokalami usługowymi z witrynami, gabinetami oraz biurami, gdzie liczy się komfort pracy, prywatność i estetyczny wygląd przeszkleń.',
-    sections: [
-      {
-        heading: 'Folie okienne Kraków: od problemu do typu folii',
-        text:
-          'Na lokalnej stronie nie chodzi tylko o sam montaż. Najpierw trzeba nazwać problem: nagrzewanie, odblaski, brak prywatności, bezpieczeństwo szyby, dekoracja albo potrzeba demontażu starej folii. Dopiero potem dobiera się kierunek: folię przeciwsłoneczną, matową, mrożoną, lustro weneckie, folię LCD, zabezpieczającą albo specjalistyczną.',
-      },
-      {
-        heading: 'Najczęstsze zapytania z Krakowa i okolic',
-        text:
-          'Najwięcej zapytań dotyczy mieszkań od południa i zachodu, witryn usługowych, gabinetów, biur oraz większych przeszkleń, przy których liczy się komfort bez ciężkich zasłon i rolet. Przy takich realizacjach ważne są ekspozycja, typ szyby, piętro, dostęp z zewnątrz i oczekiwany efekt po montażu.',
-      },
-      {
-        heading: 'Dzielnice Krakowa i pobliskie miejscowości',
-        text:
-          'Najczęściej pojawiają się zapytania z Bronowic, Krowodrzy, Prądnika, Dębnik, Ruczaju, Zabierzowa, Rudawy, Balic, Modlniczki, Wieliczki i Skawiny. Tę listę traktujemy jako naturalny obszar dojazdu, a nie ograniczenie: przy większych przeszkleniach zakres ustalamy indywidualnie.',
-      },
-      {
-        heading: 'Jak przygotować szybką wycenę w Krakowie?',
-        text:
-          'Najlepiej wysłać zdjęcia całych okien lub witryn, zbliżenia krawędzi, wymiary szyb od uszczelki do uszczelki, liczbę przeszkleń, lokalizację oraz krótki opis celu. Taki zestaw informacji pozwala szybciej ocenić, czy wystarczy wstępna wycena zdalna, czy potrzebny będzie dodatkowy pomiar.',
-      },
-    ],
-    audience: [
-      'dla mieszkań i domów, w których przeszkadza nagrzewanie albo brak prywatności',
-      'dla biur, gabinetów i sal spotkań z dużymi przeszkleniami',
-      'dla lokali usługowych, witryn i przestrzeni komercyjnych',
-      'dla obiektów, w których trzeba zabezpieczyć szyby lub ograniczyć ryzyko rozprysku szkła',
-      'dla klientów, którzy chcą usunąć starą folię i przygotować szybę pod nową aplikację',
-    ],
-    process:
-      'Najlepiej przesłać szerokość i wysokość mierzone od uszczelki do uszczelki, liczbę szyb, krótki opis problemu oraz zdjęcia okien. Dzięki temu możemy szybciej określić, jaki rodzaj folii ma sens i czy przed wyceną potrzebne będą dodatkowe informacje.',
-    faq: [
-      {
-        question: 'Czy Lumera montuje folie okienne w całym Krakowie?',
-        answer:
-          'Tak, Lumera przyjmuje zapytania z całego Krakowa oraz okolic, między innymi z Rudawy, Zabierzowa, Balic, Modlniczki, Krzeszowic, Wieliczki i Skawiny. Przy większych przeszkleniach lub kilku szybach warto od razu przesłać zdjęcia, wymiary i lokalizację, żeby szybciej ocenić zakres oraz dojazd.',
-      },
-      {
-        question: 'Czy obsługujecie Bronowice, Krowodrzę, Prądnik, Dębniki i Ruczaj?',
-        answer:
-          'Tak. To typowe lokalizacje dla zapytań o folie okienne w Krakowie. W formularzu najlepiej podać dzielnicę, ulicę lub punkt orientacyjny, piętro, dostęp do szyb oraz oczekiwany efekt.',
-      },
-      {
-        question: 'Jakie folie okienne najczęściej wybiera się w Krakowie?',
-        answer:
-          'Najczęściej pojawiają się folie przeciwsłoneczne na nagrzewanie, folie matowe i mrożone na prywatność, folie ochronne lub antywłamaniowe do witryn oraz folie LCD do szklanych ścian i gabinetów.',
-      },
-      {
-        question: 'Czy do wyceny wystarczy zdjęcie i wymiary?',
-        answer:
-          'Do wstępnej wyceny zwykle tak. Najlepiej podać szerokość i wysokość szyb od uszczelki do uszczelki, liczbę szyb, zdjęcia całych okien, piętro, dostęp oraz krótki opis problemu.',
-      },
-      {
-        question: 'Czy warto od razu wskazać typ folii?',
-        answer:
-          'Jeśli wiesz, że interesuje Cię folia przeciwsłoneczna, matowa, LCD, ochronna albo demontaż starej folii, warto to wpisać w formularzu. Jeśli nie masz pewności, wystarczy opisać problem, a dobór można zrobić po zdjęciach i wymiarach.',
-      },
-    ],
-  },
-  katowice: {
-    eyebrow: 'Katowice i aglomeracja śląska',
-    title: 'Montaż folii okiennych w Katowicach',
-    lead:
-      'Lumera przyjmuje zapytania o montaż folii okiennych również dla Katowic i okolic. To kierunek szczególnie sensowny przy większych przeszkleniach, biurach, lokalach usługowych, witrynach oraz realizacjach, w których liczy się dobór folii pod konkretny problem.',
-    areaTitle: 'Katowice i okolice',
-    areaText:
-      'Obsługę Katowic najlepiej planować przy większych realizacjach lub kilku przeszkleniach, tak aby dobrze połączyć pomiar, doradztwo i montaż.',
-    intro:
-      'W Katowicach folie okienne dobrze sprawdzają się w biurach, lokalach przy ruchliwych ulicach, mieszkaniach z dużymi przeszkleniami oraz obiektach usługowych, gdzie ważne są komfort termiczny, prywatność i bezpieczeństwo szyb.',
-    audience: [
-      'dla biur i lokali usługowych z dużymi przeszkleniami lub witrynami',
-      'dla mieszkań, w których problemem jest słońce, odblaski lub nagrzewanie',
-      'dla gabinetów, sal spotkań i przestrzeni wymagających prywatności',
-      'dla obiektów, które chcą zabezpieczyć szyby bez wymiany stolarki',
-      'dla klientów planujących demontaż starej folii i montaż nowego rozwiązania',
-    ],
-    process:
-      'Przy zapytaniach z Katowic szczególnie pomaga komplet informacji na starcie: wymiary od uszczelki do uszczelki, liczba szyb, zdjęcia, piętro, dostęp do okien i oczekiwany efekt. Na tej podstawie łatwiej ocenić, czy potrzebny będzie pomiar, jaki typ folii dobrać i jak zaplanować realizację.',
-  },
-};
+export { localWindowFilmsPagesData } from '../../data/localWindowFilmsPagesData';
 
 const LocalWindowFilmsPage = ({ city = 'krakow', breadcrumbs }) => {
   const page = localWindowFilmsPagesData[city] || localWindowFilmsPagesData.krakow;
   const cityName = city === 'katowice' ? 'Katowice' : 'Kraków';
   const servicePages = localServicePagesData.filter((item) => item.city === cityName);
+  const relatedProjects = (page.projectPaths || []).map(getProjectPageByPath).filter(Boolean);
   const problemLinks = problemPagesData.filter((item) =>
     [
       '/jak-ograniczyc-nagrzewanie-mieszkania',
@@ -163,6 +77,7 @@ const LocalWindowFilmsPage = ({ city = 'krakow', breadcrumbs }) => {
       '/folia-przeciwsloneczna-zewnetrzna-czy-wewnetrzna',
       '/czy-folia-na-okna-przyciemnia-mieszkanie',
       '/folia-na-witryne-sklepowa',
+      '/folie-okienne-do-biura',
     ].includes(item.path)
   );
 
@@ -209,6 +124,21 @@ const LocalWindowFilmsPage = ({ city = 'krakow', breadcrumbs }) => {
             <p>{section.text}</p>
           </LocalSection>
         ))}
+
+        <LocalSection>
+          <h2>Cennik i przygotowanie zapytania</h2>
+          <p>Porównaj zakresy usług w cenniku. Dokładna wycena wymaga informacji o Twoich szybach, wybranej folii i warunkach montażu.</p>
+          <LocalActions>
+            <Link href="/cennik">Sprawdź cennik usług</Link>
+            <Link href="/kontakt">Prześlij zdjęcia i wymiary</Link>
+          </LocalActions>
+        </LocalSection>
+
+        <RelatedProjectsSection
+          projects={relatedProjects}
+          title={`Przykłady realizacji: ${cityName} i okolice`}
+          lead="Zobacz zastosowane folie, opis prac i zdjęcia z montaży. Każda karta podaje rzeczywistą lokalizację realizacji."
+        />
 
         <LocalSection>
           <h2>Jakie folie okienne montujemy?</h2>

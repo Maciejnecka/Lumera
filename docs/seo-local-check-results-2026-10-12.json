@@ -1,0 +1,433 @@
+{
+  "pages": 70,
+  "passed": 70,
+  "internalLinks": 3276,
+  "imageReferences": 402,
+  "failures": [],
+  "results": [
+    {
+      "url": "/",
+      "status": 200,
+      "h1": 1,
+      "faq": 0
+    },
+    {
+      "url": "/montaz-folii-okiennych-krakow",
+      "status": 200,
+      "h1": 1,
+      "faq": 7
+    },
+    {
+      "url": "/montaz-folii-lcd",
+      "status": 200,
+      "h1": 1,
+      "faq": 0
+    },
+    {
+      "url": "/montaz-folii-okiennych-katowice",
+      "status": 200,
+      "h1": 1,
+      "faq": 6
+    },
+    {
+      "url": "/realizacje",
+      "status": 200,
+      "h1": 1,
+      "faq": 0
+    },
+    {
+      "url": "/folie-okienne-lokalnie",
+      "status": 200,
+      "h1": 1,
+      "faq": 0
+    },
+    {
+      "url": "/kontakt",
+      "status": 200,
+      "h1": 1,
+      "faq": 4
+    },
+    {
+      "url": "/cennik",
+      "status": 200,
+      "h1": 1,
+      "faq": 0
+    },
+    {
+      "url": "/polityka-prywatnosci",
+      "status": 200,
+      "h1": 1,
+      "faq": 0
+    },
+    {
+      "url": "/folie-przeciwsloneczne-zewnetrzne",
+      "status": 200,
+      "h1": 1,
+      "faq": 5
+    },
+    {
+      "url": "/folie-lustra-weneckie",
+      "status": 200,
+      "h1": 1,
+      "faq": 5
+    },
+    {
+      "url": "/folie-przeciwsloneczne-wewnetrzne",
+      "status": 200,
+      "h1": 1,
+      "faq": 5
+    },
+    {
+      "url": "/folie-lcd",
+      "status": 200,
+      "h1": 1,
+      "faq": 8
+    },
+    {
+      "url": "/folie-anty-uv",
+      "status": 200,
+      "h1": 1,
+      "faq": 5
+    },
+    {
+      "url": "/folie-na-poliweglan",
+      "status": 200,
+      "h1": 1,
+      "faq": 5
+    },
+    {
+      "url": "/folie-matowe",
+      "status": 200,
+      "h1": 1,
+      "faq": 5
+    },
+    {
+      "url": "/folie-mrozone",
+      "status": 200,
+      "h1": 1,
+      "faq": 5
+    },
+    {
+      "url": "/folie-bezpieczne-haccp",
+      "status": 200,
+      "h1": 1,
+      "faq": 5
+    },
+    {
+      "url": "/folie-ochronne",
+      "status": 200,
+      "h1": 1,
+      "faq": 5
+    },
+    {
+      "url": "/folie-antywlamaniowe",
+      "status": 200,
+      "h1": 1,
+      "faq": 5
+    },
+    {
+      "url": "/folie-zabezpieczajace",
+      "status": 200,
+      "h1": 1,
+      "faq": 5
+    },
+    {
+      "url": "/folie-anty-podsluchowe",
+      "status": 200,
+      "h1": 1,
+      "faq": 5
+    },
+    {
+      "url": "/folie-termoizolacyjne",
+      "status": 200,
+      "h1": 1,
+      "faq": 5
+    },
+    {
+      "url": "/folie-projekcyjne",
+      "status": 200,
+      "h1": 1,
+      "faq": 5
+    },
+    {
+      "url": "/folie-antykolizyjne",
+      "status": 200,
+      "h1": 1,
+      "faq": 5
+    },
+    {
+      "url": "/demontaz-folii-okiennych",
+      "status": 200,
+      "h1": 1,
+      "faq": 5
+    },
+    {
+      "url": "/folie-okienne-do-biura",
+      "status": 200,
+      "h1": 1,
+      "faq": 6
+    },
+    {
+      "url": "/okleiny-i-laminaty-architektoniczne",
+      "status": 200,
+      "h1": 1,
+      "faq": 19
+    },
+    {
+      "url": "/folia-na-szybe-do-lazienki",
+      "status": 200,
+      "h1": 1,
+      "faq": 1
+    },
+    {
+      "url": "/jak-ograniczyc-nagrzewanie-mieszkania",
+      "status": 200,
+      "h1": 1,
+      "faq": 2
+    },
+    {
+      "url": "/folia-na-okno-przed-sasiadami",
+      "status": 200,
+      "h1": 1,
+      "faq": 2
+    },
+    {
+      "url": "/folia-na-witryne-sklepowa",
+      "status": 200,
+      "h1": 1,
+      "faq": 1
+    },
+    {
+      "url": "/folia-na-okna-od-poludnia",
+      "status": 200,
+      "h1": 1,
+      "faq": 1
+    },
+    {
+      "url": "/folia-na-swietliki-dachowe",
+      "status": 200,
+      "h1": 1,
+      "faq": 1
+    },
+    {
+      "url": "/folia-na-okna-od-zachodu",
+      "status": 200,
+      "h1": 1,
+      "faq": 2
+    },
+    {
+      "url": "/folia-przeciwsloneczna-zewnetrzna-czy-wewnetrzna",
+      "status": 200,
+      "h1": 1,
+      "faq": 2
+    },
+    {
+      "url": "/czy-folia-na-okna-przyciemnia-mieszkanie",
+      "status": 200,
+      "h1": 1,
+      "faq": 2
+    },
+    {
+      "url": "/folia-matowa-czy-mrozona",
+      "status": 200,
+      "h1": 1,
+      "faq": 2
+    },
+    {
+      "url": "/czy-folia-przeciwsloneczna-dziala-zima",
+      "status": 200,
+      "h1": 1,
+      "faq": 2
+    },
+    {
+      "url": "/folia-antywlamaniowa-na-witryne-sklepowa",
+      "status": 200,
+      "h1": 1,
+      "faq": 2
+    },
+    {
+      "url": "/folie-przeciwsloneczne-krakow",
+      "status": 200,
+      "h1": 1,
+      "faq": 3
+    },
+    {
+      "url": "/folie-przeciwsloneczne-katowice",
+      "status": 200,
+      "h1": 1,
+      "faq": 5
+    },
+    {
+      "url": "/folie-antywlamaniowe-krakow",
+      "status": 200,
+      "h1": 1,
+      "faq": 0
+    },
+    {
+      "url": "/folie-antywlamaniowe-katowice",
+      "status": 200,
+      "h1": 1,
+      "faq": 0
+    },
+    {
+      "url": "/folie-matowe-krakow",
+      "status": 200,
+      "h1": 1,
+      "faq": 0
+    },
+    {
+      "url": "/folie-matowe-katowice",
+      "status": 200,
+      "h1": 1,
+      "faq": 0
+    },
+    {
+      "url": "/folie-lustra-weneckie-krakow",
+      "status": 200,
+      "h1": 1,
+      "faq": 0
+    },
+    {
+      "url": "/folie-lustra-weneckie-katowice",
+      "status": 200,
+      "h1": 1,
+      "faq": 0
+    },
+    {
+      "url": "/folie-lcd-krakow",
+      "status": 200,
+      "h1": 1,
+      "faq": 3
+    },
+    {
+      "url": "/folie-lcd-katowice",
+      "status": 200,
+      "h1": 1,
+      "faq": 3
+    },
+    {
+      "url": "/okleiny-i-laminaty-krakow",
+      "status": 200,
+      "h1": 1,
+      "faq": 2
+    },
+    {
+      "url": "/okleiny-i-laminaty-katowice",
+      "status": 200,
+      "h1": 1,
+      "faq": 1
+    },
+    {
+      "url": "/oklejanie-ram-okiennych-krakow",
+      "status": 200,
+      "h1": 1,
+      "faq": 1
+    },
+    {
+      "url": "/oklejanie-ram-okiennych-katowice",
+      "status": 200,
+      "h1": 1,
+      "faq": 0
+    },
+    {
+      "url": "/oklejanie-drzwi-i-mebli-krakow",
+      "status": 200,
+      "h1": 1,
+      "faq": 1
+    },
+    {
+      "url": "/oklejanie-drzwi-i-mebli-katowice",
+      "status": 200,
+      "h1": 1,
+      "faq": 0
+    },
+    {
+      "url": "/folie-przeciwsloneczne",
+      "status": 200,
+      "h1": 1,
+      "faq": 5
+    },
+    {
+      "url": "/realizacje/folia-lcd-szklana-sciana-apartament-nowy-sacz",
+      "status": 200,
+      "h1": 1,
+      "faq": 12
+    },
+    {
+      "url": "/realizacje/folia-przeciwsloneczna-podnosnik-grudziadz",
+      "status": 200,
+      "h1": 1,
+      "faq": 8
+    },
+    {
+      "url": "/realizacje/folie-mrozone-przedszkole-swietochlowice",
+      "status": 200,
+      "h1": 1,
+      "faq": 5
+    },
+    {
+      "url": "/realizacje/folia-na-swietliki-dachowe-chomranice",
+      "status": 200,
+      "h1": 1,
+      "faq": 4
+    },
+    {
+      "url": "/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow",
+      "status": 200,
+      "h1": 1,
+      "faq": 9
+    },
+    {
+      "url": "/realizacje/montaz-folii-przeciwslonecznej-gieraltowice",
+      "status": 200,
+      "h1": 1,
+      "faq": 4
+    },
+    {
+      "url": "/realizacje/montaz-folii-na-swietliki-dachowe-modlnica",
+      "status": 200,
+      "h1": 1,
+      "faq": 4
+    },
+    {
+      "url": "/realizacje/lustro-weneckie-kawiarnia-krakow",
+      "status": 200,
+      "h1": 1,
+      "faq": 4
+    },
+    {
+      "url": "/realizacje/folie-przeciwsloneczne-dom-prywatny-zelkow",
+      "status": 200,
+      "h1": 1,
+      "faq": 4
+    },
+    {
+      "url": "/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice",
+      "status": 200,
+      "h1": 1,
+      "faq": 6
+    },
+    {
+      "url": "/realizacje/folia-mrozona-lokal-katowice",
+      "status": 200,
+      "h1": 1,
+      "faq": 4
+    },
+    {
+      "url": "/realizacje/wymiana-folii-przeciwslonecznej-dentysta-krakow",
+      "status": 200,
+      "h1": 1,
+      "faq": 4
+    },
+    {
+      "url": "/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice",
+      "status": 200,
+      "h1": 1,
+      "rechecked": true
+    }
+  ],
+  "initialFailures": [
+    "/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice: HTTP /realizacje/folie-przeciwsloneczne-szpital-murcki-katowice"
+  ],
+  "note": "Jedna odpowiedź 500 podczas pierwszej równoległej kompilacji dev: Unexpected end of JSON input. Ponowne sprawdzenie po kompilacji: HTTP 200, poprawny HTML i linki."
+}

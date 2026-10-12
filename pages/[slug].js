@@ -50,6 +50,7 @@ const localPages = {
       { label: 'Strona główna', href: '/' },
       { label: 'Montaż folii okiennych w Katowicach', href: '/montaz-folii-okiennych-katowice' },
     ],
+    faq: localWindowFilmsPagesData.katowice.faq,
   },
   'montaz-folii-lcd': {
     path: '/montaz-folii-lcd',

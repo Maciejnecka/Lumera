@@ -2,11 +2,12 @@ import React from 'react';
 import Link from 'next/link';
 import { filmsData } from '../../data/filmsData';
 import { problemPagesData } from '../../data/problemPagesData';
-import { localServicePagesData } from '../../data/localServicePagesData';
+import { getLocalPageLink, localCityLinksData } from '../../data/localPageLinksData';
 import {
   getProjectRegion,
   getProjectsByFilmPath,
   getProjectsByLocalPath,
+  getProjectPageByPath,
 } from '../../data/projectPagesData';
 import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
 import RelatedProjectsSection from '../RelatedProjectsSection';
@@ -28,7 +29,6 @@ import {
 
 const getFilm = (path) => filmsData.find((film) => film.path === path);
 const getProblem = (path) => problemPagesData.find((page) => page.path === path);
-const getLocalService = (path) => localServicePagesData.find((page) => page.path === path);
 
 const filmPathContactTopics = {
   '/folie-przeciwsloneczne-zewnetrzne': 'solar-films',
@@ -58,8 +58,11 @@ const SeoLandingPage = ({ page, type, breadcrumbs }) => {
   const recommendedFilms = (page.recommendedFilms || [page.filmPath])
     .map(getFilm)
     .filter(Boolean);
-  const localLinks = (page.localLinks || [])
-    .map((path) => getLocalService(path))
+  const cityHub = isLocalServicePage
+    ? localCityLinksData.find((item) => item.city === page.city)
+    : undefined;
+  const localLinks = [...new Set([cityHub?.path, ...(page.localLinks || [])])]
+    .map(getLocalPageLink)
     .filter(Boolean);
   const relatedProblems = (page.relatedProblems || [])
     .map((path) => getProblem(path))
@@ -70,7 +73,9 @@ const SeoLandingPage = ({ page, type, breadcrumbs }) => {
     page.contactTopic || filmPathContactTopics[page.filmPath] || mainFilmContactTopic;
   const handleContactClick = () => storeContactTopic(contactTopic);
   const relatedProjects = uniqueProjects(
-    isLocalServicePage
+    page.projectPaths?.length
+      ? page.projectPaths.map(getProjectPageByPath).filter(Boolean)
+      : isLocalServicePage
       ? [
           ...getProjectsByLocalPath(page.path),
           ...getProjectsByFilmPath(page.filmPath).filter(

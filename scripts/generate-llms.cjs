@@ -64,6 +64,9 @@ const problemPagesData = evaluateDataModule('src/data/problemPagesData.js', [
 const localServicePagesData = evaluateDataModule('src/data/localServicePagesData.js', [
   'localServicePagesData',
 ]).localServicePagesData;
+const localWindowFilmsPagesData = evaluateDataModule('src/data/localWindowFilmsPagesData.js', [
+  'localWindowFilmsPagesData',
+]).localWindowFilmsPagesData;
 const serviceHubPagesData = evaluateDataModule('src/data/serviceHubPagesData.js', [
   'serviceHubPagesData',
 ]).serviceHubPagesData;
@@ -122,6 +125,11 @@ const problemByPath = new Map(problemPagesData.map((page) => [page.path, page]))
 const localByPath = new Map(localServicePagesData.map((page) => [page.path, page]));
 const hubByPath = new Map(serviceHubPagesData.map((page) => [page.path, page]));
 const projectByPath = new Map(projectPagesData.map((page) => [page.path, page]));
+const localCityPages = Object.entries(localWindowFilmsPagesData).map(([citySlug, page]) => ({
+  ...page,
+  path: `/montaz-folii-okiennych-${citySlug}`,
+}));
+const localCityByPath = new Map(localCityPages.map((page) => [page.path, page]));
 
 const relatedLinks = (paths = []) =>
   paths
@@ -130,6 +138,7 @@ const relatedLinks = (paths = []) =>
         filmByPath.get(pagePath) ||
         problemByPath.get(pagePath) ||
         localByPath.get(pagePath) ||
+        localCityByPath.get(pagePath) ||
         hubByPath.get(pagePath) ||
         projectByPath.get(pagePath);
       return entity ? markdownLink(entity.title || entity.name, pagePath) : markdownLink(pagePath, pagePath);
@@ -548,6 +557,18 @@ ${projectPagesData.map(buildProjectSection).join('\n\n---\n\n')}
 ${problemPagesData.map(buildProblemSection).join('\n\n---\n\n')}
 
 # Strony Lokalne
+
+${localCityPages.map((page) => [
+  `## ${page.title}`,
+  `URL: ${absoluteUrl(page.path)}`,
+  page.lead,
+  `### Obszar obsługi\n${page.areaText}`,
+  `### Zastosowania\n${page.intro}`,
+  sectionBlocks(page.sections),
+  `### Przykłady realizacji\n${relatedLinks(page.projectPaths)}`,
+  `### Przygotowanie wyceny\n${page.process}`,
+  `### FAQ\n${faqList(page.faq)}`,
+].join('\n\n')).join('\n\n---\n\n')}
 
 ${localServicePagesData.map(buildLocalSection).join('\n\n---\n\n')}
 

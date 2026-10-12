@@ -59,6 +59,7 @@ export const localServicePagesData = [
       '/czy-folia-na-okna-przyciemnia-mieszkanie',
       '/czy-folia-przeciwsloneczna-dziala-zima',
       '/folia-na-witryne-sklepowa',
+      '/folie-okienne-do-biura',
     ],
     localLinks: [
       '/folie-przeciwsloneczne-katowice',
@@ -85,6 +86,46 @@ export const localServicePagesData = [
       'mieszkania, w których przeszkadza słońce i odblaski',
       'witryny sklepowe oraz fronty lokali usługowych',
     ],
+    sections: [
+      {
+        heading: 'Folia przeciwsłoneczna w Katowicach: ograniczenie nagrzewania i odblasków',
+        text: 'Duże przeszklenia biurowe, witryny i okna mieszkań od południa lub zachodu mogą wpuszczać dużo energii słonecznej. Folia pomaga ograniczyć jej dopływ przez szkło i dobrać poziom światła do sposobu korzystania z wnętrza. Efekt zależy od ekspozycji, powierzchni szyb i parametrów konkretnej folii; nie obiecujemy jednej temperatury po montażu dla każdego pomieszczenia.',
+      },
+      {
+        heading: 'Montaż zewnętrzny czy wewnętrzny na szybach zespolonych?',
+        text: 'Stronę montażu dobieramy do konstrukcji pakietu szybowego, jego powłok i warunków nasłonecznienia. Przy oknach dwuszybowych i trzyszybowych potrzebna jest ocena zgodności folii ze szkłem, także przy częściowym zacienieniu. Nie każda folia wewnętrzna nadaje się do każdego okna. W zapytaniu warto podać oznaczenia szyby lub dołączyć dokumentację stolarki.',
+      },
+      {
+        heading: 'Folie do biur, witryn i mieszkań w Katowicach',
+        text: 'Przy monitorach ważne są odblaski oraz komfort pracy, przy witrynie widoczność ekspozycji, a w mieszkaniu również jasność pomieszczenia. Mocno refleksyjna folia i jaśniejszy wariant mogą dawać różny efekt wizualny. Porównujemy rozwiązania pod kątem ograniczenia energii słonecznej, przepuszczalności światła i wyglądu szkła. Prywatność wieczorem wymaga osobnej oceny: efekt lustra zależy od różnicy oświetlenia.',
+      },
+      {
+        heading: 'Wycena i dostęp do okien w Katowicach i okolicach',
+        text: 'Prześlij wymiary każdej szyby od uszczelki do uszczelki, liczbę tafli, zdjęcia i lokalizację. Zaznacz piętro, możliwość otwarcia okien, dostęp od zewnątrz i obecność starej folii. Przy fasadach lub większych obiektach ustalamy sposób dostępu i organizację prac przed montażem. Cena uwzględnia rodzaj folii, powierzchnię, przygotowanie szkła oraz uzgodniony zakres dojazdu i montażu.',
+      },
+    ],
+    faq: [
+      {
+        question: 'Ile kosztuje montaż folii przeciwsłonecznej w Katowicach?',
+        answer: 'Wycena zależy od folii, powierzchni i liczby szyb, dostępu do okien oraz przygotowania szkła. Do wstępnego oszacowania potrzebne są zdjęcia, wymiary, lokalizacja i piętro. Demontaż starej folii lub praca na wysokości wymaga uwzględnienia dodatkowego zakresu.',
+      },
+      {
+        question: 'Czy folię można zamontować na oknach trzyszybowych?',
+        answer: 'Możliwość montażu oceniamy dla konkretnego pakietu i folii. Liczą się powłoki szkła, ekspozycja i zacienienie. Prześlij oznaczenia szyby lub dane producenta; sama informacja o trzech szybach nie wystarcza do doboru.',
+      },
+      {
+        question: 'Czy folia przeciwsłoneczna ograniczy odblaski w biurze?',
+        answer: 'Może zmniejszyć ilość światła wpadającego przez szybę i uciążliwe odblaski. Dobór uwzględnia położenie stanowisk, kierunek słońca i oczekiwaną jasność wnętrza. Odbicia od oświetlenia wewnętrznego mogą wymagać również zmiany ustawienia monitora lub lamp.',
+      },
+      {
+        question: 'Czy po oklejeniu szyby pomieszczenie będzie ciemne?',
+        answer: 'Stopień przyciemnienia zależy od przepuszczalności światła wybranej folii i istniejącego szkła. Warto porównać warianty przed montażem, zwłaszcza w pomieszczeniach z małą liczbą okien. Dobór powinien łączyć ograniczenie słońca z potrzebną ilością światła dziennego.',
+      },
+      {
+        question: 'Czy można zamówić usunięcie starej folii przed nowym montażem?',
+        answer: 'Takie prace planujemy po ocenie stanu folii i szyby. Zakres obejmuje usunięcie aplikacji, pozostałości kleju i przygotowanie podłoża. Wyślij zdjęcia całych szyb oraz zbliżenia odklejonych krawędzi lub pęcherzy.',
+      },
+    ],
     relatedProblems: [
       '/jak-ograniczyc-nagrzewanie-mieszkania',
       '/folia-na-okna-od-poludnia',
@@ -92,6 +133,7 @@ export const localServicePagesData = [
       '/folia-przeciwsloneczna-zewnetrzna-czy-wewnetrzna',
       '/czy-folia-na-okna-przyciemnia-mieszkanie',
       '/folia-na-swietliki-dachowe',
+      '/folie-okienne-do-biura',
     ],
     localLinks: [
       '/folie-przeciwsloneczne-krakow',

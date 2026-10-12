@@ -1,5 +1,69 @@
 export const problemPagesData = [
   {
+    slug: 'folie-okienne-do-biura',
+    path: '/folie-okienne-do-biura',
+    title: 'Folie okienne do biura: słońce, odblaski i prywatność',
+    eyebrow: 'Komfort pracy i szklane ścianki',
+    seoTitle: 'Folie okienne do biura | Kraków i Katowice — Lumera',
+    seoDescription: 'Folie do biura na nagrzewanie, odblaski i prywatność. Porównaj folie przeciwsłoneczne, matowe i LCD. Dobór i montaż w Krakowie i Katowicach.',
+    lead: 'W biurze okna zewnętrzne i szklane ścianki pełnią różne funkcje. Przy elewacji przeszkadza słońce i odbicia na ekranach, a w sali spotkań lub gabinecie brakuje prywatności. Dobieramy folię do konkretnej powierzchni, sposobu pracy i typu szkła, aby połączyć komfort z potrzebną ilością światła dziennego.',
+    sections: [
+      {
+        heading: 'Folie przeciwsłoneczne do biura z dużymi oknami',
+        text: 'Jeśli pomieszczenie nagrzewa się przez nasłonecznione przeszklenia, warto ocenić folię przeciwsłoneczną na oknach zewnętrznych. Dobór obejmuje redukcję dopływu energii słonecznej, przepuszczalność światła i wygląd fasady. Folia może ograniczyć obciążenie od słońca, ale nie zastępuje wentylacji ani klimatyzacji. Efekt zależy także od ekspozycji, wielkości szyb i warunków w pomieszczeniu.',
+      },
+      {
+        heading: 'Odblaski na monitorach i zachowanie światła dziennego',
+        text: 'Przy stanowiskach ustawionych blisko okna warto opisać, o której porze pojawiają się odbicia i z której strony pada słońce. Jaśniejsza folia może być odpowiednia tam, gdzie liczy się naturalne światło, a mocniejsze ograniczenie światła ma sens przy intensywnych odblaskach. Nie wszystkie odbicia pochodzą z okna: te od lamp i ścian wymagają również oceny ustawienia stanowiska.',
+      },
+      {
+        heading: 'Folia matowa na szklane ścianki, gabinety i recepcję',
+        text: 'Folia matowa lub mrożona ogranicza widoczność przez szybę, pozostawiając rozproszone światło. Może osłaniać całą taflę albo wybrany pas na wysokości wzroku. Na ściankach wewnętrznych zwykle chodzi o prywatność, a nie ochronę przed słońcem. Zakres osłony ustalamy według położenia biurek, drzwi i ciągów komunikacyjnych; folia nie poprawia izolacji akustycznej sali.',
+      },
+      {
+        heading: 'Folia LCD do sal konferencyjnych: prywatność na żądanie',
+        text: 'Inteligentna folia LCD pozwala zmieniać szybę między trybem transparentnym i mlecznym po przełączeniu zasilania. To rozwiązanie dla sal, które mają być wizualnie otwarte podczas codziennej pracy i osłonięte w trakcie spotkania. Trzeba wcześniej zaplanować przewody, zasilacz i sterowanie oraz sprawdzić możliwości montażu na danej tafli. Tryb mleczny rozprasza światło, ale efekt osłony zależy również od odległości osób od szkła.',
+      },
+      {
+        heading: 'Dobór do szkła i organizacja montażu w działającym biurze',
+        text: 'Przed wyborem folii potrzebne są informacje o pakiecie szybowym, jego powłokach i nasłonecznieniu. Na oknach dwuszybowych i trzyszybowych nie stosujemy dowolnej folii tylko dlatego, że odpowiada jej kolor. Przy większej powierzchni ustalamy dostęp do szyb, przesunięcie wyposażenia i możliwość podziału prac na etapy. Harmonogram wymaga uzgodnienia z użytkownikiem lub zarządcą obiektu.',
+      },
+      {
+        heading: 'Wycena folii do biura w Krakowie i Katowicach',
+        text: 'Do zapytania dołącz zdjęcia elewacji i ścianek wewnętrznych, wymiary tafli od uszczelki do uszczelki, liczbę szyb, lokalizację i opis problemu. Przy oknach zewnętrznych podaj piętro i dostęp, a przy folii LCD możliwości doprowadzenia zasilania. Cena zależy od wybranej folii, powierzchni i przygotowania podłoża. Obsługę Krakowa oraz dojazd do Katowic i okolic ustalamy zgodnie z zakresem konkretnej realizacji.',
+      },
+    ],
+    recommendedFilms: ['/folie-przeciwsloneczne-zewnetrzne', '/folie-przeciwsloneczne-wewnetrzne', '/folie-matowe', '/folie-mrozone', '/folie-lcd'],
+    projectPaths: ['/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice'],
+    localLinks: ['/montaz-folii-okiennych-krakow', '/montaz-folii-okiennych-katowice', '/folie-przeciwsloneczne-krakow', '/folie-przeciwsloneczne-katowice', '/folie-matowe-krakow', '/folie-matowe-katowice', '/folie-lcd-krakow', '/folie-lcd-katowice'],
+    faq: [
+      {
+        question: 'Jaka folia jest najlepsza do biura?',
+        answer: 'To zależy od problemu i szkła. Na słońce oraz odblaski rozważamy folię przeciwsłoneczną, na stałą osłonę widoku folię matową lub mrożoną, a na przełączaną prywatność w sali spotkań folię LCD. W jednym biurze można zastosować różne rozwiązania na oknach i ściankach.',
+      },
+      {
+        question: 'Czy folia matowa ograniczy nagrzewanie biura?',
+        answer: 'Folię matową dobieramy przede wszystkim do prywatności i efektu wizualnego. Jeśli głównym problemem jest dopływ energii słonecznej przez okna, potrzebna jest ocena parametrów folii przeciwsłonecznej i jej zgodności ze szkłem.',
+      },
+      {
+        question: 'Czy lustro weneckie osłoni salę spotkań wieczorem?',
+        answer: 'Efekt lustra zależy od różnicy oświetlenia i nie jest pewną osłoną wieczorem, gdy wnętrze jest jaśniejsze od otoczenia. Dla stałej prywatności warto rozważyć folię matową, a dla przełączanej folię LCD.',
+      },
+      {
+        question: 'Czy montaż można zaplanować etapami?',
+        answer: 'Możliwość podziału prac ustalamy indywidualnie według liczby szyb, dostępu i funkcjonowania biura. W zapytaniu podaj godziny dostępności, ograniczenia w obiekcie i informację, czy można odsunąć meble od przeszkleń.',
+      },
+      {
+        question: 'Czy folia LCD wymaga zasilania?',
+        answer: 'Tak, folia LCD wymaga odpowiedniego zasilania i sterowania. Przed montażem trzeba zaplanować przebieg przewodów, miejsce zasilacza i dostęp do krawędzi szkła. Zwykle bez zasilania folia jest mleczna, a po podaniu napięcia transparentna.',
+      },
+      {
+        question: 'Co wpływa na cenę oklejenia szyb w biurze?',
+        answer: 'Rodzaj folii, powierzchnia i liczba tafli, przygotowanie szkła, dostęp oraz organizacja montażu. Przy folii LCD dochodzą elementy zasilania i sterowania. Do wstępnej wyceny potrzebne są zdjęcia, wymiary i lokalizacja.',
+      },
+    ],
+  },
+  {
     slug: 'jak-ograniczyc-nagrzewanie-mieszkania',
     path: '/jak-ograniczyc-nagrzewanie-mieszkania',
     title: 'Jak ograniczyć nagrzewanie mieszkania?',
