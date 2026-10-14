@@ -3,6 +3,7 @@ import { filmsData } from '../../data/filmsData';
 import { getLocalPageLink } from '../../data/localPageLinksData';
 import { getProjectsByFilmPath } from '../../data/projectPagesData';
 import { serviceHubPagesData } from '../../data/serviceHubPagesData';
+import { problemPagesData } from '../../data/problemPagesData';
 import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
 import ProjectGallery from '../ProjectGallery';
 import RelatedProjectsSection from '../RelatedProjectsSection';
@@ -49,6 +50,9 @@ const ProjectDetailPage = ({ project, breadcrumbs }) => {
     .filter(Boolean);
   const relatedLocalPages = (project.relatedLocalPaths || [project.relatedLocalPath])
     .map(getLocalPageLink)
+    .filter(Boolean);
+  const relatedProblems = (project.relatedProblemPaths || [])
+    .map((path) => problemPagesData.find((page) => page.path === path))
     .filter(Boolean);
   const relatedProjects = getProjectsByFilmPath(project.relatedFilmPath)
     .filter((item) => item.path !== project.path)
@@ -206,6 +210,25 @@ const ProjectDetailPage = ({ project, breadcrumbs }) => {
           </ProjectLinkCard>
         </ProjectLinkGrid>
       </ProjectSection>
+
+      {relatedProblems.length > 0 && (
+        <ProjectSection>
+          <ProjectSectionIntro data-aos="fade-up">
+            <span>Dobór folii</span>
+            <h2>Planujesz podobną osłonę przeszkleń?</h2>
+            <p>Porównaj rozwiązania do biura, wykończenia matowe i mrożone oraz sposoby ograniczenia widoczności przez szkło.</p>
+          </ProjectSectionIntro>
+          <ProjectLinkGrid>
+            {relatedProblems.map((page) => (
+              <ProjectLinkCard key={page.path} href={page.path}>
+                <span>Poradnik</span>
+                <strong>{page.title}</strong>
+                <p>{page.seoDescription}</p>
+              </ProjectLinkCard>
+            ))}
+          </ProjectLinkGrid>
+        </ProjectSection>
+      )}
 
       <ProjectSection>
         <ProjectNote data-aos="fade-up">

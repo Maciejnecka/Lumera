@@ -34,7 +34,7 @@ export const problemPagesData = [
       },
     ],
     recommendedFilms: ['/folie-przeciwsloneczne-zewnetrzne', '/folie-przeciwsloneczne-wewnetrzne', '/folie-matowe', '/folie-mrozone', '/folie-lcd'],
-    projectPaths: ['/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice'],
+    projectPaths: ['/realizacje/folie-matowe-mrozone-biuro-krakow', '/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice'],
     localLinks: ['/montaz-folii-okiennych-krakow', '/montaz-folii-okiennych-katowice', '/folie-przeciwsloneczne-krakow', '/folie-przeciwsloneczne-katowice', '/folie-matowe-krakow', '/folie-matowe-katowice', '/folie-lcd-krakow', '/folie-lcd-katowice'],
     faq: [
       {

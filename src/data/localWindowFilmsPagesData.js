@@ -42,6 +42,7 @@ export const localWindowFilmsPagesData = {
       },
     ],
     projectPaths: [
+      '/realizacje/folie-matowe-mrozone-biuro-krakow',
       '/realizacje/lustro-weneckie-kawiarnia-krakow',
       '/realizacje/wymiana-folii-przeciwslonecznej-dentysta-krakow',
       '/realizacje/folie-przeciwsloneczne-dom-prywatny-zelkow',
