@@ -42,9 +42,9 @@ const staticPages = {
       'Kontakt Lumera: wycena montażu folii okiennych w Krakowie, Rudawie, Zabierzowie, Katowicach i okolicach. Wyślij zdjęcia, wymiary szyb i lokalizację.',
   },
   '/realizacje': {
-    title: 'Realizacje z montaży folii okiennych | Lumera',
+    title: 'Realizacje folii okiennych i oklein architektonicznych | Lumera',
     description:
-      'Realizacje Lumera: folie okienne i montaż z Krakowa, Katowic oraz całej Polski. Zobacz efekty, zakres prac i galerie wykonanych realizacji.',
+      'Realizacje Lumera: folie okienne i okleiny architektoniczne w Krakowie, Katowicach i całej Polsce. Zobacz metamorfozy przed i po, zdjęcia oraz zakres prac.',
   },
   '/folie-okienne-lokalnie': {
     title: 'Folie okienne lokalnie | Kraków, Katowice i okolice | Lumera',

@@ -13,7 +13,7 @@ const collectionSchema = {
   '@id': `${siteUrl}/realizacje#collection`,
   name: 'Realizacje Lumera',
   description:
-    'Realizacje z montaży folii okiennych Lumera w Krakowie, Katowicach i całej Polsce: efekt, zakres prac, zdjęcia oraz powiązane usługi.',
+    'Realizacje folii okiennych i oklein architektonicznych Lumera w Krakowie, Katowicach i całej Polsce: efekt, zakres prac, zdjęcia oraz powiązane usługi.',
   url: `${siteUrl}/realizacje`,
   inLanguage: 'pl-PL',
   isPartOf: {

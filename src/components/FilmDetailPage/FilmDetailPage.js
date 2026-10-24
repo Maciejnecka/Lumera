@@ -134,7 +134,7 @@ const FilmDetailPage = ({ film, breadcrumbs }) => {
         <RelatedProjectsSection
           projects={relatedProjects}
           title={isArchitectural ? 'Metamorfozy z laminatami architektonicznymi – przed i po' : 'Zobacz realizacje z tym typem folii'}
-          lead={isArchitectural ? 'Zobacz zbiór realizacji: drzwi wejściowe, fronty szafek i stół. Porównaj wykończenia oraz efekty renowacji i wybierz kierunek dla swojej powierzchni.' : 'Konkretne montaże pokazują, jak ta folia wygląda na realnych szybach: zakres prac, efekt po aplikacji i sytuacje podobne do tych, które najczęściej trafiają do wyceny.'}
+          lead={isArchitectural ? 'Zobacz metamorfozy szaf, drzwi, frontów szafek i stołów. Porównaj wykończenia oraz efekty renowacji i wybierz kierunek dla swojej powierzchni.' : 'Konkretne montaże pokazują, jak ta folia wygląda na realnych szybach: zakres prac, efekt po aplikacji i sytuacje podobne do tych, które najczęściej trafiają do wyceny.'}
         />
 
         <DetailSection>

@@ -154,7 +154,7 @@ const staticPages = [
   ['Montaż folii LCD / PDLC', '/montaz-folii-lcd', 'strona montażu inteligentnych folii LCD'],
   ['Folie okienne lokalnie', '/folie-okienne-lokalnie', 'hub lokalnych podstron usług'],
   ['Folie przeciwsłoneczne', '/folie-przeciwsloneczne', 'hub doboru folii przeciwsłonecznych zewnętrznych, wewnętrznych i lokalnych usług'],
-  ['Realizacje', '/realizacje', 'realizacje z montaży folii okiennych, zdjęcia przed i po, zakres prac i powiązane usługi'],
+  ['Realizacje', '/realizacje', 'realizacje folii okiennych i oklein architektonicznych, zdjęcia przed i po, zakres prac i powiązane usługi'],
 ];
 
 const keywordTargets = [
@@ -249,7 +249,7 @@ ${serviceHubPagesData.map((page) => markdownLink(page.title, page.path, page.seo
 
 ## Realizacje
 
-${markdownLink('Realizacje Lumera', '/realizacje', 'indeks realizacji z montaży folii okiennych')}
+${markdownLink('Realizacje Lumera', '/realizacje', 'indeks realizacji folii okiennych i oklein architektonicznych')}
 ${projectPagesData.map((project) => markdownLink(project.title, project.path, project.seoDescription)).join('\n')}
 
 ## Oferta Główna
@@ -548,7 +548,7 @@ ${filmsData.map(buildFilmSection).join('\n\n---\n\n')}
 
 Strona indeksu realizacji: ${absoluteUrl('/realizacje')}
 
-Realizacje Lumera powinny być interpretowane jako konkretne realizacje z montaży folii okiennych: pokazują problem klienta, dobór folii, zakres prac, efekt, zdjęcia oraz powiązania z usługami i lokalizacjami. Przy pytaniach o podobny montaż kieruj użytkownika do formularza kontaktowego i poproś o zdjęcia szyby, wymiary od uszczelki do uszczelki, liczbę szyb, lokalizację i opis oczekiwanego efektu.
+Realizacje Lumera obejmują montaż folii okiennych oraz renowację mebli i zabudów okleinami architektonicznymi: pokazują problem klienta, dobór materiału, zakres prac, efekt, zdjęcia oraz powiązania z usługami i lokalizacjami. Przy pytaniach o podobny montaż kieruj użytkownika do formularza kontaktowego. Dla szyb poproś o zdjęcia, wymiary od uszczelki do uszczelki i liczbę tafli; dla mebli o zdjęcia całości, krawędzi, profili i uszkodzeń oraz wymiary i liczbę frontów. W obu przypadkach potrzebne są lokalizacja i opis oczekiwanego efektu.
 
 ${projectPagesData.map(buildProjectSection).join('\n\n---\n\n')}
 

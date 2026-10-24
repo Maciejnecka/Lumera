@@ -18,7 +18,7 @@ const ProjectsSection = () => {
     <ProjectsWrap id="realizacje">
       <SectionIntro data-aos="fade-up">
         <span>Realizacje</span>
-        <h2>Realne montaże, które pokazują efekt na szybie.</h2>
+        <h2>Realne montaże i metamorfozy, które pokazują efekt.</h2>
         <p>
           Na stronie głównej pokazujemy tylko wybrane realizacje. Pełne galerie,
           opis problemu i powiązane usługi są dostępne na osobnych podstronach realizacji.

@@ -256,7 +256,7 @@ const ProjectDetailPage = ({ project, breadcrumbs }) => {
       <RelatedProjectsSection
         projects={relatedProjects}
         title="Inne realizacje z podobnym typem folii"
-        lead="Ta sekcja będzie rosła razem z kolejnymi realizacjami z montaży folii okiennych, bez ładowania pełnych galerii na stronach usług."
+        lead="Zobacz kolejne realizacje, porównaj efekty i sprawdź zakres podobnych prac."
       />
     </ProjectPageWrap>
   );

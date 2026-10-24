@@ -102,11 +102,11 @@ const ProjectsIndexPage = ({ breadcrumbs }) => {
         <ProjectsHeroCopy data-aos="fade-up">
           <Breadcrumbs items={breadcrumbs} />
           <span>Realizacje Lumera</span>
-          <h1>Realizacje z montaży folii okiennych.</h1>
+          <h1>Realizacje folii okiennych i oklein architektonicznych.</h1>
           <p>
             Zbieramy tu konkretne montaże: problem klienta, dobrane rozwiązanie,
             zakres prac, efekt i zdjęcia. Dzięki temu łatwiej zobaczyć, jak dana folia
-            zachowuje się na realnej szybie, a nie tylko w opisie produktu.
+            zmienia wygląd szyb, mebli i zabudów w gotowych wnętrzach.
           </p>
         </ProjectsHeroCopy>
         <ProjectsHeroPanel href={heroProject.path} data-aos="fade-up" data-aos-delay="80">

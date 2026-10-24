@@ -17,7 +17,9 @@ const buildProjectSchema = (project) => ({
   '@id': `${siteUrl}${project.path}#article`,
   headline: project.title,
   description: project.seoDescription,
-  articleSection: project.isCollection ? 'Realizacje laminatów architektonicznych' : 'Realizacje folii okiennych',
+  articleSection: project.relatedFilmPath === '/okleiny-i-laminaty-architektoniczne'
+    ? 'Realizacje laminatów architektonicznych'
+    : 'Realizacje folii okiennych',
   keywords: project.tags?.join(', '),
   image: project.images.map((image) => `${siteUrl}${image.full}`),
   datePublished: project.datePublished,
