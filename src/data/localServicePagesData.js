@@ -143,53 +143,153 @@ export const localServicePagesData = [
     ],
   },
   {
-    slug: 'folie-antywlamaniowe-krakow',
-    path: '/folie-antywlamaniowe-krakow',
-    city: 'Kraków',
-    serviceName: 'folie antywłamaniowe',
-    filmPath: '/folie-antywlamaniowe',
-    title: 'Folie antywłamaniowe Kraków',
-    eyebrow: 'Bezpieczniejsze szyby',
-    seoTitle: 'Folie antywłamaniowe Kraków | Zabezpieczenie szyb Lumera',
-    seoDescription:
-      'Montaż folii antywłamaniowych w Krakowie. Wzmocnienie szyb w domach, lokalach, witrynach i przeszklonych wejściach.',
-    lead:
-      'Folie antywłamaniowe w Krakowie są dobrym kierunkiem przy witrynach, lokalach parterowych, domach i przeszkleniach, w których liczy się utrudnienie szybkiego wybicia szyby. Dobór zależy od typu przeszklenia i oczekiwanego poziomu ochrony.',
-    useCases: [
-      'witryny sklepowe i przeszklone wejścia',
-      'lokale parterowe oraz biura z dostępem od ulicy',
-      'domy i mieszkania wymagające dodatkowego zabezpieczenia szyb',
+    "slug": "folie-antywlamaniowe-krakow",
+    "path": "/folie-antywlamaniowe-krakow",
+    "city": "Kraków",
+    "serviceName": "folie antywłamaniowe i zabezpieczające szyby",
+    "filmPath": "/folie-antywlamaniowe",
+    "title": "Folie antywłamaniowe Kraków – zabezpieczenie szyb",
+    "eyebrow": "Kraków i okolice • dobór i montaż",
+    "seoTitle": "Folie antywłamaniowe Kraków – montaż i wycena | Lumera",
+    "seoDescription": "Folie antywłamaniowe i zabezpieczające szyby w Krakowie. Dobór do okien, biur i witryn, montaż od wewnątrz oraz wycena na podstawie zdjęć i wymiarów.",
+    "lead": "Dobieramy i montujemy folie antywłamaniowe w Krakowie i okolicach na oknach domów, przeszkleniach biur oraz witrynach lokali. Punktem wyjścia jest cel: utrudnienie sforsowania szyby, zatrzymanie odłamków po pęknięciu lub połączenie tych potrzeb. Oceniając folię, uwzględniamy rodzaj szkła, ramę i sposób montażu, a także oczekiwany wygląd okna.",
+    "recommendedFilms": [
+      "/folie-antywlamaniowe",
+      "/folie-zabezpieczajace",
+      "/folie-bezpieczne-haccp",
+      "/folie-ochronne"
     ],
-    relatedProblems: ['/folia-na-witryne-sklepowa', '/folia-antywlamaniowa-na-witryne-sklepowa'],
-    localLinks: ['/folie-antywlamaniowe-katowice', '/folie-przeciwsloneczne-krakow'],
+    "useCases": [
+      "okna na parterze w domach i mieszkaniach",
+      "witryny oraz przeszklone drzwi lokali usługowych",
+      "okna biur i sal spotkań, w których ważna jest przejrzystość szkła"
+    ],
+    "sections": [
+      {
+        "heading": "Okna na parterze i witryny w Krakowie: od czego zacząć?",
+        "text": "Przy zapytaniu o zabezpieczenie lokalu warto wskazać szyby dostępne z chodnika, dziedzińca, tarasu lub balkonu. Dla witryny liczą się również gabaryty tafli, profile i dostęp przy ekspozycji. Dla okien mieszkania znaczenie mają konstrukcja skrzydeł i możliwość pracy od wnętrza. Te informacje pozwalają określić zakres zabezpieczenia przed wyborem materiału."
+      },
+      {
+        "heading": "Folia antywłamaniowa, bezpieczna czy ochronna?",
+        "text": "Folia antywłamaniowa ma utrudniać szybkie wykonanie otworu w szkle. Folia bezpieczna jest dobierana przede wszystkim do ograniczenia rozprysku odłamków. Określenie „ochronna” obejmuje też produkty do ochrony powierzchni podczas remontu, które nie są zamiennikiem zabezpieczenia antywłamaniowego. Jeśli obiekt ma wymagania HACCP, ustalamy je osobno i sprawdzamy dokumentację odpowiedniego rozwiązania."
+      },
+      {
+        "heading": "Przezroczyste zabezpieczenie szyb bez zasłaniania okien",
+        "text": "Gdy chcesz zachować widoczność witryny lub widok z biura, rozważamy przezroczyste folie zabezpieczające. Dobór obejmuje właściwości optyczne oraz zgodność ze szkłem. Przykład montażu w biurze w Katowicach pokazuje aplikację od wewnątrz. Warunki i produkt dla obiektu w Krakowie ustalamy odrębnie; zdjęcie innej realizacji nie potwierdza odporności nowych przeszkleń."
+      },
+      {
+        "heading": "Co obejmuje wycena montażu w Krakowie?",
+        "text": "Prześlij zdjęcia całych okien, zbliżenia ram, liczbę i wymiary szyb od uszczelki do uszczelki, lokalizację i piętro. Opisz cel zabezpieczenia i dostęp od środka. Cena zależy od materiału, powierzchni, liczby formatek, przygotowania szkła oraz ewentualnego systemu mocowania brzegów. Jeśli masz wymaganą klasę odporności, dołącz ją do zapytania przed doborem folii."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Ile kosztuje folia antywłamaniowa z montażem w Krakowie?",
+        "answer": "Koszt ustalamy po sprawdzeniu zdjęć i wymiarów szyb, rodzaju folii, dostępu do okien oraz zakresu przygotowania i mocowania. Do zapytania dołącz lokalizację w Krakowie lub okolicach oraz opis celu zabezpieczenia."
+      },
+      {
+        "question": "Czy folię można zamontować na istniejących oknach?",
+        "answer": "Możliwość aplikacji oceniamy dla konkretnego szkła i ramy. Potrzebne są zdjęcia przeszkleń, a jeśli są dostępne, również oznaczenia szyby i dokumentacja stolarki. Uszkodzenia szkła lub utrudniony dostęp do brzegów wymagają osobnej oceny."
+      },
+      {
+        "question": "Czy folia antywłamaniowa zastępuje alarm i inne zabezpieczenia?",
+        "answer": "Nie. Jest dodatkową warstwą ochrony przeszklenia i może utrudniać szybkie wykonanie otworu. Zakres ochrony zależy od całego układu szyba–folia–rama. Nie obiecujemy niewybijalnej szyby ani jednakowego czasu oporu dla każdego okna."
+      },
+      {
+        "question": "Czy folia bezpieczna i antywłamaniowa oznaczają ten sam produkt?",
+        "answer": "Nie zawsze. Pierwsze określenie odnosi się przede wszystkim do ograniczenia skutków pęknięcia szkła, a drugie do utrudnienia jego sforsowania. Konkretny produkt dobieramy do celu, dokumentacji i warunków montażu."
+      }
+    ],
+    "relatedProblems": [
+      "/folia-na-witryne-sklepowa",
+      "/folia-antywlamaniowa-na-witryne-sklepowa",
+      "/folie-okienne-do-biura"
+    ],
+    "localLinks": [
+      "/folie-antywlamaniowe-katowice",
+      "/folie-przeciwsloneczne-krakow"
+    ],
+    "projectPaths": [
+      "/realizacje/montaz-folii-antywlamaniowej-biuro-katowice"
+    ],
+    "projectsTitle": "Jak wygląda montaż? Przykład z biura w Katowicach",
+    "projectsLead": "Zobacz aplikację przezroczystej folii od wewnątrz. To realizacja z Katowic; dla obiektu w Krakowie dobieramy rozwiązanie po osobnej ocenie szyb i ram."
   },
   {
-    slug: 'folie-antywlamaniowe-katowice',
-    path: '/folie-antywlamaniowe-katowice',
-    city: 'Katowice',
-    serviceName: 'folie antywłamaniowe',
-    filmPath: '/folie-antywlamaniowe',
-    title: 'Folie antywłamaniowe Katowice',
-    eyebrow: 'Bezpieczniejsze szyby',
-    seoTitle: 'Folie antywłamaniowe Katowice | Zabezpieczenie szyb Lumera',
-    seoDescription:
-      'Montaż folii antywłamaniowych w Katowicach. Wzmocnienie szyb w lokalach, biurach, witrynach i przeszklonych wejściach.',
-    lead:
-      'Folie antywłamaniowe w Katowicach pomagają zwiększyć bezpieczeństwo witryn, lokali parterowych, biur i domów z łatwo dostępnymi przeszkleniami. Dobór zależy od typu szyby, ryzyka, wielkości tafli i oczekiwanego poziomu ochrony.',
-    useCases: [
-      'witryny sklepowe, salony i lokale usługowe przy ruchliwych ulicach',
-      'biura, wejścia i przeszklenia dostępne od zewnątrz',
-      'domy oraz mieszkania, w których szyba ma zyskać dodatkową warstwę zabezpieczenia',
+    "slug": "folie-antywlamaniowe-katowice",
+    "path": "/folie-antywlamaniowe-katowice",
+    "city": "Katowice",
+    "serviceName": "folie antywłamaniowe do biur, witryn i domów",
+    "filmPath": "/folie-antywlamaniowe",
+    "title": "Folie antywłamaniowe Katowice – montaż na szybach",
+    "eyebrow": "Katowice i okolice • zabezpieczenie przeszkleń",
+    "seoTitle": "Folie antywłamaniowe Katowice – zabezpieczenie szyb | Lumera",
+    "seoDescription": "Montaż folii antywłamaniowych w Katowicach: biura, witryny i domy. Zobacz realizację zabezpieczenia szyb w biurze i wyślij zdjęcia do wyceny Lumera.",
+    "lead": "W Katowicach montujemy folie antywłamaniowe i zabezpieczające na szybach biur, lokali usługowych i domów. Przezroczysta folia pozwala dodać warstwę ochronną przy zachowaniu widoku przez okno. Na tej stronie zobaczysz realizację z katowickiego biura oraz informacje potrzebne do doboru zabezpieczenia dla Twoich przeszkleń.",
+    "recommendedFilms": [
+      "/folie-antywlamaniowe",
+      "/folie-zabezpieczajace",
+      "/folie-bezpieczne-haccp",
+      "/folie-ochronne"
     ],
-    sections: [
+    "useCases": [
+      "biura i sale spotkań z oknami dostępnymi od zewnątrz",
+      "witryny, salony i wejścia do lokali usługowych",
+      "domy oraz mieszkania z łatwo dostępnymi przeszkleniami"
+    ],
+    "sections": [
       {
-        heading: 'Kiedy folia antywłamaniowa ma sens w Katowicach?',
-        text:
-          'Najczęściej wtedy, gdy przeszklenie jest duże, łatwo dostępne albo znajduje się w miejscu, gdzie szybkie wybicie szyby byłoby realnym problemem. Folia nie zastępuje całego systemu zabezpieczeń, ale może wydłużyć czas sforsowania szyby i ograniczyć rozsypanie szkła.',
+        "heading": "Realizacja w Katowicach: folia antywłamaniowa w sali spotkań",
+        "text": "W katowickim biurze zamontowaliśmy folię po wewnętrznej stronie szyb. Materiał z realizacji pokazuje salę spotkań podczas prac i zbliżenie wyprowadzania płynu montażowego raklą. Celem było dodatkowe zabezpieczenie okien przy zachowaniu ich przejrzystości. Pełny opis realizacji zawiera zakres prac i wskazówki do podobnej wyceny; zdjęcie dokumentuje montaż, a nie badanie odporności."
       },
+      {
+        "heading": "Organizacja montażu w działającym biurze lub lokalu",
+        "text": "Przed pracami uzgadniamy dostęp do szyb i krawędzi ram oraz miejsce na przygotowanie folii. W sali konferencyjnej warto zaplanować odsunięcie stołu i wyposażenia, a w lokalu z witryną dostęp od strony ekspozycji. Możliwość etapowania prac oraz harmonogram ustalamy dla obiektu. Po aplikacji obowiązują zalecenia wybranego produktu dotyczące schnięcia i pierwszego mycia."
+      },
+      {
+        "heading": "Ochrona przed odłamkami a utrudnienie włamania",
+        "text": "Folie bezpieczne i zabezpieczające pomagają utrzymywać fragmenty pękniętego szkła razem. Przy celu antywłamaniowym oceniamy także odporność układu i sposób połączenia folii z obramowaniem. Klasa przypisana do konkretnego przebadanego zestawu nie przechodzi automatycznie na każdą oklejoną szybę. Nie każda folia ochronna służąca zabezpieczeniu powierzchni nadaje się do tego celu."
+      },
+      {
+        "heading": "Dobór folii do szkła i ramy w Katowicach",
+        "text": "Sprawdzamy typ szkła, wymiary tafli, profile, uszczelki i dostęp do brzegów. W zależności od systemu może być potrzebne mocowanie obwodowe, którego zakres określamy przed montażem. Folia jest częścią zabezpieczenia obiektu; dobór łączymy z oceną stolarki i oczekiwań klienta. Nie deklarujemy klasy odporności bez dokumentacji właściwej dla danego rozwiązania."
+      },
+      {
+        "heading": "Cena zabezpieczenia szyb: co przesłać do wyceny?",
+        "text": "Wyślij zdjęcia okien lub witryn, detale ram, wymiary od uszczelki do uszczelki i liczbę szyb. Podaj adres lub miejscowość w rejonie Katowic, piętro, dostęp od wewnątrz oraz godziny, w których można zaplanować prace. Napisz, czy chodzi głównie o odłamki szkła, utrudnienie wtargnięcia czy wymagania konkretnego obiektu. Wycena uwzględnia materiał, przygotowanie, powierzchnię i ustalony sposób montażu."
+      }
     ],
-    relatedProblems: ['/folia-na-witryne-sklepowa', '/folia-antywlamaniowa-na-witryne-sklepowa'],
-    localLinks: ['/folie-antywlamaniowe-krakow', '/folie-przeciwsloneczne-katowice'],
+    "faq": [
+      {
+        "question": "Czy można zobaczyć montaż folii antywłamaniowej w Katowicach?",
+        "answer": "Tak. Powiązana realizacja dokumentuje zabezpieczenie szyb w biurze w Katowicach. Pokazujemy pomieszczenie podczas prac i detal aplikacji na mokro. Materiał nie jest testem odporności przeszklenia."
+      },
+      {
+        "question": "Czy do montażu trzeba zamknąć biuro?",
+        "answer": "Organizację uzgadniamy po ocenie dostępu i zakresu prac. Potrzebujemy wolnej przestrzeni przy szybach i ramie. Warto podać sposób użytkowania pomieszczeń oraz preferowane godziny, aby ustalić harmonogram."
+      },
+      {
+        "question": "Czy folię antywłamaniową montuje się od wewnątrz?",
+        "answer": "W pokazanej realizacji folia była montowana od strony wnętrza. Dla kolejnego obiektu stronę aplikacji i wykończenie krawędzi ustalamy zgodnie z przeznaczeniem wybranego materiału i konstrukcją przeszklenia."
+      },
+      {
+        "question": "Kiedy można umyć szyby po aplikacji folii?",
+        "answer": "Pierwsze mycie i czas schnięcia zależą od produktu oraz warunków w obiekcie. Po montażu należy stosować przekazane zalecenia, miękkie narzędzia i środki dopuszczone dla folii. Nie podważaj brzegów ani nie usuwaj wilgoci ostrymi narzędziami."
+      },
+      {
+        "question": "Od czego zależy cena folii antywłamaniowej w Katowicach?",
+        "answer": "Od folii, liczby i wymiarów szyb, przygotowania szkła, dostępu i ewentualnego mocowania obwodowego. Prześlij zdjęcia, pomiary, lokalizację i opis celu zabezpieczenia, aby otrzymać wycenę dla konkretnego obiektu."
+      }
+    ],
+    "relatedProblems": [
+      "/folia-na-witryne-sklepowa",
+      "/folia-antywlamaniowa-na-witryne-sklepowa",
+      "/folie-okienne-do-biura"
+    ],
+    "localLinks": [
+      "/folie-antywlamaniowe-krakow",
+      "/folie-przeciwsloneczne-katowice"
+    ]
   },
   {
     slug: 'folie-matowe-krakow',

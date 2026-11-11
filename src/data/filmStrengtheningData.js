@@ -1,4 +1,25 @@
 export const filmStrengtheningData = {
+  haccp: {
+    seoContentBlocks: [{
+      title: 'Bezpieczeństwo szyb: dobór do wymagań obiektu',
+      text: 'Ograniczenie rozsypywania odłamków i utrudnienie sforsowania szyby to różne cele. Przykład montażu w biurze pokazuje aplikację folii antywłamaniowej, natomiast dla stref z wymaganiami HACCP osobno ustalamy właściwy produkt, dokumentację i zakres zabezpieczenia.',
+    }],
+    localLinks: ['/folie-antywlamaniowe-krakow', '/folie-antywlamaniowe-katowice'],
+  },
+  protective: {
+    seoContentBlocks: [{
+      title: 'Ochrona powierzchni czy zabezpieczenie przed sforsowaniem?',
+      text: 'Folia ochronna do remontu lub zabezpieczenia powierzchni nie jest automatycznie folią antywłamaniową. Jeśli celem jest utrzymanie odłamków szkła razem lub utrudnienie wykonania otworu w szybie, potrzebny jest dobór odpowiedniej folii zabezpieczającej i sposobu montażu. Zobacz powiązaną realizację w biurze oraz ofertę doboru zabezpieczenia szyb w Krakowie i Katowicach.',
+    }],
+    localLinks: ['/folie-antywlamaniowe-krakow', '/folie-antywlamaniowe-katowice'],
+  },
+  security: {
+    seoContentBlocks: [{
+      title: 'Zabezpieczenie szyby obejmuje także ramę i krawędzie',
+      text: 'Przy doborze folii zabezpieczającej oceniamy szkło, profile i dostęp do brzegów tafli. Cel antywłamaniowy wymaga oceny całego układu oraz ewentualnego mocowania obwodowego. Przezroczysta folia może zachować widok przez okno; jej klasę i zakres ochrony ustala się na podstawie dokumentacji konkretnego rozwiązania.',
+    }],
+    localLinks: ['/folie-antywlamaniowe-krakow', '/folie-antywlamaniowe-katowice'],
+  },
   'external-solar': {
     seoContentBlocks: [
       {

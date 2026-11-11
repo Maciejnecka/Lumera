@@ -192,11 +192,11 @@ const SeoLandingPage = ({ page, type, breadcrumbs }) => {
         <RelatedProjectsSection
           projects={relatedProjects}
           title={
-            isLocalServicePage
+            page.projectsTitle || (isLocalServicePage
               ? `Realizacje powiązane z lokalizacją ${page.city}`
-              : 'Realizacje powiązane z tą kategorią'
+              : 'Realizacje powiązane z tą kategorią')
           }
-          lead="Przykłady montaży pomagają zobaczyć, jak opis usługi przekłada się na realną szybę, detale i efekt po aplikacji."
+          lead={page.projectsLead || 'Przykłady montaży pomagają zobaczyć, jak opis usługi przekłada się na realną szybę, detale i efekt po aplikacji.'}
         />
 
         {(localLinks.length > 0 || relatedProblems.length > 0) && (
