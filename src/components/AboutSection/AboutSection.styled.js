@@ -253,8 +253,9 @@ export const SpacesPanel = styled.div`
 `;
 
 export const SpacesHeader = styled.div`
-  max-width: 82rem;
+  width: 100%;
   min-width: 0;
+  text-align: center;
 
   span {
     display: inline-block;
@@ -267,15 +268,18 @@ export const SpacesHeader = styled.div`
   }
 
   h3 {
-    margin: 0;
+    max-width: 82rem;
+    margin: 0 auto;
     color: var(--font-title);
     font-size: clamp(2.6rem, 3.5vw, 4rem);
     line-height: 1.12;
     letter-spacing: 0;
+    text-wrap: balance;
   }
 
   p {
-    margin: 1rem 0 0;
+    max-width: 92rem;
+    margin: 1.2rem auto 0;
     color: var(--font-main);
     font-size: 1.58rem;
     line-height: 1.72;
@@ -284,15 +288,20 @@ export const SpacesHeader = styled.div`
 
 export const SpacesGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 0.9rem;
   margin-top: 1.8rem;
   min-width: 0;
+  @media (max-width: 1100px) { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  @media (max-width: 700px) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  @media (max-width: 420px) { grid-template-columns: 1fr; }
 `;
 
 export const SpaceCard = styled.div`
   display: flex;
   align-items: center;
+  justify-content: center;
+  text-align: center;
   min-width: 0;
   min-height: 5rem;
   padding: 1rem 1.25rem;

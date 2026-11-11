@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 import { localServicePagesData } from '../../data/localServicePagesData';
 import { problemPagesData } from '../../data/problemPagesData';
 import { getProjectsByFilmPath } from '../../data/projectPagesData';
+import { architecturalWrapsData } from '../../data/architecturalWrapsData';
 import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
 import RelatedProjectsSection from '../RelatedProjectsSection';
 import SmartFilmPreview from '../SmartFilmPreview';
@@ -137,6 +138,25 @@ const FilmDetailPage = ({ film, breadcrumbs }) => {
           lead={isArchitectural ? 'Zobacz metamorfozy szaf, drzwi, frontów szafek i stołów. Porównaj wykończenia oraz efekty renowacji i wybierz kierunek dla swojej powierzchni.' : 'Konkretne montaże pokazują, jak ta folia wygląda na realnych szybach: zakres prac, efekt po aplikacji i sytuacje podobne do tych, które najczęściej trafiają do wyceny.'}
         />
 
+        {isArchitectural && (
+          <DetailSection id="co-oklejamy">
+            <DetailSectionIntro data-aos="fade-up">
+              <span>Co oklejamy?</span>
+              <h2>Folia architektoniczna dopasowana do Twojej powierzchni</h2>
+              <DetailText>Wybierz element, który chcesz odnowić. Sprawdź zakres oklejania i porównaj go z realizacjami przed i po powyżej. Dobór zaczynamy od stanu podłoża, a dekor dopasowujemy do wnętrza.</DetailText>
+            </DetailSectionIntro>
+            <DetailLinkGrid>
+              {architecturalWrapsData.surfaces.map((surface) => (
+                <DetailLinkCard key={surface.id} href={`#${surface.id}`}>
+                  <span>Zakres oklejania</span>
+                  <strong>{surface.label}</strong>
+                  <p>{surface.description}</p>
+                </DetailLinkCard>
+              ))}
+            </DetailLinkGrid>
+          </DetailSection>
+        )}
+
         <DetailSection>
           <DetailSectionIntro data-aos="fade-up">
             <span>Najważniejsze korzyści</span>
@@ -208,7 +228,8 @@ const FilmDetailPage = ({ film, breadcrumbs }) => {
 
             <DetailGrid>
               {film.seoContentBlocks.map((block) => (
-                <DetailPanel key={block.title} data-aos="fade-up">
+                <DetailPanel key={block.title} data-aos="fade-up"
+                  id={isArchitectural ? architecturalWrapsData.surfaces.find((surface) => surface.heading === block.title)?.id : undefined}>
                   <h3>{block.title}</h3>
                   <DetailText>{block.text}</DetailText>
                 </DetailPanel>

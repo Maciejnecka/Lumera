@@ -297,6 +297,7 @@ export const DetailGrid = styled.div`
 `;
 
 export const DetailPanel = styled.article`
+  &[id] { scroll-margin-top: 12rem; }
   padding: 2.6rem;
   border: 1px solid var(--border-light);
   border-radius: 2.4rem;

@@ -73,6 +73,9 @@ const serviceHubPagesData = evaluateDataModule('src/data/serviceHubPagesData.js'
 const projectPagesData = evaluateDataModule('src/data/projectPagesData.js', [
   'projectPagesData',
 ]).projectPagesData;
+const { architecturalWrapsData } = evaluateDataModule('src/data/architecturalWrapsData.js', [
+  'architecturalWrapsData',
+]);
 const { reviewsData, reviewsSummary, reviewsCheckedAt, googleReviewsUrl } = evaluateDataModule(
   'src/data/reviewsData.js',
   ['reviewsData', 'reviewsSummary', 'reviewsCheckedAt', 'googleReviewsUrl']
@@ -301,6 +304,9 @@ const buildFilmSection = (film) => {
       ? `### Efekt I Właściwości\n${film.effectTitle || ''}\n\n${film.effectLead || ''}\n\n${keyValueList(film.effectDetails || [])}`
       : '',
     film.seoContentBlocks?.length ? `### Dobór W Praktyce\n${sectionBlocks(film.seoContentBlocks)}` : '',
+    film.id === 'architectural-wraps'
+      ? `### Co Oklejamy Folią Architektoniczną\n${architecturalWrapsData.surfaces.map((surface) => `- ${surface.label}: ${surface.description}\n  ${absoluteUrl(architecturalWrapsData.path)}#${surface.id}`).join('\n')}\n\n### Przykłady Metamorfoz\n${architecturalWrapsData.projects.map((project) => markdownLink(project.label, project.path)).join('\n')}`
+      : '',
     film.featuredNote ? `### Ważna Notatka\n${film.featuredNote}` : '',
     film.bestFor?.length ? `### Dla Kogo To Dobry Wybór\n${listItems(film.bestFor)}` : '',
     film.beforeInstall?.length ? `### Przed Montażem\n${listItems(film.beforeInstall)}` : '',

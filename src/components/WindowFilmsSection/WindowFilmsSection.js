@@ -7,6 +7,7 @@ import problemSecurityImage from '../../img/generated/problem-bezpieczniejsze-sz
 import problemPrivacyImage from '../../img/generated/problem-brak-prywatnosci.webp';
 import problemHeatImage from '../../img/generated/problem-za-goraco.webp';
 import SmartFilmPreview from '../SmartFilmPreview';
+import ArchitecturalWrapsFeature from '../ArchitecturalWrapsFeature/ArchitecturalWrapsFeature';
 import {
   WindowFilmsWrap,
   SectionIntro,
@@ -398,6 +399,8 @@ const WindowFilmsSection = () => {
           </FeaturedFilmVisual>
         </FeaturedFilm>
       )}
+
+      <ArchitecturalWrapsFeature />
 
       <LocalMountPanel data-aos="fade-up">
         <div>

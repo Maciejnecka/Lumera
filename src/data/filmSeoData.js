@@ -654,7 +654,8 @@ export const filmSeoData = {
     ],
   },
   'architectural-wraps': {
-  "seoDescription": "Okleiny i laminaty architektoniczne: oklejanie drzwi, frontów, mebli i ram. Zobacz metamorfozy przed i po, dobór wykończeń i montaż Lumera.",
+    "seoTitle": "Folie architektoniczne – oklejanie drzwi i mebli | Lumera",
+    "seoDescription": "Folie architektoniczne na drzwi, meble, fronty, ramy i lady. Zobacz realizacje przed i po, wybierz powierzchnię i zapytaj o montaż w Krakowie lub Katowicach.",
   "effectTitle": "Nowy wygląd powierzchni bez wymiany sprawnych elementów",
   "effectLead": "Okleina architektoniczna działa inaczej niż folia okienna. Nie zmienia parametrów szyby, tylko pozwala odnowić lub przebudować wizualnie istniejący element: ramę okienną, drzwi, futrynę, front meblowy, ladę, panel lub zabudowę. Najważniejsze jest przygotowanie podłoża, dobór wykończenia i staranne wyprowadzenie krawędzi, bo to one decydują, czy efekt będzie wyglądał jak część wnętrza, a nie jak doraźna naklejka.",
   "effectDetails": [
