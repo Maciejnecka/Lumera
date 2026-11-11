@@ -1,3 +1,4 @@
+import { googleReviewsUrl, reviewsData, reviewsSummary } from '../../data/reviewsData';
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import {
   TestimonialsSection,
@@ -17,114 +18,7 @@ import {
   ReviewFooter,
 } from './TestimonialsStrip.styled';
 
-const GOOGLE_REVIEWS_URL = 'https://share.google/ehvyHeeHWsm3vl9B6';
-
-// Google reviews checked on 2026-10-11; excerpts are marked in the badge.
-const reviews = [
-  {
-    id: 'rafal-nowak',
-    name: 'Rafał Nowak',
-    initials: 'R',
-    badge: 'Lokalny przewodnik · 12 opinii · 16 zdjęć',
-    text:
-      'Zamawialiśmy folię bezpieczną na szyby do sklepu i jesteśmy bardzo zadowoleni. Zależało nam na dodatkowym zabezpieczeniu witryny, ale bez zmiany wyglądu lokalu. Wszystko zostało sprawnie ustalone, montaż przebiegł czysto i bez problemów. Polecam',
-    avatarTone: 'orange',
-  },
-  {
-    id: 'jakub-zajac',
-    name: 'Jakub Zając',
-    initials: 'J',
-    badge: '13 opinii · 1 zdjęcie',
-    text:
-      'Bardzo profesjonalny i sprawny montaż. Cena bardzo konkurencyjna i adekwatna do jakości wykonania! Pozdrawiam serdecznie!',
-    avatarTone: 'pink',
-  },
-  {
-    id: 'mateusz-rudzki',
-    name: 'Mateusz Rudzki',
-    initials: 'M',
-    badge: '1 opinia',
-    text:
-      'Bardzo polecam firmę Lumera. Zależało nam na ograniczeniu nagrzewania mieszkania i dobraniu folii, która nie zepsuje wyglądu okien. Wszystko zostało jasno wyjaśnione, montaż przebiegł sprawnie i czysto, a efekt czuć praktycznie od razu.',
-    avatarTone: 'violet',
-  },
-  {
-    id: 'mateusz-skrzyszowski', name: 'Mateusz Skrzyszowski', initials: 'M',
-    reviewUrl: 'https://share.google/yGT7oqiaC6WFnmQUQ',
-    badge: 'Opinia z Google · fragment', avatarTone: 'orange',
-    text: 'Montaż został wykonany sprawnie, terminowo i jeszcze przed otwarciem lokalu, co było dla nas bardzo ważne.',
-  },
-  {
-    id: 'polting-foam', name: 'Polting Foam', initials: 'P',
-    reviewUrl: 'https://share.google/bbInZeXqXyaUmxFUr',
-    badge: 'Opinia z Google · fragment', avatarTone: 'violet',
-    text: 'Montaż folii w biurowcu i na halach produkcyjnych przebiegał terminowo oraz zgodnie z ustaleniami, nie zakłócając funkcjonowania firmy.',
-  },
-  {
-    id: 'malgorzata-korbel', name: 'Małgorzata Korbel', initials: 'M',
-    reviewUrl: 'https://share.google/HBOCXT9Gl2IwKw94I',
-    badge: 'Opinia z Google · fragment', avatarTone: 'pink',
-    text: 'Błyskawiczny termin, fachowe doradztwo i montaż, zdecydowanie polecam!',
-  },
-  {
-    id: 'marzena-bogacka', name: 'Marzena Bogacka', initials: 'M',
-    reviewUrl: 'https://share.google/KgSlmlM0w3CqN8jPm',
-    badge: 'Opinia z Google · fragment', avatarTone: 'orange',
-    text: 'Serdecznie polecam! Firma pod każdym względem perfekcyjna i precyzyjna, zarówno w kwestii świadczonych usług jak i obsługi klienta.',
-  },
-  {
-    id: 'dawid-czort', name: 'Dawid Czort (Czorcik)', initials: 'D',
-    reviewUrl: 'https://share.google/Ibc4iDe1lOrm6l69N',
-    badge: 'Opinia z Google · fragment', avatarTone: 'violet',
-    text: 'Bardzo miły kontakt i profesjonalne doradztwo w celu dobrania odpowiedniej folii do pomieszczenia mieszkalnego.',
-  },
-  {
-    id: 'marta-pieniazek', name: 'Marta Pieniążek', initials: 'M',
-    badge: 'Opinia z Google', avatarTone: 'pink',
-    text: 'Polecam w 100%. Szybka realizacja, pomoc na każdym etapie i bardzo miła obsługa. Folie profesjonalnie wykonane, jestem bardzo zadowolona !',
-  },
-  {
-    id: 'mateusz-kapustka', name: 'Mateusz Kapustka', initials: 'M',
-    badge: 'Opinia z Google', avatarTone: 'orange',
-    text: 'Bardzo polecam. Folie spełniają swoją rolę, a serwis i komunikacja na najwyższym poziomie.',
-  },
-  {
-    id: 'katarzyna-bobilewicz', name: 'Katarzyna Bobilewicz', initials: 'K',
-    badge: 'Opinia z Google', avatarTone: 'violet',
-    text: 'Dziękuję za super współpracę i świetny kontakt.\nSzybko, rzeczowo, uczciwie i solidnie.\nPolecam\nApteka Bobilewicz',
-  },
-  {
-    id: 'joanna-pasierb', name: 'Joanna Pasierb', initials: 'J',
-    badge: 'Opinia z Google', avatarTone: 'pink',
-    text: 'Drzwi wejsciowe oklejone dokladnie tak, jak chcialam. Wszystko przebieglo bardzo sprawnie i super profesjonalnie. Serdecznie polecam!',
-  },
-  {
-    id: 'karolina-miernicka', name: 'Karolina Miernicka', initials: 'K',
-    badge: 'Opinia z Google', avatarTone: 'orange',
-    text: 'Polecam serdecznie, bardzo dobry kontakt, pełna profeska, wszystko wykonane jak należy!',
-  },
-];
-
-// Relative publication ages shown by Google when checked on 2026-10-11.
-// Google only exposes month-level precision for older reviews here.
-const reviewAgeInMonths = {
-  'joanna-pasierb': 0,
-  'dawid-czort': 2,
-  'katarzyna-bobilewicz': 2,
-  'malgorzata-korbel': 3,
-  'mateusz-kapustka': 3,
-  'mateusz-skrzyszowski': 4,
-  'polting-foam': 4,
-  'rafal-nowak': 5,
-  'jakub-zajac': 5,
-  'mateusz-rudzki': 5,
-  'marzena-bogacka': 5,
-  'marta-pieniazek': 5,
-  'karolina-miernicka': 5,
-};
-const sortedReviews = [...reviews].sort(
-  (a, b) => reviewAgeInMonths[a.id] - reviewAgeInMonths[b.id]
-);
+const sortedReviews = reviewsData;
 const loopedReviews = [sortedReviews, sortedReviews, sortedReviews].flat();
 const AUTOPLAY_INTERVAL_MS = 5000;
 
@@ -221,8 +115,8 @@ const TestimonialsStrip = () => {
             widoczny efekt po oklejeniu szyb.
           </h2>
           <TestimonialsSummary>
-            <strong>Google • 5,0</strong>
-            <a href={GOOGLE_REVIEWS_URL} target="_blank" rel="noreferrer">
+            <strong>Google • {reviewsSummary.average.toFixed(1).replace('.', ',')} / 5 · {reviewsSummary.count} oceny</strong>
+            <a href={googleReviewsUrl} target="_blank" rel="noreferrer">
               Zobacz wszystkie opinie w Google
             </a>
           </TestimonialsSummary>
@@ -261,20 +155,18 @@ const TestimonialsStrip = () => {
                 </ReviewMenu>
               </ReviewCardTop>
 
-              <ReviewStars aria-label="Ocena: 5 na 5">
-                <div>{starIcons}</div>
+              <ReviewStars aria-label={`Ocena: ${review.rating} na 5`}>
+                <div>{starIcons.slice(0, review.rating)}</div>
               </ReviewStars>
 
-              <ReviewBody>{review.text}</ReviewBody>
+              <ReviewBody>{review.text || 'Ocena bez komentarza tekstowego.'}</ReviewBody>
 
               <ReviewFooter>
-                {review.reviewUrl && (
-                  <a href={review.reviewUrl} target="_blank" rel="noopener noreferrer"
-                    tabIndex={index < sortedReviews.length || index >= sortedReviews.length * 2 ? -1 : undefined}
-                    aria-label={`Przeczytaj całą opinię: ${review.name} (Google, nowa karta)`}>
-                    Przeczytaj całą opinię ↗
-                  </a>
-                )}
+                <a href={review.reviewUrl} target="_blank" rel="noopener noreferrer"
+                  tabIndex={index < sortedReviews.length || index >= sortedReviews.length * 2 ? -1 : undefined}
+                  aria-label={`Zobacz opinię w Google: ${review.name} (nowa karta)`}>
+                  Zobacz opinię w Google ↗
+                </a>
                 <small>Google</small>
               </ReviewFooter>
             </ReviewCard>

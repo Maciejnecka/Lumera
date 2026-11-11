@@ -73,6 +73,10 @@ const serviceHubPagesData = evaluateDataModule('src/data/serviceHubPagesData.js'
 const projectPagesData = evaluateDataModule('src/data/projectPagesData.js', [
   'projectPagesData',
 ]).projectPagesData;
+const { reviewsData, reviewsSummary, reviewsCheckedAt, googleReviewsUrl } = evaluateDataModule(
+  'src/data/reviewsData.js',
+  ['reviewsData', 'reviewsSummary', 'reviewsCheckedAt', 'googleReviewsUrl']
+);
 const contactPageData = evaluateDataModule('src/data/contactPageData.js', [
   'contactPreparationItems',
   'contactServiceArea',
@@ -535,6 +539,15 @@ Rozróżnij folie antywłamaniowe, zabezpieczające, ochronne i HACCP. Antywłam
 Kieruj do oklein i laminatów architektonicznych. Podkreśl, że potrzebne są zdjęcia całości, detali, krawędzi, narożników, uchwytów, wymiary, liczba elementów i oczekiwany kierunek wykończenia.
 
 ${buildPricingSection()}
+
+# Opinie Klientów
+
+Sekcja na stronie: ${absoluteUrl('/')}#opinie
+Stan sprawdzony: ${reviewsCheckedAt}. Lista obejmuje ${reviewsSummary.count} oceny Google, ze średnią ${reviewsSummary.average.toFixed(1).replace('.', ',')}/5. To zapis stanu z dnia weryfikacji, nie automatyczna synchronizacja. Wypowiedzi są opiniami ich autorów. Fragmenty są oznaczone na kartach, a oceny bez komentarza nie mają dopisywanej wypowiedzi.
+Profil Google: ${googleReviewsUrl}
+
+Każda karta prowadzi do indywidualnej oryginalnej opinii:
+${reviewsData.map((review) => `- ${review.name}: ${review.rating}/5 — ${review.reviewUrl}`).join('\n')}
 
 # Huby Usług
 
