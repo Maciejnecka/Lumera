@@ -71,7 +71,7 @@ const ProjectDetailPage = ({ project, breadcrumbs }) => {
 
           <ProjectMetaGrid>
             <ProjectMetaCard>
-              <span>{project.isCollection ? 'Galeria' : 'Miasto'}</span>
+              <span>{project.isCollection ? 'Galeria' : project.areaLabel || 'Miasto'}</span>
               <strong>{project.isCollection ? 'Zbiór metamorfoz' : project.city}</strong>
             </ProjectMetaCard>
             <ProjectMetaCard>
@@ -167,6 +167,15 @@ const ProjectDetailPage = ({ project, breadcrumbs }) => {
         )}
       </ProjectSection>
 
+      {project.sections?.map((section) => (
+        <ProjectSection key={section.heading}>
+          <ProjectSectionIntro>
+            <h2>{section.heading}</h2>
+            <p>{section.text}</p>
+          </ProjectSectionIntro>
+        </ProjectSection>
+      ))}
+
       <ProjectSection>
         <ProjectSectionIntro data-aos="fade-up">
           <span>Powiązane usługi</span>
@@ -216,7 +225,7 @@ const ProjectDetailPage = ({ project, breadcrumbs }) => {
           <ProjectSectionIntro data-aos="fade-up">
             <span>Dobór folii</span>
             <h2>Planujesz podobną osłonę przeszkleń?</h2>
-            <p>Porównaj rozwiązania do biura, wykończenia matowe i mrożone oraz sposoby ograniczenia widoczności przez szkło.</p>
+            <p>{project.relatedProblemsIntro || 'Porównaj rozwiązania do biura, wykończenia matowe i mrożone oraz sposoby ograniczenia widoczności przez szkło.'}</p>
           </ProjectSectionIntro>
           <ProjectLinkGrid>
             {relatedProblems.map((page) => (

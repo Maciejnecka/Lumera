@@ -81,7 +81,7 @@ export const filmStrengtheningData = {
     localLinks: ['/folie-lustra-weneckie-krakow', '/folie-lustra-weneckie-katowice'],
   },
   matte: {
-    seoContentBlocks: [
+    seoContentBlocks: [{title: 'Folie matowe na balkony i szklane balustrady', text: 'Mleczny efekt można uzyskać także na szklanej balustradzie balkonu. Folia ogranicza widok przez oklejone wypełnienia, zachowując istniejące tafle i profile. Do zastosowań zewnętrznych dobieramy odpowiedni materiał, stronę aplikacji i wykończenie krawędzi. Zobacz galerię balkonów przed i po oraz lokalne oferty montażu w Krakowie i Katowicach.'},
       {
         title: 'Pełna tafla, pas czy wzór?',
         text:
@@ -98,7 +98,7 @@ export const filmStrengtheningData = {
       '/folia-na-szybe-do-lazienki',
       '/folia-matowa-czy-mrozona',
     ],
-    localLinks: ['/folie-matowe-krakow', '/folie-matowe-katowice'],
+    localLinks: ['/folie-na-balkon-krakow', '/folie-na-balkon-katowice', '/folie-matowe-krakow', '/folie-matowe-katowice'],
   },
   frosted: {
     seoContentBlocks: [

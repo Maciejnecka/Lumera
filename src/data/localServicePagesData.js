@@ -1,5 +1,213 @@
 export const localServicePagesData = [
   {
+    "slug": "folie-na-balkon-krakow",
+    "path": "/folie-na-balkon-krakow",
+    "city": "Kraków",
+    "serviceName": "montaż folii matowej na balkony",
+    "filmPath": "/folie-matowe",
+    "recommendedFilms": [
+      "/folie-matowe",
+      "/folie-mrozone"
+    ],
+    "title": "Folie na balkony — Kraków i okolice",
+    "eyebrow": "Mleczna balustrada. Więcej prywatności.",
+    "seoTitle": "Folie na balkony Kraków i okolice — montaż | Lumera",
+    "seoDescription": "Folia matowa na balkon w Krakowie i okolicach. Oklejanie szklanych balustrad, mleczny efekt, dobór do szkła i wycena montażu. Zobacz zdjęcia przed i po.",
+    "lead": "Lumera dobiera i montuje folie matowe na szklanych balustradach balkonów w Krakowie i okolicach. Mleczna folia ogranicza widok przez oklejoną część szkła, przepuszczając rozproszone światło. To sposób na większą prywatność bez wymiany tafli i bez dokładania mat do konstrukcji balustrady.",
+    "areaServed": [
+      "Kraków",
+      "Rudawa",
+      "Zabierzów",
+      "Krzeszowice",
+      "Balice",
+      "Modlniczka",
+      "Wieliczka",
+      "Skawina"
+    ],
+    "heroImage": {"src":"/img/realizacje/folie-matowe-balkony-krakow/cover.webp","width":1600,"height":800,"alt":"Szklana balustrada balkonu przed i po montażu folii matowej","caption":"Przed i po — przykład z galerii Kraków i okolice."},
+    "contactTopic": "matte",
+    "projectPaths": [
+      "/realizacje/folie-matowe-balkony-krakow"
+    ],
+    "projectsTitle": "Balkony przed i po: Kraków i okolice",
+    "projectsLead": "Zobacz galerię montaży na balustradach w ramach i bez ram. Porównania pokazują zakres osłony od strony balkonu oraz elewacji.",
+    "quotePreparation": "Wyślij zdjęcia całego balkonu i detali balustrady, szerokość oraz wysokość każdej tafli, liczbę szyb, miejscowość i piętro. Zaznacz, czy oklejamy front, boki czy wybrany pas oraz czy na szkle znajduje się stara folia.",
+    "useCases": [
+      "szklane balustrady przy chodnikach i ciągach pieszych",
+      "balkony na niższych kondygnacjach z widokiem od ulicy",
+      "loggie i tarasy z przeszklonymi balustradami po ocenie warunków montażu",
+      "fronty i boczne tafle balkonów w bliskiej zabudowie mieszkaniowej"
+    ],
+    "sections": [
+      {
+        "heading": "Jak działa folia matowa na szklanym balkonie?",
+        "text": "Folia mleczna, nazywana również matową lub satynową, rozprasza obraz widoczny przez szkło. Na balustradzie osłania dolną część balkonu: miejsce odpoczynku i wyposażenie na wysokości oklejonych tafli. Nie tworzy zadaszenia ani pełnej zabudowy. Pozwala zachować podziały szkła i profile, a efekt można dopasować do frontu oraz bocznych osłon."
+      },
+      {
+        "heading": "Prywatność na balkonie w Krakowie: co faktycznie zasłonimy?",
+        "text": "W mieszkaniu przy chodniku ważny może być widok z poziomu przechodnia, a przy sąsiednim budynku — kierunek patrzenia z okien naprzeciwko. Dlatego prosimy o zdjęcia nie tylko balustrady, ale także jej otoczenia. Matowa folia osłania tylko oklejoną powierzchnię; osoba patrząca z wyższej kondygnacji nadal może widzieć ponad poręczą. Zakres dobieramy do rzeczywistych linii widoku."
+      },
+      {
+        "heading": "Kraków, Zabierzów, Wieliczka i pozostałe okolice",
+        "text": "Zapytania o folie balkonowe przyjmujemy z Krakowa, w tym Bronowic, Krowodrzy, Prądnika, Dębnik, Ruczaju, Podgórza i Nowej Huty. Planujemy też dojazdy do Rudawy, Zabierzowa, Krzeszowic, Balic, Modlniczki, Wieliczki i Skawiny. Lista opisuje obszar obsługi, a nie adresy wykonanych montaży. Przy zgłoszeniu podaj miejscowość, liczbę tafli i piętro, aby ustalić organizację pomiaru oraz montażu."
+      },
+      {
+        "heading": "Folia na balkon, balustradę czy drzwi balkonowe?",
+        "text": "Oklejanie szklanej balustrady różni się od montażu na oknie lub drzwiach balkonowych. Balustrada jest narażona na warunki zewnętrzne, a okno zwykle ma pakiet zespolony z powłokami. Do każdego z tych zastosowań trzeba dobrać zgodny materiał. Jeśli celem jest zmniejszenie nagrzewania mieszkania przez drzwi balkonowe, osobno analizujemy folię przeciwsłoneczną, zamiast zakładać, że osłona balustrady rozwiąże ten problem."
+      },
+      {
+        "heading": "Dobór folii zewnętrznej i przebieg montażu",
+        "text": "Zaczynamy od zdjęć i wymiarów, następnie ustalamy rodzaj szkła, oczekiwany efekt i dostęp do krawędzi. Na otwartym balkonie potrzebny jest materiał przeznaczony do właściwej ekspozycji zewnętrznej. Po przygotowaniu powierzchni aplikujemy dopasowane formatki i wykańczamy brzegi według wymagań produktu. Termin zależy od pogody i zalecanej temperatury aplikacji. Przed pracami należy udostępnić balustradę i odsunąć donice oraz meble."
+      },
+      {
+        "heading": "Ile kosztuje montaż folii na balkon w Krakowie?",
+        "text": "Wycena obejmuje rodzaj materiału, powierzchnię i liczbę tafli, przygotowanie szkła, narożniki, dostęp oraz uzgodniony dojazd. Kilka małych szyb wymaga innej liczby docinek niż jedna duża tafla o tej samej powierzchni. Osobno ustalamy demontaż starej folii. Do wstępnej wyceny wystarczą zdjęcia, wymiary i lokalizacja; dokładną ofertę przygotowujemy po ustaleniu zakresu."
+      },
+      {
+        "heading": "Wygląd elewacji i użytkowanie po oklejeniu",
+        "text": "Przed zmianą przezroczystej balustrady na mleczną sprawdź zasady dotyczące wyglądu balkonów w swoim budynku i uzgodnij wymagany zakres z administracją. Odcień i stopień zmatowienia warto obejrzeć na próbce. Czas pierwszego mycia, pielęgnację i warunki gwarancji ustalamy dla wybranego materiału. Trwałość zależy również od ekspozycji oraz sposobu użytkowania; nie każdy produkt matowy ma takie same parametry."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Czy folia mleczna sprawdzi się na balkonie w bloku?",
+        "answer": "Może sprawdzić się na szklanych wypełnieniach balustrady po ocenie szkła, dostępu i ekspozycji. Warto wcześniej ustalić zasady wyglądu elewacji obowiązujące w budynku oraz zakres osłony, którego potrzebujesz."
+      },
+      {
+        "question": "Czy folię na balkonie montuje się od środka?",
+        "answer": "Stronę aplikacji dobieramy do konkretnego materiału, szkła i warunków dostępu. Strona od balkonu również podlega warunkom zewnętrznym, dlatego nie wystarczy wybrać zwykłej folii do wnętrz."
+      },
+      {
+        "question": "Czy matowa folia na balkon zabiera światło?",
+        "answer": "Przepuszcza światło rozproszone, lecz jego ilość zależy od parametrów materiału i istniejącego szkła. Widok przez oklejoną taflę zostaje ograniczony. Próbka pozwala ocenić mleczny efekt przed zamówieniem."
+      },
+      {
+        "question": "Czy folia balkonowa zapewnia prywatność w nocy?",
+        "answer": "Matowienie nie zależy od efektu lustra weneckiego, ale przy podświetleniu i blisko ustawionych przedmiotach mogą być widoczne zarysy. Osłona dotyczy samej balustrady; ponad poręczą balkon pozostaje otwarty."
+      },
+      {
+        "question": "Czy oklejacie balkony w okolicach Krakowa?",
+        "answer": "Przyjmujemy zapytania między innymi z Rudawy, Zabierzowa, Krzeszowic, Balic, Modlniczki, Wieliczki i Skawiny. Możliwość i termin dojazdu ustalamy na podstawie lokalizacji oraz zakresu prac."
+      },
+      {
+        "question": "Jak zmierzyć szyby w balustradzie do wyceny?",
+        "answer": "Podaj szerokość i wysokość widocznej powierzchni każdej tafli, liczbę sztuk oraz zaznacz boki i narożniki. Dołącz zdjęcia mocowań i profili. Nie wychylaj się poza balustradę, aby wykonać pomiar; brakujące dane ustalimy przy ocenie dostępu."
+      }
+    ],
+    "localLinks": [
+      "/folie-na-balkon-katowice",
+      "/folie-matowe-krakow"
+    ],
+    "relatedProblems": [
+      "/folia-na-okno-przed-sasiadami",
+      "/folia-matowa-czy-mrozona"
+    ]
+  },
+  {
+    "slug": "folie-na-balkon-katowice",
+    "path": "/folie-na-balkon-katowice",
+    "city": "Katowice",
+    "serviceName": "montaż folii matowej na balkony",
+    "filmPath": "/folie-matowe",
+    "recommendedFilms": [
+      "/folie-matowe",
+      "/folie-mrozone"
+    ],
+    "title": "Folie na balkony — Katowice i okolice",
+    "eyebrow": "Osłoń balkon, zachowaj szklaną balustradę.",
+    "seoTitle": "Folie na balkony Katowice i okolice — montaż | Lumera",
+    "seoDescription": "Oklejanie szklanych balustrad balkonowych w Katowicach i okolicach. Folia matowa i mleczna na balkon: dobór, pomiar, organizacja dojazdu i wycena.",
+    "lead": "Szukasz osłony szklanej balustrady w Katowicach? Lumera przyjmuje zapytania o montaż folii matowej na balkony w Katowicach i okolicznych miastach. Dobieramy mleczny efekt do tafli i warunków zewnętrznych, a pomiar, dojazd i zakres oklejania ustalamy na podstawie zdjęć oraz wymiarów.",
+    "areaServed": [
+      "Katowice",
+      "Chorzów",
+      "Sosnowiec",
+      "Mysłowice",
+      "Siemianowice Śląskie",
+      "Tychy",
+      "Gliwice",
+      "Zabrze"
+    ],
+    "heroImage": {"src":"/img/realizacje/folie-matowe-balkony-krakow/cover.webp","width":1600,"height":800,"alt":"Szklana balustrada balkonu przed i po montażu folii matowej","caption":"Przed i po — przykład z galerii Kraków i okolice."},
+    "contactTopic": "matte",
+    "projectPaths": [
+      "/realizacje/folie-matowe-balkony-krakow"
+    ],
+    "projectsTitle": "Zobacz efekt folii na balkonach — przykłady z obszaru Krakowa",
+    "projectsLead": "Galeria z Krakowa i okolic pokazuje matowe wykończenia balustrad. To przykłady efektu do porównania przed zamówieniem usługi w Katowicach; nie przedstawiamy ich jako realizacji śląskiej.",
+    "quotePreparation": "Do zapytania z Katowic lub okolic dołącz zdjęcia balustrady, wymiary i liczbę tafli, miejscowość, piętro oraz opis dostępu. Przy kilku balkonach rozpisz każdy osobno i podaj możliwe terminy udostępnienia mieszkań.",
+    "useCases": [
+      "balkony i loggie z przezroczystymi wypełnieniami",
+      "szklane balustrady widoczne z chodnika lub sąsiedniego budynku",
+      "osłona frontu i boków balkonu bez dokładania mat",
+      "kilka balkonów planowanych w jednym budynku po uzgodnieniu zakresu"
+    ],
+    "sections": [
+      {
+        "heading": "Mleczna folia na balkon: jaki efekt można uzyskać?",
+        "text": "Matowe oklejenie zmienia przezroczyste wypełnienia w jasną osłonę i ogranicza rozpoznawanie szczegółów przez szkło. To rozwiązanie dla osób, które chcą zachować profile i lekką formę balustrady, a osłonić jej dolną część. Folia nie zasłania widoku ponad poręczą, nie wypełnia szczelin między taflami i nie stanowi pełnej zabudowy loggii."
+      },
+      {
+        "heading": "Katowice i sąsiednie miasta: jak planujemy montaż?",
+        "text": "Przyjmujemy zgłoszenia z Katowic, między innymi z Brynowa, Ligoty, Piotrowic, Koszutki i osiedla Tysiąclecia, a także z Chorzowa, Sosnowca, Mysłowic, Siemianowic Śląskich, Tychów, Gliwic i Zabrza. Dojazd, pomiar oraz termin aplikacji uzgadniamy indywidualnie. Przy większym zakresie lub kilku balkonach można wspólnie zaplanować organizację prac; potrzebna jest osobna lista tafli dla każdego mieszkania."
+      },
+      {
+        "heading": "Balustrada w ramach czy szkło bezramowe?",
+        "text": "Przy balustradzie ramowej sprawdzamy dostęp przy słupkach i uszczelnieniach. W konstrukcji bezramowej ważne są otwarte krawędzie tafli, szczeliny i sposób mocowania szkła. Zdjęcia narożników pomagają ustalić docinanie oraz wykończenie. Stronę naklejenia i wymagania dla brzegów określamy według konkretnego produktu, zamiast zakładać identyczny montaż na każdej balustradzie."
+      },
+      {
+        "heading": "Folia na balkon a lustro weneckie i mata osłonowa",
+        "text": "Folia matowa rozprasza widok przez szkło i daje stały mleczny efekt. Folia z efektem lustra zależy od różnicy oświetlenia, dlatego wieczorem nie zapewnia takiej samej prywatności jak w dzień. Mata może zasłaniać balustradę, lecz dodaje do niej osobną warstwę i mocowania. Wybór zależy od tego, czy ważniejszy jest widok przez tafle, neutralna elewacja czy osłonięcie dolnej części balkonu."
+      },
+      {
+        "heading": "Warunki zewnętrzne i termin oklejania balustrady",
+        "text": "Otwarty balkon wymaga materiału przeznaczonego do odpowiedniej ekspozycji zewnętrznej, nawet gdy aplikacja znajduje się po stronie mieszkania. Przed potwierdzeniem terminu sprawdzamy warunki pracy, temperaturę i dostęp. Silny wiatr, opady lub temperatura poza zakresem produktu mogą wymagać przełożenia aplikacji. Balkon należy udostępnić bez donic i wyposażenia utrudniającego dojście do szkła."
+      },
+      {
+        "heading": "Cena folii balkonowej z montażem w Katowicach",
+        "text": "Koszt ustalamy dla powierzchni, liczby tafli, materiału, przygotowania szkła i sposobu dostępu. W ofercie uwzględniamy uzgodnioną organizację dojazdu. Stara folia, trudne krawędzie lub praca wymagająca dodatkowego dostępu wpływają na zakres. Prześlij zdjęcia, rozpisane wymiary, lokalizację i piętro; na tej podstawie ustalimy informacje potrzebne do konkretnej wyceny."
+      },
+      {
+        "heading": "Jeden wygląd balkonów w budynku i pielęgnacja folii",
+        "text": "Jeśli kilka mieszkań planuje osłonięcie balkonów, warto uzgodnić ten sam odcień i zakres oklejenia. Przed zamówieniem sprawdź z administracją zasady wyglądu balustrad. Po aplikacji przekazujemy zalecenia dotyczące schnięcia, mycia i użytkowania wybranego materiału. Miękka ściereczka i zalecane środki pomagają utrzymać powierzchnię; szorowanie i ostre skrobaki mogą ją uszkodzić."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Czy można zamówić oklejanie jednego balkonu w Katowicach?",
+        "answer": "Prześlij zdjęcia, liczbę i wymiary tafli oraz lokalizację. Możliwość realizacji, koszt dojazdu i termin potwierdzamy po ocenie zakresu. Możesz też zgłosić kilka balkonów z jednego budynku do wspólnego zaplanowania."
+      },
+      {
+        "question": "Czy zdjęcia balkonów na stronie pochodzą z Katowic?",
+        "answer": "Powiązana galeria jest przypisana do obszaru Kraków i okolice. Pokazuje rodzaje balustrad i efekt przed oraz po montażu. Oferta na tej stronie dotyczy przyjmowania zapytań o podobny montaż w Katowicach i okolicach."
+      },
+      {
+        "question": "Czy folia matowa na balkon wytrzymuje deszcz i mróz?",
+        "answer": "Na balkon potrzebny jest produkt przeznaczony do określonych warunków zewnętrznych. Odporność, trwałość i warunki gwarancji potwierdzamy dla wybranego materiału. Samo określenie folia matowa nie potwierdza takich właściwości."
+      },
+      {
+        "question": "Czy folia matowa wzmacnia balustradę?",
+        "answer": "W tej usłudze folię dobieramy do prywatności i efektu wizualnego. Nie przypisujemy jej funkcji konstrukcyjnej ani klasy zabezpieczenia szkła. Uszkodzenia i stabilność balustrady trzeba ocenić niezależnie od planowanego oklejenia."
+      },
+      {
+        "question": "Czy można osłonić tylko boki balkonu?",
+        "answer": "Tak, zakres może obejmować front, jedną boczną taflę lub wybrane części szkła, jeśli materiał i warunki techniczne na to pozwalają. Ustalamy podział oraz wysokość osłony przed docinaniem folii."
+      },
+      {
+        "question": "Czy wykonujecie montaż także w Chorzowie i Sosnowcu?",
+        "answer": "Przyjmujemy zgłoszenia z Chorzowa, Sosnowca i innych miast w okolicach Katowic. Podaj adres miejscowości, zakres szkła i warunki dostępu, aby uzgodnić możliwość oraz organizację dojazdu."
+      }
+    ],
+    "localLinks": [
+      "/folie-na-balkon-krakow",
+      "/folie-matowe-katowice"
+    ],
+    "relatedProblems": [
+      "/folia-na-okno-przed-sasiadami",
+      "/folia-matowa-czy-mrozona"
+    ]
+  },
+  {
     slug: 'folie-przeciwsloneczne-krakow',
     path: '/folie-przeciwsloneczne-krakow',
     city: 'Kraków',
@@ -314,7 +522,7 @@ export const localServicePagesData = [
       '/folia-na-szybe-do-lazienki',
       '/folia-matowa-czy-mrozona',
     ],
-    localLinks: ['/folie-matowe-katowice', '/folie-lustra-weneckie-krakow', '/folie-lcd-krakow'],
+    localLinks: ['/folie-na-balkon-krakow', '/folie-matowe-katowice', '/folie-lustra-weneckie-krakow', '/folie-lcd-krakow'],
   },
   {
     slug: 'folie-matowe-katowice',
@@ -346,7 +554,7 @@ export const localServicePagesData = [
       '/folia-na-szybe-do-lazienki',
       '/folia-matowa-czy-mrozona',
     ],
-    localLinks: ['/folie-matowe-krakow', '/folie-lustra-weneckie-katowice', '/folie-lcd-katowice'],
+    localLinks: ['/folie-na-balkon-katowice', '/folie-matowe-krakow', '/folie-lustra-weneckie-katowice', '/folie-lcd-katowice'],
   },
   {
     slug: 'folie-lustra-weneckie-krakow',

@@ -129,7 +129,9 @@ const buildServiceSchema = (entity) => {
     provider: {
       '@id': `${siteUrl}/#localbusiness`,
     },
-    areaServed: buildAreaServed(city),
+    areaServed: entity.areaServed?.length
+      ? entity.areaServed.map((name) => ({ '@type': 'City', name }))
+      : buildAreaServed(city),
     url: `${siteUrl}${entity.path}`,
   };
 };

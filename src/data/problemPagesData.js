@@ -127,7 +127,7 @@ export const problemPagesData = [
       },
     ],
     recommendedFilms: ['/folie-matowe', '/folie-mrozone', '/folie-lustra-weneckie', '/folie-lcd'],
-    localLinks: [
+    localLinks: ['/folie-na-balkon-krakow', '/folie-na-balkon-katowice', 
       '/folie-matowe-krakow',
       '/folie-matowe-katowice',
       '/folie-lustra-weneckie-krakow',
@@ -446,7 +446,7 @@ export const problemPagesData = [
       },
     ],
     recommendedFilms: ['/folie-matowe', '/folie-mrozone'],
-    localLinks: ['/folie-matowe-krakow', '/folie-matowe-katowice'],
+    localLinks: ['/folie-na-balkon-krakow', '/folie-na-balkon-katowice', '/folie-matowe-krakow', '/folie-matowe-katowice'],
     faq: [
       {
         question: 'Czy folia matowa i mrożona dają prywatność wieczorem?',

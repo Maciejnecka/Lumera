@@ -14,6 +14,7 @@ import RelatedProjectsSection from '../RelatedProjectsSection';
 import {
   SeoWrap,
   SeoHero,
+  SeoHeroFigure,
   SeoEyebrow,
   SeoTitle,
   SeoLead,
@@ -101,6 +102,12 @@ const SeoLandingPage = ({ page, type, breadcrumbs }) => {
             </Link>
             {mainFilm && <Link href={mainFilm.path}>Zobacz: {mainFilm.name}</Link>}
           </SeoActions>
+          {page.heroImage && (
+            <SeoHeroFigure>
+              <img src={page.heroImage.src} width={page.heroImage.width} height={page.heroImage.height} alt={page.heroImage.alt} loading="eager" decoding="async" />
+              <figcaption>{page.heroImage.caption} <Link href={page.projectPaths[0]}>Zobacz realizację i zdjęcia</Link></figcaption>
+            </SeoHeroFigure>
+          )}
         </SeoHero>
 
         <SeoGrid>
@@ -243,7 +250,7 @@ const SeoLandingPage = ({ page, type, breadcrumbs }) => {
 
         <SeoSection>
           <h2>Jak przejść od pomysłu do wyceny?</h2>
-          {isSurfaceService ? (
+          {page.quotePreparation ? <p>{page.quotePreparation}</p> : isSurfaceService ? (
             <p>
               Najprościej wysłać zdjęcia całej powierzchni, zbliżenia krawędzi,
               narożników i miejsc intensywnie używanych, orientacyjne wymiary,

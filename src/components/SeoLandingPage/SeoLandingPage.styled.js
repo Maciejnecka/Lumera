@@ -32,6 +32,17 @@ export const SeoEyebrow = styled.span`
   text-transform: uppercase;
 `;
 
+export const SeoHeroFigure = styled.figure`
+  margin: 3rem 0 0;
+  overflow: hidden;
+  border-radius: 1.8rem;
+  background: rgba(255, 255, 255, 0.8);
+
+  img { display: block; width: 100%; height: auto; }
+  figcaption { padding: 1.4rem 1.8rem; font-size: 1.4rem; line-height: 1.7; color: var(--font-main); }
+  a { color: var(--accent-primary); text-decoration: underline; text-underline-offset: 0.2em; }
+`;
+
 export const SeoTitle = styled.h1`
   max-width: 92rem;
   margin: 0 0 1.6rem;
