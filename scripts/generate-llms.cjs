@@ -73,6 +73,7 @@ const serviceHubPagesData = evaluateDataModule('src/data/serviceHubPagesData.js'
 const projectPagesData = evaluateDataModule('src/data/projectPagesData.js', [
   'projectPagesData',
 ]).projectPagesData;
+const finderData = evaluateDataModule('src/data/filmFinderData.js', ['finderSolutions', 'finderFaq', 'finderPath', 'finderVariantFields']);
 const { architecturalWrapsData } = evaluateDataModule('src/data/architecturalWrapsData.js', [
   'architecturalWrapsData',
 ]);
@@ -153,6 +154,7 @@ const relatedLinks = (paths = []) =>
     .join('\n');
 
 const staticPages = [
+  ['Dobierz folię lub laminat', '/porownanie-folii-okiennych', 'interaktywny przewodnik, porównanie efektów i podsumowanie do wyceny'],
   ['Strona główna', '/', 'główna prezentacja firmy, zakres usług i ścieżki do problemów'],
   ['Kontakt i wycena', '/kontakt', 'formularz, telefon, e-mail i informacje potrzebne do wyceny'],
   ['Cennik', '/cennik', 'orientacyjne ceny brutto, gwarancje i czynniki wpływające na koszt'],
@@ -488,6 +490,16 @@ const buildLlmsFull = () => `# Lumera - Pełny Kontekst Dla LLM
 Wersja wygenerowana: ${generatedDate}
 Strona: ${siteUrl}
 Język główny: pl-PL
+
+## Pracownia Doboru Folii I Laminatów
+
+URL: ${absoluteUrl(finderData.finderPath)}
+
+Interaktywny przewodnik po istniejącej ofercie Lumery: cel, powierzchnia, priorytet i warunki. Osobna ścieżka dla laminatów na drzwi, meble, ramy i lady. Wynik wskazuje kierunki do rozważenia, kompromisy oraz dane potrzebne do wyceny. Nie potwierdza zgodności konkretnego materiału z podłożem. Autorskie ilustracje są poglądowe. Klient może zapisać wynik w linku albo przenieść opis potrzeb do formularza kontaktowego.
+
+${finderData.finderSolutions.map(item => `### ${item.name}\nUsługa: ${absoluteUrl(item.path)}\n${item.benefit}\nKompromis: ${item.tradeoff}\nDo potwierdzenia: ${item.check}${item.variants?.length ? `\nWarianty referencyjne: ${item.variants.map(v => `${v.name}: ${finderData.finderVariantFields.filter(([key]) => v[key] !== undefined).map(([key,label,unit]) => `${label} ${v[key]}${unit}`).join(', ')}`).join('; ')}. Dane referencyjne nie określają spadku temperatury w pomieszczeniu. Gwarancja materiału podlega warunkom producenta i nie jest gwarancją montażu.` : ''}${item.parameters?.length ? `\nParametry doboru: ${item.parameters.map(([label,value]) => `${label}: ${value}`).join('; ')}` : ''}`).join('\n\n')}
+
+${faqList(finderData.finderFaq)}
 
 ## Kim Jest Lumera
 

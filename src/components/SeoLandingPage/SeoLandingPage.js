@@ -11,6 +11,7 @@ import {
 } from '../../data/projectPagesData';
 import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
 import RelatedProjectsSection from '../RelatedProjectsSection';
+import { FinderEntry } from '../FilmFinder/FinderLinks';
 import {
   SeoWrap,
   SeoHero,
@@ -109,6 +110,8 @@ const SeoLandingPage = ({ page, type, breadcrumbs }) => {
             </SeoHeroFigure>
           )}
         </SeoHero>
+
+        <FinderEntry goal={isSurfaceService ? 'renovation' : page.filmPath === '/folie-matowe' ? 'privacy' : page.filmPath?.includes('przeciwsloneczne') ? 'heat' : ''}/>
 
         <SeoGrid>
           <SeoCard>

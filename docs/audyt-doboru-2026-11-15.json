@@ -1,0 +1,31 @@
+{
+  "auditedAt": "2026-11-15",
+  "scope": "Local production build; not a live indexation or Core Web Vitals audit",
+  "title": "Dobierz folię lub laminat — porównanie efektów | Lumera",
+  "description": "Dobierz folię do słońca, prywatności lub ochrony szkła. Porównaj efekty na wirtualnym oknie albo wybierz kierunek metamorfozy drzwi i mebli laminatem.",
+  "canonical": "https://folielumera.pl/porownanie-folii-okiennych",
+  "robots": "index, follow",
+  "h1Count": 1,
+  "h1": "Twoja przestrzeń. Twój efekt. Dobrana folia.",
+  "rawHtmlBytes": 160634,
+  "schemas": [
+    "LocalBusiness",
+    "WebSite",
+    "BreadcrumbList",
+    "CollectionPage",
+    "FAQPage"
+  ],
+  "faqSchemaQuestions": 20,
+  "librarySolutions": 21,
+  "uniqueModels": 58,
+  "allModelsInServerHtml": true,
+  "missingStaticInternalPaths": [],
+  "supplierLinks": [],
+  "sitemapEntry": true,
+  "llmContainsMatteColors": true,
+  "productionCheck": {
+    "url": "https://folielumera.pl/porownanie-folii-okiennych",
+    "status": 404,
+    "checkedAt": "2026-11-15T20:06:30.096Z"
+  }
+}

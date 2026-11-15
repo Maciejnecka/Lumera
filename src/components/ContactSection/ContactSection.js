@@ -299,12 +299,20 @@ const ContactSection = () => {
   const fileUsagePercent = Math.min(100, (totalFilesSize / MAX_TOTAL_FILE_SIZE) * 100);
 
   useEffect(() => {
-    const storedTopic = sessionStorage.getItem('lumera-contact-topic');
-    if (storedTopic && isKnownContactTopic(storedTopic)) {
-      setForm((current) => ({ ...current, topic: storedTopic }));
-    }
-
-    sessionStorage.removeItem('lumera-contact-topic');
+    const params = new URLSearchParams(window.location.search);
+    let storedTopic = params.get('temat');
+    let finderMessage = params.get('dobor');
+    try {
+      storedTopic = storedTopic || sessionStorage.getItem('lumera-contact-topic');
+      finderMessage = finderMessage || sessionStorage.getItem('lumera-contact-finder');
+      sessionStorage.removeItem('lumera-contact-topic');
+      sessionStorage.removeItem('lumera-contact-finder');
+    } catch { /* URL prefill works when browser storage is unavailable. */ }
+    setForm(current => ({
+      ...current,
+      ...(storedTopic && isKnownContactTopic(storedTopic) ? { topic: storedTopic } : {}),
+      ...(finderMessage?.startsWith('Dobór Lumera — moje potrzeby:') ? { message: finderMessage.slice(0, 6000) } : {}),
+    }));
   }, []);
 
   const updateField = (field, value) => {

@@ -1,0 +1,104 @@
+{
+  "checkedAt": "2026-11-15",
+  "products": [
+    {
+      "id": "109",
+      "name": "White Matte",
+      "url": "https://marketfolie.pl/pl/p/Folia-matowa-mleczna-White-Matte-Lite-Solar/109",
+      "facts": {
+        "Redukcja promieni UV": "99 %",
+        "Przepuszczalność światła": "72 %",
+        "Gwarancja": "10 lat",
+        "Całkowita redukcja promieni słonecznych": "28 %",
+        "Kolor": "biały mleczny",
+        "Zastosowanie": "folia wewnętrzna",
+        "Rodzaj folii": "matowa"
+      }
+    },
+    {
+      "id": "111",
+      "name": "Silver Matte",
+      "url": "https://marketfolie.pl/pl/p/Folia-okienna-matowa-Silver-Matte-Lite-Solar/111",
+      "facts": {
+        "Redukcja promieni UV": "99 %",
+        "Przepuszczalność światła": "18 %",
+        "Gwarancja": "10 lat",
+        "Całkowita redukcja promieni słonecznych": "80 %",
+        "Kolor": "srebrny",
+        "Zastosowanie": "folia wewnętrzna",
+        "Rodzaj folii": "matowa"
+      }
+    },
+    {
+      "id": "112",
+      "name": "Grey Matte",
+      "url": "https://marketfolie.pl/pl/p/Folia-okienna-matowa-Grey-Matte-Lite-Solar/112",
+      "facts": {
+        "Redukcja promieni UV": "99 %",
+        "Przepuszczalność światła": "30 %",
+        "Gwarancja": "10 lat",
+        "Całkowita redukcja promieni słonecznych": "39 %",
+        "Kolor": "szary",
+        "Zastosowanie": "folia wewnętrzna",
+        "Rodzaj folii": "matowa"
+      }
+    },
+    {
+      "id": "113",
+      "name": "Bronze Matte",
+      "url": "https://marketfolie.pl/pl/p/Folia-okienna-matowa-Bronze-Matte-Lite-Solar/113",
+      "facts": {
+        "Redukcja promieni UV": "99 %",
+        "Przepuszczalność światła": "30%",
+        "Gwarancja": "10 lat",
+        "Całkowita redukcja promieni słonecznych": "39%",
+        "Kolor": "brązowy",
+        "Zastosowanie": "folia wewnętrzna",
+        "Rodzaj folii": "matowa"
+      }
+    },
+    {
+      "id": "114",
+      "name": "Yellow Matte",
+      "url": "https://marketfolie.pl/pl/p/Folia-okienna-matowa-Yellow-Matte-Lite-Solar/114",
+      "facts": {
+        "Redukcja promieni UV": "99 %",
+        "Przepuszczalność światła": "70 %",
+        "Gwarancja": "10 lat",
+        "Całkowita redukcja promieni słonecznych": "20 %",
+        "Kolor": "żółty",
+        "Zastosowanie": "folia wewnętrzna",
+        "Rodzaj folii": "matowa"
+      }
+    },
+    {
+      "id": "115",
+      "name": "Red Matte",
+      "url": "https://marketfolie.pl/pl/p/Folia-okienna-matowa-Red-Matte-Lite-Solar/115",
+      "facts": {
+        "Redukcja promieni UV": "99 %",
+        "Przepuszczalność światła": "65 %",
+        "Gwarancja": "10 lat",
+        "Całkowita redukcja promieni słonecznych": "22 %",
+        "Kolor": "czerwony",
+        "Zastosowanie": "folia wewnętrzna",
+        "Rodzaj folii": "matowa"
+      }
+    },
+    {
+      "id": "116",
+      "name": "Green Matte",
+      "url": "https://marketfolie.pl/pl/p/Folia-okienna-matowa-Green-Matte-Lite-Solar/116",
+      "facts": {
+        "Redukcja promieni UV": "99 %",
+        "Przepuszczalność światła": "55 %",
+        "Gwarancja": "10 lat",
+        "Całkowita redukcja promieni słonecznych": "33 %",
+        "Kolor": "zielony",
+        "Zastosowanie": "folia wewnętrzna",
+        "Rodzaj folii": "matowa"
+      }
+    }
+  ],
+  "errors": []
+}

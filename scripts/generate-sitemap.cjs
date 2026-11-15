@@ -5,6 +5,7 @@ const rootDir = path.resolve(__dirname, '..');
 const siteUrl = 'https://folielumera.pl';
 
 const staticPages = [
+  { path: '/porownanie-folii-okiennych', priority: '0.95', sourceFile: 'src/data/filmFinderData.js' },
   { path: '/', priority: '1.0', sourceFile: 'pages/index.js' },
   {
     path: '/montaz-folii-okiennych-krakow',

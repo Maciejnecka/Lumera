@@ -12,6 +12,10 @@ const defaultDescription =
   'Lumera oferuje montaż folii okiennych do domów, mieszkań, biur i lokali w Krakowie i okolicach. Folie przeciwsłoneczne, matowe, ochronne, antywłamaniowe i inne rozwiązania.';
 
 const staticPages = {
+  '/porownanie-folii-okiennych': {
+    title: 'Dobierz folię lub laminat — porównanie efektów | Lumera',
+    description: 'Dobierz folię do słońca, prywatności lub ochrony szkła. Porównaj efekty na wirtualnym oknie albo wybierz kierunek metamorfozy drzwi i mebli laminatem.',
+  },
   '/': {
     title: defaultTitle,
     description: defaultDescription,

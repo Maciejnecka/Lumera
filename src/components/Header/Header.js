@@ -56,7 +56,7 @@ const Header = () => {
               Wymiary najlepiej podać od uszczelki do uszczelki.
               Podpowiemy, które rozwiązanie ma sens przed umawianiem montażu.
             </p>
-            <HeroPromiseLink href="/kontakt">Wyślij zdjęcia do oceny</HeroPromiseLink>
+            <HeroPromiseLink href="/porownanie-folii-okiennych">Zobacz efekty i dobierz rozwiązanie →</HeroPromiseLink>
           </HeroPromise>
 
           <HeroHighlights>
@@ -66,9 +66,9 @@ const Header = () => {
           </HeroHighlights>
 
           <HeroActions>
-            <PrimaryButton href="/kontakt">Poproś o wycenę</PrimaryButton>
-            <SecondaryButton href="#folie-okienne">
-              Zobacz rodzaje folii
+            <PrimaryButton href="/porownanie-folii-okiennych">Dobierz folię lub laminat</PrimaryButton>
+            <SecondaryButton href="/kontakt">
+              Poproś o wycenę
             </SecondaryButton>
           </HeroActions>
         </HeroCopy>

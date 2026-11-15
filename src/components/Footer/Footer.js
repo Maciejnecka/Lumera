@@ -116,6 +116,7 @@ const footerLinkGroups = [
   {
     title: 'Główne',
     links: [
+      { href: '/porownanie-folii-okiennych', label: 'Dobierz folię lub laminat' },
       { href: '/realizacje', label: 'Realizacje' },
       { href: '/cennik', label: 'Cennik' },
       { href: '/folie-okienne-lokalnie', label: 'Folie okienne lokalnie' },

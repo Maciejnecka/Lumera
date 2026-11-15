@@ -7,6 +7,7 @@ import LogoIcon from '../../icons/logo/LumeraLogo.svg';
 import { filmsData } from '../../data/filmsData';
 
 const navLinks = [
+  { label: 'Dobierz folię', href: '/porownanie-folii-okiennych' },
   { label: 'Cennik', href: '/cennik' },
   { label: 'O nas', id: 'o-nas' },
   { label: 'Realizacje', href: '/realizacje' },

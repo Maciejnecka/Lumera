@@ -7,6 +7,7 @@ import { architecturalWrapsData } from '../../data/architecturalWrapsData';
 import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
 import RelatedProjectsSection from '../RelatedProjectsSection';
 import SmartFilmPreview from '../SmartFilmPreview';
+import { FinderEntry } from '../FilmFinder/FinderLinks';
 import {
   DetailPageWrap,
   DetailHero,
@@ -131,6 +132,8 @@ const FilmDetailPage = ({ film, breadcrumbs }) => {
             </DetailHeroCard>
           </DetailHeroVisual>
         </DetailHero>
+
+        <FinderEntry goal={isArchitectural ? 'renovation' : ['external-solar', 'internal-solar', 'polycarbonate'].includes(film.id) ? 'heat' : ['mirror', 'matte', 'frosted', 'lcd'].includes(film.id) ? 'privacy' : ['haccp', 'anti-burglary', 'protective', 'security'].includes(film.id) ? 'safety' : film.id === 'anti-uv' ? 'uv' : film.id === 'thermal' ? 'cold' : 'special'} />
 
         <RelatedProjectsSection
           projects={relatedProjects}

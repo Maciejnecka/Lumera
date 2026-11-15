@@ -1,8 +1,238 @@
 # Lumera - Pełny Kontekst Dla LLM
 
-Wersja wygenerowana: 2026-11-12
+Wersja wygenerowana: 2026-11-15
 Strona: https://folielumera.pl
 Język główny: pl-PL
+
+## Pracownia Doboru Folii I Laminatów
+
+URL: https://folielumera.pl/porownanie-folii-okiennych
+
+Interaktywny przewodnik po istniejącej ofercie Lumery: cel, powierzchnia, priorytet i warunki. Osobna ścieżka dla laminatów na drzwi, meble, ramy i lady. Wynik wskazuje kierunki do rozważenia, kompromisy oraz dane potrzebne do wyceny. Nie potwierdza zgodności konkretnego materiału z podłożem. Autorskie ilustracje są poglądowe. Klient może zapisać wynik w linku albo przenieść opis potrzeb do formularza kontaktowego.
+
+### Jasna folia selektywna
+Usługa: https://folielumera.pl/folie-przeciwsloneczne-zewnetrzne
+Kierunek dla osób, które chcą ograniczyć zyski słoneczne i zachować jasny charakter pomieszczenia.
+Kompromis: Przy ostrym słońcu może mniej ograniczać olśnienie niż ciemniejsza folia. Dobór wymaga oceny pakietu i ekspozycji.
+Do potwierdzenia: Rodzaj szkła, położenie szyby, zacienienie i dostęp do montażu.
+Warianty referencyjne: Perfecta: Światło widzialne 73%, Redukcja energii słonecznej 58%, Redukcja UV 99%, Redukcja IR 85%, Strona montażu Zewnętrzny, Kolor / wygląd BEZBARWNY, Gwarancja materiału* 5 lat; Perfecta Duo Premium: Światło widzialne 75%, Redukcja energii słonecznej 59%, Redukcja UV 99%, Redukcja IR 95%, Strona montażu Zewnętrzny, Kolor / wygląd bezbarwna, Gwarancja materiału* 7 lat. Dane referencyjne nie określają spadku temperatury w pomieszczeniu. Gwarancja materiału podlega warunkom producenta i nie jest gwarancją montażu.
+Parametry doboru: Przeznaczenie: Pionowe szkło; zgodność z pakietem do potwierdzenia.; IR i energia słoneczna: Osobne wielkości. Nie opisują procentowego spadku temperatury pokoju.
+
+### Folia refleksyjna Silver
+Usługa: https://folielumera.pl/folie-przeciwsloneczne-zewnetrzne
+Pozwala porównać kontrolę słońca z ilością światła potrzebną do codziennego korzystania z wnętrza.
+Kompromis: Zmienia wygląd szyby. Prywatność zależy od tego, po której stronie jest jaśniej.
+Do potwierdzenia: Akceptowany wygląd elewacji oraz zgodność folii z szybą.
+Warianty referencyjne: Silver 20 Comfort: Światło widzialne 16%, Redukcja energii słonecznej 82%, Redukcja UV 99%, Strona montażu Zewnętrzny, Kolor / wygląd srebrny, Gwarancja materiału* 5 lat; Silver 40 Comfort: Światło widzialne 40%, Redukcja energii słonecznej 66%, Redukcja UV 99%, Strona montażu Zewnętrzny, Kolor / wygląd srebrny, Gwarancja materiału* 5 lat; Silver 50 Comfort: Światło widzialne 55%, Redukcja energii słonecznej 50%, Redukcja UV 99%, Strona montażu Zewnętrzny, Kolor / wygląd srebrny, Gwarancja materiału* 5 lat; Silver 20 Duo Premium: Światło widzialne 17%, Redukcja energii słonecznej 87%, Redukcja UV 99%, Strona montażu Zewnętrzny, Kolor / wygląd srebrny, Gwarancja materiału* 7 lat; Silver 40 Duo Premium: Światło widzialne 39%, Redukcja energii słonecznej 73%, Redukcja UV 99%, Strona montażu Zewnętrzny, Kolor / wygląd srebrny, Gwarancja materiału* 7 lat. Dane referencyjne nie określają spadku temperatury w pomieszczeniu. Gwarancja materiału podlega warunkom producenta i nie jest gwarancją montażu.
+Parametry doboru: Serie: Comfort: 20, 40, 50. Duo Premium: 20 i 40.; Wieczorem: Lustro zależy od różnicy oświetlenia; po zapaleniu światła osłona może zanikać.
+
+### Folie Neutral i Titan Duo Premium
+Usługa: https://folielumera.pl/folie-przeciwsloneczne-zewnetrzne
+Do rozważenia, gdy chcesz ograniczyć słońce, ale unikasz wyraźnego lustra na elewacji.
+Kompromis: Neutralny wygląd nie oznacza całkowitej niewidoczności ani takiej samej jasności każdego modelu.
+Do potwierdzenia: Próbka, parametry konkretnego wariantu i rodzaj szkła.
+Warianty referencyjne: Neutral 25: Światło widzialne 21%, Redukcja energii słonecznej 74%, Redukcja UV 99%, Strona montażu Zewnętrzny, Kolor / wygląd neutralny, Gwarancja materiału* 3 lata; Neutral 40: Światło widzialne 40%, Redukcja energii słonecznej 51%, Redukcja UV 99%, Strona montażu Zewnętrzny, Kolor / wygląd neutralny, Gwarancja materiału* 3 lata; Titan 25 Duo Premium: Światło widzialne 19%, Redukcja energii słonecznej 77%, Redukcja UV 99%, Strona montażu Zewnętrzny, Kolor / wygląd neutralno-tytanowy (antracyt), Gwarancja materiału* 7 lat; Titan 40 Duo Premium: Światło widzialne 36%, Redukcja energii słonecznej 65%, Redukcja UV 99%, Strona montażu Zewnętrzny, Kolor / wygląd neutralno-tytanowy (antracyt), Gwarancja materiału* 7 lat. Dane referencyjne nie określają spadku temperatury w pomieszczeniu. Gwarancja materiału podlega warunkom producenta i nie jest gwarancją montażu.
+Parametry doboru: Neutralny wygląd: Nie oznacza bezbarwności; warianty mają różną jasność.; Neutral a Titan Duo Premium: To osobne serie. Titan ma antracytowy odcień i delikatne odbicie; porównaj światło, redukcję energii słonecznej i warunki gwarancji konkretnego wariantu.
+
+### Folie przeciwsłoneczne wewnętrzne
+Usługa: https://folielumera.pl/folie-przeciwsloneczne-wewnetrzne
+Do ograniczania słońca przy montażu od środka: jasne Invisible, srebrne R20/R30/R50 Silver, Solar Glass i warianty kolorowe.
+Kompromis: Sam brak dostępu z zewnątrz nie potwierdza możliwości montażu od środka. Szczególnie ważna jest ocena pakietu i powłok.
+Do potwierdzenia: Dokumentacja szyby i dopuszczenie konkretnej folii.
+Warianty referencyjne: Invisible Comfort: Światło widzialne 70%, Redukcja energii słonecznej 47%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd bezbarwny, Gwarancja materiału* 10 lat; Invisible Premium: Światło widzialne 65%, Redukcja energii słonecznej 57%, Redukcja UV 99%, Redukcja IR 99%, Strona montażu Wewnętrzny, Kolor / wygląd bezbarwny, Gwarancja materiału* 10 lat; R20 Silver: Światło widzialne 17.5%, Redukcja energii słonecznej 76%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd srebrny, Gwarancja materiału* 10 lat; R30 Silver: Światło widzialne 30%, Redukcja energii słonecznej 68%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd srebrny, Gwarancja materiału* 10 lat; R50 Silver: Światło widzialne 50%, Redukcja energii słonecznej 58%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd srebrny, Gwarancja materiału* 10 lat; Solar Glass: Światło widzialne 41%, Redukcja energii słonecznej 66%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd odcień błękitu, Gwarancja materiału* 10 lat; Gold Silver: Światło widzialne 15%, Redukcja energii słonecznej 83%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd złoty, Gwarancja materiału* 5 lat; Blue Silver: Światło widzialne 12%, Redukcja energii słonecznej 86%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd niebieski, Gwarancja materiału* 5 lat; Green Silver: Światło widzialne 15%, Redukcja energii słonecznej 85%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd zielony, Gwarancja materiału* 5 lat; Bronze Silver: Światło widzialne 12%, Redukcja energii słonecznej 76%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd brązowy, Gwarancja materiału* 5 lat. Dane referencyjne nie określają spadku temperatury w pomieszczeniu. Gwarancja materiału podlega warunkom producenta i nie jest gwarancją montażu.
+Parametry doboru: Jasne Invisible: Porównaj przepuszczalność światła, redukcję całej energii słonecznej oraz IR. Te wielkości nie opisują tego samego.; Srebrne R20/R30/R50: Różnią się przyciemnieniem i redukcją energii słonecznej. Refleksyjny wygląd ocenimy na próbce.; Kolorowe Silver: Złoty, niebieski, zielony i brązowy wariant wpływają również na barwę szyby i światła.; Solar Glass: Wariant o odcieniu błękitu. Dostępność i termin wymagają potwierdzenia przy wycenie.; Zgodność z szybą: Każdy wariant wymaga oceny pakietu, powłok i ekspozycji. Brak dostępu z zewnątrz nie potwierdza zgodności.
+
+### Lustra weneckie Mirror
+Usługa: https://folielumera.pl/folie-lustra-weneckie
+Seria Mirror do ograniczania wglądu od jaśniejszej strony: osobne wersje wewnętrzne R30/R20/R10 i zewnętrzne 40/20/10.
+Kompromis: Po zmroku, przy oświetlonym wnętrzu, nie zapewnia tej samej osłony. Nie jest rozwiązaniem do stałej prywatności.
+Do potwierdzenia: Strona montażu, zgodność z szybą, różnica oświetlenia i akceptowany stopień przyciemnienia.
+Warianty referencyjne: Mirror 40 zewnętrzna: Intensywność efektu lustra Umiarkowany, Światło widzialne 40%, Redukcja energii słonecznej 66%, Redukcja UV 99%, Strona montażu Zewnętrzny, Kolor / wygląd srebrny, Gwarancja materiału* 5 lat; Mirror 20 zewnętrzna: Intensywność efektu lustra Intensywny, Światło widzialne 16%, Redukcja energii słonecznej 82%, Redukcja UV 99%, Strona montażu Zewnętrzny, Kolor / wygląd srebrny, Gwarancja materiału* 5 lat; Mirror 10 zewnętrzna: Intensywność efektu lustra Najmocniejszy (TOTALNE), Światło widzialne 10%, Redukcja energii słonecznej 86%, Redukcja UV 99%, Strona montażu Zewnętrzny, Kolor / wygląd srebrno / szary, Gwarancja materiału* 5 lat; R30 Mirror wewnętrzna: Intensywność efektu lustra Umiarkowany, Światło widzialne 30%, Redukcja energii słonecznej 68%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd srebrny, Gwarancja materiału* 10 lat; R20 Mirror wewnętrzna: Intensywność efektu lustra Intensywny, Światło widzialne 17.5%, Redukcja energii słonecznej 76%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd srebrny, Gwarancja materiału* 10 lat; R10 Mirror wewnętrzna: Intensywność efektu lustra Najmocniejszy (TOTALNE), Światło widzialne 6%, Redukcja energii słonecznej 80%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd srebrno / szary, Gwarancja materiału* 5 lat. Dane referencyjne nie określają spadku temperatury w pomieszczeniu. Gwarancja materiału podlega warunkom producenta i nie jest gwarancją montażu.
+Parametry doboru: Dobór serii: W tej kategorii porównujemy warianty Mirror. Zewnętrzne Silver Comfort i Duo Premium pozostają w kategorii przeciwsłonecznej.; Siła efektu: Umiarkowany, intensywny i najmocniejszy wariant mają różne wartości przepuszczalności światła. Oznaczenie TOTALNE nie oznacza stałej prywatności w nocy.; Warunek prywatności: Po stronie obserwatora musi być jaśniej niż po stronie osłanianej. Efekt może się odwrócić po zapaleniu światła w pomieszczeniu.; Wewnątrz i na zewnątrz: Stronę montażu dobieramy do konkretnej wersji folii, szkła i dostępu; nie przekładamy produktu na drugą stronę szyby.
+
+### Folie matowe — mleczne i kolorowe
+Usługa: https://folielumera.pl/folie-matowe
+Osłona widoku w wersji mlecznej lub kolorowej. Porównaj barwę, przepuszczalność światła i zakres oklejenia.
+Kompromis: Tracisz wyraźny widok przez oklejoną część. Przy mocnym podświetleniu i bliskich przedmiotach mogą być widoczne zarysy.
+Do potwierdzenia: Próbka koloru, rodzaj szkła, zakres osłony i zgodność konkretnego wariantu z podłożem.
+Warianty referencyjne: White Matte: Światło widzialne 72%, Redukcja energii słonecznej 28%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd biały mleczny, Gwarancja materiału* 10 lat; Silver Matte: Ograniczenia montażu Nie stosować na pakietach trzyszybowych. Dla szyb zespolonych powyżej 2 m² lub U poniżej 1,4 W/m²K karta przewiduje ograniczenia i wyjątki dla szkła hartowanego — wymagane sprawdzenie dokumentacji., Światło widzialne 18%, Redukcja energii słonecznej 80%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd srebrny, Gwarancja materiału* 10 lat; Grey Matte: Światło widzialne 30%, Redukcja energii słonecznej 39%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd szary, Gwarancja materiału* 10 lat; Bronze Matte: Światło widzialne 30%, Redukcja energii słonecznej 39%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd brązowy, Gwarancja materiału* 10 lat; Yellow Matte: Światło widzialne 70%, Redukcja energii słonecznej 20%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd żółty, Gwarancja materiału* 10 lat; Red Matte: Światło widzialne 65%, Redukcja energii słonecznej 22%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd czerwony, Gwarancja materiału* 10 lat; Green Matte: Światło widzialne 55%, Redukcja energii słonecznej 33%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd zielony, Gwarancja materiału* 10 lat. Dane referencyjne nie określają spadku temperatury w pomieszczeniu. Gwarancja materiału podlega warunkom producenta i nie jest gwarancją montażu.
+Parametry doboru: Zakres osłony: Pełna tafla lub pas ustalony według linii wzroku.; Kontury: Zależą od odległości od szyby i podświetlenia.; Kolory i jasność: Warianty nie różnią się wyłącznie kolorem. Sprawdź przepuszczalność światła i parametry wybranego modelu.; Silver Matte: Łączy stronę matową i lustrzaną. Strony, odcień i odbicie potwierdzamy na próbce.; Montaż: Wymienione warianty tej serii są wewnętrzne. Nie przenosimy ich automatycznie na balustradę zewnętrzną; do niej służy osobna ścieżka.
+
+### Folia mrożona lub dekoracyjna
+Usługa: https://folielumera.pl/folie-mrozone
+Łączy osłonę widoku z wykończeniem dopasowanym do wnętrza i podziałów szkła.
+Kompromis: Pasy i nieoklejone fragmenty mogą pozostawiać widoczność. Nazwy matowa i mrożona częściowo się pokrywają — porównujemy próbki.
+Do potwierdzenia: Wzór, jego skala oraz faktyczne krycie wybranego materiału.
+Warianty referencyjne: Folia mrożona do plotera i druku: Światło widzialne 88%, Strona montażu Wewnętrzny / zewnętrzny, Kolor / wygląd MROŻONE SZKŁO, Grubość 80 µm; Folia szroniona kanalikowa: Światło widzialne 76%, Strona montażu Wewnętrzny / zewnętrzny, Kolor / wygląd biały, Grubość 80 µm. Dane referencyjne nie określają spadku temperatury w pomieszczeniu. Gwarancja materiału podlega warunkom producenta i nie jest gwarancją montażu.
+Parametry doboru: Dekor i klej: Wzór, kierunek i klej dobieramy do sposobu aplikacji.; Krycie: Przepuszczalność światła nie określa widoczności przez wzór.
+
+### Folia LCD / PDLC
+Usługa: https://folielumera.pl/folie-lcd
+Pozwala zmieniać charakter przegrody, np. między otwartym widokiem a osłoną sali spotkań.
+Kompromis: Wymaga zasilania, sterowania i przygotowania krawędzi. W trybie przejrzystym może pozostawać zamglenie zależne od produktu i kąta.
+Do potwierdzenia: Warunki wewnętrzne, wymiary, prowadzenie przewodów i sterowanie.
+Warianty referencyjne: LCD z klejem: Światło widzialne 81%, Strona montażu Wewnętrzny, Kolor / wygląd Biały mat bez zasilania; tryb przejrzysty po włączeniu, Grubość 0,5 mm, Światło w trybie matowym 52%, Pobór mocy 3,5 W/m², Napięcie folii 48 V, Zasilanie układu 230V, Czas włączania 10 ms, Czas wyłączania 200 ms, Temperatura użytkowania od 0 °C do +55 °C, Szerokość materiału 1,20 m, 1,50 m. Dane referencyjne nie określają spadku temperatury w pomieszczeniu. Gwarancja materiału podlega warunkom producenta i nie jest gwarancją montażu.
+Parametry doboru: Instalacja: Układ zasilania, transformator, sterowanie i zabezpieczenie krawędzi dobierane do projektu.; Przejrzystość: Tryb przejrzysty może mieć zamglenie zależne od kąta; nie jest równoważny zwykłemu szkłu.
+
+### Matowa osłona balustrady
+Usługa: https://folielumera.pl/folie-matowe
+Osłania dolną część balkonu przy zachowaniu istniejącej szklanej konstrukcji.
+Kompromis: Nie osłania widoku ponad poręczą i nie jest pełną zabudową balkonu. Nie służy do chłodzenia mieszkania.
+Do potwierdzenia: Materiał do warunków zewnętrznych, mocowania oraz zasady wyglądu budynku.
+Warianty referencyjne: Folia na szyby balkonowe: Światło widzialne 70%, Redukcja UV 99%, Strona montażu Wewnętrzny / zewnętrzny, Kolor / wygląd matowa, Grubość 75 µm. Dane referencyjne nie określają spadku temperatury w pomieszczeniu. Gwarancja materiału podlega warunkom producenta i nie jest gwarancją montażu.
+Parametry doboru: Osłona: Dotyczy wysokości oklejonej balustrady, nie przestrzeni ponad poręczą.
+
+### Folia na poliwęglan
+Usługa: https://folielumera.pl/folie-na-poliweglan
+Kierunek do ograniczania zysków słonecznych przez świetliki z odpowiedniego tworzywa.
+Kompromis: Zwykła folia do szkła nie jest automatycznie zgodna z poliwęglanem.
+Do potwierdzenia: Dokładny rodzaj tworzywa, jego stan, konstrukcja i produkt dopuszczony do podłoża.
+Warianty referencyjne: Polycarbon Silver: Światło widzialne 16%, Redukcja energii słonecznej 80%, Redukcja UV 99%, Strona montażu Zewnętrzny, Kolor / wygląd srebrny, Gwarancja materiału* 3 lata; Polycarbon White: Światło widzialne 17%, Redukcja energii słonecznej 75%, Redukcja UV 99%, Strona montażu Zewnętrzny, Kolor / wygląd biała - matowa, Gwarancja materiału* 3 lata. Dane referencyjne nie określają spadku temperatury w pomieszczeniu. Gwarancja materiału podlega warunkom producenta i nie jest gwarancją montażu.
+Parametry doboru: Montaż: Od zewnętrznej strony świetlika.; Podłoże: Weryfikujemy typ tworzywa, jego stan, wydzielanie gazów i dopuszczenie materiału.; Wariant biały i srebrny: Biały rozprasza obraz; srebrny daje odbicie. Wszystkie pokazane warianty wyraźnie ograniczają światło.
+
+### Folia anty UV
+Usługa: https://folielumera.pl/folie-anty-uv
+Do rozważenia przy ochronie ekspozycji, tkanin i wyposażenia przed częścią czynników blaknięcia.
+Kompromis: UV to tylko jeden z czynników blaknięcia. Sam filtr UV nie oznacza skutecznego ograniczenia nagrzewania.
+Do potwierdzenia: Wymagany zakres ochrony, wrażliwość ekspozycji i parametry wybranego modelu.
+Warianty referencyjne: Anty UV Clear: Światło widzialne 84%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd bezbarwna, Gwarancja materiału* 10 lat; Anty UV Clear Premium: Światło widzialne 83%, Redukcja UV 99.5%, Strona montażu Wewnętrzny, Kolor / wygląd bezbarwna, Gwarancja materiału* 10 lat; Anty UV Total: Światło widzialne 71%, Redukcja UV 99.9%, Strona montażu Wewnętrzny, Kolor / wygląd przezroczysta - odcień zieleni, Gwarancja materiału* 10 lat; Anty UV Amber: Światło widzialne 57%, Redukcja UV 99.5%, Strona montażu Wewnętrzny, Kolor / wygląd bursztynowy, Gwarancja materiału* 10 lat. Dane referencyjne nie określają spadku temperatury w pomieszczeniu. Gwarancja materiału podlega warunkom producenta i nie jest gwarancją montażu.
+Parametry doboru: Blaknięcie: UV jest jednym z czynników; liczą się także światło widzialne i temperatura.
+
+### Folia zabezpieczająca szkło
+Usługa: https://folielumera.pl/folie-zabezpieczajace
+Dobór pod ograniczenie rozsypywania odłamków i skutków uszkodzenia przeszklenia.
+Kompromis: Ochronę ocenia się dla układu szkło–folia–mocowanie. Sama grubość nie potwierdza klasy ani odporności.
+Do potwierdzenia: Rodzaj szkła, funkcja przegrody i dokumentacja badanego rozwiązania.
+Warianty referencyjne: Secur Out 3B3: Światło widzialne 92%, Redukcja energii słonecznej 15%, Redukcja UV 99%, Strona montażu Zewnętrzny, Kolor / wygląd bezbarwny, Grubość 120 µm, Klasa deklarowana 3B3, Gwarancja materiału* 3 lata; HACCP 3B3: Światło widzialne 92%, Redukcja energii słonecznej 15%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd bezbarwna, Grubość 120 µm, Klasa deklarowana 3B3, Gwarancja materiału* 10 lat. Dane referencyjne nie określają spadku temperatury w pomieszczeniu. Gwarancja materiału podlega warunkom producenta i nie jest gwarancją montażu.
+Parametry doboru: Klasa materiału: Deklaracja z karty; skuteczność zależy od przebadanego układu szkło–folia–mocowanie.
+
+### Folia bezpieczna do stref HACCP
+Usługa: https://folielumera.pl/folie-bezpieczne-haccp
+Rozwiązanie do oceny tam, gdzie ważne jest ograniczenie zanieczyszczenia otoczenia odłamkami szkła.
+Kompromis: Wymagania obiektu trzeba uzgodnić z jego procedurami. Nazwa kategorii nie zastępuje dokumentacji.
+Do potwierdzenia: Wymagania strefy, przeszklenie i dokumentacja materiału oraz montażu.
+Warianty referencyjne: HACCP 3B3: Światło widzialne 92%, Redukcja energii słonecznej 15%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd bezbarwna, Grubość 120 µm, Klasa deklarowana 3B3, Gwarancja materiału* 10 lat; HACCP Matte 3B3: Światło widzialne 71%, Redukcja energii słonecznej 28%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd biała - matowa, Grubość 120 µm, Klasa deklarowana 3B3, Gwarancja materiału* 10 lat; HACCP 2B2: Światło widzialne 90%, Redukcja energii słonecznej 16%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd bezbarwna, Klasa deklarowana 2B2, Gwarancja materiału* 10 lat. Dane referencyjne nie określają spadku temperatury w pomieszczeniu. Gwarancja materiału podlega warunkom producenta i nie jest gwarancją montażu.
+Parametry doboru: Strefa HACCP: Dobór według procedur obiektu i dokumentacji rozwiązania. Nie wywodzimy zgodności z samej nazwy folii.
+
+### Folia antywłamaniowa
+Usługa: https://folielumera.pl/folie-antywlamaniowe
+Dobór pod utrudnienie szybkiego wykonania otworu w przeszkleniu.
+Kompromis: Nie gwarantuje ochrony przed włamaniem. Liczą się szkło, rama, sposób mocowania i dokumentacja całego rozwiązania.
+Do potwierdzenia: Cel zabezpieczenia, rama, krawędzie, szkło i ewentualne mocowanie obwodowe.
+Warianty referencyjne: P1 wewnętrzna: Światło widzialne 89%, Redukcja energii słonecznej 17%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd bezbarwna, Grubość 240 µm, Klasa deklarowana P1, Gwarancja materiału* 10 lat; P2 wewnętrzna: Światło widzialne 83%, Redukcja energii słonecznej 20%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd bezbarwny, Grubość 350 µm, Klasa deklarowana P2, Gwarancja materiału* 10 lat; P1 zewnętrzna: Światło widzialne 89%, Redukcja energii słonecznej 17%, Redukcja UV 99%, Strona montażu Zewnętrzny, Kolor / wygląd bezbarwna, Grubość 240 µm, Klasa deklarowana P1, Gwarancja materiału* 5 lat. Dane referencyjne nie określają spadku temperatury w pomieszczeniu. Gwarancja materiału podlega warunkom producenta i nie jest gwarancją montażu.
+Parametry doboru: Klasa P1/P2: Oznaczenie materiału w karcie nie potwierdza automatycznie klasy dowolnego okna.; Mocowanie: Sprawdzamy krawędzie, ramę oraz ewentualne mocowanie obwodowe.
+
+### Folia ochronna powierzchni
+Usługa: https://folielumera.pl/folie-ochronne
+Do ochrony powierzchni przed zabrudzeniami i wybranymi uszkodzeniami podczas prac lub użytkowania.
+Kompromis: Warianty czasowe i długoterminowe mają różne wymagania oraz terminy usunięcia.
+Do potwierdzenia: Podłoże, czas zabezpieczenia i warunki późniejszego demontażu.
+Warianty referencyjne: Clear Protect 3 mies.: Strona montażu Wewnętrzny / zewnętrzny, Kolor / wygląd bezbarwna, Grubość 50 µm, Czas ekspozycji 3 miesiące — odporność na UV według karty; termin demontażu do potwierdzenia; Ochronna przeciw zarysowaniom: Światło widzialne 92%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd bezbarwna, Grubość 120 µm. Dane referencyjne nie określają spadku temperatury w pomieszczeniu. Gwarancja materiału podlega warunkom producenta i nie jest gwarancją montażu.
+Parametry doboru: Czasowe i stałe: Folia do prac budowlanych i folia przeciw zarysowaniom mają różne przeznaczenie i terminy demontażu.
+
+### Folia termoizolacyjna
+Usługa: https://folielumera.pl/folie-termoizolacyjne
+Możliwy kierunek poprawy komfortu przy szybie po ocenie istniejącego przeszklenia.
+Kompromis: Nie uszczelni okna i nie usunie przeciągu. Sens zastosowania zależy od parametrów obecnego pakietu.
+Do potwierdzenia: Dane okna, źródło dyskomfortu, szczelność i oczekiwany efekt.
+Warianty referencyjne: Eco-Termic: Światło widzialne 45%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd błękitno-złoty, Gwarancja materiału* 10 lat. Dane referencyjne nie określają spadku temperatury w pomieszczeniu. Gwarancja materiału podlega warunkom producenta i nie jest gwarancją montażu.
+Parametry doboru: Izolacyjność: Korzyść zależy od istniejącej szyby. Współczynnik U całego przeszklenia i emisyjność wymagają dokumentacji konkretnego układu.
+
+### Folia projekcyjna
+Usługa: https://folielumera.pl/folie-projekcyjne
+Pozwala przygotować powierzchnię do wyświetlania obrazu na szkle lub przegrodzie.
+Kompromis: Ważne są kierunek projekcji, oświetlenie otoczenia, projektor i oczekiwany kontrast.
+Do potwierdzenia: Położenie projektora, warunki światła i wielkość obrazu.
+Warianty referencyjne: Projekcyjna Grey: Światło widzialne 40%, Strona montażu Wewnętrzny, Kolor / wygląd szara, Grubość 0,1 mm, Gwarancja materiału* 5 lat, Gain 3, Kontrast 400:1, Kąt widzenia 180 ⁰, Kąt projekcji 120 ⁰, Kierunek projekcji Tylna; Projekcyjna Trans: Światło widzialne 88%, Strona montażu Wewnętrzny, Kolor / wygląd bezbarwna, Grubość 0,1 mm, Gwarancja materiału* 5 lat, Gain 1, Kontrast 100:1, Kąt widzenia 150 ⁰, Kąt projekcji 120 ⁰, Kierunek projekcji Tylna; Projekcyjna Dual: Światło widzialne 80%, Strona montażu Wewnętrzny, Kolor / wygląd biała - matowa, Grubość 0,13 mm, Gwarancja materiału* 5 lat, Gain 5, Kontrast 200:1, Kąt widzenia 180 ⁰, Kąt projekcji 120 ⁰, Kierunek projekcji Dwustronna; Projekcyjna V-White: Strona montażu Wewnętrzny, Kolor / wygląd biała matowa, Grubość 0,1 mm, Gwarancja materiału* 5 lat, Gain 4, Kontrast 200:1, Kąt widzenia 180 ⁰, Kąt projekcji 120 ⁰, Kierunek projekcji Przednia. Dane referencyjne nie określają spadku temperatury w pomieszczeniu. Gwarancja materiału podlega warunkom producenta i nie jest gwarancją montażu.
+Parametry doboru: Dane obrazu: Gain, kontrast i kąty odnoszą się do warunków karty; rzeczywisty efekt zależy od projektora i oświetlenia.
+
+### Folia ekranująca
+Usługa: https://folielumera.pl/folie-anty-podsluchowe
+Dobór do uzgodnionych wymagań ekranowania przeszkleń.
+Kompromis: Nie ma jednej uniwersalnej wartości ochrony. Potrzebny jest zakres częstotliwości, wymagane tłumienie i dokumentacja.
+Do potwierdzenia: Cel, parametry techniczne, pozostałe przegrody i sposób montażu.
+Parametry doboru: Zakres częstotliwości: Do ustalenia według celu ekranowania i dokumentacji konkretnego modelu.; Tłumienie w dB: Wymaga charakterystyki w funkcji częstotliwości; brak jednej wartości dla całej kategorii.; Montaż i ciągłość osłony: Weryfikacja krawędzi, pozostałych przegród i sposobu połączenia z układem ekranowania.
+
+### Rozwiązanie antykolizyjne
+Usługa: https://folielumera.pl/folie-antykolizyjne
+Oznaczenia mają pomóc ptakom rozpoznawać barierę szklaną.
+Kompromis: Znaczenie mają rozmieszczenie, kontrast, strona montażu i otoczenie przeszklenia.
+Do potwierdzenia: Powierzchnia szkła, odbicia, otoczenie i układ oznaczeń.
+Parametry doboru: Oznaczenia: Dobór kontrastu, wielkości i układu oznaczeń do przeszklenia.; Rozstaw i strona aplikacji: Do potwierdzenia dla systemu i odbić na danym szkle.; Ocena otoczenia: Uwzględniamy odbicia roślinności, sąsiednie przeszklenia i ekspozycję.
+
+### Demontaż starej folii
+Usługa: https://folielumera.pl/demontaz-folii-okiennych
+Przygotowanie przeszklenia do dalszego użytkowania lub nowej folii.
+Kompromis: Metoda i nakład pracy zależą od stanu materiału, kleju oraz podłoża.
+Do potwierdzenia: Zdjęcia całości, odklejonych krawędzi i pozostałości kleju.
+Parametry doboru: Stara warstwa: Ustalamy rodzaj folii, kleju, wiek i stan aplikacji.; Podłoże: Oceniamy szkło lub tworzywo, powłoki i stan krawędzi.; Metoda i nakład pracy: Dobierane po oględzinach; brak uniwersalnego czasu dla całej kategorii.
+
+### Okleina lub laminat architektoniczny
+Usługa: https://folielumera.pl/okleiny-i-laminaty-architektoniczne
+Zmienia wygląd istniejących drzwi, mebli, ram i zabudów przy zachowaniu ich sprawnej konstrukcji.
+Kompromis: Nie naprawia niestabilnego podłoża. Ubytki, łuszczenie, wilgoć i frezy wymagają osobnej oceny.
+Do potwierdzenia: Podłoże, detale, eksploatacja i rzeczywista próbka dekoru.
+Parametry doboru: Materiał i podłoże: Sprawdzamy stabilność powierzchni, powłokę, frezy i narożniki.; Strona użytkowania: Materiał do wnętrz i materiał do ekspozycji zewnętrznej wymagają osobnego doboru.; Eksploatacja: Odporność na ścieranie, środki czyszczące, wodę i temperaturę potwierdzamy dla konkretnego dekoru.; Dokumentacja: Klasa reakcji na ogień i inne wymagania obiektu sprawdzane dla wybranego produktu.
+
+#### Nie znam się na foliach. Od czego zacząć?
+Zacznij od problemu, nie od nazwy produktu: za gorąco, za mało prywatności, ostre światło czy zmiana wyglądu mebli. W doborze wybierzesz cel i powierzchnię, a potem porównasz pasujące rozwiązania. Jeśli Twojej sytuacji nie ma na liście, wybierz „Inne” i opisz ją własnymi słowami.
+
+#### Nie wiem, jaką mam szybę. Czy mogę przejść dobór?
+Tak. Przy pytaniu o rodzaj szyby możesz zaznaczyć „Nie wiem”. Nie musisz rozpoznawać szkła samodzielnie. Do potwierdzenia materiału przydadzą się zdjęcia oznaczeń na szybie lub ramce między taflami i dokumentacja okna, jeśli ją masz.
+
+#### Czy na moim oknie folia będzie wyglądała tak jak w podglądzie?
+Podgląd pokazuje charakter efektu i pomaga porównać kierunki wyboru. Jest autorską ilustracją, nie zdjęciem produktu ani dokładną symulacją Twojego okna. Odcień, odbicie i przejrzystość oceniamy na próbce w rzeczywistym oświetleniu.
+
+#### Mam wynik. Jak przejść do konkretnej folii i wyceny?
+Kliknij „Przejdź do wyceny”, aby przenieść odpowiedzi i wybrane warianty do formularza. Dodaj zdjęcia, wymiary tafli, liczbę sztuk i miejscowość. Możesz też zapisać wynik w linku i wrócić do niego później. Przed montażem potwierdzamy materiał, podłoże i zakres prac.
+
+#### Chcę mniej gorąca, ale nie chcę ciemnego pokoju. Co porównać?
+Porównaj obok siebie przepuszczalność światła i redukcję energii słonecznej. Jasne folie selektywne, np. Perfecta, są jednym z kierunków do rozważenia. Ciemniejsze warianty mogą mocniej osłaniać przed słońcem, lecz ograniczają też światło. Ostateczny wybór zależy od szyby, ekspozycji i jasności wnętrza.
+
+#### O ile stopni zrobi się chłodniej po montażu?
+Nie da się tego rzetelnie ustalić na podstawie samego procentu w karcie folii. Na temperaturę wpływają m.in. przeszklenie, nasłonecznienie, wentylacja i pozostałe źródła ciepła. Redukcja energii słonecznej pomaga porównywać materiały, ale nie jest obietnicą konkretnego spadku temperatury pokoju.
+
+#### Czy „20”, „25” lub „40” w nazwie to procent przepuszczanego światła?
+Nie zakładaj tego. To oznaczenia wariantów, a rzeczywistą przepuszczalność znajdziesz w parametrach wybranego modelu. Na przykład Titan 40 Duo Premium ma referencyjną przepuszczalność światła 36%. Dlatego porównuj dane konkretnej folii, nie sam numer w nazwie.
+
+#### Czy 99% ochrony UV oznacza też mocną ochronę przed upałem?
+Nie. UV, podczerwień i całkowita energia słoneczna to różne parametry. Folia o wysokiej redukcji UV może pozostawać jasna i służyć przede wszystkim ochronie wyposażenia przed częścią czynników blaknięcia. Przy problemie z nagrzewaniem porównuj redukcję energii słonecznej; sam wynik UV lub IR nie wystarczy.
+
+#### Czy lustro weneckie osłoni mnie również wieczorem?
+Nie zapewnia stałej osłony niezależnej od oświetlenia. Lustro działa od jaśniejszej strony. Gdy wieczorem zapalisz światło i wewnątrz będzie jaśniej niż na zewnątrz, wgląd do pokoju może wrócić. Jeśli to kluczowy problem, porównaj mat lub przełączaną osłonę LCD.
+
+#### Chcę widzieć na zewnątrz i jednocześnie zasłonić wnętrze. Czy to możliwe?
+W dzień efekt lustrzany może ograniczać wgląd i zachowywać widok na zewnątrz, jeśli warunki oświetlenia są odpowiednie. Nie daje jednak takiej samej prywatności przez całą dobę. Mat osłania obraz przez szkło po obu stronach, więc ograniczy również Twój widok.
+
+#### Czy przez matową folię widać sylwetki?
+Mogą być widoczne kontury, szczególnie blisko szyby i przy mocnym podświetleniu. Mat rozprasza obraz, ale nie jest nieprzezroczystą ścianą. Wysokość osłony i materiał dobieramy do miejsca obserwacji — inaczej na balustradzie balkonu, a inaczej na przegrodzie we wnętrzu.
+
+#### Jak działa folia LCD i czy potrzebuje prądu?
+Folia LCD / PDLC przełącza się między stanem rozpraszającym obraz a bardziej przejrzystym. W prezentowanym wariancie stan przejrzysty wymaga zasilania, a po jego wyłączeniu folia matowieje. Potrzebne są przewody i układ zasilający. Nawet w trybie przejrzystym może pozostawać zamglenie zależne od kąta patrzenia.
+
+#### Czy każdą folię można przykleić do każdej szyby?
+Nie. Przed wyborem sprawdzamy rodzaj szkła, pakiet szybowy, powłoki, stan tafli, zacienienie i położenie okna. Sama nazwa „przeciwsłoneczna” nie potwierdza zgodności. Szczególnej oceny wymagają również szyby dachowe i nietypowe przeszklenia.
+
+#### Nie ma dostępu od zewnątrz. Czy można zamontować folię od środka?
+Czasem tak, ale wymaga to doboru folii wewnętrznej zgodnej z konkretną szybą. Nie przenosimy produktu zewnętrznego na drugą stronę tylko dlatego, że łatwiej tam dotrzeć. W wycenie uwzględniamy dostęp i sposób montażu, a w razie potrzeby proponujemy inne rozwiązanie.
+
+#### Mam świetlik z poliwęglanu. Czy pasuje do niego zwykła folia okienna?
+Nie należy tego zakładać. Poliwęglan wymaga materiału dopuszczonego do tego tworzywa oraz oceny jego rodzaju i stanu. W tej ścieżce doboru porównasz Polycarbon Silver i Polycarbon White, z montażem od zewnątrz. Dostęp do świetlika i możliwość wykonania prac potwierdzamy przy wycenie.
+
+#### Jakie zdjęcia i wymiary przygotować do wyceny?
+Przygotuj zdjęcie całego przeszklenia, zbliżenie krawędzi i oznaczeń oraz szerokość i wysokość każdej tafli. Podaj liczbę sztuk, miejscowość, piętro i dostęp od zewnątrz. Zaznacz też starą folię lub uszkodzenia. Wstępne dane pomagają wycenić zakres; ostateczny pomiar i warunki montażu ustalamy przed realizacją.
+
+#### Czym folia na szybę różni się od okleiny architektonicznej?
+Folia okienna zmienia właściwości lub wygląd przeszklenia. Okleina architektoniczna zmienia wykończenie istniejących drzwi, mebli, recepcji lub ram. W tej ścieżce wybierasz powierzchnię i dekor, a przy drzwiach oraz ramach również stronę zastosowania: wewnętrzną lub zewnętrzną.
+
+#### Czy okleina zakryje zniszczone fronty lub nierówności?
+Może zmienić wygląd sprawnej powierzchni, ale nie naprawi luźnych warstw ani uszkodzonej konstrukcji. Nierówności mogą pozostać widoczne pod materiałem. Najpierw oceniamy stabilność podłoża, istniejącą powłokę, krawędzie i potrzebne przygotowanie, a dopiero potem dobieramy okleinę.
+
+#### Czy każdy dekor nadaje się na zewnętrzną stronę drzwi lub ram?
+Nie. Materiał trzeba dobrać do zastosowania na zewnątrz, ekspozycji i podłoża. Dekor odpowiedni do mebli w pokoju nie musi być odpowiedni na nasłonecznione drzwi wejściowe. Zaznacz stronę oklejenia w doborze, a dostępne serie i ich warunki użytkowania potwierdzimy przy wycenie.
+
+#### Czy mogę wybrać ostateczny kolor okleiny na ekranie?
+Podgląd pomaga wybrać kierunek: drewno, kamień, metal lub jednolity kolor. Nie zastępuje fizycznego próbnika konkretnej serii. Ostatecznie porównujemy próbkę przy Twojej powierzchni i w jej oświetleniu, zwracając uwagę również na fakturę, połysk i sposób wykończenia krawędzi.
 
 ## Kim Jest Lumera
 
