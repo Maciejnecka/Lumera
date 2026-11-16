@@ -1,5 +1,6 @@
 import React, { useId } from 'react';
 import { wrapDecors, wrapSurfaces } from '../../data/filmFinderData';
+import styles from './DecorScene.module.css';
 
 // Original SVG scenes and textures: style directions, never supplier swatches.
 export default function DecorScene({ surface = '', decor = 'oak', side = '' }) {
@@ -9,6 +10,7 @@ export default function DecorScene({ surface = '', decor = 'oak', side = '' }) {
   const exterior = ['doors', 'frames'].includes(surface) && side === 'outside';
   const fill = `url(#${id('finish')})`;
   const label = wrapSurfaces.find(x => x.id === surface)?.label;
+  if (side === 'both') return <div className={styles.both} data-side="both" role="group" aria-label="Podgląd oklejenia obu stron">{[['inside', 'Od wewnątrz'], ['outside', 'Od zewnątrz']].map(([view, title]) => <figure key={view}><DecorScene surface={surface} decor={decor} side={view}/><figcaption>{title}</figcaption></figure>)}</div>;
   return <svg viewBox="0 0 760 500" role="img" data-decor={selected.id} data-surface={surface || 'overview'} data-side={side || 'unspecified'} aria-label={`Pracownia dekorów: ${label || 'wybierz powierzchnię'}, ${selected.label}${exterior ? ', strona zewnętrzna' : side === 'inside' ? ', strona wewnętrzna' : ''}. Ilustracja poglądowa.`}>
     <defs>
       <linearGradient id={id('wall')} x2="1" y2="1"><stop stopColor={exterior ? '#e5e7e1' : '#f3eee3'}/><stop offset="1" stopColor={exterior ? '#bccac5' : '#d8d6c8'}/></linearGradient>

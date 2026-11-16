@@ -242,7 +242,7 @@
 .teaser p { line-height: 1.7; font-size: 1.6rem; margin-bottom: 2rem; }
 .teaserVisual { border-radius: 1.4rem; overflow: hidden; }
 .teaserVisual svg { display: block; width: 100%; }
-.entry { background: #e9efdf; border: 1px solid #cedbc1; padding: 2rem 2.5rem; border-radius: 1.5rem; color: #33593f; display: flex; align-items: center; justify-content: space-between; gap: 2rem; margin: 2.5rem auto; }
+.entry { box-sizing: border-box; width: 100%; max-width: var(--max-width, 1200px); background: #e9efdf; border: 1px solid #cedbc1; padding: 2rem 2.5rem; border-radius: 1.5rem; color: #33593f; display: flex; align-items: center; justify-content: space-between; gap: 2rem; margin: 2.5rem auto; }
 .entry p { font-size: 1.4rem; line-height: 1.6; margin: .5rem 0 0; }
 .entry strong { font-size: 2rem; font-weight: 400; }
 @media (max-width: 1000px) { .introAside { display: none; } .recommendations { grid-template-columns: 1fr; } .resultCard { display: flex; } .resultCard h3 { grid-column: 1/-1; } .resultCard .actions { grid-column: 1/-1; } }

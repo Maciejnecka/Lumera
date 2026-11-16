@@ -1,0 +1,12 @@
+.navigation { box-sizing: border-box; max-width: var(--max-width,1200px); margin: 3rem auto; padding: 1.2rem; display: flex; flex-wrap: wrap; gap: .8rem; border: 1px solid #d3ddcb; border-radius: 1.5rem; background: #e7edde; }
+.navigation a { display: flex; align-items: center; justify-content: center; padding: 1.2rem 1.6rem; font-size: 1.45rem; line-height: 1.5; background: #fffdf8; color: #285c4e; border-radius: .8rem; text-decoration: none; }
+.navigation a:last-child { color: #fffdf5; background: #285c4e; }
+.quote { box-sizing: border-box; max-width: var(--max-width,1200px); margin: 5rem auto 2rem; padding: 3.4rem; display: grid; grid-template-columns: 1.4fr 1fr; gap: 3rem; align-items: center; background: #e5ecdf; border: 2px solid #b8c9ad; border-radius: 2.4rem; scroll-margin-top: 12rem; }
+.eyebrow { color: #285c4e; font-size: 1.2rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.quote h2 { color: var(--font-title); margin: 1rem 0 1.5rem; font-size: clamp(2.6rem,3vw,3.6rem); line-height: 1.2; letter-spacing: -.025em; }
+.quote p { color: var(--font-main); margin: 0; font-size: 1.65rem; line-height: 1.75; }
+.action { background: #fffdf8; border-radius: 1.5rem; padding: 2.4rem; }
+.action a { display: flex; justify-content: space-between; gap: 1rem; padding: 1.6rem; background: #285c4e; border-radius: 1rem; color: white; font-size: 1.65rem; font-weight: 700; line-height: 1.5; text-decoration: none; }
+.action p { font-size: 1.4rem; margin-top: 1.5rem; }
+.navigation a:focus-visible, .action a:focus-visible { outline: 3px solid #ad7726; outline-offset: 4px; }
+@media(max-width:760px) { .quote { grid-template-columns: 1fr; padding: 2rem; gap: 2rem; } .navigation { gap: .6rem; } .navigation a { flex: 1 0 40%; padding: 1rem; font-size: 1.3rem; } .action { padding: 1.6rem; } }

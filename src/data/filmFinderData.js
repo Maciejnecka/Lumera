@@ -39,6 +39,7 @@ export const wrapDecors = [
 export const wrapSideOptions = [
   { id: 'inside', label: 'Od wewnątrz', note: 'Strona skierowana do wnętrza budynku.' },
   { id: 'outside', label: 'Od zewnątrz', note: 'Strona elewacji — dobór do warunków zewnętrznych.' },
+  { id: 'both', label: 'Obustronnie', note: 'Obie strony — osobna ocena warunków i materiału dla każdej z nich.' },
   { id: 'unknown', label: 'Jeszcze nie wiem', note: 'Ustalimy zakres na zdjęciach.' },
 ];
 export const glassOptions = [
@@ -847,6 +848,11 @@ export const finderSolutions = [
     "variants": [
       {
         "name": "Anty UV Clear",
+        "transmission380": "ok. 15%",
+        "transmission400": "ok. 75%",
+        "transmission420": "ok. 85–90%",
+        "transmission450": "ok. 85–90%",
+        "transmission500": "ok. 85–90%",
         "light": 84,
         "uv": 99,
         "mounting": "Wewnętrzny",
@@ -856,6 +862,11 @@ export const finderSolutions = [
       },
       {
         "name": "Anty UV Clear Premium",
+        "transmission380": "blisko 0%",
+        "transmission400": "ok. 40–45%",
+        "transmission420": "ok. 80–85%",
+        "transmission450": "ok. 85–90%",
+        "transmission500": "ok. 85–90%",
         "light": 83,
         "uv": 99.5,
         "mounting": "Wewnętrzny",
@@ -865,6 +876,11 @@ export const finderSolutions = [
       },
       {
         "name": "Anty UV Total",
+        "transmission380": "blisko 0%",
+        "transmission400": "blisko 0%",
+        "transmission420": "ok. 15–20%",
+        "transmission450": "ok. 65–70%",
+        "transmission500": "ok. 65–70%",
         "light": 71,
         "uv": 99.9,
         "mounting": "Wewnętrzny",
@@ -875,6 +891,11 @@ export const finderSolutions = [
       },
       {
         "name": "Anty UV Amber",
+        "transmission380": "ok. 1–3%",
+        "transmission400": "ok. 7–9%",
+        "transmission420": "ok. 8–9%",
+        "transmission450": "ok. 4–6%",
+        "transmission500": "ok. 5–7%",
         "light": 57,
         "uv": 99.5,
         "mounting": "Wewnętrzny",
@@ -1348,6 +1369,11 @@ export const finderFaq = [
 
 // Display only fields actually declared for the selected model.
 export const finderVariantFields = [
+  ['transmission380', 'Przepuszczanie przy 380 nm (odczyt orientacyjny)', ''],
+  ['transmission400', 'Przepuszczanie przy 400 nm (odczyt orientacyjny)', ''],
+  ['transmission420', 'Przepuszczanie przy 420 nm (odczyt orientacyjny)', ''],
+  ['transmission450', 'Przepuszczanie przy 450 nm (odczyt orientacyjny)', ''],
+  ['transmission500', 'Przepuszczanie przy 500 nm (odczyt orientacyjny)', ''],
   ['mountingRestrictions', 'Ograniczenia montażu', ''],
   ['mirrorLevel', 'Intensywność efektu lustra', ''],
   [

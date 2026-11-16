@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { media } from '../Styled/mediaqueries';
 
 export const DetailPageWrap = styled.div`
+  max-width: calc(var(--max-width) + 10vw);
+  margin: 0 auto;
   padding: 13rem 5vw 4rem;
   overflow: hidden;
 `;
@@ -253,6 +255,15 @@ export const DetailHeroCard = styled.div`
 `;
 
 export const DetailSection = styled.section`
+  box-sizing: border-box;
+  width: 100%;
+  padding: 3rem;
+  border: 1px solid #d6dfce;
+  border-radius: 2.4rem;
+  background: #fffdf8;
+  scroll-margin-top: 12rem;
+  &.detail-section--sage { background: #e9efdf; }
+  @media(max-width:640px) { padding: 2rem 1.5rem; }
   max-width: var(--max-width);
   margin: 5.2rem auto 0;
 `;
@@ -273,7 +284,7 @@ export const DetailSectionIntro = styled.div`
   h2 {
     margin: 0 0 1.4rem;
     color: var(--font-title);
-    font-size: clamp(2.8rem, 4vw, 4.6rem);
+    font-size: clamp(2.8rem, 3.4vw, 4.2rem);
     line-height: 1.08;
     letter-spacing: -0.04em;
   }
@@ -297,12 +308,13 @@ export const DetailGrid = styled.div`
 `;
 
 export const DetailPanel = styled.article`
+  min-width: 0;
   &[id] { scroll-margin-top: 12rem; }
   padding: 2.6rem;
   border: 1px solid var(--border-light);
   border-radius: 2.4rem;
-  background: rgba(255, 255, 255, 0.78);
-  box-shadow: var(--shadow-sm);
+  background: #f5f5ec;
+  box-shadow: none;
 
   &.detail-panel--wide {
     margin-top: 1.8rem;
@@ -323,9 +335,11 @@ export const DetailList = styled.ul`
   list-style: none;
 
   li {
-    padding: 1.2rem 1.4rem;
-    border-radius: 1.6rem;
-    background: rgba(248, 244, 236, 0.92);
+    padding: 1.2rem 0 1.2rem 1.6rem;
+    border-radius: 0;
+    border-left: 3px solid #c8d5b8;
+    border-bottom: 1px solid #e2e6d9;
+    background: transparent;
     color: var(--font-main);
     font-size: 1.6rem;
     line-height: 1.7;
@@ -432,9 +446,8 @@ export const DetailSpecCard = styled.article`
   padding: 2rem;
   border: 1px solid var(--border-light);
   border-radius: 2.2rem;
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(248, 244, 236, 0.9));
-  box-shadow: var(--shadow-sm);
+  background: #f0e9d9;
+  box-shadow: none;
 
   span {
     display: block;
@@ -461,6 +474,12 @@ export const DetailFaq = styled.div`
 `;
 
 export const DetailFaqItem = styled.article`
+  && { padding: 2rem; box-shadow: none; }
+  &::before { display: none; }
+  summary { cursor: pointer; color: var(--font-title); font-size: 1.9rem; line-height: 1.5; }
+  summary:focus-visible { outline: 3px solid #ad7726; outline-offset: 4px; }
+  &[open] summary { margin-bottom: 1.2rem; }
+  &[open] { border-color: #aebf9e; background: #f1f4e9; }
   position: relative;
   min-width: 0;
   padding: 2.2rem 2.4rem 2.2rem 5.4rem;

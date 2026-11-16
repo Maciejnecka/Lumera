@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { doorWrappingPageData } from '../data/doorWrappingPageData';
 import { filmsData } from '../data/filmsData';
 import { localServicePagesData } from '../data/localServicePagesData';
 import { problemPagesData } from '../data/problemPagesData';
@@ -12,6 +13,14 @@ const defaultDescription =
   'Lumera oferuje montaż folii okiennych do domów, mieszkań, biur i lokali w Krakowie i okolicach. Folie przeciwsłoneczne, matowe, ochronne, antywłamaniowe i inne rozwiązania.';
 
 const staticPages = {
+  '/oklejanie-drzwi-i-futryn': {
+    title: doorWrappingPageData.seoTitle,
+    description: doorWrappingPageData.seoDescription,
+    image: `${siteUrl}/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/cover-hq-v2.webp`,
+    imageWidth: 1600,
+    imageHeight: 1200,
+    imageAlt: 'Oklejanie drzwi — realizacja Lumera przed i po',
+  },
   '/porownanie-folii-okiennych': {
     title: 'Dobierz folię lub laminat — porównanie efektów | Lumera',
     description: 'Dobierz folię do słońca, prywatności lub ochrony szkła. Porównaj efekty na wirtualnym oknie albo wybierz kierunek metamorfozy drzwi i mebli laminatem.',
@@ -141,6 +150,10 @@ export const getSeoForPath = (path = '/') => {
 
   return {
     title: staticPage?.title || defaultTitle,
+    image: staticPage?.image,
+    imageWidth: staticPage?.imageWidth,
+    imageHeight: staticPage?.imageHeight,
+    imageAlt: staticPage?.imageAlt,
     description: staticPage?.description || defaultDescription,
     url: `${siteUrl}${normalizedPath === '/' ? '/' : normalizedPath}`,
     type: 'website',

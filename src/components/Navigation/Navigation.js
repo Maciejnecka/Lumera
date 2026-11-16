@@ -151,9 +151,10 @@ const Navigation = () => {
           <div className={`navbar__dropdown${isFilmsOpen ? ' is-open' : ''}`}>
             {filmsData.map((film) => (
               <Link key={film.path} href={film.path}>
-                {film.name}
+                {film.menuName || film.name}
               </Link>
             ))}
+            <Link href="/oklejanie-drzwi-i-futryn">Oklejanie drzwi i futryn</Link>
           </div>
 
           {navLinks.map((link) => (

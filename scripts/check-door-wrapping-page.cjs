@@ -1,0 +1,35 @@
+const fs = require('node:fs');
+const vm = require('node:vm');
+const assert = require('node:assert/strict');
+const html = fs.readFileSync('.next/server/pages/oklejanie-drzwi-i-futryn.html', 'utf8');
+const source = fs.readFileSync('src/data/doorWrappingPageData.js', 'utf8').replace(/\bexport\s+/g, '');
+const page = vm.runInNewContext(`${source}\ndoorWrappingPageData;`);
+assert.equal((html.match(/<h1\b/g) || []).length, 1);
+assert.equal(html.match(/<title[^>]*>([^<]+)<\/title>/)[1], page.seoTitle);
+assert(html.includes('rel="canonical" href="https://folielumera.pl/oklejanie-drzwi-i-futryn"'));
+for (const id of ['pracownia','przed-i-po','zakres','cena','obszar','pytania','wycena']) assert(html.includes(`id="${id}"`), id);
+for (const image of [...html.matchAll(/<img[^>]+src="([^\"]+)"/g)]) assert(fs.existsSync(image[1].startsWith('/_next/') ? image[1].replace('/_next/', '.next/') : `public${image[1]}`), image[1]);
+const schemas = [...html.matchAll(/<script[^>]+type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)].map((match) => JSON.parse(match[1]));
+const faq = schemas.find((item) => item['@type'] === 'FAQPage');
+assert.equal(faq.mainEntity.length, page.faq.length);
+for (const item of page.faq) assert(html.includes(item.answer) && faq.mainEntity.some((q) => q.name === item.question && q.acceptedAnswer.text === item.answer));
+assert(schemas.some((item) => item['@type'] === 'Service'));
+assert(fs.readFileSync('public/sitemap.xml','utf8').includes(`https://folielumera.pl${page.path}`));
+assert(fs.readFileSync('public/llms-full.txt','utf8').includes(page.faq[0].answer));
+for (const slug of ['oklejanie-drzwi-i-mebli-krakow','oklejanie-drzwi-i-mebli-katowice','okleiny-i-laminaty-architektoniczne']) assert(fs.readFileSync(`.next/server/pages/${slug}.html`,'utf8').includes(`href="${page.path}"`));
+const data = fs.readFileSync('src/data/filmFinderData.js','utf8').replace(/\bexport\s+/g, '');
+const rules = fs.readFileSync('src/lib/filmFinder.js','utf8').replace(/^import .*;\r?\n/gm, '').replace(/\bexport\s+/g, '');
+const api = vm.runInNewContext(`${data}\n${rules}\n({wrapDecors, sanitizeFinderAnswers, finderShareHash, buildFinderMessage})`,{URLSearchParams});
+let count = 0;
+for (const decor of api.wrapDecors) for (const side of ['inside','outside','both']) for (const scope of ['Skrzydło i futryna','Tylko skrzydło drzwi','Tylko futryna / ościeżnica']) {
+  const answers = {goal:'renovation',surface:'doors',priority:decor.family,decor:decor.id,side,condition:'unknown',details:`Zakres oklejania: ${scope}.`};
+  const restored = api.sanitizeFinderAnswers(Object.fromEntries(new URLSearchParams(api.finderShareHash(answers,'wrap').slice(1))));
+  assert.equal(restored.decor,decor.id);
+  assert.equal(restored.side,side);
+  assert.equal(restored.details,answers.details);
+  const message = api.buildFinderMessage(answers,['wrap']);
+  assert(message.startsWith('Dobór Lumera — moje potrzeby:'));
+  assert(message.includes(decor.label) && message.includes(scope));
+  count++;
+}
+console.log(`OK: SSR, SEO, 10 FAQ/schema, images, links, sitemap/LLM, ${count} decor/side/scope quote and finder transfers.`);

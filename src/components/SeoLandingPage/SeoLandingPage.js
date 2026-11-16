@@ -1,4 +1,5 @@
 import React from 'react';
+import { ServicePageNavigation } from '../ServicePageParts/ServicePageParts';
 import Link from 'next/link';
 import { filmsData } from '../../data/filmsData';
 import { problemPagesData } from '../../data/problemPagesData';
@@ -98,7 +99,7 @@ const SeoLandingPage = ({ page, type, breadcrumbs }) => {
           <SeoTitle>{page.title}</SeoTitle>
           <SeoLead>{page.lead}</SeoLead>
           <SeoActions>
-            <Link href="/kontakt" onClick={handleContactClick}>
+            <Link href={`/kontakt?temat=${contactTopic || "wybierz"}`} onClick={handleContactClick}>
               Zapytaj o dobór folii
             </Link>
             {mainFilm && <Link href={mainFilm.path}>Zobacz: {mainFilm.name}</Link>}
@@ -112,7 +113,13 @@ const SeoLandingPage = ({ page, type, breadcrumbs }) => {
         </SeoHero>
 
         <FinderEntry goal={isSurfaceService ? 'renovation' : page.filmPath === '/folie-matowe' ? 'privacy' : page.filmPath?.includes('przeciwsloneczne') ? 'heat' : ''}/>
+        {page.serviceName === 'oklejanie drzwi i mebli' && <SeoSection><h2>Interesują Cię drzwi i futryny?</h2><p>Zobacz zakres oklejania skrzydeł i ościeżnic, rzeczywiste efekty przed i po oraz przymierz dekor w pracowni Lumera.</p><Link href="/oklejanie-drzwi-i-futryn">Oklejanie drzwi i futryn — poznaj usługę i wybierz dekor →</Link></SeoSection>}
 
+        <ServicePageNavigation items={[
+          ...(page.sections?.length ? [['#informacje-0','Poznaj rozwiązanie']] : []),
+          ...(page.useCases?.length ? [['#zastosowanie','Zastosowanie']] : []),
+          ...(page.faq?.length ? [['#pytania','Pytania przed wyborem']] : []), ['#wycena','Przejdź do wyceny →'],
+        ]}/>
         <SeoGrid>
           <SeoCard>
             <span>{isSurfaceService ? 'Najpierw powierzchnia' : 'Najpierw problem'}</span>
@@ -155,15 +162,15 @@ const SeoLandingPage = ({ page, type, breadcrumbs }) => {
           </SeoCard>
         </SeoGrid>
 
-        {page.sections?.map((section) => (
-          <SeoSection key={section.heading}>
+        {page.sections?.map((section, index) => (
+          <SeoSection key={section.heading} id={`informacje-${index}`}>
             <h2>{section.heading}</h2>
             <p>{section.text}</p>
           </SeoSection>
         ))}
 
         {page.useCases && (
-          <SeoSection>
+          <SeoSection id="zastosowanie">
             <h2>Gdzie to rozwiązanie ma najwięcej sensu?</h2>
             <SeoList>
               {page.useCases.map((item) => (
@@ -238,20 +245,20 @@ const SeoLandingPage = ({ page, type, breadcrumbs }) => {
         )}
 
         {page.faq && (
-          <SeoSection>
+          <SeoSection id="pytania">
             <h2>Najczęstsze pytania</h2>
             <SeoFaq>
               {page.faq.map((item) => (
-                <article key={item.question}>
-                  <h3>{item.question}</h3>
+                <details key={item.question}>
+                  <summary>{item.question}</summary>
                   <p>{item.answer}</p>
-                </article>
+                </details>
               ))}
             </SeoFaq>
           </SeoSection>
         )}
 
-        <SeoSection>
+        <SeoSection id="wycena" className="service-section--quote">
           <h2>Jak przejść od pomysłu do wyceny?</h2>
           {page.quotePreparation ? <p>{page.quotePreparation}</p> : isSurfaceService ? (
             <p>

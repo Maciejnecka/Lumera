@@ -104,7 +104,10 @@ export function getFinderResult(input) {
     if (a.surface === 'counter') notes.push('Przy recepcji ustalamy zakres oklejenia frontu, boków i blatu oraz kontakt z wodą, temperaturą i intensywność użytkowania.');
     if (a.surface === 'frames') notes.push('Przy ramach pokaż profile, uszczelki, narożniki i otwory odwodnienia.');
     if (needsWrapSide(a)) {
-      if (a.side === 'outside') {
+      if (a.side === 'both') {
+        notes.push('Wybrano oklejanie obustronne. Każdą stronę oceniamy oddzielnie; powierzchnia wystawiona na pogodę wymaga materiału do zastosowania zewnętrznego.');
+        checks[2] = 'Zdjęcia obu stron, warunki użytkowania, krawędzie oraz dobór materiału do każdej strony.';
+      } else if (a.side === 'outside') {
         notes.push('Wybrano stronę zewnętrzną. Pokazany dekor określa wygląd; konkretny materiał musi być przeznaczony do ekspozycji zewnętrznej i zgodny z podłożem. Dostępność takiego wykończenia potwierdzimy osobno.');
         checks[2] = 'Materiał do zastosowania zewnętrznego, ekspozycja na słońce i pogodę oraz próbka wykończenia.';
       } else if (a.side === 'inside') checks[2] = 'Próbka dekoru w oświetleniu wnętrza oraz ocena profili, krawędzi i osprzętu.';

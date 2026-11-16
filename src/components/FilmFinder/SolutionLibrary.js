@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { finderGroups, finderVariantFields } from '../../data/filmFinderData';
 import s from './FilmFinder.module.css';
 
-const mainFields = ['mirrorLevel', 'light', 'solar', 'uv', 'ir', 'mounting', 'color', 'securityClass', 'materialWarranty', 'power'];
+const mainFields = ['transmission380', 'transmission400', 'transmission420', 'mirrorLevel', 'light', 'solar', 'uv', 'ir', 'mounting', 'color', 'securityClass', 'materialWarranty', 'power'];
 const solutionCount = number => `${number} ${number === 1 ? 'rozwiązanie' : number % 10 >= 2 && number % 10 <= 4 && !(number % 100 >= 12 && number % 100 <= 14) ? 'rozwiązania' : 'rozwiązań'}`;
 
 function ModelTable({ item, fields }) {
@@ -19,6 +19,7 @@ function SolutionDetails({ item, onClose }) {
     <header className={s.atlasDetailHeading}><div><span className={s.eyebrow}>Bliżej rozwiązania</span><h4 id={`atlas-title-${item.id}`}>{item.name}</h4></div><button type="button" className={s.atlasClose} onClick={onClose} aria-label={`Zamknij szczegóły: ${item.name}`}>Zamknij <span aria-hidden="true">×</span></button></header>
     <div className={s.atlasOverview}><div><span>Kiedy warto?</span><p>{item.benefit}</p></div><div><span>O czym pamiętać?</span><p>{item.tradeoff}</p></div><div><span>Co sprawdzimy przed montażem?</span><p>{item.check}</p></div></div>
     {basic.length > 0 && <div className={s.atlasComparison}><h5>{item.variants.length > 1 ? 'Porównaj warianty obok siebie' : 'Najważniejsze parametry'}</h5>{item.variants.length > 2 && <p className={s.atlasScrollHint}>Na mniejszym ekranie przesuń tabelę w bok, aby zobaczyć pozostałe warianty.</p>}{groups.length > 1 ? groups.map(name => {const variants=item.variants.filter(model=>model.variantGroup===name);return <div className={s.atlasVariantGroup} key={name}><h6>{name}</h6><ModelTable item={{...item,variants}} fields={basic.filter(([key])=>variants.some(model=>model[key]!==undefined))}/></div>;}) : <ModelTable item={item} fields={basic}/>}</div>}
+    {item.id === 'uv' && <p className={s.atlasDataNote}>Przepuszczanie przy 380–500 nm: orientacyjny odczyt z wykresów materiałowych. Mniej oznacza mniej promieniowania przechodzącego przy danej długości fali; to inny parametr niż zbiorcza redukcja UV i VLT. Blisko 0% nie oznacza idealnego zera. Pełne objaśnienie i porównanie znajdziesz na stronie oferty anty-UV.</p>}
     {extra.length > 0 && <details className={s.atlasExtra}><summary>Pozostałe parametry techniczne</summary><ModelTable item={item} fields={extra}/></details>}
     {item.parameters?.length > 0 && <details className={s.atlasExtra}><summary>Więcej o zastosowaniu i doborze</summary><p><strong>Wygląd:</strong> {item.look}. <strong>Światło:</strong> {item.light}.</p><dl className={s.categoryParameters}>{item.parameters.map(([label,value]) => <div key={label}><dt>{label}</dt><dd>{value}</dd></div>)}</dl></details>}
     {fields.length > 0 && <p className={s.atlasDataNote}>Wartości referencyjne dla konkretnego materiału. Redukcja UV, IR i energii słonecznej opisuje różne cechy; nie określa spadku temperatury pokoju. Gwarancja materiału podlega warunkom producenta. Dostępność i zgodność z podłożem potwierdzamy przy wycenie.</p>}

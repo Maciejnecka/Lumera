@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://folielumera.pl/folie-termoizolacyjne",
+    "status": 200,
+    "checkedAt": "2026-11-16T17:07:15.971Z",
+    "has80": false,
+    "hasGenericHeadline": true,
+    "title": "Folie termoizolacyjne Kraków i Katowice | Lumera",
+    "models": []
+  },
+  {
+    "url": "https://folielumera.pl/folie-antykolizyjne",
+    "status": 200,
+    "checkedAt": "2026-11-16T17:07:16.070Z",
+    "has80": true,
+    "hasGenericHeadline": true,
+    "title": "Folie antykolizyjne Kraków i Katowice | Lumera",
+    "models": []
+  },
+  {
+    "url": "https://folielumera.pl/folie-anty-uv",
+    "status": 200,
+    "checkedAt": "2026-11-16T17:07:15.932Z",
+    "has80": false,
+    "hasGenericHeadline": true,
+    "title": "Folie okienne anty UV Kraków i Katowice | Lumera",
+    "models": []
+  },
+  {
+    "url": "https://folielumera.pl/folie-anty-podsluchowe",
+    "status": 200,
+    "checkedAt": "2026-11-16T17:07:16.269Z",
+    "has80": false,
+    "hasGenericHeadline": true,
+    "title": "Folie anty-podsłuchowe Kraków i Katowice | Lumera",
+    "models": []
+  }
+]

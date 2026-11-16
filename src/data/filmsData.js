@@ -11,6 +11,7 @@ import imageAntywlamaniowe from '../img/films/folie-antywlamaniowe.svg';
 import imageOchronne from '../img/films/folie-ochronne.svg';
 import imageZabezpieczajace from '../img/films/folie-zabezpieczajace.svg';
 import imageAntyPodsluchowe from '../img/films/folie-anty-podsluchowe.svg';
+import { specialFilmPagesData } from './specialFilmPagesData';
 import imageTermoizolacyjne from '../img/films/folie-termoizolacyjne.svg';
 import imageProjekcyjne from '../img/films/folie-projekcyjne.svg';
 import imageAntykolizyjne from '../img/films/folie-antykolizyjne.svg';
@@ -506,6 +507,7 @@ const baseFilmsData = [
 export const filmsData = baseFilmsData.map((film) => {
   const seoData = filmSeoData[film.id] || {};
   const extraFaq = filmExtraFaqData[film.id] || [];
+  const specialist = specialFilmPagesData[film.id];
 
   return {
     ...film,
@@ -514,6 +516,20 @@ export const filmsData = baseFilmsData.map((film) => {
     ...filmDecisionData[film.id],
     ...filmStrengtheningData[film.id],
     faq: [...(seoData.faq || []), ...extraFaq],
+    ...(specialist ? {
+      ...specialist,
+      specialist: true,
+      highlights: specialist.seoContentBlocks.map((block) => block.text),
+      usage: specialist.tableRows.map((row) => row[0]),
+      parameters: specialist.preparation,
+      bestFor: null,
+      beforeInstall: null,
+      decisionIntro: null,
+      chooseWhen: null,
+      betterAlternative: null,
+      maintenance: null,
+      featuredNote: null,
+    } : {}),
   };
 });
 

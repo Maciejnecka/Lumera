@@ -126,6 +126,7 @@ const footerLinkGroups = [
   {
     title: 'Usługi',
     links: [
+      { href: '/oklejanie-drzwi-i-futryn', label: 'Oklejanie drzwi i futryn' },
       { href: '/folie-przeciwsloneczne', label: 'Folie przeciwsłoneczne' },
       { href: '/montaz-folii-lcd', label: 'Montaż folii LCD' },
       { href: '/folie-lustra-weneckie', label: 'Folie lustra weneckie' },

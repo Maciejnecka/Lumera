@@ -74,7 +74,7 @@ assert(api.buildFinderMessage(shadeAnswers,['solar-reflective'],shades).includes
 assert(!api.finderShareHash(shadeAnswers,'nonexistent',{}).includes('film='));
 console.log('PASS: three distinct tint levels, priority defaults, safe variant restoration, share links and quote summary.');
 
-for (const surface of ['doors','furniture','counter','frames']) for (const side of ['inside','outside','unknown']) for (const decor of ['oak','walnut','concrete','marble','ivory','anthracite','steel','champagne']) {
+for (const surface of ['doors','furniture','counter','frames']) for (const side of ['inside','outside','both','unknown']) for (const decor of ['oak','walnut','concrete','marble','ivory','anthracite','steel','champagne']) {
   const family = ['oak','walnut'].includes(decor) ? 'wood' : ['concrete','marble'].includes(decor) ? 'stone' : ['ivory','anthracite'].includes(decor) ? 'solid' : 'metal';
   const input = { goal:'renovation', surface, priority:family, decor, side, condition:'good' };
   const clean = api.sanitizeFinderAnswers(input);
@@ -92,7 +92,7 @@ for (const surface of ['doors','furniture','counter','frames']) for (const side 
 assert.equal(api.sanitizeFinderAnswers({goal:'renovation',surface:'doors',priority:'wood',decor:'anthracite',side:'invalid'}).decor,'oak');
 assert.equal(api.sanitizeFinderAnswers({goal:'heat',surface:'window',priority:'light',decor:'oak',side:'outside'}).decor,'');
 assert.equal(api.sanitizeFinderAnswers({goal:'heat',surface:'window',priority:'light',side:'outside'}).side,'');
-console.log('PASS: 96 decor/surface/side combinations, exterior guidance, share round trips, quote summaries and stale-answer cleanup.');
+console.log('PASS: 128 decor/surface/side combinations, exterior guidance, share round trips, quote summaries and stale-answer cleanup.');
 
 const offered = goal => Array.from(api.finderSurfaces(goal),x=>x.id);
 for (const goal of ['heat','glare','cold','uv']) {

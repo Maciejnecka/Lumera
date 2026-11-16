@@ -58,6 +58,8 @@ const filmExtraFaqData = evaluateDataModule('src/data/filmExtraFaqData.js', [
 const filmStrengtheningData = evaluateDataModule('src/data/filmStrengtheningData.js', [
   'filmStrengtheningData',
 ]).filmStrengtheningData;
+const { specialFilmPagesData } = evaluateDataModule('src/data/specialFilmPagesData.js', ['specialFilmPagesData']);
+const { doorWrappingPageData } = evaluateDataModule('src/data/doorWrappingPageData.js', ['doorWrappingPageData']);
 const problemPagesData = evaluateDataModule('src/data/problemPagesData.js', [
   'problemPagesData',
 ]).problemPagesData;
@@ -96,6 +98,7 @@ const { filmsData } = evaluateDataModule(
     filmDecisionData,
     filmExtraFaqData,
     filmStrengtheningData,
+    specialFilmPagesData,
     pricingByFilmId: pricingData.pricingByFilmId,
   }
 );
@@ -154,6 +157,7 @@ const relatedLinks = (paths = []) =>
     .join('\n');
 
 const staticPages = [
+  ['Oklejanie drzwi i futryn', '/oklejanie-drzwi-i-futryn', 'dobór okleiny architektonicznej, pracownia dekorów, realizacja przed i po, montaż w Krakowie i Katowicach'],
   ['Dobierz folię lub laminat', '/porownanie-folii-okiennych', 'interaktywny przewodnik, porównanie efektów i podsumowanie do wyceny'],
   ['Strona główna', '/', 'główna prezentacja firmy, zakres usług i ścieżki do problemów'],
   ['Kontakt i wycena', '/kontakt', 'formularz, telefon, e-mail i informacje potrzebne do wyceny'],
@@ -306,6 +310,8 @@ const buildFilmSection = (film) => {
       ? `### Efekt I Właściwości\n${film.effectTitle || ''}\n\n${film.effectLead || ''}\n\n${keyValueList(film.effectDetails || [])}`
       : '',
     film.seoContentBlocks?.length ? `### Dobór W Praktyce\n${sectionBlocks(film.seoContentBlocks)}` : '',
+    film.spectrum ? `### ${film.spectrum.title}\n${film.spectrum.intro}\n\n${film.spectrum.models.map(model => `#### ${model.name}\n${model.summary}\n${model.readings.map((reading, index) => `- Przepuszczanie przy ${film.spectrum.wavelengths[index].nm} nm: ${reading[2]}`).join('\n')}`).join('\n\n')}\n\n${film.spectrum.note}` : '',
+    film.specialist ? `### ${film.tableTitle}\n${film.tableRows.map((row) => row.map((cell, index) => `${film.tableHeadings[index]}: ${cell}`).join('; ')).join('\n')}\n${film.tableNote || ''}\n\n### ${film.choiceTitle}\n${keyValueList(film.choiceCards)}\n\n[${film.cta}](${absoluteUrl(`/kontakt?temat=${film.id}`)})` : '',
     film.id === 'architectural-wraps'
       ? `### Co Oklejamy Folią Architektoniczną\n${architecturalWrapsData.surfaces.map((surface) => `- ${surface.label}: ${surface.description}\n  ${absoluteUrl(architecturalWrapsData.path)}#${surface.id}`).join('\n')}\n\n### Przykłady Metamorfoz\n${architecturalWrapsData.projects.map((project) => markdownLink(project.label, project.path)).join('\n')}`
       : '',
@@ -578,6 +584,35 @@ ${serviceHubPagesData.map(buildServiceHubSection).join('\n\n---\n\n')}
 # Oferta Lumera
 
 ${filmsData.map(buildFilmSection).join('\n\n---\n\n')}
+
+# Oklejanie drzwi i futryn
+
+## ${doorWrappingPageData.title}
+
+URL: ${absoluteUrl(doorWrappingPageData.path)}
+
+${doorWrappingPageData.lead}
+
+${keyValueList(doorWrappingPageData.benefits)}
+
+### Zakres oklejania
+${keyValueList(doorWrappingPageData.surfaces)}
+
+${sectionBlocks(doorWrappingPageData.sections)}
+
+### Pracownia dekorów i wycena
+Na stronie działa podgląd drzwi i futryny wykorzystujący tę samą scenę i kierunki dekorów co konfigurator doboru Lumera. Wybór obejmuje dekor, stronę wewnętrzną lub zewnętrzną i zakres skrzydła oraz futryny. Przycisk wyceny przekazuje wybór do formularza. Podgląd jest ilustracją, nie próbnikiem konkretnego materiału; serię, dostępność i zgodność z podłożem potwierdzamy osobno.
+
+${keyValueList(doorWrappingPageData.process)}
+
+### Cena oklejania drzwi i futryn
+${keyValueList(doorWrappingPageData.pricing)}
+
+### Obszar realizacji
+${doorWrappingPageData.locations.map((item) => `#### ${item.title}\n${item.text}\n${absoluteUrl(item.href)}`).join('\n\n')}
+
+### Pytania o oklejanie drzwi i futryn
+${faqList(doorWrappingPageData.faq)}
 
 # Realizacje
 

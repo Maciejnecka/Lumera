@@ -4,7 +4,7 @@ import { media } from '../Styled/mediaqueries';
 
 export const LocalWrap = styled.div`
   width: 100%;
-  max-width: var(--max-width);
+  max-width: calc(var(--max-width) + 10vw);
   margin: 0 auto;
   padding: 13rem 5vw 2rem;
 `;
@@ -182,8 +182,8 @@ export const LocalCard = styled.article`
   padding: 2rem;
   border: 1px solid var(--border-light);
   border-radius: 2.2rem;
-  background: rgba(255, 255, 255, 0.74);
-  box-shadow: var(--shadow-sm);
+  background: #edf1e5;
+  box-shadow: none;
 
   span {
     display: block;
@@ -210,17 +210,19 @@ export const LocalCard = styled.article`
 `;
 
 export const LocalSection = styled.section`
-  margin-top: 1.4rem;
-  padding: clamp(2.2rem, 4vw, 3.2rem);
+  scroll-margin-top: 12rem;
+  &.service-section--quote { background: #e5ecdf; border: 2px solid #b8c9ad; padding: 3.4rem; }
+  margin-top: 3.4rem;
+  padding: clamp(2rem, 3vw, 3rem);
   border: 1px solid var(--border-light);
   border-radius: 2.4rem;
-  background: rgba(255, 255, 255, 0.76);
-  box-shadow: var(--shadow-sm);
+  background: #fffdf8;
+  box-shadow: none;
 
   h2 {
     margin: 0 0 1.2rem;
     color: var(--font-title);
-    font-size: clamp(2.4rem, 3vw, 3.4rem);
+    font-size: clamp(2.8rem, 3.4vw, 4.2rem);
     line-height: 1.15;
     letter-spacing: -0.035em;
   }

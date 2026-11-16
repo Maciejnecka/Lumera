@@ -1,4 +1,7 @@
 import React from 'react';
+import { ServicePageNavigation, ServiceQuote } from '../ServicePageParts/ServicePageParts';
+import Link from 'next/link';
+import SpecialFilmContent from './SpecialFilmContent';
 import { useRouter } from 'next/router';
 import { localServicePagesData } from '../../data/localServicePagesData';
 import { problemPagesData } from '../../data/problemPagesData';
@@ -103,9 +106,9 @@ const FilmDetailPage = ({ film, breadcrumbs }) => {
             )}
 
             <DetailHeroActions>
-              <button type="button" onClick={() => goToHomeSection('kontakt', film.id)}>
-                Zapytaj o montaż
-              </button>
+              <Link href={`/kontakt?temat=${film.id}`}>
+                {film.cta || 'Zapytaj o montaż'}
+              </Link>
               <button type="button" onClick={() => goToHomeSection('folie-okienne')}>
                 Zobacz pozostałe rozwiązania
               </button>
@@ -135,6 +138,11 @@ const FilmDetailPage = ({ film, breadcrumbs }) => {
 
         <FinderEntry goal={isArchitectural ? 'renovation' : ['external-solar', 'internal-solar', 'polycarbonate'].includes(film.id) ? 'heat' : ['mirror', 'matte', 'frosted', 'lcd'].includes(film.id) ? 'privacy' : ['haccp', 'anti-burglary', 'protective', 'security'].includes(film.id) ? 'safety' : film.id === 'anti-uv' ? 'uv' : film.id === 'thermal' ? 'cold' : 'special'} />
 
+        {!film.specialist && <ServicePageNavigation items={[
+          ['#korzysci', 'Korzyści i zastosowanie'], ['#parametry', 'Parametry i dobór'],
+          ...(film.faq?.length ? [['#pytania', 'Pytania przed wyborem']] : []), ['#wycena', 'Zapytaj o montaż →'],
+        ]}/>}
+
         <RelatedProjectsSection
           projects={relatedProjects}
           title={isArchitectural ? 'Metamorfozy z laminatami architektonicznymi – przed i po' : 'Zobacz realizacje z tym typem folii'}
@@ -150,7 +158,7 @@ const FilmDetailPage = ({ film, breadcrumbs }) => {
             </DetailSectionIntro>
             <DetailLinkGrid>
               {architecturalWrapsData.surfaces.map((surface) => (
-                <DetailLinkCard key={surface.id} href={`#${surface.id}`}>
+                <DetailLinkCard key={surface.id} href={surface.id === 'drzwi-i-oscieznice' ? '/oklejanie-drzwi-i-futryn' : `#${surface.id}`}>
                   <span>Zakres oklejania</span>
                   <strong>{surface.label}</strong>
                   <p>{surface.description}</p>
@@ -160,7 +168,8 @@ const FilmDetailPage = ({ film, breadcrumbs }) => {
           </DetailSection>
         )}
 
-        <DetailSection>
+        {film.specialist ? <SpecialFilmContent film={film} /> : <>
+        <DetailSection id="korzysci">
           <DetailSectionIntro data-aos="fade-up">
             <span>Najważniejsze korzyści</span>
             <h2>Dlaczego klienci wybierają właśnie to rozwiązanie?</h2>
@@ -187,7 +196,7 @@ const FilmDetailPage = ({ film, breadcrumbs }) => {
           </DetailGrid>
         </DetailSection>
 
-        <DetailSection>
+        <DetailSection id="parametry" className="detail-section--sage">
           <DetailSectionIntro data-aos="fade-up">
             <span>Zakres i przygotowanie</span>
             <h2>Zakres prac ustalamy na podstawie miejsca, warunków i oczekiwanego efektu.</h2>
@@ -241,6 +250,7 @@ const FilmDetailPage = ({ film, breadcrumbs }) => {
           </DetailSection>
         )}
 
+        </>}
         {(problemLinks.length > 0 || localLinks.length > 0) && (
           <DetailSection>
             <DetailSectionIntro data-aos="fade-up">
@@ -366,22 +376,23 @@ const FilmDetailPage = ({ film, breadcrumbs }) => {
         )}
 
         {film.faq && (
-          <DetailSection>
+          <DetailSection id="pytania">
             <DetailSectionIntro data-aos="fade-up">
               <span>FAQ</span>
-              <h2>Najczęstsze pytania o {film.name.toLowerCase()}</h2>
+              <h2>{film.specialist ? 'Pytania przed wyborem i montażem' : `Najczęstsze pytania o ${film.name.toLowerCase()}`}</h2>
             </DetailSectionIntro>
 
             <DetailFaq data-aos="fade-up">
               {film.faq.map((item) => (
-                <DetailFaqItem key={item.question}>
-                  <h3>{item.question}</h3>
+                <DetailFaqItem as="details" key={item.question}>
+                  <summary>{item.question}</summary>
                   <p>{item.answer}</p>
                 </DetailFaqItem>
               ))}
             </DetailFaq>
           </DetailSection>
         )}
+        {film.specialist ? <SpecialFilmContent film={film} closing /> : <ServiceQuote topic={film.id} architectural={isArchitectural} />}
       </DetailPageWrap>
     </main>
   );

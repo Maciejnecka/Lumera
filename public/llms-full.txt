@@ -1,6 +1,6 @@
 # Lumera - Pełny Kontekst Dla LLM
 
-Wersja wygenerowana: 2026-11-15
+Wersja wygenerowana: 2026-11-16
 Strona: https://folielumera.pl
 Język główny: pl-PL
 
@@ -95,7 +95,7 @@ Usługa: https://folielumera.pl/folie-anty-uv
 Do rozważenia przy ochronie ekspozycji, tkanin i wyposażenia przed częścią czynników blaknięcia.
 Kompromis: UV to tylko jeden z czynników blaknięcia. Sam filtr UV nie oznacza skutecznego ograniczenia nagrzewania.
 Do potwierdzenia: Wymagany zakres ochrony, wrażliwość ekspozycji i parametry wybranego modelu.
-Warianty referencyjne: Anty UV Clear: Światło widzialne 84%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd bezbarwna, Gwarancja materiału* 10 lat; Anty UV Clear Premium: Światło widzialne 83%, Redukcja UV 99.5%, Strona montażu Wewnętrzny, Kolor / wygląd bezbarwna, Gwarancja materiału* 10 lat; Anty UV Total: Światło widzialne 71%, Redukcja UV 99.9%, Strona montażu Wewnętrzny, Kolor / wygląd przezroczysta - odcień zieleni, Gwarancja materiału* 10 lat; Anty UV Amber: Światło widzialne 57%, Redukcja UV 99.5%, Strona montażu Wewnętrzny, Kolor / wygląd bursztynowy, Gwarancja materiału* 10 lat. Dane referencyjne nie określają spadku temperatury w pomieszczeniu. Gwarancja materiału podlega warunkom producenta i nie jest gwarancją montażu.
+Warianty referencyjne: Anty UV Clear: Przepuszczanie przy 380 nm (odczyt orientacyjny) ok. 15%, Przepuszczanie przy 400 nm (odczyt orientacyjny) ok. 75%, Przepuszczanie przy 420 nm (odczyt orientacyjny) ok. 85–90%, Przepuszczanie przy 450 nm (odczyt orientacyjny) ok. 85–90%, Przepuszczanie przy 500 nm (odczyt orientacyjny) ok. 85–90%, Światło widzialne 84%, Redukcja UV 99%, Strona montażu Wewnętrzny, Kolor / wygląd bezbarwna, Gwarancja materiału* 10 lat; Anty UV Clear Premium: Przepuszczanie przy 380 nm (odczyt orientacyjny) blisko 0%, Przepuszczanie przy 400 nm (odczyt orientacyjny) ok. 40–45%, Przepuszczanie przy 420 nm (odczyt orientacyjny) ok. 80–85%, Przepuszczanie przy 450 nm (odczyt orientacyjny) ok. 85–90%, Przepuszczanie przy 500 nm (odczyt orientacyjny) ok. 85–90%, Światło widzialne 83%, Redukcja UV 99.5%, Strona montażu Wewnętrzny, Kolor / wygląd bezbarwna, Gwarancja materiału* 10 lat; Anty UV Total: Przepuszczanie przy 380 nm (odczyt orientacyjny) blisko 0%, Przepuszczanie przy 400 nm (odczyt orientacyjny) blisko 0%, Przepuszczanie przy 420 nm (odczyt orientacyjny) ok. 15–20%, Przepuszczanie przy 450 nm (odczyt orientacyjny) ok. 65–70%, Przepuszczanie przy 500 nm (odczyt orientacyjny) ok. 65–70%, Światło widzialne 71%, Redukcja UV 99.9%, Strona montażu Wewnętrzny, Kolor / wygląd przezroczysta - odcień zieleni, Gwarancja materiału* 10 lat; Anty UV Amber: Przepuszczanie przy 380 nm (odczyt orientacyjny) ok. 1–3%, Przepuszczanie przy 400 nm (odczyt orientacyjny) ok. 7–9%, Przepuszczanie przy 420 nm (odczyt orientacyjny) ok. 8–9%, Przepuszczanie przy 450 nm (odczyt orientacyjny) ok. 4–6%, Przepuszczanie przy 500 nm (odczyt orientacyjny) ok. 5–7%, Światło widzialne 57%, Redukcja UV 99.5%, Strona montażu Wewnętrzny, Kolor / wygląd bursztynowy, Gwarancja materiału* 10 lat. Dane referencyjne nie określają spadku temperatury w pomieszczeniu. Gwarancja materiału podlega warunkom producenta i nie jest gwarancją montażu.
 Parametry doboru: Blaknięcie: UV jest jednym z czynników; liczą się także światło widzialne i temperatura.
 
 ### Folia zabezpieczająca szkło
@@ -391,7 +391,7 @@ Najczęściej wybierane rozwiązania do mieszkań, domów, biur i lokali. Podane
 - Typowa gwarancja: 5-10 lat
 - Notatka: Najczęściej montaż od wewnątrz; wersje zewnętrzne liczymy osobno.
 
-#### Folie okienne anty UV
+#### Folie anty-UV na okna — ochrona wyposażenia i witryn
 - URL: https://folielumera.pl/folie-anty-uv
 - Orientacyjna cena brutto: 100-295 zl/m2
 - Typowa gwarancja: 10 lat
@@ -409,7 +409,7 @@ Najczęściej wybierane rozwiązania do mieszkań, domów, biur i lokali. Podane
 - Typowa gwarancja: 7-15 lat
 - Notatka: Dekoracyjny efekt mrożonego szkła; cena rośnie przy wycinaniu wzorów.
 
-#### Folie termoizolacyjne
+#### Folie termoizolacyjne na okna — dobór i montaż
 - URL: https://folielumera.pl/folie-termoizolacyjne
 - Orientacyjna cena brutto: 195-245 zl/m2
 - Typowa gwarancja: ok. 10 lat
@@ -448,7 +448,7 @@ W tej grupie wycena jeszcze mocniej zależy od klasy folii, certyfikatów, rodza
 - Typowa gwarancja: 5-10 lat
 - Notatka: Stosowane zarówno jako ochrona tymczasowa, jak i bardziej trwała.
 
-#### Folie anty-podsłuchowe
+#### Folie ekranujące na szyby — dobór rozwiązań antypodsłuchowych
 - URL: https://folielumera.pl/folie-anty-podsluchowe
 - Orientacyjna cena brutto: 690-1900 zl/m2
 - Typowa gwarancja: ok. 10 lat
@@ -466,7 +466,7 @@ W tej grupie wycena jeszcze mocniej zależy od klasy folii, certyfikatów, rodza
 - Typowa gwarancja: 2-5 lat systemowo
 - Notatka: Zakres zwykle nie obejmuje wszystkich transformatorów, sterowania i prac elektrycznych w nietypowych realizacjach.
 
-#### Folie antykolizyjne
+#### Folie i oznaczenia antykolizyjne na szyby
 - URL: https://folielumera.pl/folie-antykolizyjne
 - Orientacyjna cena brutto: 190-420 zl/m2
 - Typowa gwarancja: 3-7 lat
@@ -1146,19 +1146,19 @@ Może wyraźnie poprawić komfort, zwłaszcza gdy światło wpada od góry i prz
 
 ---
 
-## Folie okienne anty UV
+## Folie anty-UV na okna — ochrona wyposażenia i witryn
 
 URL: https://folielumera.pl/folie-anty-uv
 
-Opis SEO: Folie anty UV chronią wyposażenie, tkaniny i ekspozycje przed promieniowaniem UV, zachowując naturalne światło w pomieszczeniu.
+Opis SEO: Clear, Clear Premium, Total i Amber: porównaj przepuszczanie przy 380–500 nm, ochronę UV i jasność. Dobór folii do witryn i mieszkań z montażem Lumera.
 
 ### Krótki Opis
 
-Przezroczyste lub delikatne folie chroniące wnętrze przed szkodliwym promieniowaniem UV i blaknięciem materiałów.
+Najpierw zakres filtrowania, potem jasność i wygląd. Zobacz różnice przy 380, 400 i 420 nm.
 
 ### Lead
 
-Folie anty UV to dobre rozwiązanie dla osób, które chcą chronić meble, podłogi, tkaniny i ekspozycje przed płowieniem, bez wyraźnego ograniczania światła dziennego. Dobrze sprawdzają się zarówno w domach, jak i w przestrzeniach komercyjnych.
+Chcesz ograniczyć wpływ promieniowania na podłogę, meble lub towary przy witrynie? Porównaj, co przepuszczają Clear, Clear Premium, Total i Amber przy konkretnych długościach fali. Sam procent ochrony UV nie pokazuje różnic na granicy UV i światła widzialnego. Wykresy pomagają dobrać zakres filtrowania do Twojej ekspozycji.
 
 ### Cena I Gwarancja
 - Orientacyjna cena brutto: 100-295 zl/m2
@@ -1166,74 +1166,116 @@ Folie anty UV to dobre rozwiązanie dla osób, które chcą chronić meble, pod�
 - Uwaga: finalna wycena zależy od rodzaju szyby, warunków montażu, wymiarów, dostępu i zakresu prac.
 
 ### Korzyści
-- ochrona przed promieniowaniem UV
-- mniejsze ryzyko blaknięcia kolorów we wnętrzu
-- zachowanie wysokiej przejrzystości szyby
+- Zestaw zakres filtrowania z jasnością wnętrza. Clear i Clear Premium mają podobne VLT, ale ich wykresy różnią się przy końcu pasma UV. To istotniejsza różnica niż sama nazwa wariantu.
+- Porównaj przepuszczanie w okolicy 380–420 nm oraz czytelność ekspozycji. Total ogranicza większą część fioletowego zakresu niż Clear i Clear Premium. Jeśli problemem jest też gorąco, sprawdzamy osobno parametry przeciwsłoneczne.
+- Dobór zacznij od wymagań eksponatu. Amber ogranicza również część krótkofalowego światła widzialnego, co wyjaśnia jej bursztynowy wygląd. Takie filtrowanie nie zastępuje kontroli oświetlenia i czasu ekspozycji.
 
 ### Najczęstsze Zastosowania
-- mieszkania z dużą ilością naturalnego światła
-- salony, w których chronimy podłogi i wyposażenie
-- przestrzenie komercyjne z produktami narażonymi na płowienie
+- Anty UV Clear
+- Anty UV Clear Premium
+- Anty UV Total
+- Anty UV Amber
 
 ### Parametry I Przygotowanie
-- Redukcja promieniowania UV: bardzo wysoka, zależna od modelu
-- Wpływ na światło dzienne: niski przy foliach transparentnych
-- Montaż: najczęściej wewnętrzny
-- Zastosowanie: domy, salony sprzedaży, gabinety, ekspozycje
+- Co ma być chronione i czy zależy Ci na wiernym odbiorze kolorów.
+- Zdjęcia, oznaczenia pakietu i wymiary każdej tafli.
+- Liczba szyb, ekspozycja, miejscowość i informacja o starej folii.
 
 ### Efekt I Właściwości
-Ochrona przed UV bez ciężkiego przyciemnienia
+Ochrona UV nie oznacza całkowitego zatrzymania blaknięcia
 
-Folia anty UV jest dla osób, które chcą chronić wnętrze przed płowieniem, ale nie chcą wyraźnie zmieniać wyglądu szyby ani rezygnować ze światła dziennego.
+Na zmianę koloru wpływają również światło widzialne, temperatura oraz właściwości samego przedmiotu. Folia ogranicza jeden z czynników. Gwarancja materiału nie jest gwarancją zachowania koloru mebli lub towaru.
 
-- Efekt wizualny: najczęściej transparentny lub bardzo subtelny
-- UV: wysoka redukcja promieniowania UV zależnie od modelu
-- Światło dzienne: w dużej mierze zachowane
-- Ochrona wnętrza: mniejsze ryzyko blaknięcia mebli, podłóg i ekspozycji
+- Widmo / nm: Pokazuje różnice w zakresie filtrowania
+- Transmisja / %: Ile przechodzi przy danej długości fali
+- VLT / %: Zbiorcza przepuszczalność światła widzialnego
+- Dobór: Zakres ochrony, ekspozycja i zgodność z szybą
 
-### Dla Kogo To Dobry Wybór
-- salony z drewnianą podłogą i meblami przy oknach
-- sklepy, galerie i ekspozycje produktów
-- wnętrza, w których światło jest potrzebne, ale UV jest problemem
+### Dobór W Praktyce
+#### Podłoga, meble i tekstylia
+Zestaw zakres filtrowania z jasnością wnętrza. Clear i Clear Premium mają podobne VLT, ale ich wykresy różnią się przy końcu pasma UV. To istotniejsza różnica niż sama nazwa wariantu.
 
-### Przed Montażem
-- folia anty UV ogranicza ważny czynnik blaknięcia, ale nie eliminuje wszystkich przyczyn starzenia materiałów
-- jeśli problemem jest także upał, warto rozważyć folię przeciwsłoneczną
-- najlepszy efekt daje montaż na czystej, nieuszkodzonej szybie
+#### Towary na witrynie
+Porównaj przepuszczanie w okolicy 380–420 nm oraz czytelność ekspozycji. Total ogranicza większą część fioletowego zakresu niż Clear i Clear Premium. Jeśli problemem jest też gorąco, sprawdzamy osobno parametry przeciwsłoneczne.
 
-### Decyzja
-Folia anty UV jest dobrym wyborem, gdy chcesz chronić wnętrze przed płowieniem, ale nie chcesz mocno zmieniać wyglądu okna. Najczęściej wybierają ją właściciele mieszkań, salonów, ekspozycji i lokali usługowych.
+#### Wystawa i wrażliwe przedmioty
+Dobór zacznij od wymagań eksponatu. Amber ogranicza również część krótkofalowego światła widzialnego, co wyjaśnia jej bursztynowy wygląd. Takie filtrowanie nie zastępuje kontroli oświetlenia i czasu ekspozycji.
 
-### Kiedy Wybrać
-- meble, podłogi lub tkaniny blakną od słońca
-- chcesz zachować możliwie naturalne światło
-- ważna jest ochrona ekspozycji, produktów albo wyposażenia
+### Nie tylko „99% UV”. Zobacz, co przepuszcza każda folia
+Wybierz długość fali i porównaj odczyty z wykresów. Im niższe przepuszczanie, tym mniej promieniowania o tej konkretnej długości przechodzi przez badaną próbkę. Wynik w jednym punkcie nie opisuje ochrony całego wyposażenia.
 
-### Kiedy Rozważyć Inną Opcję
-- jeśli problemem jest głównie upał, lepsza może być folia przeciwsłoneczna
-- jeśli potrzebujesz prywatności, wybierz folię matową, mrożoną albo lustrzaną
-- sama ochrona UV nie rozwiązuje każdego problemu z nagrzewaniem
+#### Anty UV Clear
+Najwcześniejsze przejście do wysokiego przepuszczania spośród porównywanych wykresów. Wzrost jest widoczny już około 370–400 nm.
+- Przepuszczanie przy 380 nm: ok. 15%
+- Przepuszczanie przy 400 nm: ok. 75%
+- Przepuszczanie przy 420 nm: ok. 85–90%
+- Przepuszczanie przy 450 nm: ok. 85–90%
+- Przepuszczanie przy 500 nm: ok. 85–90%
 
-### Montaż, Użytkowanie I Pielęgnacja
-- czyść szybę delikatnie, bez ostrych narzędzi
-- nie stosuj preparatów ściernych
-- pamiętaj, że ochrona UV ogranicza jeden z głównych powodów płowienia, ale nie wszystkie czynniki starzenia materiałów
+#### Anty UV Clear Premium
+Przejście przesunięte w stronę dłuższych fal względem Clear. Przy 380 nm wykres pozostaje blisko zera, lecz przy 400 nm przepuszczanie już rośnie.
+- Przepuszczanie przy 380 nm: blisko 0%
+- Przepuszczanie przy 400 nm: ok. 40–45%
+- Przepuszczanie przy 420 nm: ok. 80–85%
+- Przepuszczanie przy 450 nm: ok. 85–90%
+- Przepuszczanie przy 500 nm: ok. 85–90%
+
+#### Anty UV Total
+Niskie przepuszczanie utrzymuje się dłużej niż w Clear i Clear Premium. Wyraźny wzrost przypada na około 410–450 nm, obejmując część fioletu.
+- Przepuszczanie przy 380 nm: blisko 0%
+- Przepuszczanie przy 400 nm: blisko 0%
+- Przepuszczanie przy 420 nm: ok. 15–20%
+- Przepuszczanie przy 450 nm: ok. 65–70%
+- Przepuszczanie przy 500 nm: ok. 65–70%
+
+#### Anty UV Amber
+Niskie przepuszczanie obejmuje również część światła widzialnego. Silny wzrost następuje dopiero około 510–580 nm. To wyjaśnia bursztynowy odcień i odmienny zakres zastosowania.
+- Przepuszczanie przy 380 nm: ok. 1–3%
+- Przepuszczanie przy 400 nm: ok. 7–9%
+- Przepuszczanie przy 420 nm: ok. 8–9%
+- Przepuszczanie przy 450 nm: ok. 4–6%
+- Przepuszczanie przy 500 nm: ok. 5–7%
+
+Wartości są orientacyjnym odczytem z czterech wykresów materiałowych, nie wynikiem pomiarów Lumera ani dokładnymi danymi laboratoryjnymi. „Blisko 0%” nie oznacza idealnego zera. Wykres Amber ma skalę 0–1: np. 0,1 oznacza 10%. Nie wyliczamy z tych rysunków średniej ochrony UV ani dokładnej granicy odcięcia. UV-A zwyczajowo obejmuje 315–400 nm; granica z zakresem widzialnym jest umowna.
+
+### Cztery folie anty-UV — co je różni?
+Model: Anty UV Clear; Ochrona UV*: 99%; Światło VLT*: 84%; Kierunek wyboru: Jasny wariant; na wykresie przy 380 nm przepuszcza ok. 15%, a przy 400 nm ok. 75%.
+Model: Anty UV Clear Premium; Ochrona UV*: 99,5%; Światło VLT*: 83%; Kierunek wyboru: Podobna jasność do Clear, ale mniejsze przepuszczanie przy 380–400 nm.
+Model: Anty UV Total; Ochrona UV*: 99,9%; Światło VLT*: 71%; Kierunek wyboru: Przy 400 nm przepuszczanie pozostaje bliskie zeru; przy 420 nm wynosi ok. 15–20%.
+Model: Anty UV Amber; Ochrona UV*: 99,5%; Światło VLT*: 57%; Kierunek wyboru: Ogranicza także część światła widzialnego: przy 450 i 500 nm przepuszcza tylko kilka procent.
+* Ochrona UV i VLT według kart materiałów; wartości dla poszczególnych długości fali są przybliżonym odczytem z dostarczonych wykresów. Dokumenty wykresowe nie opisują metody wyznaczenia zbiorczego procentu UV, dlatego nie utożsamiamy go z ochroną w każdym punkcie widma. Wszystkie cztery modele są do montażu wewnętrznego. Zgodność z szybą potwierdzamy osobno.
+
+### Anty-UV czy przeciwsłoneczna?
+- Chcesz chronić wyposażenie: Porównaj przebieg filtrowania przy 380–500 nm i wymagania chronionego materiału. Następnie sprawdź VLT i wygląd. Nie ma jednego najlepszego modelu dla każdej ekspozycji.
+- W pomieszczeniu jest za gorąco: Przejdź także do folii przeciwsłonecznych. Ocenę oprzyj na parametrach słonecznych i rodzaju przeszklenia.
+- Masz nowe okna z powłoką: Przygotuj oznaczenia pakietu. Istniejące szkło może już ograniczać UV, a dodatkowy materiał wymaga sprawdzenia kompatybilności.
+
+[Dobierz ochronę UV do swojej witryny lub mieszkania](https://folielumera.pl/kontakt?temat=anti-uv)
 
 ### FAQ
-#### Czy folia anty UV przyciemnia okno?
-Nie musi. Wiele folii anty UV jest bardzo transparentnych i ma minimalny wpływ na wygląd szyby.
+#### Dlaczego samo „99% ochrony UV” nie wystarcza do porównania folii?
+Zbiorczy parametr nie pokazuje, jak przepuszczanie zmienia się w każdym punkcie widma. Na dostarczonych wykresach Clear, Clear Premium i Total wyraźnie różnią się w okolicy 380–420 nm, a Amber ogranicza także część światła widzialnego. Do porównania potrzebne są zakres pomiaru, metoda i przebieg wykresu.
 
-#### Czy folia ochroni meble przed blaknięciem?
-Pomaga ograniczyć promieniowanie UV, które jest jedną z głównych przyczyn blaknięcia. Na kolor wpływa też światło widzialne i temperatura.
+#### Czy 75% przy 400 nm oznacza 75% ochrony UV?
+Nie. Oś wykresu opisuje przepuszczanie, czyli transmisję. Około 75% przy 400 nm oznacza, że przez badaną próbkę przechodzi około 75% promieniowania o tej konkretnej długości fali. Nie jest to zbiorczy wynik dla całego UV ani VLT.
 
-#### Czy folię anty UV warto montować w sklepie?
-Tak, szczególnie przy witrynach i ekspozycjach, gdzie produkty przez wiele godzin są wystawione na światło.
+#### Co odróżnia Amber poza bursztynowym kolorem?
+Jej wykres pokazuje niskie przepuszczanie również przy 420, 450 i 500 nm. Silniejszy wzrost pojawia się dopiero około 510–580 nm. Oznacza to ograniczanie części światła widzialnego, które trzeba zestawić z wymaganiami ekspozycji i odbiorem barw.
 
-#### Czy folia anty UV chroni skórę przed promieniowaniem przez szybę?
-Może ograniczać promieniowanie UV przechodzące przez szybę, ale nie zastępuje pełnej ochrony przeciwsłonecznej. Jej główną rolą jest ochrona wnętrza i ekspozycji przed płowieniem.
+#### Czy folia anty-UV musi przyciemniać okno?
+Nie musi przyciemniać go mocno. Clear ma deklarowane VLT 84%, a Clear Premium 83%. Total przepuszcza 71%, Amber 57%. Każdy materiał może zmienić optykę szyby, dlatego wygląd oceniamy przed wyborem.
 
-#### Czy folia anty UV jest potrzebna, jeśli mam nowe okna?
-To zależy od parametrów pakietu szybowego i tego, co chcesz chronić. Przy cennych podłogach, meblach lub ekspozycji warto sprawdzić, czy dodatkowa ochrona UV ma sens.
+#### Czy folia zatrzyma blaknięcie mebli i podłogi?
+Może ograniczyć wpływ UV, ale nie usuwa wszystkich przyczyn blaknięcia. Znaczenie mają też światło widzialne, ciepło, czas ekspozycji i właściwości materiału.
+
+#### Czy folia anty-UV pomoże na upał?
+Sam parametr UV nie mówi, jak folia ogranicza nagrzewanie. Przy problemie gorąca porównaj także folie przeciwsłoneczne i ich parametry słoneczne.
+
+#### Czy Amber zmienia kolory ekspozycji?
+Amber ma bursztynowy odcień i niższą przepuszczalność światła niż pozostałe porównywane modele. Przy wymaganiach dotyczących wiernego oddania barw trzeba ocenić ten efekt przed montażem.
+
+#### Od czego zależy cena folii anty-UV z montażem?
+Od modelu, powierzchni i liczby tafli, przygotowania szkła, dostępu oraz ewentualnego usuwania starej folii. W wycenie określamy materiał, aplikację i uzgodnione prace dodatkowe.
 
 ---
 
@@ -1859,19 +1901,19 @@ Może poprawić zachowanie szyby po uderzeniu, ale nie naprawia uszkodzonego lub
 
 ---
 
-## Folie anty-podsłuchowe
+## Folie ekranujące na szyby — dobór rozwiązań antypodsłuchowych
 
 URL: https://folielumera.pl/folie-anty-podsluchowe
 
-Opis SEO: Folie anty-podsłuchowe i specjalistyczne folie prywatności wspierają ochronę poufnych rozmów oraz ograniczają obserwację wnętrza.
+Opis SEO: Ekranowanie RF a prywatność, akustyka i podsłuch laserowy. Sprawdź, jak określić wymagania dla folii na szyby i omówić zakres projektu z Lumera.
 
 ### Krótki Opis
 
-Rozwiązania wspierające prywatność i ograniczające możliwość obserwacji lub odczytu informacji przez szyby.
+Określ wymagania ekranowania. Dopasowanie materiału wymaga dokumentacji i oceny przeszkleń.
 
 ### Lead
 
-Folie anty-podsłuchowe dobiera się do przestrzeni, w których liczy się większa poufność i ochrona informacji. Mogą wspierać prywatność wizualną oraz ograniczać komfort obserwacji wnętrza z zewnątrz, szczególnie w biurach, gabinetach i strefach poufnych.
+Przy foliach określanych jako antypodsłuchowe najpierw ustalamy, jakie zjawisko ma być ograniczone. Tłumienie sygnału radiowego nie oznacza izolacji dźwięku ani automatycznej ochrony przed podsłuchem laserowym. Dobór zaczynamy od wymagań technicznych, a nie od ogólnej obietnicy bezpieczeństwa.
 
 ### Cena I Gwarancja
 - Orientacyjna cena brutto: 690-1900 zl/m2
@@ -1879,90 +1921,86 @@ Folie anty-podsłuchowe dobiera się do przestrzeni, w których liczy się więk
 - Uwaga: finalna wycena zależy od rodzaju szyby, warunków montażu, wymiarów, dostępu i zakresu prac.
 
 ### Korzyści
-- większa poufność w przestrzeniach biurowych i gabinetowych
-- ograniczenie możliwości obserwacji wnętrza
-- dobre uzupełnienie stref wymagających prywatności
+- Przewodząca warstwa wybranych folii może tłumić fale elektromagnetyczne. Wynik zależy od częstotliwości, materiału i warunków instalacji. Parametr folii nie opisuje szczelności całego pomieszczenia.
+- Ograniczenie wglądu przez szybę jest osobnym zadaniem. Mat, lustro i folia LCD mają różne działanie optyczne; sam efekt zasłonięcia nie potwierdza właściwości ekranowania RF.
+- Tłumienie RF nie jest dowodem izolacyjności akustycznej ani ochrony przed odczytem drgań szyby. Takie wymagania trzeba rozpatrywać osobno, z dokumentacją dotyczącą konkretnej metody.
 
 ### Najczęstsze Zastosowania
-- sale spotkań i gabinety zarządcze
-- biura z poufną dokumentacją lub rozmowami
-- strefy wymagające dodatkowej prywatności wizualnej
+- Jakie sygnały mają być tłumione?
+- Czy oceniana jest szyba czy pomieszczenie?
+- Jak zostanie potwierdzony efekt?
+- Czy potrzebujesz Wi-Fi i telefonii?
 
 ### Parametry I Przygotowanie
-- Główna korzyść: wsparcie prywatności i poufności
-- Zastosowanie: biura, gabinety, sale spotkań
-- Dobór: zależny od charakteru przeszklenia i oczekiwanego efektu
-- Montaż: według zaleceń dla wybranej folii specjalistycznej
+- Ogólny cel i typ pomieszczenia, bez informacji poufnych.
+- Wymagany zakres częstotliwości i tłumienie, jeśli są określone.
+- Orientacyjna powierzchnia, rodzaj szyb, lokalizacja i wymagania łączności.
 
 ### Efekt I Właściwości
-Więcej poufności w przeszklonych pomieszczeniach
+Najpierw wymagania, następnie konkretny materiał
 
-To kategoria dla miejsc, w których prywatność nie jest tylko kwestią komfortu, ale też bezpieczeństwa informacji i ograniczenia widoczności.
+Przykładowo zapis „30 dB przy 1 GHz” opisuje tłumienie dla wskazanej częstotliwości i warunków badania. Nie oznacza „30 dB dla wszystkiego” ani gwarancji ochrony przed każdą techniką podsłuchu. Model i deklarowane parametry wskazujemy dopiero po dopasowaniu zakresu projektu.
 
-- Efekt: zależny od wybranego rozwiązania specjalistycznego
-- Prywatność: ograniczenie obserwacji i wsparcie poufności
-- Zastosowanie: gabinety, sale spotkań, strefy zarządcze
-- Dobór: indywidualny, po określeniu ryzyka i oczekiwań
+- Jednostka tłumienia: dB wraz z częstotliwością
+- Podstawa doboru: Dokumentacja konkretnego materiału
+- Zakres ochrony: Ustalany dla danego zastosowania
+- Odbiór: Kryteria do uzgodnienia przed pracami
 
-### Dla Kogo To Dobry Wybór
-- gabinety, w których prowadzi się poufne rozmowy
-- sale konferencyjne i zarządcze
-- biura z dokumentacją lub danymi widocznymi przez przeszklenia
+### Dobór W Praktyce
+#### Ekranowanie radiowe RF
+Przewodząca warstwa wybranych folii może tłumić fale elektromagnetyczne. Wynik zależy od częstotliwości, materiału i warunków instalacji. Parametr folii nie opisuje szczelności całego pomieszczenia.
 
-### Przed Montażem
-- najpierw trzeba określić, czy problemem jest widoczność, podsłuch, czy oba aspekty
-- często warto połączyć kilka rozwiązań: folię, organizację przestrzeni i zasłonięcie widoku
-- opis efektu powinien być ustalony przed doborem konkretnej folii
+#### Prywatność wizualna
+Ograniczenie wglądu przez szybę jest osobnym zadaniem. Mat, lustro i folia LCD mają różne działanie optyczne; sam efekt zasłonięcia nie potwierdza właściwości ekranowania RF.
 
-### Decyzja
-Folie anty-podsłuchowe są rozwiązaniem specjalistycznym dla miejsc, w których prywatność rozmów i danych ma duże znaczenie. Stosuje się je w biurach, gabinetach, salach spotkań i przestrzeniach wymagających większej kontroli.
+#### Akustyka i podsłuch laserowy
+Tłumienie RF nie jest dowodem izolacyjności akustycznej ani ochrony przed odczytem drgań szyby. Takie wymagania trzeba rozpatrywać osobno, z dokumentacją dotyczącą konkretnej metody.
 
-### Kiedy Wybrać
-- pomieszczenie służy do poufnych rozmów lub spotkań
-- chcesz ograniczyć ryzyko niepożądanego przechwytywania informacji
-- szyby są częścią biura, gabinetu lub sali konferencyjnej
+### Jak czytać wymagania zamiast obietnicy „antypodsłuchowej”?
+Pytanie projektowe: Jakie sygnały mają być tłumione?; Potrzebna informacja: Zakres częstotliwości i wymagane tłumienie w dB.; Czego nie zakładamy: Jeden wynik pomiaru nie dotyczy każdej częstotliwości.
+Pytanie projektowe: Czy oceniana jest szyba czy pomieszczenie?; Potrzebna informacja: Zakres przeszkleń, sposób połączeń i pozostałe elementy obudowy.; Czego nie zakładamy: Folia na szybie nie zapewnia sama szczelności całego obiektu.
+Pytanie projektowe: Jak zostanie potwierdzony efekt?; Potrzebna informacja: Dokumentacja materiału oraz uzgodnione kryteria odbioru.; Czego nie zakładamy: Nie zastępujemy pomiarów deklaracją marketingową.
+Pytanie projektowe: Czy potrzebujesz Wi-Fi i telefonii?; Potrzebna informacja: Wymagania dotyczące łączności wewnątrz.; Czego nie zakładamy: Ekranowanie może wpływać także na pożądane sygnały.
 
-### Kiedy Rozważyć Inną Opcję
-- jeśli potrzebujesz tylko wizualnej prywatności, wystarczy folia matowa
-- jeśli problemem jest słońce, dobierz folię przeciwsłoneczną
-- dobór powinien uwzględniać cały kontekst pomieszczenia, nie tylko szybę
 
-### Montaż, Użytkowanie I Pielęgnacja
-- nie naruszaj powierzchni ani krawędzi folii
-- czyść delikatnie, bez agresywnych detergentów
-- przy pomieszczeniach poufnych warto traktować folię jako element szerszego zabezpieczenia
+### Jak przygotować projekt ekranowania szkła?
+- 1. Określ cel: Podaj ogólny typ obiektu i wymaganie: RF, wgląd czy inne zjawisko. Na pierwszy kontakt nie przesyłaj poufnych planów ani procedur.
+- 2. Ustal zakres: Oceniamy rodzaj szyb, powierzchnię i dostęp. Zakres folii zestawiamy z wymaganiami dla pozostałych elementów obiektu.
+- 3. Potwierdź dokumentację: Przed decyzją ustalamy model, parametry i warunki montażu. Jeśli potrzebne są pomiary, ich zakres i wykonawcę należy uzgodnić oddzielnie.
+
+[Omów wymagania ekranowania przeszkleń](https://folielumera.pl/kontakt?temat=anti-eavesdropping)
 
 ### FAQ
-#### Czy folia anty-podsłuchowa całkowicie blokuje podsłuch?
-Nie należy traktować jej jako jedynego zabezpieczenia. Może wspierać prywatność, ale dobór zależy od konkretnego ryzyka.
+#### Czy folia ekranująca zabezpiecza przed każdym podsłuchem?
+Nie. Właściwości RF, akustyka, prywatność wizualna i podsłuch laserowy to różne zagadnienia. Każdy deklarowany zakres wymaga odpowiedniej dokumentacji; sam parametr ekranowania radiowego nie potwierdza pozostałych.
 
-#### Czy taka folia ogranicza widoczność przez szybę?
-Wiele rozwiązań specjalistycznych poprawia prywatność wizualną, ale efekt zależy od typu folii i oświetlenia.
+#### Czy folia może osłabić Wi-Fi lub zasięg telefonu?
+Może wpływać na przenikanie sygnałów w zależności od częstotliwości, materiału i instalacji. Potrzeby łączności trzeba uwzględnić już przy ustalaniu wymagań.
 
-#### Gdzie najczęściej stosuje się folie anty-podsłuchowe?
-W gabinetach, salach spotkań, biurach zarządu i miejscach, gdzie rozmowy lub dokumenty powinny pozostać poufne.
+#### Czy wystarczy okleić szyby w sali konferencyjnej?
+Nie można tego założyć. Sygnały mogą przenikać także przez inne elementy obudowy i połączenia. Wymagania dla całego pomieszczenia wymagają szerszej oceny niż dobór folii na szkło.
 
-#### Czy folia anty-podsłuchowa jest widoczna dla klientów?
-To zależy od typu folii. Część rozwiązań może wyglądać neutralnie, inne zmieniają odbiór szyby. Dobór powinien uwzględniać prywatność i estetykę miejsca.
+#### Czy folia ekranująca zasłoni wnętrze?
+Nie musi. Efekt optyczny zależy od modelu i wymaga osobnego sprawdzenia. Jeśli potrzebujesz ograniczenia wglądu, opisz je dodatkowo przy zapytaniu.
 
-#### Czy taka folia wystarczy do zabezpieczenia poufnego gabinetu?
-Nie powinna być jedynym zabezpieczeniem. W pomieszczeniach poufnych warto traktować ją jako jeden z elementów większego systemu ochrony informacji.
+#### Czy otrzymam gwarancję określonego tłumienia w pomieszczeniu?
+Nie wynika ona automatycznie z karty folii. Wymagania, warunki instalacji, dokumentację i ewentualne pomiary odbiorcze należy uzgodnić dla konkretnego projektu przed zleceniem.
 
 ---
 
-## Folie termoizolacyjne
+## Folie termoizolacyjne na okna — dobór i montaż
 
 URL: https://folielumera.pl/folie-termoizolacyjne
 
-Opis SEO: Folie termoizolacyjne Low-E pomagają ograniczać straty ciepła przez starsze szyby i zmniejszać odczucie zimnej szyby.
+Opis SEO: Zimna szyba czy nieszczelne okno? Sprawdź zastosowanie folii Low-E, parametry Eco-Termic i warunki montażu. Kraków, Katowice i okolice.
 
 ### Krótki Opis
 
-Wtórna warstwa Low-E dla szyb, przy których zimą wyraźnie czuć chłód od przeszklenia.
+Zaczynamy od oceny okna. Dopiero potem dobieramy folię i zakres montażu.
 
 ### Lead
 
-Folie termoizolacyjne dobiera się przede wszystkim do starszych szyb i pakietów, które słabo trzymają ciepło. Nie są zamiennikiem folii przeciwsłonecznych - ich zadaniem jest poprawa komfortu przy oknie w chłodniejszych okresach.
+Czujesz chłód przy zamkniętym oknie? Folia termoizolacyjna Low-E może poprawić komfort przy wybranych przeszkleniach. Najpierw sprawdzamy jednak, czy problemem jest sama szyba, nieszczelność czy stan całego okna. Od tego zależy sens montażu.
 
 ### Cena I Gwarancja
 - Orientacyjna cena brutto: 195-245 zl/m2
@@ -1970,74 +2008,68 @@ Folie termoizolacyjne dobiera się przede wszystkim do starszych szyb i pakietó
 - Uwaga: finalna wycena zależy od rodzaju szyby, warunków montażu, wymiarów, dostępu i zakresu prac.
 
 ### Korzyści
-- mniejsze odczucie zimnej szyby w pobliżu okna
-- rozwiązanie dla szyb bez nowoczesnych powłok izolacyjnych
-- dobór poprzedzony oceną typu pakietu szybowego
+- Jeśli przy zamkniętym, szczelnym oknie odczuwasz chłód od tafli, warto ocenić jego izolacyjność. Folia Low-E ogranicza wymianę ciepła przez promieniowanie; rezultat zależy od budowy istniejącego przeszklenia.
+- Ruch zimnego powietrza przy uszczelce lub skrzydle wymaga sprawdzenia regulacji i szczelności. Folia naklejona na szybę nie uszczelnia połączeń okna.
+- Przy skraplaniu pary trzeba ocenić wilgotność, wentylację i temperaturę powierzchni. Nie traktuj folii jako uniwersalnego sposobu na kondensację.
 
 ### Najczęstsze Zastosowania
-- mieszkania w starszej zabudowie
-- pomieszczenia z miejscem pracy lub siedzenia tuż przy oknie
-- lokale, w których wymiana szyb nie jest możliwa od razu
+- Szyba pojedyncza
+- Starszy pakiet dwuszybowy
+- Nowoczesny pakiet Low-E
 
 ### Parametry I Przygotowanie
-- Typ: folia niskoemisyjna nakładana na istniejącą szybę
-- Najpierw sprawdzamy: wiek okna, liczbę szyb i obecność powłok
-- Nie rekomendujemy w ciemno: nowe pakiety mogą już mieć podobną funkcję
-- Cel: poprawa komfortu bez wymiany całej stolarki
+- Zdjęcie całego okna i oznaczeń na ramce dystansowej.
+- Przybliżony wiek okna, liczba szyb oraz opis odczuwanego chłodu.
+- Wymiary tafli, liczba okien, ekspozycja i miejscowość.
 
 ### Efekt I Właściwości
-Jak działa powłoka niskoemisyjna na szybie?
+Eco-Termic: komfort cieplny i widoczna zmiana optyki
 
-Warstwa Low-E ogranicza wypromieniowywanie ciepła przez szkło. W praktyce najpierw sprawdza się, czy dana szyba nie ma już fabrycznej powłoki o podobnym zadaniu, bo od tego zależy sens montażu.
+Materiał ma błękitno-złoty odcień i przepuszcza 45% światła widzialnego według karty produktu. Oznacza to zauważalną zmianę jasności. Parametry folii nie są obietnicą określonej oszczędności energii w całym mieszkaniu.
 
-- Montaż: na istniejącą szybę, bez wymiany całego okna
-- Ocena: wiek pakietu, liczba szyb i obecne powłoki
-- Komfort: mniej nieprzyjemnej strefy chłodu przy przeszkleniu
-- Granica opłacalności: nowoczesne okna często mają już bardzo dobre parametry
+- Światło widzialne (VLT): 45%
+- Ochrona UV według karty: 99%
+- Montaż: Od wewnątrz
+- Gwarancja materiału według karty: 10 lat — warunki do potwierdzenia
 
-### Dla Kogo To Dobry Wybór
-- starsze mieszkania, gdzie okna nie będą od razu wymieniane
-- biurka, kanapy lub stoły ustawione blisko przeszklenia
-- lokale, w których komfort przy witrynie spada w chłodnych miesiącach
+### Dobór W Praktyce
+#### Chłód od powierzchni szyby
+Jeśli przy zamkniętym, szczelnym oknie odczuwasz chłód od tafli, warto ocenić jego izolacyjność. Folia Low-E ogranicza wymianę ciepła przez promieniowanie; rezultat zależy od budowy istniejącego przeszklenia.
 
-### Przed Montażem
-- najpierw warto ustalić wiek i typ szyby oraz czy pakiet ma już powłokę Low-E
-- folia nie zastępuje wymiany okien, tylko koryguje parametry istniejącej szyby
-- przy nowych oknach trzyszybowych korzyść może być mała lub praktycznie niezauważalna
+#### Przeciąg przy ramie
+Ruch zimnego powietrza przy uszczelce lub skrzydle wymaga sprawdzenia regulacji i szczelności. Folia naklejona na szybę nie uszczelnia połączeń okna.
 
-### Decyzja
-Przy foliach termoizolacyjnych najważniejsza jest kwalifikacja okna. Jeśli pakiet szybowy ma już dobre parametry, dodatkowa warstwa może dać niewielką różnicę.
+#### Wilgoć i zaparowane szyby
+Przy skraplaniu pary trzeba ocenić wilgotność, wentylację i temperaturę powierzchni. Nie traktuj folii jako uniwersalnego sposobu na kondensację.
 
-### Kiedy Wybrać
-- nie znasz parametrów szyb i chcesz je najpierw zweryfikować
-- miejsca przy oknach są trudne do użytkowania zimą
-- szukasz rozwiązania pośredniego przed kosztowną wymianą stolarki
+### Czy folia Low-E ma sens na Twoim oknie?
+Przeszklenie: Szyba pojedyncza; Od czego zaczynamy: Stan szkła, wymiary, ekspozycja i warunki użytkowania.; Kierunek decyzji: Warto rozważyć folię oraz porównać ją z modernizacją przeszklenia.
+Przeszklenie: Starszy pakiet dwuszybowy; Od czego zaczynamy: Oznaczenia pakietu i obecność powłok.; Kierunek decyzji: Oceniamy zgodność folii oraz spodziewany sens montażu.
+Przeszklenie: Nowoczesny pakiet Low-E; Od czego zaczynamy: Dokumentacja szyby i istniejące powłoki niskoemisyjne.; Kierunek decyzji: Nie zakładamy dodatkowej korzyści bez oceny konkretnego pakietu.
 
-### Kiedy Rozważyć Inną Opcję
-- przy typowym problemie letniego upału wybierz folię przeciwsłoneczną, nie termoizolacyjną
-- jeśli zależy Ci głównie na prywatności, wybierz folię matową lub lustrzaną
-- jeśli masz nowe okna trzyszybowe o niskim współczynniku U, efekt może być zbyt mały
 
-### Montaż, Użytkowanie I Pielęgnacja
-- po montażu zachowaj czas potrzebny na pełne doschnięcie
-- nie stosuj środków ściernych ani ostrych narzędzi
-- przed montażem warto potwierdzić typ pakietu szybowego i istniejące powłoki
+### Folia, regulacja czy wymiana pakietu?
+- Folia na szybę: Rozważ przy problemie izolacyjności tafli, po sprawdzeniu zgodności. To inny produkt niż folia termokurczliwa mocowana do ramy.
+- Regulacja i uszczelnienie: Pierwszy kierunek przy przeciągach, zużytych uszczelkach i niedomykającym się skrzydle.
+- Wymiana przeszklenia: Kierunek do oceny, gdy pakiet jest uszkodzony lub planujesz szerszą poprawę parametrów okna.
+
+[Sprawdź, czy Twoje okna kwalifikują się do montażu](https://folielumera.pl/kontakt?temat=thermal)
 
 ### FAQ
-#### Czy folia termoizolacyjna zastąpi wymianę okien?
-Nie. Może być rozwiązaniem pośrednim, gdy wymiana stolarki nie jest planowana od razu, ale nie zmieni starego okna w nowoczesny pakiet trzyszybowy.
+#### Czy folia termoizolacyjna obniży rachunki o konkretny procent?
+Nie podajemy stałego procentu oszczędności. Wynik zależy od okien, powierzchni przeszkleń, ogrzewania i pozostałych strat ciepła budynku. Parametry jednego materiału nie opisują całego mieszkania.
 
-#### Czy folia termoizolacyjna jest folią przeciwsłoneczną?
-Nie. Jeśli problemem jest letni upał i odblaski, trzeba rozmawiać o foliach przeciwsłonecznych. Termoizolacyjna Low-E dotyczy głównie chłodu i bilansu cieplnego szyby.
+#### Czy można nakleić folię na szybę trzyszybową lub z powłoką Low-E?
+Wymaga to sprawdzenia dokumentacji pakietu i zgodności konkretnego materiału. Nowe okno może już mieć skuteczną powłokę niskoemisyjną, dlatego nie zakładamy, że dodatkowa folia przyniesie uzasadnioną korzyść.
 
-#### Czy taka folia jest widoczna?
-Może być prawie neutralna albo lekko zmieniać wygląd szyby. Dobór zależy od oczekiwanego efektu.
+#### Czy Eco-Termic będzie niewidoczna?
+Nie. Karta materiału podaje 45% przepuszczalności światła i błękitno-złoty odcień. Warto uwzględnić zmianę jasności i wyglądu szyby przed decyzją.
 
-#### Czy folia termoizolacyjna obniży rachunki za ogrzewanie?
-Może pomóc, ale nie warto obiecywać konkretnej kwoty bez audytu budynku. Na rachunki wpływają też ściany, dach, wentylacja, sposób ogrzewania i powierzchnia wszystkich przeszkleń.
+#### Czy folia usunie przeciągi i wilgoć?
+Nie naprawia uszczelek ani wentylacji. Najpierw ustalamy przyczynę problemu; przy nieszczelności lub kondensacji potrzebne mogą być inne działania.
 
-#### Czy folia termoizolacyjna pomoże w mieszkaniu z dużymi oknami?
-Może pomóc, jeśli przy oknach odczuwalny jest chłód lub szyby są starszego typu. Jeśli głównym problemem jest nagrzewanie latem, właściwszym kierunkiem będą folie przeciwsłoneczne.
+#### Co obejmuje wycena montażu folii termoizolacyjnej?
+Dobór materiału, przygotowanie szkła i aplikację ustalamy dla konkretnego okna. Wpływ na cenę mają wymiary, liczba tafli, dostęp i ewentualny demontaż starej folii. Zakres prac oraz warunki gwarancji potwierdzamy przed montażem.
 
 ---
 
@@ -2132,19 +2164,19 @@ Nie jako ekran projekcyjny. Sama folia tworzy powierzchnię pod obraz, ale do wy
 
 ---
 
-## Folie antykolizyjne
+## Folie i oznaczenia antykolizyjne na szyby
 
 URL: https://folielumera.pl/folie-antykolizyjne
 
-Opis SEO: Folie antykolizyjne pomagają ograniczyć zderzenia ptaków z szybami, zachowując estetykę elewacji, witryn i przeszkleń.
+Opis SEO: Oznaczenia szyb, balustrad i fasad dla ptaków. Zobacz znaczenie wzoru, rozmieszczenia i strony montażu. Dobór w Krakowie i Katowicach.
 
 ### Krótki Opis
 
-Specjalistyczne folie pomagające ograniczyć ryzyko zderzeń ptaków z szybami przy zachowaniu estetyki przeszkleń.
+Widoczny wzór na szkle, dobrany do rzeczywistego zagrożenia kolizją.
 
 ### Lead
 
-Folie antykolizyjne są przeznaczone do nowoczesnych przeszkleń, które mogą być nieczytelne dla ptaków. To rozwiązanie wspierające bezpieczeństwo przyrody i odpowiedzialne projektowanie elewacji oraz witryn bez pogarszania wyglądu szyby.
+Szyba może odbijać drzewa albo wyglądać jak otwarta droga przelotu. Oznaczenia antykolizyjne pomagają uczynić ją widoczną dla ptaków. O doborze decydują wzór, jego rozmieszczenie i strona aplikacji — sama obecność naklejki nie wystarcza.
 
 ### Cena I Gwarancja
 - Orientacyjna cena brutto: 190-420 zl/m2
@@ -2152,74 +2184,68 @@ Folie antykolizyjne są przeznaczone do nowoczesnych przeszkleń, które mogą b
 - Uwaga: finalna wycena zależy od rodzaju szyby, warunków montażu, wymiarów, dostępu i zakresu prac.
 
 ### Korzyści
-- zmniejszenie ryzyka zderzeń ptaków z szybą
-- zachowanie estetyki nowoczesnych przeszkleń
-- rozwiązanie przyjazne środowisku i architekturze
+- Drzewa odbite w elewacji mogą wyglądać jak dalsza część otoczenia. Dlatego znaczenie ma widoczność oznaczeń od strony, z której nadlatuje ptak.
+- Przezroczysta balustrada, narożnik lub przeszklenia naprzeciw siebie mogą tworzyć wrażenie wolnej drogi. Ocenie podlega cała powierzchnia zagrożenia.
+- Duże wolne odstępy pozostawiają miejsca wyglądające na możliwy przelot. Zalecenia ochrony ptaków wskazują na gęste, regularne oznaczenia widoczne na zewnętrznej powierzchni.
 
 ### Najczęstsze Zastosowania
-- przeszklone elewacje budynków
-- wiaty, witryny i nowoczesne fasady
-- obiekty, które chcą ograniczyć wpływ na środowisko
+- Okno domu lub ogród zimowy
+- Szklana balustrada lub wiata
+- Fasada lub witryna
 
 ### Parametry I Przygotowanie
-- Skuteczność referencyjna: do 80% redukcji ryzyka kolizji według przytoczonych badań
-- Wygląd szyby: bez wyraźnego wpływu na estetykę szkła
-- Zastosowanie: elewacje, witryny, przeszklenia narażone na kolizje ptaków
-- Typ produktu: folia specjalistyczna ochrony ptaków
+- Zdjęcia szkła od strony otoczenia i widok z wnętrza.
+- Wymiary, liczba tafli, wysokość oraz dostęp od zewnątrz.
+- Informacja, gdzie występowały kolizje i co odbija się w szybie.
 
 ### Efekt I Właściwości
-Szkło czytelniejsze dla ptaków
+Widoczność wzoru ma znaczenie
 
-Duże, czyste przeszklenia mogą być niewidoczne dla ptaków. Folie antykolizyjne wprowadzają oznaczenie lub wzór, który pomaga ograniczyć ryzyko zderzenia.
+Wzór powinien pozostać czytelny w rzeczywistym otoczeniu. Wytyczne ochrony ptaków często wskazują odstępy około 5 × 5 cm jako punkt odniesienia. Ostateczny rozstaw, wielkość i kontrast wynikają z wybranego systemu i jego dokumentacji. To wskazówka projektowa, a nie deklaracja skuteczności dowolnej folii.
 
-- Efekt: oznaczenie szyby widoczne dla ptaków
-- Estetyka: subtelna, dopasowana do architektury
-- Zastosowanie: fasady, witryny, balustrady i wiaty
-- Cel: zmniejszenie ryzyka kolizji z przeszkleniem
+- Najważniejsze: Wzór, kontrast i rozstaw
+- Strona oznaczenia: Preferowana zewnętrzna powierzchnia
+- Efekt wizualny: Oznaczenia pozostają widoczne
+- Skuteczność: Zależna od konkretnego systemu i warunków
 
-### Dla Kogo To Dobry Wybór
-- duże przeszklenia przy zieleni
-- witryny, ogrody zimowe i przeszklone elewacje
-- obiekty, które chcą poprawić bezpieczeństwo ptaków
+### Dobór W Praktyce
+#### Odbicie zieleni i nieba
+Drzewa odbite w elewacji mogą wyglądać jak dalsza część otoczenia. Dlatego znaczenie ma widoczność oznaczeń od strony, z której nadlatuje ptak.
 
-### Przed Montażem
-- ważny jest dobór wzoru i rozmieszczenia oznaczeń
-- problem kolizji rośnie przy odbiciach nieba, drzew i otoczenia
-- folię warto planować szczególnie na dużych, jednolitych szybach
+#### Pozornie otwarty przelot
+Przezroczysta balustrada, narożnik lub przeszklenia naprzeciw siebie mogą tworzyć wrażenie wolnej drogi. Ocenie podlega cała powierzchnia zagrożenia.
 
-### Decyzja
-Folie antykolizyjne pomagają oznaczyć szybę tak, aby była lepiej widoczna dla ptaków i ludzi. To szczególnie ważne przy dużych, przezroczystych przeszkleniach oraz elewacjach blisko zieleni.
+#### Pojedyncza sylwetka to za mało
+Duże wolne odstępy pozostawiają miejsca wyglądające na możliwy przelot. Zalecenia ochrony ptaków wskazują na gęste, regularne oznaczenia widoczne na zewnętrznej powierzchni.
 
-### Kiedy Wybrać
-- ptaki uderzają w szybę lub przeszklenie jest słabo widoczne
-- budynek ma duże tafle szkła przy ogrodzie, parku albo drzewach
-- chcesz poprawić bezpieczeństwo bez zasłaniania całej szyby
+### Wzór dobieramy do szkła i otoczenia
+Miejsce: Okno domu lub ogród zimowy; Co sprawdzamy: Odbicia roślin, widok przez kilka szyb i miejsca wcześniejszych kolizji.; Co trzeba ustalić: Powierzchnię oznaczenia, kontrast oraz możliwość aplikacji od zewnątrz.
+Miejsce: Szklana balustrada lub wiata; Co sprawdzamy: Przezierność szkła z różnych kierunków.; Co trzeba ustalić: Wzór obejmujący zagrożone tafle, a nie pojedynczy punkt.
+Miejsce: Fasada lub witryna; Co sprawdzamy: Odbicia, podziały elewacji i dostęp do szkła.; Co trzeba ustalić: System oznaczeń, jego dokumentację i zakres prac na wysokości.
 
-### Kiedy Rozważyć Inną Opcję
-- jeśli problemem jest prywatność, potrzebna będzie folia matowa lub lustrzana
-- jeśli chodzi o ochronę przed słońcem, wybierz folię przeciwsłoneczną
-- wzór i rozstaw oznaczeń powinny być dobrane do konkretnej szyby
 
-### Montaż, Użytkowanie I Pielęgnacja
-- oznaczenia powinny pozostać czyste i dobrze widoczne
-- nie szoruj wzoru ostrymi narzędziami
-- przy dużych elewacjach warto okresowo sprawdzać stan aplikacji
+### Ochrona ptaków i oznaczenie drzwi to różne zadania
+- Ptaki przy oknie: Potrzebny jest układ oznaczeń dobrany do ryzyka kolizji, odbić i dostępności zewnętrznej strony szkła.
+- Ludzie przy szklanych drzwiach: Pasy lub inne oznaczenia pomagają zauważyć przeszklenie. Ich rozmieszczenie nie oznacza automatycznie ochrony ptaków.
+- Dyskretna estetyka: Wybór kształtu i koloru uzgadniamy z wyglądem obiektu. Dyskrecja nie może oznaczać niewidocznego lub zbyt rzadkiego wzoru.
+
+[Prześlij zdjęcie przeszklenia — dobierzemy sposób oznaczenia](https://folielumera.pl/kontakt?temat=anti-collision)
 
 ### FAQ
-#### Czy folia antykolizyjna jest bardzo widoczna?
-Może być subtelna, ale musi być na tyle czytelna, aby spełniała swoją funkcję.
+#### Czy pojedyncza naklejka ptaka wystarczy?
+Nie należy zakładać, że pojedyncza sylwetka zabezpieczy całą taflę. Kluczowa jest widoczność oraz rozmieszczenie oznaczeń na zagrożonej powierzchni.
 
-#### Gdzie warto ją montować?
-Na dużych przeszkleniach, witrynach, elewacjach i szybach, w których odbijają się drzewa lub niebo.
+#### Dlaczego oznaczenia zwykle zaleca się od zewnątrz?
+Zewnętrzne oznaczenie jest widoczne przed odbiciem otoczenia na szkle. Wzór od środka może zostać przez to odbicie przesłonięty. Dostęp do zewnętrznej strony uwzględniamy w doborze.
 
-#### Czy folia antykolizyjna pogarsza widok przez szybę?
-Może być zauważalna, ale dobry dobór wzoru pozwala ograniczyć wpływ na estetykę i widoczność.
+#### Czy folia antykolizyjna gwarantuje brak zderzeń?
+Nie gwarantujemy całkowitego wyeliminowania kolizji ani uniwersalnej redukcji o określony procent. Parametry skuteczności wymagają dokumentacji konkretnego systemu i właściwej instalacji.
 
-#### Czy folia antykolizyjna jest potrzebna tylko przy dużych budynkach?
-Nie. Problem zderzeń ptaków może dotyczyć też domów, ogrodów zimowych, balustrad i mniejszych przeszkleń, zwłaszcza blisko zieleni.
+#### Czy można oznaczyć balustradę balkonową?
+Takie szkło może wymagać oznaczenia, szczególnie gdy wygląda jak otwarta przestrzeń. Dobór wzoru, materiału i strony aplikacji wymaga oceny tafli, otoczenia i dostępu.
 
-#### Czy zwykłe naklejki wystarczą zamiast folii antykolizyjnej?
-Pojedyncze naklejki często są zbyt rzadkie lub źle rozmieszczone. Skuteczniejsze jest zaplanowane oznaczenie szyby odpowiednim wzorem i odstępami.
+#### Czy wzór będzie widoczny dla mieszkańców?
+Tak, oznaczenia mogą zmienić wygląd i widok przez szybę. Dobieramy estetykę świadomie, bez obietnicy niewidocznego zabezpieczenia.
 
 ---
 
@@ -2504,6 +2530,91 @@ To zależy od wieku folii, rodzaju kleju i powierzchni szyb. Mała szyba może z
 
 #### Czy demontaż folii może uszkodzić szybę?
 Największe ryzyko pojawia się przy starych, osłabionych szybach lub agresywnym skrobaniu. Dlatego przed pracą warto obejrzeć krawędzie, rysy i stan ram.
+
+# Oklejanie drzwi i futryn
+
+## Oklejanie drzwi i futryn
+
+URL: https://folielumera.pl/oklejanie-drzwi-i-futryn
+
+Drzwi są sprawne, ale przestały pasować do wnętrza? Zmień ich wykończenie okleiną architektoniczną. Dobierz drewno, spokojny mat, kamień lub metal i zaplanuj spójny wygląd skrzydła oraz futryny. Lumera dobiera materiał i wykonuje montaż w Krakowie, Katowicach i okolicach. Większe realizacje poza regionem ustalamy indywidualnie.
+
+- Zachowaj sprawne drzwi: Zmień to, co widzisz na co dzień, bez zamawiania nowego skrzydła, jeśli stan istniejących drzwi pozwala na oklejenie.
+- Połącz drzwi z wnętrzem: Dopasuj kierunek wykończenia do podłogi, ściany lub zabudowy. Ostateczny dekor porównamy na rzeczywistej próbce.
+- Zadbaj o cały zestaw: Skrzydło, futryna i widoczne krawędzie tworzą jedną kompozycję. Zakres każdego elementu ustalamy przed montażem.
+
+### Zakres oklejania
+- Drzwi wewnętrzne: Pokojowe, gabinetowe i biurowe. Ocenie podlegają powierzchnia, frezy, krawędzie i przyczepność istniejącej powłoki. To dobry punkt wyjścia do zmiany koloru drzwi bez wymiany sprawnej konstrukcji.
+- Drzwi wejściowe od strony mieszkania: Widoczna część drzwi może dostać wykończenie dopasowane do przedpokoju. Planujemy detale przy zamku, klamce, wizjerze i zawiasach oraz zakres jednej lub obu stron.
+- Futryny i ościeżnice: Można rozpatrzyć osobne oklejanie futryny albo komplet ze skrzydłem. Przy metalowych i drewnianych profilach sprawdzamy stan powłoki, narożniki, połączenia i miejsce przy uszczelkach.
+- Drzwi od zewnątrz: Strona elewacji wymaga odrębnego doboru materiału do nasłonecznienia, wilgoci i temperatury. Dekor dostępny do wnętrza nie oznacza automatycznie dostępności wersji zewnętrznej.
+
+#### Okleina na drzwi, folia czy laminat architektoniczny?
+W tej usłudze chodzi o dekoracyjne wykończenie istniejących drzwi i futryn. Określenia „okleina architektoniczna”, „folia architektoniczna” i „laminat architektoniczny” opisują oferowane kierunki renowacji, ale nie oznaczają, że każdy materiał ma takie same właściwości. Dobieramy konkretną serię do podłoża, miejsca i sposobu użytkowania. To inna usługa niż montaż folii na szklane wypełnienie drzwi.
+
+#### Oklejanie futryn metalowych i drewnianych — detale decydują
+Nowy dekor powinien wyglądać dobrze także przy otwartym skrzydle. Dlatego przed wyceną oglądamy profil ościeżnicy, przylgi, zawiasy i miejsca połączeń. Ustalamy, które powierzchnie będą oklejone, gdzie przebiegną łączenia oraz jak wykończyć krawędzie. Łuszcząca się farba, korozja, luźna okleina lub uszkodzone podłoże wymagają oceny i uzgodnienia przygotowania; nie przykrywamy ich obietnicą idealnego efektu.
+
+#### Dla mieszkania, biura, hotelu i lokalu usługowego
+W mieszkaniu punktem wyjścia może być jedno skrzydło, które odstaje od nowej aranżacji. W biurze, hotelu lub gabinecie często liczy się spójność kilku albo kilkunastu kompletów drzwi. Przy większym zakresie ustalamy kolejność prac, dostęp do pomieszczeń i powtarzalność dekoru. Materiał, próbki i organizację montażu dopasowujemy do faktycznego zamówienia.
+
+### Pracownia dekorów i wycena
+Na stronie działa podgląd drzwi i futryny wykorzystujący tę samą scenę i kierunki dekorów co konfigurator doboru Lumera. Wybór obejmuje dekor, stronę wewnętrzną lub zewnętrzną i zakres skrzydła oraz futryny. Przycisk wyceny przekazuje wybór do formularza. Podgląd jest ilustracją, nie próbnikiem konkretnego materiału; serię, dostępność i zgodność z podłożem potwierdzamy osobno.
+
+- Pokaż nam drzwi: Wyślij zdjęcie całości, futryny, krawędzi i uszkodzeń. Dodaj wymiary, liczbę kompletów oraz miejscowość.
+- Wybierz kierunek wykończenia: Przymierz dekor w pracowni. Następnie potwierdzimy dostępny materiał, próbkę, stronę montażu i zgodność z podłożem.
+- Poznaj zakres i wycenę: Uzgodnimy skrzydło, futrynę, widoczne boki, przygotowanie podłoża oraz sposób postępowania z osprzętem.
+- Umów montaż: Po akceptacji ustaleń planujemy aplikację i wykończenie detali. Otrzymasz zalecenia pielęgnacji dobrane do materiału.
+
+### Cena oklejania drzwi i futryn
+- Jedna czy dwie strony: Oklejenie frontu skrzydła to inny zakres niż obie strony wraz z krawędziami.
+- Skrzydło czy cały komplet: Futryna ma własne profile, narożniki i połączenia. Liczymy ją według uzgodnionego zakresu.
+- Stan podłoża i detale: Usuwanie luźnej powłoki, ubytki, frezy oraz osprzęt mogą zmienić nakład przygotowania.
+- Materiał i liczba drzwi: Znaczenie mają wybrana seria, układ wzoru, zużycie materiału, lokalizacja i wielkość zlecenia.
+
+### Obszar realizacji
+#### Oklejanie drzwi i futryn — Kraków i okolice
+Masz drzwi do odnowienia w Krakowie, Rudawie, Zabierzowie lub pobliskiej miejscowości? Prześlij zdjęcia i lokalizację. Oceniamy pojedyncze komplety oraz większy zakres prac w mieszkaniach, biurach i lokalach.
+https://folielumera.pl/oklejanie-drzwi-i-mebli-krakow
+
+#### Oklejanie drzwi i futryn — Katowice i okolice
+Dla Katowic i okolic przygotowujemy dobór oraz wycenę na podstawie zdjęć, wymiarów i liczby drzwi. Przy zapytaniu z innego miasta aglomeracji podaj miejscowość — potwierdzimy możliwość oraz organizację realizacji.
+https://folielumera.pl/oklejanie-drzwi-i-mebli-katowice
+
+#### Więcej drzwi, więcej lokalizacji?
+Przy większych projektach poza regionem ustalamy zakres i logistykę indywidualnie. Podaj liczbę kompletów, lokalizacje oraz oczekiwany harmonogram. Nie musisz wybierać materiału przed pierwszą rozmową.
+https://folielumera.pl/kontakt?temat=architectural-wraps
+
+### Pytania o oklejanie drzwi i futryn
+#### Ile kosztuje oklejanie drzwi i futryn?
+Wycena zależy od materiału, wymiarów, liczby skrzydeł, jednej lub obu stron, zakresu futryny oraz przygotowania podłoża. Zdjęcia całości i detali pozwalają określić zakres. Cenę kompletu potwierdzamy indywidualnie; sama powierzchnia w metrach kwadratowych nie opisuje wszystkich prac.
+
+#### Czy można okleić same futryny bez drzwi?
+Taką realizację można rozpatrzyć osobno. Potrzebne są zdjęcia profilu, narożników, zawiasów i obecnej powłoki. Możliwość oklejenia oraz przygotowanie potwierdzamy po ocenie ościeżnicy.
+
+#### Czy oklejacie futryny metalowe?
+Oceniamy również metalowe ościeżnice. Podłoże musi być stabilne i odpowiednio przygotowane. Korozja, łuszcząca się farba i nierówności wymagają osobnej oceny; okleina nie jest naprawą konstrukcji ani sposobem na ukrycie aktywnych uszkodzeń.
+
+#### Czy można okleić drzwi wejściowe albo zewnętrzne?
+Stronę drzwi wejściowych od wnętrza oraz stronę wystawioną na warunki atmosferyczne rozpatrujemy oddzielnie. Dla zewnętrznej powierzchni potrzebny jest odpowiedni materiał i ocena ekspozycji. Wymagania producenta drzwi także należy uwzględnić przed montażem.
+
+#### Czy trzeba demontować drzwi i futrynę?
+Sposób pracy zależy od konstrukcji, dostępu i zakresu oklejania. Potrzebę zdjęcia skrzydła lub elementów osprzętu ustalamy przed realizacją. Nie zakładamy identycznego przebiegu montażu dla każdych drzwi.
+
+#### Czy okleina zakryje odpryski i odchodzącą starą powłokę?
+Nie należy przyklejać nowego wykończenia do luźnego podłoża. Ubytki i odklejona powłoka wymagają oceny przygotowania. Głębokie uszkodzenia lub niestabilna konstrukcja mogą wykluczyć oklejanie do czasu naprawy.
+
+#### Jak długo trwa montaż?
+Termin i czas prac ustalamy po ocenie liczby drzwi, profili, przygotowania oraz dostępu. Przy kilku kompletach planujemy kolejność, aby uzgodnić korzystanie z pomieszczeń podczas realizacji.
+
+#### Czy konfigurator pokazuje konkretny produkt i ostateczny kolor?
+Nie. Korzysta z poglądowych ilustracji i kierunków dekorów z pracowni Lumera. Pomaga określić styl, stronę i zakres. Konkretną serię, dostępność, strukturę, kolor i warunki zastosowania potwierdzamy na próbce i przy doborze.
+
+#### Jak pielęgnować oklejone drzwi i jaka jest gwarancja?
+Sposób czyszczenia oraz warunki gwarancji zależą od wybranego materiału, podłoża i miejsca montażu. Potwierdzamy je dla konkretnego zlecenia. Ochrona materiału nie oznacza odporności na każde zarysowanie czy uderzenie.
+
+#### Czy realizujecie oklejanie drzwi poza Krakowem i Katowicami?
+Obsługujemy Kraków, Katowice i okolice. Większe realizacje poza regionem ustalamy indywidualnie na podstawie liczby drzwi, lokalizacji i harmonogramu. Możliwość dojazdu potwierdzamy przy zapytaniu.
 
 # Realizacje
 
@@ -4332,7 +4443,7 @@ Jeśli mieszkanie ma pozostać możliwie jasne, warto szukać spokojniejszych wi
 ### Polecane Folie
 - [Folie przeciwsłoneczne zewnętrzne](https://folielumera.pl/folie-przeciwsloneczne-zewnetrzne)
 - [Folie przeciwsłoneczne wewnętrzne](https://folielumera.pl/folie-przeciwsloneczne-wewnetrzne)
-- [Folie okienne anty UV](https://folielumera.pl/folie-anty-uv)
+- [Folie anty-UV na okna — ochrona wyposażenia i witryn](https://folielumera.pl/folie-anty-uv)
 
 ### Powiązane Strony Lokalne
 - [Folie przeciwsłoneczne Kraków](https://folielumera.pl/folie-przeciwsloneczne-krakow)
@@ -4418,8 +4529,8 @@ Jeżeli problemem jest zimna szyba, chłód przy oknie albo straty ciepła w sta
 ### Polecane Folie
 - [Folie przeciwsłoneczne zewnętrzne](https://folielumera.pl/folie-przeciwsloneczne-zewnetrzne)
 - [Folie przeciwsłoneczne wewnętrzne](https://folielumera.pl/folie-przeciwsloneczne-wewnetrzne)
-- [Folie termoizolacyjne](https://folielumera.pl/folie-termoizolacyjne)
-- [Folie okienne anty UV](https://folielumera.pl/folie-anty-uv)
+- [Folie termoizolacyjne na okna — dobór i montaż](https://folielumera.pl/folie-termoizolacyjne)
+- [Folie anty-UV na okna — ochrona wyposażenia i witryn](https://folielumera.pl/folie-anty-uv)
 
 ### Powiązane Strony Lokalne
 - [Folie przeciwsłoneczne Kraków](https://folielumera.pl/folie-przeciwsloneczne-krakow)
