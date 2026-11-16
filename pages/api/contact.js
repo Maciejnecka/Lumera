@@ -1,6 +1,7 @@
 import fs from 'fs/promises';
 import { formidable } from 'formidable';
 import nodemailer from 'nodemailer';
+import { randomUUID } from 'node:crypto';
 
 export const config = {
   api: {
@@ -274,7 +275,7 @@ export default async function handler(req, res) {
       sanitizeText(getField(fields, '_subject')) ||
       `folielumera.pl - nowe zapytanie: ${sanitizeText(getField(fields, 'Temat_zapytania'))}`;
 
-    await transporter.sendMail({
+    const mailResult = await transporter.sendMail({
       from: fromEmail,
       to: toEmail,
       replyTo,
@@ -284,7 +285,10 @@ export default async function handler(req, res) {
       attachments,
     });
 
-    return res.status(200).json({ message: 'Zapytanie zostało wysłane.' });
+    if (!Array.isArray(mailResult.accepted) || mailResult.accepted.length === 0) {
+      throw new Error('SMTP did not accept the contact message.');
+    }
+    return res.status(200).json({ success: true, submissionId: randomUUID(), message: 'Zapytanie zostało wysłane.' });
   } catch (error) {
     console.error('Contact form error:', error);
     return res.status(500).json({

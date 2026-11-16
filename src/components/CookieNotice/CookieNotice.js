@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
+import { COOKIE_CONSENT_KEY, CONSENT_CHANGE_EVENT, initializeGoogleAdsConsent, setGoogleAdsConsent, syncGoogleAdsPageContext } from '../../lib/googleAds';
 import {
   CookieNoticeWrap,
   CookieNoticeInner,
@@ -8,74 +10,31 @@ import {
   CookieNoticeActions,
 } from './CookieNotice.styled';
 
-const STORAGE_KEY = 'lumera-cookie-consent';
-const GOOGLE_ADS_ID = 'AW-18125280330';
-const GOOGLE_SCRIPT_ID = 'lumera-google-ads-tag';
-const CONSENT_ACCEPTED = 'accepted';
-const CONSENT_REJECTED = 'rejected';
-
-const loadGoogleAdsTag = () => {
-  if (typeof window === 'undefined' || typeof document === 'undefined') return;
-
-  window.dataLayer = window.dataLayer || [];
-  window.gtag =
-    window.gtag ||
-    function gtag() {
-      window.dataLayer.push(arguments);
-    };
-
-  window.gtag('consent', 'default', {
-    ad_storage: 'granted',
-    ad_user_data: 'granted',
-    ad_personalization: 'granted',
-    analytics_storage: 'denied',
-  });
-  window.gtag('js', new Date());
-  window.gtag('config', GOOGLE_ADS_ID);
-
-  if (document.getElementById(GOOGLE_SCRIPT_ID)) return;
-
-  const script = document.createElement('script');
-  script.id = GOOGLE_SCRIPT_ID;
-  script.async = true;
-  script.src = `https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ADS_ID}`;
-  document.head.appendChild(script);
-};
-
 const CookieNotice = () => {
   const [isVisible, setIsVisible] = useState(false);
 
+  const router = useRouter();
+
   useEffect(() => {
-    if (typeof window === 'undefined') return;
-
-    const savedConsent = window.localStorage.getItem(STORAGE_KEY);
-
-    if (savedConsent === CONSENT_ACCEPTED) {
-      loadGoogleAdsTag();
-      return;
-    }
-
-    if (!savedConsent) {
-      setIsVisible(true);
-    }
+    setIsVisible(!initializeGoogleAdsConsent());
+    const onChange = event => setIsVisible(!event.detail);
+    const onStorage = event => {
+      if (event.key === COOKIE_CONSENT_KEY || event.key === null) {
+        setIsVisible(!setGoogleAdsConsent(event.newValue, false));
+      }
+    };
+    window.addEventListener(CONSENT_CHANGE_EVENT, onChange);
+    window.addEventListener('storage', onStorage);
+    return () => {
+      window.removeEventListener(CONSENT_CHANGE_EVENT, onChange);
+      window.removeEventListener('storage', onStorage);
+    };
   }, []);
 
-  const handleAccept = () => {
-    if (typeof window !== 'undefined') {
-      window.localStorage.setItem(STORAGE_KEY, CONSENT_ACCEPTED);
-      loadGoogleAdsTag();
-    }
+  useEffect(() => { syncGoogleAdsPageContext(); }, [router.asPath]);
 
-    setIsVisible(false);
-  };
-
-  const handleReject = () => {
-    if (typeof window !== 'undefined') {
-      window.localStorage.setItem(STORAGE_KEY, CONSENT_REJECTED);
-    }
-
-    setIsVisible(false);
-  };
+  const handleAccept = () => { setGoogleAdsConsent('accepted'); setIsVisible(false); };
+  const handleReject = () => { setGoogleAdsConsent('rejected'); setIsVisible(false); };
 
   if (!isVisible) {
     return null;

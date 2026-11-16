@@ -1,4 +1,5 @@
 import React from 'react';
+import { resetGoogleAdsConsent } from '../../lib/googleAds';
 import Link from 'next/link';
 import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
 import {
@@ -22,7 +23,6 @@ const COMPANY_NIP = '5130311528';
 const COMPANY_REGON = '544660235';
 const CONTACT_ADDRESS = 'ul. Łanowa 14, 32-064 Rudawa';
 const CONTACT_EMAIL_COMPOSE_HREF = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(CONTACT_EMAIL)}`;
-const COOKIE_CONSENT_KEY = 'lumera-cookie-consent';
 
 const PrivacyPolicyPage = ({ breadcrumbs }) => {
   const handleEmailClick = (event) => {
@@ -33,7 +33,7 @@ const PrivacyPolicyPage = ({ breadcrumbs }) => {
   const handleConsentReset = () => {
     if (typeof window === 'undefined') return;
 
-    window.localStorage.removeItem(COOKIE_CONSENT_KEY);
+    resetGoogleAdsConsent();
     window.location.reload();
   };
 

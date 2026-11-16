@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
+import { trackConfirmedContactSubmission } from '../../lib/googleAds';
 import {
   contactFaq,
   contactMap,
@@ -564,10 +565,13 @@ const ContactSection = () => {
         throw new Error(errorData?.message || 'Form endpoint returned an error.');
       }
 
-      setStatus({
-        type: 'success',
-        message: 'Dziękujemy. Zapytanie zostało wysłane.',
+      const acknowledgement = await response.json().catch(() => null);
+      trackConfirmedContactSubmission({
+        httpOk: response.ok,
+        success: acknowledgement?.success,
+        submissionId: acknowledgement?.submissionId,
       });
+      setStatus({ type: 'success', message: 'Dziękujemy. Zapytanie zostało wysłane.' });
       resetContactForm();
     } catch (error) {
       setStatus({

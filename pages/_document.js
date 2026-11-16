@@ -1,5 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
+import { GOOGLE_CONSENT_BOOTSTRAP } from '../src/lib/googleAds';
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -31,6 +32,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pl">
         <Head>
+          <script id="lumera-consent-default" dangerouslySetInnerHTML={{ __html: GOOGLE_CONSENT_BOOTSTRAP }} />
           <meta name="theme-color" content="#2b6256" />
           <meta name="application-name" content="Lumera" />
           <meta name="apple-mobile-web-app-title" content="Lumera" />
