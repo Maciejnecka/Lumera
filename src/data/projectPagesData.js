@@ -179,6 +179,207 @@ export const projectPagesData = [
     ],
   },
   {
+    "slug": "demontaz-folii-z-witryn-krakow",
+    "path": "/realizacje/demontaz-folii-z-witryn-krakow",
+    "title": "Demontaż folii z witryn lokalu usługowego w Krakowie",
+    "seoTitle": "Demontaż folii z witryn Kraków – realizacja | Lumera",
+    "seoDescription": "Usuwanie folii reklamowej i matowej z witryn w Krakowie. Zobacz zdjęcia przed, w trakcie i po demontażu.",
+    "eyebrow": "Demontaż folii • Kraków",
+    "lead": "W Krakowie wykonaliśmy demontaż folii z przeszkleń lokalu usługowego. Usunęliśmy grafikę reklamową z zewnętrznych witryn oraz matowe pasy widoczne od strony wnętrza. Galeria pokazuje stan przed pracami, etapy zdejmowania oklejenia i efekt po odsłonięciu szyb.",
+    "storyTitle": "Od oklejonych witryn do odsłoniętych przeszkleń.",
+    "coverCaption": "Lokal w Krakowie przed demontażem folii",
+    "city": "Kraków",
+    "region": "Kraków",
+    "objectType": "lokal usługowy – witryny i drzwi",
+    "serviceType": "Demontaż folii okiennych",
+    "serviceFilters": [
+      "Demontaż folii okiennych"
+    ],
+    "relatedFilmPath": "/demontaz-folii-okiennych",
+    "relatedFilmPaths": [
+      "/demontaz-folii-okiennych"
+    ],
+    "relatedServicePaths": [
+      "/demontaz-folii-okiennych"
+    ],
+    "contactTopic": "film-removal",
+    "contactLabel": "Zapytaj o podobny demontaż",
+    "serviceMetaLabel": "Usługa",
+    "scopeTitle": "Co obejmował demontaż folii w Krakowie?",
+    "relatedServicesTitle": "Usuwanie folii z witryn i szyb",
+    "featured": true,
+    "coverImage": "/img/realizacje/demontaz-folii-z-witryn-krakow/cover.webp",
+    "coverWidth": 1600,
+    "coverHeight": 1200,
+    "datePublished": "2026-11-25",
+    "dateModified": "2026-11-25",
+    "locationContext": "Prace objęły witryny frontowe, boczne oraz przeszklone drzwi lokalu usługowego w Krakowie. Zdjęcia zestawiają poszczególne fragmenty przed i po usunięciu folii reklamowej oraz matowej.",
+    "problem": "Na witrynach znajdowały się duże grafiki reklamowe, a na części przeszkleń od strony wnętrza – matowe pasy ograniczające widoczność. Oklejenie miało zostać usunięte, aby odsłonić szyby. Przy takiej pracy samo oderwanie materiału nie kończy zadania: trzeba również oczyścić powierzchnię z pozostałości kleju.",
+    "solution": "Zdemontowaliśmy folię reklamową i matową z kolejnych pól szkła oraz drzwi, a następnie oczyściliśmy szyby z pozostałości po aplikacji. Prace prowadziliśmy etapami, dopasowując sposób zdejmowania materiału do jego stanu i dostępu do krawędzi. Zdjęcia z przebiegu demontażu pokazują częściowo usunięte grafiki oraz odsłonięte fragmenty witryn.",
+    "result": "Po zakończeniu prac witryny odzyskały przejrzystość. Z zewnątrz widać wnętrze lokalu, a od środka otwarty widok na ulicę bez matowych pasów. Zdjęcia przed i po pokazują zmianę na frontowych oraz bocznych przeszkleniach. Witryny są gotowe do dalszego użytkowania.",
+    "scope": [
+      "demontaż grafiki reklamowej z frontowych i bocznych witryn",
+      "usunięcie matowych pasów folii z szyb i drzwi",
+      "oczyszczenie szkła z pozostałości kleju po folii",
+      "dopasowanie sposobu pracy do stanu materiału i dostępu do szyb",
+      "kontrola efektu po odsłonięciu przeszkleń"
+    ],
+    "tags": [
+      "demontaż folii Kraków",
+      "usuwanie folii z szyb",
+      "usuwanie folii reklamowej z witryn",
+      "demontaż folii matowej",
+      "demontaż folii w lokalu usługowym"
+    ],
+    "sections": [
+      {
+        "heading": "Folia reklamowa i matowa – dwa zakresy jednego demontażu",
+        "text": "Na zewnętrznych zdjęciach widać duże grafiki reklamowe dopasowane do podziałów witryny. Ujęcia z wnętrza pokazują z kolei matowe osłony dolnych części szyb. Usunięcie obu rodzajów oklejenia pozwoliło odsłonić przeszklenia bez zmiany układu ram i drzwi. Kolejne zdjęcia pokazują pary przed i po oraz przebieg prac."
+      },
+      {
+        "heading": "Jak wyceniamy usuwanie folii z witryn w Krakowie?",
+        "text": "Do wyceny potrzebujemy zdjęć całych witryn oraz zbliżeń folii i jej krawędzi, liczby szyb, przybliżonych wymiarów i adresu lokalu. Znaczenie mają rodzaj materiału, stan kleju, wysokość przeszkleń oraz dostęp od wewnątrz i z zewnątrz. Jeśli znasz wiek oklejenia, podaj go w zapytaniu. Termin i zakres demontażu ustalamy na podstawie tych informacji."
+      }
+    ],
+    "relatedServicesIntro": "Ta realizacja jest przykładem usługi demontażu folii okiennych w Krakowie. Na stronie oferty opisujemy usuwanie starego materiału, oczyszczanie szkła z kleju i przygotowanie szyby do dalszego użytkowania. Jeśli planujesz nowe oklejenie po demontażu, zaznacz to przy wycenie – pozwoli to ustalić pełny zakres prac.",
+    "quote": "Przy demontażu liczy się cały efekt: usunięta folia, oczyszczone szkło i odsłonięta witryna.",
+    "whatToSend": "Wyślij zdjęcia witryn i zbliżenia starej folii, wymiary oraz liczbę szyb, adres w Krakowie i informacje o dostępie do lokalu. Zaznacz, czy chodzi o folię reklamową, matową czy inny materiał oraz czy po demontażu planujesz nowe oklejenie.",
+    "images": [
+      {
+        "thumb": "/img/realizacje/demontaz-folii-z-witryn-krakow/01-witryna-przed-demontazem-thumb.webp",
+        "full": "/img/realizacje/demontaz-folii-z-witryn-krakow/01-witryna-przed-demontazem.webp",
+        "width": 2400,
+        "height": 1800,
+        "thumbWidth": 600,
+        "thumbHeight": 450,
+        "alt": "Witryny w Krakowie przed demontażem folii reklamowej",
+        "caption": "Widok lokalu z zewnątrz przed usunięciem oklejenia reklamowego."
+      },
+      {
+        "thumb": "/img/realizacje/demontaz-folii-z-witryn-krakow/02-witryna-po-demontazu-thumb.webp",
+        "full": "/img/realizacje/demontaz-folii-z-witryn-krakow/02-witryna-po-demontazu.webp",
+        "width": 2400,
+        "height": 1800,
+        "thumbWidth": 600,
+        "thumbHeight": 450,
+        "alt": "Przeszklony narożnik lokalu w Krakowie po usunięciu folii reklamowej",
+        "caption": "Ten sam narożnik po demontażu folii z witryn."
+      },
+      {
+        "thumb": "/img/realizacje/demontaz-folii-z-witryn-krakow/03-usuwanie-folii-reklamowej-thumb.webp",
+        "full": "/img/realizacje/demontaz-folii-z-witryn-krakow/03-usuwanie-folii-reklamowej.webp",
+        "width": 1800,
+        "height": 2400,
+        "thumbWidth": 450,
+        "thumbHeight": 600,
+        "alt": "Częściowo usunięta folia reklamowa na bocznej witrynie w Krakowie",
+        "caption": "Boczna witryna w trakcie zdejmowania starej grafiki."
+      },
+      {
+        "thumb": "/img/realizacje/demontaz-folii-z-witryn-krakow/04-boczna-witryna-po-demontazu-thumb.webp",
+        "full": "/img/realizacje/demontaz-folii-z-witryn-krakow/04-boczna-witryna-po-demontazu.webp",
+        "width": 1800,
+        "height": 2400,
+        "thumbWidth": 450,
+        "thumbHeight": 600,
+        "alt": "Boczna witryna w Krakowie po demontażu folii",
+        "caption": "Przeszklenia bocznej elewacji po usunięciu oklejenia."
+      },
+      {
+        "thumb": "/img/realizacje/demontaz-folii-z-witryn-krakow/05-front-w-trakcie-prac-thumb.webp",
+        "full": "/img/realizacje/demontaz-folii-z-witryn-krakow/05-front-w-trakcie-prac.webp",
+        "width": 2400,
+        "height": 1800,
+        "thumbWidth": 600,
+        "thumbHeight": 450,
+        "alt": "Front lokalu w Krakowie w trakcie demontażu folii z szyb",
+        "caption": "Usuwanie grafiki reklamowej z frontowych szyb lokalu."
+      },
+      {
+        "thumb": "/img/realizacje/demontaz-folii-z-witryn-krakow/06-front-po-usunieciu-folii-thumb.webp",
+        "full": "/img/realizacje/demontaz-folii-z-witryn-krakow/06-front-po-usunieciu-folii.webp",
+        "width": 2400,
+        "height": 1800,
+        "thumbWidth": 600,
+        "thumbHeight": 450,
+        "alt": "Frontowe szyby w Krakowie po usunięciu folii reklamowej",
+        "caption": "Odsłonięte przeszklenia od strony wejścia do lokalu."
+      },
+      {
+        "thumb": "/img/realizacje/demontaz-folii-z-witryn-krakow/07-folia-matowa-przed-usunieciem-thumb.webp",
+        "full": "/img/realizacje/demontaz-folii-z-witryn-krakow/07-folia-matowa-przed-usunieciem.webp",
+        "width": 2400,
+        "height": 1800,
+        "thumbWidth": 600,
+        "thumbHeight": 450,
+        "alt": "Folia matowa na drzwiach i witrynach w Krakowie przed usunięciem",
+        "caption": "Widok od wnętrza: matowe pasy folii przed demontażem."
+      },
+      {
+        "thumb": "/img/realizacje/demontaz-folii-z-witryn-krakow/08-wnetrze-po-demontazu-anon-thumb.webp",
+        "full": "/img/realizacje/demontaz-folii-z-witryn-krakow/08-wnetrze-po-demontazu-anon.webp",
+        "width": 1448,
+        "height": 1086,
+        "thumbWidth": 600,
+        "thumbHeight": 450,
+        "alt": "Widok z wnętrza w Krakowie po usunięciu matowej folii z witryn",
+        "caption": "Te same drzwi i witryny po zdjęciu matowej osłony."
+      },
+      {
+        "thumb": "/img/realizacje/demontaz-folii-z-witryn-krakow/09-matowe-pasy-na-szybach-thumb.webp",
+        "full": "/img/realizacje/demontaz-folii-z-witryn-krakow/09-matowe-pasy-na-szybach.webp",
+        "width": 2400,
+        "height": 1800,
+        "thumbWidth": 600,
+        "thumbHeight": 450,
+        "alt": "Matowe pasy na kolejnych szybach lokalu w Krakowie przed demontażem",
+        "caption": "Kolejna grupa przeszkleń z folią matową przed pracami."
+      },
+      {
+        "thumb": "/img/realizacje/demontaz-folii-z-witryn-krakow/10-szyby-bez-folii-matowej-thumb.webp",
+        "full": "/img/realizacje/demontaz-folii-z-witryn-krakow/10-szyby-bez-folii-matowej.webp",
+        "width": 2400,
+        "height": 1800,
+        "thumbWidth": 600,
+        "thumbHeight": 450,
+        "alt": "Przeszklenia w Krakowie po demontażu matowych pasów folii",
+        "caption": "Odsłonięte szyby widziane od środka po usunięciu folii matowej."
+      },
+      {
+        "thumb": "/img/realizacje/demontaz-folii-z-witryn-krakow/11-elewacja-po-pracach-thumb.webp",
+        "full": "/img/realizacje/demontaz-folii-z-witryn-krakow/11-elewacja-po-pracach.webp",
+        "width": 2400,
+        "height": 1803,
+        "thumbWidth": 600,
+        "thumbHeight": 451,
+        "alt": "Elewacja lokalu w Krakowie po demontażu folii",
+        "caption": "Końcowy widok witryn z zewnątrz po zakończeniu prac."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Jakie folie usunięto w lokalu w Krakowie?",
+        "answer": "Zdemontowaliśmy grafiki reklamowe z witryn oraz matowe pasy folii z szyb i drzwi lokalu. Galeria przedstawia stan przed pracami, demontaż i efekt po odsłonięciu przeszkleń."
+      },
+      {
+        "question": "Czy demontaż folii obejmuje usuwanie kleju z szyb?",
+        "answer": "Tak, w tej realizacji zakres obejmował zdjęcie folii i oczyszczenie szkła z pozostałości po aplikacji. Sposób czyszczenia dobieramy do rodzaju szyby, stanu materiału i kleju."
+      },
+      {
+        "question": "Czy po usunięciu folii matowej szyba znów jest przezroczysta?",
+        "answer": "Jeśli matowy efekt pochodzi z naklejonej folii na przezroczystym szkle, po zdjęciu materiału i oczyszczeniu szyby można odzyskać przejrzysty widok. Zdjęcia z wnętrza tego lokalu pokazują właśnie taką zmianę."
+      },
+      {
+        "question": "Ile kosztuje demontaż folii z witryn w Krakowie?",
+        "answer": "Cenę ustalamy indywidualnie. Zależy od powierzchni, rodzaju i stanu folii, pozostałości kleju oraz dostępu do szyb. Do wstępnej wyceny wystarczą zdjęcia, wymiary, liczba szyb i lokalizacja."
+      },
+      {
+        "question": "Czy po demontażu można zamontować nową folię?",
+        "answer": "Można zaplanować nową aplikację po oczyszczeniu i ocenie stanu szkła. Potrzebny jest dobór materiału do szyby i oczekiwanego efektu. Ta galeria dokumentuje demontaż istniejącego oklejenia."
+      }
+    ]
+  },
+  {
     "slug": "folie-matowe-balkony-krakow",
     "path": "/realizacje/folie-matowe-balkony-krakow",
     "title": "Prywatny balkon bez wymiany szkła — montaż folii matowej",

@@ -79,7 +79,7 @@ const ProjectDetailPage = ({ project, breadcrumbs }) => {
               <strong>{project.objectType}</strong>
             </ProjectMetaCard>
             <ProjectMetaCard>
-              <span>{project.isCollection ? 'Wykończenie' : 'Typ folii'}</span>
+              <span>{project.serviceMetaLabel || (project.isCollection ? 'Wykończenie' : 'Typ folii')}</span>
               <strong>{project.serviceType}</strong>
             </ProjectMetaCard>
           </ProjectMetaGrid>
@@ -89,7 +89,7 @@ const ProjectDetailPage = ({ project, breadcrumbs }) => {
               href="/kontakt"
               onClick={() => storeContactTopic(project.contactTopic)}
             >
-              Zapytaj o podobny montaż
+              {project.contactLabel || 'Zapytaj o podobny montaż'}
             </a>
             {relatedServiceEntities[0] && <a href={relatedServiceEntities[0].path}>Zobacz usługę</a>}
             <a href="/realizacje">Wróć do realizacji</a>
@@ -133,7 +133,7 @@ const ProjectDetailPage = ({ project, breadcrumbs }) => {
       <ProjectSection>
         <ProjectSectionIntro data-aos="fade-up">
           <span>Zakres prac</span>
-          <h2>{project.isCollection ? 'Co uwzględniamy przy oklejaniu drzwi i mebli?' : 'Co było ważne przy tym montażu?'}</h2>
+          <h2>{project.scopeTitle || (project.isCollection ? 'Co uwzględniamy przy oklejaniu drzwi i mebli?' : 'Co było ważne przy tym montażu?')}</h2>
           <p>{project.locationContext}</p>
         </ProjectSectionIntro>
         <ProjectList data-aos="fade-up">
@@ -179,7 +179,7 @@ const ProjectDetailPage = ({ project, breadcrumbs }) => {
       <ProjectSection>
         <ProjectSectionIntro data-aos="fade-up">
           <span>Powiązane usługi</span>
-          <h2>{project.isCollection ? 'Zaplanuj własną metamorfozę z laminatem architektonicznym' : 'Ten montaż łączy kilka tematów.'}</h2>
+          <h2>{project.relatedServicesTitle || (project.isCollection ? 'Zaplanuj własną metamorfozę z laminatem architektonicznym' : 'Ten montaż łączy kilka tematów.')}</h2>
           <p>{project.relatedServicesIntro}</p>
         </ProjectSectionIntro>
         <ProjectLinkGrid>
@@ -214,7 +214,7 @@ const ProjectDetailPage = ({ project, breadcrumbs }) => {
             data-aos-delay={(relatedServiceEntities.length + relatedLocalPages.length) * 50}
           >
             <span>Wycena</span>
-            <strong>Zapytaj o podobny montaż</strong>
+            <strong>{project.contactLabel || 'Zapytaj o podobny montaż'}</strong>
             <p>{project.whatToSend}</p>
           </ProjectLinkCard>
         </ProjectLinkGrid>
