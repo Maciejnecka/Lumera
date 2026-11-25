@@ -1,0 +1,122 @@
+{
+  "rows": [
+    {
+      "number": 1,
+      "before": 924310,
+      "after": 330346,
+      "thumbnail": 10832,
+      "width": 1800,
+      "height": 1350,
+      "thumbWidth": 320,
+      "thumbHeight": 240
+    },
+    {
+      "number": 2,
+      "before": 831246,
+      "after": 276092,
+      "thumbnail": 9720,
+      "width": 1800,
+      "height": 1350,
+      "thumbWidth": 320,
+      "thumbHeight": 240
+    },
+    {
+      "number": 3,
+      "before": 511162,
+      "after": 183746,
+      "thumbnail": 8036,
+      "width": 1350,
+      "height": 1800,
+      "thumbWidth": 240,
+      "thumbHeight": 320
+    },
+    {
+      "number": 4,
+      "before": 716082,
+      "after": 252262,
+      "thumbnail": 7906,
+      "width": 1350,
+      "height": 1800,
+      "thumbWidth": 240,
+      "thumbHeight": 320
+    },
+    {
+      "number": 5,
+      "before": 907510,
+      "after": 326440,
+      "thumbnail": 11512,
+      "width": 1800,
+      "height": 1350,
+      "thumbWidth": 320,
+      "thumbHeight": 240
+    },
+    {
+      "number": 6,
+      "before": 965976,
+      "after": 336220,
+      "thumbnail": 10816,
+      "width": 1800,
+      "height": 1350,
+      "thumbWidth": 320,
+      "thumbHeight": 240
+    },
+    {
+      "number": 7,
+      "before": 575134,
+      "after": 186246,
+      "thumbnail": 5346,
+      "width": 1800,
+      "height": 1350,
+      "thumbWidth": 320,
+      "thumbHeight": 240
+    },
+    {
+      "number": 8,
+      "before": 287888,
+      "after": 117528,
+      "thumbnail": 6796,
+      "width": 1448,
+      "height": 1086,
+      "thumbWidth": 320,
+      "thumbHeight": 240
+    },
+    {
+      "number": 9,
+      "before": 652760,
+      "after": 204244,
+      "thumbnail": 4968,
+      "width": 1800,
+      "height": 1350,
+      "thumbWidth": 320,
+      "thumbHeight": 240
+    },
+    {
+      "number": 10,
+      "before": 890972,
+      "after": 309996,
+      "thumbnail": 8814,
+      "width": 1800,
+      "height": 1350,
+      "thumbWidth": 320,
+      "thumbHeight": 240
+    },
+    {
+      "number": 11,
+      "before": 676058,
+      "after": 270200,
+      "thumbnail": 12728,
+      "width": 1800,
+      "height": 1352,
+      "thumbWidth": 320,
+      "thumbHeight": 240
+    }
+  ],
+  "cover": {
+    "format": "webp",
+    "width": 1200,
+    "height": 900,
+    "channels": 3,
+    "premultiplied": false,
+    "size": 147284
+  }
+}

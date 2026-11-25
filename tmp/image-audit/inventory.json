@@ -1,0 +1,1906 @@
+[
+  {
+    "file": "public/apple-touch-icon.png",
+    "bytes": 4074,
+    "kb": 4,
+    "width": 180,
+    "height": 180,
+    "format": "png"
+  },
+  {
+    "file": "public/favicon-192x192.png",
+    "bytes": 4409,
+    "kb": 4,
+    "width": 192,
+    "height": 192,
+    "format": "png"
+  },
+  {
+    "file": "public/favicon-48x48.png",
+    "bytes": 1192,
+    "kb": 1,
+    "width": 48,
+    "height": 48,
+    "format": "png"
+  },
+  {
+    "file": "public/favicon-512x512.png",
+    "bytes": 14774,
+    "kb": 14,
+    "width": 512,
+    "height": 512,
+    "format": "png"
+  },
+  {
+    "file": "public/img/realizacje/demontaz-folii-z-witryn-krakow/01-witryna-przed-demontazem-thumb.webp",
+    "bytes": 10832,
+    "kb": 11,
+    "width": 320,
+    "height": 240,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/demontaz-folii-z-witryn-krakow/01-witryna-przed-demontazem.webp",
+    "bytes": 330346,
+    "kb": 323,
+    "width": 1800,
+    "height": 1350,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/demontaz-folii-z-witryn-krakow/02-witryna-po-demontazu-thumb.webp",
+    "bytes": 9720,
+    "kb": 9,
+    "width": 320,
+    "height": 240,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/demontaz-folii-z-witryn-krakow/02-witryna-po-demontazu.webp",
+    "bytes": 276092,
+    "kb": 270,
+    "width": 1800,
+    "height": 1350,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/demontaz-folii-z-witryn-krakow/03-usuwanie-folii-reklamowej-thumb.webp",
+    "bytes": 8036,
+    "kb": 8,
+    "width": 240,
+    "height": 320,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/demontaz-folii-z-witryn-krakow/03-usuwanie-folii-reklamowej.webp",
+    "bytes": 183746,
+    "kb": 179,
+    "width": 1350,
+    "height": 1800,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/demontaz-folii-z-witryn-krakow/04-boczna-witryna-po-demontazu-thumb.webp",
+    "bytes": 7906,
+    "kb": 8,
+    "width": 240,
+    "height": 320,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/demontaz-folii-z-witryn-krakow/04-boczna-witryna-po-demontazu.webp",
+    "bytes": 252262,
+    "kb": 246,
+    "width": 1350,
+    "height": 1800,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/demontaz-folii-z-witryn-krakow/05-front-w-trakcie-prac-thumb.webp",
+    "bytes": 11512,
+    "kb": 11,
+    "width": 320,
+    "height": 240,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/demontaz-folii-z-witryn-krakow/05-front-w-trakcie-prac.webp",
+    "bytes": 326440,
+    "kb": 319,
+    "width": 1800,
+    "height": 1350,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/demontaz-folii-z-witryn-krakow/06-front-po-usunieciu-folii-thumb.webp",
+    "bytes": 10816,
+    "kb": 11,
+    "width": 320,
+    "height": 240,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/demontaz-folii-z-witryn-krakow/06-front-po-usunieciu-folii.webp",
+    "bytes": 336220,
+    "kb": 328,
+    "width": 1800,
+    "height": 1350,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/demontaz-folii-z-witryn-krakow/07-folia-matowa-przed-usunieciem-thumb.webp",
+    "bytes": 5346,
+    "kb": 5,
+    "width": 320,
+    "height": 240,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/demontaz-folii-z-witryn-krakow/07-folia-matowa-przed-usunieciem.webp",
+    "bytes": 186246,
+    "kb": 182,
+    "width": 1800,
+    "height": 1350,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/demontaz-folii-z-witryn-krakow/08-wnetrze-po-demontazu-anon-thumb.webp",
+    "bytes": 6796,
+    "kb": 7,
+    "width": 320,
+    "height": 240,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/demontaz-folii-z-witryn-krakow/08-wnetrze-po-demontazu-anon.webp",
+    "bytes": 117528,
+    "kb": 115,
+    "width": 1448,
+    "height": 1086,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/demontaz-folii-z-witryn-krakow/09-matowe-pasy-na-szybach-thumb.webp",
+    "bytes": 4968,
+    "kb": 5,
+    "width": 320,
+    "height": 240,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/demontaz-folii-z-witryn-krakow/09-matowe-pasy-na-szybach.webp",
+    "bytes": 204244,
+    "kb": 199,
+    "width": 1800,
+    "height": 1350,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/demontaz-folii-z-witryn-krakow/10-szyby-bez-folii-matowej-thumb.webp",
+    "bytes": 8814,
+    "kb": 9,
+    "width": 320,
+    "height": 240,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/demontaz-folii-z-witryn-krakow/10-szyby-bez-folii-matowej.webp",
+    "bytes": 309996,
+    "kb": 303,
+    "width": 1800,
+    "height": 1350,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/demontaz-folii-z-witryn-krakow/11-elewacja-po-pracach-thumb.webp",
+    "bytes": 12728,
+    "kb": 12,
+    "width": 320,
+    "height": 240,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/demontaz-folii-z-witryn-krakow/11-elewacja-po-pracach.webp",
+    "bytes": 270200,
+    "kb": 264,
+    "width": 1800,
+    "height": 1352,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/demontaz-folii-z-witryn-krakow/cover.webp",
+    "bytes": 147284,
+    "kb": 144,
+    "width": 1200,
+    "height": 900,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folia-mrozona-lokal-katowice/01-folia-mrozona-okna-lokal-katowice-thumb.webp",
+    "bytes": 95324,
+    "kb": 93,
+    "width": 540,
+    "height": 720,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folia-mrozona-lokal-katowice/01-folia-mrozona-okna-lokal-katowice.webp",
+    "bytes": 122442,
+    "kb": 120,
+    "width": 1200,
+    "height": 1600,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folia-mrozona-lokal-katowice/02-montaz-folii-mrozonej-drzwi-katowice-thumb.webp",
+    "bytes": 35646,
+    "kb": 35,
+    "width": 600,
+    "height": 666,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folia-mrozona-lokal-katowice/02-montaz-folii-mrozonej-drzwi-katowice.webp",
+    "bytes": 21744,
+    "kb": 21,
+    "width": 1200,
+    "height": 1333,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folia-mrozona-lokal-katowice/cover-hq-v2.webp",
+    "bytes": 258994,
+    "kb": 253,
+    "width": 1200,
+    "height": 1600,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folia-mrozona-lokal-katowice/cover.webp",
+    "bytes": 84792,
+    "kb": 83,
+    "width": 900,
+    "height": 1200,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folia-na-swietliki-dachowe-chomranice/01-przed-po-folia-na-swietliki-dachowe-chomranice-thumb.webp",
+    "bytes": 77754,
+    "kb": 76,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folia-na-swietliki-dachowe-chomranice/01-przed-po-folia-na-swietliki-dachowe-chomranice.webp",
+    "bytes": 200718,
+    "kb": 196,
+    "width": 1448,
+    "height": 1086,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folia-na-swietliki-dachowe-chomranice/02-swietlik-dachowy-przed-montazem-folii-chomranice-thumb.webp",
+    "bytes": 111912,
+    "kb": 109,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folia-na-swietliki-dachowe-chomranice/02-swietlik-dachowy-przed-montazem-folii-chomranice.webp",
+    "bytes": 241266,
+    "kb": 236,
+    "width": 1600,
+    "height": 1200,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folia-na-swietliki-dachowe-chomranice/03-swietlik-dachowy-po-montazu-folii-chomranice-thumb.webp",
+    "bytes": 122310,
+    "kb": 119,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folia-na-swietliki-dachowe-chomranice/03-swietlik-dachowy-po-montazu-folii-chomranice.webp",
+    "bytes": 315908,
+    "kb": 309,
+    "width": 1600,
+    "height": 1200,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folia-na-swietliki-dachowe-chomranice/04-swietlik-dachowy-po-montazu-z-dachu-chomranice-thumb.webp",
+    "bytes": 102354,
+    "kb": 100,
+    "width": 600,
+    "height": 451,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folia-na-swietliki-dachowe-chomranice/04-swietlik-dachowy-po-montazu-z-dachu-chomranice.webp",
+    "bytes": 219104,
+    "kb": 214,
+    "width": 1447,
+    "height": 1087,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folia-na-swietliki-dachowe-chomranice/cover-hq-v2.webp",
+    "bytes": 410804,
+    "kb": 401,
+    "width": 1600,
+    "height": 1200,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folia-na-swietliki-dachowe-chomranice/cover.webp",
+    "bytes": 108384,
+    "kb": 106,
+    "width": 1200,
+    "height": 900,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folia-przeciwsloneczna-podnosnik-grudziadz/01-folia-przeciwsloneczna-elewacja-grudziadz-hq.webp",
+    "bytes": 765822,
+    "kb": 748,
+    "width": 2400,
+    "height": 1803,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folia-przeciwsloneczna-podnosnik-grudziadz/01-folia-przeciwsloneczna-elewacja-grudziadz-thumb-hq.webp",
+    "bytes": 133508,
+    "kb": 130,
+    "width": 800,
+    "height": 600,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folia-przeciwsloneczna-podnosnik-grudziadz/02-podnosnik-montaz-folii-grudziadz-hq.webp",
+    "bytes": 334260,
+    "kb": 326,
+    "width": 1448,
+    "height": 1086,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folia-przeciwsloneczna-podnosnik-grudziadz/02-podnosnik-montaz-folii-grudziadz-thumb-hq.webp",
+    "bytes": 126404,
+    "kb": 123,
+    "width": 800,
+    "height": 600,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folia-przeciwsloneczna-podnosnik-grudziadz/03-okna-po-montazu-folii-grudziadz-hq.webp",
+    "bytes": 724822,
+    "kb": 708,
+    "width": 2400,
+    "height": 1800,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folia-przeciwsloneczna-podnosnik-grudziadz/03-okna-po-montazu-folii-grudziadz-thumb-hq.webp",
+    "bytes": 97730,
+    "kb": 95,
+    "width": 800,
+    "height": 600,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folia-przeciwsloneczna-podnosnik-grudziadz/04-praca-z-podnosnika-grudziadz-hq.webp",
+    "bytes": 479036,
+    "kb": 468,
+    "width": 1448,
+    "height": 1086,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folia-przeciwsloneczna-podnosnik-grudziadz/04-praca-z-podnosnika-grudziadz-thumb-hq.webp",
+    "bytes": 167164,
+    "kb": 163,
+    "width": 800,
+    "height": 600,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folia-przeciwsloneczna-podnosnik-grudziadz/cover-hq-v2.webp",
+    "bytes": 416466,
+    "kb": 407,
+    "width": 1600,
+    "height": 1200,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/01-folia-lcd-tryb-mleczny-prywatnosc-nowy-sacz-thumb.webp",
+    "bytes": 31184,
+    "kb": 30,
+    "width": 450,
+    "height": 600,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/01-folia-lcd-tryb-mleczny-prywatnosc-nowy-sacz.webp",
+    "bytes": 29204,
+    "kb": 29,
+    "width": 1200,
+    "height": 1600,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/02-montaz-inteligentnej-folii-lcd-na-szybie-thumb.webp",
+    "bytes": 58972,
+    "kb": 58,
+    "width": 450,
+    "height": 600,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/02-montaz-inteligentnej-folii-lcd-na-szybie.webp",
+    "bytes": 74308,
+    "kb": 73,
+    "width": 1200,
+    "height": 1600,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/03-folia-lcd-tryb-transparentny-nowy-sacz-thumb.webp",
+    "bytes": 65936,
+    "kb": 64,
+    "width": 450,
+    "height": 600,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/03-folia-lcd-tryb-transparentny-nowy-sacz.webp",
+    "bytes": 86840,
+    "kb": 85,
+    "width": 1200,
+    "height": 1600,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/04-folia-lcd-zmiana-prywatnosci-animacja-thumb.webp",
+    "bytes": 14026,
+    "kb": 14,
+    "width": 270,
+    "height": 479,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/04-folia-lcd-zmiana-prywatnosci-animacja.webp",
+    "bytes": 221800,
+    "kb": 217,
+    "width": 360,
+    "height": 639,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/cover-hq-v2.webp",
+    "bytes": 57810,
+    "kb": 56,
+    "width": 1600,
+    "height": 1067,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/cover.webp",
+    "bytes": 12896,
+    "kb": 13,
+    "width": 1200,
+    "height": 800,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-balkony-krakow/01-balkon-balustrada-przed-po-thumb.webp",
+    "bytes": 54488,
+    "kb": 53,
+    "width": 800,
+    "height": 400,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-balkony-krakow/01-balkon-balustrada-przed-po.webp",
+    "bytes": 435612,
+    "kb": 425,
+    "width": 2400,
+    "height": 1200,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-balkony-krakow/02-dlugi-balkon-przed-po-thumb.webp",
+    "bytes": 40180,
+    "kb": 39,
+    "width": 800,
+    "height": 287,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-balkony-krakow/02-dlugi-balkon-przed-po.webp",
+    "bytes": 225328,
+    "kb": 220,
+    "width": 1944,
+    "height": 697,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-balkony-krakow/03-balkon-metamorfoza-elewacja-thumb.webp",
+    "bytes": 92932,
+    "kb": 91,
+    "width": 640,
+    "height": 800,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-balkony-krakow/03-balkon-metamorfoza-elewacja.webp",
+    "bytes": 285290,
+    "kb": 279,
+    "width": 1122,
+    "height": 1402,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-balkony-krakow/04-balustrada-bezramowa-przed-po-thumb.webp",
+    "bytes": 79512,
+    "kb": 78,
+    "width": 800,
+    "height": 600,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-balkony-krakow/04-balustrada-bezramowa-przed-po.webp",
+    "bytes": 262494,
+    "kb": 256,
+    "width": 1448,
+    "height": 1086,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-balkony-krakow/05-naroznik-balkonu-przed-po-thumb.webp",
+    "bytes": 76998,
+    "kb": 75,
+    "width": 800,
+    "height": 600,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-balkony-krakow/05-naroznik-balkonu-przed-po.webp",
+    "bytes": 257284,
+    "kb": 251,
+    "width": 1448,
+    "height": 1086,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-balkony-krakow/06-balkon-osiedle-przed-po-thumb.webp",
+    "bytes": 75804,
+    "kb": 74,
+    "width": 800,
+    "height": 600,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-balkony-krakow/06-balkon-osiedle-przed-po.webp",
+    "bytes": 238666,
+    "kb": 233,
+    "width": 1448,
+    "height": 1086,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-balkony-krakow/07-mleczna-folia-balustrada-thumb.webp",
+    "bytes": 68030,
+    "kb": 66,
+    "width": 800,
+    "height": 601,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-balkony-krakow/07-mleczna-folia-balustrada.webp",
+    "bytes": 583154,
+    "kb": 569,
+    "width": 2396,
+    "height": 1800,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-balkony-krakow/08-balustrady-widok-z-zewnatrz-thumb.webp",
+    "bytes": 71070,
+    "kb": 69,
+    "width": 800,
+    "height": 600,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-balkony-krakow/08-balustrady-widok-z-zewnatrz.webp",
+    "bytes": 670352,
+    "kb": 655,
+    "width": 2400,
+    "height": 1800,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-balkony-krakow/09-folia-matowa-naroznik-thumb.webp",
+    "bytes": 62420,
+    "kb": 61,
+    "width": 800,
+    "height": 600,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-balkony-krakow/09-folia-matowa-naroznik.webp",
+    "bytes": 600354,
+    "kb": 586,
+    "width": 2400,
+    "height": 1800,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-balkony-krakow/cover.webp",
+    "bytes": 251576,
+    "kb": 246,
+    "width": 1600,
+    "height": 800,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-mrozone-biuro-krakow/01-matowe-szklane-scianki-biuro-krakow-thumb.webp",
+    "bytes": 35554,
+    "kb": 35,
+    "width": 800,
+    "height": 601,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-mrozone-biuro-krakow/01-matowe-szklane-scianki-biuro-krakow.webp",
+    "bytes": 119384,
+    "kb": 117,
+    "width": 1447,
+    "height": 1087,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-mrozone-biuro-krakow/02-folia-matowa-biuro-przed-po-thumb.webp",
+    "bytes": 37262,
+    "kb": 36,
+    "width": 800,
+    "height": 600,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-mrozone-biuro-krakow/02-folia-matowa-biuro-przed-po.webp",
+    "bytes": 130874,
+    "kb": 128,
+    "width": 1448,
+    "height": 1086,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-mrozone-biuro-krakow/03-folia-mrozona-szklana-sciana-przed-po-thumb.webp",
+    "bytes": 46438,
+    "kb": 45,
+    "width": 800,
+    "height": 600,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-mrozone-biuro-krakow/03-folia-mrozona-szklana-sciana-przed-po.webp",
+    "bytes": 185754,
+    "kb": 181,
+    "width": 1448,
+    "height": 1086,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-mrozone-biuro-krakow/04-przeszklenia-biurowe-folia-mrozona-thumb.webp",
+    "bytes": 16132,
+    "kb": 16,
+    "width": 800,
+    "height": 601,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-mrozone-biuro-krakow/04-przeszklenia-biurowe-folia-mrozona.webp",
+    "bytes": 83780,
+    "kb": 82,
+    "width": 2000,
+    "height": 1502,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-mrozone-biuro-krakow/05-folia-dekoracyjna-matowa-drzwi-szklane-thumb.webp",
+    "bytes": 24886,
+    "kb": 24,
+    "width": 800,
+    "height": 601,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-mrozone-biuro-krakow/05-folia-dekoracyjna-matowa-drzwi-szklane.webp",
+    "bytes": 196206,
+    "kb": 192,
+    "width": 2000,
+    "height": 1502,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-mrozone-biuro-krakow/06-matowa-folia-scianka-gabinet-thumb.webp",
+    "bytes": 23022,
+    "kb": 22,
+    "width": 600,
+    "height": 800,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-mrozone-biuro-krakow/06-matowa-folia-scianka-gabinet.webp",
+    "bytes": 222616,
+    "kb": 217,
+    "width": 1500,
+    "height": 2000,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-matowe-mrozone-biuro-krakow/cover.webp",
+    "bytes": 113178,
+    "kb": 111,
+    "width": 1447,
+    "height": 1087,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-mrozone-przedszkole-swietochlowice/01-folie-mrozone-okna-przedszkole-swietochlowice-thumb.webp",
+    "bytes": 70678,
+    "kb": 69,
+    "width": 600,
+    "height": 451,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-mrozone-przedszkole-swietochlowice/01-folie-mrozone-okna-przedszkole-swietochlowice.webp",
+    "bytes": 168274,
+    "kb": 164,
+    "width": 1600,
+    "height": 1202,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-mrozone-przedszkole-swietochlowice/02-przed-po-folie-mrozone-przedszkole-swietochlowice-thumb.webp",
+    "bytes": 41688,
+    "kb": 41,
+    "width": 600,
+    "height": 237,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-mrozone-przedszkole-swietochlowice/02-przed-po-folie-mrozone-przedszkole-swietochlowice.webp",
+    "bytes": 99534,
+    "kb": 97,
+    "width": 1600,
+    "height": 632,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-mrozone-przedszkole-swietochlowice/03-folia-mrozona-przeszklenia-sala-przedszkolna-swietochlowice-thumb.webp",
+    "bytes": 61114,
+    "kb": 60,
+    "width": 600,
+    "height": 451,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-mrozone-przedszkole-swietochlowice/03-folia-mrozona-przeszklenia-sala-przedszkolna-swietochlowice.webp",
+    "bytes": 122644,
+    "kb": 120,
+    "width": 1600,
+    "height": 1202,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-mrozone-przedszkole-swietochlowice/04-folia-mrozona-przeszklenia-przedszkole-swietochlowice-thumb.webp",
+    "bytes": 58774,
+    "kb": 57,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-mrozone-przedszkole-swietochlowice/04-folia-mrozona-przeszklenia-przedszkole-swietochlowice.webp",
+    "bytes": 145812,
+    "kb": 142,
+    "width": 1600,
+    "height": 1200,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-mrozone-przedszkole-swietochlowice/05-czesciowe-oklejenie-okien-folia-mrozona-przedszkole-thumb.webp",
+    "bytes": 85064,
+    "kb": 83,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-mrozone-przedszkole-swietochlowice/05-czesciowe-oklejenie-okien-folia-mrozona-przedszkole.webp",
+    "bytes": 249066,
+    "kb": 243,
+    "width": 1600,
+    "height": 1200,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-mrozone-przedszkole-swietochlowice/06-folia-mrozona-okna-od-zewnatrz-przedszkole-swietochlowice-thumb.webp",
+    "bytes": 92734,
+    "kb": 91,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-mrozone-przedszkole-swietochlowice/06-folia-mrozona-okna-od-zewnatrz-przedszkole-swietochlowice.webp",
+    "bytes": 336252,
+    "kb": 328,
+    "width": 1600,
+    "height": 1200,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-mrozone-przedszkole-swietochlowice/07-budynek-przedszkola-miejskiego-nr-7-swietochlowice-thumb.webp",
+    "bytes": 94236,
+    "kb": 92,
+    "width": 600,
+    "height": 451,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-mrozone-przedszkole-swietochlowice/07-budynek-przedszkola-miejskiego-nr-7-swietochlowice.webp",
+    "bytes": 239240,
+    "kb": 234,
+    "width": 1600,
+    "height": 1202,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-mrozone-przedszkole-swietochlowice/08-okna-przedszkola-z-folia-mrozona-swietochlowice-thumb.webp",
+    "bytes": 106772,
+    "kb": 104,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-mrozone-przedszkole-swietochlowice/08-okna-przedszkola-z-folia-mrozona-swietochlowice.webp",
+    "bytes": 338832,
+    "kb": 331,
+    "width": 1600,
+    "height": 1200,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-mrozone-przedszkole-swietochlowice/cover-hq-v2.webp",
+    "bytes": 267764,
+    "kb": 261,
+    "width": 1600,
+    "height": 1067,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-mrozone-przedszkole-swietochlowice/cover.webp",
+    "bytes": 95284,
+    "kb": 93,
+    "width": 1200,
+    "height": 800,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-dom-prywatny-zelkow/01-porownanie-okna-pionowe-z-folia-bez-folii-thumb.webp",
+    "bytes": 72826,
+    "kb": 71,
+    "width": 540,
+    "height": 720,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-dom-prywatny-zelkow/01-porownanie-okna-pionowe-z-folia-bez-folii.webp",
+    "bytes": 52276,
+    "kb": 51,
+    "width": 1000,
+    "height": 1333,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-dom-prywatny-zelkow/02-folia-przeciwsloneczna-okno-dom-zelkow-thumb.webp",
+    "bytes": 80960,
+    "kb": 79,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-dom-prywatny-zelkow/02-folia-przeciwsloneczna-okno-dom-zelkow.webp",
+    "bytes": 76610,
+    "kb": 75,
+    "width": 1200,
+    "height": 900,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-dom-prywatny-zelkow/03-okno-przed-montazem-bez-folii-dom-zelkow-thumb.webp",
+    "bytes": 87006,
+    "kb": 85,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-dom-prywatny-zelkow/03-okno-przed-montazem-bez-folii-dom-zelkow.webp",
+    "bytes": 93632,
+    "kb": 91,
+    "width": 1200,
+    "height": 900,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-dom-prywatny-zelkow/04-porownanie-okna-dachowe-folia-przeciwsloneczna-thumb.webp",
+    "bytes": 32494,
+    "kb": 32,
+    "width": 600,
+    "height": 347,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-dom-prywatny-zelkow/04-porownanie-okna-dachowe-folia-przeciwsloneczna.webp",
+    "bytes": 24862,
+    "kb": 24,
+    "width": 1200,
+    "height": 694,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-dom-prywatny-zelkow/cover-hq-v2.webp",
+    "bytes": 319192,
+    "kb": 312,
+    "width": 1600,
+    "height": 1200,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-dom-prywatny-zelkow/cover.webp",
+    "bytes": 41480,
+    "kb": 41,
+    "width": 900,
+    "height": 675,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/01-wejscie-przed-po-folie-przeciwsloneczne-polting-gliwice-thumb.webp",
+    "bytes": 105260,
+    "kb": 103,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/01-wejscie-przed-po-folie-przeciwsloneczne-polting-gliwice.webp",
+    "bytes": 163488,
+    "kb": 160,
+    "width": 1600,
+    "height": 600,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/02-hala-przed-po-folie-przeciwsloneczne-polting-gliwice-thumb.webp",
+    "bytes": 65824,
+    "kb": 64,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/02-hala-przed-po-folie-przeciwsloneczne-polting-gliwice.webp",
+    "bytes": 78280,
+    "kb": 76,
+    "width": 1600,
+    "height": 600,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/03-wejscie-polting-podczas-montazu-thumb.webp",
+    "bytes": 121344,
+    "kb": 119,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/03-wejscie-polting-podczas-montazu.webp",
+    "bytes": 234422,
+    "kb": 229,
+    "width": 1400,
+    "height": 1050,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/04-fasada-hali-folie-przeciwsloneczne-polting-thumb.webp",
+    "bytes": 96224,
+    "kb": 94,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/04-fasada-hali-folie-przeciwsloneczne-polting.webp",
+    "bytes": 137750,
+    "kb": 135,
+    "width": 1400,
+    "height": 1050,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/05-detal-folii-przeciwslonecznej-na-przeszkleniu-thumb.webp",
+    "bytes": 63120,
+    "kb": 62,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/05-detal-folii-przeciwslonecznej-na-przeszkleniu.webp",
+    "bytes": 38760,
+    "kb": 38,
+    "width": 1200,
+    "height": 900,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/06-portiernia-folie-przeciwsloneczne-polting-thumb.webp",
+    "bytes": 85738,
+    "kb": 84,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/06-portiernia-folie-przeciwsloneczne-polting.webp",
+    "bytes": 97804,
+    "kb": 96,
+    "width": 1173,
+    "height": 880,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/07-okna-biurowe-folie-przeciwsloneczne-polting-thumb.webp",
+    "bytes": 87362,
+    "kb": 85,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/07-okna-biurowe-folie-przeciwsloneczne-polting.webp",
+    "bytes": 109390,
+    "kb": 107,
+    "width": 1093,
+    "height": 821,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/08-folia-mrozona-hala-produkcyjna-polting-thumb.webp",
+    "bytes": 55194,
+    "kb": 54,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/08-folia-mrozona-hala-produkcyjna-polting.webp",
+    "bytes": 55868,
+    "kb": 55,
+    "width": 1400,
+    "height": 1050,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/09-strefa-produkcyjna-folie-okienne-polting-thumb.webp",
+    "bytes": 79820,
+    "kb": 78,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/09-strefa-produkcyjna-folie-okienne-polting.webp",
+    "bytes": 84380,
+    "kb": 82,
+    "width": 1200,
+    "height": 900,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/10-odbicie-folii-przeciwslonecznej-polting-thumb.webp",
+    "bytes": 80892,
+    "kb": 79,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/10-odbicie-folii-przeciwslonecznej-polting.webp",
+    "bytes": 69664,
+    "kb": 68,
+    "width": 1200,
+    "height": 900,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/11-elewacja-polting-po-montazu-folii-thumb.webp",
+    "bytes": 109212,
+    "kb": 107,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/11-elewacja-polting-po-montazu-folii.webp",
+    "bytes": 133856,
+    "kb": 131,
+    "width": 1200,
+    "height": 899,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/cover-hq-v2.webp",
+    "bytes": 394582,
+    "kb": 385,
+    "width": 1600,
+    "height": 1200,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/cover.webp",
+    "bytes": 91528,
+    "kb": 89,
+    "width": 900,
+    "height": 675,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/01-elewacja-szpital-murcki-folie-przeciwsloneczne-katowice-thumb.webp",
+    "bytes": 98702,
+    "kb": 96,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/01-elewacja-szpital-murcki-folie-przeciwsloneczne-katowice.webp",
+    "bytes": 199032,
+    "kb": 194,
+    "width": 1600,
+    "height": 1200,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/02-przeszklenie-klatki-schodowej-folia-przeciwsloneczna-szpital-murcki-thumb.webp",
+    "bytes": 115856,
+    "kb": 113,
+    "width": 600,
+    "height": 800,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/02-przeszklenie-klatki-schodowej-folia-przeciwsloneczna-szpital-murcki.webp",
+    "bytes": 108074,
+    "kb": 106,
+    "width": 1086,
+    "height": 1448,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/03-wejscie-szpital-murcki-podczas-przygotowania-montazu-thumb.webp",
+    "bytes": 97660,
+    "kb": 95,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/03-wejscie-szpital-murcki-podczas-przygotowania-montazu.webp",
+    "bytes": 203378,
+    "kb": 199,
+    "width": 1600,
+    "height": 1200,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/04-rusztowanie-elewacja-szpital-murcki-montaz-folii-thumb.webp",
+    "bytes": 159876,
+    "kb": 156,
+    "width": 600,
+    "height": 451,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/04-rusztowanie-elewacja-szpital-murcki-montaz-folii.webp",
+    "bytes": 385928,
+    "kb": 377,
+    "width": 1600,
+    "height": 1202,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/cover-hq-v2.webp",
+    "bytes": 413474,
+    "kb": 404,
+    "width": 1600,
+    "height": 1067,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/cover.webp",
+    "bytes": 105012,
+    "kb": 103,
+    "width": 1200,
+    "height": 800,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/lustro-weneckie-kawiarnia-krakow/01-przed-po-lustro-weneckie-kawiarnia-krakow-thumb.webp",
+    "bytes": 107054,
+    "kb": 105,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/lustro-weneckie-kawiarnia-krakow/01-przed-po-lustro-weneckie-kawiarnia-krakow.webp",
+    "bytes": 96174,
+    "kb": 94,
+    "width": 1200,
+    "height": 900,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/lustro-weneckie-kawiarnia-krakow/02-przed-montazem-kawiarnia-krakow-thumb.webp",
+    "bytes": 126448,
+    "kb": 123,
+    "width": 540,
+    "height": 720,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/lustro-weneckie-kawiarnia-krakow/02-przed-montazem-kawiarnia-krakow.webp",
+    "bytes": 95128,
+    "kb": 93,
+    "width": 840,
+    "height": 1119,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/lustro-weneckie-kawiarnia-krakow/03-po-montazu-lustro-weneckie-kawiarnia-krakow-thumb.webp",
+    "bytes": 134528,
+    "kb": 131,
+    "width": 541,
+    "height": 720,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/lustro-weneckie-kawiarnia-krakow/03-po-montazu-lustro-weneckie-kawiarnia-krakow.webp",
+    "bytes": 137166,
+    "kb": 134,
+    "width": 1087,
+    "height": 1447,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/lustro-weneckie-kawiarnia-krakow/cover-hq-v2.webp",
+    "bytes": 386134,
+    "kb": 377,
+    "width": 1600,
+    "height": 1200,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/lustro-weneckie-kawiarnia-krakow/cover.webp",
+    "bytes": 75458,
+    "kb": 74,
+    "width": 900,
+    "height": 675,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/montaz-folii-antywlamaniowej-biuro-katowice/01-montaz-folii-antywlamaniowej-biuro-thumb.webp",
+    "bytes": 47324,
+    "kb": 46,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/montaz-folii-antywlamaniowej-biuro-katowice/01-montaz-folii-antywlamaniowej-biuro.webp",
+    "bytes": 172594,
+    "kb": 169,
+    "width": 1448,
+    "height": 1086,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/montaz-folii-antywlamaniowej-biuro-katowice/cover.webp",
+    "bytes": 137792,
+    "kb": 135,
+    "width": 1200,
+    "height": 900,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/montaz-folii-na-swietlik-dachowy-chomranice/01-przed-po-folia-na-swietlik-dachowy-chomranice-thumb.webp",
+    "bytes": 25510,
+    "kb": 25,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/montaz-folii-na-swietlik-dachowy-chomranice/01-przed-po-folia-na-swietlik-dachowy-chomranice.webp",
+    "bytes": 129774,
+    "kb": 127,
+    "width": 1448,
+    "height": 1086,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/montaz-folii-na-swietlik-dachowy-chomranice/02-swietlik-dachowy-po-montazu-chomranice-thumb.webp",
+    "bytes": 35224,
+    "kb": 34,
+    "width": 600,
+    "height": 451,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/montaz-folii-na-swietlik-dachowy-chomranice/02-swietlik-dachowy-po-montazu-chomranice.webp",
+    "bytes": 177986,
+    "kb": 174,
+    "width": 1447,
+    "height": 1087,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/montaz-folii-na-swietlik-dachowy-chomranice/cover.webp",
+    "bytes": 92516,
+    "kb": 90,
+    "width": 1200,
+    "height": 900,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/montaz-folii-na-swietliki-dachowe-modlnica/01-przed-po-folia-na-swietliki-dachowe-modlnica-thumb.webp",
+    "bytes": 47526,
+    "kb": 46,
+    "width": 600,
+    "height": 200,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/montaz-folii-na-swietliki-dachowe-modlnica/01-przed-po-folia-na-swietliki-dachowe-modlnica.webp",
+    "bytes": 94682,
+    "kb": 92,
+    "width": 1600,
+    "height": 533,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/montaz-folii-na-swietliki-dachowe-modlnica/02-swietliki-dachowe-po-montazu-modlnica-thumb.webp",
+    "bytes": 88240,
+    "kb": 86,
+    "width": 600,
+    "height": 451,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/montaz-folii-na-swietliki-dachowe-modlnica/02-swietliki-dachowe-po-montazu-modlnica.webp",
+    "bytes": 166330,
+    "kb": 162,
+    "width": 1600,
+    "height": 1202,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/montaz-folii-na-swietliki-dachowe-modlnica/03-folia-przeciwsloneczna-na-swietliku-modlnica-thumb.webp",
+    "bytes": 84522,
+    "kb": 83,
+    "width": 600,
+    "height": 451,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/montaz-folii-na-swietliki-dachowe-modlnica/03-folia-przeciwsloneczna-na-swietliku-modlnica.webp",
+    "bytes": 159604,
+    "kb": 156,
+    "width": 1600,
+    "height": 1202,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/montaz-folii-na-swietliki-dachowe-modlnica/cover-hq-v2.webp",
+    "bytes": 185656,
+    "kb": 181,
+    "width": 1600,
+    "height": 900,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/montaz-folii-na-swietliki-dachowe-modlnica/cover.webp",
+    "bytes": 88048,
+    "kb": 86,
+    "width": 1600,
+    "height": 900,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/01-przed-po-folia-przeciwsloneczna-gieraltowice-thumb.webp",
+    "bytes": 112018,
+    "kb": 109,
+    "width": 600,
+    "height": 400,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/01-przed-po-folia-przeciwsloneczna-gieraltowice.webp",
+    "bytes": 353954,
+    "kb": 346,
+    "width": 1536,
+    "height": 1024,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/02-dom-przed-montazem-folii-przeciwslonecznej-gieraltowice-thumb.webp",
+    "bytes": 173218,
+    "kb": 169,
+    "width": 540,
+    "height": 720,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/02-dom-przed-montazem-folii-przeciwslonecznej-gieraltowice.webp",
+    "bytes": 358224,
+    "kb": 350,
+    "width": 1086,
+    "height": 1448,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/03-montaz-folii-przeciwslonecznej-z-rusztowania-gieraltowice-thumb.webp",
+    "bytes": 192198,
+    "kb": 188,
+    "width": 540,
+    "height": 720,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/03-montaz-folii-przeciwslonecznej-z-rusztowania-gieraltowice.webp",
+    "bytes": 391902,
+    "kb": 383,
+    "width": 1086,
+    "height": 1448,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/04-dom-po-montazu-folii-przeciwslonecznej-gieraltowice-thumb.webp",
+    "bytes": 187704,
+    "kb": 183,
+    "width": 540,
+    "height": 720,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/04-dom-po-montazu-folii-przeciwslonecznej-gieraltowice.webp",
+    "bytes": 572806,
+    "kb": 559,
+    "width": 1200,
+    "height": 1600,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/cover-hq-v2.webp",
+    "bytes": 618652,
+    "kb": 604,
+    "width": 1600,
+    "height": 1067,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/cover.webp",
+    "bytes": 178198,
+    "kb": 174,
+    "width": 1200,
+    "height": 800,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/01-przed-po-oklejanie-drzwi-laminatem-krakow-thumb.webp",
+    "bytes": 39222,
+    "kb": 38,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/01-przed-po-oklejanie-drzwi-laminatem-krakow.webp",
+    "bytes": 37928,
+    "kb": 37,
+    "width": 1448,
+    "height": 1086,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/02-drzwi-przed-oklejeniem-laminatem-krakow-thumb.webp",
+    "bytes": 45186,
+    "kb": 44,
+    "width": 520,
+    "height": 693,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/02-drzwi-przed-oklejeniem-laminatem-krakow.webp",
+    "bytes": 45594,
+    "kb": 45,
+    "width": 1200,
+    "height": 1600,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/03-drzwi-po-oklejeniu-laminatem-krakow-thumb.webp",
+    "bytes": 60744,
+    "kb": 59,
+    "width": 520,
+    "height": 693,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/03-drzwi-po-oklejeniu-laminatem-krakow.webp",
+    "bytes": 66126,
+    "kb": 65,
+    "width": 1200,
+    "height": 1600,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/04-drzwi-drewnopodobne-na-biale-thumb.webp",
+    "bytes": 16504,
+    "kb": 16,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/04-drzwi-drewnopodobne-na-biale.webp",
+    "bytes": 102886,
+    "kb": 100,
+    "width": 1448,
+    "height": 1086,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/05-odnowienie-strefy-wejscia-thumb.webp",
+    "bytes": 13224,
+    "kb": 13,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/05-odnowienie-strefy-wejscia.webp",
+    "bytes": 75696,
+    "kb": 74,
+    "width": 1448,
+    "height": 1086,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/06-biale-drzwi-dekor-drewna-thumb.webp",
+    "bytes": 18686,
+    "kb": 18,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/06-biale-drzwi-dekor-drewna.webp",
+    "bytes": 148134,
+    "kb": 145,
+    "width": 1448,
+    "height": 1086,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/07-drzwi-szary-laminat-thumb.webp",
+    "bytes": 22076,
+    "kb": 22,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/07-drzwi-szary-laminat.webp",
+    "bytes": 116418,
+    "kb": 114,
+    "width": 1448,
+    "height": 1086,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/08-renowacja-drzwi-wejsciowych-thumb.webp",
+    "bytes": 43140,
+    "kb": 42,
+    "width": 600,
+    "height": 497,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/08-renowacja-drzwi-wejsciowych.webp",
+    "bytes": 390706,
+    "kb": 382,
+    "width": 1378,
+    "height": 1142,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/09-fronty-szafek-okleina-drewnopodobna-thumb.webp",
+    "bytes": 36506,
+    "kb": 36,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/09-fronty-szafek-okleina-drewnopodobna.webp",
+    "bytes": 313710,
+    "kb": 306,
+    "width": 1448,
+    "height": 1086,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/10-renowacja-stolu-jasne-drewno-thumb.webp",
+    "bytes": 33750,
+    "kb": 33,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/10-renowacja-stolu-jasne-drewno.webp",
+    "bytes": 204078,
+    "kb": 199,
+    "width": 1448,
+    "height": 1086,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/cover-hq-v2.webp",
+    "bytes": 115908,
+    "kb": 113,
+    "width": 1600,
+    "height": 1200,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/cover.webp",
+    "bytes": 26686,
+    "kb": 26,
+    "width": 1200,
+    "height": 900,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-szafy-folia-architektoniczna-katowice/01-szafa-przed-po-katowice-thumb.webp",
+    "bytes": 15548,
+    "kb": 15,
+    "width": 600,
+    "height": 230,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-szafy-folia-architektoniczna-katowice/01-szafa-przed-po-katowice.webp",
+    "bytes": 101710,
+    "kb": 99,
+    "width": 1800,
+    "height": 691,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-szafy-folia-architektoniczna-katowice/02-oklejanie-frontu-przed-po-thumb.webp",
+    "bytes": 37420,
+    "kb": 37,
+    "width": 600,
+    "height": 400,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-szafy-folia-architektoniczna-katowice/02-oklejanie-frontu-przed-po.webp",
+    "bytes": 208294,
+    "kb": 203,
+    "width": 1536,
+    "height": 1024,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-szafy-folia-architektoniczna-katowice/03-detal-frontu-szafy-thumb.webp",
+    "bytes": 11380,
+    "kb": 11,
+    "width": 451,
+    "height": 600,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-szafy-folia-architektoniczna-katowice/03-detal-frontu-szafy.webp",
+    "bytes": 122786,
+    "kb": 120,
+    "width": 1352,
+    "height": 1800,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-szafy-folia-architektoniczna-katowice/04-szafa-przesuwna-po-oklejeniu-thumb.webp",
+    "bytes": 23728,
+    "kb": 23,
+    "width": 451,
+    "height": 600,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-szafy-folia-architektoniczna-katowice/04-szafa-przesuwna-po-oklejeniu.webp",
+    "bytes": 278590,
+    "kb": 272,
+    "width": 1352,
+    "height": 1800,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-szafy-folia-architektoniczna-katowice/05-dekor-drewna-przy-oknie-thumb.webp",
+    "bytes": 24314,
+    "kb": 24,
+    "width": 451,
+    "height": 600,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-szafy-folia-architektoniczna-katowice/05-dekor-drewna-przy-oknie.webp",
+    "bytes": 186890,
+    "kb": 183,
+    "width": 1352,
+    "height": 1800,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/oklejanie-szafy-folia-architektoniczna-katowice/cover.webp",
+    "bytes": 53116,
+    "kb": 52,
+    "width": 1200,
+    "height": 460,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/wymiana-folii-przeciwslonecznej-dentysta-krakow/01-przed-po-thumb.webp",
+    "bytes": 119580,
+    "kb": 117,
+    "width": 600,
+    "height": 450,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/wymiana-folii-przeciwslonecznej-dentysta-krakow/01-przed-po.webp",
+    "bytes": 132300,
+    "kb": 129,
+    "width": 1200,
+    "height": 900,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/wymiana-folii-przeciwslonecznej-dentysta-krakow/02-przed-demontazem-thumb.webp",
+    "bytes": 152146,
+    "kb": 149,
+    "width": 520,
+    "height": 692,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/wymiana-folii-przeciwslonecznej-dentysta-krakow/02-przed-demontazem.webp",
+    "bytes": 259876,
+    "kb": 254,
+    "width": 1200,
+    "height": 1598,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/wymiana-folii-przeciwslonecznej-dentysta-krakow/03-po-montazu-thumb.webp",
+    "bytes": 154418,
+    "kb": 151,
+    "width": 520,
+    "height": 692,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/wymiana-folii-przeciwslonecznej-dentysta-krakow/03-po-montazu.webp",
+    "bytes": 252042,
+    "kb": 246,
+    "width": 1200,
+    "height": 1598,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/wymiana-folii-przeciwslonecznej-dentysta-krakow/cover-hq-v2.webp",
+    "bytes": 482872,
+    "kb": 472,
+    "width": 1600,
+    "height": 1200,
+    "format": "webp"
+  },
+  {
+    "file": "public/img/realizacje/wymiana-folii-przeciwslonecznej-dentysta-krakow/cover.webp",
+    "bytes": 96144,
+    "kb": 94,
+    "width": 900,
+    "height": 675,
+    "format": "webp"
+  },
+  {
+    "file": "public/og-image.png",
+    "bytes": 80280,
+    "kb": 78,
+    "width": 1200,
+    "height": 630,
+    "format": "png"
+  },
+  {
+    "file": "src/img/generated/montaz-folii-lcd.webp",
+    "bytes": 18604,
+    "kb": 18,
+    "width": 1280,
+    "height": 640,
+    "format": "webp"
+  },
+  {
+    "file": "src/img/generated/problem-bezpieczniejsze-szyby.webp",
+    "bytes": 36492,
+    "kb": 36,
+    "width": 960,
+    "height": 540,
+    "format": "webp"
+  },
+  {
+    "file": "src/img/generated/problem-brak-prywatnosci.webp",
+    "bytes": 36436,
+    "kb": 36,
+    "width": 960,
+    "height": 540,
+    "format": "webp"
+  },
+  {
+    "file": "src/img/generated/problem-za-goraco.webp",
+    "bytes": 37882,
+    "kb": 37,
+    "width": 960,
+    "height": 540,
+    "format": "webp"
+  },
+  {
+    "file": "src/img/HeaderBuilding-800.webp",
+    "bytes": 80524,
+    "kb": 79,
+    "width": 800,
+    "height": 1200,
+    "format": "webp"
+  },
+  {
+    "file": "src/img/HeaderBuilding.webp",
+    "bytes": 174274,
+    "kb": 170,
+    "width": 1280,
+    "height": 1920,
+    "format": "webp"
+  }
+]

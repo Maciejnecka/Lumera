@@ -26,3 +26,10 @@
 - SEO: jeden H1, title, description, canonical, Open Graph, Article, FAQPage, BreadcrumbList; brak noindex oraz nazwy klienta i ulicy w HTML.
 - Przeglądarka: wybór każdego zdjęcia 1–11, powiększenie zdjęcia 8, zamknięcie powiększenia, CTA z wybranym tematem demontażu, połączone filtry demontażu i Krakowa. Widok 319 px bez poziomego przepełnienia. Formularza nie wysyłano.
 - Publiczna domena w dniu audytu: nowy URL zwraca 404; indeks, oferta i sitemap zwracają 200, ale nie zawierają nowej realizacji. Wymagane wdrożenie przed zgłoszeniem nowego adresu w Search Console.
+
+## Optymalizacja zdjęć
+
+- Zestaw 23 WebP zmniejszony z 8 805 856 do 3038078 bajtów (o 65.5%).
+- Duże zdjęcia: dłuższy bok do 1800 px, jakość WebP 72; źródłem były oryginalne JPG, a dla zdjęcia 8 zanonimizowany PNG.
+- Miniatury: dłuższy bok do 320 px, jakość 68. Okładka: 1200 × 900 px, jakość 72.
+- Zachowano wszystkie kadry, kolejność 1–11 i maskowanie twarzy. Wymiary w danych zaktualizowane. Szczegółowe wagi w sąsiednim raporcie JSON.

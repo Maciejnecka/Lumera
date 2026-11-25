@@ -1,0 +1,1909 @@
+{
+  "scope": "Local source audit and trial encoding; production files unchanged",
+  "inventory": "238 raster images, 32.8 MiB total; includes unused source assets",
+  "trial": {
+    "summary": {
+      "count": 187,
+      "beforeMB": "28.06",
+      "afterMB": "11.87",
+      "savedMB": "16.19"
+    },
+    "covers": {
+      "count": 17,
+      "beforeMB": "4.66",
+      "afterMB": "1.06",
+      "savedMB": "3.60"
+    },
+    "full": {
+      "count": 85,
+      "beforeMB": "17.19",
+      "afterMB": "10.21",
+      "savedMB": "6.98"
+    },
+    "thumbs": {
+      "count": 85,
+      "beforeMB": "6.22",
+      "afterMB": "0.61",
+      "savedMB": "5.61"
+    },
+    "rows": [
+      {
+        "path": "/img/realizacje/folia-przeciwsloneczna-podnosnik-grudziadz/cover-hq-v2.webp",
+        "kind": "cover",
+        "project": "Montaż folii przeciwsłonecznej z podnośnika w Grudziądzu",
+        "limit": 1200,
+        "quality": 72,
+        "before": 416466,
+        "after": 60944,
+        "saving": 355522
+      },
+      {
+        "path": "/img/realizacje/folia-przeciwsloneczna-podnosnik-grudziadz/01-folia-przeciwsloneczna-elewacja-grudziadz-hq.webp",
+        "kind": "full",
+        "project": "Montaż folii przeciwsłonecznej z podnośnika w Grudziądzu",
+        "limit": 1800,
+        "quality": 74,
+        "before": 765822,
+        "after": 114272,
+        "saving": 651550
+      },
+      {
+        "path": "/img/realizacje/folia-przeciwsloneczna-podnosnik-grudziadz/01-folia-przeciwsloneczna-elewacja-grudziadz-thumb-hq.webp",
+        "kind": "thumb",
+        "project": "Montaż folii przeciwsłonecznej z podnośnika w Grudziądzu",
+        "limit": 320,
+        "quality": 68,
+        "before": 133508,
+        "after": 7792,
+        "saving": 125716
+      },
+      {
+        "path": "/img/realizacje/folia-przeciwsloneczna-podnosnik-grudziadz/02-podnosnik-montaz-folii-grudziadz-hq.webp",
+        "kind": "full",
+        "project": "Montaż folii przeciwsłonecznej z podnośnika w Grudziądzu",
+        "limit": 1800,
+        "quality": 74,
+        "before": 334260,
+        "after": 97644,
+        "saving": 236616
+      },
+      {
+        "path": "/img/realizacje/folia-przeciwsloneczna-podnosnik-grudziadz/02-podnosnik-montaz-folii-grudziadz-thumb-hq.webp",
+        "kind": "thumb",
+        "project": "Montaż folii przeciwsłonecznej z podnośnika w Grudziądzu",
+        "limit": 320,
+        "quality": 68,
+        "before": 126404,
+        "after": 9404,
+        "saving": 117000
+      },
+      {
+        "path": "/img/realizacje/folia-przeciwsloneczna-podnosnik-grudziadz/03-okna-po-montazu-folii-grudziadz-hq.webp",
+        "kind": "full",
+        "project": "Montaż folii przeciwsłonecznej z podnośnika w Grudziądzu",
+        "limit": 1800,
+        "quality": 74,
+        "before": 724822,
+        "after": 96832,
+        "saving": 627990
+      },
+      {
+        "path": "/img/realizacje/folia-przeciwsloneczna-podnosnik-grudziadz/03-okna-po-montazu-folii-grudziadz-thumb-hq.webp",
+        "kind": "thumb",
+        "project": "Montaż folii przeciwsłonecznej z podnośnika w Grudziądzu",
+        "limit": 320,
+        "quality": 68,
+        "before": 97730,
+        "after": 7592,
+        "saving": 90138
+      },
+      {
+        "path": "/img/realizacje/folia-przeciwsloneczna-podnosnik-grudziadz/04-praca-z-podnosnika-grudziadz-hq.webp",
+        "kind": "full",
+        "project": "Montaż folii przeciwsłonecznej z podnośnika w Grudziądzu",
+        "limit": 1800,
+        "quality": 74,
+        "before": 479036,
+        "after": 141740,
+        "saving": 337296
+      },
+      {
+        "path": "/img/realizacje/folia-przeciwsloneczna-podnosnik-grudziadz/04-praca-z-podnosnika-grudziadz-thumb-hq.webp",
+        "kind": "thumb",
+        "project": "Montaż folii przeciwsłonecznej z podnośnika w Grudziądzu",
+        "limit": 320,
+        "quality": 68,
+        "before": 167164,
+        "after": 11368,
+        "saving": 155796
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-balkony-krakow/cover.webp",
+        "kind": "cover",
+        "project": "Prywatny balkon bez wymiany szkła — montaż folii matowej",
+        "limit": 1200,
+        "quality": 72,
+        "before": 251576,
+        "after": 79336,
+        "saving": 172240
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-balkony-krakow/01-balkon-balustrada-przed-po.webp",
+        "kind": "full",
+        "project": "Prywatny balkon bez wymiany szkła — montaż folii matowej",
+        "limit": 1800,
+        "quality": 74,
+        "before": 435612,
+        "after": 161528,
+        "saving": 274084
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-balkony-krakow/01-balkon-balustrada-przed-po-thumb.webp",
+        "kind": "thumb",
+        "project": "Prywatny balkon bez wymiany szkła — montaż folii matowej",
+        "limit": 320,
+        "quality": 68,
+        "before": 54488,
+        "after": 7752,
+        "saving": 46736
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-balkony-krakow/02-dlugi-balkon-przed-po.webp",
+        "kind": "full",
+        "project": "Prywatny balkon bez wymiany szkła — montaż folii matowej",
+        "limit": 1800,
+        "quality": 74,
+        "before": 225328,
+        "after": 108014,
+        "saving": 117314
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-balkony-krakow/02-dlugi-balkon-przed-po-thumb.webp",
+        "kind": "thumb",
+        "project": "Prywatny balkon bez wymiany szkła — montaż folii matowej",
+        "limit": 320,
+        "quality": 68,
+        "before": 40180,
+        "after": 6638,
+        "saving": 33542
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-balkony-krakow/03-balkon-metamorfoza-elewacja.webp",
+        "kind": "full",
+        "project": "Prywatny balkon bez wymiany szkła — montaż folii matowej",
+        "limit": 1800,
+        "quality": 74,
+        "before": 285290,
+        "after": 190010,
+        "saving": 95280
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-balkony-krakow/03-balkon-metamorfoza-elewacja-thumb.webp",
+        "kind": "thumb",
+        "project": "Prywatny balkon bez wymiany szkła — montaż folii matowej",
+        "limit": 320,
+        "quality": 68,
+        "before": 92932,
+        "after": 13888,
+        "saving": 79044
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-balkony-krakow/04-balustrada-bezramowa-przed-po.webp",
+        "kind": "full",
+        "project": "Prywatny balkon bez wymiany szkła — montaż folii matowej",
+        "limit": 1800,
+        "quality": 74,
+        "before": 262494,
+        "after": 165766,
+        "saving": 96728
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-balkony-krakow/04-balustrada-bezramowa-przed-po-thumb.webp",
+        "kind": "thumb",
+        "project": "Prywatny balkon bez wymiany szkła — montaż folii matowej",
+        "limit": 320,
+        "quality": 68,
+        "before": 79512,
+        "after": 10578,
+        "saving": 68934
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-balkony-krakow/05-naroznik-balkonu-przed-po.webp",
+        "kind": "full",
+        "project": "Prywatny balkon bez wymiany szkła — montaż folii matowej",
+        "limit": 1800,
+        "quality": 74,
+        "before": 257284,
+        "after": 162640,
+        "saving": 94644
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-balkony-krakow/05-naroznik-balkonu-przed-po-thumb.webp",
+        "kind": "thumb",
+        "project": "Prywatny balkon bez wymiany szkła — montaż folii matowej",
+        "limit": 320,
+        "quality": 68,
+        "before": 76998,
+        "after": 10286,
+        "saving": 66712
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-balkony-krakow/06-balkon-osiedle-przed-po.webp",
+        "kind": "full",
+        "project": "Prywatny balkon bez wymiany szkła — montaż folii matowej",
+        "limit": 1800,
+        "quality": 74,
+        "before": 238666,
+        "after": 149474,
+        "saving": 89192
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-balkony-krakow/06-balkon-osiedle-przed-po-thumb.webp",
+        "kind": "thumb",
+        "project": "Prywatny balkon bez wymiany szkła — montaż folii matowej",
+        "limit": 320,
+        "quality": 68,
+        "before": 75804,
+        "after": 11234,
+        "saving": 64570
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-balkony-krakow/07-mleczna-folia-balustrada.webp",
+        "kind": "full",
+        "project": "Prywatny balkon bez wymiany szkła — montaż folii matowej",
+        "limit": 1800,
+        "quality": 74,
+        "before": 583154,
+        "after": 195404,
+        "saving": 387750
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-balkony-krakow/07-mleczna-folia-balustrada-thumb.webp",
+        "kind": "thumb",
+        "project": "Prywatny balkon bez wymiany szkła — montaż folii matowej",
+        "limit": 320,
+        "quality": 68,
+        "before": 68030,
+        "after": 8744,
+        "saving": 59286
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-balkony-krakow/08-balustrady-widok-z-zewnatrz.webp",
+        "kind": "full",
+        "project": "Prywatny balkon bez wymiany szkła — montaż folii matowej",
+        "limit": 1800,
+        "quality": 74,
+        "before": 670352,
+        "after": 222446,
+        "saving": 447906
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-balkony-krakow/08-balustrady-widok-z-zewnatrz-thumb.webp",
+        "kind": "thumb",
+        "project": "Prywatny balkon bez wymiany szkła — montaż folii matowej",
+        "limit": 320,
+        "quality": 68,
+        "before": 71070,
+        "after": 11226,
+        "saving": 59844
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-balkony-krakow/09-folia-matowa-naroznik.webp",
+        "kind": "full",
+        "project": "Prywatny balkon bez wymiany szkła — montaż folii matowej",
+        "limit": 1800,
+        "quality": 74,
+        "before": 600354,
+        "after": 175196,
+        "saving": 425158
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-balkony-krakow/09-folia-matowa-naroznik-thumb.webp",
+        "kind": "thumb",
+        "project": "Prywatny balkon bez wymiany szkła — montaż folii matowej",
+        "limit": 320,
+        "quality": 68,
+        "before": 62420,
+        "after": 7718,
+        "saving": 54702
+      },
+      {
+        "path": "/img/realizacje/montaz-folii-antywlamaniowej-biuro-katowice/cover.webp",
+        "kind": "cover",
+        "project": "Zabezpieczenie szyb folią antywłamaniową w biurze w Katowicach",
+        "limit": 1200,
+        "quality": 72,
+        "before": 137792,
+        "after": 84432,
+        "saving": 53360
+      },
+      {
+        "path": "/img/realizacje/montaz-folii-antywlamaniowej-biuro-katowice/01-montaz-folii-antywlamaniowej-biuro.webp",
+        "kind": "full",
+        "project": "Zabezpieczenie szyb folią antywłamaniową w biurze w Katowicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 172594,
+        "after": 110000,
+        "saving": 62594
+      },
+      {
+        "path": "/img/realizacje/montaz-folii-antywlamaniowej-biuro-katowice/01-montaz-folii-antywlamaniowej-biuro-thumb.webp",
+        "kind": "thumb",
+        "project": "Zabezpieczenie szyb folią antywłamaniową w biurze w Katowicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 47324,
+        "after": 10648,
+        "saving": 36676
+      },
+      {
+        "path": "/img/realizacje/oklejanie-szafy-folia-architektoniczna-katowice/cover.webp",
+        "kind": "cover",
+        "project": "Oklejanie szafy folią architektoniczną w Katowicach",
+        "limit": 1200,
+        "quality": 72,
+        "before": 53116,
+        "after": 31454,
+        "saving": 21662
+      },
+      {
+        "path": "/img/realizacje/oklejanie-szafy-folia-architektoniczna-katowice/01-szafa-przed-po-katowice.webp",
+        "kind": "full",
+        "project": "Oklejanie szafy folią architektoniczną w Katowicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 101710,
+        "after": 57646,
+        "saving": 44064
+      },
+      {
+        "path": "/img/realizacje/oklejanie-szafy-folia-architektoniczna-katowice/01-szafa-przed-po-katowice-thumb.webp",
+        "kind": "thumb",
+        "project": "Oklejanie szafy folią architektoniczną w Katowicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 15548,
+        "after": 4304,
+        "saving": 11244
+      },
+      {
+        "path": "/img/realizacje/oklejanie-szafy-folia-architektoniczna-katowice/02-oklejanie-frontu-przed-po.webp",
+        "kind": "full",
+        "project": "Oklejanie szafy folią architektoniczną w Katowicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 208294,
+        "after": 119470,
+        "saving": 88824
+      },
+      {
+        "path": "/img/realizacje/oklejanie-szafy-folia-architektoniczna-katowice/02-oklejanie-frontu-przed-po-thumb.webp",
+        "kind": "thumb",
+        "project": "Oklejanie szafy folią architektoniczną w Katowicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 37420,
+        "after": 9794,
+        "saving": 27626
+      },
+      {
+        "path": "/img/realizacje/oklejanie-szafy-folia-architektoniczna-katowice/03-detal-frontu-szafy.webp",
+        "kind": "full",
+        "project": "Oklejanie szafy folią architektoniczną w Katowicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 122786,
+        "after": 53566,
+        "saving": 69220
+      },
+      {
+        "path": "/img/realizacje/oklejanie-szafy-folia-architektoniczna-katowice/03-detal-frontu-szafy-thumb.webp",
+        "kind": "thumb",
+        "project": "Oklejanie szafy folią architektoniczną w Katowicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 11380,
+        "after": 2788,
+        "saving": 8592
+      },
+      {
+        "path": "/img/realizacje/oklejanie-szafy-folia-architektoniczna-katowice/04-szafa-przesuwna-po-oklejeniu.webp",
+        "kind": "full",
+        "project": "Oklejanie szafy folią architektoniczną w Katowicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 278590,
+        "after": 137320,
+        "saving": 141270
+      },
+      {
+        "path": "/img/realizacje/oklejanie-szafy-folia-architektoniczna-katowice/04-szafa-przesuwna-po-oklejeniu-thumb.webp",
+        "kind": "thumb",
+        "project": "Oklejanie szafy folią architektoniczną w Katowicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 23728,
+        "after": 5448,
+        "saving": 18280
+      },
+      {
+        "path": "/img/realizacje/oklejanie-szafy-folia-architektoniczna-katowice/05-dekor-drewna-przy-oknie.webp",
+        "kind": "full",
+        "project": "Oklejanie szafy folią architektoniczną w Katowicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 186890,
+        "after": 106036,
+        "saving": 80854
+      },
+      {
+        "path": "/img/realizacje/oklejanie-szafy-folia-architektoniczna-katowice/05-dekor-drewna-przy-oknie-thumb.webp",
+        "kind": "thumb",
+        "project": "Oklejanie szafy folią architektoniczną w Katowicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 24314,
+        "after": 6392,
+        "saving": 17922
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-mrozone-biuro-krakow/cover.webp",
+        "kind": "cover",
+        "project": "Folia dekoracyjna matowa na szklanych ściankach w biurowcu w Krakowie",
+        "limit": 1200,
+        "quality": 72,
+        "before": 113178,
+        "after": 39382,
+        "saving": 73796
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-mrozone-biuro-krakow/01-matowe-szklane-scianki-biuro-krakow.webp",
+        "kind": "full",
+        "project": "Folia dekoracyjna matowa na szklanych ściankach w biurowcu w Krakowie",
+        "limit": 1800,
+        "quality": 74,
+        "before": 119384,
+        "after": 62384,
+        "saving": 57000
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-mrozone-biuro-krakow/01-matowe-szklane-scianki-biuro-krakow-thumb.webp",
+        "kind": "thumb",
+        "project": "Folia dekoracyjna matowa na szklanych ściankach w biurowcu w Krakowie",
+        "limit": 320,
+        "quality": 68,
+        "before": 35554,
+        "after": 5208,
+        "saving": 30346
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-mrozone-biuro-krakow/02-folia-matowa-biuro-przed-po.webp",
+        "kind": "full",
+        "project": "Folia dekoracyjna matowa na szklanych ściankach w biurowcu w Krakowie",
+        "limit": 1800,
+        "quality": 74,
+        "before": 130874,
+        "after": 68598,
+        "saving": 62276
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-mrozone-biuro-krakow/02-folia-matowa-biuro-przed-po-thumb.webp",
+        "kind": "thumb",
+        "project": "Folia dekoracyjna matowa na szklanych ściankach w biurowcu w Krakowie",
+        "limit": 320,
+        "quality": 68,
+        "before": 37262,
+        "after": 5852,
+        "saving": 31410
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-mrozone-biuro-krakow/03-folia-mrozona-szklana-sciana-przed-po.webp",
+        "kind": "full",
+        "project": "Folia dekoracyjna matowa na szklanych ściankach w biurowcu w Krakowie",
+        "limit": 1800,
+        "quality": 74,
+        "before": 185754,
+        "after": 107466,
+        "saving": 78288
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-mrozone-biuro-krakow/03-folia-mrozona-szklana-sciana-przed-po-thumb.webp",
+        "kind": "thumb",
+        "project": "Folia dekoracyjna matowa na szklanych ściankach w biurowcu w Krakowie",
+        "limit": 320,
+        "quality": 68,
+        "before": 46438,
+        "after": 6506,
+        "saving": 39932
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-mrozone-biuro-krakow/04-przeszklenia-biurowe-folia-mrozona.webp",
+        "kind": "full",
+        "project": "Folia dekoracyjna matowa na szklanych ściankach w biurowcu w Krakowie",
+        "limit": 1800,
+        "quality": 74,
+        "before": 83780,
+        "after": 36702,
+        "saving": 47078
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-mrozone-biuro-krakow/04-przeszklenia-biurowe-folia-mrozona-thumb.webp",
+        "kind": "thumb",
+        "project": "Folia dekoracyjna matowa na szklanych ściankach w biurowcu w Krakowie",
+        "limit": 320,
+        "quality": 68,
+        "before": 16132,
+        "after": 3274,
+        "saving": 12858
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-mrozone-biuro-krakow/05-folia-dekoracyjna-matowa-drzwi-szklane.webp",
+        "kind": "full",
+        "project": "Folia dekoracyjna matowa na szklanych ściankach w biurowcu w Krakowie",
+        "limit": 1800,
+        "quality": 74,
+        "before": 196206,
+        "after": 58110,
+        "saving": 138096
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-mrozone-biuro-krakow/05-folia-dekoracyjna-matowa-drzwi-szklane-thumb.webp",
+        "kind": "thumb",
+        "project": "Folia dekoracyjna matowa na szklanych ściankach w biurowcu w Krakowie",
+        "limit": 320,
+        "quality": 68,
+        "before": 24886,
+        "after": 4054,
+        "saving": 20832
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-mrozone-biuro-krakow/06-matowa-folia-scianka-gabinet.webp",
+        "kind": "full",
+        "project": "Folia dekoracyjna matowa na szklanych ściankach w biurowcu w Krakowie",
+        "limit": 1800,
+        "quality": 74,
+        "before": 222616,
+        "after": 73706,
+        "saving": 148910
+      },
+      {
+        "path": "/img/realizacje/folie-matowe-mrozone-biuro-krakow/06-matowa-folia-scianka-gabinet-thumb.webp",
+        "kind": "thumb",
+        "project": "Folia dekoracyjna matowa na szklanych ściankach w biurowcu w Krakowie",
+        "limit": 320,
+        "quality": 68,
+        "before": 23022,
+        "after": 3460,
+        "saving": 19562
+      },
+      {
+        "path": "/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/cover-hq-v2.webp",
+        "kind": "cover",
+        "project": "Inteligentna folia LCD na szklanej ścianie w apartamencie w Nowym Sączu",
+        "limit": 1200,
+        "quality": 72,
+        "before": 57810,
+        "after": 11448,
+        "saving": 46362
+      },
+      {
+        "path": "/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/01-folia-lcd-tryb-mleczny-prywatnosc-nowy-sacz.webp",
+        "kind": "full",
+        "project": "Inteligentna folia LCD na szklanej ścianie w apartamencie w Nowym Sączu",
+        "limit": 1800,
+        "quality": 74,
+        "before": 29204,
+        "after": 24828,
+        "saving": 4376
+      },
+      {
+        "path": "/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/01-folia-lcd-tryb-mleczny-prywatnosc-nowy-sacz-thumb.webp",
+        "kind": "thumb",
+        "project": "Inteligentna folia LCD na szklanej ścianie w apartamencie w Nowym Sączu",
+        "limit": 320,
+        "quality": 68,
+        "before": 31184,
+        "after": 2446,
+        "saving": 28738
+      },
+      {
+        "path": "/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/02-montaz-inteligentnej-folii-lcd-na-szybie.webp",
+        "kind": "full",
+        "project": "Inteligentna folia LCD na szklanej ścianie w apartamencie w Nowym Sączu",
+        "limit": 1800,
+        "quality": 74,
+        "before": 74308,
+        "after": 62302,
+        "saving": 12006
+      },
+      {
+        "path": "/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/02-montaz-inteligentnej-folii-lcd-na-szybie-thumb.webp",
+        "kind": "thumb",
+        "project": "Inteligentna folia LCD na szklanej ścianie w apartamencie w Nowym Sączu",
+        "limit": 320,
+        "quality": 68,
+        "before": 58972,
+        "after": 4832,
+        "saving": 54140
+      },
+      {
+        "path": "/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/03-folia-lcd-tryb-transparentny-nowy-sacz.webp",
+        "kind": "full",
+        "project": "Inteligentna folia LCD na szklanej ścianie w apartamencie w Nowym Sączu",
+        "limit": 1800,
+        "quality": 74,
+        "before": 86840,
+        "after": 70844,
+        "saving": 15996
+      },
+      {
+        "path": "/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/03-folia-lcd-tryb-transparentny-nowy-sacz-thumb.webp",
+        "kind": "thumb",
+        "project": "Inteligentna folia LCD na szklanej ścianie w apartamencie w Nowym Sączu",
+        "limit": 320,
+        "quality": 68,
+        "before": 65936,
+        "after": 5612,
+        "saving": 60324
+      },
+      {
+        "path": "/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/04-folia-lcd-zmiana-prywatnosci-animacja.webp",
+        "kind": "full",
+        "project": "Inteligentna folia LCD na szklanej ścianie w apartamencie w Nowym Sączu",
+        "limit": 1800,
+        "quality": 74,
+        "before": 221800,
+        "after": 5656,
+        "saving": 216144
+      },
+      {
+        "path": "/img/realizacje/folie-lcd-szklana-sciana-apartament-nowy-sacz/04-folia-lcd-zmiana-prywatnosci-animacja-thumb.webp",
+        "kind": "thumb",
+        "project": "Inteligentna folia LCD na szklanej ścianie w apartamencie w Nowym Sączu",
+        "limit": 320,
+        "quality": 68,
+        "before": 14026,
+        "after": 2176,
+        "saving": 11850
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/cover-hq-v2.webp",
+        "kind": "cover",
+        "project": "Folie przeciwsłoneczne dla Szpitala Murcki w Katowicach",
+        "limit": 1200,
+        "quality": 72,
+        "before": 413474,
+        "after": 90790,
+        "saving": 322684
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/01-elewacja-szpital-murcki-folie-przeciwsloneczne-katowice.webp",
+        "kind": "full",
+        "project": "Folie przeciwsłoneczne dla Szpitala Murcki w Katowicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 199032,
+        "after": 180220,
+        "saving": 18812
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/01-elewacja-szpital-murcki-folie-przeciwsloneczne-katowice-thumb.webp",
+        "kind": "thumb",
+        "project": "Folie przeciwsłoneczne dla Szpitala Murcki w Katowicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 98702,
+        "after": 9706,
+        "saving": 88996
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/02-przeszklenie-klatki-schodowej-folia-przeciwsloneczna-szpital-murcki.webp",
+        "kind": "full",
+        "project": "Folie przeciwsłoneczne dla Szpitala Murcki w Katowicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 108074,
+        "after": 96062,
+        "saving": 12012
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/02-przeszklenie-klatki-schodowej-folia-przeciwsloneczna-szpital-murcki-thumb.webp",
+        "kind": "thumb",
+        "project": "Folie przeciwsłoneczne dla Szpitala Murcki w Katowicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 115856,
+        "after": 6880,
+        "saving": 108976
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/03-wejscie-szpital-murcki-podczas-przygotowania-montazu.webp",
+        "kind": "full",
+        "project": "Folie przeciwsłoneczne dla Szpitala Murcki w Katowicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 203378,
+        "after": 176946,
+        "saving": 26432
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/03-wejscie-szpital-murcki-podczas-przygotowania-montazu-thumb.webp",
+        "kind": "thumb",
+        "project": "Folie przeciwsłoneczne dla Szpitala Murcki w Katowicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 97660,
+        "after": 10120,
+        "saving": 87540
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/04-rusztowanie-elewacja-szpital-murcki-montaz-folii.webp",
+        "kind": "full",
+        "project": "Folie przeciwsłoneczne dla Szpitala Murcki w Katowicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 385928,
+        "after": 357416,
+        "saving": 28512
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-szpital-murcki-katowice/04-rusztowanie-elewacja-szpital-murcki-montaz-folii-thumb.webp",
+        "kind": "thumb",
+        "project": "Folie przeciwsłoneczne dla Szpitala Murcki w Katowicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 159876,
+        "after": 17522,
+        "saving": 142354
+      },
+      {
+        "path": "/img/realizacje/folie-mrozone-przedszkole-swietochlowice/cover-hq-v2.webp",
+        "kind": "cover",
+        "project": "Folie mrożone na oknach Przedszkola Miejskiego nr 7 w Świętochłowicach",
+        "limit": 1200,
+        "quality": 72,
+        "before": 267764,
+        "after": 63978,
+        "saving": 203786
+      },
+      {
+        "path": "/img/realizacje/folie-mrozone-przedszkole-swietochlowice/01-folie-mrozone-okna-przedszkole-swietochlowice.webp",
+        "kind": "full",
+        "project": "Folie mrożone na oknach Przedszkola Miejskiego nr 7 w Świętochłowicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 168274,
+        "after": 123796,
+        "saving": 44478
+      },
+      {
+        "path": "/img/realizacje/folie-mrozone-przedszkole-swietochlowice/01-folie-mrozone-okna-przedszkole-swietochlowice-thumb.webp",
+        "kind": "thumb",
+        "project": "Folie mrożone na oknach Przedszkola Miejskiego nr 7 w Świętochłowicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 70678,
+        "after": 6658,
+        "saving": 64020
+      },
+      {
+        "path": "/img/realizacje/folie-mrozone-przedszkole-swietochlowice/02-przed-po-folie-mrozone-przedszkole-swietochlowice.webp",
+        "kind": "full",
+        "project": "Folie mrożone na oknach Przedszkola Miejskiego nr 7 w Świętochłowicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 99534,
+        "after": 74598,
+        "saving": 24936
+      },
+      {
+        "path": "/img/realizacje/folie-mrozone-przedszkole-swietochlowice/02-przed-po-folie-mrozone-przedszkole-swietochlowice-thumb.webp",
+        "kind": "thumb",
+        "project": "Folie mrożone na oknach Przedszkola Miejskiego nr 7 w Świętochłowicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 41688,
+        "after": 4700,
+        "saving": 36988
+      },
+      {
+        "path": "/img/realizacje/folie-mrozone-przedszkole-swietochlowice/03-folia-mrozona-przeszklenia-sala-przedszkolna-swietochlowice.webp",
+        "kind": "full",
+        "project": "Folie mrożone na oknach Przedszkola Miejskiego nr 7 w Świętochłowicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 122644,
+        "after": 91292,
+        "saving": 31352
+      },
+      {
+        "path": "/img/realizacje/folie-mrozone-przedszkole-swietochlowice/03-folia-mrozona-przeszklenia-sala-przedszkolna-swietochlowice-thumb.webp",
+        "kind": "thumb",
+        "project": "Folie mrożone na oknach Przedszkola Miejskiego nr 7 w Świętochłowicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 61114,
+        "after": 6124,
+        "saving": 54990
+      },
+      {
+        "path": "/img/realizacje/folie-mrozone-przedszkole-swietochlowice/04-folia-mrozona-przeszklenia-przedszkole-swietochlowice.webp",
+        "kind": "full",
+        "project": "Folie mrożone na oknach Przedszkola Miejskiego nr 7 w Świętochłowicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 145812,
+        "after": 94990,
+        "saving": 50822
+      },
+      {
+        "path": "/img/realizacje/folie-mrozone-przedszkole-swietochlowice/04-folia-mrozona-przeszklenia-przedszkole-swietochlowice-thumb.webp",
+        "kind": "thumb",
+        "project": "Folie mrożone na oknach Przedszkola Miejskiego nr 7 w Świętochłowicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 58774,
+        "after": 5502,
+        "saving": 53272
+      },
+      {
+        "path": "/img/realizacje/folie-mrozone-przedszkole-swietochlowice/05-czesciowe-oklejenie-okien-folia-mrozona-przedszkole.webp",
+        "kind": "full",
+        "project": "Folie mrożone na oknach Przedszkola Miejskiego nr 7 w Świętochłowicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 249066,
+        "after": 191028,
+        "saving": 58038
+      },
+      {
+        "path": "/img/realizacje/folie-mrozone-przedszkole-swietochlowice/05-czesciowe-oklejenie-okien-folia-mrozona-przedszkole-thumb.webp",
+        "kind": "thumb",
+        "project": "Folie mrożone na oknach Przedszkola Miejskiego nr 7 w Świętochłowicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 85064,
+        "after": 6972,
+        "saving": 78092
+      },
+      {
+        "path": "/img/realizacje/folie-mrozone-przedszkole-swietochlowice/06-folia-mrozona-okna-od-zewnatrz-przedszkole-swietochlowice.webp",
+        "kind": "full",
+        "project": "Folie mrożone na oknach Przedszkola Miejskiego nr 7 w Świętochłowicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 336252,
+        "after": 241092,
+        "saving": 95160
+      },
+      {
+        "path": "/img/realizacje/folie-mrozone-przedszkole-swietochlowice/06-folia-mrozona-okna-od-zewnatrz-przedszkole-swietochlowice-thumb.webp",
+        "kind": "thumb",
+        "project": "Folie mrożone na oknach Przedszkola Miejskiego nr 7 w Świętochłowicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 92734,
+        "after": 4838,
+        "saving": 87896
+      },
+      {
+        "path": "/img/realizacje/folie-mrozone-przedszkole-swietochlowice/07-budynek-przedszkola-miejskiego-nr-7-swietochlowice.webp",
+        "kind": "full",
+        "project": "Folie mrożone na oknach Przedszkola Miejskiego nr 7 w Świętochłowicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 239240,
+        "after": 181908,
+        "saving": 57332
+      },
+      {
+        "path": "/img/realizacje/folie-mrozone-przedszkole-swietochlowice/07-budynek-przedszkola-miejskiego-nr-7-swietochlowice-thumb.webp",
+        "kind": "thumb",
+        "project": "Folie mrożone na oknach Przedszkola Miejskiego nr 7 w Świętochłowicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 94236,
+        "after": 7398,
+        "saving": 86838
+      },
+      {
+        "path": "/img/realizacje/folie-mrozone-przedszkole-swietochlowice/08-okna-przedszkola-z-folia-mrozona-swietochlowice.webp",
+        "kind": "full",
+        "project": "Folie mrożone na oknach Przedszkola Miejskiego nr 7 w Świętochłowicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 338832,
+        "after": 265492,
+        "saving": 73340
+      },
+      {
+        "path": "/img/realizacje/folie-mrozone-przedszkole-swietochlowice/08-okna-przedszkola-z-folia-mrozona-swietochlowice-thumb.webp",
+        "kind": "thumb",
+        "project": "Folie mrożone na oknach Przedszkola Miejskiego nr 7 w Świętochłowicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 106772,
+        "after": 8480,
+        "saving": 98292
+      },
+      {
+        "path": "/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/cover-hq-v2.webp",
+        "kind": "cover",
+        "project": "Montaż folii przeciwsłonecznej w domu w Gierałtowicach",
+        "limit": 1200,
+        "quality": 72,
+        "before": 618652,
+        "after": 121392,
+        "saving": 497260
+      },
+      {
+        "path": "/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/01-przed-po-folia-przeciwsloneczna-gieraltowice.webp",
+        "kind": "full",
+        "project": "Montaż folii przeciwsłonecznej w domu w Gierałtowicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 353954,
+        "after": 253020,
+        "saving": 100934
+      },
+      {
+        "path": "/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/01-przed-po-folia-przeciwsloneczna-gieraltowice-thumb.webp",
+        "kind": "thumb",
+        "project": "Montaż folii przeciwsłonecznej w domu w Gierałtowicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 112018,
+        "after": 10748,
+        "saving": 101270
+      },
+      {
+        "path": "/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/02-dom-przed-montazem-folii-przeciwslonecznej-gieraltowice.webp",
+        "kind": "full",
+        "project": "Montaż folii przeciwsłonecznej w domu w Gierałtowicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 358224,
+        "after": 258542,
+        "saving": 99682
+      },
+      {
+        "path": "/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/02-dom-przed-montazem-folii-przeciwslonecznej-gieraltowice-thumb.webp",
+        "kind": "thumb",
+        "project": "Montaż folii przeciwsłonecznej w domu w Gierałtowicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 173218,
+        "after": 10470,
+        "saving": 162748
+      },
+      {
+        "path": "/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/04-dom-po-montazu-folii-przeciwslonecznej-gieraltowice.webp",
+        "kind": "full",
+        "project": "Montaż folii przeciwsłonecznej w domu w Gierałtowicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 572806,
+        "after": 425402,
+        "saving": 147404
+      },
+      {
+        "path": "/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/04-dom-po-montazu-folii-przeciwslonecznej-gieraltowice-thumb.webp",
+        "kind": "thumb",
+        "project": "Montaż folii przeciwsłonecznej w domu w Gierałtowicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 187704,
+        "after": 11896,
+        "saving": 175808
+      },
+      {
+        "path": "/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/03-montaz-folii-przeciwslonecznej-z-rusztowania-gieraltowice.webp",
+        "kind": "full",
+        "project": "Montaż folii przeciwsłonecznej w domu w Gierałtowicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 391902,
+        "after": 282482,
+        "saving": 109420
+      },
+      {
+        "path": "/img/realizacje/montaz-folii-przeciwslonecznej-gieraltowice/03-montaz-folii-przeciwslonecznej-z-rusztowania-gieraltowice-thumb.webp",
+        "kind": "thumb",
+        "project": "Montaż folii przeciwsłonecznej w domu w Gierałtowicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 192198,
+        "after": 11844,
+        "saving": 180354
+      },
+      {
+        "path": "/img/realizacje/folia-na-swietliki-dachowe-chomranice/cover-hq-v2.webp",
+        "kind": "cover",
+        "project": "Montaż folii na świetliki dachowe w Chomranicach",
+        "limit": 1200,
+        "quality": 72,
+        "before": 410804,
+        "after": 75480,
+        "saving": 335324
+      },
+      {
+        "path": "/img/realizacje/folia-na-swietliki-dachowe-chomranice/01-przed-po-folia-na-swietliki-dachowe-chomranice.webp",
+        "kind": "full",
+        "project": "Montaż folii na świetliki dachowe w Chomranicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 200718,
+        "after": 139634,
+        "saving": 61084
+      },
+      {
+        "path": "/img/realizacje/folia-na-swietliki-dachowe-chomranice/01-przed-po-folia-na-swietliki-dachowe-chomranice-thumb.webp",
+        "kind": "thumb",
+        "project": "Montaż folii na świetliki dachowe w Chomranicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 77754,
+        "after": 8000,
+        "saving": 69754
+      },
+      {
+        "path": "/img/realizacje/folia-na-swietliki-dachowe-chomranice/02-swietlik-dachowy-przed-montazem-folii-chomranice.webp",
+        "kind": "full",
+        "project": "Montaż folii na świetliki dachowe w Chomranicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 241266,
+        "after": 183496,
+        "saving": 57770
+      },
+      {
+        "path": "/img/realizacje/folia-na-swietliki-dachowe-chomranice/02-swietlik-dachowy-przed-montazem-folii-chomranice-thumb.webp",
+        "kind": "thumb",
+        "project": "Montaż folii na świetliki dachowe w Chomranicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 111912,
+        "after": 9270,
+        "saving": 102642
+      },
+      {
+        "path": "/img/realizacje/folia-na-swietliki-dachowe-chomranice/03-swietlik-dachowy-po-montazu-folii-chomranice.webp",
+        "kind": "full",
+        "project": "Montaż folii na świetliki dachowe w Chomranicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 315908,
+        "after": 237036,
+        "saving": 78872
+      },
+      {
+        "path": "/img/realizacje/folia-na-swietliki-dachowe-chomranice/03-swietlik-dachowy-po-montazu-folii-chomranice-thumb.webp",
+        "kind": "thumb",
+        "project": "Montaż folii na świetliki dachowe w Chomranicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 122310,
+        "after": 11138,
+        "saving": 111172
+      },
+      {
+        "path": "/img/realizacje/folia-na-swietliki-dachowe-chomranice/04-swietlik-dachowy-po-montazu-z-dachu-chomranice.webp",
+        "kind": "full",
+        "project": "Montaż folii na świetliki dachowe w Chomranicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 219104,
+        "after": 167920,
+        "saving": 51184
+      },
+      {
+        "path": "/img/realizacje/folia-na-swietliki-dachowe-chomranice/04-swietlik-dachowy-po-montazu-z-dachu-chomranice-thumb.webp",
+        "kind": "thumb",
+        "project": "Montaż folii na świetliki dachowe w Chomranicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 102354,
+        "after": 9954,
+        "saving": 92400
+      },
+      {
+        "path": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/cover-hq-v2.webp",
+        "kind": "cover",
+        "project": "Laminaty architektoniczne – metamorfozy drzwi i mebli",
+        "limit": 1200,
+        "quality": 72,
+        "before": 115908,
+        "after": 21714,
+        "saving": 94194
+      },
+      {
+        "path": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/01-przed-po-oklejanie-drzwi-laminatem-krakow.webp",
+        "kind": "full",
+        "project": "Laminaty architektoniczne – metamorfozy drzwi i mebli",
+        "limit": 1800,
+        "quality": 74,
+        "before": 37928,
+        "after": 31314,
+        "saving": 6614
+      },
+      {
+        "path": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/01-przed-po-oklejanie-drzwi-laminatem-krakow-thumb.webp",
+        "kind": "thumb",
+        "project": "Laminaty architektoniczne – metamorfozy drzwi i mebli",
+        "limit": 320,
+        "quality": 68,
+        "before": 39222,
+        "after": 3600,
+        "saving": 35622
+      },
+      {
+        "path": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/02-drzwi-przed-oklejeniem-laminatem-krakow.webp",
+        "kind": "full",
+        "project": "Laminaty architektoniczne – metamorfozy drzwi i mebli",
+        "limit": 1800,
+        "quality": 74,
+        "before": 45594,
+        "after": 36014,
+        "saving": 9580
+      },
+      {
+        "path": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/02-drzwi-przed-oklejeniem-laminatem-krakow-thumb.webp",
+        "kind": "thumb",
+        "project": "Laminaty architektoniczne – metamorfozy drzwi i mebli",
+        "limit": 320,
+        "quality": 68,
+        "before": 45186,
+        "after": 2768,
+        "saving": 42418
+      },
+      {
+        "path": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/03-drzwi-po-oklejeniu-laminatem-krakow.webp",
+        "kind": "full",
+        "project": "Laminaty architektoniczne – metamorfozy drzwi i mebli",
+        "limit": 1800,
+        "quality": 74,
+        "before": 66126,
+        "after": 50470,
+        "saving": 15656
+      },
+      {
+        "path": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/03-drzwi-po-oklejeniu-laminatem-krakow-thumb.webp",
+        "kind": "thumb",
+        "project": "Laminaty architektoniczne – metamorfozy drzwi i mebli",
+        "limit": 320,
+        "quality": 68,
+        "before": 60744,
+        "after": 3486,
+        "saving": 57258
+      },
+      {
+        "path": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/04-drzwi-drewnopodobne-na-biale.webp",
+        "kind": "full",
+        "project": "Laminaty architektoniczne – metamorfozy drzwi i mebli",
+        "limit": 1800,
+        "quality": 74,
+        "before": 102886,
+        "after": 48938,
+        "saving": 53948
+      },
+      {
+        "path": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/04-drzwi-drewnopodobne-na-biale-thumb.webp",
+        "kind": "thumb",
+        "project": "Laminaty architektoniczne – metamorfozy drzwi i mebli",
+        "limit": 320,
+        "quality": 68,
+        "before": 16504,
+        "after": 4244,
+        "saving": 12260
+      },
+      {
+        "path": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/05-odnowienie-strefy-wejscia.webp",
+        "kind": "full",
+        "project": "Laminaty architektoniczne – metamorfozy drzwi i mebli",
+        "limit": 1800,
+        "quality": 74,
+        "before": 75696,
+        "after": 34336,
+        "saving": 41360
+      },
+      {
+        "path": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/05-odnowienie-strefy-wejscia-thumb.webp",
+        "kind": "thumb",
+        "project": "Laminaty architektoniczne – metamorfozy drzwi i mebli",
+        "limit": 320,
+        "quality": 68,
+        "before": 13224,
+        "after": 3702,
+        "saving": 9522
+      },
+      {
+        "path": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/06-biale-drzwi-dekor-drewna.webp",
+        "kind": "full",
+        "project": "Laminaty architektoniczne – metamorfozy drzwi i mebli",
+        "limit": 1800,
+        "quality": 74,
+        "before": 148134,
+        "after": 69750,
+        "saving": 78384
+      },
+      {
+        "path": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/06-biale-drzwi-dekor-drewna-thumb.webp",
+        "kind": "thumb",
+        "project": "Laminaty architektoniczne – metamorfozy drzwi i mebli",
+        "limit": 320,
+        "quality": 68,
+        "before": 18686,
+        "after": 4428,
+        "saving": 14258
+      },
+      {
+        "path": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/07-drzwi-szary-laminat.webp",
+        "kind": "full",
+        "project": "Laminaty architektoniczne – metamorfozy drzwi i mebli",
+        "limit": 1800,
+        "quality": 74,
+        "before": 116418,
+        "after": 61276,
+        "saving": 55142
+      },
+      {
+        "path": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/07-drzwi-szary-laminat-thumb.webp",
+        "kind": "thumb",
+        "project": "Laminaty architektoniczne – metamorfozy drzwi i mebli",
+        "limit": 320,
+        "quality": 68,
+        "before": 22076,
+        "after": 6362,
+        "saving": 15714
+      },
+      {
+        "path": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/08-renowacja-drzwi-wejsciowych.webp",
+        "kind": "full",
+        "project": "Laminaty architektoniczne – metamorfozy drzwi i mebli",
+        "limit": 1800,
+        "quality": 74,
+        "before": 390706,
+        "after": 190960,
+        "saving": 199746
+      },
+      {
+        "path": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/08-renowacja-drzwi-wejsciowych-thumb.webp",
+        "kind": "thumb",
+        "project": "Laminaty architektoniczne – metamorfozy drzwi i mebli",
+        "limit": 320,
+        "quality": 68,
+        "before": 43140,
+        "after": 7658,
+        "saving": 35482
+      },
+      {
+        "path": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/09-fronty-szafek-okleina-drewnopodobna.webp",
+        "kind": "full",
+        "project": "Laminaty architektoniczne – metamorfozy drzwi i mebli",
+        "limit": 1800,
+        "quality": 74,
+        "before": 313710,
+        "after": 143180,
+        "saving": 170530
+      },
+      {
+        "path": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/09-fronty-szafek-okleina-drewnopodobna-thumb.webp",
+        "kind": "thumb",
+        "project": "Laminaty architektoniczne – metamorfozy drzwi i mebli",
+        "limit": 320,
+        "quality": 68,
+        "before": 36506,
+        "after": 6162,
+        "saving": 30344
+      },
+      {
+        "path": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/10-renowacja-stolu-jasne-drewno.webp",
+        "kind": "full",
+        "project": "Laminaty architektoniczne – metamorfozy drzwi i mebli",
+        "limit": 1800,
+        "quality": 74,
+        "before": 204078,
+        "after": 96698,
+        "saving": 107380
+      },
+      {
+        "path": "/img/realizacje/oklejanie-drzwi-laminatem-architektonicznym-krakow/10-renowacja-stolu-jasne-drewno-thumb.webp",
+        "kind": "thumb",
+        "project": "Laminaty architektoniczne – metamorfozy drzwi i mebli",
+        "limit": 320,
+        "quality": 68,
+        "before": 33750,
+        "after": 8644,
+        "saving": 25106
+      },
+      {
+        "path": "/img/realizacje/montaz-folii-na-swietliki-dachowe-modlnica/cover-hq-v2.webp",
+        "kind": "cover",
+        "project": "Montaż folii przeciwsłonecznej na świetlikach dachowych w Modlnicy",
+        "limit": 1200,
+        "quality": 72,
+        "before": 185656,
+        "after": 44558,
+        "saving": 141098
+      },
+      {
+        "path": "/img/realizacje/montaz-folii-na-swietliki-dachowe-modlnica/01-przed-po-folia-na-swietliki-dachowe-modlnica.webp",
+        "kind": "full",
+        "project": "Montaż folii przeciwsłonecznej na świetlikach dachowych w Modlnicy",
+        "limit": 1800,
+        "quality": 74,
+        "before": 94682,
+        "after": 82470,
+        "saving": 12212
+      },
+      {
+        "path": "/img/realizacje/montaz-folii-na-swietliki-dachowe-modlnica/01-przed-po-folia-na-swietliki-dachowe-modlnica-thumb.webp",
+        "kind": "thumb",
+        "project": "Montaż folii przeciwsłonecznej na świetlikach dachowych w Modlnicy",
+        "limit": 320,
+        "quality": 68,
+        "before": 47526,
+        "after": 4920,
+        "saving": 42606
+      },
+      {
+        "path": "/img/realizacje/montaz-folii-na-swietliki-dachowe-modlnica/02-swietliki-dachowe-po-montazu-modlnica.webp",
+        "kind": "full",
+        "project": "Montaż folii przeciwsłonecznej na świetlikach dachowych w Modlnicy",
+        "limit": 1800,
+        "quality": 74,
+        "before": 166330,
+        "after": 141798,
+        "saving": 24532
+      },
+      {
+        "path": "/img/realizacje/montaz-folii-na-swietliki-dachowe-modlnica/02-swietliki-dachowe-po-montazu-modlnica-thumb.webp",
+        "kind": "thumb",
+        "project": "Montaż folii przeciwsłonecznej na świetlikach dachowych w Modlnicy",
+        "limit": 320,
+        "quality": 68,
+        "before": 88240,
+        "after": 7002,
+        "saving": 81238
+      },
+      {
+        "path": "/img/realizacje/montaz-folii-na-swietliki-dachowe-modlnica/03-folia-przeciwsloneczna-na-swietliku-modlnica.webp",
+        "kind": "full",
+        "project": "Montaż folii przeciwsłonecznej na świetlikach dachowych w Modlnicy",
+        "limit": 1800,
+        "quality": 74,
+        "before": 159604,
+        "after": 135660,
+        "saving": 23944
+      },
+      {
+        "path": "/img/realizacje/montaz-folii-na-swietliki-dachowe-modlnica/03-folia-przeciwsloneczna-na-swietliku-modlnica-thumb.webp",
+        "kind": "thumb",
+        "project": "Montaż folii przeciwsłonecznej na świetlikach dachowych w Modlnicy",
+        "limit": 320,
+        "quality": 68,
+        "before": 84522,
+        "after": 6328,
+        "saving": 78194
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/cover-hq-v2.webp",
+        "kind": "cover",
+        "project": "Folie przeciwsłoneczne i mrożone dla Polting Foam w Gliwicach",
+        "limit": 1200,
+        "quality": 72,
+        "before": 394582,
+        "after": 83150,
+        "saving": 311432
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/01-wejscie-przed-po-folie-przeciwsloneczne-polting-gliwice.webp",
+        "kind": "full",
+        "project": "Folie przeciwsłoneczne i mrożone dla Polting Foam w Gliwicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 163488,
+        "after": 128774,
+        "saving": 34714
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/01-wejscie-przed-po-folie-przeciwsloneczne-polting-gliwice-thumb.webp",
+        "kind": "thumb",
+        "project": "Folie przeciwsłoneczne i mrożone dla Polting Foam w Gliwicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 105260,
+        "after": 11388,
+        "saving": 93872
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/02-hala-przed-po-folie-przeciwsloneczne-polting-gliwice.webp",
+        "kind": "full",
+        "project": "Folie przeciwsłoneczne i mrożone dla Polting Foam w Gliwicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 78280,
+        "after": 73426,
+        "saving": 4854
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/02-hala-przed-po-folie-przeciwsloneczne-polting-gliwice-thumb.webp",
+        "kind": "thumb",
+        "project": "Folie przeciwsłoneczne i mrożone dla Polting Foam w Gliwicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 65824,
+        "after": 7326,
+        "saving": 58498
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/03-wejscie-polting-podczas-montazu.webp",
+        "kind": "full",
+        "project": "Folie przeciwsłoneczne i mrożone dla Polting Foam w Gliwicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 234422,
+        "after": 223752,
+        "saving": 10670
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/03-wejscie-polting-podczas-montazu-thumb.webp",
+        "kind": "thumb",
+        "project": "Folie przeciwsłoneczne i mrożone dla Polting Foam w Gliwicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 121344,
+        "after": 13188,
+        "saving": 108156
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/04-fasada-hali-folie-przeciwsloneczne-polting.webp",
+        "kind": "full",
+        "project": "Folie przeciwsłoneczne i mrożone dla Polting Foam w Gliwicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 137750,
+        "after": 132248,
+        "saving": 5502
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/04-fasada-hali-folie-przeciwsloneczne-polting-thumb.webp",
+        "kind": "thumb",
+        "project": "Folie przeciwsłoneczne i mrożone dla Polting Foam w Gliwicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 96224,
+        "after": 8728,
+        "saving": 87496
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/05-detal-folii-przeciwslonecznej-na-przeszkleniu.webp",
+        "kind": "full",
+        "project": "Folie przeciwsłoneczne i mrożone dla Polting Foam w Gliwicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 38760,
+        "after": 36954,
+        "saving": 1806
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/05-detal-folii-przeciwslonecznej-na-przeszkleniu-thumb.webp",
+        "kind": "thumb",
+        "project": "Folie przeciwsłoneczne i mrożone dla Polting Foam w Gliwicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 63120,
+        "after": 5890,
+        "saving": 57230
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/06-portiernia-folie-przeciwsloneczne-polting.webp",
+        "kind": "full",
+        "project": "Folie przeciwsłoneczne i mrożone dla Polting Foam w Gliwicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 97804,
+        "after": 88560,
+        "saving": 9244
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/06-portiernia-folie-przeciwsloneczne-polting-thumb.webp",
+        "kind": "thumb",
+        "project": "Folie przeciwsłoneczne i mrożone dla Polting Foam w Gliwicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 85738,
+        "after": 5786,
+        "saving": 79952
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/07-okna-biurowe-folie-przeciwsloneczne-polting.webp",
+        "kind": "full",
+        "project": "Folie przeciwsłoneczne i mrożone dla Polting Foam w Gliwicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 109390,
+        "after": 104528,
+        "saving": 4862
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/07-okna-biurowe-folie-przeciwsloneczne-polting-thumb.webp",
+        "kind": "thumb",
+        "project": "Folie przeciwsłoneczne i mrożone dla Polting Foam w Gliwicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 87362,
+        "after": 4300,
+        "saving": 83062
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/08-folia-mrozona-hala-produkcyjna-polting.webp",
+        "kind": "full",
+        "project": "Folie przeciwsłoneczne i mrożone dla Polting Foam w Gliwicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 55868,
+        "after": 51958,
+        "saving": 3910
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/08-folia-mrozona-hala-produkcyjna-polting-thumb.webp",
+        "kind": "thumb",
+        "project": "Folie przeciwsłoneczne i mrożone dla Polting Foam w Gliwicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 55194,
+        "after": 5314,
+        "saving": 49880
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/09-strefa-produkcyjna-folie-okienne-polting.webp",
+        "kind": "full",
+        "project": "Folie przeciwsłoneczne i mrożone dla Polting Foam w Gliwicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 84380,
+        "after": 80634,
+        "saving": 3746
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/09-strefa-produkcyjna-folie-okienne-polting-thumb.webp",
+        "kind": "thumb",
+        "project": "Folie przeciwsłoneczne i mrożone dla Polting Foam w Gliwicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 79820,
+        "after": 5736,
+        "saving": 74084
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/10-odbicie-folii-przeciwslonecznej-polting.webp",
+        "kind": "full",
+        "project": "Folie przeciwsłoneczne i mrożone dla Polting Foam w Gliwicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 69664,
+        "after": 63978,
+        "saving": 5686
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/10-odbicie-folii-przeciwslonecznej-polting-thumb.webp",
+        "kind": "thumb",
+        "project": "Folie przeciwsłoneczne i mrożone dla Polting Foam w Gliwicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 80892,
+        "after": 5790,
+        "saving": 75102
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/11-elewacja-polting-po-montazu-folii.webp",
+        "kind": "full",
+        "project": "Folie przeciwsłoneczne i mrożone dla Polting Foam w Gliwicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 133856,
+        "after": 128012,
+        "saving": 5844
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-mrozone-polting-foam-gliwice/11-elewacja-polting-po-montazu-folii-thumb.webp",
+        "kind": "thumb",
+        "project": "Folie przeciwsłoneczne i mrożone dla Polting Foam w Gliwicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 109212,
+        "after": 9852,
+        "saving": 99360
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-dom-prywatny-zelkow/cover-hq-v2.webp",
+        "kind": "cover",
+        "project": "Folie przeciwsłoneczne w domu prywatnym w Zelkowie",
+        "limit": 1200,
+        "quality": 72,
+        "before": 319192,
+        "after": 49432,
+        "saving": 269760
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-dom-prywatny-zelkow/01-porownanie-okna-pionowe-z-folia-bez-folii.webp",
+        "kind": "full",
+        "project": "Folie przeciwsłoneczne w domu prywatnym w Zelkowie",
+        "limit": 1800,
+        "quality": 74,
+        "before": 52276,
+        "after": 48358,
+        "saving": 3918
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-dom-prywatny-zelkow/01-porownanie-okna-pionowe-z-folia-bez-folii-thumb.webp",
+        "kind": "thumb",
+        "project": "Folie przeciwsłoneczne w domu prywatnym w Zelkowie",
+        "limit": 320,
+        "quality": 68,
+        "before": 72826,
+        "after": 6012,
+        "saving": 66814
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-dom-prywatny-zelkow/02-folia-przeciwsloneczna-okno-dom-zelkow.webp",
+        "kind": "full",
+        "project": "Folie przeciwsłoneczne w domu prywatnym w Zelkowie",
+        "limit": 1800,
+        "quality": 74,
+        "before": 76610,
+        "after": 69536,
+        "saving": 7074
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-dom-prywatny-zelkow/02-folia-przeciwsloneczna-okno-dom-zelkow-thumb.webp",
+        "kind": "thumb",
+        "project": "Folie przeciwsłoneczne w domu prywatnym w Zelkowie",
+        "limit": 320,
+        "quality": 68,
+        "before": 80960,
+        "after": 5548,
+        "saving": 75412
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-dom-prywatny-zelkow/03-okno-przed-montazem-bez-folii-dom-zelkow.webp",
+        "kind": "full",
+        "project": "Folie przeciwsłoneczne w domu prywatnym w Zelkowie",
+        "limit": 1800,
+        "quality": 74,
+        "before": 93632,
+        "after": 86238,
+        "saving": 7394
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-dom-prywatny-zelkow/03-okno-przed-montazem-bez-folii-dom-zelkow-thumb.webp",
+        "kind": "thumb",
+        "project": "Folie przeciwsłoneczne w domu prywatnym w Zelkowie",
+        "limit": 320,
+        "quality": 68,
+        "before": 87006,
+        "after": 5528,
+        "saving": 81478
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-dom-prywatny-zelkow/04-porownanie-okna-dachowe-folia-przeciwsloneczna.webp",
+        "kind": "full",
+        "project": "Folie przeciwsłoneczne w domu prywatnym w Zelkowie",
+        "limit": 1800,
+        "quality": 74,
+        "before": 24862,
+        "after": 23656,
+        "saving": 1206
+      },
+      {
+        "path": "/img/realizacje/folie-przeciwsloneczne-dom-prywatny-zelkow/04-porownanie-okna-dachowe-folia-przeciwsloneczna-thumb.webp",
+        "kind": "thumb",
+        "project": "Folie przeciwsłoneczne w domu prywatnym w Zelkowie",
+        "limit": 320,
+        "quality": 68,
+        "before": 32494,
+        "after": 3662,
+        "saving": 28832
+      },
+      {
+        "path": "/img/realizacje/lustro-weneckie-kawiarnia-krakow/cover-hq-v2.webp",
+        "kind": "cover",
+        "project": "Lustro weneckie w kawiarni w Krakowie",
+        "limit": 1200,
+        "quality": 72,
+        "before": 386134,
+        "after": 78964,
+        "saving": 307170
+      },
+      {
+        "path": "/img/realizacje/lustro-weneckie-kawiarnia-krakow/01-przed-po-lustro-weneckie-kawiarnia-krakow.webp",
+        "kind": "full",
+        "project": "Lustro weneckie w kawiarni w Krakowie",
+        "limit": 1800,
+        "quality": 74,
+        "before": 96174,
+        "after": 93396,
+        "saving": 2778
+      },
+      {
+        "path": "/img/realizacje/lustro-weneckie-kawiarnia-krakow/01-przed-po-lustro-weneckie-kawiarnia-krakow-thumb.webp",
+        "kind": "thumb",
+        "project": "Lustro weneckie w kawiarni w Krakowie",
+        "limit": 320,
+        "quality": 68,
+        "before": 107054,
+        "after": 12450,
+        "saving": 94604
+      },
+      {
+        "path": "/img/realizacje/lustro-weneckie-kawiarnia-krakow/02-przed-montazem-kawiarnia-krakow.webp",
+        "kind": "full",
+        "project": "Lustro weneckie w kawiarni w Krakowie",
+        "limit": 1800,
+        "quality": 74,
+        "before": 95128,
+        "after": 94428,
+        "saving": 700
+      },
+      {
+        "path": "/img/realizacje/lustro-weneckie-kawiarnia-krakow/02-przed-montazem-kawiarnia-krakow-thumb.webp",
+        "kind": "thumb",
+        "project": "Lustro weneckie w kawiarni w Krakowie",
+        "limit": 320,
+        "quality": 68,
+        "before": 126448,
+        "after": 10472,
+        "saving": 115976
+      },
+      {
+        "path": "/img/realizacje/lustro-weneckie-kawiarnia-krakow/03-po-montazu-lustro-weneckie-kawiarnia-krakow.webp",
+        "kind": "full",
+        "project": "Lustro weneckie w kawiarni w Krakowie",
+        "limit": 1800,
+        "quality": 74,
+        "before": 137166,
+        "after": 134882,
+        "saving": 2284
+      },
+      {
+        "path": "/img/realizacje/lustro-weneckie-kawiarnia-krakow/03-po-montazu-lustro-weneckie-kawiarnia-krakow-thumb.webp",
+        "kind": "thumb",
+        "project": "Lustro weneckie w kawiarni w Krakowie",
+        "limit": 320,
+        "quality": 68,
+        "before": 134528,
+        "after": 10174,
+        "saving": 124354
+      },
+      {
+        "path": "/img/realizacje/folia-mrozona-lokal-katowice/cover-hq-v2.webp",
+        "kind": "cover",
+        "project": "Folia mrożona na oknach lokalu w Katowicach",
+        "limit": 1200,
+        "quality": 72,
+        "before": 258994,
+        "after": 67980,
+        "saving": 191014
+      },
+      {
+        "path": "/img/realizacje/folia-mrozona-lokal-katowice/01-folia-mrozona-okna-lokal-katowice.webp",
+        "kind": "full",
+        "project": "Folia mrożona na oknach lokalu w Katowicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 122442,
+        "after": 118992,
+        "saving": 3450
+      },
+      {
+        "path": "/img/realizacje/folia-mrozona-lokal-katowice/01-folia-mrozona-okna-lokal-katowice-thumb.webp",
+        "kind": "thumb",
+        "project": "Folia mrożona na oknach lokalu w Katowicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 95324,
+        "after": 6434,
+        "saving": 88890
+      },
+      {
+        "path": "/img/realizacje/folia-mrozona-lokal-katowice/02-montaz-folii-mrozonej-drzwi-katowice.webp",
+        "kind": "full",
+        "project": "Folia mrożona na oknach lokalu w Katowicach",
+        "limit": 1800,
+        "quality": 74,
+        "before": 21744,
+        "after": 21160,
+        "saving": 584
+      },
+      {
+        "path": "/img/realizacje/folia-mrozona-lokal-katowice/02-montaz-folii-mrozonej-drzwi-katowice-thumb.webp",
+        "kind": "thumb",
+        "project": "Folia mrożona na oknach lokalu w Katowicach",
+        "limit": 320,
+        "quality": 68,
+        "before": 35646,
+        "after": 3354,
+        "saving": 32292
+      },
+      {
+        "path": "/img/realizacje/wymiana-folii-przeciwslonecznej-dentysta-krakow/cover-hq-v2.webp",
+        "kind": "cover",
+        "project": "Wymiana starej folii przeciwsłonecznej w gabinecie dentystycznym w Krakowie",
+        "limit": 1200,
+        "quality": 72,
+        "before": 482872,
+        "after": 103064,
+        "saving": 379808
+      },
+      {
+        "path": "/img/realizacje/wymiana-folii-przeciwslonecznej-dentysta-krakow/01-przed-po.webp",
+        "kind": "full",
+        "project": "Wymiana starej folii przeciwsłonecznej w gabinecie dentystycznym w Krakowie",
+        "limit": 1800,
+        "quality": 74,
+        "before": 132300,
+        "after": 126764,
+        "saving": 5536
+      },
+      {
+        "path": "/img/realizacje/wymiana-folii-przeciwslonecznej-dentysta-krakow/01-przed-po-thumb.webp",
+        "kind": "thumb",
+        "project": "Wymiana starej folii przeciwsłonecznej w gabinecie dentystycznym w Krakowie",
+        "limit": 320,
+        "quality": 68,
+        "before": 119580,
+        "after": 11912,
+        "saving": 107668
+      },
+      {
+        "path": "/img/realizacje/wymiana-folii-przeciwslonecznej-dentysta-krakow/02-przed-demontazem.webp",
+        "kind": "full",
+        "project": "Wymiana starej folii przeciwsłonecznej w gabinecie dentystycznym w Krakowie",
+        "limit": 1800,
+        "quality": 74,
+        "before": 259876,
+        "after": 250508,
+        "saving": 9368
+      },
+      {
+        "path": "/img/realizacje/wymiana-folii-przeciwslonecznej-dentysta-krakow/02-przed-demontazem-thumb.webp",
+        "kind": "thumb",
+        "project": "Wymiana starej folii przeciwsłonecznej w gabinecie dentystycznym w Krakowie",
+        "limit": 320,
+        "quality": 68,
+        "before": 152146,
+        "after": 11250,
+        "saving": 140896
+      },
+      {
+        "path": "/img/realizacje/wymiana-folii-przeciwslonecznej-dentysta-krakow/03-po-montazu.webp",
+        "kind": "full",
+        "project": "Wymiana starej folii przeciwsłonecznej w gabinecie dentystycznym w Krakowie",
+        "limit": 1800,
+        "quality": 74,
+        "before": 252042,
+        "after": 245978,
+        "saving": 6064
+      },
+      {
+        "path": "/img/realizacje/wymiana-folii-przeciwslonecznej-dentysta-krakow/03-po-montazu-thumb.webp",
+        "kind": "thumb",
+        "project": "Wymiana starej folii przeciwsłonecznej w gabinecie dentystycznym w Krakowie",
+        "limit": 320,
+        "quality": 68,
+        "before": 154418,
+        "after": 10886,
+        "saving": 143532
+      }
+    ]
+  },
+  "findings": [
+    "Grudziądz cover on homepage is 407 KiB and eager loaded below the fold; trial 60 KiB",
+    "Project cards reuse large cover images without srcSet; recommend responsive card sizes",
+    "Gallery thumbnails are 6.22 MiB total over 85 files; trial 0.61 MiB",
+    "Main hero is already 79/170 KiB with srcSet and high fetch priority",
+    "Gallery main view uses the full image; a responsive intermediate size could reduce mobile transfer"
+  ]
+}
